@@ -1,0 +1,134 @@
+{
+ "family": "openai",
+ "arm": "on",
+ "case": "ql-launch",
+ "jobId": "20261020-0148-linkedin-instagram-portrait-feature",
+ "rounds": [
+  {
+   "round": 1,
+   "sizes": [
+    {
+     "size": "ig-post",
+     "failures": [
+      {
+       "check": "safe-zone",
+       "text": "Cut it.",
+       "reason": "59px from the top edge, the safe zone starts at 81px"
+      }
+     ]
+    },
+    {
+     "size": "linkedin",
+     "failures": [
+      {
+       "check": "safe-zone",
+       "text": "Cut it.",
+       "reason": "26px from the top edge, the safe zone starts at 38px"
+      }
+     ]
+    }
+   ],
+   "failures": 2,
+   "byCheck": {
+    "safe-zone": 2
+   }
+  },
+  {
+   "round": 2,
+   "sizes": [
+    {
+     "size": "ig-post",
+     "failures": []
+    },
+    {
+     "size": "linkedin",
+     "failures": []
+    }
+   ],
+   "failures": 0,
+   "byCheck": {}
+  },
+  {
+   "round": 3,
+   "sizes": [
+    {
+     "size": "ig-post",
+     "failures": []
+    },
+    {
+     "size": "linkedin",
+     "failures": [
+      {
+       "check": "safe-zone",
+       "text": "Cut it.",
+       "reason": "35px from the top edge, the safe zone starts at 38px"
+      }
+     ]
+    }
+   ],
+   "failures": 1,
+   "byCheck": {
+    "safe-zone": 1
+   }
+  },
+  {
+   "round": 4,
+   "sizes": [
+    {
+     "size": "ig-post",
+     "failures": []
+    },
+    {
+     "size": "linkedin",
+     "failures": []
+    }
+   ],
+   "failures": 0,
+   "byCheck": {}
+  },
+  {
+   "round": 5,
+   "sizes": [
+    {
+     "size": "ig-post",
+     "failures": [
+      {
+       "check": "contrast",
+       "text": "Cut it.",
+       "reason": "1.0:1 at its worst against the pixels behind it, needs 3:1 at 169px weight 600"
+      }
+     ]
+    },
+    {
+     "size": "linkedin",
+     "failures": [
+      {
+       "check": "contrast",
+       "text": "Cut it.",
+       "reason": "1.0:1 at its worst against the pixels behind it, needs 3:1 at 169px weight 600"
+      }
+     ]
+    }
+   ],
+   "failures": 2,
+   "byCheck": {
+    "contrast": 2
+   }
+  },
+  {
+   "round": 6,
+   "sizes": [
+    {
+     "size": "ig-post",
+     "failures": []
+    },
+    {
+     "size": "linkedin",
+     "failures": []
+    }
+   ],
+   "failures": 0,
+   "byCheck": {}
+  }
+ ]
+}

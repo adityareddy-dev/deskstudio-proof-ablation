@@ -1,0 +1,281 @@
+{
+  "width": 1200,
+  "height": 627,
+  "scrollWidth": 1200,
+  "scrollHeight": 627,
+  "boxes": [
+    {
+      "x": 72,
+      "y": 34,
+      "width": 721.515625,
+      "height": 123,
+      "text": "Open workshop.",
+      "color": "rgb(10, 10, 10)",
+      "opacity": 1,
+      "fontSize": 95,
+      "fontWeight": 700,
+      "fontFamily": "Geist, Inter, Arial, sans-serif",
+      "clips": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 627,
+          "clipX": true,
+          "clipY": true
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 627,
+          "clipX": true,
+          "clipY": true
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 627,
+          "clipX": true,
+          "clipY": true
+        }
+      ]
+    },
+    {
+      "x": 72,
+      "y": 129,
+      "width": 406.609375,
+      "height": 123,
+      "text": "Saturday",
+      "color": "rgb(10, 10, 10)",
+      "opacity": 1,
+      "fontSize": 95,
+      "fontWeight": 700,
+      "fontFamily": "Geist, Inter, Arial, sans-serif",
+      "clips": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 627,
+          "clipX": true,
+          "clipY": true
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 627,
+          "clipX": true,
+          "clipY": true
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 627,
+          "clipX": true,
+          "clipY": true
+        }
+      ]
+    },
+    {
+      "x": 498.375,
+      "y": 129,
+      "width": 463.828125,
+      "height": 123,
+      "text": "November",
+      "color": "rgb(10, 10, 10)",
+      "opacity": 1,
+      "fontSize": 95,
+      "fontWeight": 700,
+      "fontFamily": "Geist, Inter, Arial, sans-serif",
+      "clips": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 627,
+          "clipX": true,
+          "clipY": true
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 627,
+          "clipX": true,
+          "clipY": true
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 627,
+          "clipX": true,
+          "clipY": true
+        }
+      ]
+    },
+    {
+      "x": 981.96875,
+      "y": 129,
+      "width": 61.1875,
+      "height": 123,
+      "text": "8",
+      "color": "rgb(229, 23, 63)",
+      "opacity": 1,
+      "fontSize": 95,
+      "fontWeight": 700,
+      "fontFamily": "Geist, Inter, Arial, sans-serif",
+      "clips": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 627,
+          "clipX": true,
+          "clipY": true
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 627,
+          "clipX": true,
+          "clipY": true
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 627,
+          "clipX": true,
+          "clipY": true
+        }
+      ]
+    },
+    {
+      "x": 1043.15625,
+      "y": 129,
+      "width": 20.53125,
+      "height": 123,
+      "text": ".",
+      "color": "rgb(10, 10, 10)",
+      "opacity": 1,
+      "fontSize": 95,
+      "fontWeight": 700,
+      "fontFamily": "Geist, Inter, Arial, sans-serif",
+      "clips": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 627,
+          "clipX": true,
+          "clipY": true
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 627,
+          "clipX": true,
+          "clipY": true
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 627,
+          "clipX": true,
+          "clipY": true
+        }
+      ]
+    },
+    {
+      "x": 72,
+      "y": 491.15625,
+      "width": 419.96875,
+      "height": 40,
+      "text": "Bring a part. Leave with it cut.",
+      "color": "rgb(10, 10, 10)",
+      "opacity": 1,
+      "fontSize": 31,
+      "fontWeight": 400,
+      "fontFamily": "Geist, Inter, Arial, sans-serif",
+      "clips": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 627,
+          "clipX": true,
+          "clipY": true
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 627,
+          "clipX": true,
+          "clipY": true
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 627,
+          "clipX": true,
+          "clipY": true
+        }
+      ]
+    },
+    {
+      "x": 72,
+      "y": 556,
+      "width": 116.0625,
+      "height": 32,
+      "text": "ferro.tools",
+      "color": "rgb(10, 10, 10)",
+      "opacity": 1,
+      "fontSize": 25,
+      "fontWeight": 400,
+      "fontFamily": "Geist, Inter, Arial, sans-serif",
+      "clips": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 627,
+          "clipX": true,
+          "clipY": true
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 627,
+          "clipX": true,
+          "clipY": true
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 627,
+          "clipX": true,
+          "clipY": true
+        }
+      ]
+    }
+  ],
+  "fonts": {
+    "Geist": true,
+    "Inter": false,
+    "Arial": true,
+    "sans-serif": true
+  },
+  "images": 0
+}

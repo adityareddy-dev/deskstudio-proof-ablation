@@ -1,0 +1,321 @@
+{
+  "id": "20261020-0207-linkedin-instagram-portrait-open",
+  "command": "design",
+  "deliverable": "social-card",
+  "sizes": [
+    "linkedin",
+    "ig-post"
+  ],
+  "quality": "studio",
+  "proofMode": "on",
+  "models": {
+    "director": "openai/large",
+    "senior": "openai/mini",
+    "builder": "openai/mini"
+  },
+  "phase": "done",
+  "round": 6,
+  "maxRounds": 6,
+  "desks": [
+    {
+      "desk": "design-manager",
+      "task": "intake",
+      "status": "done",
+      "model": "openai/large",
+      "startedAt": "2026-10-20T02:07:36-05:00",
+      "updatedAt": "2026-10-20T02:07:57-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "rough 1, editorial split",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T02:07:57-05:00",
+      "updatedAt": "2026-10-20T02:08:47-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "rough 2, full bleed with scrim",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T02:07:57-05:00",
+      "updatedAt": "2026-10-20T02:08:51-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "rough 3, type only",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T02:07:57-05:00",
+      "updatedAt": "2026-10-20T02:08:46-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "art-director",
+      "task": "pick",
+      "status": "done",
+      "model": "openai/large",
+      "startedAt": "2026-10-20T02:08:55-05:00",
+      "updatedAt": "2026-10-20T02:09:13-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 1",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T02:09:13-05:00",
+      "updatedAt": "2026-10-20T02:09:39-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 2",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T02:09:41-05:00",
+      "updatedAt": "2026-10-20T02:10:08-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "creative-director",
+      "task": "sign-off round 2",
+      "status": "done",
+      "model": "openai/large",
+      "startedAt": "2026-10-20T02:10:10-05:00",
+      "updatedAt": "2026-10-20T02:10:41-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 3",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T02:10:41-05:00",
+      "updatedAt": "2026-10-20T02:11:39-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 4",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T02:11:41-05:00",
+      "updatedAt": "2026-10-20T02:12:08-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "creative-director",
+      "task": "sign-off round 4",
+      "status": "done",
+      "model": "openai/large",
+      "startedAt": "2026-10-20T02:12:09-05:00",
+      "updatedAt": "2026-10-20T02:12:31-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 5",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T02:12:31-05:00",
+      "updatedAt": "2026-10-20T02:13:01-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 6",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T02:13:03-05:00",
+      "updatedAt": "2026-10-20T02:13:49-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "creative-director",
+      "task": "sign-off round 6",
+      "status": "done",
+      "model": "openai/large",
+      "startedAt": "2026-10-20T02:13:50-05:00",
+      "updatedAt": "2026-10-20T02:14:17-05:00",
+      "via": "cli"
+    }
+  ],
+  "pick": {
+    "by": "art-director",
+    "rough": 3,
+    "pattern": "Type only",
+    "combineWith": null,
+    "reason": "The headline carries both formats, the copy reads in two seconds, and the direction needs only one colour adjustment.",
+    "lost": "1 separates the date into competing reading stops, 2 adds a decorative pattern that competes with the workshop message.",
+    "notes": [
+      "In both formats, colour only “8.” Ferro red `#e5173f`; set “Saturday November” to `#0a0a0a`. Follow Ferro’s number-only accent rule and the social-card standard’s single accent."
+    ],
+    "at": "2026-10-20T02:09:13-05:00"
+  },
+  "proof": [
+    {
+      "round": 1,
+      "pass": false,
+      "failures": 2
+    },
+    {
+      "round": 2,
+      "pass": true,
+      "failures": 0
+    },
+    {
+      "round": 3,
+      "pass": false,
+      "failures": 1
+    },
+    {
+      "round": 4,
+      "pass": true,
+      "failures": 0
+    },
+    {
+      "round": 5,
+      "pass": false,
+      "failures": 7
+    },
+    {
+      "round": 6,
+      "pass": true,
+      "failures": 0
+    }
+  ],
+  "scores": [
+    {
+      "round": 2,
+      "by": "creative-director",
+      "axes": {
+        "hierarchy": 9,
+        "typography": 9,
+        "spacing": 9,
+        "colour": 10,
+        "composition": 8,
+        "originality": 6,
+        "brand": 9,
+        "copy": 6
+      },
+      "average": 8.25,
+      "pass": false,
+      "notes": [
+        "composition: In LinkedIn, use the right 40% for the existing date block; retain the 72px outer inset and portrait’s stacked arrangement.",
+        "originality: Set “8.” at the existing headline size in both formats, keeping it the sole red accent; retain three type sizes and one occurrence of the date.",
+        "copy: Promote “Bring a part. Leave with it cut.” to the primary headline and reduce “Open workshop.” to the supporting size; preserve every supplied word."
+      ],
+      "polish": []
+    },
+    {
+      "round": 4,
+      "by": "creative-director",
+      "axes": {
+        "hierarchy": 9,
+        "typography": 9,
+        "spacing": 9,
+        "colour": 9,
+        "composition": 8,
+        "originality": 6,
+        "brand": 9,
+        "copy": 9
+      },
+      "average": 8.5,
+      "pass": false,
+      "notes": [
+        "composition: On portrait, move the complete date block from x72 to x648, keeping its top at y624; retain the domain at bottom left to establish a diagonal across the canvas.",
+        "originality: Give the headline a deliberate cut: indent only “Leave with” by 64px in both formats, keeping “Bring a part.” and “it cut.” at x72. Preserve the three lines, existing sizes and single red number."
+      ],
+      "polish": [
+        "None."
+      ]
+    },
+    {
+      "round": 6,
+      "by": "creative-director",
+      "axes": {
+        "hierarchy": 9,
+        "typography": 9,
+        "spacing": 9,
+        "colour": 10,
+        "composition": 8,
+        "originality": 7,
+        "brand": 9,
+        "copy": 9
+      },
+      "average": 8.75,
+      "pass": false,
+      "notes": [
+        "composition: Move the portrait date group up 80px, keeping its current right alignment; tighten the connection between the workshop invitation and its date.",
+        "originality: Make the stepped headline express the cut: align “Leave with” and “it cut.” at x136px in both formats, keeping “Bring a part.” at x72px. Use one deliberate 64px step instead of the current alternating indentation."
+      ],
+      "polish": [
+        "Preserve the number-only red accent in both formats."
+      ]
+    }
+  ],
+  "waitingOn": {
+    "type": "approve_under_bar",
+    "text": "Under the bar after 6 rounds. originality under 8, originality: Make the stepped headline express the cut: align “Leave with” and “it cut.” at x136px in both formats, keeping “Bring a part.” at x72px. Use one deliberate 64px step instead of the current alternating indentation."
+  },
+  "cost": {
+    "director": 0.8518,
+    "senior": 0.1523,
+    "builder": 0.2949,
+    "total": 1.299,
+    "complete": true
+  },
+  "tokens": {
+    "director": 172643,
+    "senior": 139288,
+    "builder": 371076
+  },
+  "files": {
+    "final": ".desk/out/20261020-0207-linkedin-instagram-portrait-open/final.html",
+    "brief": ".desk/jobs/20261020-0207-linkedin-instagram-portrait-open/brief.md",
+    "handback": ".desk/out/20261020-0207-linkedin-instagram-portrait-open/handback.md"
+  },
+  "pen": "builder",
+  "notes": [
+    "composition: Move the portrait date group up 80px, keeping its current right alignment; tighten the connection between the workshop invitation and its date.",
+    "originality: Make the stepped headline express the cut: align “Leave with” and “it cut.” at x136px in both formats, keeping “Bring a part.” at x72px. Use one deliberate 64px step instead of the current alternating indentation."
+  ],
+  "misses": {
+    "originality": 1
+  },
+  "startedAt": "2026-10-20T02:07:36-05:00",
+  "updatedAt": "2026-10-20T02:14:17-05:00",
+  "roughs": [
+    {
+      "n": 1,
+      "pattern": "Editorial split",
+      "file": ".desk/out/20261020-0207-linkedin-instagram-portrait-open/rough-1.html",
+      "fonts": "Geist, runner-inlined; no fallback selected",
+      "written": true,
+      "renders": ".desk/jobs/20261020-0207-linkedin-instagram-portrait-open/renders/roughs/rough-1"
+    },
+    {
+      "n": 2,
+      "pattern": "Full bleed with scrim",
+      "file": ".desk/out/20261020-0207-linkedin-instagram-portrait-open/rough-2.html",
+      "fonts": "Geist; inlined by runner",
+      "written": true,
+      "renders": ".desk/jobs/20261020-0207-linkedin-instagram-portrait-open/renders/roughs/rough-2"
+    },
+    {
+      "n": 3,
+      "pattern": "Type only",
+      "file": ".desk/out/20261020-0207-linkedin-instagram-portrait-open/rough-3.html",
+      "fonts": "Geist, supplied by runner",
+      "written": true,
+      "renders": ".desk/jobs/20261020-0207-linkedin-instagram-portrait-open/renders/roughs/rough-3"
+    }
+  ],
+  "lastRenders": ".desk/jobs/20261020-0207-linkedin-instagram-portrait-open/renders/round-6",
+  "penNotes": [],
+  "finishedAt": "2026-10-20T02:14:17-05:00"
+}

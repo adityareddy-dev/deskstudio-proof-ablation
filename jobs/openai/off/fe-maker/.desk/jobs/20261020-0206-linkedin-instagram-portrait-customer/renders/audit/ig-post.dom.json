@@ -1,0 +1,243 @@
+{
+  "width": 1080,
+  "height": 1350,
+  "scrollWidth": 1080,
+  "scrollHeight": 1350,
+  "boxes": [
+    {
+      "x": 72,
+      "y": 71,
+      "width": 718.53125,
+      "height": 155,
+      "text": "A bike crank,",
+      "color": "rgb(10, 10, 10)",
+      "opacity": 1,
+      "fontSize": 119,
+      "fontWeight": 700,
+      "fontFamily": "Geist, Inter, Arial, sans-serif",
+      "clips": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1350,
+          "clipX": true,
+          "clipY": true
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1350,
+          "clipX": true,
+          "clipY": true
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1350,
+          "clipX": true,
+          "clipY": true
+        }
+      ]
+    },
+    {
+      "x": 72,
+      "y": 192.375,
+      "width": 266.09375,
+      "height": 155,
+      "text": "from",
+      "color": "rgb(10, 10, 10)",
+      "opacity": 1,
+      "fontSize": 119,
+      "fontWeight": 700,
+      "fontFamily": "Geist, Inter, Arial, sans-serif",
+      "clips": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1350,
+          "clipX": true,
+          "clipY": true
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1350,
+          "clipX": true,
+          "clipY": true
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1350,
+          "clipX": true,
+          "clipY": true
+        }
+      ]
+    },
+    {
+      "x": 338.09375,
+      "y": 192.375,
+      "width": 435.921875,
+      "height": 155,
+      "text": "a spare",
+      "color": "rgb(10, 10, 10)",
+      "opacity": 1,
+      "fontSize": 119,
+      "fontWeight": 700,
+      "fontFamily": "Geist, Inter, Arial, sans-serif",
+      "clips": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1350,
+          "clipX": true,
+          "clipY": true
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1350,
+          "clipX": true,
+          "clipY": true
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1350,
+          "clipX": true,
+          "clipY": true
+        }
+      ]
+    },
+    {
+      "x": 72,
+      "y": 313.75,
+      "width": 527.890625,
+      "height": 155,
+      "text": "bedroom.",
+      "color": "rgb(10, 10, 10)",
+      "opacity": 1,
+      "fontSize": 119,
+      "fontWeight": 700,
+      "fontFamily": "Geist, Inter, Arial, sans-serif",
+      "clips": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1350,
+          "clipX": true,
+          "clipY": true
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1350,
+          "clipX": true,
+          "clipY": true
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1350,
+          "clipX": true,
+          "clipY": true
+        }
+      ]
+    },
+    {
+      "x": 72,
+      "y": 484.125,
+      "width": 494.796875,
+      "height": 40,
+      "text": "Aluminium, one afternoon, no shop.",
+      "color": "rgb(10, 10, 10)",
+      "opacity": 1,
+      "fontSize": 31,
+      "fontWeight": 400,
+      "fontFamily": "Geist, Inter, Arial, sans-serif",
+      "clips": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1350,
+          "clipX": true,
+          "clipY": true
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1350,
+          "clipX": true,
+          "clipY": true
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1350,
+          "clipX": true,
+          "clipY": true
+        }
+      ]
+    },
+    {
+      "x": 891.9375,
+      "y": 1172.25,
+      "width": 116.0625,
+      "height": 32,
+      "text": "ferro.tools",
+      "color": "rgb(10, 10, 10)",
+      "opacity": 1,
+      "fontSize": 25,
+      "fontWeight": 400,
+      "fontFamily": "Geist, Inter, Arial, sans-serif",
+      "clips": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1350,
+          "clipX": true,
+          "clipY": true
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1350,
+          "clipX": true,
+          "clipY": true
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1350,
+          "clipX": true,
+          "clipY": true
+        }
+      ]
+    }
+  ],
+  "fonts": {
+    "Geist": true,
+    "Inter": false,
+    "Arial": true,
+    "sans-serif": true
+  },
+  "images": 0
+}

@@ -1,0 +1,205 @@
+{
+  "width": 1080,
+  "height": 1350,
+  "scrollWidth": 1080,
+  "scrollHeight": 1350,
+  "boxes": [
+    {
+      "x": 64,
+      "y": 64,
+      "width": 92.84375,
+      "height": 26,
+      "text": "ferro.tools",
+      "color": "rgb(10, 10, 10)",
+      "opacity": 1,
+      "fontSize": 20,
+      "fontWeight": 400,
+      "fontFamily": "Geist, Inter, Arial, sans-serif",
+      "clips": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1350,
+          "clipX": true,
+          "clipY": true
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1350,
+          "clipX": true,
+          "clipY": true
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1350,
+          "clipX": true,
+          "clipY": true
+        }
+      ]
+    },
+    {
+      "x": 64,
+      "y": 124,
+      "width": 573.625,
+      "height": 123,
+      "text": "A bike crank,",
+      "color": "rgb(10, 10, 10)",
+      "opacity": 1,
+      "fontSize": 95,
+      "fontWeight": 700,
+      "fontFamily": "Geist, Inter, Arial, sans-serif",
+      "clips": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1350,
+          "clipX": true,
+          "clipY": true
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1350,
+          "clipX": true,
+          "clipY": true
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1350,
+          "clipX": true,
+          "clipY": true
+        }
+      ]
+    },
+    {
+      "x": 64,
+      "y": 219,
+      "width": 560.4375,
+      "height": 123,
+      "text": "from a spare",
+      "color": "rgb(10, 10, 10)",
+      "opacity": 1,
+      "fontSize": 95,
+      "fontWeight": 700,
+      "fontFamily": "Geist, Inter, Arial, sans-serif",
+      "clips": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1350,
+          "clipX": true,
+          "clipY": true
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1350,
+          "clipX": true,
+          "clipY": true
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1350,
+          "clipX": true,
+          "clipY": true
+        }
+      ]
+    },
+    {
+      "x": 64,
+      "y": 314,
+      "width": 421.421875,
+      "height": 123,
+      "text": "bedroom.",
+      "color": "rgb(10, 10, 10)",
+      "opacity": 1,
+      "fontSize": 95,
+      "fontWeight": 700,
+      "fontFamily": "Geist, Inter, Arial, sans-serif",
+      "clips": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1350,
+          "clipX": true,
+          "clipY": true
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1350,
+          "clipX": true,
+          "clipY": true
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1350,
+          "clipX": true,
+          "clipY": true
+        }
+      ]
+    },
+    {
+      "x": 64,
+      "y": 455,
+      "width": 494.796875,
+      "height": 40,
+      "text": "Aluminium, one afternoon, no shop.",
+      "color": "rgb(10, 10, 10)",
+      "opacity": 1,
+      "fontSize": 31,
+      "fontWeight": 400,
+      "fontFamily": "Geist, Inter, Arial, sans-serif",
+      "clips": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1350,
+          "clipX": true,
+          "clipY": true
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1350,
+          "clipX": true,
+          "clipY": true
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1350,
+          "clipX": true,
+          "clipY": true
+        }
+      ]
+    }
+  ],
+  "fonts": {
+    "Geist": true,
+    "Inter": false,
+    "Arial": true,
+    "sans-serif": true
+  },
+  "images": 0
+}

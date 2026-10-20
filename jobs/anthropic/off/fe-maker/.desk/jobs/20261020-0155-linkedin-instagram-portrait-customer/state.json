@@ -1,0 +1,396 @@
+{
+  "id": "20261020-0155-linkedin-instagram-portrait-customer",
+  "command": "design",
+  "deliverable": "social-card",
+  "sizes": [
+    "linkedin",
+    "ig-post"
+  ],
+  "quality": "studio",
+  "proofMode": "off",
+  "models": {
+    "director": "anthropic/opus",
+    "senior": "anthropic/sonnet",
+    "builder": "anthropic/haiku"
+  },
+  "phase": "done",
+  "round": 5,
+  "maxRounds": 6,
+  "desks": [
+    {
+      "desk": "design-manager",
+      "task": "intake",
+      "status": "done",
+      "model": "anthropic/opus",
+      "startedAt": "2026-10-20T01:55:17-05:00",
+      "updatedAt": "2026-10-20T01:55:29-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "rough 1, editorial split",
+      "status": "done",
+      "model": "anthropic/sonnet",
+      "startedAt": "2026-10-20T01:55:29-05:00",
+      "updatedAt": "2026-10-20T01:55:59-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "rough 2, full bleed with scrim",
+      "status": "done",
+      "model": "anthropic/sonnet",
+      "startedAt": "2026-10-20T01:55:29-05:00",
+      "updatedAt": "2026-10-20T01:56:00-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "rough 3, type only",
+      "status": "done",
+      "model": "anthropic/sonnet",
+      "startedAt": "2026-10-20T01:55:29-05:00",
+      "updatedAt": "2026-10-20T01:56:00-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "art-director",
+      "task": "pick",
+      "status": "done",
+      "model": "anthropic/opus",
+      "startedAt": "2026-10-20T01:56:04-05:00",
+      "updatedAt": "2026-10-20T01:56:23-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 1",
+      "status": "done",
+      "model": "anthropic/haiku",
+      "startedAt": "2026-10-20T01:56:23-05:00",
+      "updatedAt": "2026-10-20T01:57:27-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "creative-director",
+      "task": "sign-off round 1",
+      "status": "done",
+      "model": "anthropic/opus",
+      "startedAt": "2026-10-20T01:57:28-05:00",
+      "updatedAt": "2026-10-20T01:58:12-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 2",
+      "status": "done",
+      "model": "anthropic/haiku",
+      "startedAt": "2026-10-20T01:58:12-05:00",
+      "updatedAt": "2026-10-20T01:59:03-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "creative-director",
+      "task": "sign-off round 2",
+      "status": "done",
+      "model": "anthropic/opus",
+      "startedAt": "2026-10-20T01:59:04-05:00",
+      "updatedAt": "2026-10-20T01:59:44-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 3",
+      "status": "done",
+      "model": "anthropic/haiku",
+      "startedAt": "2026-10-20T01:59:44-05:00",
+      "updatedAt": "2026-10-20T02:01:37-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "creative-director",
+      "task": "sign-off round 3",
+      "status": "done",
+      "model": "anthropic/opus",
+      "startedAt": "2026-10-20T02:01:38-05:00",
+      "updatedAt": "2026-10-20T02:02:32-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 4",
+      "status": "done",
+      "model": "anthropic/haiku",
+      "startedAt": "2026-10-20T02:02:32-05:00",
+      "updatedAt": "2026-10-20T02:04:28-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "creative-director",
+      "task": "sign-off round 4",
+      "status": "done",
+      "model": "anthropic/opus",
+      "startedAt": "2026-10-20T02:04:29-05:00",
+      "updatedAt": "2026-10-20T02:05:11-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 5",
+      "status": "done",
+      "model": "anthropic/haiku",
+      "startedAt": "2026-10-20T02:05:11-05:00",
+      "updatedAt": "2026-10-20T02:08:22-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "creative-director",
+      "task": "sign-off round 5",
+      "status": "done",
+      "model": "anthropic/opus",
+      "startedAt": "2026-10-20T02:08:24-05:00",
+      "updatedAt": "2026-10-20T02:08:47-05:00",
+      "via": "cli"
+    }
+  ],
+  "pick": {
+    "by": "art-director",
+    "rough": 1,
+    "pattern": "Editorial split",
+    "combineWith": null,
+    "reason": "It is the only rough that stays on brand (white, black, one red) and holds up at both sizes, and it needs the fewest notes to get there: the split on linkedin, the stack on ig-post, and the crank is the one red thing to look at.",
+    "lost": "2 uses a black background, which breaks the brand's white-and-black rule, puts the copy in a box inside a box, and crops the crank at the edge until it reads as a blob; 3 has a strong linkedin, but its ig-post drops the headline to the single word \"bedroom.\" and leaves an empty band of about 850px, which is a composition fault under the standard.",
+    "notes": [
+      "linkedin: widen the left text column to 55% (660px), and set the headline from about 52px to 61px on the brand scale, line height 1.05, tracking -0.02em. A 2-line or 3-line wrap is fine (standard: headline at least 7% of the short side, no more than 3 lines on landscape).",
+      "ig-post: headline from about 85px to 95px, line height 1.0, tracking -0.02em, and let it wrap to 3 lines. Keep the supporting line at 31px with a 32px gap under the headline.",
+      "ig-post: rotate the crank -24deg to match linkedin, and scale it until the arm spans the grey panel's width minus 64px on each side. Right now it sits as a small flat bar in a big grey field. The panel should hold one diagonal shape, not leftover air (standard: air is deliberate when it is shaped).",
+      "ig-post: end the grey panel at y=1215 so the 10% bottom safe zone (135px) stays white, and keep its 64px side margins. Leave the mark at top left, 20px, 400 weight, foreground.",
+      "linkedin: move the crank's centre to x=930, y=330 in the right-hand grey panel, and scale it so the far end sits 56px inside the right edge. Both ends stay inside the panel with no edge contact."
+    ],
+    "at": "2026-10-20T01:56:23-05:00"
+  },
+  "proof": [
+    {
+      "round": 1,
+      "pass": null,
+      "skipped": true,
+      "failures": 0
+    },
+    {
+      "round": 2,
+      "pass": null,
+      "skipped": true,
+      "failures": 0
+    },
+    {
+      "round": 3,
+      "pass": null,
+      "skipped": true,
+      "failures": 0
+    },
+    {
+      "round": 4,
+      "pass": null,
+      "skipped": true,
+      "failures": 0
+    },
+    {
+      "round": 5,
+      "pass": null,
+      "skipped": true,
+      "failures": 0
+    }
+  ],
+  "scores": [
+    {
+      "round": 1,
+      "by": "creative-director",
+      "axes": {
+        "hierarchy": 8,
+        "typography": 8,
+        "spacing": 9,
+        "colour": 9,
+        "composition": 8,
+        "originality": 7,
+        "brand": 8,
+        "copy": 9
+      },
+      "average": 8.25,
+      "pass": false,
+      "notes": [
+        "hierarchy: linkedin: the red crank reads before the 61px headline. Set the headline to 76px, 700, line height 1.05, tracking -0.02em, so it wraps to 3 lines inside the 660px column. Keep the supporting line 32px under it and the block's bottom at y=587.",
+        "typography: on both sizes, break the headline after the comma as \"A bike crank, / from a spare / bedroom.\" Linkedin currently strands \"a\" at the end of line 1 and splits the phrase. Use a <br> after \"crank,\" and keep \"spare bedroom.\" together with a non-breaking space only if the 3-line wrap allows it.",
+        "composition: ig-post: the inset grey panel reads as a box inside a box. Bleed it to x=0 and x=1080, keeping y=559 to 1215. Leave the crank at its current size and position (ends at x=128 and x=952) so the panel matches linkedin's full-bleed right half.",
+        "originality: the crank is a generic rounded bar with a dot. Make it a real part. Replace the white ring and black dot at the spindle end with one 56px square bore, radius 2, fill #0a0a0a, rotated with the arm, to read as a square-taper spindle. Keep the pedal-end hole round, 40px, fill #f2f2f2. Same change on both sizes.",
+        "brand: the mark is about 22px on linkedin and 20px on ig-post. Set it to 20px, 400, #0a0a0a on both, top left at the safe-zone corner (40px on linkedin, 64px on ig-post)."
+      ],
+      "polish": [
+        "linkedin: once the headline is 76px, check that the gap between the mark and the headline is no less than 96px. If it is, drop the headline block to start at y=320."
+      ]
+    },
+    {
+      "round": 2,
+      "by": "creative-director",
+      "axes": {
+        "hierarchy": 8,
+        "typography": 8,
+        "spacing": 8,
+        "colour": 9,
+        "composition": 7,
+        "originality": 8,
+        "brand": 9,
+        "copy": 9
+      },
+      "average": 8.25,
+      "pass": false,
+      "notes": [
+        "composition: on ig-post, bleed the grey panel to y=1350 so there is no 135px white strip under it. Keep the crank's lowest point at or above y=1215. Scale the crank so it spans x=64 to x=1016 (it is now about 128 to 952), still at -24deg.",
+        "hierarchy: on ig-post, the red crank reads before the headline. Take the headline from 95px to 119px (line height 1.0, tracking -0.02em, still 3 lines, \"A bike crank,\" about 720px wide) so the type block carries the top and matches the figure's mass. Start the panel at y=632.",
+        "typography: on ig-post, keep the supporting line at 31px with a 32px gap under the 119px headline. On linkedin, keep the headline at 76px and 3 lines. Sizes per artboard stay at three: 119/31/20 on ig-post and 76/25/20 on linkedin.",
+        "spacing: on linkedin, lift the whole headline block 8px so the supporting line's descenders sit about 52px off the bottom edge, matching the mark's top inset. Keep the 40px headline-to-support gap.",
+        "originality: on both sizes, give the crank a hard-edged shoulder where the arm meets each boss (a straight 2px-radius step, not a smooth blend), so it reads as machined aluminium, not a generic paddle. Keep the black square spindle and the white pedal eye."
+      ],
+      "polish": [
+        "on linkedin, nudge the crank centre up 16px to y=314 so its top end lines up with the headline's first-line cap height."
+      ]
+    },
+    {
+      "round": 3,
+      "by": "creative-director",
+      "axes": {
+        "hierarchy": 8,
+        "typography": 8,
+        "spacing": 8,
+        "colour": 9,
+        "composition": 8,
+        "originality": 7,
+        "brand": 9,
+        "copy": 9
+      },
+      "average": 8.25,
+      "pass": false,
+      "notes": [
+        "originality: the split is pattern 1 as written. Let the crank cross the split to make the move only this card makes. On linkedin, put the boss centre on the panel edge at x=660 (boss left edge about 590, which still clears the headline's 500px right edge by 90px) and keep the ring 56px inside the right edge and 56px below the top. On ig-post, let the ring rise 48px above the panel's top edge into the white, at about x=940 y=600, clear of the supporting line, which ends at about x=560.",
+        "composition: on linkedin the crank fills only about 250px of the panel's 627px height, so about 200px of grey above it and 170px below is leftover. Set the crank to -32deg (it is about -24deg now) and scale it until the boss sits 56px above the bottom edge with the ring placed as in the originality note, so one diagonal holds the panel.",
+        "hierarchy: on ig-post the red crank, about 950x550px, reads before the 119px headline. Keep the headline at 119px and move the grey panel's top from y=632 to y=664, so 96px of white sits under the supporting line and the headline group reads first and as one block.",
+        "typography: on linkedin the supporting line measures about 23px, under the 24px card minimum. Set it to 25px (brand scale). Set the mark to 20px on both sizes (it measures about 18px now). Keep the headline at 76px on linkedin and 119px on ig-post, both 700, line height 1.05, tracking -0.02em.",
+        "spacing: the linkedin outer margins are uneven (40px left, about 45px top, about 55px bottom). Set all of them to 40px: mark top at y=40, left edge x=40, supporting line's text box ending at y=587. Keep the headline to supporting line gap at 48px on both sizes."
+      ],
+      "polish": [
+        "Draw the crank from one SVG at both sizes. Right now the ring hole and the spindle square change proportion between linkedin and ig-post. Fix the hole at 30% of the ring radius and the square at 40% of the boss radius."
+      ]
+    },
+    {
+      "round": 4,
+      "by": "creative-director",
+      "axes": {
+        "hierarchy": 9,
+        "typography": 8,
+        "spacing": 7,
+        "colour": 9,
+        "composition": 7,
+        "originality": 7,
+        "brand": 9,
+        "copy": 9
+      },
+      "average": 8.13,
+      "pass": false,
+      "notes": [
+        "composition: linkedin: the crank boss crosses the split at x=660 and stops about 56px from \"crank,\" and \"spare\". Move the crank's centre to x=930, y=330 and scale it down so no part crosses x=660: boss left edge at x≥708, far end 56px inside the right edge, at least 48px clear of the top and bottom edges. Note 5 from the pick was not applied.",
+        "composition: ig-post: the pedal eye sits about 48px above the top of the panel at y=663. Start the panel at y=608 and move the crank down 32px. The eye's top then sits at y≈647, inside the panel, and the boss's bottom at y≈1202 stays above the 1215 safe line.",
+        "spacing: ig-post: the gap from the mark to the headline cap is about 40px, so the mark crowds the headline. Push the headline block down 24px to make the gap 64px, and keep the 32px gap to the supporting line.",
+        "spacing: linkedin: the supporting line's descenders sit about 37px from the bottom edge, under the 6% safe zone. Raise the headline and supporting line block 16px so the bottom margin is at least 48px, and keep the mark at 40px from the top.",
+        "originality: the crank is drawn with soft cartoon curves, like a spanner icon. Redraw it as a machined part. Make the boss an octagon about 200px across on linkedin (240px on ig-post), keep the arm edges straight with radius 2 at the corners, and make the pedal eye an octagon about 80px across with a 40px round bore. Keep the black square spindle at radius 2."
+      ],
+      "polish": [
+        "linkedin: line the supporting line's left edge up optically with the A of the headline. The A's overhang currently reads about 2px left of the column."
+      ]
+    },
+    {
+      "round": 5,
+      "by": "creative-director",
+      "axes": {
+        "hierarchy": 9,
+        "typography": 9,
+        "spacing": 8,
+        "colour": 9,
+        "composition": 8,
+        "originality": 8,
+        "brand": 9,
+        "copy": 9
+      },
+      "average": 8.63,
+      "pass": true,
+      "notes": [
+        "spacing: ig-post, the supporting line sits about 28px above the grey panel but about 70px below the headline, so it reads as stuck to the panel. Move the panel top from y=608 to y=648 so the gap under the supporting line is 64px, and keep the 32px rhythm above it.",
+        "composition: linkedin, the crank is short and stubby and reads as a key fob, not a crank. Use the ig-post crank geometry, with the arm about 3.5x the boss width, at -24deg. Scale it so the boss-to-eye span is 440px, centred at x=930, y=313, with both ends at least 56px inside the panel.",
+        "originality: the red figure is the only signature move, so make it the same object at both sizes. Use one crank shape and the same black spline square and white pedal eye. Only the scale and position change per size."
+      ],
+      "polish": [
+        "ig-post: bottom-align the grey panel and the crank so the crank's lowest point sits 135px above the bottom edge. That keeps the 10% safe zone clear of the figure."
+      ]
+    }
+  ],
+  "waitingOn": null,
+  "cost": {
+    "director": 0.9297,
+    "senior": 0.1825,
+    "builder": 0.0696,
+    "total": 1.1818,
+    "complete": true
+  },
+  "tokens": {
+    "director": 181447,
+    "senior": 114922,
+    "builder": 258348
+  },
+  "files": {
+    "final": ".desk/out/20261020-0155-linkedin-instagram-portrait-customer/final.html",
+    "brief": ".desk/jobs/20261020-0155-linkedin-instagram-portrait-customer/brief.md",
+    "handback": ".desk/out/20261020-0155-linkedin-instagram-portrait-customer/handback.md"
+  },
+  "pen": "builder",
+  "notes": [
+    "composition: linkedin: the crank boss crosses the split at x=660 and stops about 56px from \"crank,\" and \"spare\". Move the crank's centre to x=930, y=330 and scale it down so no part crosses x=660: boss left edge at x≥708, far end 56px inside the right edge, at least 48px clear of the top and bottom edges. Note 5 from the pick was not applied.",
+    "composition: ig-post: the pedal eye sits about 48px above the top of the panel at y=663. Start the panel at y=608 and move the crank down 32px. The eye's top then sits at y≈647, inside the panel, and the boss's bottom at y≈1202 stays above the 1215 safe line.",
+    "spacing: ig-post: the gap from the mark to the headline cap is about 40px, so the mark crowds the headline. Push the headline block down 24px to make the gap 64px, and keep the 32px gap to the supporting line.",
+    "spacing: linkedin: the supporting line's descenders sit about 37px from the bottom edge, under the 6% safe zone. Raise the headline and supporting line block 16px so the bottom margin is at least 48px, and keep the mark at 40px from the top.",
+    "originality: the crank is drawn with soft cartoon curves, like a spanner icon. Redraw it as a machined part. Make the boss an octagon about 200px across on linkedin (240px on ig-post), keep the arm edges straight with radius 2 at the corners, and make the pedal eye an octagon about 80px across with a 40px round bore. Keep the black square spindle at radius 2."
+  ],
+  "misses": {
+    "spacing": 1,
+    "composition": 1,
+    "originality": 2
+  },
+  "startedAt": "2026-10-20T01:55:17-05:00",
+  "updatedAt": "2026-10-20T02:08:47-05:00",
+  "roughs": [
+    {
+      "n": 1,
+      "pattern": "Editorial split",
+      "file": ".desk/out/20261020-0155-linkedin-instagram-portrait-customer/rough-1.html",
+      "fonts": "Geist (brand family, inlined by runner, not a fallback)",
+      "written": true,
+      "renders": ".desk/jobs/20261020-0155-linkedin-instagram-portrait-customer/renders/roughs/rough-1"
+    },
+    {
+      "n": 2,
+      "pattern": "Full bleed with scrim",
+      "file": ".desk/out/20261020-0155-linkedin-instagram-portrait-customer/rough-2.html",
+      "fonts": "Geist (inlined by runner), not a fallback",
+      "written": true,
+      "renders": ".desk/jobs/20261020-0155-linkedin-instagram-portrait-customer/renders/roughs/rough-2"
+    },
+    {
+      "n": 3,
+      "pattern": "Type only",
+      "file": ".desk/out/20261020-0155-linkedin-instagram-portrait-customer/rough-3.html",
+      "fonts": "Geist, with Inter fallback in the stack (inlined by the runner)",
+      "written": true,
+      "renders": ".desk/jobs/20261020-0155-linkedin-instagram-portrait-customer/renders/roughs/rough-3"
+    }
+  ],
+  "lastRenders": ".desk/jobs/20261020-0155-linkedin-instagram-portrait-customer/renders/round-5",
+  "penNotes": [],
+  "finishedAt": "2026-10-20T02:08:47-05:00"
+}

@@ -1,0 +1,58 @@
+anthropic/on/ds-contrib: r1=8(safe-zone 8)  r2=0  r3=3(safe-zone 3)  r4=0
+anthropic/on/ds-launch: r1=2(safe-zone 2)  r2=0  r3=7(safe-zone 6, copy 1)  r4=0  r5=3(overflow 2, safe-zone 1)  r6=0
+anthropic/on/ds-proof: r1=6(safe-zone 6)  r2=0
+anthropic/on/fe-event: r1=7(safe-zone 5, type-scale 2)  r2=0
+anthropic/on/fe-maker: r1=5(safe-zone 3, type-scale 2)  r2=0  r3=5(safe-zone 5)  r4=4(type-scale 4)  r5=0  r6=3(safe-zone 3)
+anthropic/on/fe-spec: r1=5(safe-zone 5)  r2=2(safe-zone 2)  r3=0
+anthropic/on/fe-spindle: r1=11(safe-zone 11)  r2=3(safe-zone 3)  r3=0
+anthropic/on/nl-battery: r1=5(safe-zone 5)  r2=0  r3=6(safe-zone 6)  r4=0  r5=0
+anthropic/on/nl-city: r1=2(safe-zone 2)  r2=0  r3=2(safe-zone 2)  r4=0
+anthropic/on/nl-referral: r1=5(safe-zone 5)  r2=1(safe-zone 1)  r3=0
+anthropic/on/nl-winter: r1=9(safe-zone 9)  r2=1(safe-zone 1)  r3=1(safe-zone 1)  r4=0
+anthropic/on/ql-free: r1=2(safe-zone 2)  r2=1(safe-zone 1)  r3=0  r4=2(safe-zone 2)  r5=0
+anthropic/on/ql-launch: r1=5(safe-zone 5)  r2=2(safe-zone 2)  r3=0  r4=3(safe-zone 3)  r5=1(safe-zone 1)  r6=0
+anthropic/on/ql-night: r1=4(safe-zone 4)  r2=0
+anthropic/on/ql-phone: r1=0  r2=0  r3=0
+anthropic/off/ds-contrib: r1=5(safe-zone 5)  r2=4(safe-zone 4)  r3=5(safe-zone 5)
+anthropic/off/ds-launch: r1=3(safe-zone 3)  r2=5(safe-zone 4, copy 1)  r3=5(safe-zone 4, copy 1)  r4=0  r5=1(safe-zone 1)  r6=0
+anthropic/off/ds-proof: r1=3(safe-zone 1, palette 2)
+anthropic/off/fe-event: r1=8(safe-zone 8)  r2=7(safe-zone 7)  r3=6(safe-zone 6)  r4=12(safe-zone 7, type-scale 5)  r5=12(safe-zone 8, overflow 4)  r6=7(safe-zone 7)
+anthropic/off/fe-maker: r1=9(safe-zone 9)  r2=10(safe-zone 10)  r3=10(safe-zone 10)  r4=10(safe-zone 10)  r5=10(safe-zone 10)
+anthropic/off/fe-spec: r1=9(safe-zone 7, type-scale 2)  r2=7(safe-zone 5, type-scale 2)
+anthropic/off/fe-spindle: r1=2(safe-zone 2)  r2=4(safe-zone 4)  r3=4(safe-zone 4)  r4=13(safe-zone 13)
+anthropic/off/nl-battery: r1=8(safe-zone 8)  r2=5(safe-zone 5)  r3=5(safe-zone 5)  r4=3(safe-zone 3)  r5=3(safe-zone 3)  r6=1(safe-zone 1)
+anthropic/off/nl-city: r1=11(safe-zone 11)  r2=11(safe-zone 11)  r3=7(safe-zone 7)
+anthropic/off/nl-referral: r1=2(safe-zone 2)  r2=2(safe-zone 2)  r3=2(safe-zone 2)  r4=2(safe-zone 2)  r5=2(safe-zone 2)  r6=3(safe-zone 3)
+anthropic/off/nl-winter: r1=4(safe-zone 4)
+anthropic/off/ql-free: r1=8(safe-zone 7, type-scale 1)
+anthropic/off/ql-launch: r1=5(safe-zone 5)  r2=5(safe-zone 5)  r3=2(safe-zone 2)
+anthropic/off/ql-night: r1=11(safe-zone 11)
+anthropic/off/ql-phone: r1=8(safe-zone 6, palette 2)  r2=6(safe-zone 6)
+openai/on/ds-contrib: r1=2(safe-zone 2)  r2=2(type-scale 2)  r3=0  r4=0
+openai/on/ds-launch: r1=4(safe-zone 4)  r2=0  r3=0  r4=0  r5=9(safe-zone 1, type-scale 8)
+openai/on/fe-event: r1=2(safe-zone 2)  r2=0  r3=1(safe-zone 1)  r4=0  r5=7(overflow 4, safe-zone 3)  r6=0
+openai/on/fe-maker: r1=2(safe-zone 2)  r2=0  r3=0
+openai/on/fe-spec: r1=4(safe-zone 4)  r2=0  r3=0  r4=2(safe-zone 2)  r5=0  r6=2(safe-zone 2)
+openai/on/fe-spindle: r1=4(safe-zone 4)  r2=0  r3=0  r4=1(safe-zone 1)  r5=0  r6=1(safe-zone 1)
+openai/on/nl-battery: r1=2(safe-zone 2)  r2=0  r3=0
+openai/on/nl-city: r1=1(safe-zone 1)  r2=0  r3=2(safe-zone 2)  r4=0  r5=1(safe-zone 1)  r6=0
+openai/on/nl-referral: r1=1(safe-zone 1)  r2=0  r3=0  r4=0  r5=0  r6=0
+openai/on/nl-winter: r1=2(safe-zone 2)  r2=0  r3=1(safe-zone 1)  r4=0  r5=0  r6=2(safe-zone 2)
+openai/on/ql-free: r1=2(safe-zone 2)  r2=0  r3=1(safe-zone 1)  r4=0  r5=0  r6=1(safe-zone 1)
+openai/on/ql-launch: r1=2(safe-zone 2)  r2=0  r3=1(safe-zone 1)  r4=0  r5=2(contrast 2)  r6=0
+openai/on/ql-night: r1=3(safe-zone 3)  r2=0  r3=7(type-scale 7)  r4=0
+openai/on/ql-phone: r1=1(safe-zone 1)  r2=0  r3=0  r4=1(safe-zone 1)  r5=0  r6=0
+openai/off/ds-contrib: r1=5(safe-zone 1, type-scale 4)  r2=3(safe-zone 1, type-scale 2)  r3=3(safe-zone 1, type-scale 2)
+openai/off/ds-launch: r1=2(safe-zone 2)  r2=1(safe-zone 1)  r3=1(safe-zone 1)  r4=1(safe-zone 1)  r5=1(safe-zone 1)
+openai/off/fe-event: r1=1(safe-zone 1)
+openai/off/fe-maker: r1=1(safe-zone 1)  r2=1(safe-zone 1)  r3=1(safe-zone 1)
+openai/off/fe-spec: r1=1(safe-zone 1)  r2=3(safe-zone 3)  r3=2(safe-zone 2)  r4=2(safe-zone 2)  r5=2(safe-zone 2)  r6=1(safe-zone 1)
+openai/off/fe-spindle: r1=4(safe-zone 4)  r2=4(safe-zone 4)  r3=4(safe-zone 4)  r4=4(safe-zone 4)  r5=4(safe-zone 4)  r6=4(safe-zone 4)
+openai/off/nl-battery: r1=8(safe-zone 2, type-scale 6)  r2=12(safe-zone 2, type-scale 10)  r3=12(safe-zone 2, type-scale 10)  r4=1(safe-zone 1)  r5=2(safe-zone 2)  r6=2(safe-zone 2)
+openai/off/nl-city: r1=2(safe-zone 2)  r2=2(safe-zone 2)  r3=4(safe-zone 4)  r4=4(safe-zone 4)  r5=4(safe-zone 4)  r6=4(safe-zone 4)
+openai/off/nl-referral: r1=1(safe-zone 1)  r2=2(safe-zone 2)  r3=2(safe-zone 2)
+openai/off/nl-winter: r1=1(safe-zone 1)  r2=2(safe-zone 2)  r3=9(safe-zone 6, type-scale 3)  r4=2(safe-zone 2)  r5=4(safe-zone 4)  r6=4(safe-zone 4)
+openai/off/ql-free: r1=2(safe-zone 2)  r2=4(safe-zone 4)  r3=2(safe-zone 2)  r4=2(safe-zone 2)  r5=2(safe-zone 2)  r6=3(safe-zone 3)
+openai/off/ql-launch: r1=5(safe-zone 2, type-scale 3)  r2=5(safe-zone 2, type-scale 3)  r3=5(safe-zone 2, type-scale 3)
+openai/off/ql-night: r1=3(safe-zone 3)  r2=5(safe-zone 3, type-scale 2)  r3=5(safe-zone 3, type-scale 2)  r4=5(safe-zone 3, type-scale 2)  r5=4(safe-zone 4)
+openai/off/ql-phone: r1=7(safe-zone 3, contrast 4)

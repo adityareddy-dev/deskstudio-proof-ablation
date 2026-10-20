@@ -1,0 +1,232 @@
+{
+ "family": "openai",
+ "arm": "off",
+ "case": "nl-winter",
+ "jobId": "20261020-0138-linkedin-instagram-portrait-winter",
+ "rounds": [
+  {
+   "round": 1,
+   "sizes": [
+    {
+     "size": "ig-post",
+     "failures": [
+      {
+       "check": "safe-zone",
+       "text": "January",
+       "reason": "68px from the top edge, the safe zone starts at 81px"
+      }
+     ]
+    },
+    {
+     "size": "linkedin",
+     "failures": []
+    }
+   ],
+   "failures": 1,
+   "byCheck": {
+    "safe-zone": 1
+   }
+  },
+  {
+   "round": 2,
+   "sizes": [
+    {
+     "size": "ig-post",
+     "failures": [
+      {
+       "check": "safe-zone",
+       "text": "January",
+       "reason": "68px from the top edge, the safe zone starts at 81px"
+      }
+     ]
+    },
+    {
+     "size": "linkedin",
+     "failures": [
+      {
+       "check": "safe-zone",
+       "text": "January",
+       "reason": "28px from the top edge, the safe zone starts at 38px"
+      }
+     ]
+    }
+   ],
+   "failures": 2,
+   "byCheck": {
+    "safe-zone": 2
+   }
+  },
+  {
+   "round": 3,
+   "sizes": [
+    {
+     "size": "ig-post",
+     "failures": [
+      {
+       "check": "safe-zone",
+       "text": "January",
+       "reason": "64px from the left edge, the safe zone starts at 65px; 68px from the top edge, the safe zone starts at 81px"
+      },
+      {
+       "check": "safe-zone",
+       "text": "still",
+       "reason": "64px from the left edge, the safe zone starts at 65px"
+      },
+      {
+       "check": "safe-zone",
+       "text": "pays.",
+       "reason": "ends 58px from the right edge, the safe zone is 65px"
+      }
+     ]
+    },
+    {
+     "size": "linkedin",
+     "failures": [
+      {
+       "check": "safe-zone",
+       "text": "January",
+       "reason": "63px from the left edge, the safe zone starts at 72px; 26px from the top edge, the safe zone starts at 38px"
+      },
+      {
+       "check": "safe-zone",
+       "text": "still",
+       "reason": "63px from the left edge, the safe zone starts at 72px"
+      },
+      {
+       "check": "safe-zone",
+       "text": "pays.",
+       "reason": "ends 56px from the right edge, the safe zone is 72px"
+      },
+      {
+       "check": "type-scale",
+       "text": "January",
+       "reason": "210px is off the brand scale (base 16, ratio 1.25), use 186px or 233px"
+      },
+      {
+       "check": "type-scale",
+       "text": "still",
+       "reason": "210px is off the brand scale (base 16, ratio 1.25), use 186px or 233px"
+      },
+      {
+       "check": "type-scale",
+       "text": "pays.",
+       "reason": "210px is off the brand scale (base 16, ratio 1.25), use 186px or 233px"
+      }
+     ]
+    }
+   ],
+   "failures": 9,
+   "byCheck": {
+    "safe-zone": 6,
+    "type-scale": 3
+   }
+  },
+  {
+   "round": 4,
+   "sizes": [
+    {
+     "size": "ig-post",
+     "failures": [
+      {
+       "check": "safe-zone",
+       "text": "January",
+       "reason": "68px from the top edge, the safe zone starts at 81px"
+      }
+     ]
+    },
+    {
+     "size": "linkedin",
+     "failures": [
+      {
+       "check": "safe-zone",
+       "text": "January",
+       "reason": "66px from the left edge, the safe zone starts at 72px; 28px from the top edge, the safe zone starts at 38px"
+      }
+     ]
+    }
+   ],
+   "failures": 2,
+   "byCheck": {
+    "safe-zone": 2
+   }
+  },
+  {
+   "round": 5,
+   "sizes": [
+    {
+     "size": "ig-post",
+     "failures": [
+      {
+       "check": "safe-zone",
+       "text": "January",
+       "reason": "68px from the top edge, the safe zone starts at 81px"
+      },
+      {
+       "check": "safe-zone",
+       "text": "northlight.energy",
+       "reason": "ends 132px from the bottom edge, the safe zone is 135px"
+      }
+     ]
+    },
+    {
+     "size": "linkedin",
+     "failures": [
+      {
+       "check": "safe-zone",
+       "text": "January",
+       "reason": "67px from the left edge, the safe zone starts at 72px"
+      },
+      {
+       "check": "safe-zone",
+       "text": "still",
+       "reason": "66px from the left edge, the safe zone starts at 72px"
+      }
+     ]
+    }
+   ],
+   "failures": 4,
+   "byCheck": {
+    "safe-zone": 4
+   }
+  },
+  {
+   "round": 6,
+   "sizes": [
+    {
+     "size": "ig-post",
+     "failures": [
+      {
+       "check": "safe-zone",
+       "text": "January",
+       "reason": "68px from the top edge, the safe zone starts at 81px"
+      },
+      {
+       "check": "safe-zone",
+       "text": "northlight.energy",
+       "reason": "ends 132px from the bottom edge, the safe zone is 135px"
+      }
+     ]
+    },
+    {
+     "size": "linkedin",
+     "failures": [
+      {
+       "check": "safe-zone",
+       "text": "January",
+       "reason": "67px from the left edge, the safe zone starts at 72px"
+      },
+      {
+       "check": "safe-zone",
+       "text": "still",
+       "reason": "66px from the left edge, the safe zone starts at 72px"
+      }
+     ]
+    }
+   ],
+   "failures": 4,
+   "byCheck": {
+    "safe-zone": 4
+   }
+  }
+ ]
+}

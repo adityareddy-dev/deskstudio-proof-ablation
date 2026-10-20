@@ -1,0 +1,192 @@
+{
+  "id": "20261020-0216-linkedin-instagram-portrait-proof",
+  "command": "design",
+  "deliverable": "social-card",
+  "sizes": [
+    "linkedin",
+    "ig-post"
+  ],
+  "quality": "studio",
+  "proofMode": "off",
+  "models": {
+    "director": "anthropic/opus",
+    "senior": "anthropic/sonnet",
+    "builder": "anthropic/haiku"
+  },
+  "phase": "done",
+  "round": 1,
+  "maxRounds": 6,
+  "desks": [
+    {
+      "desk": "design-manager",
+      "task": "intake",
+      "status": "done",
+      "model": "anthropic/opus",
+      "startedAt": "2026-10-20T02:16:00-05:00",
+      "updatedAt": "2026-10-20T02:16:14-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "rough 1, editorial split",
+      "status": "done",
+      "model": "anthropic/sonnet",
+      "startedAt": "2026-10-20T02:16:14-05:00",
+      "updatedAt": "2026-10-20T02:16:49-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "rough 2, full bleed with scrim",
+      "status": "done",
+      "model": "anthropic/sonnet",
+      "startedAt": "2026-10-20T02:16:14-05:00",
+      "updatedAt": "2026-10-20T02:16:42-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "rough 3, type only",
+      "status": "done",
+      "model": "anthropic/sonnet",
+      "startedAt": "2026-10-20T02:16:14-05:00",
+      "updatedAt": "2026-10-20T02:16:42-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "art-director",
+      "task": "pick",
+      "status": "done",
+      "model": "anthropic/opus",
+      "startedAt": "2026-10-20T02:16:53-05:00",
+      "updatedAt": "2026-10-20T02:17:20-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 1",
+      "status": "done",
+      "model": "anthropic/haiku",
+      "startedAt": "2026-10-20T02:17:21-05:00",
+      "updatedAt": "2026-10-20T02:17:38-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "creative-director",
+      "task": "sign-off round 1",
+      "status": "done",
+      "model": "anthropic/opus",
+      "startedAt": "2026-10-20T02:17:39-05:00",
+      "updatedAt": "2026-10-20T02:18:12-05:00",
+      "via": "cli"
+    }
+  ],
+  "pick": {
+    "by": "art-director",
+    "rough": 1,
+    "pattern": "Editorial split",
+    "combineWith": null,
+    "reason": "The pixel grid with one amber cell shows \"checked on real pixels\" at a glance, and it fills both canvases with the fewest notes to the bar.",
+    "lost": "2 makes the accent the whole background, which breaks \"accent once\", and on ig-post it leaves a yellow band of about 500px below a box-in-a-box. 3 has the strongest headline, but on ig-post the 560px gap between the supporting line and the mark is over a third of the canvas, a composition fault the standard caps at 7.",
+    "notes": [
+      "Headline on linkedin from about 56px to 76px (brand scale), line height 1.0, tracking -0.02em. Force the break \"Checked on / real pixels.\" so \"pixels.\" is not left alone on a line. Standard: the headline reads at thumbnail size.",
+      "Use the same break on ig-post, \"Checked on / real pixels.\", and keep the size at about 95px, so both sizes share one shape.",
+      "Grid: set every cell except the amber one to the same tint (#3a3a3f, the current lit grey) and remove the scattered #0b0b0c holes. One checked pixel among even cells reads in two seconds. The random gaps read as noise. Brand: accent on one thing to look at.",
+      "Linkedin left margin from 48px to 72px, so the text column lines up with ig-post and leaves real air (still on the 8px grid, and well past the 38px safe zone). Keep the mark bottom left, 72px from the left edge, with its baseline at least 40px above the bottom.",
+      "Keep the supporting line at 25px and the mark at 20px on linkedin, and the supporting line at 31px and the mark at 25px on ig-post. That stays within three sizes per artboard, all on the brand scale. Check that the supporting line is #8a8a93 on #0b0b0c (5.4:1, passes)."
+    ],
+    "at": "2026-10-20T02:17:20-05:00"
+  },
+  "proof": [
+    {
+      "round": 1,
+      "pass": null,
+      "skipped": true,
+      "failures": 0
+    }
+  ],
+  "scores": [
+    {
+      "round": 1,
+      "by": "creative-director",
+      "axes": {
+        "hierarchy": 9,
+        "typography": 9,
+        "spacing": 8,
+        "colour": 9,
+        "composition": 8,
+        "originality": 8,
+        "brand": 9,
+        "copy": 9
+      },
+      "average": 8.63,
+      "pass": true,
+      "notes": [
+        "spacing: on ig-post, set the gap from the supporting line to the grid at 96px. The grid top moves from about 527px to about 424px. This ends the equal ~196px gaps above and below the grid that leave it floating mid-canvas.",
+        "composition: on ig-post, add a fourth row of cells. The grid becomes 6x4 at 149px cells with 8px gutters, 620px tall, running from about 424px to about 1044px. That leaves about 140px above the mark and makes the grid carry the lower canvas instead of sitting in leftover air. Keep the amber cell at row 2, column 3.",
+        "originality: on linkedin, move the amber cell from row 2 to row 3, column 3, at about y 242 to 309. That puts the lit pixel level with the \"real pixels.\" line, so the accent and the claim read as one gesture."
+      ],
+      "polish": [
+        "On ig-post, try the headline at 119px. \"Checked on\" runs about 740px of the 936px column, so the type carries the top of the canvas the way the grid carries the bottom."
+      ]
+    }
+  ],
+  "waitingOn": null,
+  "cost": {
+    "director": 0.4001,
+    "senior": 0.1672,
+    "builder": 0.0039,
+    "total": 0.5712,
+    "complete": true
+  },
+  "tokens": {
+    "director": 69931,
+    "senior": 57288,
+    "builder": 14945
+  },
+  "files": {
+    "final": ".desk/out/20261020-0216-linkedin-instagram-portrait-proof/final.html",
+    "brief": ".desk/jobs/20261020-0216-linkedin-instagram-portrait-proof/brief.md",
+    "handback": ".desk/out/20261020-0216-linkedin-instagram-portrait-proof/handback.md"
+  },
+  "pen": "builder",
+  "notes": [
+    "Headline on linkedin from about 56px to 76px (brand scale), line height 1.0, tracking -0.02em. Force the break \"Checked on / real pixels.\" so \"pixels.\" is not left alone on a line. Standard: the headline reads at thumbnail size.",
+    "Use the same break on ig-post, \"Checked on / real pixels.\", and keep the size at about 95px, so both sizes share one shape.",
+    "Grid: set every cell except the amber one to the same tint (#3a3a3f, the current lit grey) and remove the scattered #0b0b0c holes. One checked pixel among even cells reads in two seconds. The random gaps read as noise. Brand: accent on one thing to look at.",
+    "Linkedin left margin from 48px to 72px, so the text column lines up with ig-post and leaves real air (still on the 8px grid, and well past the 38px safe zone). Keep the mark bottom left, 72px from the left edge, with its baseline at least 40px above the bottom.",
+    "Keep the supporting line at 25px and the mark at 20px on linkedin, and the supporting line at 31px and the mark at 25px on ig-post. That stays within three sizes per artboard, all on the brand scale. Check that the supporting line is #8a8a93 on #0b0b0c (5.4:1, passes)."
+  ],
+  "misses": {},
+  "startedAt": "2026-10-20T02:16:00-05:00",
+  "updatedAt": "2026-10-20T02:18:12-05:00",
+  "roughs": [
+    {
+      "n": 1,
+      "pattern": "Editorial split",
+      "file": ".desk/out/20261020-0216-linkedin-instagram-portrait-proof/rough-1.html",
+      "fonts": "Geist (inlined by the runner), not a fallback",
+      "written": true,
+      "renders": ".desk/jobs/20261020-0216-linkedin-instagram-portrait-proof/renders/roughs/rough-1"
+    },
+    {
+      "n": 2,
+      "pattern": "Full bleed with scrim",
+      "file": ".desk/out/20261020-0216-linkedin-instagram-portrait-proof/rough-2.html",
+      "fonts": "Geist, inlined by the runner, not a fallback",
+      "written": true,
+      "renders": ".desk/jobs/20261020-0216-linkedin-instagram-portrait-proof/renders/roughs/rough-2"
+    },
+    {
+      "n": 3,
+      "pattern": "Type only",
+      "file": ".desk/out/20261020-0216-linkedin-instagram-portrait-proof/rough-3.html",
+      "fonts": "Geist (inlined by the runner), not a fallback",
+      "written": true,
+      "renders": ".desk/jobs/20261020-0216-linkedin-instagram-portrait-proof/renders/roughs/rough-3"
+    }
+  ],
+  "lastRenders": ".desk/jobs/20261020-0216-linkedin-instagram-portrait-proof/renders/round-1",
+  "penNotes": [],
+  "finishedAt": "2026-10-20T02:18:12-05:00"
+}

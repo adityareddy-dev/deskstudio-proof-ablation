@@ -1,0 +1,444 @@
+{
+  "id": "20261020-0208-linkedin-instagram-portrait-desk",
+  "command": "design",
+  "deliverable": "social-card",
+  "sizes": [
+    "linkedin",
+    "ig-post"
+  ],
+  "quality": "studio",
+  "proofMode": "off",
+  "models": {
+    "director": "anthropic/opus",
+    "senior": "anthropic/sonnet",
+    "builder": "anthropic/haiku"
+  },
+  "phase": "done",
+  "round": 6,
+  "maxRounds": 6,
+  "desks": [
+    {
+      "desk": "design-manager",
+      "task": "intake",
+      "status": "done",
+      "model": "anthropic/opus",
+      "startedAt": "2026-10-20T02:08:49-05:00",
+      "updatedAt": "2026-10-20T02:09:04-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "rough 1, editorial split",
+      "status": "done",
+      "model": "anthropic/sonnet",
+      "startedAt": "2026-10-20T02:09:04-05:00",
+      "updatedAt": "2026-10-20T02:09:31-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "rough 2, full bleed with scrim",
+      "status": "done",
+      "model": "anthropic/sonnet",
+      "startedAt": "2026-10-20T02:09:04-05:00",
+      "updatedAt": "2026-10-20T02:09:42-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "rough 3, type only",
+      "status": "done",
+      "model": "anthropic/sonnet",
+      "startedAt": "2026-10-20T02:09:04-05:00",
+      "updatedAt": "2026-10-20T02:09:32-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "art-director",
+      "task": "pick",
+      "status": "done",
+      "model": "anthropic/opus",
+      "startedAt": "2026-10-20T02:09:46-05:00",
+      "updatedAt": "2026-10-20T02:10:32-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 1",
+      "status": "done",
+      "model": "anthropic/haiku",
+      "startedAt": "2026-10-20T02:10:32-05:00",
+      "updatedAt": "2026-10-20T02:11:10-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "creative-director",
+      "task": "sign-off round 1",
+      "status": "done",
+      "model": "anthropic/opus",
+      "startedAt": "2026-10-20T02:11:11-05:00",
+      "updatedAt": "2026-10-20T02:11:54-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 2",
+      "status": "done",
+      "model": "anthropic/haiku",
+      "startedAt": "2026-10-20T02:11:54-05:00",
+      "updatedAt": "2026-10-20T02:12:14-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "creative-director",
+      "task": "sign-off round 2",
+      "status": "done",
+      "model": "anthropic/opus",
+      "startedAt": "2026-10-20T02:12:16-05:00",
+      "updatedAt": "2026-10-20T02:13:06-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 3",
+      "status": "done",
+      "model": "anthropic/haiku",
+      "startedAt": "2026-10-20T02:13:06-05:00",
+      "updatedAt": "2026-10-20T02:13:48-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "creative-director",
+      "task": "sign-off round 3",
+      "status": "done",
+      "model": "anthropic/opus",
+      "startedAt": "2026-10-20T02:13:49-05:00",
+      "updatedAt": "2026-10-20T02:14:57-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 4, escalated",
+      "status": "done",
+      "model": "anthropic/sonnet",
+      "startedAt": "2026-10-20T02:14:58-05:00",
+      "updatedAt": "2026-10-20T02:15:29-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "creative-director",
+      "task": "sign-off round 4",
+      "status": "done",
+      "model": "anthropic/opus",
+      "startedAt": "2026-10-20T02:15:31-05:00",
+      "updatedAt": "2026-10-20T02:16:16-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 5, escalated",
+      "status": "done",
+      "model": "anthropic/sonnet",
+      "startedAt": "2026-10-20T02:16:17-05:00",
+      "updatedAt": "2026-10-20T02:16:44-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "creative-director",
+      "task": "sign-off round 5",
+      "status": "done",
+      "model": "anthropic/opus",
+      "startedAt": "2026-10-20T02:16:45-05:00",
+      "updatedAt": "2026-10-20T02:17:36-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 6, escalated",
+      "status": "done",
+      "model": "anthropic/sonnet",
+      "startedAt": "2026-10-20T02:17:36-05:00",
+      "updatedAt": "2026-10-20T02:18:06-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "creative-director",
+      "task": "sign-off round 6",
+      "status": "done",
+      "model": "anthropic/opus",
+      "startedAt": "2026-10-20T02:18:07-05:00",
+      "updatedAt": "2026-10-20T02:18:41-05:00",
+      "via": "cli"
+    }
+  ],
+  "pick": {
+    "by": "art-director",
+    "rough": 3,
+    "pattern": "Type only",
+    "combineWith": null,
+    "reason": "It reads in two seconds at both sizes. The type carries the canvas, the accent sits only on \"Free, MIT, out now.\", and only the portrait vertical rhythm needs work.",
+    "lost": "1 the right 45% on linkedin is an empty surface panel with a decorative bar, and the ig bottom surface is a leftover band, so it needs a new element plus notes; 2 the accent is spent as a full yellow field, which breaks \"accent once, on the one thing to look at\", and the supporting line is left without it.",
+    "notes": [
+      "ig-post: move the headline block up so its first line's top sits at y=216. That is 81px top margin, the 24px mark, then a 112px gap. Set headline line height to 1.0 so the 3-line block ends near y=573 (about 42%). This follows standard: portrait headline in the top 40%.",
+      "ig-post: raise the bottom group so the top of \"Free, MIT, out now.\" sits at y=880. Keep the current gap to deskstudio.ai. That leaves a gap of about 300px between headline and supporting line, and about 300px between the URL and the bottom edge. Both stay under the one-third limit (450px). This follows standard: own the whole canvas, no unshaped band over a third.",
+      "Both sizes: lock three sizes on the brand scale. Headline 95px on linkedin and 119px on ig-post. Supporting line 39px on linkedin and 61px on ig-post. Mark and URL 25px on both. Headline tracking -0.02em, line height 1.0 to 1.05. This follows standard: three sizes, never more.",
+      "linkedin: keep the headline at 2 lines. Set the gap from headline baseline to the \"Free, MIT, out now.\" cap top to 136px, a multiple of 8, so the supporting line sits on the bottom margin at y=590 minus its height (6% bottom = 38px). Leave deskstudio.ai bottom right on that same baseline.",
+      "Both sizes: keep \"Desk Studio\" in muted #8a8a93 at 600, top left at the safe margin (72px left, 38px top on linkedin; 65px left, 81px top on ig-post). Use no accent anywhere except \"Free, MIT, out now.\"."
+    ],
+    "at": "2026-10-20T02:10:32-05:00"
+  },
+  "proof": [
+    {
+      "round": 1,
+      "pass": null,
+      "skipped": true,
+      "failures": 0
+    },
+    {
+      "round": 2,
+      "pass": null,
+      "skipped": true,
+      "failures": 0
+    },
+    {
+      "round": 3,
+      "pass": null,
+      "skipped": true,
+      "failures": 0
+    },
+    {
+      "round": 4,
+      "pass": null,
+      "skipped": true,
+      "failures": 0
+    },
+    {
+      "round": 5,
+      "pass": null,
+      "skipped": true,
+      "failures": 0
+    },
+    {
+      "round": 6,
+      "pass": null,
+      "skipped": true,
+      "failures": 0
+    }
+  ],
+  "scores": [
+    {
+      "round": 1,
+      "by": "creative-director",
+      "axes": {
+        "hierarchy": 9,
+        "typography": 8,
+        "spacing": 8,
+        "colour": 9,
+        "composition": 8,
+        "originality": 7,
+        "brand": 9,
+        "copy": 9
+      },
+      "average": 8.38,
+      "pass": false,
+      "notes": [
+        "originality: ig-post headline 119px to 149px, 4 lines broken \"A design / studio / inside your / coding agent.\". The rag widens down to the punch, and the block carries the canvas. A template would not make this move. Keep linkedin at 95px, 2 lines.",
+        "composition: ig-post headline top stays at y=216. At line height 1.0 the 4-line block ends near y=812. The bottom group drops to meet the bottom safe margin, so content runs from mark to safe edge with one shaped gap of about 276px and no leftover band under the URL.",
+        "spacing: ig-post bottom of deskstudio.ai at y=1215 (10% bottom margin). Top of \"Free, MIT, out now.\" at y=1088, 40px gap to the URL. The current 340px of dead space below the URL goes.",
+        "typography: ig-post headline 149px, weight 600, tracking -0.02em, line height 1.0. Check \"coding agent.\" fits inside 950px of measure, and if it overruns, tracking goes to -0.025em, not a smaller size. Supporting 61px, mark and URL 25px. Three sizes, unchanged."
+      ],
+      "polish": [
+        "linkedin: pull the headline left edge -4px so the bowl of the \"A\" sits optically on the 72px line with \"Desk Studio\" and \"Free, MIT, out now.\""
+      ]
+    },
+    {
+      "round": 2,
+      "by": "creative-director",
+      "axes": {
+        "hierarchy": 9,
+        "typography": 9,
+        "spacing": 8,
+        "colour": 9,
+        "composition": 8,
+        "originality": 7,
+        "brand": 8,
+        "copy": 8
+      },
+      "average": 8.25,
+      "pass": false,
+      "notes": [
+        "originality: this is the first type-only card anyone would make. Add one move only this brand would make: a full-bleed #141416 band across the bottom like an agent's status bar (linkedin y=507 to 627, ig-post y=1040 to 1350), radius 0, no border. Set \"Free, MIT, out now.\" and deskstudio.ai inside it on one shared baseline, with the URL right-aligned at the right safe margin on both sizes.",
+        "composition: on ig-post, keep the headline at 149px and 4 lines. It carries the canvas better than the 119px, 3-line plan in AD note 1, so do not shrink it. Inside the band, put the \"Free, MIT, out now.\" cap top at y=1104 and the URL baseline at y=1215. That makes the 280px gap above the band read as shaped, not leftover.",
+        "spacing: on linkedin, move the headline block up 40px so its cap top sits at y=216. That gives about 152px from the mark to the headline and about 80px from the headline to the band. Center the bottom line vertically in the 120px band, at 40px from the band top. Snap every gap to the 8px grid.",
+        "brand: the \"Desk Studio\" mark measures about 145px wide, which is 13.4% of the ig-post width and 12.1% of the linkedin width, over the 12% limit. Drop it from 25px to 20px at 600, #8a8a93. That makes it about 116px wide. It is a label the card does not need to be understood, so 20px is allowed.",
+        "copy: the given lines are locked verbatim by the brief, so make no change this round. \"A design studio inside your coding agent.\" describes rather than claims, which caps this axis at 8."
+      ],
+      "polish": [
+        "At 149px on ig-post, nudge the cap \"A\" left by 4 to 6px so its diagonal aligns optically with the stems of \"studio\", \"inside\" and \"coding\" on the 65px margin."
+      ]
+    },
+    {
+      "round": 3,
+      "by": "creative-director",
+      "axes": {
+        "hierarchy": 9,
+        "typography": 7,
+        "spacing": 8,
+        "colour": 9,
+        "composition": 7,
+        "originality": 7,
+        "brand": 9,
+        "copy": 8
+      },
+      "average": 8,
+      "pass": false,
+      "notes": [
+        "typography: \"Desk Studio\" renders at about 18px on linkedin and about 20px on ig-post, below the 24px floor and off the URL's size. That makes four sizes. Set the mark to 25px on both sizes, the same as deskstudio.ai, so the card has exactly three sizes: headline, 39/61px supporting line, 25px small.",
+        "typography: the ig-post headline renders at about 149px and wraps to 4 lines with \"studio\" alone on line 2. Set it to 119px, tracking -0.02em, line height 1.0, with forced breaks \"A design studio / inside your / coding agent.\" to get 3 balanced lines.",
+        "composition: on ig-post the headline currently ends near y=810, which is 60% of the height and breaks the top-40% must. With the 119px headline, put the first line's cap top at y=216 so the block ends at or before y=573.",
+        "spacing: on ig-post, deskstudio.ai sits about 80px below and to the right of the supporting line, a stagger that reads as unresolved. Put it on the same baseline as \"Free, MIT, out now.\", with its right edge 65px from the right edge, matching linkedin. Set the cap top of \"Free, MIT, out now.\" at y=880.",
+        "originality: the bottom strip reads as a stock footer bar. Tie the surface panel to the type instead. Start the panel's top edge exactly on the headline's last baseline: about y=384 on linkedin and about y=544 on ig-post. The descenders of \"coding agent.\" then hang into the panel, and the headline sits on it like a shelf. On linkedin, set the supporting line's cap top 96px below the panel edge (y=480) and keep the URL on its baseline.",
+        "copy: the headline is locked verbatim by the brief, so no change this round. Flag to the Manager that it describes rather than claims, and pass \"Your coding agent now has a design studio.\" to a copy desk for the next brief."
+      ],
+      "polish": [
+        "On linkedin, optically pull the headline 3px left so the stem of the \"A\" aligns with the \"F\" of \"Free\" and the \"D\" of the mark on x=72."
+      ]
+    },
+    {
+      "round": 4,
+      "by": "creative-director",
+      "axes": {
+        "hierarchy": 9,
+        "typography": 8,
+        "spacing": 7,
+        "colour": 8,
+        "composition": 7,
+        "originality": 6,
+        "brand": 9,
+        "copy": 9
+      },
+      "average": 7.88,
+      "pass": false,
+      "notes": [
+        "typography: on ig-post, raise the headline from 119px to 149px and break it into 4 lines: \"A design / studio inside / your coding / agent.\". Keep line height 1.0 and tracking -0.02em. The first cap top stays at y=216 and the block ends near y=812. Keep linkedin at 95px on 2 lines.",
+        "spacing: put the bottom group on the bottom safe margin. On linkedin, set the \"Free, MIT, out now.\" baseline and the deskstudio.ai baseline to y=576 (it is now about y=507, which leaves 120px dead below). On ig-post, set both baselines to y=1208 (now about y=922, which leaves 420px dead below).",
+        "colour: the #141416 surface split runs through the headline descenders on both sizes (y=383 on linkedin, y=538 on ig-post) and reads as a render seam. Either move its top edge clear of the type as the composition note says, or remove it and run one #0b0b0c field.",
+        "composition: make the surface a deliberate full-bleed block that holds the bottom group. Put its top edge at y=448 on linkedin and y=904 on ig-post, at least 48px below the last descender. Keep the headline entirely on #0b0b0c and the supporting line and URL entirely on #141416.",
+        "originality: this is still the first type-only card anyone would make. The block step under the headline is the one move this card can own. Make it hard and exact: a full-width edge, no rule and no radius, with its top on the 8px grid as given above. It must not be a background change that happens to cut the type."
+      ],
+      "polish": [
+        "Pull deskstudio.ai in to a right edge of x=1008 on ig-post so its right margin matches the 72px of the left column's air."
+      ]
+    },
+    {
+      "round": 5,
+      "by": "creative-director",
+      "axes": {
+        "hierarchy": 9,
+        "typography": 7,
+        "spacing": 7,
+        "colour": 9,
+        "composition": 7,
+        "originality": 7,
+        "brand": 9,
+        "copy": 9
+      },
+      "average": 8,
+      "pass": false,
+      "notes": [
+        "typography: ig-post headline is set at about 149px and wraps to 4 lines, leaving \"agent.\" alone on the last line. Drop it to 119px, line height 1.0, tracking -0.02em, so it sets 3 lines: \"A design studio / inside your / coding agent.\" Keep linkedin at 95px, 2 lines.",
+        "composition: ig-post headline currently runs from y=215 to about y=790, which is 58% of the canvas. At 119px, start the first line's cap top at y=216 so the block ends near y=573 (42%). That puts the headline in the top 40%, as the AD's note 1 asked.",
+        "spacing: on ig-post, move the surface band top from y=903 to y=800. Raise \"Free, MIT, out now.\" so its cap top sits at y=880, and keep deskstudio.ai on the same baseline at the right margin. This gives headline to supporting line about 300px and leaves about 400px of surface below, both under the 450px limit. On linkedin, set headline baseline to supporting-line cap top at 136px; it is about 178px now.",
+        "originality: make the two-tone split a deliberate move rather than a footer. On both sizes, place the band's top edge exactly 64px below the headline's last baseline (linkedin: baseline y=368, band at y=432; ig-post: band at y=640 if the baseline lands at y=576, and keep the supporting line 80px inside the band). That way the headline stands on the ledge."
+      ],
+      "polish": [
+        "linkedin: lower \"Desk Studio\" from about 24px to 25px at 600 so it matches the URL exactly on the three-size scale."
+      ]
+    },
+    {
+      "round": 6,
+      "by": "creative-director",
+      "axes": {
+        "hierarchy": 9,
+        "typography": 9,
+        "spacing": 7,
+        "colour": 9,
+        "composition": 6,
+        "originality": 6,
+        "brand": 9,
+        "copy": 8
+      },
+      "average": 7.88,
+      "pass": false,
+      "notes": [
+        "composition: ig-post leaves an unshaped empty band of 610px (y=740 to 1350), 45% of the canvas and over the one-third limit (450px). Move the surface block's top edge from y=602 to y=810 so it takes exactly the bottom 40%. Set the \"Free, MIT, out now.\" cap top at y=874 (64px inside the block). Move deskstudio.ai to bottom left with its baseline at y=1215 (10% bottom margin). That leaves about 300px from headline to block and about 260px from supporting line to URL.",
+        "spacing: deskstudio.ai sits off the supporting line's baseline on ig-post (URL centre y=716, supporting baseline about y=725). After the move above it gets its own baseline at y=1215. On linkedin, put the URL baseline on the \"Free, MIT, out now.\" baseline exactly and snap the surface band top from y=432 to y=440.",
+        "originality: the split is a leftover band, not a decision. On both sizes, start the surface block exactly 64px below the headline's last baseline on linkedin (top at y=440). On ig-post, use the 40% line above. The block edge should read as the headline's floor and not as a second panel.",
+        "copy: verbatim lines hold. \"Free, MIT, out now.\" stays, and the headline claim is plain, so there is no change in scope. The cap stays at 8 until a copy desk tightens it."
+      ],
+      "polish": [
+        "linkedin: lower the \"Desk Studio\" mark from cap top about y=46 to y=38 so it sits on the 6% margin like the URL does at the bottom."
+      ]
+    }
+  ],
+  "waitingOn": {
+    "type": "approve_under_bar",
+    "text": "Under the bar after 6 rounds. spacing, composition, originality under 8, composition: ig-post leaves an unshaped empty band of 610px (y=740 to 1350), 45% of the canvas and over the one-third limit (450px). Move the surface block's top edge from y=602 to y=810 so it takes exactly the bottom 40%. Set the \"Free, MIT, out now.\" cap top at y=874 (64px inside the block). Move deskstudio.ai to bottom left with its baseline at y=1215 (10% bottom margin). That leaves about 300px from headline to block and about 260px from supporting line to URL.; spacing: deskstudio.ai sits off the supporting line's baseline on ig-post (URL centre y=716, supporting baseline about y=725). After the move above it gets its own baseline at y=1215. On linkedin, put the URL baseline on the \"Free, MIT, out now.\" baseline exactly and snap the surface band top from y=432 to y=440."
+  },
+  "cost": {
+    "director": 1.1767,
+    "senior": 0.3996,
+    "builder": 0.0169,
+    "total": 1.5932,
+    "complete": true
+  },
+  "tokens": {
+    "director": 117244,
+    "senior": 158321,
+    "builder": 82096
+  },
+  "files": {
+    "final": ".desk/out/20261020-0208-linkedin-instagram-portrait-desk/final.html",
+    "brief": ".desk/jobs/20261020-0208-linkedin-instagram-portrait-desk/brief.md",
+    "handback": ".desk/out/20261020-0208-linkedin-instagram-portrait-desk/handback.md"
+  },
+  "pen": "art-director",
+  "notes": [
+    "composition: ig-post leaves an unshaped empty band of 610px (y=740 to 1350), 45% of the canvas and over the one-third limit (450px). Move the surface block's top edge from y=602 to y=810 so it takes exactly the bottom 40%. Set the \"Free, MIT, out now.\" cap top at y=874 (64px inside the block). Move deskstudio.ai to bottom left with its baseline at y=1215 (10% bottom margin). That leaves about 300px from headline to block and about 260px from supporting line to URL.",
+    "spacing: deskstudio.ai sits off the supporting line's baseline on ig-post (URL centre y=716, supporting baseline about y=725). After the move above it gets its own baseline at y=1215. On linkedin, put the URL baseline on the \"Free, MIT, out now.\" baseline exactly and snap the surface band top from y=432 to y=440.",
+    "originality: the split is a leftover band, not a decision. On both sizes, start the surface block exactly 64px below the headline's last baseline on linkedin (top at y=440). On ig-post, use the 40% line above. The block edge should read as the headline's floor and not as a second panel.",
+    "copy: verbatim lines hold. \"Free, MIT, out now.\" stays, and the headline claim is plain, so there is no change in scope. The cap stays at 8 until a copy desk tightens it."
+  ],
+  "misses": {},
+  "startedAt": "2026-10-20T02:08:49-05:00",
+  "updatedAt": "2026-10-20T02:18:41-05:00",
+  "roughs": [
+    {
+      "n": 1,
+      "pattern": "Editorial split",
+      "file": ".desk/out/20261020-0208-linkedin-instagram-portrait-desk/rough-1.html",
+      "fonts": "Geist (brand family, inlined by the runner), Inter as fallback",
+      "written": true,
+      "renders": ".desk/jobs/20261020-0208-linkedin-instagram-portrait-desk/renders/roughs/rough-1"
+    },
+    {
+      "n": 2,
+      "pattern": "Full bleed with scrim",
+      "file": ".desk/out/20261020-0208-linkedin-instagram-portrait-desk/rough-2.html",
+      "fonts": "Geist (runner inlines it), not a fallback",
+      "written": true,
+      "renders": ".desk/jobs/20261020-0208-linkedin-instagram-portrait-desk/renders/roughs/rough-2"
+    },
+    {
+      "n": 3,
+      "pattern": "Type only",
+      "file": ".desk/out/20261020-0208-linkedin-instagram-portrait-desk/rough-3.html",
+      "fonts": "Geist (brand family), Inter fallback, inlined by the runner, no Arial fallback needed",
+      "written": true,
+      "renders": ".desk/jobs/20261020-0208-linkedin-instagram-portrait-desk/renders/roughs/rough-3"
+    }
+  ],
+  "lastRenders": ".desk/jobs/20261020-0208-linkedin-instagram-portrait-desk/renders/round-6",
+  "penNotes": [],
+  "finishedAt": "2026-10-20T02:18:41-05:00"
+}

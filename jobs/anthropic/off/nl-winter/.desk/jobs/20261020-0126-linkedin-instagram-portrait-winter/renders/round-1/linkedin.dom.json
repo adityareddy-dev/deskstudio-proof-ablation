@@ -1,0 +1,146 @@
+{
+  "width": 1200,
+  "height": 627,
+  "scrollWidth": 1200,
+  "scrollHeight": 627,
+  "boxes": [
+    {
+      "x": 72,
+      "y": 28,
+      "width": 568.15625,
+      "height": 180,
+      "text": "January",
+      "color": "rgb(22, 22, 20)",
+      "opacity": 1,
+      "fontSize": 149,
+      "fontWeight": 600,
+      "fontFamily": "Inter, Arial, sans-serif",
+      "clips": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 627,
+          "clipX": true,
+          "clipY": true
+        }
+      ]
+    },
+    {
+      "x": 72,
+      "y": 184.4375,
+      "width": 236.546875,
+      "height": 180,
+      "text": "still",
+      "color": "rgb(22, 22, 20)",
+      "opacity": 1,
+      "fontSize": 149,
+      "fontWeight": 600,
+      "fontFamily": "Inter, Arial, sans-serif",
+      "clips": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 627,
+          "clipX": true,
+          "clipY": true
+        }
+      ]
+    },
+    {
+      "x": 343.109375,
+      "y": 184.4375,
+      "width": 379.6875,
+      "height": 180,
+      "text": "pays.",
+      "color": "rgb(217, 72, 15)",
+      "opacity": 1,
+      "fontSize": 149,
+      "fontWeight": 600,
+      "fontFamily": "Inter, Arial, sans-serif",
+      "clips": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 627,
+          "clipX": true,
+          "clipY": true
+        }
+      ]
+    },
+    {
+      "x": 72,
+      "y": 492.453125,
+      "width": 231.34375,
+      "height": 37,
+      "text": "Snow slides off.",
+      "color": "rgb(22, 22, 20)",
+      "opacity": 1,
+      "fontSize": 31,
+      "fontWeight": 400,
+      "fontFamily": "Inter, Arial, sans-serif",
+      "clips": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 627,
+          "clipX": true,
+          "clipY": true
+        }
+      ]
+    },
+    {
+      "x": 312.0625,
+      "y": 492.453125,
+      "width": 287,
+      "height": 37,
+      "text": "The numbers don't.",
+      "color": "rgb(22, 22, 20)",
+      "opacity": 1,
+      "fontSize": 31,
+      "fontWeight": 400,
+      "fontFamily": "Inter, Arial, sans-serif",
+      "clips": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 627,
+          "clipX": true,
+          "clipY": true
+        }
+      ]
+    },
+    {
+      "x": 72,
+      "y": 563.75,
+      "width": 202.4375,
+      "height": 30,
+      "text": "northlight.energy",
+      "color": "rgb(107, 106, 102)",
+      "opacity": 1,
+      "fontSize": 25,
+      "fontWeight": 400,
+      "fontFamily": "Inter, Arial, sans-serif",
+      "clips": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 627,
+          "clipX": true,
+          "clipY": true
+        }
+      ]
+    }
+  ],
+  "fonts": {
+    "Inter": true,
+    "Arial": true,
+    "sans-serif": true
+  },
+  "images": 0
+}

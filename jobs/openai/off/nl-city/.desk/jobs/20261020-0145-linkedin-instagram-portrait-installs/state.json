@@ -1,0 +1,448 @@
+{
+  "id": "20261020-0145-linkedin-instagram-portrait-installs",
+  "command": "design",
+  "deliverable": "social-card",
+  "sizes": [
+    "linkedin",
+    "ig-post"
+  ],
+  "quality": "studio",
+  "proofMode": "off",
+  "models": {
+    "director": "openai/large",
+    "senior": "openai/mini",
+    "builder": "openai/mini"
+  },
+  "phase": "done",
+  "round": 6,
+  "maxRounds": 6,
+  "desks": [
+    {
+      "desk": "design-manager",
+      "task": "intake",
+      "status": "done",
+      "model": "openai/large",
+      "startedAt": "2026-10-20T01:45:59-05:00",
+      "updatedAt": "2026-10-20T01:46:19-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "rough 1, editorial split",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T01:46:19-05:00",
+      "updatedAt": "2026-10-20T01:46:58-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "rough 2, full bleed with scrim",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T01:46:19-05:00",
+      "updatedAt": "2026-10-20T01:47:01-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "rough 3, type only",
+      "status": "failed",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T01:46:19-05:00",
+      "updatedAt": "2026-10-20T01:46:22-05:00"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "rough 3, type only",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T01:47:01-05:00",
+      "updatedAt": "2026-10-20T01:47:47-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "art-director",
+      "task": "pick",
+      "status": "done",
+      "model": "openai/large",
+      "startedAt": "2026-10-20T01:47:52-05:00",
+      "updatedAt": "2026-10-20T01:48:12-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 1",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T01:48:12-05:00",
+      "updatedAt": "2026-10-20T01:48:58-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "creative-director",
+      "task": "sign-off round 1",
+      "status": "done",
+      "model": "openai/large",
+      "startedAt": "2026-10-20T01:49:00-05:00",
+      "updatedAt": "2026-10-20T01:49:14-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 2",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T01:49:14-05:00",
+      "updatedAt": "2026-10-20T01:50:24-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "creative-director",
+      "task": "sign-off round 2",
+      "status": "done",
+      "model": "openai/large",
+      "startedAt": "2026-10-20T01:50:26-05:00",
+      "updatedAt": "2026-10-20T01:50:55-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 3",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T01:50:55-05:00",
+      "updatedAt": "2026-10-20T01:51:48-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "creative-director",
+      "task": "sign-off round 3",
+      "status": "done",
+      "model": "openai/large",
+      "startedAt": "2026-10-20T01:51:50-05:00",
+      "updatedAt": "2026-10-20T01:52:09-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 4, escalated",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T01:52:09-05:00",
+      "updatedAt": "2026-10-20T01:53:08-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "creative-director",
+      "task": "sign-off round 4",
+      "status": "done",
+      "model": "openai/large",
+      "startedAt": "2026-10-20T01:53:10-05:00",
+      "updatedAt": "2026-10-20T01:53:34-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 5, escalated",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T01:53:34-05:00",
+      "updatedAt": "2026-10-20T01:54:27-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "creative-director",
+      "task": "sign-off round 5",
+      "status": "done",
+      "model": "openai/large",
+      "startedAt": "2026-10-20T01:54:29-05:00",
+      "updatedAt": "2026-10-20T01:54:48-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 6, escalated",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T01:54:48-05:00",
+      "updatedAt": "2026-10-20T01:55:28-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "creative-director",
+      "task": "sign-off round 6",
+      "status": "done",
+      "model": "openai/large",
+      "startedAt": "2026-10-20T01:55:31-05:00",
+      "updatedAt": "2026-10-20T01:55:58-05:00",
+      "via": "cli"
+    }
+  ],
+  "pick": {
+    "by": "art-director",
+    "rough": 2,
+    "pattern": "Full bleed with scrim",
+    "combineWith": null,
+    "reason": "The headline reads immediately, and the panel field gives both ratios a complete composition with a clear solar connection.",
+    "lost": "1 The portrait panels are too small to carry the lower field, 3 The isolated “in” breaks the portrait headline and leaves too much unused space.",
+    "notes": [
+      "Move the orange accent from the block’s lower-right edge to an 8px underline beneath “Now installing”; use #d9480f once. The standard puts the accent on the thing to look at.",
+      "Give northlight.energy a solid #161614 backing with 16px padding, keeping its current text position. The social-card standard requires text to sit clear of a busy image.",
+      "Remove the stray grid strokes crossing the gaps between panels; keep a consistent 16px gap between complete panel outlines before rotation."
+    ],
+    "at": "2026-10-20T01:48:12-05:00"
+  },
+  "proof": [
+    {
+      "round": 1,
+      "pass": null,
+      "skipped": true,
+      "failures": 0
+    },
+    {
+      "round": 2,
+      "pass": null,
+      "skipped": true,
+      "failures": 0
+    },
+    {
+      "round": 3,
+      "pass": null,
+      "skipped": true,
+      "failures": 0
+    },
+    {
+      "round": 4,
+      "pass": null,
+      "skipped": true,
+      "failures": 0
+    },
+    {
+      "round": 5,
+      "pass": null,
+      "skipped": true,
+      "failures": 0
+    },
+    {
+      "round": 6,
+      "pass": null,
+      "skipped": true,
+      "failures": 0
+    }
+  ],
+  "scores": [
+    {
+      "round": 1,
+      "by": "creative-director",
+      "axes": {
+        "hierarchy": 9,
+        "typography": 8,
+        "spacing": 9,
+        "colour": 9,
+        "composition": 7,
+        "originality": 6,
+        "brand": 9,
+        "copy": 9
+      },
+      "average": 8.25,
+      "pass": false,
+      "notes": [
+        "typography: Move the 8px orange underline down until it clears the “g” descender by 8px in both sizes.",
+        "composition: In portrait, enlarge the paper block from 447px to 704px high; keep the headline in the top 40% and confine the panel illustration to the lower field.",
+        "originality: Replace the repeating panel wallpaper with one deliberate array of seven complete panels, arranged in staggered rows of four and three with 16px gaps; adapt its crop to each ratio."
+      ],
+      "polish": [
+        "Keep the URL’s solid backing and current text position in both sizes."
+      ]
+    },
+    {
+      "round": 2,
+      "by": "creative-director",
+      "axes": {
+        "hierarchy": 9,
+        "typography": 8,
+        "spacing": 8,
+        "colour": 8,
+        "composition": 7,
+        "originality": 6,
+        "brand": 8,
+        "copy": 9
+      },
+      "average": 7.88,
+      "pass": false,
+      "notes": [
+        "typography: Set both headlines to 600 weight; retain the 76px landscape and 95px portrait sizes and two-line wraps.",
+        "spacing: Raise the landscape panel field 16px to give its bottom edge at least 40px clearance; preserve 16px panel gaps.",
+        "colour: Set the single underline to #d9480f at 8px high in both formats.",
+        "composition: Expand the landscape panel field from roughly 624px to 1056px wide; move the portrait field’s top from 752px to 640px to connect the illustration with the headline group.",
+        "originality: Make the seven panels a deliberate seven-year motif: use seven equal, landscape-proportioned modules in both formats, with a consistent 2:1 aspect ratio and the existing four-over-three arrangement.",
+        "brand: Shorten the underline to end immediately after “installing” in both formats; leave “in” outside the accent."
+      ],
+      "polish": [
+        "Keep all supplied copy verbatim while revising the panel geometry."
+      ]
+    },
+    {
+      "round": 3,
+      "by": "creative-director",
+      "axes": {
+        "hierarchy": 9,
+        "typography": 8,
+        "spacing": 7,
+        "colour": 8,
+        "composition": 7,
+        "originality": 6,
+        "brand": 8,
+        "copy": 9
+      },
+      "average": 7.75,
+      "pass": false,
+      "notes": [
+        "typography: Set headline weight to 600 in both sizes; retain the current two-line wrap and use 1.05 line height.",
+        "spacing: On LinkedIn, move the panel field down 24px and give the URL a solid #161614 backing with 16px padding; no panel stroke may touch its lettering.",
+        "colour: Set the single 8px underline to #d9480f; its current appearance is brighter than the supplied accent.",
+        "composition: In portrait, enlarge the panel field from approximately 232px to 448px tall, starting at y=640; retain 16px gutters and the URL’s current position.",
+        "originality: Replace the centred four-over-three panel arrangement with one continuous solar array cropped at the right edge; retain seven complete panels within the field to connect the illustration to “seven years.”",
+        "brand: End the underline beneath “installing,” excluding “in”; preserve the 72px left alignment in both sizes."
+      ],
+      "polish": [
+        "None."
+      ]
+    },
+    {
+      "round": 4,
+      "by": "creative-director",
+      "axes": {
+        "hierarchy": 9,
+        "typography": 9,
+        "spacing": 8,
+        "colour": 9,
+        "composition": 8,
+        "originality": 7,
+        "brand": 9,
+        "copy": 9
+      },
+      "average": 8.5,
+      "pass": false,
+      "notes": [
+        "spacing: On LinkedIn, extend the paper block from y296 to y312 and move the panel field down 16px, giving the supporting line at least 24px of bottom clearance.",
+        "composition: Replace the stretched panel geometry with a consistent 2:1 width-to-height ratio across both formats; retain 16px gutters.",
+        "originality: Build the illustration from exactly seven complete panels, arranged four above three, to connect the visual to “seven years”; remove the additional panels cropped at the right edge."
+      ],
+      "polish": [
+        "Keep the orange underline at 8px and end it beneath “installing” in both formats."
+      ]
+    },
+    {
+      "round": 5,
+      "by": "creative-director",
+      "axes": {
+        "hierarchy": 9,
+        "typography": 8,
+        "spacing": 8,
+        "colour": 9,
+        "composition": 7,
+        "originality": 6,
+        "brand": 8,
+        "copy": 9
+      },
+      "average": 8,
+      "pass": false,
+      "notes": [
+        "typography: Set both headlines to 600 weight; retain the current two-line breaks and three-size hierarchy.",
+        "spacing: On portrait, move the supporting line up 24px and reduce the paper block height from 592px to 544px.",
+        "composition: Expand the portrait panel field from 222px to approximately 400px tall, starting at y=592px; retain 16px gutters and the URL’s current position.",
+        "originality: Replace the generic four-over-three panel arrangement with one continuous seven-panel stepped field; use a consistent 24px rise between adjacent columns to give the seven-panel motif a deliberate silhouette.",
+        "brand: Shorten the 8px orange underline to end beneath “installing,” excluding “in,” in both sizes."
+      ],
+      "polish": [
+        "Keep panel outlines visibly stronger than their internal cell lines when enlarging the field."
+      ]
+    },
+    {
+      "round": 6,
+      "by": "creative-director",
+      "axes": {
+        "hierarchy": 9,
+        "typography": 8,
+        "spacing": 8,
+        "colour": 9,
+        "composition": 7,
+        "originality": 7,
+        "brand": 9,
+        "copy": 9
+      },
+      "average": 8.25,
+      "pass": false,
+      "notes": [
+        "typography: Tighten headline baseline spacing from approximately 104px to 84px on LinkedIn and 125px to 104px on Instagram; retain the 8px underline.",
+        "spacing: On Instagram, move the panel group up 48px to connect it more closely with the announcement.",
+        "composition: On LinkedIn, replace the flattened panels with seven 112×160px panels; reduce the vertical step to 8px and keep 16px horizontal gaps.",
+        "originality: Make the seven-panel motif legible as a deliberate reference to “seven years”: use the same 4×8 cell structure and panel proportions in both formats, without adding copy."
+      ],
+      "polish": []
+    }
+  ],
+  "waitingOn": {
+    "type": "approve_under_bar",
+    "text": "Under the bar after 6 rounds. composition, originality under 8, composition: On LinkedIn, replace the flattened panels with seven 112×160px panels; reduce the vertical step to 8px and keep 16px horizontal gaps.; originality: Make the seven-panel motif legible as a deliberate reference to “seven years”: use the same 4×8 cell structure and panel proportions in both formats, without adding copy."
+  },
+  "cost": {
+    "director": 1.5752,
+    "senior": 0.4473,
+    "builder": 0.2763,
+    "total": 2.2988,
+    "complete": false
+  },
+  "tokens": {
+    "director": 273099,
+    "senior": 306047,
+    "builder": 190642
+  },
+  "files": {
+    "final": ".desk/out/20261020-0145-linkedin-instagram-portrait-installs/final.html",
+    "brief": ".desk/jobs/20261020-0145-linkedin-instagram-portrait-installs/brief.md",
+    "handback": ".desk/out/20261020-0145-linkedin-instagram-portrait-installs/handback.md"
+  },
+  "pen": "art-director",
+  "notes": [
+    "typography: Tighten headline baseline spacing from approximately 104px to 84px on LinkedIn and 125px to 104px on Instagram; retain the 8px underline.",
+    "spacing: On Instagram, move the panel group up 48px to connect it more closely with the announcement.",
+    "composition: On LinkedIn, replace the flattened panels with seven 112×160px panels; reduce the vertical step to 8px and keep 16px horizontal gaps.",
+    "originality: Make the seven-panel motif legible as a deliberate reference to “seven years”: use the same 4×8 cell structure and panel proportions in both formats, without adding copy."
+  ],
+  "misses": {},
+  "startedAt": "2026-10-20T01:45:59-05:00",
+  "updatedAt": "2026-10-20T01:55:58-05:00",
+  "roughs": [
+    {
+      "n": 1,
+      "pattern": "Editorial split",
+      "file": ".desk/out/20261020-0145-linkedin-instagram-portrait-installs/rough-1.html",
+      "fonts": "Inter, runner-inlined; no fallback used",
+      "written": true,
+      "renders": ".desk/jobs/20261020-0145-linkedin-instagram-portrait-installs/renders/roughs/rough-1"
+    },
+    {
+      "n": 2,
+      "pattern": "Full bleed with scrim",
+      "file": ".desk/out/20261020-0145-linkedin-instagram-portrait-installs/rough-2.html",
+      "fonts": "Inter, runner-inlined; no fallback substitution",
+      "written": true,
+      "renders": ".desk/jobs/20261020-0145-linkedin-instagram-portrait-installs/renders/roughs/rough-2"
+    },
+    {
+      "n": 3,
+      "pattern": "Type only",
+      "file": ".desk/out/20261020-0145-linkedin-instagram-portrait-installs/rough-3.html",
+      "fonts": "Inter, inlined by runner",
+      "written": true,
+      "renders": ".desk/jobs/20261020-0145-linkedin-instagram-portrait-installs/renders/roughs/rough-3"
+    }
+  ],
+  "next": "roughs",
+  "lastRenders": ".desk/jobs/20261020-0145-linkedin-instagram-portrait-installs/renders/round-6",
+  "penNotes": [],
+  "finishedAt": "2026-10-20T01:55:58-05:00"
+}

@@ -1,0 +1,125 @@
+{
+  "width": 1080,
+  "height": 1350,
+  "scrollWidth": 1080,
+  "scrollHeight": 1350,
+  "boxes": [
+    {
+      "x": 72,
+      "y": 72,
+      "width": 485.765625,
+      "height": 155,
+      "text": "Checked",
+      "color": "rgb(244, 244, 245)",
+      "opacity": 1,
+      "fontSize": 119,
+      "fontWeight": 600,
+      "fontFamily": "Geist, Inter, Arial, sans-serif",
+      "clips": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1350,
+          "clipX": true,
+          "clipY": true
+        }
+      ]
+    },
+    {
+      "x": 72,
+      "y": 195.75,
+      "width": 370.734375,
+      "height": 155,
+      "text": "on real",
+      "color": "rgb(244, 244, 245)",
+      "opacity": 1,
+      "fontSize": 119,
+      "fontWeight": 600,
+      "fontFamily": "Geist, Inter, Arial, sans-serif",
+      "clips": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1350,
+          "clipX": true,
+          "clipY": true
+        }
+      ]
+    },
+    {
+      "x": 72,
+      "y": 319.5,
+      "width": 346.515625,
+      "height": 155,
+      "text": "pixels.",
+      "color": "rgb(244, 244, 245)",
+      "opacity": 1,
+      "fontSize": 119,
+      "fontWeight": 600,
+      "fontFamily": "Geist, Inter, Arial, sans-serif",
+      "clips": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1350,
+          "clipX": true,
+          "clipY": true
+        }
+      ]
+    },
+    {
+      "x": 72,
+      "y": 491.25,
+      "width": 750.015625,
+      "height": 51,
+      "text": "Overflow, contrast, safe zone, every round.",
+      "color": "rgb(244, 244, 245)",
+      "opacity": 1,
+      "fontSize": 39,
+      "fontWeight": 400,
+      "fontFamily": "Geist, Inter, Arial, sans-serif",
+      "clips": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1350,
+          "clipX": true,
+          "clipY": true
+        }
+      ]
+    },
+    {
+      "x": 72,
+      "y": 712.25,
+      "width": 149.9375,
+      "height": 32,
+      "text": "deskstudio.ai",
+      "color": "rgb(244, 244, 245)",
+      "opacity": 1,
+      "fontSize": 25,
+      "fontWeight": 400,
+      "fontFamily": "Geist, Inter, Arial, sans-serif",
+      "clips": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1350,
+          "clipX": true,
+          "clipY": true
+        }
+      ]
+    }
+  ],
+  "fonts": {
+    "Geist": true,
+    "Inter": false,
+    "Arial": true,
+    "sans-serif": true
+  },
+  "images": 0
+}

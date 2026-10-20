@@ -1,0 +1,220 @@
+{
+ "family": "openai",
+ "arm": "off",
+ "case": "nl-city",
+ "jobId": "20261020-0145-linkedin-instagram-portrait-installs",
+ "rounds": [
+  {
+   "round": 1,
+   "sizes": [
+    {
+     "size": "ig-post",
+     "failures": [
+      {
+       "check": "safe-zone",
+       "text": "Now installing",
+       "reason": "79px from the top edge, the safe zone starts at 81px"
+      },
+      {
+       "check": "safe-zone",
+       "text": "in Minneapolis.",
+       "reason": "79px from the top edge, the safe zone starts at 81px"
+      }
+     ]
+    },
+    {
+     "size": "linkedin",
+     "failures": []
+    }
+   ],
+   "failures": 2,
+   "byCheck": {
+    "safe-zone": 2
+   }
+  },
+  {
+   "round": 2,
+   "sizes": [
+    {
+     "size": "ig-post",
+     "failures": [
+      {
+       "check": "safe-zone",
+       "text": "Now installing",
+       "reason": "79px from the top edge, the safe zone starts at 81px"
+      },
+      {
+       "check": "safe-zone",
+       "text": "in Minneapolis.",
+       "reason": "79px from the top edge, the safe zone starts at 81px"
+      }
+     ]
+    },
+    {
+     "size": "linkedin",
+     "failures": []
+    }
+   ],
+   "failures": 2,
+   "byCheck": {
+    "safe-zone": 2
+   }
+  },
+  {
+   "round": 3,
+   "sizes": [
+    {
+     "size": "ig-post",
+     "failures": [
+      {
+       "check": "safe-zone",
+       "text": "Now installing",
+       "reason": "79px from the top edge, the safe zone starts at 81px"
+      },
+      {
+       "check": "safe-zone",
+       "text": "in",
+       "reason": "79px from the top edge, the safe zone starts at 81px"
+      }
+     ]
+    },
+    {
+     "size": "linkedin",
+     "failures": [
+      {
+       "check": "safe-zone",
+       "text": "Now installing",
+       "reason": "33px from the top edge, the safe zone starts at 38px"
+      },
+      {
+       "check": "safe-zone",
+       "text": "in",
+       "reason": "33px from the top edge, the safe zone starts at 38px"
+      }
+     ]
+    }
+   ],
+   "failures": 4,
+   "byCheck": {
+    "safe-zone": 4
+   }
+  },
+  {
+   "round": 4,
+   "sizes": [
+    {
+     "size": "ig-post",
+     "failures": [
+      {
+       "check": "safe-zone",
+       "text": "Now installing",
+       "reason": "80px from the top edge, the safe zone starts at 81px"
+      },
+      {
+       "check": "safe-zone",
+       "text": "in",
+       "reason": "80px from the top edge, the safe zone starts at 81px"
+      }
+     ]
+    },
+    {
+     "size": "linkedin",
+     "failures": [
+      {
+       "check": "safe-zone",
+       "text": "Now installing",
+       "reason": "33px from the top edge, the safe zone starts at 38px"
+      },
+      {
+       "check": "safe-zone",
+       "text": "in",
+       "reason": "33px from the top edge, the safe zone starts at 38px"
+      }
+     ]
+    }
+   ],
+   "failures": 4,
+   "byCheck": {
+    "safe-zone": 4
+   }
+  },
+  {
+   "round": 5,
+   "sizes": [
+    {
+     "size": "ig-post",
+     "failures": [
+      {
+       "check": "safe-zone",
+       "text": "Now installing",
+       "reason": "80px from the top edge, the safe zone starts at 81px"
+      },
+      {
+       "check": "safe-zone",
+       "text": "in",
+       "reason": "80px from the top edge, the safe zone starts at 81px"
+      }
+     ]
+    },
+    {
+     "size": "linkedin",
+     "failures": [
+      {
+       "check": "safe-zone",
+       "text": "Now installing",
+       "reason": "33px from the top edge, the safe zone starts at 38px"
+      },
+      {
+       "check": "safe-zone",
+       "text": "in",
+       "reason": "33px from the top edge, the safe zone starts at 38px"
+      }
+     ]
+    }
+   ],
+   "failures": 4,
+   "byCheck": {
+    "safe-zone": 4
+   }
+  },
+  {
+   "round": 6,
+   "sizes": [
+    {
+     "size": "ig-post",
+     "failures": [
+      {
+       "check": "safe-zone",
+       "text": "Now installing",
+       "reason": "80px from the top edge, the safe zone starts at 81px"
+      },
+      {
+       "check": "safe-zone",
+       "text": "in",
+       "reason": "80px from the top edge, the safe zone starts at 81px"
+      }
+     ]
+    },
+    {
+     "size": "linkedin",
+     "failures": [
+      {
+       "check": "safe-zone",
+       "text": "Now installing",
+       "reason": "33px from the top edge, the safe zone starts at 38px"
+      },
+      {
+       "check": "safe-zone",
+       "text": "in",
+       "reason": "33px from the top edge, the safe zone starts at 38px"
+      }
+     ]
+    }
+   ],
+   "failures": 4,
+   "byCheck": {
+    "safe-zone": 4
+   }
+  }
+ ]
+}

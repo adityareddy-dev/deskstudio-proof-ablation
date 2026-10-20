@@ -1,0 +1,168 @@
+{
+  "width": 1200,
+  "height": 627,
+  "scrollWidth": 1200,
+  "scrollHeight": 627,
+  "boxes": [
+    {
+      "x": 72,
+      "y": 38,
+      "width": 344.484375,
+      "height": 144,
+      "text": "Seven",
+      "color": "rgb(217, 72, 15)",
+      "opacity": 1,
+      "fontSize": 119,
+      "fontWeight": 600,
+      "fontFamily": "Inter, Arial, sans-serif",
+      "clips": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 627,
+          "clipX": true,
+          "clipY": true
+        }
+      ]
+    },
+    {
+      "x": 416.484375,
+      "y": 38,
+      "width": 336,
+      "height": 144,
+      "text": "years",
+      "color": "rgb(22, 22, 20)",
+      "opacity": 1,
+      "fontSize": 119,
+      "fontWeight": 600,
+      "fontFamily": "Inter, Arial, sans-serif",
+      "clips": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 627,
+          "clipX": true,
+          "clipY": true
+        }
+      ]
+    },
+    {
+      "x": 72,
+      "y": 163,
+      "width": 450.765625,
+      "height": 144,
+      "text": "to break",
+      "color": "rgb(22, 22, 20)",
+      "opacity": 1,
+      "fontSize": 119,
+      "fontWeight": 600,
+      "fontFamily": "Inter, Arial, sans-serif",
+      "clips": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 627,
+          "clipX": true,
+          "clipY": true
+        }
+      ]
+    },
+    {
+      "x": 72,
+      "y": 288,
+      "width": 305.03125,
+      "height": 144,
+      "text": "even.",
+      "color": "rgb(22, 22, 20)",
+      "opacity": 1,
+      "fontSize": 119,
+      "fontWeight": 600,
+      "fontFamily": "Inter, Arial, sans-serif",
+      "clips": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 627,
+          "clipX": true,
+          "clipY": true
+        }
+      ]
+    },
+    {
+      "x": 72,
+      "y": 413,
+      "width": 570.34375,
+      "height": 144,
+      "text": "Then free.",
+      "color": "rgb(22, 22, 20)",
+      "opacity": 1,
+      "fontSize": 119,
+      "fontWeight": 600,
+      "fontFamily": "Inter, Arial, sans-serif",
+      "clips": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 627,
+          "clipX": true,
+          "clipY": true
+        }
+      ]
+    },
+    {
+      "x": 72,
+      "y": 460,
+      "width": 401.09375,
+      "height": 47,
+      "text": "Battery now included.",
+      "color": "rgb(22, 22, 20)",
+      "opacity": 1,
+      "fontSize": 39,
+      "fontWeight": 400,
+      "fontFamily": "Inter, Arial, sans-serif",
+      "clips": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 627,
+          "clipX": true,
+          "clipY": true
+        }
+      ]
+    },
+    {
+      "x": 72,
+      "y": 546,
+      "width": 202.4375,
+      "height": 30,
+      "text": "northlight.energy",
+      "color": "rgb(22, 22, 20)",
+      "opacity": 1,
+      "fontSize": 25,
+      "fontWeight": 400,
+      "fontFamily": "Inter, Arial, sans-serif",
+      "clips": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 627,
+          "clipX": true,
+          "clipY": true
+        }
+      ]
+    }
+  ],
+  "fonts": {
+    "Inter": true,
+    "Arial": true,
+    "sans-serif": true
+  },
+  "images": 0
+}

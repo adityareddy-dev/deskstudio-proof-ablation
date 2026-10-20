@@ -1,0 +1,167 @@
+{
+  "width": 1200,
+  "height": 627,
+  "scrollWidth": 1200,
+  "scrollHeight": 627,
+  "boxes": [
+    {
+      "x": 72,
+      "y": 30,
+      "width": 563.421875,
+      "height": 98,
+      "text": "Checked on real pixels.",
+      "color": "rgb(244, 244, 245)",
+      "opacity": 1,
+      "fontSize": 76,
+      "fontWeight": 600,
+      "fontFamily": "Geist, Inter, Arial, sans-serif",
+      "clips": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 627,
+          "clipX": true,
+          "clipY": true
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 627,
+          "clipX": true,
+          "clipY": true
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 627,
+          "clipX": true,
+          "clipY": true
+        }
+      ]
+    },
+    {
+      "x": 72,
+      "y": 109.796875,
+      "width": 221.296875,
+      "height": 98,
+      "text": "Checked on real pixels.",
+      "color": "rgb(244, 244, 245)",
+      "opacity": 1,
+      "fontSize": 76,
+      "fontWeight": 600,
+      "fontFamily": "Geist, Inter, Arial, sans-serif",
+      "clips": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 627,
+          "clipX": true,
+          "clipY": true
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 627,
+          "clipX": true,
+          "clipY": true
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 627,
+          "clipX": true,
+          "clipY": true
+        }
+      ]
+    },
+    {
+      "x": 72,
+      "y": 422.15625,
+      "width": 596.171875,
+      "height": 40,
+      "text": "Overflow, contrast, safe zone, every round.",
+      "color": "rgb(244, 244, 245)",
+      "opacity": 1,
+      "fontSize": 31,
+      "fontWeight": 400,
+      "fontFamily": "Geist, Inter, Arial, sans-serif",
+      "clips": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 627,
+          "clipX": true,
+          "clipY": true
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 627,
+          "clipX": true,
+          "clipY": true
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 627,
+          "clipX": true,
+          "clipY": true
+        }
+      ]
+    },
+    {
+      "x": 968.78125,
+      "y": 556,
+      "width": 159.21875,
+      "height": 32,
+      "text": "deskstudio.ai",
+      "color": "rgb(11, 11, 12)",
+      "opacity": 1,
+      "fontSize": 25,
+      "fontWeight": 600,
+      "fontFamily": "Geist, Inter, Arial, sans-serif",
+      "clips": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 627,
+          "clipX": true,
+          "clipY": true
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 627,
+          "clipX": true,
+          "clipY": true
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 627,
+          "clipX": true,
+          "clipY": true
+        }
+      ]
+    }
+  ],
+  "fonts": {
+    "Geist": true,
+    "Inter": false,
+    "Arial": true,
+    "sans-serif": true
+  },
+  "images": 0
+}

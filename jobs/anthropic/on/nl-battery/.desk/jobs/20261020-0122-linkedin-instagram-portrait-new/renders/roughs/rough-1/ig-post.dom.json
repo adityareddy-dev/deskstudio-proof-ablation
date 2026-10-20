@@ -1,0 +1,124 @@
+{
+  "width": 1080,
+  "height": 1350,
+  "scrollWidth": 1080,
+  "scrollHeight": 1350,
+  "boxes": [
+    {
+      "x": 72,
+      "y": 62,
+      "width": 680.46875,
+      "height": 144,
+      "text": "Seven years",
+      "color": "rgb(217, 72, 15)",
+      "opacity": 1,
+      "fontSize": 119,
+      "fontWeight": 600,
+      "fontFamily": "Inter, Arial, sans-serif",
+      "clips": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1350,
+          "clipX": true,
+          "clipY": true
+        }
+      ]
+    },
+    {
+      "x": 72,
+      "y": 186.9375,
+      "width": 780.96875,
+      "height": 144,
+      "text": "to break even. Then free.",
+      "color": "rgb(22, 22, 20)",
+      "opacity": 1,
+      "fontSize": 119,
+      "fontWeight": 600,
+      "fontFamily": "Inter, Arial, sans-serif",
+      "clips": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1350,
+          "clipX": true,
+          "clipY": true
+        }
+      ]
+    },
+    {
+      "x": 72,
+      "y": 311.875,
+      "width": 570.34375,
+      "height": 144,
+      "text": "to break even. Then free.",
+      "color": "rgb(22, 22, 20)",
+      "opacity": 1,
+      "fontSize": 119,
+      "fontWeight": 600,
+      "fontFamily": "Inter, Arial, sans-serif",
+      "clips": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1350,
+          "clipX": true,
+          "clipY": true
+        }
+      ]
+    },
+    {
+      "x": 72,
+      "y": 819,
+      "width": 627.34375,
+      "height": 74,
+      "text": "Battery now included.",
+      "color": "rgb(22, 22, 20)",
+      "opacity": 1,
+      "fontSize": 61,
+      "fontWeight": 400,
+      "fontFamily": "Inter, Arial, sans-serif",
+      "clips": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1350,
+          "clipX": true,
+          "clipY": true
+        }
+      ]
+    },
+    {
+      "x": 72,
+      "y": 1174.5,
+      "width": 202.4375,
+      "height": 30,
+      "text": "northlight.energy",
+      "color": "rgb(22, 22, 20)",
+      "opacity": 1,
+      "fontSize": 25,
+      "fontWeight": 400,
+      "fontFamily": "Inter, Arial, sans-serif",
+      "clips": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1350,
+          "clipX": true,
+          "clipY": true
+        }
+      ]
+    }
+  ],
+  "fonts": {
+    "Inter": true,
+    "Arial": true,
+    "sans-serif": true
+  },
+  "images": 0
+}

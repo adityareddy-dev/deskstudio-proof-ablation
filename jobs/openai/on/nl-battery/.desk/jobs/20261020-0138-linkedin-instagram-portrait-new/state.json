@@ -1,0 +1,244 @@
+{
+  "id": "20261020-0138-linkedin-instagram-portrait-new",
+  "command": "design",
+  "deliverable": "social-card",
+  "sizes": [
+    "linkedin",
+    "ig-post"
+  ],
+  "quality": "studio",
+  "proofMode": "on",
+  "models": {
+    "director": "openai/large",
+    "senior": "openai/mini",
+    "builder": "openai/mini"
+  },
+  "phase": "done",
+  "round": 3,
+  "maxRounds": 6,
+  "desks": [
+    {
+      "desk": "design-manager",
+      "task": "intake",
+      "status": "done",
+      "model": "openai/large",
+      "startedAt": "2026-10-20T01:38:05-05:00",
+      "updatedAt": "2026-10-20T01:38:23-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "rough 1, editorial split",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T01:38:23-05:00",
+      "updatedAt": "2026-10-20T01:39:11-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "rough 2, full bleed with scrim",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T01:38:23-05:00",
+      "updatedAt": "2026-10-20T01:39:19-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "rough 3, type only",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T01:38:23-05:00",
+      "updatedAt": "2026-10-20T01:39:11-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "art-director",
+      "task": "pick",
+      "status": "done",
+      "model": "openai/large",
+      "startedAt": "2026-10-20T01:39:23-05:00",
+      "updatedAt": "2026-10-20T01:39:42-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 1",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T01:39:43-05:00",
+      "updatedAt": "2026-10-20T01:40:06-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 2",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T01:40:08-05:00",
+      "updatedAt": "2026-10-20T01:40:28-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "creative-director",
+      "task": "sign-off round 2",
+      "status": "done",
+      "model": "openai/large",
+      "startedAt": "2026-10-20T01:40:29-05:00",
+      "updatedAt": "2026-10-20T01:40:55-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 3",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T01:40:56-05:00",
+      "updatedAt": "2026-10-20T01:41:16-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "creative-director",
+      "task": "sign-off round 3",
+      "status": "done",
+      "model": "openai/large",
+      "startedAt": "2026-10-20T01:41:18-05:00",
+      "updatedAt": "2026-10-20T01:41:40-05:00",
+      "via": "cli"
+    }
+  ],
+  "pick": {
+    "by": "art-director",
+    "rough": 3,
+    "pattern": "Type only",
+    "combineWith": null,
+    "reason": "The headline carries both formats at thumbnail size, with one orange emphasis on the payback number and the fewest changes needed.",
+    "lost": "1 repeats the seven and weakens the headline, 2 makes the dark panel dominate and strands the portrait announcement.",
+    "notes": [
+      "On portrait, move “Battery now included.” to top: 768px, retaining its current left alignment. This balances the two empty intervals below the headline and keeps both below the social-card standard’s 450px limit."
+    ],
+    "at": "2026-10-20T01:39:42-05:00"
+  },
+  "proof": [
+    {
+      "round": 1,
+      "pass": false,
+      "failures": 2
+    },
+    {
+      "round": 2,
+      "pass": true,
+      "failures": 0
+    },
+    {
+      "round": 3,
+      "pass": true,
+      "failures": 0
+    }
+  ],
+  "scores": [
+    {
+      "round": 2,
+      "by": "creative-director",
+      "axes": {
+        "hierarchy": 9,
+        "typography": 9,
+        "spacing": 9,
+        "colour": 9,
+        "composition": 8,
+        "originality": 6,
+        "brand": 9,
+        "copy": 9
+      },
+      "average": 8.5,
+      "pass": false,
+      "notes": [
+        "composition: Move “Then free.” to x=347px on LinkedIn and x=417px on Instagram, aligning its start with the orange underline’s endpoint; keep the other lines at x=72px.",
+        "originality: Use that single horizontal shift to distinguish the payoff from the seven-year wait. Preserve the three headline lines, existing sizes, and one orange accent."
+      ],
+      "polish": [
+        "Keep the portrait battery announcement at top=768px; the revised spacing resolves the oversized empty band."
+      ]
+    },
+    {
+      "round": 3,
+      "by": "creative-director",
+      "axes": {
+        "hierarchy": 9,
+        "typography": 9,
+        "spacing": 9,
+        "colour": 9,
+        "composition": 9,
+        "originality": 8,
+        "brand": 9,
+        "copy": 9
+      },
+      "average": 8.88,
+      "pass": true,
+      "notes": [
+        "originality: Make the stepped payoff a precise visual signature: align “Then free.” and the underline’s right edge at x344px on LinkedIn and x416px on portrait."
+      ],
+      "polish": [
+        "Keep the portrait supporting line at top 768px; the two empty intervals now balance."
+      ]
+    }
+  ],
+  "waitingOn": null,
+  "cost": {
+    "director": 1.0648,
+    "senior": 0.1575,
+    "builder": 0.1535,
+    "total": 1.3758,
+    "complete": true
+  },
+  "tokens": {
+    "director": 139554,
+    "senior": 165342,
+    "builder": 121716
+  },
+  "files": {
+    "final": ".desk/out/20261020-0138-linkedin-instagram-portrait-new/final.html",
+    "brief": ".desk/jobs/20261020-0138-linkedin-instagram-portrait-new/brief.md",
+    "handback": ".desk/out/20261020-0138-linkedin-instagram-portrait-new/handback.md"
+  },
+  "pen": "builder",
+  "notes": [
+    "composition: Move “Then free.” to x=347px on LinkedIn and x=417px on Instagram, aligning its start with the orange underline’s endpoint; keep the other lines at x=72px.",
+    "originality: Use that single horizontal shift to distinguish the payoff from the seven-year wait. Preserve the three headline lines, existing sizes, and one orange accent."
+  ],
+  "misses": {
+    "originality": 1
+  },
+  "startedAt": "2026-10-20T01:38:05-05:00",
+  "updatedAt": "2026-10-20T01:41:41-05:00",
+  "roughs": [
+    {
+      "n": 1,
+      "pattern": "Editorial split",
+      "file": ".desk/out/20261020-0138-linkedin-instagram-portrait-new/rough-1.html",
+      "fonts": "Inter, runner-inlined; no fallback selected",
+      "written": true,
+      "renders": ".desk/jobs/20261020-0138-linkedin-instagram-portrait-new/renders/roughs/rough-1"
+    },
+    {
+      "n": 2,
+      "pattern": "Full bleed with scrim",
+      "file": ".desk/out/20261020-0138-linkedin-instagram-portrait-new/rough-2.html",
+      "fonts": "Inter; runner inlines font, no fallback selected",
+      "written": true,
+      "renders": ".desk/jobs/20261020-0138-linkedin-instagram-portrait-new/renders/roughs/rough-2"
+    },
+    {
+      "n": 3,
+      "pattern": "Type only",
+      "file": ".desk/out/20261020-0138-linkedin-instagram-portrait-new/rough-3.html",
+      "fonts": "Inter; inlined by runner",
+      "written": true,
+      "renders": ".desk/jobs/20261020-0138-linkedin-instagram-portrait-new/renders/roughs/rough-3"
+    }
+  ],
+  "lastRenders": ".desk/jobs/20261020-0138-linkedin-instagram-portrait-new/renders/round-3",
+  "penNotes": [],
+  "finishedAt": "2026-10-20T01:41:41-05:00"
+}

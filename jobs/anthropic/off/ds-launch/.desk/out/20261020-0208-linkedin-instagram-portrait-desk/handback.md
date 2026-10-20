@@ -1,0 +1,8 @@
+Done: social-card for a LinkedIn card and an, 6 files in .desk/out/20261020-0208-linkedin-instagram-portrait-desk/
+  final.html, renders at linkedin and ig-post in .desk/jobs/20261020-0208-linkedin-instagram-portrait-desk/renders/round-6/
+Desks: UI Designer x3 roughs (sonnet), Art Director pick (opus), UI Designer polish x3 (haiku), UI Designer polish x3 escalated (sonnet), Creative Director sign-off x6 (opus)
+Pick: rough 3, type only, "It reads in two seconds at both sizes. The type carries the canvas, the accent sits only on "Free, MIT, out now.", and only the portrait vertical rhythm needs work."
+Scores: hierarchy 9, typography 9, spacing 7, colour 9, composition 6, originality 6, brand 9, copy 8, average 7.88, under the bar
+Rounds: 6 of 6. Proof: not run (--no-proof).
+Cost: director 1.18, senior 0.40, builder 0.02, total 1.59 (list prices, from the CLI)
+Open: spacing, composition, originality under 8, composition: ig-post leaves an unshaped empty band of 610px (y=740 to 1350), 45% of the canvas and over the one-third limit (450px). Move the surface block's top edge from y=602 to y=810 so it takes exactly the bottom 40%. Set the "Free, MIT, out now." cap top at y=874 (64px inside the block). Move deskstudio.ai to bottom left with its baseline at y=1215 (10% bottom margin). That leaves about 300px from headline to block and about 260px from supporting line to URL.; spacing: deskstudio.ai sits off the supporting line's baseline on ig-post (URL centre y=716, supporting baseline about y=725). After the move above it gets its own baseline at y=1215. On linkedin, put the URL baseline on the "Free, MIT, out now." baseline exactly and snap the surface band top from y=432 to y=440.

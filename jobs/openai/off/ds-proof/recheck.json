@@ -1,0 +1,162 @@
+{
+ "family": "openai",
+ "arm": "off",
+ "case": "ds-proof",
+ "jobId": "20261020-0220-linkedin-instagram-portrait-proof",
+ "rounds": [
+  {
+   "round": 1,
+   "sizes": [
+    {
+     "size": "ig-post",
+     "failures": [
+      {
+       "check": "safe-zone",
+       "text": "Checked",
+       "reason": "57px from the top edge, the safe zone starts at 81px"
+      }
+     ]
+    },
+    {
+     "size": "linkedin",
+     "failures": []
+    }
+   ],
+   "failures": 1,
+   "byCheck": {
+    "safe-zone": 1
+   }
+  },
+  {
+   "round": 2,
+   "sizes": [
+    {
+     "size": "ig-post",
+     "failures": [
+      {
+       "check": "safe-zone",
+       "text": "Checked on",
+       "reason": "62px from the top edge, the safe zone starts at 81px"
+      }
+     ]
+    },
+    {
+     "size": "linkedin",
+     "failures": []
+    }
+   ],
+   "failures": 1,
+   "byCheck": {
+    "safe-zone": 1
+   }
+  },
+  {
+   "round": 3,
+   "sizes": [
+    {
+     "size": "ig-post",
+     "failures": [
+      {
+       "check": "safe-zone",
+       "text": "Checked on",
+       "reason": "57px from the top edge, the safe zone starts at 81px"
+      }
+     ]
+    },
+    {
+     "size": "linkedin",
+     "failures": []
+    }
+   ],
+   "failures": 1,
+   "byCheck": {
+    "safe-zone": 1
+   }
+  },
+  {
+   "round": 4,
+   "sizes": [
+    {
+     "size": "ig-post",
+     "failures": [
+      {
+       "check": "overflow",
+       "text": "",
+       "reason": "the document is 2361px tall on a 1350px canvas, something sits below the artboard"
+      },
+      {
+       "check": "overflow",
+       "text": "deskstudio.ai",
+       "reason": "runs off the canvas at 144px,2327px size 150pxx32px"
+      },
+      {
+       "check": "safe-zone",
+       "text": "Checked on",
+       "reason": "57px from the top edge, the safe zone starts at 81px"
+      },
+      {
+       "check": "safe-zone",
+       "text": "deskstudio.ai",
+       "reason": "ends -1009px from the bottom edge, the safe zone is 135px"
+      }
+     ]
+    },
+    {
+     "size": "linkedin",
+     "failures": []
+    }
+   ],
+   "failures": 4,
+   "byCheck": {
+    "overflow": 2,
+    "safe-zone": 2
+   }
+  },
+  {
+   "round": 5,
+   "sizes": [
+    {
+     "size": "ig-post",
+     "failures": [
+      {
+       "check": "safe-zone",
+       "text": "Checked on",
+       "reason": "57px from the top edge, the safe zone starts at 81px"
+      }
+     ]
+    },
+    {
+     "size": "linkedin",
+     "failures": []
+    }
+   ],
+   "failures": 1,
+   "byCheck": {
+    "safe-zone": 1
+   }
+  },
+  {
+   "round": 6,
+   "sizes": [
+    {
+     "size": "ig-post",
+     "failures": [
+      {
+       "check": "safe-zone",
+       "text": "Checked on",
+       "reason": "57px from the top edge, the safe zone starts at 81px"
+      }
+     ]
+    },
+    {
+     "size": "linkedin",
+     "failures": []
+    }
+   ],
+   "failures": 1,
+   "byCheck": {
+    "safe-zone": 1
+   }
+  }
+ ]
+}

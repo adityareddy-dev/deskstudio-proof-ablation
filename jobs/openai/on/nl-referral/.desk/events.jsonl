@@ -1,0 +1,67 @@
+{"t":"2026-10-20T06:41:42.872Z","type":"job.start","id":"20261020-0141-linkedin-instagram-portrait-neighbour","command":"design","deliverable":"social-card"}
+{"t":"2026-10-20T06:41:42.927Z","type":"desk.start","id":"20261020-0141-linkedin-instagram-portrait-neighbour","desk":"design-manager","model":"openai/large","tier":"director","task":"intake"}
+{"t":"2026-10-20T06:42:00.333Z","type":"desk.stop","id":"20261020-0141-linkedin-instagram-portrait-neighbour","desk":"design-manager","tier":"director","status":"done","seconds":17,"model":"openai/large","modelId":"gpt-6-astra","tokens":{"input":32394,"output":485,"cacheRead":0,"cacheWrite":0,"total":32879},"costUsd":0.34819}
+{"t":"2026-10-20T06:42:00.381Z","type":"job.phase","id":"20261020-0141-linkedin-instagram-portrait-neighbour","phase":"roughs","round":0}
+{"t":"2026-10-20T06:42:00.548Z","type":"desk.start","id":"20261020-0141-linkedin-instagram-portrait-neighbour","desk":"ui-designer","model":"openai/mini","tier":"senior","task":"rough 1, editorial split"}
+{"t":"2026-10-20T06:42:00.626Z","type":"desk.start","id":"20261020-0141-linkedin-instagram-portrait-neighbour","desk":"ui-designer","model":"openai/mini","tier":"senior","task":"rough 2, full bleed with scrim"}
+{"t":"2026-10-20T06:42:00.710Z","type":"desk.start","id":"20261020-0141-linkedin-instagram-portrait-neighbour","desk":"ui-designer","model":"openai/mini","tier":"senior","task":"rough 3, type only"}
+{"t":"2026-10-20T06:42:27.555Z","type":"desk.stop","id":"20261020-0141-linkedin-instagram-portrait-neighbour","desk":"ui-designer","tier":"senior","status":"done","seconds":27,"model":"openai/mini","modelId":"gpt-6.1-sol","tokens":{"input":19460,"output":1772,"cacheRead":33408,"cacheWrite":0,"total":54640},"costUsd":0.0599808}
+{"t":"2026-10-20T06:42:37.152Z","type":"desk.stop","id":"20261020-0141-linkedin-instagram-portrait-neighbour","desk":"ui-designer","tier":"senior","status":"done","seconds":37,"model":"openai/mini","modelId":"gpt-6.1-sol","tokens":{"input":5162,"output":1796,"cacheRead":47616,"cacheWrite":0,"total":54574},"costUsd":0.0330456}
+{"t":"2026-10-20T06:42:45.612Z","type":"desk.stop","id":"20261020-0141-linkedin-instagram-portrait-neighbour","desk":"ui-designer","tier":"senior","status":"done","seconds":45,"model":"openai/mini","modelId":"gpt-6.1-sol","tokens":{"input":26649,"output":2322,"cacheRead":26112,"cacheWrite":0,"total":55083},"costUsd":0.0791292}
+{"t":"2026-10-20T06:42:49.753Z","type":"job.phase","id":"20261020-0141-linkedin-instagram-portrait-neighbour","phase":"pick","round":0}
+{"t":"2026-10-20T06:42:49.808Z","type":"desk.start","id":"20261020-0141-linkedin-instagram-portrait-neighbour","desk":"art-director","model":"openai/large","tier":"director","task":"pick"}
+{"t":"2026-10-20T06:43:07.838Z","type":"desk.stop","id":"20261020-0141-linkedin-instagram-portrait-neighbour","desk":"art-director","tier":"director","status":"done","seconds":18,"model":"openai/large","modelId":"gpt-6-astra","tokens":{"input":13570,"output":497,"cacheRead":24704,"cacheWrite":0,"total":38771},"costUsd":0.185254}
+{"t":"2026-10-20T06:43:07.880Z","type":"job.pick","id":"20261020-0141-linkedin-instagram-portrait-neighbour","by":"art-director","rough":1}
+{"t":"2026-10-20T06:43:07.932Z","type":"job.phase","id":"20261020-0141-linkedin-instagram-portrait-neighbour","phase":"polish","round":1}
+{"t":"2026-10-20T06:43:07.987Z","type":"desk.start","id":"20261020-0141-linkedin-instagram-portrait-neighbour","desk":"ui-designer","model":"openai/mini","tier":"builder","task":"polish round 1"}
+{"t":"2026-10-20T06:43:33.301Z","type":"desk.stop","id":"20261020-0141-linkedin-instagram-portrait-neighbour","desk":"ui-designer","tier":"builder","status":"done","seconds":25,"model":"openai/mini","modelId":"gpt-6.1-sol","tokens":{"input":8905,"output":1264,"cacheRead":51456,"cacheWrite":0,"total":61625},"costUsd":0.0355956}
+{"t":"2026-10-20T06:43:33.349Z","type":"job.phase","id":"20261020-0141-linkedin-instagram-portrait-neighbour","phase":"proof","round":1}
+{"t":"2026-10-20T06:43:35.001Z","type":"job.proof","id":"20261020-0141-linkedin-instagram-portrait-neighbour","round":1,"pass":false,"failures":1}
+{"t":"2026-10-20T06:43:35.057Z","type":"job.phase","id":"20261020-0141-linkedin-instagram-portrait-neighbour","phase":"polish","round":2}
+{"t":"2026-10-20T06:43:35.114Z","type":"desk.start","id":"20261020-0141-linkedin-instagram-portrait-neighbour","desk":"ui-designer","model":"openai/mini","tier":"builder","task":"polish round 2"}
+{"t":"2026-10-20T06:43:57.967Z","type":"desk.stop","id":"20261020-0141-linkedin-instagram-portrait-neighbour","desk":"ui-designer","tier":"builder","status":"done","seconds":23,"model":"openai/mini","modelId":"gpt-6.1-sol","tokens":{"input":8639,"output":1049,"cacheRead":51328,"cacheWrite":0,"total":61016},"costUsd":0.0329008}
+{"t":"2026-10-20T06:43:58.008Z","type":"job.phase","id":"20261020-0141-linkedin-instagram-portrait-neighbour","phase":"proof","round":2}
+{"t":"2026-10-20T06:43:59.569Z","type":"job.proof","id":"20261020-0141-linkedin-instagram-portrait-neighbour","round":2,"pass":true,"failures":0}
+{"t":"2026-10-20T06:43:59.620Z","type":"job.phase","id":"20261020-0141-linkedin-instagram-portrait-neighbour","phase":"signoff","round":2}
+{"t":"2026-10-20T06:43:59.673Z","type":"desk.start","id":"20261020-0141-linkedin-instagram-portrait-neighbour","desk":"creative-director","model":"openai/large","tier":"director","task":"sign-off round 2"}
+{"t":"2026-10-20T06:44:21.768Z","type":"desk.stop","id":"20261020-0141-linkedin-instagram-portrait-neighbour","desk":"creative-director","tier":"director","status":"done","seconds":22,"model":"openai/large","modelId":"gpt-6-astra","tokens":{"input":8478,"output":701,"cacheRead":24704,"cacheWrite":0,"total":33883},"costUsd":0.144534}
+{"t":"2026-10-20T06:44:21.806Z","type":"job.score","id":"20261020-0141-linkedin-instagram-portrait-neighbour","round":2,"average":8.38,"pass":false}
+{"t":"2026-10-20T06:44:21.855Z","type":"job.phase","id":"20261020-0141-linkedin-instagram-portrait-neighbour","phase":"polish","round":3}
+{"t":"2026-10-20T06:44:21.907Z","type":"desk.start","id":"20261020-0141-linkedin-instagram-portrait-neighbour","desk":"ui-designer","model":"openai/mini","tier":"builder","task":"polish round 3"}
+{"t":"2026-10-20T06:45:06.185Z","type":"desk.stop","id":"20261020-0141-linkedin-instagram-portrait-neighbour","desk":"ui-designer","tier":"builder","status":"done","seconds":44,"model":"openai/mini","modelId":"gpt-6.1-sol","tokens":{"input":8838,"output":2433,"cacheRead":51456,"cacheWrite":0,"total":62727},"costUsd":0.0471516}
+{"t":"2026-10-20T06:45:06.224Z","type":"job.phase","id":"20261020-0141-linkedin-instagram-portrait-neighbour","phase":"proof","round":3}
+{"t":"2026-10-20T06:45:07.834Z","type":"job.proof","id":"20261020-0141-linkedin-instagram-portrait-neighbour","round":3,"pass":true,"failures":0}
+{"t":"2026-10-20T06:45:07.901Z","type":"job.phase","id":"20261020-0141-linkedin-instagram-portrait-neighbour","phase":"signoff","round":3}
+{"t":"2026-10-20T06:45:07.966Z","type":"desk.start","id":"20261020-0141-linkedin-instagram-portrait-neighbour","desk":"creative-director","model":"openai/large","tier":"director","task":"sign-off round 3"}
+{"t":"2026-10-20T06:45:32.152Z","type":"desk.stop","id":"20261020-0141-linkedin-instagram-portrait-neighbour","desk":"creative-director","tier":"director","status":"done","seconds":24,"model":"openai/large","modelId":"gpt-6-astra","tokens":{"input":8478,"output":585,"cacheRead":24704,"cacheWrite":0,"total":33767},"costUsd":0.138734}
+{"t":"2026-10-20T06:45:32.193Z","type":"job.score","id":"20261020-0141-linkedin-instagram-portrait-neighbour","round":3,"average":8.25,"pass":false}
+{"t":"2026-10-20T06:45:32.242Z","type":"job.phase","id":"20261020-0141-linkedin-instagram-portrait-neighbour","phase":"polish","round":4}
+{"t":"2026-10-20T06:45:32.293Z","type":"desk.start","id":"20261020-0141-linkedin-instagram-portrait-neighbour","desk":"ui-designer","model":"openai/mini","tier":"builder","task":"polish round 4"}
+{"t":"2026-10-20T06:46:11.384Z","type":"desk.stop","id":"20261020-0141-linkedin-instagram-portrait-neighbour","desk":"ui-designer","tier":"builder","status":"done","seconds":39,"model":"openai/mini","modelId":"gpt-6.1-sol","tokens":{"input":8867,"output":1908,"cacheRead":51456,"cacheWrite":0,"total":62231},"costUsd":0.0419596}
+{"t":"2026-10-20T06:46:11.430Z","type":"job.phase","id":"20261020-0141-linkedin-instagram-portrait-neighbour","phase":"proof","round":4}
+{"t":"2026-10-20T06:46:12.872Z","type":"job.proof","id":"20261020-0141-linkedin-instagram-portrait-neighbour","round":4,"pass":true,"failures":0}
+{"t":"2026-10-20T06:46:12.913Z","type":"job.phase","id":"20261020-0141-linkedin-instagram-portrait-neighbour","phase":"signoff","round":4}
+{"t":"2026-10-20T06:46:12.954Z","type":"desk.start","id":"20261020-0141-linkedin-instagram-portrait-neighbour","desk":"creative-director","model":"openai/large","tier":"director","task":"sign-off round 4"}
+{"t":"2026-10-20T06:46:34.770Z","type":"desk.stop","id":"20261020-0141-linkedin-instagram-portrait-neighbour","desk":"creative-director","tier":"director","status":"done","seconds":22,"model":"openai/large","modelId":"gpt-6-astra","tokens":{"input":8478,"output":703,"cacheRead":24704,"cacheWrite":0,"total":33885},"costUsd":0.144634}
+{"t":"2026-10-20T06:46:34.806Z","type":"job.score","id":"20261020-0141-linkedin-instagram-portrait-neighbour","round":4,"average":8.5,"pass":false}
+{"t":"2026-10-20T06:46:34.849Z","type":"job.phase","id":"20261020-0141-linkedin-instagram-portrait-neighbour","phase":"polish","round":5}
+{"t":"2026-10-20T06:46:34.897Z","type":"desk.start","id":"20261020-0141-linkedin-instagram-portrait-neighbour","desk":"ui-designer","model":"openai/mini","tier":"senior","task":"polish round 5, escalated"}
+{"t":"2026-10-20T06:47:10.261Z","type":"desk.stop","id":"20261020-0141-linkedin-instagram-portrait-neighbour","desk":"ui-designer","tier":"senior","status":"done","seconds":35,"model":"openai/mini","modelId":"gpt-6.1-sol","tokens":{"input":8529,"output":1809,"cacheRead":21504,"cacheWrite":0,"total":31842},"costUsd":0.0372984}
+{"t":"2026-10-20T06:47:10.304Z","type":"job.phase","id":"20261020-0141-linkedin-instagram-portrait-neighbour","phase":"proof","round":5}
+{"t":"2026-10-20T06:47:11.902Z","type":"job.proof","id":"20261020-0141-linkedin-instagram-portrait-neighbour","round":5,"pass":true,"failures":0}
+{"t":"2026-10-20T06:47:11.950Z","type":"job.phase","id":"20261020-0141-linkedin-instagram-portrait-neighbour","phase":"signoff","round":5}
+{"t":"2026-10-20T06:47:12.007Z","type":"desk.start","id":"20261020-0141-linkedin-instagram-portrait-neighbour","desk":"creative-director","model":"openai/large","tier":"director","task":"sign-off round 5"}
+{"t":"2026-10-20T06:47:31.742Z","type":"desk.stop","id":"20261020-0141-linkedin-instagram-portrait-neighbour","desk":"creative-director","tier":"director","status":"done","seconds":20,"model":"openai/large","modelId":"gpt-6-astra","tokens":{"input":33182,"output":582,"cacheRead":0,"cacheWrite":0,"total":33764},"costUsd":0.36092}
+{"t":"2026-10-20T06:47:31.781Z","type":"job.score","id":"20261020-0141-linkedin-instagram-portrait-neighbour","round":5,"average":8.38,"pass":false}
+{"t":"2026-10-20T06:47:31.830Z","type":"job.phase","id":"20261020-0141-linkedin-instagram-portrait-neighbour","phase":"polish","round":6}
+{"t":"2026-10-20T06:47:31.881Z","type":"desk.start","id":"20261020-0141-linkedin-instagram-portrait-neighbour","desk":"ui-designer","model":"openai/mini","tier":"senior","task":"polish round 6, escalated"}
+{"t":"2026-10-20T06:48:10.103Z","type":"desk.stop","id":"20261020-0141-linkedin-instagram-portrait-neighbour","desk":"ui-designer","tier":"senior","status":"done","seconds":38,"model":"openai/mini","modelId":"gpt-6.1-sol","tokens":{"input":23226,"output":1939,"cacheRead":37376,"cacheWrite":0,"total":62541},"costUsd":0.0695796}
+{"t":"2026-10-20T06:48:10.148Z","type":"job.phase","id":"20261020-0141-linkedin-instagram-portrait-neighbour","phase":"proof","round":6}
+{"t":"2026-10-20T06:48:11.729Z","type":"job.proof","id":"20261020-0141-linkedin-instagram-portrait-neighbour","round":6,"pass":true,"failures":0}
+{"t":"2026-10-20T06:48:11.779Z","type":"job.phase","id":"20261020-0141-linkedin-instagram-portrait-neighbour","phase":"signoff","round":6}
+{"t":"2026-10-20T06:48:11.828Z","type":"desk.start","id":"20261020-0141-linkedin-instagram-portrait-neighbour","desk":"creative-director","model":"openai/large","tier":"director","task":"sign-off round 6"}
+{"t":"2026-10-20T06:48:30.954Z","type":"desk.stop","id":"20261020-0141-linkedin-instagram-portrait-neighbour","desk":"creative-director","tier":"director","status":"done","seconds":19,"model":"openai/large","modelId":"gpt-6-astra","tokens":{"input":33182,"output":638,"cacheRead":0,"cacheWrite":0,"total":33820},"costUsd":0.36372}
+{"t":"2026-10-20T06:48:30.994Z","type":"job.score","id":"20261020-0141-linkedin-instagram-portrait-neighbour","round":6,"average":8.63,"pass":false}
+{"t":"2026-10-20T06:48:31.045Z","type":"job.waiting","id":"20261020-0141-linkedin-instagram-portrait-neighbour","on":"approve_under_bar"}
+{"t":"2026-10-20T06:48:31.092Z","type":"job.phase","id":"20261020-0141-linkedin-instagram-portrait-neighbour","phase":"handback","round":6}
+{"t":"2026-10-20T06:48:31.143Z","type":"job.done","id":"20261020-0141-linkedin-instagram-portrait-neighbour","rounds":6,"average":8.63,"pass":false}

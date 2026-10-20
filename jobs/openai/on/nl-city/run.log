@@ -1,0 +1,53 @@
+[desk] job 20261020-0144-linkedin-instagram-portrait-installs in .desk/jobs/20261020-0144-linkedin-instagram-portrait-installs (studio: director openai/large, senior openai/mini, builder openai/mini, 6 rounds)
+[desk] design-manager: intake at openai/large
+[desk] design-manager: done in 18s, 0.3494 usd
+[desk] brief written: sizes linkedin, ig-post, 3 copy lines
+[desk] brand font Inter inlined by the runner into every file (63 KB)
+[desk] ui-designer: rough 1, editorial split at openai/mini
+[desk] ui-designer: rough 2, full bleed with scrim at openai/mini
+[desk] ui-designer: rough 3, type only at openai/mini
+[desk] ui-designer: done in 45s, 0.0820 usd
+[desk] ui-designer: done in 48s, 0.0391 usd
+[desk] ui-designer: done in 50s, 0.0391 usd
+[desk] rough 1 rendered to .desk/jobs/20261020-0144-linkedin-instagram-portrait-installs/renders/roughs/rough-1
+[desk] rough 2 rendered to .desk/jobs/20261020-0144-linkedin-instagram-portrait-installs/renders/roughs/rough-2
+[desk] rough 3 rendered to .desk/jobs/20261020-0144-linkedin-instagram-portrait-installs/renders/roughs/rough-3
+[desk] art-director: pick at openai/large with 6 screenshots
+[desk] art-director: done in 25s, 0.4253 usd
+[desk] pick: rough 3 (type only) by art-director, 3 notes
+[desk] ui-designer: polish round 1 at openai/mini with 2 screenshots
+[desk] ui-designer: done in 28s, 0.0341 usd
+[desk] proof round 1: 1 failure (safe-zone)
+[desk] ui-designer: polish round 2 at openai/mini with 2 screenshots
+[desk] ui-designer: done in 25s, 0.0324 usd
+[desk] proof round 2: pass
+[desk] creative-director: sign-off round 2 at openai/large with 2 screenshots
+[desk] creative-director: done in 24s, 0.1444 usd
+[desk] sign-off round 2: hierarchy 9, typography 8, spacing 9, colour 9, composition 8, originality 6, brand 9, copy 9, average 8.38, under the bar
+[desk] ui-designer: polish round 3 at openai/mini with 2 screenshots
+[desk] ui-designer: done in 23s, 0.0323 usd
+[desk] proof round 3: 2 failures (safe-zone)
+[desk] ui-designer: polish round 4 at openai/mini with 2 screenshots
+[desk] ui-designer: done in 24s, 0.0318 usd
+[desk] proof round 4: pass
+[desk] creative-director: sign-off round 4 at openai/large with 2 screenshots
+[desk] creative-director: done in 27s, 0.3842 usd
+[desk] sign-off round 4: hierarchy 9, typography 8, spacing 9, colour 9, composition 8, originality 6, brand 9, copy 9, average 8.38, under the bar
+[desk] ui-designer: polish round 5 at openai/mini with 2 screenshots
+[desk] ui-designer: done in 20s, 0.0607 usd
+[desk] proof round 5: 1 failure (safe-zone)
+[desk] ui-designer: polish round 6 at openai/mini with 2 screenshots
+[desk] ui-designer: done in 22s, 0.0317 usd
+[desk] proof round 6: pass
+[desk] creative-director: sign-off round 6 at openai/large with 2 screenshots
+[desk] creative-director: done in 27s, 0.3756 usd
+[desk] sign-off round 6: hierarchy 9, typography 9, spacing 8, colour 9, composition 8, originality 6, brand 9, copy 9, average 8.38, under the bar
+[desk] round cap 6 reached, handing back under the bar
+Done: social-card for a LinkedIn card and an, 6 files in .desk/out/20261020-0144-linkedin-instagram-portrait-installs/
+  final.html, renders at linkedin and ig-post in .desk/jobs/20261020-0144-linkedin-instagram-portrait-installs/renders/round-6/
+Desks: UI Designer x3 roughs (mini), Art Director pick (large), UI Designer polish x6 (mini), Creative Director sign-off x3 (large)
+Pick: rough 3, type only, "The announcement reads first at both sizes; oversized type gives the simplest direction the strongest shape."
+Scores: hierarchy 9, typography 9, spacing 8, colour 9, composition 8, originality 6, brand 9, copy 9, average 8.38, under the bar
+Rounds: 6 of 6. Proof: passed on round 2 after 1 fix.
+Cost: director 1.68, senior 0.16, builder 0.22, total 2.06 (list prices, from the CLI)
+Open: originality under 8, originality: Replace the conventional stepped headline with 1 bespoke typographic lockup across both formats; explore aligning “installing” and “Minneapolis” to a shared right edge while preserving the copy, 3-line structure and single accent.

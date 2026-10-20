@@ -1,0 +1,125 @@
+{
+  "width": 1080,
+  "height": 1350,
+  "scrollWidth": 1080,
+  "scrollHeight": 1350,
+  "boxes": [
+    {
+      "x": 72,
+      "y": 37,
+      "width": 613.78125,
+      "height": 303,
+      "text": "Add a",
+      "color": "rgb(244, 244, 245)",
+      "opacity": 1,
+      "fontSize": 233,
+      "fontWeight": 600,
+      "fontFamily": "Geist, Inter, Arial, sans-serif",
+      "clips": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1350,
+          "clipX": true,
+          "clipY": true
+        }
+      ]
+    },
+    {
+      "x": 72,
+      "y": 270,
+      "width": 575.046875,
+      "height": 303,
+      "text": "desk.",
+      "color": "rgb(255, 176, 0)",
+      "opacity": 1,
+      "fontSize": 233,
+      "fontWeight": 600,
+      "fontFamily": "Geist, Inter, Arial, sans-serif",
+      "clips": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1350,
+          "clipX": true,
+          "clipY": true
+        }
+      ]
+    },
+    {
+      "x": 72,
+      "y": 635,
+      "width": 297.6875,
+      "height": 63,
+      "text": "One brief file.",
+      "color": "rgb(244, 244, 245)",
+      "opacity": 1,
+      "fontSize": 49,
+      "fontWeight": 400,
+      "fontFamily": "Geist, Inter, Arial, sans-serif",
+      "clips": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1350,
+          "clipX": true,
+          "clipY": true
+        }
+      ]
+    },
+    {
+      "x": 72,
+      "y": 701.140625,
+      "width": 376.8125,
+      "height": 63,
+      "text": "One registry line.",
+      "color": "rgb(244, 244, 245)",
+      "opacity": 1,
+      "fontSize": 49,
+      "fontWeight": 400,
+      "fontFamily": "Geist, Inter, Arial, sans-serif",
+      "clips": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1350,
+          "clipX": true,
+          "clipY": true
+        }
+      ]
+    },
+    {
+      "x": 72,
+      "y": 1172,
+      "width": 149.9375,
+      "height": 32,
+      "text": "deskstudio.ai",
+      "color": "rgb(244, 244, 245)",
+      "opacity": 1,
+      "fontSize": 25,
+      "fontWeight": 400,
+      "fontFamily": "Geist, Inter, Arial, sans-serif",
+      "clips": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1350,
+          "clipX": true,
+          "clipY": true
+        }
+      ]
+    }
+  ],
+  "fonts": {
+    "Geist": true,
+    "Inter": false,
+    "Arial": true,
+    "sans-serif": true
+  },
+  "images": 0
+}

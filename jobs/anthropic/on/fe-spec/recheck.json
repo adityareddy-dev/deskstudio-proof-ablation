@@ -1,0 +1,94 @@
+{
+ "family": "anthropic",
+ "arm": "on",
+ "case": "fe-spec",
+ "jobId": "20261020-0149-linkedin-instagram-portrait-spec",
+ "rounds": [
+  {
+   "round": 1,
+   "sizes": [
+    {
+     "size": "ig-post",
+     "failures": [
+      {
+       "check": "safe-zone",
+       "text": "0.01mm.",
+       "reason": "64px from the left edge, the safe zone starts at 65px; 41px from the top edge, the safe zone starts at 81px"
+      },
+      {
+       "check": "safe-zone",
+       "text": "On your",
+       "reason": "64px from the left edge, the safe zone starts at 65px"
+      },
+      {
+       "check": "safe-zone",
+       "text": "desk.",
+       "reason": "64px from the left edge, the safe zone starts at 65px"
+      },
+      {
+       "check": "safe-zone",
+       "text": "Steel, not plastic.",
+       "reason": "64px from the left edge, the safe zone starts at 65px"
+      },
+      {
+       "check": "safe-zone",
+       "text": "ferro.tools",
+       "reason": "ends 64px from the right edge, the safe zone is 65px; ends 130px from the bottom edge, the safe zone is 135px"
+      }
+     ]
+    },
+    {
+     "size": "linkedin",
+     "failures": []
+    }
+   ],
+   "failures": 5,
+   "byCheck": {
+    "safe-zone": 5
+   }
+  },
+  {
+   "round": 2,
+   "sizes": [
+    {
+     "size": "ig-post",
+     "failures": [
+      {
+       "check": "safe-zone",
+       "text": "0.01mm.",
+       "reason": "58px from the top edge, the safe zone starts at 81px"
+      },
+      {
+       "check": "safe-zone",
+       "text": "ferro.tools",
+       "reason": "ends 132px from the bottom edge, the safe zone is 135px"
+      }
+     ]
+    },
+    {
+     "size": "linkedin",
+     "failures": []
+    }
+   ],
+   "failures": 2,
+   "byCheck": {
+    "safe-zone": 2
+   }
+  },
+  {
+   "round": 3,
+   "sizes": [
+    {
+     "size": "ig-post",
+     "failures": []
+    },
+    {
+     "size": "linkedin",
+     "failures": []
+    }
+   ],
+   "failures": 0,
+   "byCheck": {}
+  }
+ ]
+}

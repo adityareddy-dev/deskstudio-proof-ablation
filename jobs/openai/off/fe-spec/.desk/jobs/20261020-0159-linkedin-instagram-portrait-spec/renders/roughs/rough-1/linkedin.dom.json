@@ -1,0 +1,80 @@
+{
+  "width": 1200,
+  "height": 627,
+  "scrollWidth": 1200,
+  "scrollHeight": 627,
+  "boxes": [
+    {
+      "x": 753.390625,
+      "y": 251.09375,
+      "width": 374.59375,
+      "height": 123,
+      "text": "0.01mm.",
+      "color": "rgb(229, 23, 63)",
+      "opacity": 1,
+      "fontSize": 95,
+      "fontWeight": 700,
+      "fontFamily": "Geist, Inter, Arial, sans-serif",
+      "clips": []
+    },
+    {
+      "x": 72,
+      "y": 59,
+      "width": 348.90625,
+      "height": 123,
+      "text": "On your",
+      "color": "rgb(10, 10, 10)",
+      "opacity": 1,
+      "fontSize": 95,
+      "fontWeight": 700,
+      "fontFamily": "Geist, Inter, Arial, sans-serif",
+      "clips": []
+    },
+    {
+      "x": 72,
+      "y": 157.796875,
+      "width": 241.5,
+      "height": 123,
+      "text": "desk.",
+      "color": "rgb(10, 10, 10)",
+      "opacity": 1,
+      "fontSize": 95,
+      "fontWeight": 700,
+      "fontFamily": "Geist, Inter, Arial, sans-serif",
+      "clips": []
+    },
+    {
+      "x": 72,
+      "y": 313,
+      "width": 243.046875,
+      "height": 40,
+      "text": "Steel, not plastic.",
+      "color": "rgb(10, 10, 10)",
+      "opacity": 1,
+      "fontSize": 31,
+      "fontWeight": 400,
+      "fontFamily": "Geist, Inter, Arial, sans-serif",
+      "clips": []
+    },
+    {
+      "x": 72,
+      "y": 553,
+      "width": 116.0625,
+      "height": 32,
+      "text": "ferro.tools",
+      "color": "rgb(10, 10, 10)",
+      "opacity": 1,
+      "fontSize": 25,
+      "fontWeight": 400,
+      "fontFamily": "Geist, Inter, Arial, sans-serif",
+      "clips": []
+    }
+  ],
+  "fonts": {
+    "Geist": true,
+    "Inter": false,
+    "Arial": true,
+    "sans-serif": true
+  },
+  "images": 0
+}

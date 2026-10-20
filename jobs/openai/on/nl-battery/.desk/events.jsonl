@@ -1,0 +1,39 @@
+{"t":"2026-10-20T06:38:05.921Z","type":"job.start","id":"20261020-0138-linkedin-instagram-portrait-new","command":"design","deliverable":"social-card"}
+{"t":"2026-10-20T06:38:05.996Z","type":"desk.start","id":"20261020-0138-linkedin-instagram-portrait-new","desk":"design-manager","model":"openai/large","tier":"director","task":"intake"}
+{"t":"2026-10-20T06:38:23.263Z","type":"desk.stop","id":"20261020-0138-linkedin-instagram-portrait-new","desk":"design-manager","tier":"director","status":"done","seconds":17,"model":"openai/large","modelId":"gpt-6-astra","tokens":{"input":32468,"output":439,"cacheRead":0,"cacheWrite":0,"total":32907},"costUsd":0.34663}
+{"t":"2026-10-20T06:38:23.310Z","type":"job.phase","id":"20261020-0138-linkedin-instagram-portrait-new","phase":"roughs","round":0}
+{"t":"2026-10-20T06:38:23.507Z","type":"desk.start","id":"20261020-0138-linkedin-instagram-portrait-new","desk":"ui-designer","model":"openai/mini","tier":"senior","task":"rough 1, editorial split"}
+{"t":"2026-10-20T06:38:23.615Z","type":"desk.start","id":"20261020-0138-linkedin-instagram-portrait-new","desk":"ui-designer","model":"openai/mini","tier":"senior","task":"rough 2, full bleed with scrim"}
+{"t":"2026-10-20T06:38:23.735Z","type":"desk.start","id":"20261020-0138-linkedin-instagram-portrait-new","desk":"ui-designer","model":"openai/mini","tier":"senior","task":"rough 3, type only"}
+{"t":"2026-10-20T06:39:11.470Z","type":"desk.stop","id":"20261020-0138-linkedin-instagram-portrait-new","desk":"ui-designer","tier":"senior","status":"done","seconds":48,"model":"openai/mini","modelId":"gpt-6.1-sol","tokens":{"input":5109,"output":1998,"cacheRead":47616,"cacheWrite":0,"total":54723},"costUsd":0.0349596}
+{"t":"2026-10-20T06:39:11.795Z","type":"desk.stop","id":"20261020-0138-linkedin-instagram-portrait-new","desk":"ui-designer","tier":"senior","status":"done","seconds":48,"model":"openai/mini","modelId":"gpt-6.1-sol","tokens":{"input":5094,"output":2210,"cacheRead":47616,"cacheWrite":0,"total":54920},"costUsd":0.0370496}
+{"t":"2026-10-20T06:39:19.589Z","type":"desk.stop","id":"20261020-0138-linkedin-instagram-portrait-new","desk":"ui-designer","tier":"senior","status":"done","seconds":56,"model":"openai/mini","modelId":"gpt-6.1-sol","tokens":{"input":26626,"output":2961,"cacheRead":26112,"cacheWrite":0,"total":55699},"costUsd":0.0854732}
+{"t":"2026-10-20T06:39:23.916Z","type":"job.phase","id":"20261020-0138-linkedin-instagram-portrait-new","phase":"pick","round":0}
+{"t":"2026-10-20T06:39:23.981Z","type":"desk.start","id":"20261020-0138-linkedin-instagram-portrait-new","desk":"art-director","model":"openai/large","tier":"director","task":"pick"}
+{"t":"2026-10-20T06:39:42.884Z","type":"desk.stop","id":"20261020-0138-linkedin-instagram-portrait-new","desk":"art-director","tier":"director","status":"done","seconds":19,"model":"openai/large","modelId":"gpt-6-astra","tokens":{"input":13597,"output":597,"cacheRead":24704,"cacheWrite":0,"total":38898},"costUsd":0.190524}
+{"t":"2026-10-20T06:39:42.946Z","type":"job.pick","id":"20261020-0138-linkedin-instagram-portrait-new","by":"art-director","rough":3}
+{"t":"2026-10-20T06:39:43.014Z","type":"job.phase","id":"20261020-0138-linkedin-instagram-portrait-new","phase":"polish","round":1}
+{"t":"2026-10-20T06:39:43.076Z","type":"desk.start","id":"20261020-0138-linkedin-instagram-portrait-new","desk":"ui-designer","model":"openai/mini","tier":"builder","task":"polish round 1"}
+{"t":"2026-10-20T06:40:06.604Z","type":"desk.stop","id":"20261020-0138-linkedin-instagram-portrait-new","desk":"ui-designer","tier":"builder","status":"done","seconds":24,"model":"openai/mini","modelId":"gpt-6.1-sol","tokens":{"input":30025,"output":908,"cacheRead":29568,"cacheWrite":0,"total":60501},"costUsd":0.0720868}
+{"t":"2026-10-20T06:40:06.644Z","type":"job.phase","id":"20261020-0138-linkedin-instagram-portrait-new","phase":"proof","round":1}
+{"t":"2026-10-20T06:40:08.208Z","type":"job.proof","id":"20261020-0138-linkedin-instagram-portrait-new","round":1,"pass":false,"failures":2}
+{"t":"2026-10-20T06:40:08.259Z","type":"job.phase","id":"20261020-0138-linkedin-instagram-portrait-new","phase":"polish","round":2}
+{"t":"2026-10-20T06:40:08.312Z","type":"desk.start","id":"20261020-0138-linkedin-instagram-portrait-new","desk":"ui-designer","model":"openai/mini","tier":"builder","task":"polish round 2"}
+{"t":"2026-10-20T06:40:28.120Z","type":"desk.stop","id":"20261020-0138-linkedin-instagram-portrait-new","desk":"ui-designer","tier":"builder","status":"done","seconds":20,"model":"openai/mini","modelId":"gpt-6.1-sol","tokens":{"input":22447,"output":874,"cacheRead":7296,"cacheWrite":0,"total":30617},"costUsd":0.0543636}
+{"t":"2026-10-20T06:40:28.167Z","type":"job.phase","id":"20261020-0138-linkedin-instagram-portrait-new","phase":"proof","round":2}
+{"t":"2026-10-20T06:40:29.867Z","type":"job.proof","id":"20261020-0138-linkedin-instagram-portrait-new","round":2,"pass":true,"failures":0}
+{"t":"2026-10-20T06:40:29.919Z","type":"job.phase","id":"20261020-0138-linkedin-instagram-portrait-new","phase":"signoff","round":2}
+{"t":"2026-10-20T06:40:29.981Z","type":"desk.start","id":"20261020-0138-linkedin-instagram-portrait-new","desk":"creative-director","model":"openai/large","tier":"director","task":"sign-off round 2"}
+{"t":"2026-10-20T06:40:55.883Z","type":"desk.stop","id":"20261020-0138-linkedin-instagram-portrait-new","desk":"creative-director","tier":"director","status":"done","seconds":26,"model":"openai/large","modelId":"gpt-6-astra","tokens":{"input":32967,"output":933,"cacheRead":0,"cacheWrite":0,"total":33900},"costUsd":0.37632}
+{"t":"2026-10-20T06:40:55.930Z","type":"job.score","id":"20261020-0138-linkedin-instagram-portrait-new","round":2,"average":8.5,"pass":false}
+{"t":"2026-10-20T06:40:56.003Z","type":"job.phase","id":"20261020-0138-linkedin-instagram-portrait-new","phase":"polish","round":3}
+{"t":"2026-10-20T06:40:56.075Z","type":"desk.start","id":"20261020-0138-linkedin-instagram-portrait-new","desk":"ui-designer","model":"openai/mini","tier":"builder","task":"polish round 3"}
+{"t":"2026-10-20T06:41:16.754Z","type":"desk.stop","id":"20261020-0138-linkedin-instagram-portrait-new","desk":"ui-designer","tier":"builder","status":"done","seconds":21,"model":"openai/mini","modelId":"gpt-6.1-sol","tokens":{"input":8259,"output":835,"cacheRead":21504,"cacheWrite":0,"total":30598},"costUsd":0.0270184}
+{"t":"2026-10-20T06:41:16.798Z","type":"job.phase","id":"20261020-0138-linkedin-instagram-portrait-new","phase":"proof","round":3}
+{"t":"2026-10-20T06:41:18.434Z","type":"job.proof","id":"20261020-0138-linkedin-instagram-portrait-new","round":3,"pass":true,"failures":0}
+{"t":"2026-10-20T06:41:18.488Z","type":"job.phase","id":"20261020-0138-linkedin-instagram-portrait-new","phase":"signoff","round":3}
+{"t":"2026-10-20T06:41:18.545Z","type":"desk.start","id":"20261020-0138-linkedin-instagram-portrait-new","desk":"creative-director","model":"openai/large","tier":"director","task":"sign-off round 3"}
+{"t":"2026-10-20T06:41:41.000Z","type":"desk.stop","id":"20261020-0138-linkedin-instagram-portrait-new","desk":"creative-director","tier":"director","status":"done","seconds":22,"model":"openai/large","modelId":"gpt-6-astra","tokens":{"input":8263,"output":882,"cacheRead":24704,"cacheWrite":0,"total":33849},"costUsd":0.151434}
+{"t":"2026-10-20T06:41:41.041Z","type":"job.score","id":"20261020-0138-linkedin-instagram-portrait-new","round":3,"average":8.88,"pass":true}
+{"t":"2026-10-20T06:41:41.097Z","type":"job.phase","id":"20261020-0138-linkedin-instagram-portrait-new","phase":"handback","round":3}
+{"t":"2026-10-20T06:41:41.155Z","type":"job.done","id":"20261020-0138-linkedin-instagram-portrait-new","rounds":3,"average":8.88,"pass":true}

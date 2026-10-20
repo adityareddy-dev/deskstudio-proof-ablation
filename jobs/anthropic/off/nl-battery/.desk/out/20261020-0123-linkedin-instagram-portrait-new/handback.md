@@ -1,0 +1,8 @@
+Done: social-card for a LinkedIn card and an, 6 files in .desk/out/20261020-0123-linkedin-instagram-portrait-new/
+  final.html, renders at linkedin and ig-post in .desk/jobs/20261020-0123-linkedin-instagram-portrait-new/renders/round-6/
+Desks: UI Designer x3 roughs (sonnet), Art Director pick (opus), UI Designer polish x3 (haiku), UI Designer polish x3 escalated (sonnet), Creative Director sign-off x6 (opus)
+Pick: rough 1, editorial split, "Rough 1 is the only one that gives the news its own block without letting it compete with the headline. It uses both aspect ratios as designed, split on landscape and stacked on portrait. The accent sits on the figure, as the brand asks."
+Scores: hierarchy 9, typography 8, spacing 8, colour 9, composition 7, originality 7, brand 9, copy 9, average 8.25, under the bar
+Rounds: 6 of 6. Proof: not run (--no-proof).
+Cost: director 1.24, senior 0.37, builder 0.02, total 1.62 (list prices, from the CLI)
+Open: composition, originality under 8, composition: on linkedin, the right panel is empty for its top 460px and the left column has a 240px dead band. Raise the headline from 61px to 76px (three lines, 1.05 leading, top at 72px). Move the panel's left edge from 744px to 816px so "to break even." fits with at least 72px of gutter. Keep "Battery now included." at the bottom of the panel, with its baseline on the mark's baseline 72px above the bottom edge.; composition: on ig-post, the paper band between "Then free." (bottom about 410px) and the surface block (808px) is about 400px of plain air. Start the surface block at 704px. Keep the supporting line 72px below the block's top and the mark on the 10% bottom line at 64px left.

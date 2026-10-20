@@ -1,0 +1,169 @@
+{
+  "width": 1080,
+  "height": 1350,
+  "scrollWidth": 1080,
+  "scrollHeight": 1350,
+  "boxes": [
+    {
+      "x": 72,
+      "y": 89,
+      "width": 376.375,
+      "height": 194,
+      "text": "Open",
+      "color": "rgb(10, 10, 10)",
+      "opacity": 1,
+      "fontSize": 149,
+      "fontWeight": 700,
+      "fontFamily": "Geist, Inter, Arial, sans-serif",
+      "clips": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1350,
+          "clipX": true,
+          "clipY": true
+        }
+      ]
+    },
+    {
+      "x": 72,
+      "y": 238,
+      "width": 724.265625,
+      "height": 194,
+      "text": "workshop.",
+      "color": "rgb(10, 10, 10)",
+      "opacity": 1,
+      "fontSize": 149,
+      "fontWeight": 700,
+      "fontFamily": "Geist, Inter, Arial, sans-serif",
+      "clips": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1350,
+          "clipX": true,
+          "clipY": true
+        }
+      ]
+    },
+    {
+      "x": 72,
+      "y": 387,
+      "width": 637.734375,
+      "height": 194,
+      "text": "Saturday",
+      "color": "rgb(10, 10, 10)",
+      "opacity": 1,
+      "fontSize": 149,
+      "fontWeight": 700,
+      "fontFamily": "Geist, Inter, Arial, sans-serif",
+      "clips": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1350,
+          "clipX": true,
+          "clipY": true
+        }
+      ]
+    },
+    {
+      "x": 72,
+      "y": 536,
+      "width": 854.4375,
+      "height": 194,
+      "text": "November 8",
+      "color": "rgb(229, 23, 63)",
+      "opacity": 1,
+      "fontSize": 149,
+      "fontWeight": 700,
+      "fontFamily": "Geist, Inter, Arial, sans-serif",
+      "clips": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1350,
+          "clipX": true,
+          "clipY": true
+        }
+      ]
+    },
+    {
+      "x": 926.4375,
+      "y": 536,
+      "width": 32.1875,
+      "height": 194,
+      "text": ".",
+      "color": "rgb(10, 10, 10)",
+      "opacity": 1,
+      "fontSize": 149,
+      "fontWeight": 700,
+      "fontFamily": "Geist, Inter, Arial, sans-serif",
+      "clips": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1350,
+          "clipX": true,
+          "clipY": true
+        }
+      ]
+    },
+    {
+      "x": 72,
+      "y": 771,
+      "width": 528.34375,
+      "height": 51,
+      "text": "Bring a part. Leave with it cut.",
+      "color": "rgb(10, 10, 10)",
+      "opacity": 1,
+      "fontSize": 39,
+      "fontWeight": 400,
+      "fontFamily": "Geist, Inter, Arial, sans-serif",
+      "clips": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1350,
+          "clipX": true,
+          "clipY": true
+        }
+      ]
+    },
+    {
+      "x": 72,
+      "y": 1183,
+      "width": 92.84375,
+      "height": 26,
+      "text": "ferro.tools",
+      "color": "rgb(115, 115, 115)",
+      "opacity": 1,
+      "fontSize": 20,
+      "fontWeight": 400,
+      "fontFamily": "Geist, Inter, Arial, sans-serif",
+      "clips": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1350,
+          "clipX": true,
+          "clipY": true
+        }
+      ]
+    }
+  ],
+  "fonts": {
+    "Geist": true,
+    "Inter": false,
+    "Arial": true,
+    "sans-serif": true
+  },
+  "images": 0
+}

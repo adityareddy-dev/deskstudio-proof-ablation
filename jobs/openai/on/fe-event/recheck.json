@@ -1,0 +1,159 @@
+{
+ "family": "openai",
+ "arm": "on",
+ "case": "fe-event",
+ "jobId": "20261020-0207-linkedin-instagram-portrait-open",
+ "rounds": [
+  {
+   "round": 1,
+   "sizes": [
+    {
+     "size": "ig-post",
+     "failures": [
+      {
+       "check": "safe-zone",
+       "text": "Open",
+       "reason": "60px from the top edge, the safe zone starts at 81px"
+      }
+     ]
+    },
+    {
+     "size": "linkedin",
+     "failures": [
+      {
+       "check": "safe-zone",
+       "text": "Open",
+       "reason": "30px from the top edge, the safe zone starts at 38px"
+      }
+     ]
+    }
+   ],
+   "failures": 2,
+   "byCheck": {
+    "safe-zone": 2
+   }
+  },
+  {
+   "round": 2,
+   "sizes": [
+    {
+     "size": "ig-post",
+     "failures": []
+    },
+    {
+     "size": "linkedin",
+     "failures": []
+    }
+   ],
+   "failures": 0,
+   "byCheck": {}
+  },
+  {
+   "round": 3,
+   "sizes": [
+    {
+     "size": "ig-post",
+     "failures": [
+      {
+       "check": "safe-zone",
+       "text": "Bring a part.",
+       "reason": "70px from the top edge, the safe zone starts at 81px"
+      }
+     ]
+    },
+    {
+     "size": "linkedin",
+     "failures": []
+    }
+   ],
+   "failures": 1,
+   "byCheck": {
+    "safe-zone": 1
+   }
+  },
+  {
+   "round": 4,
+   "sizes": [
+    {
+     "size": "ig-post",
+     "failures": []
+    },
+    {
+     "size": "linkedin",
+     "failures": []
+    }
+   ],
+   "failures": 0,
+   "byCheck": {}
+  },
+  {
+   "round": 5,
+   "sizes": [
+    {
+     "size": "ig-post",
+     "failures": [
+      {
+       "check": "overflow",
+       "text": "",
+       "reason": "the document is 1840px wide on a 1080px canvas, something sits off the right edge (sideways scroll)"
+      },
+      {
+       "check": "overflow",
+       "text": "Saturday",
+       "reason": "runs off the canvas at 1656px,728px size 160pxx51px"
+      },
+      {
+       "check": "overflow",
+       "text": "November",
+       "reason": "runs off the canvas at 1656px,781px size 184pxx51px"
+      },
+      {
+       "check": "overflow",
+       "text": "8.",
+       "reason": "runs off the canvas at 1656px,813px size 160pxx242px"
+      },
+      {
+       "check": "safe-zone",
+       "text": "Saturday",
+       "reason": "ends -736px from the right edge, the safe zone is 65px"
+      },
+      {
+       "check": "safe-zone",
+       "text": "November",
+       "reason": "ends -760px from the right edge, the safe zone is 65px"
+      },
+      {
+       "check": "safe-zone",
+       "text": "8.",
+       "reason": "ends -736px from the right edge, the safe zone is 65px"
+      }
+     ]
+    },
+    {
+     "size": "linkedin",
+     "failures": []
+    }
+   ],
+   "failures": 7,
+   "byCheck": {
+    "overflow": 4,
+    "safe-zone": 3
+   }
+  },
+  {
+   "round": 6,
+   "sizes": [
+    {
+     "size": "ig-post",
+     "failures": []
+    },
+    {
+     "size": "linkedin",
+     "failures": []
+    }
+   ],
+   "failures": 0,
+   "byCheck": {}
+  }
+ ]
+}

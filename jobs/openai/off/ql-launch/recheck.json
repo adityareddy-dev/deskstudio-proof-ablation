@@ -1,0 +1,143 @@
+{
+ "family": "openai",
+ "arm": "off",
+ "case": "ql-launch",
+ "jobId": "20261020-0148-linkedin-instagram-portrait-feature",
+ "rounds": [
+  {
+   "round": 1,
+   "sizes": [
+    {
+     "size": "ig-post",
+     "failures": [
+      {
+       "check": "safe-zone",
+       "text": "Cut it.",
+       "reason": "59px from the top edge, the safe zone starts at 81px"
+      },
+      {
+       "check": "type-scale",
+       "text": "Cut it.",
+       "reason": "200px is off the brand scale (base 17, ratio 1.333), use 169px or 226px"
+      },
+      {
+       "check": "type-scale",
+       "text": "It",
+       "reason": "200px is off the brand scale (base 17, ratio 1.333), use 169px or 226px"
+      },
+      {
+       "check": "type-scale",
+       "text": "stays.",
+       "reason": "200px is off the brand scale (base 17, ratio 1.333), use 169px or 226px"
+      }
+     ]
+    },
+    {
+     "size": "linkedin",
+     "failures": [
+      {
+       "check": "safe-zone",
+       "text": "Cut it.",
+       "reason": "26px from the top edge, the safe zone starts at 38px"
+      }
+     ]
+    }
+   ],
+   "failures": 5,
+   "byCheck": {
+    "safe-zone": 2,
+    "type-scale": 3
+   }
+  },
+  {
+   "round": 2,
+   "sizes": [
+    {
+     "size": "ig-post",
+     "failures": [
+      {
+       "check": "safe-zone",
+       "text": "Cut it.",
+       "reason": "59px from the top edge, the safe zone starts at 81px"
+      },
+      {
+       "check": "type-scale",
+       "text": "Cut it.",
+       "reason": "200px is off the brand scale (base 17, ratio 1.333), use 169px or 226px"
+      },
+      {
+       "check": "type-scale",
+       "text": "It",
+       "reason": "200px is off the brand scale (base 17, ratio 1.333), use 169px or 226px"
+      },
+      {
+       "check": "type-scale",
+       "text": "stays.",
+       "reason": "200px is off the brand scale (base 17, ratio 1.333), use 169px or 226px"
+      }
+     ]
+    },
+    {
+     "size": "linkedin",
+     "failures": [
+      {
+       "check": "safe-zone",
+       "text": "Cut it.",
+       "reason": "16px from the top edge, the safe zone starts at 38px"
+      }
+     ]
+    }
+   ],
+   "failures": 5,
+   "byCheck": {
+    "safe-zone": 2,
+    "type-scale": 3
+   }
+  },
+  {
+   "round": 3,
+   "sizes": [
+    {
+     "size": "ig-post",
+     "failures": [
+      {
+       "check": "safe-zone",
+       "text": "Cut it.",
+       "reason": "59px from the top edge, the safe zone starts at 81px"
+      },
+      {
+       "check": "type-scale",
+       "text": "Cut it.",
+       "reason": "200px is off the brand scale (base 17, ratio 1.333), use 169px or 226px"
+      },
+      {
+       "check": "type-scale",
+       "text": "It",
+       "reason": "200px is off the brand scale (base 17, ratio 1.333), use 169px or 226px"
+      },
+      {
+       "check": "type-scale",
+       "text": "stays.",
+       "reason": "200px is off the brand scale (base 17, ratio 1.333), use 169px or 226px"
+      }
+     ]
+    },
+    {
+     "size": "linkedin",
+     "failures": [
+      {
+       "check": "safe-zone",
+       "text": "Cut it.",
+       "reason": "16px from the top edge, the safe zone starts at 38px"
+      }
+     ]
+    }
+   ],
+   "failures": 5,
+   "byCheck": {
+    "safe-zone": 2,
+    "type-scale": 3
+   }
+  }
+ ]
+}

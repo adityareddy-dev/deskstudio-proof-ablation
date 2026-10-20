@@ -1,0 +1,71 @@
+{"t":"2026-10-20T06:38:05.957Z","type":"job.start","id":"20261020-0138-linkedin-instagram-portrait-winter","command":"design","deliverable":"social-card"}
+{"t":"2026-10-20T06:38:06.027Z","type":"desk.start","id":"20261020-0138-linkedin-instagram-portrait-winter","desk":"design-manager","model":"openai/large","tier":"director","task":"intake"}
+{"t":"2026-10-20T06:38:26.148Z","type":"desk.stop","id":"20261020-0138-linkedin-instagram-portrait-winter","desk":"design-manager","tier":"director","status":"done","seconds":20,"model":"openai/large","modelId":"gpt-6-astra","tokens":{"input":29791,"output":491,"cacheRead":2688,"cacheWrite":0,"total":32970},"costUsd":0.325148}
+{"t":"2026-10-20T06:38:26.191Z","type":"job.phase","id":"20261020-0138-linkedin-instagram-portrait-winter","phase":"roughs","round":0}
+{"t":"2026-10-20T06:38:26.353Z","type":"desk.start","id":"20261020-0138-linkedin-instagram-portrait-winter","desk":"ui-designer","model":"openai/mini","tier":"senior","task":"rough 1, editorial split"}
+{"t":"2026-10-20T06:38:26.451Z","type":"desk.start","id":"20261020-0138-linkedin-instagram-portrait-winter","desk":"ui-designer","model":"openai/mini","tier":"senior","task":"rough 2, full bleed with scrim"}
+{"t":"2026-10-20T06:38:26.566Z","type":"desk.start","id":"20261020-0138-linkedin-instagram-portrait-winter","desk":"ui-designer","model":"openai/mini","tier":"senior","task":"rough 3, type only"}
+{"t":"2026-10-20T06:39:06.066Z","type":"desk.stop","id":"20261020-0138-linkedin-instagram-portrait-winter","desk":"ui-designer","tier":"senior","status":"done","seconds":39,"model":"openai/mini","modelId":"gpt-6.1-sol","tokens":{"input":19804,"output":1736,"cacheRead":33408,"cacheWrite":0,"total":54948},"costUsd":0.0603088}
+{"t":"2026-10-20T06:39:09.842Z","type":"desk.stop","id":"20261020-0138-linkedin-instagram-portrait-winter","desk":"ui-designer","tier":"senior","status":"done","seconds":43,"model":"openai/mini","modelId":"gpt-6.1-sol","tokens":{"input":26656,"output":2186,"cacheRead":26112,"cacheWrite":0,"total":54954},"costUsd":0.0777832}
+{"t":"2026-10-20T06:39:35.295Z","type":"desk.stop","id":"20261020-0138-linkedin-instagram-portrait-winter","desk":"ui-designer","tier":"senior","status":"done","seconds":69,"model":"openai/mini","modelId":"gpt-6.1-sol","tokens":{"input":26635,"output":3430,"cacheRead":26112,"cacheWrite":0,"total":56177},"costUsd":0.0901812}
+{"t":"2026-10-20T06:39:39.544Z","type":"job.phase","id":"20261020-0138-linkedin-instagram-portrait-winter","phase":"pick","round":0}
+{"t":"2026-10-20T06:39:39.599Z","type":"desk.start","id":"20261020-0138-linkedin-instagram-portrait-winter","desk":"art-director","model":"openai/large","tier":"director","task":"pick"}
+{"t":"2026-10-20T06:39:57.533Z","type":"desk.stop","id":"20261020-0138-linkedin-instagram-portrait-winter","desk":"art-director","tier":"director","status":"done","seconds":18,"model":"openai/large","modelId":"gpt-6-astra","tokens":{"input":38252,"output":564,"cacheRead":0,"cacheWrite":0,"total":38816},"costUsd":0.41072}
+{"t":"2026-10-20T06:39:57.594Z","type":"job.pick","id":"20261020-0138-linkedin-instagram-portrait-winter","by":"art-director","rough":3}
+{"t":"2026-10-20T06:39:57.666Z","type":"job.phase","id":"20261020-0138-linkedin-instagram-portrait-winter","phase":"polish","round":1}
+{"t":"2026-10-20T06:39:57.738Z","type":"desk.start","id":"20261020-0138-linkedin-instagram-portrait-winter","desk":"ui-designer","model":"openai/mini","tier":"builder","task":"polish round 1"}
+{"t":"2026-10-20T06:40:19.102Z","type":"desk.stop","id":"20261020-0138-linkedin-instagram-portrait-winter","desk":"ui-designer","tier":"builder","status":"done","seconds":21,"model":"openai/mini","modelId":"gpt-6.1-sol","tokens":{"input":8468,"output":801,"cacheRead":51072,"cacheWrite":0,"total":60341},"costUsd":0.030053200000000002}
+{"t":"2026-10-20T06:40:19.172Z","type":"job.phase","id":"20261020-0138-linkedin-instagram-portrait-winter","phase":"proof","round":1}
+{"t":"2026-10-20T06:40:20.829Z","type":"job.proof","id":"20261020-0138-linkedin-instagram-portrait-winter","round":1,"skipped":true,"failures":0}
+{"t":"2026-10-20T06:40:20.879Z","type":"job.phase","id":"20261020-0138-linkedin-instagram-portrait-winter","phase":"signoff","round":1}
+{"t":"2026-10-20T06:40:20.931Z","type":"desk.start","id":"20261020-0138-linkedin-instagram-portrait-winter","desk":"creative-director","model":"openai/large","tier":"director","task":"sign-off round 1"}
+{"t":"2026-10-20T06:40:47.583Z","type":"desk.stop","id":"20261020-0138-linkedin-instagram-portrait-winter","desk":"creative-director","tier":"director","status":"done","seconds":27,"model":"openai/large","modelId":"gpt-6-astra","tokens":{"input":8268,"output":794,"cacheRead":24704,"cacheWrite":0,"total":33766},"costUsd":0.147084}
+{"t":"2026-10-20T06:40:47.634Z","type":"job.score","id":"20261020-0138-linkedin-instagram-portrait-winter","round":1,"average":8,"pass":false}
+{"t":"2026-10-20T06:40:47.712Z","type":"job.phase","id":"20261020-0138-linkedin-instagram-portrait-winter","phase":"polish","round":2}
+{"t":"2026-10-20T06:40:47.806Z","type":"desk.start","id":"20261020-0138-linkedin-instagram-portrait-winter","desk":"ui-designer","model":"openai/mini","tier":"builder","task":"polish round 2"}
+{"t":"2026-10-20T06:41:12.100Z","type":"desk.stop","id":"20261020-0138-linkedin-instagram-portrait-winter","desk":"ui-designer","tier":"builder","status":"done","seconds":24,"model":"openai/mini","modelId":"gpt-6.1-sol","tokens":{"input":30078,"output":1096,"cacheRead":29696,"cacheWrite":0,"total":60870},"costUsd":0.0740856}
+{"t":"2026-10-20T06:41:12.157Z","type":"job.phase","id":"20261020-0138-linkedin-instagram-portrait-winter","phase":"proof","round":2}
+{"t":"2026-10-20T06:41:13.739Z","type":"job.proof","id":"20261020-0138-linkedin-instagram-portrait-winter","round":2,"skipped":true,"failures":0}
+{"t":"2026-10-20T06:41:13.794Z","type":"job.phase","id":"20261020-0138-linkedin-instagram-portrait-winter","phase":"signoff","round":2}
+{"t":"2026-10-20T06:41:13.857Z","type":"desk.start","id":"20261020-0138-linkedin-instagram-portrait-winter","desk":"creative-director","model":"openai/large","tier":"director","task":"sign-off round 2"}
+{"t":"2026-10-20T06:41:39.632Z","type":"desk.stop","id":"20261020-0138-linkedin-instagram-portrait-winter","desk":"creative-director","tier":"director","status":"done","seconds":26,"model":"openai/large","modelId":"gpt-6-astra","tokens":{"input":8268,"output":773,"cacheRead":24704,"cacheWrite":0,"total":33745},"costUsd":0.146034}
+{"t":"2026-10-20T06:41:39.682Z","type":"job.score","id":"20261020-0138-linkedin-instagram-portrait-winter","round":2,"average":8.13,"pass":false}
+{"t":"2026-10-20T06:41:39.731Z","type":"job.phase","id":"20261020-0138-linkedin-instagram-portrait-winter","phase":"polish","round":3}
+{"t":"2026-10-20T06:41:39.784Z","type":"desk.start","id":"20261020-0138-linkedin-instagram-portrait-winter","desk":"ui-designer","model":"openai/mini","tier":"builder","task":"polish round 3"}
+{"t":"2026-10-20T06:42:32.873Z","type":"desk.stop","id":"20261020-0138-linkedin-instagram-portrait-winter","desk":"ui-designer","tier":"builder","status":"done","seconds":53,"model":"openai/mini","modelId":"gpt-6.1-sol","tokens":{"input":30151,"output":2744,"cacheRead":29696,"cacheWrite":0,"total":62591},"costUsd":0.0907116}
+{"t":"2026-10-20T06:42:32.917Z","type":"job.phase","id":"20261020-0138-linkedin-instagram-portrait-winter","phase":"proof","round":3}
+{"t":"2026-10-20T06:42:34.394Z","type":"job.proof","id":"20261020-0138-linkedin-instagram-portrait-winter","round":3,"skipped":true,"failures":0}
+{"t":"2026-10-20T06:42:34.447Z","type":"job.phase","id":"20261020-0138-linkedin-instagram-portrait-winter","phase":"signoff","round":3}
+{"t":"2026-10-20T06:42:34.504Z","type":"desk.start","id":"20261020-0138-linkedin-instagram-portrait-winter","desk":"creative-director","model":"openai/large","tier":"director","task":"sign-off round 3"}
+{"t":"2026-10-20T06:42:57.399Z","type":"desk.stop","id":"20261020-0138-linkedin-instagram-portrait-winter","desk":"creative-director","tier":"director","status":"done","seconds":23,"model":"openai/large","modelId":"gpt-6-astra","tokens":{"input":8268,"output":736,"cacheRead":24704,"cacheWrite":0,"total":33708},"costUsd":0.144184}
+{"t":"2026-10-20T06:42:57.441Z","type":"job.score","id":"20261020-0138-linkedin-instagram-portrait-winter","round":3,"average":8.13,"pass":false}
+{"t":"2026-10-20T06:42:57.502Z","type":"job.phase","id":"20261020-0138-linkedin-instagram-portrait-winter","phase":"polish","round":4}
+{"t":"2026-10-20T06:42:57.559Z","type":"desk.start","id":"20261020-0138-linkedin-instagram-portrait-winter","desk":"ui-designer","model":"openai/mini","tier":"senior","task":"polish round 4, escalated"}
+{"t":"2026-10-20T06:43:31.871Z","type":"desk.stop","id":"20261020-0138-linkedin-instagram-portrait-winter","desk":"ui-designer","tier":"senior","status":"done","seconds":34,"model":"openai/mini","modelId":"gpt-6.1-sol","tokens":{"input":30313,"output":1675,"cacheRead":29952,"cacheWrite":0,"total":61940},"costUsd":0.0803712}
+{"t":"2026-10-20T06:43:31.916Z","type":"job.phase","id":"20261020-0138-linkedin-instagram-portrait-winter","phase":"proof","round":4}
+{"t":"2026-10-20T06:43:33.415Z","type":"job.proof","id":"20261020-0138-linkedin-instagram-portrait-winter","round":4,"skipped":true,"failures":0}
+{"t":"2026-10-20T06:43:33.469Z","type":"job.phase","id":"20261020-0138-linkedin-instagram-portrait-winter","phase":"signoff","round":4}
+{"t":"2026-10-20T06:43:33.529Z","type":"desk.start","id":"20261020-0138-linkedin-instagram-portrait-winter","desk":"creative-director","model":"openai/large","tier":"director","task":"sign-off round 4"}
+{"t":"2026-10-20T06:44:00.438Z","type":"desk.stop","id":"20261020-0138-linkedin-instagram-portrait-winter","desk":"creative-director","tier":"director","status":"done","seconds":27,"model":"openai/large","modelId":"gpt-6-astra","tokens":{"input":8251,"output":810,"cacheRead":24832,"cacheWrite":0,"total":33893},"costUsd":0.147842}
+{"t":"2026-10-20T06:44:00.478Z","type":"job.score","id":"20261020-0138-linkedin-instagram-portrait-winter","round":4,"average":8.13,"pass":false}
+{"t":"2026-10-20T06:44:00.527Z","type":"job.phase","id":"20261020-0138-linkedin-instagram-portrait-winter","phase":"polish","round":5}
+{"t":"2026-10-20T06:44:00.592Z","type":"desk.start","id":"20261020-0138-linkedin-instagram-portrait-winter","desk":"ui-designer","model":"openai/mini","tier":"senior","task":"polish round 5, escalated"}
+{"t":"2026-10-20T06:44:46.738Z","type":"desk.stop","id":"20261020-0138-linkedin-instagram-portrait-winter","desk":"ui-designer","tier":"senior","status":"done","seconds":46,"model":"openai/mini","modelId":"gpt-6.1-sol","tokens":{"input":8885,"output":2369,"cacheRead":51456,"cacheWrite":0,"total":62710},"costUsd":0.0466056}
+{"t":"2026-10-20T06:44:46.784Z","type":"job.phase","id":"20261020-0138-linkedin-instagram-portrait-winter","phase":"proof","round":5}
+{"t":"2026-10-20T06:44:48.403Z","type":"job.proof","id":"20261020-0138-linkedin-instagram-portrait-winter","round":5,"skipped":true,"failures":0}
+{"t":"2026-10-20T06:44:48.452Z","type":"job.phase","id":"20261020-0138-linkedin-instagram-portrait-winter","phase":"signoff","round":5}
+{"t":"2026-10-20T06:44:48.506Z","type":"desk.start","id":"20261020-0138-linkedin-instagram-portrait-winter","desk":"creative-director","model":"openai/large","tier":"director","task":"sign-off round 5"}
+{"t":"2026-10-20T06:45:09.575Z","type":"desk.stop","id":"20261020-0138-linkedin-instagram-portrait-winter","desk":"creative-director","tier":"director","status":"done","seconds":21,"model":"openai/large","modelId":"gpt-6-astra","tokens":{"input":8268,"output":790,"cacheRead":24704,"cacheWrite":0,"total":33762},"costUsd":0.146884}
+{"t":"2026-10-20T06:45:09.620Z","type":"job.score","id":"20261020-0138-linkedin-instagram-portrait-winter","round":5,"average":8.63,"pass":false}
+{"t":"2026-10-20T06:45:09.680Z","type":"job.phase","id":"20261020-0138-linkedin-instagram-portrait-winter","phase":"polish","round":6}
+{"t":"2026-10-20T06:45:09.742Z","type":"desk.start","id":"20261020-0138-linkedin-instagram-portrait-winter","desk":"ui-designer","model":"openai/mini","tier":"senior","task":"polish round 6, escalated"}
+{"t":"2026-10-20T06:45:36.342Z","type":"desk.stop","id":"20261020-0138-linkedin-instagram-portrait-winter","desk":"ui-designer","tier":"senior","status":"done","seconds":27,"model":"openai/mini","modelId":"gpt-6.1-sol","tokens":{"input":8493,"output":1104,"cacheRead":21504,"cacheWrite":0,"total":31101},"costUsd":0.030176400000000003}
+{"t":"2026-10-20T06:45:36.385Z","type":"job.phase","id":"20261020-0138-linkedin-instagram-portrait-winter","phase":"proof","round":6}
+{"t":"2026-10-20T06:45:37.751Z","type":"job.proof","id":"20261020-0138-linkedin-instagram-portrait-winter","round":6,"skipped":true,"failures":0}
+{"t":"2026-10-20T06:45:37.799Z","type":"job.phase","id":"20261020-0138-linkedin-instagram-portrait-winter","phase":"signoff","round":6}
+{"t":"2026-10-20T06:45:37.851Z","type":"desk.start","id":"20261020-0138-linkedin-instagram-portrait-winter","desk":"creative-director","model":"openai/large","tier":"director","task":"sign-off round 6"}
+{"t":"2026-10-20T06:45:57.181Z","type":"desk.stop","id":"20261020-0138-linkedin-instagram-portrait-winter","desk":"creative-director","tier":"director","status":"done","seconds":19,"model":"openai/large","modelId":"gpt-6-astra","tokens":{"input":32972,"output":485,"cacheRead":0,"cacheWrite":0,"total":33457},"costUsd":0.35397}
+{"t":"2026-10-20T06:45:57.221Z","type":"job.score","id":"20261020-0138-linkedin-instagram-portrait-winter","round":6,"average":8,"pass":false}
+{"t":"2026-10-20T06:45:57.268Z","type":"job.waiting","id":"20261020-0138-linkedin-instagram-portrait-winter","on":"approve_under_bar"}
+{"t":"2026-10-20T06:45:57.314Z","type":"job.phase","id":"20261020-0138-linkedin-instagram-portrait-winter","phase":"handback","round":6}
+{"t":"2026-10-20T06:45:57.366Z","type":"job.done","id":"20261020-0138-linkedin-instagram-portrait-winter","rounds":6,"average":8,"pass":false}

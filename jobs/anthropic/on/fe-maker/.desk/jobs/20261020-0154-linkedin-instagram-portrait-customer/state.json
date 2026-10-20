@@ -1,0 +1,302 @@
+{
+  "id": "20261020-0154-linkedin-instagram-portrait-customer",
+  "command": "design",
+  "deliverable": "social-card",
+  "sizes": [
+    "linkedin",
+    "ig-post"
+  ],
+  "quality": "studio",
+  "proofMode": "on",
+  "models": {
+    "director": "anthropic/opus",
+    "senior": "anthropic/sonnet",
+    "builder": "anthropic/haiku"
+  },
+  "phase": "done",
+  "round": 6,
+  "maxRounds": 6,
+  "desks": [
+    {
+      "desk": "design-manager",
+      "task": "intake",
+      "status": "done",
+      "model": "anthropic/opus",
+      "startedAt": "2026-10-20T01:54:39-05:00",
+      "updatedAt": "2026-10-20T01:54:55-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "rough 1, editorial split",
+      "status": "done",
+      "model": "anthropic/sonnet",
+      "startedAt": "2026-10-20T01:54:56-05:00",
+      "updatedAt": "2026-10-20T01:55:21-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "rough 2, full bleed with scrim",
+      "status": "done",
+      "model": "anthropic/sonnet",
+      "startedAt": "2026-10-20T01:54:56-05:00",
+      "updatedAt": "2026-10-20T01:55:26-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "rough 3, type only",
+      "status": "done",
+      "model": "anthropic/sonnet",
+      "startedAt": "2026-10-20T01:54:56-05:00",
+      "updatedAt": "2026-10-20T01:55:18-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "art-director",
+      "task": "pick",
+      "status": "done",
+      "model": "anthropic/opus",
+      "startedAt": "2026-10-20T01:55:31-05:00",
+      "updatedAt": "2026-10-20T01:56:03-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 1",
+      "status": "done",
+      "model": "anthropic/haiku",
+      "startedAt": "2026-10-20T01:56:03-05:00",
+      "updatedAt": "2026-10-20T01:56:18-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 2",
+      "status": "done",
+      "model": "anthropic/haiku",
+      "startedAt": "2026-10-20T01:56:19-05:00",
+      "updatedAt": "2026-10-20T01:56:36-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "creative-director",
+      "task": "sign-off round 2",
+      "status": "done",
+      "model": "anthropic/opus",
+      "startedAt": "2026-10-20T01:56:38-05:00",
+      "updatedAt": "2026-10-20T01:57:07-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 3",
+      "status": "done",
+      "model": "anthropic/haiku",
+      "startedAt": "2026-10-20T01:57:07-05:00",
+      "updatedAt": "2026-10-20T01:57:48-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 4",
+      "status": "done",
+      "model": "anthropic/haiku",
+      "startedAt": "2026-10-20T01:57:50-05:00",
+      "updatedAt": "2026-10-20T01:58:53-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 5",
+      "status": "done",
+      "model": "anthropic/haiku",
+      "startedAt": "2026-10-20T01:58:55-05:00",
+      "updatedAt": "2026-10-20T01:59:14-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "creative-director",
+      "task": "sign-off round 5",
+      "status": "done",
+      "model": "anthropic/opus",
+      "startedAt": "2026-10-20T01:59:16-05:00",
+      "updatedAt": "2026-10-20T01:59:54-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 6",
+      "status": "done",
+      "model": "anthropic/haiku",
+      "startedAt": "2026-10-20T01:59:54-05:00",
+      "updatedAt": "2026-10-20T02:00:28-05:00",
+      "via": "cli"
+    }
+  ],
+  "pick": {
+    "by": "art-director",
+    "rough": 3,
+    "pattern": "Type only",
+    "combineWith": null,
+    "reason": "Rough 3 is the only one that keeps Ferro's rule of red appearing once, on one word, and its headline reads at a thumb's width. Only its portrait band and its margins need fixing.",
+    "lost": "1 breaks the red-once rule with a large red field, and the drawn crank borders on the stock illustration the brief bans; 2 spends red on an empty block that carries nothing and does no job.",
+    "notes": [
+      "ig-post: headline from 119px to 149px, line height 1.0, tracking -0.03em, max-width 950px, so it sets as four lines: \"A bike / crank, from / a spare / bedroom.\" Keep \"bedroom.\" in #e5173f. This shrinks the empty band under the subline below a third of the canvas (standard: \"owns the whole canvas\", the headline grows until the block carries it).",
+      "ig-post: supporting line at 39px, line height 1.3, 48px under the headline baseline. Mark stays bottom left at 25px, its bottom edge 135px from the canvas bottom (10% safe zone).",
+      "linkedin: left and right margin from 40px to 72px (6% of 1200). Headline top at 48px.",
+      "linkedin: headline from 95px to 86px, line height 1.0, tracking -0.03em, so it still sets as two lines, \"A bike crank, from a / spare bedroom.\", inside the new 1056px column.",
+      "linkedin: supporting line at 31px, 24px under the headline. Mark at 25px, bottom left, 72px from the left and 40px from the bottom. The type ladder is now 149/86, 39/31 and 25, with three roles per size (standard: three sizes, never more)."
+    ],
+    "at": "2026-10-20T01:56:03-05:00"
+  },
+  "proof": [
+    {
+      "round": 1,
+      "pass": false,
+      "failures": 5
+    },
+    {
+      "round": 2,
+      "pass": true,
+      "failures": 0
+    },
+    {
+      "round": 3,
+      "pass": false,
+      "failures": 5
+    },
+    {
+      "round": 4,
+      "pass": false,
+      "failures": 4
+    },
+    {
+      "round": 5,
+      "pass": true,
+      "failures": 0
+    },
+    {
+      "round": 6,
+      "pass": false,
+      "failures": 3
+    }
+  ],
+  "scores": [
+    {
+      "round": 2,
+      "by": "creative-director",
+      "axes": {
+        "hierarchy": 9,
+        "typography": 8,
+        "spacing": 8,
+        "colour": 9,
+        "composition": 7,
+        "originality": 7,
+        "brand": 9,
+        "copy": 9
+      },
+      "average": 8.25,
+      "pass": false,
+      "notes": [
+        "composition: ig-post has an empty band of about 520px (38% of 1350) between the subline and the mark, over the one-third limit. Raise the headline from 149px to 186px, line height 1.0, tracking -0.03em, top at 72px. Force four lines with <br>: \"A bike / crank, from / a spare / bedroom.\" That ends the block near y=820.",
+        "composition: linkedin has the same fault. The block ends at y=280 and leaves about 255px of dead white above the mark. Raise the headline from 86px to 119px, line height 1.0, top at 48px. Force three lines with <br>: \"A bike crank, / from a spare / bedroom.\" The block should end near y=405.",
+        "typography: with the two changes above, the ladder is 186/119 headline, 39/31 supporting and 25 mark, still three roles per size. Supporting line at line height 1.3, 48px under the headline on ig-post and 24px on linkedin. Keep \"bedroom.\" alone on the last line in #e5173f on both sizes.",
+        "spacing: on ig-post, the gap from the headline baseline to the subline is about 80px. Set it to 48px. The mark's bottom edge sits at 135px from the canvas bottom on ig-post and 40px on linkedin, both 72px from the left, so the mark, subline and headline share one 72px left edge.",
+        "originality: at its current size this is the stock type-only card. The 186px four-line stack on ig-post and the 119px three-line stack on linkedin turn it into a poster where \"bedroom.\" lands as the punchline. Do not add any other element."
+      ],
+      "polish": [
+        "At 186px, check optically that the \"A\" overhangs the 72px column edge by about 4px and pull it in so its stem aligns with the subline's \"A\"."
+      ]
+    },
+    {
+      "round": 5,
+      "by": "creative-director",
+      "axes": {
+        "hierarchy": 8,
+        "typography": 6,
+        "spacing": 7,
+        "colour": 9,
+        "composition": 6,
+        "originality": 7,
+        "brand": 9,
+        "copy": 8
+      },
+      "average": 7.5,
+      "pass": false,
+      "notes": [
+        "typography: linkedin headline sets as four lines (\"A bike / crank, from / a spare / bedroom.\"), which breaks the three-line landscape cap, and AD note 4 was not applied. Set it at 119px, line height 1.0, tracking -0.03em, max-width 1056px, with forced breaks \"A bike crank, / from a spare / bedroom.\". Keep only \"bedroom.\" in #e5173f.",
+        "composition: linkedin uses the left 48% and leaves the right half empty, which is a portrait layout on a landscape canvas. With the 119px three-line set above, the headline block runs about 780px wide and 357px tall from top 48px, so the type carries the canvas the way it does on ig-post. Add no element.",
+        "spacing: linkedin supporting line 31px, 24px under the headline baseline. Mark 25px, bottom left at x 72px, bottom edge 40px from the canvas bottom, so it no longer sits 50px under the subline as one group. On ig-post, confirm the subline is 48px under the headline baseline; it renders at about 44px.",
+        "hierarchy: on linkedin, separate the subline (31px) and the mark (25px) by at least 64px vertically so the mark reads third and not as part of the supporting line. The layout above gives about 70px.",
+        "originality: hold the type-only route with no added shape or rule. The lift is scale on landscape, as in the typography note. Hang the \"A\" optically 4px left on both sizes so its diagonal lines up visually with the subline and mark at x 72px.",
+        "copy: verbatim and locked by the brief, no change."
+      ],
+      "polish": [
+        "ig-post: the empty band from the subline to the mark is about 405px, under the 450px third. If there is room after the linkedin fix, raise the headline top from about 140px to 112px."
+      ]
+    }
+  ],
+  "waitingOn": {
+    "type": "approve_under_bar",
+    "text": "Under the bar after 6 rounds. proof still fails: proof safe-zone at linkedin: \"A\" 68px from the left edge, the safe zone starts at 72px; 30px from the top edge, the safe zone starts at 38px; proof safe-zone at linkedin: \"bike\" 30px from the top edge, the safe zone starts at 38px"
+  },
+  "cost": {
+    "director": 0.5246,
+    "senior": 0.1608,
+    "builder": 0.032,
+    "total": 0.7174,
+    "complete": true
+  },
+  "tokens": {
+    "director": 54906,
+    "senior": 84735,
+    "builder": 187467
+  },
+  "files": {
+    "final": ".desk/out/20261020-0154-linkedin-instagram-portrait-customer/final.html",
+    "brief": ".desk/jobs/20261020-0154-linkedin-instagram-portrait-customer/brief.md",
+    "handback": ".desk/out/20261020-0154-linkedin-instagram-portrait-customer/handback.md"
+  },
+  "pen": "builder",
+  "notes": [
+    "proof safe-zone at linkedin: \"A\" 68px from the left edge, the safe zone starts at 72px; 30px from the top edge, the safe zone starts at 38px",
+    "proof safe-zone at linkedin: \"bike\" 30px from the top edge, the safe zone starts at 38px",
+    "proof safe-zone at linkedin: \"crank,\" 30px from the top edge, the safe zone starts at 38px"
+  ],
+  "misses": {
+    "proof:safe-zone": 1
+  },
+  "startedAt": "2026-10-20T01:54:39-05:00",
+  "updatedAt": "2026-10-20T02:00:29-05:00",
+  "roughs": [
+    {
+      "n": 1,
+      "pattern": "Editorial split",
+      "file": ".desk/out/20261020-0154-linkedin-instagram-portrait-customer/rough-1.html",
+      "fonts": "Geist (inlined by the runner), not a fallback",
+      "written": true,
+      "renders": ".desk/jobs/20261020-0154-linkedin-instagram-portrait-customer/renders/roughs/rough-1"
+    },
+    {
+      "n": 2,
+      "pattern": "Full bleed with scrim",
+      "file": ".desk/out/20261020-0154-linkedin-instagram-portrait-customer/rough-2.html",
+      "fonts": "Geist, inlined by the runner, not a fallback",
+      "written": true,
+      "renders": ".desk/jobs/20261020-0154-linkedin-instagram-portrait-customer/renders/roughs/rough-2"
+    },
+    {
+      "n": 3,
+      "pattern": "Type only",
+      "file": ".desk/out/20261020-0154-linkedin-instagram-portrait-customer/rough-3.html",
+      "fonts": "Geist (inlined by runner), not a fallback",
+      "written": true,
+      "renders": ".desk/jobs/20261020-0154-linkedin-instagram-portrait-customer/renders/roughs/rough-3"
+    }
+  ],
+  "lastRenders": ".desk/jobs/20261020-0154-linkedin-instagram-portrait-customer/renders/round-6",
+  "penNotes": [],
+  "finishedAt": "2026-10-20T02:00:29-05:00"
+}

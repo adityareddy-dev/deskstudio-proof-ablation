@@ -1,0 +1,351 @@
+{
+  "id": "20261020-0154-linkedin-instagram-portrait-faster",
+  "command": "design",
+  "deliverable": "social-card",
+  "sizes": [
+    "linkedin",
+    "ig-post"
+  ],
+  "quality": "studio",
+  "proofMode": "off",
+  "models": {
+    "director": "anthropic/opus",
+    "senior": "anthropic/sonnet",
+    "builder": "anthropic/haiku"
+  },
+  "phase": "done",
+  "round": 4,
+  "maxRounds": 6,
+  "desks": [
+    {
+      "desk": "design-manager",
+      "task": "intake",
+      "status": "done",
+      "model": "anthropic/opus",
+      "startedAt": "2026-10-20T01:54:29-05:00",
+      "updatedAt": "2026-10-20T01:54:42-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "rough 1, editorial split",
+      "status": "done",
+      "model": "anthropic/sonnet",
+      "startedAt": "2026-10-20T01:54:43-05:00",
+      "updatedAt": "2026-10-20T01:55:02-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "rough 2, full bleed with scrim",
+      "status": "done",
+      "model": "anthropic/sonnet",
+      "startedAt": "2026-10-20T01:54:43-05:00",
+      "updatedAt": "2026-10-20T01:55:35-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "rough 3, type only",
+      "status": "done",
+      "model": "anthropic/sonnet",
+      "startedAt": "2026-10-20T01:54:43-05:00",
+      "updatedAt": "2026-10-20T01:55:10-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "art-director",
+      "task": "pick",
+      "status": "done",
+      "model": "anthropic/opus",
+      "startedAt": "2026-10-20T01:55:39-05:00",
+      "updatedAt": "2026-10-20T01:56:26-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 1",
+      "status": "done",
+      "model": "anthropic/haiku",
+      "startedAt": "2026-10-20T01:56:26-05:00",
+      "updatedAt": "2026-10-20T01:56:46-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "creative-director",
+      "task": "sign-off round 1",
+      "status": "done",
+      "model": "anthropic/opus",
+      "startedAt": "2026-10-20T01:56:48-05:00",
+      "updatedAt": "2026-10-20T01:57:15-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 2",
+      "status": "done",
+      "model": "anthropic/haiku",
+      "startedAt": "2026-10-20T01:57:15-05:00",
+      "updatedAt": "2026-10-20T01:58:33-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "creative-director",
+      "task": "sign-off round 2",
+      "status": "done",
+      "model": "anthropic/opus",
+      "startedAt": "2026-10-20T01:58:34-05:00",
+      "updatedAt": "2026-10-20T01:59:04-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 3",
+      "status": "done",
+      "model": "anthropic/haiku",
+      "startedAt": "2026-10-20T01:59:04-05:00",
+      "updatedAt": "2026-10-20T02:00:03-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "creative-director",
+      "task": "sign-off round 3",
+      "status": "done",
+      "model": "anthropic/opus",
+      "startedAt": "2026-10-20T02:00:04-05:00",
+      "updatedAt": "2026-10-20T02:00:40-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 4, escalated",
+      "status": "done",
+      "model": "anthropic/sonnet",
+      "startedAt": "2026-10-20T02:00:40-05:00",
+      "updatedAt": "2026-10-20T02:01:03-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "creative-director",
+      "task": "sign-off round 4",
+      "status": "done",
+      "model": "anthropic/opus",
+      "startedAt": "2026-10-20T02:01:05-05:00",
+      "updatedAt": "2026-10-20T02:01:40-05:00",
+      "via": "cli"
+    }
+  ],
+  "pick": {
+    "by": "art-director",
+    "rough": 3,
+    "pattern": "Type only",
+    "combineWith": null,
+    "reason": "It reads in two seconds, with the red figure as the first thing the eye lands on. It keeps the brand's white ground and heavy, tight black type, and it needs only size snaps to reach the bar.",
+    "lost": "1 the black half on linkedin and the black block on ig-post carry nothing but one small line, and the headline is undersized, so a split with no element is two empty halves; 2 the black ground breaks Ferro's white-background rule, and on ig-post half the canvas below the headline is empty.",
+    "notes": [
+      "ig-post headline to 149px (brand scale), line height 1.0, tracking -0.02em, top edge at 81px (6% safe zone). Keep the four-line wrap \"24,000 rpm. / Fits every / Ferro ever / made.\", so the block ends near 680px and the red figure and first two lines sit in the top 40% (standard: portrait headline in the top 40%).",
+      "linkedin headline from about 80px to 95px, line height 1.0, tracking -0.02em, top edge at 38px, left at 72px. It wraps \"24,000 rpm. / Fits every Ferro / ever made.\" in three lines and fills the left two thirds instead of leaving the right side over.",
+      "Supporting line \"Swap it in ten minutes.\" at weight 400, line height 1.3: 31px on linkedin, 32px below the headline; 49px on ig-post, 48px below the headline. This keeps each size at three type sizes (standard: three sizes, never more), and the ig-post empty band stays under a third.",
+      "Mark \"ferro.tools\" at 20px, weight 700, bottom left. On linkedin, 72px from the left and 38px from the bottom. On ig-post, 65px from the left and 135px from the bottom (10% bottom safe zone).",
+      "Red only on \"24,000 rpm\". Set the full stop after \"rpm\" back to foreground #0a0a0a on both sizes (brand: red once, only on the number)."
+    ],
+    "at": "2026-10-20T01:56:26-05:00"
+  },
+  "proof": [
+    {
+      "round": 1,
+      "pass": null,
+      "skipped": true,
+      "failures": 0
+    },
+    {
+      "round": 2,
+      "pass": null,
+      "skipped": true,
+      "failures": 0
+    },
+    {
+      "round": 3,
+      "pass": null,
+      "skipped": true,
+      "failures": 0
+    },
+    {
+      "round": 4,
+      "pass": null,
+      "skipped": true,
+      "failures": 0
+    }
+  ],
+  "scores": [
+    {
+      "round": 1,
+      "by": "creative-director",
+      "axes": {
+        "hierarchy": 7,
+        "typography": 5,
+        "spacing": 6,
+        "colour": 9,
+        "composition": 6,
+        "originality": 6,
+        "brand": 8,
+        "copy": 8
+      },
+      "average": 6.88,
+      "pass": false,
+      "notes": [
+        "typography: The full stop after \"rpm\" is breaking onto its own line on both sizes. Make it an inline span in #0a0a0a inside the same line as \"24,000 rpm\", with no block or flex child and no line break, so the headline reads \"24,000 rpm.\" on line 1. This puts linkedin at 3 lines (\"24,000 rpm. / Fits every Ferro / ever made.\") and ig-post at 4 lines (\"24,000 rpm. / Fits every / Ferro ever / made.\"). Both sizes are over the line limit as rendered.",
+        "typography: Set the headline to 95px on linkedin and 149px on ig-post, one size for the red figure and the black claim, line height 1.0, tracking -0.02em. On ig-post, if \"24,000 rpm.\" passes the right margin at x=1015, tighten that line only to -0.03em. Do not drop the size.",
+        "hierarchy: Remove the extra gap between the red line and \"Fits every\". It is about 1.6 lines on linkedin and about 1.8 on ig-post. The gap from line 1 to line 2 must equal every other line step: 95px on linkedin, 149px on ig-post. The figure and the claim then read as one sentence, figure first.",
+        "spacing: On linkedin, put the headline top at 38px, left at 72px, the supporting line 32px under the last baseline at 31px/400, and \"ferro.tools\" at 20px/700, 72px left and 38px bottom. On ig-post, put the headline top at 81px, left at 65px, the supporting line 48px under at 49px/400, and the mark at 65px left and 135px bottom. Every value on the 8px grid except the safe-zone edges.",
+        "composition: On linkedin, the right 35% is unused. Move \"Swap it in ten minutes.\" to the right column at x=760, with its baseline aligned to the baseline of \"ever made.\". The card then splits claim left and proof right instead of leaving space over.",
+        "composition: On ig-post, after the fixes the gap between the supporting line (about 900px) and the mark (1215px) must stay under 450px. If it goes over, move the supporting line down to sit 96px above the mark. Do not leave it floating mid-canvas.",
+        "originality: On ig-post, set \"24,000 rpm.\" so its right edge lands exactly on the 1015px right margin. The figure spans the full column like a spec plate, while the black lines stay ragged under it. That is a deliberate move a template would not make.",
+        "brand: Keep red only on \"24,000 rpm\" and the stop in #0a0a0a. Check that the mark is 700 and the supporting line is 400, with no third weight.",
+        "copy: The text is verbatim and correct. Once the stop rejoins \"rpm\", the claim reads as written. No word changes."
+      ],
+      "polish": [
+        "On linkedin, optically pull the \"2\" of \"24,000\" left by about 4px so its stem lines up with the \"F\" of \"Fits\"."
+      ]
+    },
+    {
+      "round": 2,
+      "by": "creative-director",
+      "axes": {
+        "hierarchy": 8,
+        "typography": 6,
+        "spacing": 6,
+        "colour": 9,
+        "composition": 6,
+        "originality": 7,
+        "brand": 8,
+        "copy": 9
+      },
+      "average": 7.38,
+      "pass": false,
+      "notes": [
+        "typography: The ig-post headline wraps to five lines, and the brief allows four. Force the breaks as \"24,000 rpm. / Fits every / Ferro ever / made.\" with explicit `<br>` and no max-width on the block. \"Ferro ever\" is about 705px at 149px and fits in 950px.",
+        "typography: On ig-post the gap between \"24,000\" and \"rpm.\" is about 130px. Remove the justify, flex gap or extra spacing so it is one normal word space, about 37px at 149px, word-spacing normal.",
+        "typography: The linkedin headline is about 84px and wraps to four lines, leaving \"ever\" as a widow. Set it at 95px, line height 1.0, tracking -0.02em, broken as \"24,000 rpm. / Fits every Ferro / ever made.\" on three lines, top edge 38px, left 72px.",
+        "spacing: On linkedin, move \"Swap it in ten minutes.\" from its floating spot at x 760 to the left column at x 72, 31px, weight 400, 32px below the headline baseline. Keep the mark at 72px left and 38px bottom so all three blocks share one left edge.",
+        "spacing: On ig-post, align the supporting line and the mark to the headline's optical left edge. The F stem is at about 72px and the text currently sits at 65px, so set all three to 72px.",
+        "composition: On linkedin, the right 400px and the band under the headline are left over, not shaped. With the headline at 95px over three lines and the support line under it, the left block should run from 38px to about 355px. Keep the right side clear, nothing floating in it.",
+        "composition: On ig-post, once the headline is four lines it ends near 650px. Put the support line 48px below it, around 700px, at 49px. Keep the mark at the bottom left, 135px from the bottom, so the empty band is under 450px.",
+        "hierarchy: On linkedin, the supporting line sits on the \"made.\" baseline at the far right and competes as a second focal point. Put it in the left column as set out in the spacing note.",
+        "originality: The full-measure red figure is the move, so protect it. On ig-post, \"24,000 rpm.\" should run from 72px to about 1000px with normal word spacing. On linkedin, end \"Fits every Ferro\" within 24px of where \"24,000 rpm.\" ends so the block reads as one squared slab.",
+        "brand: Check that the full stop after \"rpm\" stays #0a0a0a on both sizes once the spacing is fixed, so the red stays only on \"24,000 rpm\"."
+      ],
+      "polish": [
+        "On ig-post, a hairline 1px #0a0a0a rule 32px above the mark, the width of the headline column, would square off the bottom group."
+      ]
+    },
+    {
+      "round": 3,
+      "by": "creative-director",
+      "axes": {
+        "hierarchy": 9,
+        "typography": 8,
+        "spacing": 7,
+        "colour": 9,
+        "composition": 7,
+        "originality": 7,
+        "brand": 9,
+        "copy": 9
+      },
+      "average": 8.13,
+      "pass": false,
+      "notes": [
+        "spacing: on linkedin, the supporting line sits about 8px under \"ever made.\", so it reads as a fourth headline line. Set it 32px below the headline baseline group, as the pick asked. Keep ig-post at 48px. Every gap stays a multiple of 8.",
+        "composition: on linkedin, the block stops at about x 765 and y 345, leaving the right 36% and the bottom 220px over. Raise the headline from 95px to 119px (brand scale), line height 1.0, top edge at 38px, keeping the three-line wrap \"24,000 rpm. / Fits every Ferro / ever made.\". It then spans about 860px of the 1056px live width, with \"Swap it in ten minutes.\" at 31px, 32px below, and the mark stays at 38px from the bottom.",
+        "composition: on ig-post, the empty band from the supporting line (about y 745) to the mark (about y 1190) is about 445px, right at the one-third limit. Raise \"Swap it in ten minutes.\" from 49px to 61px and set it 56px below the headline, so the band is about 400px (30%). It is still three sizes: 149, 61, 20.",
+        "originality: right now it is the stock type-only layout. Make the figure the move: on both sizes, set \"24,000 rpm\" at -0.03em and pull the \"2\" 4px left so its edge aligns optically with the stem of the \"F\" below. On linkedin, the 119px headline covering the full width turns the card into a poster rather than a left-column layout.",
+        "typography: the left edges sit apart (headline at about 78px, supporting line and mark at 73px). Align all three optically to one 72px column on linkedin and 65px on ig-post."
+      ],
+      "polish": [
+        "Set the mark \"ferro.tools\" baseline on the 8px grid at exactly 135px from the ig-post bottom edge. It reads about 5px high now."
+      ]
+    },
+    {
+      "round": 4,
+      "by": "creative-director",
+      "axes": {
+        "hierarchy": 9,
+        "typography": 9,
+        "spacing": 8,
+        "colour": 9,
+        "composition": 8,
+        "originality": 8,
+        "brand": 9,
+        "copy": 9
+      },
+      "average": 8.63,
+      "pass": true,
+      "notes": [
+        "spacing: On ig-post the air from the supporting line (ends near 805px) to the mark (near 1190px) is about 385px, 29% of the canvas, and reads as left over. Move \"Swap it in ten minutes.\" down into the bottom group, 24px above \"ferro.tools\", so the gap from the headline ends in one deliberate break. On linkedin, set the gap from supporting line to mark at 96px and keep the mark 40px from the bottom so both gaps sit on the 8px grid.",
+        "composition: On ig-post the top-heavy stack needs a bottom anchor. Pin the supporting line and mark as one group above the 135px bottom safe zone, left at 65px. The card then reads as claim at top and action at bottom, with no midfield block.",
+        "originality: Hang the \"24,000\" by setting its left edge 4px outside the 65px/72px column, so the first digit's sidebearing aligns optically with the stems of \"F\" and \"S\". The type then looks set rather than defaulted."
+      ],
+      "polish": [
+        "Set the mark at 25px on ig-post only (still a third size there) so it reads at feed size on the 1080 canvas."
+      ]
+    }
+  ],
+  "waitingOn": null,
+  "cost": {
+    "director": 0.7588,
+    "senior": 0.249,
+    "builder": 0.023,
+    "total": 1.0308,
+    "complete": true
+  },
+  "tokens": {
+    "director": 110235,
+    "senior": 100358,
+    "builder": 94669
+  },
+  "files": {
+    "final": ".desk/out/20261020-0154-linkedin-instagram-portrait-faster/final.html",
+    "brief": ".desk/jobs/20261020-0154-linkedin-instagram-portrait-faster/brief.md",
+    "handback": ".desk/out/20261020-0154-linkedin-instagram-portrait-faster/handback.md"
+  },
+  "pen": "senior",
+  "notes": [
+    "spacing: on linkedin, the supporting line sits about 8px under \"ever made.\", so it reads as a fourth headline line. Set it 32px below the headline baseline group, as the pick asked. Keep ig-post at 48px. Every gap stays a multiple of 8.",
+    "composition: on linkedin, the block stops at about x 765 and y 345, leaving the right 36% and the bottom 220px over. Raise the headline from 95px to 119px (brand scale), line height 1.0, top edge at 38px, keeping the three-line wrap \"24,000 rpm. / Fits every Ferro / ever made.\". It then spans about 860px of the 1056px live width, with \"Swap it in ten minutes.\" at 31px, 32px below, and the mark stays at 38px from the bottom.",
+    "composition: on ig-post, the empty band from the supporting line (about y 745) to the mark (about y 1190) is about 445px, right at the one-third limit. Raise \"Swap it in ten minutes.\" from 49px to 61px and set it 56px below the headline, so the band is about 400px (30%). It is still three sizes: 149, 61, 20.",
+    "originality: right now it is the stock type-only layout. Make the figure the move: on both sizes, set \"24,000 rpm\" at -0.03em and pull the \"2\" 4px left so its edge aligns optically with the stem of the \"F\" below. On linkedin, the 119px headline covering the full width turns the card into a poster rather than a left-column layout.",
+    "typography: the left edges sit apart (headline at about 78px, supporting line and mark at 73px). Align all three optically to one 72px column on linkedin and 65px on ig-post."
+  ],
+  "misses": {},
+  "startedAt": "2026-10-20T01:54:29-05:00",
+  "updatedAt": "2026-10-20T02:01:40-05:00",
+  "roughs": [
+    {
+      "n": 1,
+      "pattern": "Editorial split",
+      "file": ".desk/out/20261020-0154-linkedin-instagram-portrait-faster/rough-1.html",
+      "fonts": "Geist (inlined by runner), Inter as stack fallback",
+      "written": true,
+      "renders": ".desk/jobs/20261020-0154-linkedin-instagram-portrait-faster/renders/roughs/rough-1"
+    },
+    {
+      "n": 2,
+      "pattern": "Full bleed with scrim",
+      "file": ".desk/out/20261020-0154-linkedin-instagram-portrait-faster/rough-2.html",
+      "fonts": "Geist (brand family, inlined by the runner, not a fallback)",
+      "written": true,
+      "renders": ".desk/jobs/20261020-0154-linkedin-instagram-portrait-faster/renders/roughs/rough-2"
+    },
+    {
+      "n": 3,
+      "pattern": "Type only",
+      "file": ".desk/out/20261020-0154-linkedin-instagram-portrait-faster/rough-3.html",
+      "fonts": "Geist (brand font, inlined by runner), not a fallback",
+      "written": true,
+      "renders": ".desk/jobs/20261020-0154-linkedin-instagram-portrait-faster/renders/roughs/rough-3"
+    }
+  ],
+  "lastRenders": ".desk/jobs/20261020-0154-linkedin-instagram-portrait-faster/renders/round-4",
+  "penNotes": [],
+  "finishedAt": "2026-10-20T02:01:40-05:00"
+}

@@ -1,0 +1,70 @@
+{
+ "pass": false,
+ "file": "final.html",
+ "renders": [
+  {
+   "size": "linkedin",
+   "scheme": "light",
+   "width": 1200,
+   "height": 627,
+   "png": "C:\\Users\\adity\\Desktop\\Adi\\deskstudio-research\\proof-ablation-2026-10-20\\jobs\\anthropic\\off\\ql-free\\.desk\\jobs\\20261020-0148-linkedin-instagram-portrait-saying\\renders\\audit\\linkedin.png",
+   "pass": false,
+   "failures": [
+    {
+     "check": "safe-zone",
+     "text": "Three",
+     "reason": "48px from the left edge, the safe zone starts at 72px"
+    },
+    {
+     "check": "safe-zone",
+     "text": "Free.",
+     "reason": "48px from the left edge, the safe zone starts at 72px"
+    },
+    {
+     "check": "safe-zone",
+     "text": "Always.",
+     "reason": "48px from the left edge, the safe zone starts at 72px"
+    },
+    {
+     "check": "safe-zone",
+     "text": "Pay when the fourth one matters.",
+     "reason": "48px from the left edge, the safe zone starts at 72px"
+    },
+    {
+     "check": "safe-zone",
+     "text": "quill.app",
+     "reason": "ends 48px from the right edge, the safe zone is 72px"
+    },
+    {
+     "check": "type-scale",
+     "text": "quill.app",
+     "reason": "24px is off the brand scale (base 17, ratio 1.333), use 23px or 30px"
+    }
+   ]
+  },
+  {
+   "size": "ig-post",
+   "scheme": "light",
+   "width": 1080,
+   "height": 1350,
+   "png": "C:\\Users\\adity\\Desktop\\Adi\\deskstudio-research\\proof-ablation-2026-10-20\\jobs\\anthropic\\off\\ql-free\\.desk\\jobs\\20261020-0148-linkedin-instagram-portrait-saying\\renders\\audit\\ig-post.png",
+   "pass": false,
+   "failures": [
+    {
+     "check": "safe-zone",
+     "text": "Three",
+     "reason": "44px from the top edge, the safe zone starts at 81px"
+    },
+    {
+     "check": "safe-zone",
+     "text": "quill.app",
+     "reason": "ends 129px from the bottom edge, the safe zone is 135px"
+    }
+   ]
+  }
+ ],
+ "screenshots": [
+  "C:\\Users\\adity\\Desktop\\Adi\\deskstudio-research\\proof-ablation-2026-10-20\\jobs\\anthropic\\off\\ql-free\\.desk\\jobs\\20261020-0148-linkedin-instagram-portrait-saying\\renders\\audit\\linkedin.png",
+  "C:\\Users\\adity\\Desktop\\Adi\\deskstudio-research\\proof-ablation-2026-10-20\\jobs\\anthropic\\off\\ql-free\\.desk\\jobs\\20261020-0148-linkedin-instagram-portrait-saying\\renders\\audit\\ig-post.png"
+ ]
+}

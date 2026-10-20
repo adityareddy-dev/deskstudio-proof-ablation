@@ -1,0 +1,65 @@
+{
+ "pass": false,
+ "file": "final.html",
+ "renders": [
+  {
+   "size": "linkedin",
+   "scheme": "light",
+   "width": 1200,
+   "height": 627,
+   "png": "C:\\Users\\adity\\Desktop\\Adi\\deskstudio-research\\proof-ablation-2026-10-20\\jobs\\anthropic\\off\\fe-spec\\.desk\\jobs\\20261020-0150-linkedin-instagram-portrait-spec\\renders\\audit\\linkedin.png",
+   "pass": false,
+   "failures": [
+    {
+     "check": "safe-zone",
+     "text": "0.01mm",
+     "reason": "68px from the left edge, the safe zone starts at 72px; 29px from the top edge, the safe zone starts at 38px"
+    },
+    {
+     "check": "safe-zone",
+     "text": ".",
+     "reason": "29px from the top edge, the safe zone starts at 38px"
+    },
+    {
+     "check": "safe-zone",
+     "text": "On your",
+     "reason": "68px from the left edge, the safe zone starts at 72px"
+    },
+    {
+     "check": "type-scale",
+     "text": "ferro.tools",
+     "reason": "24px is off the brand scale (base 16, ratio 1.25), use 20px or 25px"
+    }
+   ]
+  },
+  {
+   "size": "ig-post",
+   "scheme": "light",
+   "width": 1080,
+   "height": 1350,
+   "png": "C:\\Users\\adity\\Desktop\\Adi\\deskstudio-research\\proof-ablation-2026-10-20\\jobs\\anthropic\\off\\fe-spec\\.desk\\jobs\\20261020-0150-linkedin-instagram-portrait-spec\\renders\\audit\\ig-post.png",
+   "pass": false,
+   "failures": [
+    {
+     "check": "safe-zone",
+     "text": "0.01mm",
+     "reason": "42px from the top edge, the safe zone starts at 81px"
+    },
+    {
+     "check": "safe-zone",
+     "text": ".",
+     "reason": "42px from the top edge, the safe zone starts at 81px"
+    },
+    {
+     "check": "type-scale",
+     "text": "ferro.tools",
+     "reason": "24px is off the brand scale (base 16, ratio 1.25), use 20px or 25px"
+    }
+   ]
+  }
+ ],
+ "screenshots": [
+  "C:\\Users\\adity\\Desktop\\Adi\\deskstudio-research\\proof-ablation-2026-10-20\\jobs\\anthropic\\off\\fe-spec\\.desk\\jobs\\20261020-0150-linkedin-instagram-portrait-spec\\renders\\audit\\linkedin.png",
+  "C:\\Users\\adity\\Desktop\\Adi\\deskstudio-research\\proof-ablation-2026-10-20\\jobs\\anthropic\\off\\fe-spec\\.desk\\jobs\\20261020-0150-linkedin-instagram-portrait-spec\\renders\\audit\\ig-post.png"
+ ]
+}

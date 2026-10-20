@@ -1,0 +1,61 @@
+[06:22:59] anthropic/on/nl-battery: start
+[06:22:59] anthropic/off/nl-battery: start
+[06:22:59] anthropic/on/nl-winter: start
+[06:26:26] anthropic/on/nl-winter: exit 0 in 205s, 4 rounds, average 8.5, cost 0.87, audit pass
+[06:26:26] anthropic/off/nl-winter: start
+[06:29:03] anthropic/off/nl-winter: exit 0 in 154s, 1 rounds, average 8.75, cost 0.56, audit 4 failures
+[06:29:03] anthropic/on/nl-referral: start
+[06:29:29] anthropic/on/nl-battery: exit 0 in 389s, 5 rounds, average 8.5, cost 0.97, audit pass
+[06:29:29] anthropic/off/nl-referral: start
+[06:32:08] anthropic/off/nl-battery: exit 4 in 547s, 6 rounds, average 8.25, cost 1.62, audit 1 failures
+[06:32:08] anthropic/on/nl-city: start
+[06:32:25] anthropic/on/nl-referral: exit 0 in 200s, 3 rounds, average 8.5, cost 0.60, audit pass
+[06:32:25] anthropic/off/nl-city: start
+[06:36:48] anthropic/on/nl-city: exit 0 in 279s, 4 rounds, average 8.5, cost 0.76, audit pass
+[06:36:49] anthropic/on/ql-launch: start
+[06:38:37] anthropic/off/nl-referral: exit 4 in 546s, 6 rounds, average 8.25, cost 1.53, audit 3 failures
+[06:38:37] anthropic/off/ql-launch: start
+[06:39:05] anthropic/off/nl-city: exit 0 in 398s, 3 rounds, average 8.63, cost 0.85, audit 7 failures
+[06:39:05] anthropic/on/ql-night: start
+[06:41:44] anthropic/on/ql-launch: exit 0 in 294s, 6 rounds, average 8.75, cost 0.74, audit pass
+[06:41:44] anthropic/off/ql-night: start
+[06:42:11] anthropic/on/ql-night: exit 0 in 185s, 2 rounds, average 8.5, cost 0.59, audit pass
+[06:42:11] anthropic/on/ql-phone: start
+[06:44:31] anthropic/off/ql-launch: exit 0 in 353s, 3 rounds, average 8.63, cost 0.95, audit 2 failures
+[06:44:31] anthropic/off/ql-phone: start
+[06:44:50] anthropic/off/ql-night: exit 0 in 184s, 1 rounds, average 8.5, cost 0.55, audit 11 failures
+[06:44:50] anthropic/on/ql-free: start
+[06:48:57] anthropic/off/ql-phone: exit 0 in 264s, 2 rounds, average 8.63, cost 0.71, audit 6 failures
+[06:48:57] anthropic/off/ql-free: start
+[06:49:57] anthropic/on/ql-free: exit 0 in 305s, 5 rounds, average 8.63, cost 0.81, audit pass
+[06:49:57] anthropic/on/fe-spec: start
+[06:50:21] anthropic/on/ql-phone: exit 0 in 489s, 3 rounds, average 8.75, cost 0.96, audit pass
+[06:50:21] anthropic/off/fe-spec: start
+[06:52:05] anthropic/off/ql-free: exit 0 in 187s, 1 rounds, average 8.63, cost 0.57, audit 8 failures
+[06:52:05] anthropic/on/fe-spindle: start
+[06:54:29] anthropic/off/fe-spec: exit 0 in 246s, 2 rounds, average 8.5, cost 0.72, audit 7 failures
+[06:54:29] anthropic/off/fe-spindle: start
+[06:54:39] anthropic/on/fe-spec: exit 0 in 281s, 3 rounds, average 8.63, cost 0.63, audit pass
+[06:54:39] anthropic/on/fe-maker: start
+[06:55:17] anthropic/on/fe-spindle: exit 0 in 190s, 3 rounds, average 8.5, cost 0.58, audit pass
+[06:55:17] anthropic/off/fe-maker: start
+[07:00:31] anthropic/on/fe-maker: exit 4 in 351s, 6 rounds, average 7.5, cost 0.72, audit 3 failures
+[07:00:31] anthropic/on/fe-event: start
+[07:01:42] anthropic/off/fe-spindle: exit 0 in 431s, 4 rounds, average 8.63, cost 1.03, audit 13 failures
+[07:01:42] anthropic/off/fe-event: start
+[07:03:21] anthropic/on/fe-event: exit 0 in 169s, 2 rounds, average 8.63, cost 0.55, audit pass
+[07:03:21] anthropic/on/ds-launch: start
+[07:08:49] anthropic/off/fe-maker: exit 0 in 811s, 5 rounds, average 8.63, cost 1.18, audit 10 failures
+[07:08:49] anthropic/off/ds-launch: start
+[07:10:10] anthropic/on/ds-launch: exit 0 in 407s, 6 rounds, average 8.5, cost 0.94, audit pass
+[07:10:10] anthropic/on/ds-contrib: start
+[07:10:49] anthropic/off/fe-event: exit 4 in 546s, 6 rounds, average 8.38, cost 1.52, audit 7 failures
+[07:10:49] anthropic/off/ds-contrib: start
+[07:14:40] anthropic/on/ds-contrib: exit 0 in 269s, 4 rounds, average 8.5, cost 0.71, audit pass
+[07:14:40] anthropic/on/ds-proof: start
+[07:16:00] anthropic/off/ds-contrib: exit 0 in 310s, 3 rounds, average 8.5, cost 0.83, audit 5 failures
+[07:16:00] anthropic/off/ds-proof: start
+[07:18:14] anthropic/off/ds-proof: exit 0 in 132s, 1 rounds, average 8.63, cost 0.57, audit 3 failures
+[07:18:23] anthropic/on/ds-proof: exit 0 in 221s, 2 rounds, average 8.63, cost 0.61, audit pass
+[07:18:42] anthropic/off/ds-launch: exit 4 in 592s, 6 rounds, average 7.88, cost 1.59, audit pass
+[07:18:42] anthropic: 30 of 30 done

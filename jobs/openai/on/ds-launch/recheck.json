@@ -1,0 +1,172 @@
+{
+ "family": "openai",
+ "arm": "on",
+ "case": "ds-launch",
+ "jobId": "20261020-0212-linkedin-instagram-portrait-desk",
+ "rounds": [
+  {
+   "round": 1,
+   "sizes": [
+    {
+     "size": "ig-post",
+     "failures": [
+      {
+       "check": "safe-zone",
+       "text": "A design",
+       "reason": "72px from the top edge, the safe zone starts at 81px"
+      },
+      {
+       "check": "safe-zone",
+       "text": "studio",
+       "reason": "72px from the top edge, the safe zone starts at 81px"
+      }
+     ]
+    },
+    {
+     "size": "linkedin",
+     "failures": [
+      {
+       "check": "safe-zone",
+       "text": "A design",
+       "reason": "35px from the top edge, the safe zone starts at 38px"
+      },
+      {
+       "check": "safe-zone",
+       "text": "studio",
+       "reason": "35px from the top edge, the safe zone starts at 38px"
+      }
+     ]
+    }
+   ],
+   "failures": 4,
+   "byCheck": {
+    "safe-zone": 4
+   }
+  },
+  {
+   "round": 2,
+   "sizes": [
+    {
+     "size": "ig-post",
+     "failures": []
+    },
+    {
+     "size": "linkedin",
+     "failures": []
+    }
+   ],
+   "failures": 0,
+   "byCheck": {}
+  },
+  {
+   "round": 3,
+   "sizes": [
+    {
+     "size": "ig-post",
+     "failures": []
+    },
+    {
+     "size": "linkedin",
+     "failures": []
+    }
+   ],
+   "failures": 0,
+   "byCheck": {}
+  },
+  {
+   "round": 4,
+   "sizes": [
+    {
+     "size": "ig-post",
+     "failures": []
+    },
+    {
+     "size": "linkedin",
+     "failures": []
+    }
+   ],
+   "failures": 0,
+   "byCheck": {}
+  },
+  {
+   "round": 5,
+   "sizes": [
+    {
+     "size": "ig-post",
+     "failures": [
+      {
+       "check": "safe-zone",
+       "text": "A design",
+       "reason": "73px from the top edge, the safe zone starts at 81px"
+      },
+      {
+       "check": "type-scale",
+       "text": "A design",
+       "reason": "108px is off the brand scale (base 16, ratio 1.25), use 95px or 119px"
+      },
+      {
+       "check": "type-scale",
+       "text": "studio",
+       "reason": "108px is off the brand scale (base 16, ratio 1.25), use 95px or 119px"
+      },
+      {
+       "check": "type-scale",
+       "text": "inside your",
+       "reason": "108px is off the brand scale (base 16, ratio 1.25), use 95px or 119px"
+      },
+      {
+       "check": "type-scale",
+       "text": "coding agent.",
+       "reason": "108px is off the brand scale (base 16, ratio 1.25), use 95px or 119px"
+      }
+     ]
+    },
+    {
+     "size": "linkedin",
+     "failures": [
+      {
+       "check": "type-scale",
+       "text": "A design",
+       "reason": "108px is off the brand scale (base 16, ratio 1.25), use 95px or 119px"
+      },
+      {
+       "check": "type-scale",
+       "text": "studio",
+       "reason": "108px is off the brand scale (base 16, ratio 1.25), use 95px or 119px"
+      },
+      {
+       "check": "type-scale",
+       "text": "inside your",
+       "reason": "108px is off the brand scale (base 16, ratio 1.25), use 95px or 119px"
+      },
+      {
+       "check": "type-scale",
+       "text": "coding agent.",
+       "reason": "108px is off the brand scale (base 16, ratio 1.25), use 95px or 119px"
+      }
+     ]
+    }
+   ],
+   "failures": 9,
+   "byCheck": {
+    "safe-zone": 1,
+    "type-scale": 8
+   }
+  },
+  {
+   "round": 6,
+   "sizes": [
+    {
+     "size": "ig-post",
+     "failures": []
+    },
+    {
+     "size": "linkedin",
+     "failures": []
+    }
+   ],
+   "failures": 0,
+   "byCheck": {}
+  }
+ ]
+}

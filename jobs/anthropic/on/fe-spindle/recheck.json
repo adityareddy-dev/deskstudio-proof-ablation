@@ -1,0 +1,131 @@
+{
+ "family": "anthropic",
+ "arm": "on",
+ "case": "fe-spindle",
+ "jobId": "20261020-0152-linkedin-instagram-portrait-faster",
+ "rounds": [
+  {
+   "round": 1,
+   "sizes": [
+    {
+     "size": "ig-post",
+     "failures": [
+      {
+       "check": "safe-zone",
+       "text": "24,000 rpm.",
+       "reason": "64px from the left edge, the safe zone starts at 65px; 41px from the top edge, the safe zone starts at 81px"
+      },
+      {
+       "check": "safe-zone",
+       "text": "Fits every Ferro ever made.",
+       "reason": "64px from the left edge, the safe zone starts at 65px"
+      },
+      {
+       "check": "safe-zone",
+       "text": "Fits every Ferro ever made.",
+       "reason": "64px from the left edge, the safe zone starts at 65px"
+      },
+      {
+       "check": "safe-zone",
+       "text": "Fits every Ferro ever made.",
+       "reason": "64px from the left edge, the safe zone starts at 65px"
+      },
+      {
+       "check": "safe-zone",
+       "text": "Swap it in ten minutes.",
+       "reason": "64px from the left edge, the safe zone starts at 65px"
+      },
+      {
+       "check": "safe-zone",
+       "text": "ferro.tools",
+       "reason": "64px from the left edge, the safe zone starts at 65px"
+      }
+     ]
+    },
+    {
+     "size": "linkedin",
+     "failures": [
+      {
+       "check": "safe-zone",
+       "text": "24,000 rpm.",
+       "reason": "40px from the left edge, the safe zone starts at 72px; 27px from the top edge, the safe zone starts at 38px"
+      },
+      {
+       "check": "safe-zone",
+       "text": "Fits every Ferro ever made.",
+       "reason": "40px from the left edge, the safe zone starts at 72px"
+      },
+      {
+       "check": "safe-zone",
+       "text": "Fits every Ferro ever made.",
+       "reason": "40px from the left edge, the safe zone starts at 72px"
+      },
+      {
+       "check": "safe-zone",
+       "text": "Swap it in ten minutes.",
+       "reason": "40px from the left edge, the safe zone starts at 72px"
+      },
+      {
+       "check": "safe-zone",
+       "text": "ferro.tools",
+       "reason": "40px from the left edge, the safe zone starts at 72px"
+      }
+     ]
+    }
+   ],
+   "failures": 11,
+   "byCheck": {
+    "safe-zone": 11
+   }
+  },
+  {
+   "round": 2,
+   "sizes": [
+    {
+     "size": "ig-post",
+     "failures": [
+      {
+       "check": "safe-zone",
+       "text": "24,000 rpm.",
+       "reason": "58px from the top edge, the safe zone starts at 81px"
+      }
+     ]
+    },
+    {
+     "size": "linkedin",
+     "failures": [
+      {
+       "check": "safe-zone",
+       "text": "24,000 rpm.",
+       "reason": "25px from the top edge, the safe zone starts at 38px"
+      },
+      {
+       "check": "safe-zone",
+       "text": "ferro.tools",
+       "reason": "ends 37px from the bottom edge, the safe zone is 38px"
+      }
+     ]
+    }
+   ],
+   "failures": 3,
+   "byCheck": {
+    "safe-zone": 3
+   }
+  },
+  {
+   "round": 3,
+   "sizes": [
+    {
+     "size": "ig-post",
+     "failures": []
+    },
+    {
+     "size": "linkedin",
+     "failures": []
+    }
+   ],
+   "failures": 0,
+   "byCheck": {}
+  }
+ ]
+}

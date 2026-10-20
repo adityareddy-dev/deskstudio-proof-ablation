@@ -1,0 +1,190 @@
+{
+  "width": 1200,
+  "height": 627,
+  "scrollWidth": 1200,
+  "scrollHeight": 627,
+  "boxes": [
+    {
+      "x": 80,
+      "y": 73,
+      "width": 408.640625,
+      "height": 92,
+      "text": "Your street,",
+      "color": "rgb(22, 22, 20)",
+      "opacity": 1,
+      "fontSize": 76,
+      "fontWeight": 600,
+      "fontFamily": "Inter, Arial, sans-serif",
+      "clips": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 627,
+          "clipX": true,
+          "clipY": true
+        }
+      ]
+    },
+    {
+      "x": 80,
+      "y": 152.03125,
+      "width": 380.359375,
+      "height": 92,
+      "text": "one roof at",
+      "color": "rgb(22, 22, 20)",
+      "opacity": 1,
+      "fontSize": 76,
+      "fontWeight": 600,
+      "fontFamily": "Inter, Arial, sans-serif",
+      "clips": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 627,
+          "clipX": true,
+          "clipY": true
+        }
+      ]
+    },
+    {
+      "x": 80,
+      "y": 231.0625,
+      "width": 236.484375,
+      "height": 92,
+      "text": "a time.",
+      "color": "rgb(22, 22, 20)",
+      "opacity": 1,
+      "fontSize": 76,
+      "fontWeight": 600,
+      "fontFamily": "Inter, Arial, sans-serif",
+      "clips": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 627,
+          "clipX": true,
+          "clipY": true
+        }
+      ]
+    },
+    {
+      "x": 708,
+      "y": 154.953125,
+      "width": 387.59375,
+      "height": 37,
+      "text": "Every neighbour you bring takes",
+      "color": "rgb(22, 22, 20)",
+      "opacity": 1,
+      "fontSize": 31,
+      "fontWeight": 400,
+      "fontFamily": "Inter, Arial, sans-serif",
+      "clips": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 627,
+          "clipX": true,
+          "clipY": true
+        }
+      ]
+    },
+    {
+      "x": 708,
+      "y": 198.34375,
+      "width": 78.46875,
+      "height": 37,
+      "text": "Every neighbour you bring takes",
+      "color": "rgb(22, 22, 20)",
+      "opacity": 1,
+      "fontSize": 31,
+      "fontWeight": 400,
+      "fontFamily": "Inter, Arial, sans-serif",
+      "clips": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 627,
+          "clipX": true,
+          "clipY": true
+        }
+      ]
+    },
+    {
+      "x": 708,
+      "y": 244.734375,
+      "width": 380.8125,
+      "height": 180,
+      "text": "$400",
+      "color": "rgb(217, 72, 15)",
+      "opacity": 1,
+      "fontSize": 149,
+      "fontWeight": 600,
+      "fontFamily": "Inter, Arial, sans-serif",
+      "clips": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 627,
+          "clipX": true,
+          "clipY": true
+        }
+      ]
+    },
+    {
+      "x": 708,
+      "y": 434.640625,
+      "width": 216.234375,
+      "height": 37,
+      "text": "off their quote.",
+      "color": "rgb(22, 22, 20)",
+      "opacity": 1,
+      "fontSize": 31,
+      "fontWeight": 400,
+      "fontFamily": "Inter, Arial, sans-serif",
+      "clips": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 627,
+          "clipX": true,
+          "clipY": true
+        }
+      ]
+    },
+    {
+      "x": 80,
+      "y": 506.609375,
+      "width": 251.015625,
+      "height": 37,
+      "text": "northlight.energy",
+      "color": "rgb(22, 22, 20)",
+      "opacity": 1,
+      "fontSize": 31,
+      "fontWeight": 400,
+      "fontFamily": "Inter, Arial, sans-serif",
+      "clips": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 627,
+          "clipX": true,
+          "clipY": true
+        }
+      ]
+    }
+  ],
+  "fonts": {
+    "Inter": true,
+    "Arial": true,
+    "sans-serif": true
+  },
+  "images": 0
+}

@@ -1,0 +1,191 @@
+{
+  "id": "20261020-0141-linkedin-instagram-portrait-writing",
+  "command": "design",
+  "deliverable": "social-card",
+  "sizes": [
+    "linkedin",
+    "ig-post"
+  ],
+  "quality": "studio",
+  "proofMode": "off",
+  "models": {
+    "director": "anthropic/opus",
+    "senior": "anthropic/sonnet",
+    "builder": "anthropic/haiku"
+  },
+  "phase": "done",
+  "round": 1,
+  "maxRounds": 6,
+  "desks": [
+    {
+      "desk": "design-manager",
+      "task": "intake",
+      "status": "done",
+      "model": "anthropic/opus",
+      "startedAt": "2026-10-20T01:41:44-05:00",
+      "updatedAt": "2026-10-20T01:41:59-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "rough 1, editorial split",
+      "status": "done",
+      "model": "anthropic/sonnet",
+      "startedAt": "2026-10-20T01:41:59-05:00",
+      "updatedAt": "2026-10-20T01:42:27-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "rough 2, full bleed with scrim",
+      "status": "done",
+      "model": "anthropic/sonnet",
+      "startedAt": "2026-10-20T01:41:59-05:00",
+      "updatedAt": "2026-10-20T01:42:27-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "rough 3, type only",
+      "status": "done",
+      "model": "anthropic/sonnet",
+      "startedAt": "2026-10-20T01:41:59-05:00",
+      "updatedAt": "2026-10-20T01:42:24-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "art-director",
+      "task": "pick",
+      "status": "done",
+      "model": "anthropic/opus",
+      "startedAt": "2026-10-20T01:42:31-05:00",
+      "updatedAt": "2026-10-20T01:43:19-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 1",
+      "status": "done",
+      "model": "anthropic/haiku",
+      "startedAt": "2026-10-20T01:43:19-05:00",
+      "updatedAt": "2026-10-20T01:44:08-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "creative-director",
+      "task": "sign-off round 1",
+      "status": "done",
+      "model": "anthropic/opus",
+      "startedAt": "2026-10-20T01:44:10-05:00",
+      "updatedAt": "2026-10-20T01:44:48-05:00",
+      "via": "cli"
+    }
+  ],
+  "pick": {
+    "by": "art-director",
+    "rough": 3,
+    "pattern": "Type only",
+    "combineWith": null,
+    "reason": "The headline is the image and it carries the idea itself, going from foreground to accent to muted, so the sentence dims as you read it. It reads in two seconds and needs the fewest notes.",
+    "lost": "1 the three tonal bands read as a palette swatch rather than an image, and leave dead space under them on linkedin; 2 the ig-post copy is broken (\"dimswith\"), the headline is undersized on linkedin, and the box-in-box leaves an empty band on portrait",
+    "notes": [
+      "Headline line height to 1.05 on linkedin (95px) and 1.1 on ig-post (127px), with tracking -0.02em on both. The current pitch is about 1.4, and the standard asks for a headline line height of 1.0 to 1.1 with tight tracking above 40px. Keep the three tones as they are: \"The page\" in foreground, \"dims\" in accent, \"with the room.\" in muted.",
+      "Linkedin: put 40px between the last headline line and \"Night mode is on by default.\" It is about 24px now, which crowds \"room.\"",
+      "Ig-post: set the headline top at 72px, then put 88px between the last headline line (\"room.\") and the supporting line. Keep the gap from the supporting line down to quill.app at 440px or less. The standard rule is no empty band taller than a third of the canvas (450px), and the tighter leading from note 1 will open up that band unless you move the supporting line down.",
+      "Keep the mark at 23px in muted #8b8d99, bottom left on the margin: 40px from the left and bottom on linkedin, and 64px from the left with its bottom edge 136px up on ig-post, inside the 10% bottom safe zone. Add no other element. The type-only pattern is headline, line and mark, nothing else."
+    ],
+    "at": "2026-10-20T01:43:19-05:00"
+  },
+  "proof": [
+    {
+      "round": 1,
+      "pass": null,
+      "skipped": true,
+      "failures": 0
+    }
+  ],
+  "scores": [
+    {
+      "round": 1,
+      "by": "creative-director",
+      "axes": {
+        "hierarchy": 9,
+        "typography": 8,
+        "spacing": 8,
+        "colour": 9,
+        "composition": 8,
+        "originality": 8,
+        "brand": 9,
+        "copy": 9
+      },
+      "average": 8.5,
+      "pass": true,
+      "notes": [
+        "typography: Set tracking to -0.02em on the headline on both sizes. Keep the leading at what renders now, about 1.05 on linkedin and 1.1 on ig-post. Do not open it up.",
+        "spacing: On linkedin, set 64px from the \"room.\" baseline to the cap top of the supporting line. On ig-post, close that same gap from about 130px to 96px. Keep the mark at 40px from the left and bottom on linkedin, and at 64px from the left with its bottom edge 136px up on ig-post.",
+        "composition: On ig-post, raise the supporting line from about 30px to 40px (on the scale) so the bottom group carries the lower third. Keep the gap from the supporting line to quill.app under 400px. On linkedin, change no sizes.",
+        "originality: Leave the structure alone, because the tonal step from foreground to accent to muted is the move. Do not add a rule, a second tint or any other element. The tighter tracking in the typography note is what makes the block read as one shape."
+      ],
+      "polish": [
+        "On ig-post, check that \"room.\" sits alone on its line with no orphaned feel. If tracking -0.02em lets \"with the room.\" fit inside 952px, set it as three lines: \"The page / dims / with the room.\""
+      ]
+    }
+  ],
+  "waitingOn": null,
+  "cost": {
+    "director": 0.3831,
+    "senior": 0.1568,
+    "builder": 0.0073,
+    "total": 0.5472,
+    "complete": true
+  },
+  "tokens": {
+    "director": 43766,
+    "senior": 28575,
+    "builder": 21352
+  },
+  "files": {
+    "final": ".desk/out/20261020-0141-linkedin-instagram-portrait-writing/final.html",
+    "brief": ".desk/jobs/20261020-0141-linkedin-instagram-portrait-writing/brief.md",
+    "handback": ".desk/out/20261020-0141-linkedin-instagram-portrait-writing/handback.md"
+  },
+  "pen": "builder",
+  "notes": [
+    "Headline line height to 1.05 on linkedin (95px) and 1.1 on ig-post (127px), with tracking -0.02em on both. The current pitch is about 1.4, and the standard asks for a headline line height of 1.0 to 1.1 with tight tracking above 40px. Keep the three tones as they are: \"The page\" in foreground, \"dims\" in accent, \"with the room.\" in muted.",
+    "Linkedin: put 40px between the last headline line and \"Night mode is on by default.\" It is about 24px now, which crowds \"room.\"",
+    "Ig-post: set the headline top at 72px, then put 88px between the last headline line (\"room.\") and the supporting line. Keep the gap from the supporting line down to quill.app at 440px or less. The standard rule is no empty band taller than a third of the canvas (450px), and the tighter leading from note 1 will open up that band unless you move the supporting line down.",
+    "Keep the mark at 23px in muted #8b8d99, bottom left on the margin: 40px from the left and bottom on linkedin, and 64px from the left with its bottom edge 136px up on ig-post, inside the 10% bottom safe zone. Add no other element. The type-only pattern is headline, line and mark, nothing else."
+  ],
+  "misses": {},
+  "startedAt": "2026-10-20T01:41:44-05:00",
+  "updatedAt": "2026-10-20T01:44:49-05:00",
+  "roughs": [
+    {
+      "n": 1,
+      "pattern": "Editorial split",
+      "file": ".desk/out/20261020-0141-linkedin-instagram-portrait-writing/rough-1.html",
+      "fonts": "Source Serif 4, inlined by the runner, not a fallback",
+      "written": true,
+      "renders": ".desk/jobs/20261020-0141-linkedin-instagram-portrait-writing/renders/roughs/rough-1"
+    },
+    {
+      "n": 2,
+      "pattern": "Full bleed with scrim",
+      "file": ".desk/out/20261020-0141-linkedin-instagram-portrait-writing/rough-2.html",
+      "fonts": "Source Serif 4, inlined by the runner, not a fallback",
+      "written": true,
+      "renders": ".desk/jobs/20261020-0141-linkedin-instagram-portrait-writing/renders/roughs/rough-2"
+    },
+    {
+      "n": 3,
+      "pattern": "Type only",
+      "file": ".desk/out/20261020-0141-linkedin-instagram-portrait-writing/rough-3.html",
+      "fonts": "Source Serif 4, inlined by the runner, not a fallback",
+      "written": true,
+      "renders": ".desk/jobs/20261020-0141-linkedin-instagram-portrait-writing/renders/roughs/rough-3"
+    }
+  ],
+  "lastRenders": ".desk/jobs/20261020-0141-linkedin-instagram-portrait-writing/renders/round-1",
+  "penNotes": [],
+  "finishedAt": "2026-10-20T01:44:49-05:00"
+}

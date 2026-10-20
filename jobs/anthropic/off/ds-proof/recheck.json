@@ -1,0 +1,43 @@
+{
+ "family": "anthropic",
+ "arm": "off",
+ "case": "ds-proof",
+ "jobId": "20261020-0216-linkedin-instagram-portrait-proof",
+ "rounds": [
+  {
+   "round": 1,
+   "sizes": [
+    {
+     "size": "ig-post",
+     "failures": [
+      {
+       "check": "safe-zone",
+       "text": "Checked on",
+       "reason": "58px from the top edge, the safe zone starts at 81px"
+      },
+      {
+       "check": "palette",
+       "text": "",
+       "reason": "26% of the pixels are not within 45 of any brand colour (limit 5%). Images and gradients count, so use brand tints or a scrim"
+      }
+     ]
+    },
+    {
+     "size": "linkedin",
+     "failures": [
+      {
+       "check": "palette",
+       "text": "",
+       "reason": "22% of the pixels are not within 45 of any brand colour (limit 5%). Images and gradients count, so use brand tints or a scrim"
+      }
+     ]
+    }
+   ],
+   "failures": 3,
+   "byCheck": {
+    "safe-zone": 1,
+    "palette": 2
+   }
+  }
+ ]
+}

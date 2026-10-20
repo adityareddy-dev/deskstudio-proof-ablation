@@ -1,0 +1,72 @@
+{
+ "family": "anthropic",
+ "arm": "on",
+ "case": "ds-proof",
+ "jobId": "20261020-0214-linkedin-instagram-portrait-proof",
+ "rounds": [
+  {
+   "round": 1,
+   "sizes": [
+    {
+     "size": "ig-post",
+     "failures": [
+      {
+       "check": "safe-zone",
+       "text": "Checked on",
+       "reason": "36px from the top edge, the safe zone starts at 81px"
+      },
+      {
+       "check": "safe-zone",
+       "text": "deskstudio.ai",
+       "reason": "ends 128px from the bottom edge, the safe zone is 135px"
+      }
+     ]
+    },
+    {
+     "size": "linkedin",
+     "failures": [
+      {
+       "check": "safe-zone",
+       "text": "Checked on",
+       "reason": "48px from the left edge, the safe zone starts at 72px; 20px from the top edge, the safe zone starts at 38px"
+      },
+      {
+       "check": "safe-zone",
+       "text": "real pixels.",
+       "reason": "48px from the left edge, the safe zone starts at 72px"
+      },
+      {
+       "check": "safe-zone",
+       "text": "Overflow, contrast, safe zone, every ...",
+       "reason": "48px from the left edge, the safe zone starts at 72px"
+      },
+      {
+       "check": "safe-zone",
+       "text": "deskstudio.ai",
+       "reason": "48px from the left edge, the safe zone starts at 72px"
+      }
+     ]
+    }
+   ],
+   "failures": 6,
+   "byCheck": {
+    "safe-zone": 6
+   }
+  },
+  {
+   "round": 2,
+   "sizes": [
+    {
+     "size": "ig-post",
+     "failures": []
+    },
+    {
+     "size": "linkedin",
+     "failures": []
+    }
+   ],
+   "failures": 0,
+   "byCheck": {}
+  }
+ ]
+}

@@ -1,0 +1,438 @@
+{
+  "id": "20261020-0138-linkedin-instagram-portrait-winter",
+  "command": "design",
+  "deliverable": "social-card",
+  "sizes": [
+    "linkedin",
+    "ig-post"
+  ],
+  "quality": "studio",
+  "proofMode": "off",
+  "models": {
+    "director": "openai/large",
+    "senior": "openai/mini",
+    "builder": "openai/mini"
+  },
+  "phase": "done",
+  "round": 6,
+  "maxRounds": 6,
+  "desks": [
+    {
+      "desk": "design-manager",
+      "task": "intake",
+      "status": "done",
+      "model": "openai/large",
+      "startedAt": "2026-10-20T01:38:05-05:00",
+      "updatedAt": "2026-10-20T01:38:26-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "rough 1, editorial split",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T01:38:26-05:00",
+      "updatedAt": "2026-10-20T01:39:35-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "rough 2, full bleed with scrim",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T01:38:26-05:00",
+      "updatedAt": "2026-10-20T01:39:09-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "rough 3, type only",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T01:38:26-05:00",
+      "updatedAt": "2026-10-20T01:39:06-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "art-director",
+      "task": "pick",
+      "status": "done",
+      "model": "openai/large",
+      "startedAt": "2026-10-20T01:39:39-05:00",
+      "updatedAt": "2026-10-20T01:39:57-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 1",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T01:39:57-05:00",
+      "updatedAt": "2026-10-20T01:40:19-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "creative-director",
+      "task": "sign-off round 1",
+      "status": "done",
+      "model": "openai/large",
+      "startedAt": "2026-10-20T01:40:20-05:00",
+      "updatedAt": "2026-10-20T01:40:47-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 2",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T01:40:47-05:00",
+      "updatedAt": "2026-10-20T01:41:12-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "creative-director",
+      "task": "sign-off round 2",
+      "status": "done",
+      "model": "openai/large",
+      "startedAt": "2026-10-20T01:41:13-05:00",
+      "updatedAt": "2026-10-20T01:41:39-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 3",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T01:41:39-05:00",
+      "updatedAt": "2026-10-20T01:42:32-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "creative-director",
+      "task": "sign-off round 3",
+      "status": "done",
+      "model": "openai/large",
+      "startedAt": "2026-10-20T01:42:34-05:00",
+      "updatedAt": "2026-10-20T01:42:57-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 4, escalated",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T01:42:57-05:00",
+      "updatedAt": "2026-10-20T01:43:31-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "creative-director",
+      "task": "sign-off round 4",
+      "status": "done",
+      "model": "openai/large",
+      "startedAt": "2026-10-20T01:43:33-05:00",
+      "updatedAt": "2026-10-20T01:44:00-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 5, escalated",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T01:44:00-05:00",
+      "updatedAt": "2026-10-20T01:44:46-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "creative-director",
+      "task": "sign-off round 5",
+      "status": "done",
+      "model": "openai/large",
+      "startedAt": "2026-10-20T01:44:48-05:00",
+      "updatedAt": "2026-10-20T01:45:09-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 6, escalated",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T01:45:09-05:00",
+      "updatedAt": "2026-10-20T01:45:36-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "creative-director",
+      "task": "sign-off round 6",
+      "status": "done",
+      "model": "openai/large",
+      "startedAt": "2026-10-20T01:45:37-05:00",
+      "updatedAt": "2026-10-20T01:45:57-05:00",
+      "via": "cli"
+    }
+  ],
+  "pick": {
+    "by": "art-director",
+    "rough": 3,
+    "pattern": "Type only",
+    "combineWith": null,
+    "reason": "The headline does the work at both sizes; orange “pays.” gives Northlight one clear focal point with the fewest fixes.",
+    "lost": "1 The panel illustration competes with the headline and weakens the portrait, 2 The heavy black frame consumes space without strengthening the message.",
+    "notes": [
+      "Set headline weight to 600 in both sizes, preserving the two-line break and current font sizes; the brand specifies 600.",
+      "Set “pays.” to #d9480f in both sizes; keep this as the single accent, per the social-card colour standard."
+    ],
+    "at": "2026-10-20T01:39:57-05:00"
+  },
+  "proof": [
+    {
+      "round": 1,
+      "pass": null,
+      "skipped": true,
+      "failures": 0
+    },
+    {
+      "round": 2,
+      "pass": null,
+      "skipped": true,
+      "failures": 0
+    },
+    {
+      "round": 3,
+      "pass": null,
+      "skipped": true,
+      "failures": 0
+    },
+    {
+      "round": 4,
+      "pass": null,
+      "skipped": true,
+      "failures": 0
+    },
+    {
+      "round": 5,
+      "pass": null,
+      "skipped": true,
+      "failures": 0
+    },
+    {
+      "round": 6,
+      "pass": null,
+      "skipped": true,
+      "failures": 0
+    }
+  ],
+  "scores": [
+    {
+      "round": 1,
+      "by": "creative-director",
+      "axes": {
+        "hierarchy": 9,
+        "typography": 8,
+        "spacing": 8,
+        "colour": 8,
+        "composition": 8,
+        "originality": 6,
+        "brand": 8,
+        "copy": 9
+      },
+      "average": 8,
+      "pass": false,
+      "notes": [
+        "typography: Set both headlines to weight 600; preserve the two-line break and body weight 400.",
+        "spacing: Move the portrait supporting copy down from approximately y634 to y816, retaining its two lines; keep the URL at its current position.",
+        "colour: Set “pays.” to #d9480f in both sizes; the rendered orange appears brighter than the supplied accent.",
+        "composition: Increase the landscape headline from approximately 149px to 186px; position its block at x72, y48 and the supporting line at y464.",
+        "originality: Give the type-only layout one deliberate stagger: keep “January” at x72 and start “still pays.” at x144 in both formats.",
+        "brand: Apply the Art Director’s two outstanding specifications consistently: headline 600 and the single accent #d9480f."
+      ],
+      "polish": [
+        "Preserve the supplied copy verbatim and keep the URL at 31px."
+      ]
+    },
+    {
+      "round": 2,
+      "by": "creative-director",
+      "axes": {
+        "hierarchy": 9,
+        "typography": 8,
+        "spacing": 8,
+        "colour": 9,
+        "composition": 8,
+        "originality": 6,
+        "brand": 8,
+        "copy": 9
+      },
+      "average": 8.13,
+      "pass": false,
+      "notes": [
+        "typography: Move “still pays.” left from approximately x144 to x72 in both sizes; align both headline lines with the supporting copy.",
+        "spacing: Move the portrait supporting copy up 128px, from approximately y824 to y696; retain the URL’s current position.",
+        "composition: Extend the landscape headline toward the right safe edge at x1128; increase its size from approximately 186px to 210px while preserving two lines.",
+        "originality: Give the two formats a deliberate shared typographic signature: set “January” and “still pays.” to the same visible width using separate tracking adjustments within −0.02em to −0.01em and size adjustments; retain one orange word and no additional elements.",
+        "brand: Match the headline to weight 600 and the accent to #d9480f in both exports; the displayed weight and orange need checking against the Art Director’s requested values."
+      ],
+      "polish": []
+    },
+    {
+      "round": 3,
+      "by": "creative-director",
+      "axes": {
+        "hierarchy": 9,
+        "typography": 8,
+        "spacing": 7,
+        "colour": 9,
+        "composition": 8,
+        "originality": 6,
+        "brand": 9,
+        "copy": 9
+      },
+      "average": 8.13,
+      "pass": false,
+      "notes": [
+        "typography: On LinkedIn, reduce the headline from approximately 210px to 186px; preserve weight 600 and the two-line break.",
+        "spacing: On LinkedIn, leave at least 24px between the lowest headline descender and the supporting line; retain the 72px left margin.",
+        "composition: In portrait, move the supporting copy down 64px and the URL up 64px to tighten the lower group while preserving the headline in the top 40%.",
+        "originality: Develop one shared stepped headline lockup across both sizes: keep “January” at x72, start “still pays.” at x144, and fit its right edge inside the existing safe margin."
+      ],
+      "polish": [
+        "Keep the single orange word and the supplied copy intact."
+      ]
+    },
+    {
+      "round": 4,
+      "by": "creative-director",
+      "axes": {
+        "hierarchy": 9,
+        "typography": 8,
+        "spacing": 8,
+        "colour": 9,
+        "composition": 8,
+        "originality": 6,
+        "brand": 8,
+        "copy": 9
+      },
+      "average": 8.13,
+      "pass": false,
+      "notes": [
+        "typography: Align both headline lines at x=72px; remove the approximately 72px indent before “still” in both formats.",
+        "spacing: Move the portrait supporting copy up 80px, keeping its two-line break and x=72px alignment.",
+        "composition: Move the portrait URL down to y=1184px, giving the brand mark a clear bottom-left anchor within the safe area.",
+        "originality: Rework LinkedIn into a 60/40 editorial split: set the headline at 149px in the left column and the supporting copy at 39px in the right, retaining orange only on “pays.”",
+        "brand: Apply the Art Director’s specified headline weight of 600 in both formats; the rendered headline still reads as bold."
+      ],
+      "polish": [
+        "Preserve the supplied copy verbatim through the next layout pass."
+      ]
+    },
+    {
+      "round": 5,
+      "by": "creative-director",
+      "axes": {
+        "hierarchy": 9,
+        "typography": 9,
+        "spacing": 9,
+        "colour": 9,
+        "composition": 9,
+        "originality": 6,
+        "brand": 9,
+        "copy": 9
+      },
+      "average": 8.63,
+      "pass": false,
+      "notes": [
+        "originality: Give the type-only layout a deliberate stepped alignment: place the supporting copy beneath “pays.” at x336/y432 on LinkedIn and x400/y624 on portrait; retain its two lines, current sizes and the bottom-left URL."
+      ],
+      "polish": []
+    },
+    {
+      "round": 6,
+      "by": "creative-director",
+      "axes": {
+        "hierarchy": 9,
+        "typography": 8,
+        "spacing": 8,
+        "colour": 8,
+        "composition": 8,
+        "originality": 6,
+        "brand": 8,
+        "copy": 9
+      },
+      "average": 8,
+      "pass": false,
+      "notes": [
+        "typography: Set both headlines to weight 600; preserve the two-line breaks and current sizes.",
+        "spacing: Move the portrait support block down 64px to shorten the approximately 440px empty band above the URL.",
+        "colour: Set “pays.” to #d9480f in both exports; the rendered orange appears brighter.",
+        "composition: Move the LinkedIn support block right from approximately x336 to x720, retaining its two lines and creating a deliberate lower-right counterweight.",
+        "originality: Align the support block with the left edge of “pays.” in portrait; use that repeated vertical axis as the defining typographic relationship across adaptations.",
+        "brand: Keep the URL at x72 and the portrait URL’s bottom at or above y1215; apply the specified 600 headline weight and orange before export."
+      ],
+      "polish": [
+        "Align the portrait support block’s left edge precisely with the orange “p”."
+      ]
+    }
+  ],
+  "waitingOn": {
+    "type": "approve_under_bar",
+    "text": "Under the bar after 6 rounds. originality under 8, originality: Align the support block with the left edge of “pays.” in portrait; use that repeated vertical axis as the defining typographic relationship across adaptations."
+  },
+  "cost": {
+    "director": 1.8218,
+    "senior": 0.3855,
+    "builder": 0.1949,
+    "total": 2.4022,
+    "complete": true
+  },
+  "tokens": {
+    "director": 274117,
+    "senior": 321830,
+    "builder": 183802
+  },
+  "files": {
+    "final": ".desk/out/20261020-0138-linkedin-instagram-portrait-winter/final.html",
+    "brief": ".desk/jobs/20261020-0138-linkedin-instagram-portrait-winter/brief.md",
+    "handback": ".desk/out/20261020-0138-linkedin-instagram-portrait-winter/handback.md"
+  },
+  "pen": "art-director",
+  "notes": [
+    "typography: Set both headlines to weight 600; preserve the two-line breaks and current sizes.",
+    "spacing: Move the portrait support block down 64px to shorten the approximately 440px empty band above the URL.",
+    "colour: Set “pays.” to #d9480f in both exports; the rendered orange appears brighter.",
+    "composition: Move the LinkedIn support block right from approximately x336 to x720, retaining its two lines and creating a deliberate lower-right counterweight.",
+    "originality: Align the support block with the left edge of “pays.” in portrait; use that repeated vertical axis as the defining typographic relationship across adaptations.",
+    "brand: Keep the URL at x72 and the portrait URL’s bottom at or above y1215; apply the specified 600 headline weight and orange before export."
+  ],
+  "misses": {},
+  "startedAt": "2026-10-20T01:38:05-05:00",
+  "updatedAt": "2026-10-20T01:45:57-05:00",
+  "roughs": [
+    {
+      "n": 1,
+      "pattern": "Editorial split",
+      "file": ".desk/out/20261020-0138-linkedin-instagram-portrait-winter/rough-1.html",
+      "fonts": "Inter; inlined by runner",
+      "written": true,
+      "renders": ".desk/jobs/20261020-0138-linkedin-instagram-portrait-winter/renders/roughs/rough-1"
+    },
+    {
+      "n": 2,
+      "pattern": "Full bleed with scrim",
+      "file": ".desk/out/20261020-0138-linkedin-instagram-portrait-winter/rough-2.html",
+      "fonts": "Inter, inlined by runner",
+      "written": true,
+      "renders": ".desk/jobs/20261020-0138-linkedin-instagram-portrait-winter/renders/roughs/rough-2"
+    },
+    {
+      "n": 3,
+      "pattern": "Type only",
+      "file": ".desk/out/20261020-0138-linkedin-instagram-portrait-winter/rough-3.html",
+      "fonts": "Inter, inlined by runner; Arial fallback",
+      "written": true,
+      "renders": ".desk/jobs/20261020-0138-linkedin-instagram-portrait-winter/renders/roughs/rough-3"
+    }
+  ],
+  "lastRenders": ".desk/jobs/20261020-0138-linkedin-instagram-portrait-winter/renders/round-6",
+  "penNotes": [],
+  "finishedAt": "2026-10-20T01:45:57-05:00"
+}

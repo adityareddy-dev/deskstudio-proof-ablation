@@ -1,0 +1,445 @@
+{
+  "id": "20261020-0159-linkedin-instagram-portrait-spec",
+  "command": "design",
+  "deliverable": "social-card",
+  "sizes": [
+    "linkedin",
+    "ig-post"
+  ],
+  "quality": "studio",
+  "proofMode": "off",
+  "models": {
+    "director": "openai/large",
+    "senior": "openai/mini",
+    "builder": "openai/mini"
+  },
+  "phase": "done",
+  "round": 6,
+  "maxRounds": 6,
+  "desks": [
+    {
+      "desk": "design-manager",
+      "task": "intake",
+      "status": "done",
+      "model": "openai/large",
+      "startedAt": "2026-10-20T01:59:45-05:00",
+      "updatedAt": "2026-10-20T02:00:05-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "rough 1, editorial split",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T02:00:05-05:00",
+      "updatedAt": "2026-10-20T02:00:45-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "rough 2, full bleed with scrim",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T02:00:05-05:00",
+      "updatedAt": "2026-10-20T02:00:52-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "rough 3, type only",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T02:00:05-05:00",
+      "updatedAt": "2026-10-20T02:00:45-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "art-director",
+      "task": "pick",
+      "status": "done",
+      "model": "openai/large",
+      "startedAt": "2026-10-20T02:00:56-05:00",
+      "updatedAt": "2026-10-20T02:01:14-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 1",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T02:01:14-05:00",
+      "updatedAt": "2026-10-20T02:01:40-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "creative-director",
+      "task": "sign-off round 1",
+      "status": "done",
+      "model": "openai/large",
+      "startedAt": "2026-10-20T02:01:41-05:00",
+      "updatedAt": "2026-10-20T02:02:04-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 2",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T02:02:04-05:00",
+      "updatedAt": "2026-10-20T02:02:36-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "creative-director",
+      "task": "sign-off round 2",
+      "status": "done",
+      "model": "openai/large",
+      "startedAt": "2026-10-20T02:02:37-05:00",
+      "updatedAt": "2026-10-20T02:03:00-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 3",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T02:03:00-05:00",
+      "updatedAt": "2026-10-20T02:03:33-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "creative-director",
+      "task": "sign-off round 3",
+      "status": "done",
+      "model": "openai/large",
+      "startedAt": "2026-10-20T02:03:34-05:00",
+      "updatedAt": "2026-10-20T02:04:04-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 4, escalated",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T02:04:04-05:00",
+      "updatedAt": "2026-10-20T02:04:27-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "creative-director",
+      "task": "sign-off round 4",
+      "status": "done",
+      "model": "openai/large",
+      "startedAt": "2026-10-20T02:04:28-05:00",
+      "updatedAt": "2026-10-20T02:04:50-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 5, escalated",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T02:04:50-05:00",
+      "updatedAt": "2026-10-20T02:05:36-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "creative-director",
+      "task": "sign-off round 5",
+      "status": "done",
+      "model": "openai/large",
+      "startedAt": "2026-10-20T02:05:38-05:00",
+      "updatedAt": "2026-10-20T02:06:02-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 6, escalated",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T02:06:02-05:00",
+      "updatedAt": "2026-10-20T02:06:27-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "creative-director",
+      "task": "sign-off round 6",
+      "status": "done",
+      "model": "openai/large",
+      "startedAt": "2026-10-20T02:06:29-05:00",
+      "updatedAt": "2026-10-20T02:06:47-05:00",
+      "via": "cli"
+    }
+  ],
+  "pick": {
+    "by": "art-director",
+    "rough": 3,
+    "pattern": "Type only",
+    "combineWith": null,
+    "reason": "The figure and claim read as one headline in two seconds, with enough weight to carry both formats.",
+    "lost": "1 separates the figure from the claim and weakens reading order, 2 lets the oversized illustration compete with the specification.",
+    "notes": [
+      "Set the figure’s red to exactly #e5173f in both formats; keep this the single accent, per Ferro’s palette.",
+      "Inline verified Geist, or bundled Inter if Geist is unavailable, and use it throughout: headline 149px/1.0 at 700, supporting line 49px at 400, URL 31px at 400. Keep headline tracking at -0.02em, per the social-card type standard."
+    ],
+    "at": "2026-10-20T02:01:14-05:00"
+  },
+  "proof": [
+    {
+      "round": 1,
+      "pass": null,
+      "skipped": true,
+      "failures": 0
+    },
+    {
+      "round": 2,
+      "pass": null,
+      "skipped": true,
+      "failures": 0
+    },
+    {
+      "round": 3,
+      "pass": null,
+      "skipped": true,
+      "failures": 0
+    },
+    {
+      "round": 4,
+      "pass": null,
+      "skipped": true,
+      "failures": 0
+    },
+    {
+      "round": 5,
+      "pass": null,
+      "skipped": true,
+      "failures": 0
+    },
+    {
+      "round": 6,
+      "pass": null,
+      "skipped": true,
+      "failures": 0
+    }
+  ],
+  "scores": [
+    {
+      "round": 1,
+      "by": "creative-director",
+      "axes": {
+        "hierarchy": 9,
+        "typography": 8,
+        "spacing": 8,
+        "colour": 8,
+        "composition": 8,
+        "originality": 6,
+        "brand": 8,
+        "copy": 10
+      },
+      "average": 8.13,
+      "pass": false,
+      "notes": [
+        "typography: Inline verified Geist or Inter throughout; retain 149px/1.0 headlines at 700, -0.02em tracking, and 49px/31px supporting sizes at 400.",
+        "spacing: On portrait, move the supporting line from approximately y750 to y624, reducing its separation from the headline by 126px.",
+        "colour: Set the figure to exactly #e5173f in both formats; the rendered red appears brighter than the supplied accent.",
+        "composition: Keep the portrait headline above y540 and position the URL at y1184; establish these anchors on the 8px grid.",
+        "originality: Introduce one deliberate typographic alignment: hang the initial “0” at x72 and align the black headline with the decimal point’s left edge, approximately x168, in both formats.",
+        "brand: Keep the red accent confined to the single figure and verify the embedded brand face before the next render."
+      ],
+      "polish": [
+        "Preserve the supplied copy verbatim; it already carries the claim."
+      ]
+    },
+    {
+      "round": 2,
+      "by": "creative-director",
+      "axes": {
+        "hierarchy": 9,
+        "typography": 8,
+        "spacing": 7,
+        "colour": 8,
+        "composition": 7,
+        "originality": 6,
+        "brand": 8,
+        "copy": 9
+      },
+      "average": 7.75,
+      "pass": false,
+      "notes": [
+        "typography: Optically align the claim’s left edge at x168px across both formats; preserve 149px/1.0 headline type, 700 weight and -0.02em tracking.",
+        "spacing: In portrait, move the URL from approximately y1194px to y1040px, reducing the empty band below the supporting line from roughly 520px to 366px.",
+        "colour: Set the figure to #e5173f in both formats; the rendered accent reads brighter than the specified red.",
+        "composition: Keep the portrait headline above y540px and raise the bottom group as specified; no internal empty band may exceed 450px.",
+        "originality: Replace the arbitrary claim indent with a typographic relationship: align the claim’s left edge beneath the first decimal point in “0.01mm.” in both formats.",
+        "brand: Confirm and inline Geist or bundled Inter throughout; retain exactly two weights, 700 and 400, and the three sizes 149px, 49px and 31px."
+      ],
+      "polish": [
+        "Keep all supplied copy verbatim."
+      ]
+    },
+    {
+      "round": 3,
+      "by": "creative-director",
+      "axes": {
+        "hierarchy": 9,
+        "typography": 8,
+        "spacing": 8,
+        "colour": 8,
+        "composition": 8,
+        "originality": 6,
+        "brand": 8,
+        "copy": 10
+      },
+      "average": 8.13,
+      "pass": false,
+      "notes": [
+        "typography: Confirm and inline Geist or bundled Inter; retain 149px/1.0 headlines at 700, -0.02em tracking, and 49px/31px supporting sizes at 400.",
+        "spacing: Standardize the headline’s 90px inset to 88px; use x=72px for the figure and x=160px for the claim in both formats.",
+        "colour: Set the figure to #e5173f exactly in both formats; retain one accent occurrence.",
+        "composition: Move the portrait URL up 160px, reducing the roughly 368px blank gap below the supporting line to 208px.",
+        "originality: Turn the stagger into a consistent specification layout: align “Steel, not plastic.” with the claim at x=160px in both formats, leaving the figure and URL on x=72px.",
+        "brand: Verify the selected embedded font and exact accent before the next render; the screenshots alone do not establish that the Art Director’s two corrections landed."
+      ],
+      "polish": [
+        "Preserve all supplied copy verbatim."
+      ]
+    },
+    {
+      "round": 4,
+      "by": "creative-director",
+      "axes": {
+        "hierarchy": 9,
+        "typography": 9,
+        "spacing": 8,
+        "colour": 8,
+        "composition": 7,
+        "originality": 6,
+        "brand": 8,
+        "copy": 9
+      },
+      "average": 8,
+      "pass": false,
+      "notes": [
+        "spacing: On portrait, move the supporting line from approximately y638 to y744, keeping its x160 alignment.",
+        "colour: Set the number to #e5173f in both formats; the rendered red reads brighter than Ferro’s specified accent.",
+        "composition: Move the portrait URL from approximately y882 to y1168; retain at least 135px below its visible bottom.",
+        "originality: Replace the generic 88px headline indent with a typographic relationship: align “On your” and “desk.” beneath the first decimal point in “0.01mm.” Apply that same claim alignment in landscape.",
+        "brand: Confirm the rendered family is inline Geist or bundled Inter; retain exactly 149px/700, 49px/400 and 31px/400 across both formats."
+      ],
+      "polish": [
+        "Keep the portrait headline’s visible bottom above y540 when adjusting alignment."
+      ]
+    },
+    {
+      "round": 5,
+      "by": "creative-director",
+      "axes": {
+        "hierarchy": 6,
+        "typography": 7,
+        "spacing": 3,
+        "colour": 8,
+        "composition": 5,
+        "originality": 6,
+        "brand": 8,
+        "copy": 9
+      },
+      "average": 6.5,
+      "pass": false,
+      "notes": [
+        "hierarchy: On LinkedIn, place “Steel, not plastic.” below the complete headline with at least 32px clearance; eliminate the overlap with “desk.”",
+        "typography: Keep 149px/1.0 headline type at 700; make LinkedIn exactly two lines: “0.01mm.” then “On your desk.” Retain 49px supporting text and 31px URL.",
+        "spacing: Align headline, supporting line and URL to x=72px in both formats; remove the unexplained 88–100px text indents.",
+        "colour: Set the number to exactly #e5173f in both formats; retain one accent occurrence.",
+        "composition: On LinkedIn, start the headline at y=64px and supporting line at y=416px. On portrait, retain the headline within y=80–536px and raise the supporting line to y=640px.",
+        "originality: Make the precision figure the deliberate anchor of one continuous headline block; use two lines in landscape and three in portrait, with zero arbitrary indentation.",
+        "brand: Confirm and inline Geist or bundled Inter throughout; retain only weights 700 and 400 and headline tracking of -0.02em."
+      ],
+      "polish": []
+    },
+    {
+      "round": 6,
+      "by": "creative-director",
+      "axes": {
+        "hierarchy": 9,
+        "typography": 8,
+        "spacing": 7,
+        "colour": 9,
+        "composition": 7,
+        "originality": 6,
+        "brand": 9,
+        "copy": 9
+      },
+      "average": 8,
+      "pass": false,
+      "notes": [
+        "typography: Inline verified Geist or bundled Inter throughout both formats; retain 149px/1.0 at 700, -0.02em tracking, 49px supporting text and 31px URL.",
+        "spacing: On portrait, move the URL from approximately y=1160 to y=1000, reducing the roughly 470px empty band below the supporting line to 310px.",
+        "composition: Move the portrait supporting line from approximately y=655 to y=592 to connect it to the headline; preserve the headline within the top 540px.",
+        "originality: Replace the default three-line portrait stack with a deliberate two-line lockup: “0.01mm.” above “On your desk.” at 149px, keeping the shared left edge at x=72px; use the unusually wide claim as the defining typographic move."
+      ],
+      "polish": [
+        "After the font change, preserve the landscape headline’s two-line structure and 72px left alignment."
+      ]
+    }
+  ],
+  "waitingOn": {
+    "type": "approve_under_bar",
+    "text": "Under the bar after 6 rounds. spacing, composition, originality under 8, spacing: On portrait, move the URL from approximately y=1160 to y=1000, reducing the roughly 470px empty band below the supporting line to 310px.; composition: Move the portrait supporting line from approximately y=655 to y=592 to connect it to the headline; preserve the headline within the top 540px."
+  },
+  "cost": {
+    "director": 1.4884,
+    "senior": 0.255,
+    "builder": 0.1039,
+    "total": 1.8473,
+    "complete": true
+  },
+  "tokens": {
+    "director": 273609,
+    "senior": 318434,
+    "builder": 183087
+  },
+  "files": {
+    "final": ".desk/out/20261020-0159-linkedin-instagram-portrait-spec/final.html",
+    "brief": ".desk/jobs/20261020-0159-linkedin-instagram-portrait-spec/brief.md",
+    "handback": ".desk/out/20261020-0159-linkedin-instagram-portrait-spec/handback.md"
+  },
+  "pen": "art-director",
+  "notes": [
+    "typography: Inline verified Geist or bundled Inter throughout both formats; retain 149px/1.0 at 700, -0.02em tracking, 49px supporting text and 31px URL.",
+    "spacing: On portrait, move the URL from approximately y=1160 to y=1000, reducing the roughly 470px empty band below the supporting line to 310px.",
+    "composition: Move the portrait supporting line from approximately y=655 to y=592 to connect it to the headline; preserve the headline within the top 540px.",
+    "originality: Replace the default three-line portrait stack with a deliberate two-line lockup: “0.01mm.” above “On your desk.” at 149px, keeping the shared left edge at x=72px; use the unusually wide claim as the defining typographic move."
+  ],
+  "misses": {},
+  "startedAt": "2026-10-20T01:59:45-05:00",
+  "updatedAt": "2026-10-20T02:06:47-05:00",
+  "roughs": [
+    {
+      "n": 1,
+      "pattern": "Editorial split",
+      "file": ".desk/out/20261020-0159-linkedin-instagram-portrait-spec/rough-1.html",
+      "fonts": "Geist; runner inlines font",
+      "written": true,
+      "renders": ".desk/jobs/20261020-0159-linkedin-instagram-portrait-spec/renders/roughs/rough-1"
+    },
+    {
+      "n": 2,
+      "pattern": "Full bleed with scrim",
+      "file": ".desk/out/20261020-0159-linkedin-instagram-portrait-spec/rough-2.html",
+      "fonts": "Geist, runner to inline; fallback not selected",
+      "written": true,
+      "renders": ".desk/jobs/20261020-0159-linkedin-instagram-portrait-spec/renders/roughs/rough-2"
+    },
+    {
+      "n": 3,
+      "pattern": "Type only",
+      "file": ".desk/out/20261020-0159-linkedin-instagram-portrait-spec/rough-3.html",
+      "fonts": "Geist; runner inlining required",
+      "written": true,
+      "renders": ".desk/jobs/20261020-0159-linkedin-instagram-portrait-spec/renders/roughs/rough-3"
+    }
+  ],
+  "lastRenders": ".desk/jobs/20261020-0159-linkedin-instagram-portrait-spec/renders/round-6",
+  "penNotes": [],
+  "finishedAt": "2026-10-20T02:06:47-05:00"
+}

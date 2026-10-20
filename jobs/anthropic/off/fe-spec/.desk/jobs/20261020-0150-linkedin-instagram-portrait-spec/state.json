@@ -1,0 +1,245 @@
+{
+  "id": "20261020-0150-linkedin-instagram-portrait-spec",
+  "command": "design",
+  "deliverable": "social-card",
+  "sizes": [
+    "linkedin",
+    "ig-post"
+  ],
+  "quality": "studio",
+  "proofMode": "off",
+  "models": {
+    "director": "anthropic/opus",
+    "senior": "anthropic/sonnet",
+    "builder": "anthropic/haiku"
+  },
+  "phase": "done",
+  "round": 2,
+  "maxRounds": 6,
+  "desks": [
+    {
+      "desk": "design-manager",
+      "task": "intake",
+      "status": "done",
+      "model": "anthropic/opus",
+      "startedAt": "2026-10-20T01:50:21-05:00",
+      "updatedAt": "2026-10-20T01:50:38-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "rough 1, editorial split",
+      "status": "done",
+      "model": "anthropic/sonnet",
+      "startedAt": "2026-10-20T01:50:39-05:00",
+      "updatedAt": "2026-10-20T01:51:05-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "rough 2, full bleed with scrim",
+      "status": "done",
+      "model": "anthropic/sonnet",
+      "startedAt": "2026-10-20T01:50:39-05:00",
+      "updatedAt": "2026-10-20T01:51:29-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "rough 3, type only",
+      "status": "done",
+      "model": "anthropic/sonnet",
+      "startedAt": "2026-10-20T01:50:39-05:00",
+      "updatedAt": "2026-10-20T01:51:09-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "art-director",
+      "task": "pick",
+      "status": "done",
+      "model": "anthropic/opus",
+      "startedAt": "2026-10-20T01:51:33-05:00",
+      "updatedAt": "2026-10-20T01:52:08-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 1",
+      "status": "done",
+      "model": "anthropic/haiku",
+      "startedAt": "2026-10-20T01:52:08-05:00",
+      "updatedAt": "2026-10-20T01:52:47-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "creative-director",
+      "task": "sign-off round 1",
+      "status": "done",
+      "model": "anthropic/opus",
+      "startedAt": "2026-10-20T01:52:49-05:00",
+      "updatedAt": "2026-10-20T01:53:27-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 2",
+      "status": "done",
+      "model": "anthropic/haiku",
+      "startedAt": "2026-10-20T01:53:27-05:00",
+      "updatedAt": "2026-10-20T01:53:51-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "creative-director",
+      "task": "sign-off round 2",
+      "status": "done",
+      "model": "anthropic/opus",
+      "startedAt": "2026-10-20T01:53:53-05:00",
+      "updatedAt": "2026-10-20T01:54:27-05:00",
+      "via": "cli"
+    }
+  ],
+  "pick": {
+    "by": "art-director",
+    "rough": 3,
+    "pattern": "Type only",
+    "combineWith": null,
+    "reason": "Type-only is the only rough that is fully on brand (white field, black type, red only on \"0.01mm\") and reads in two seconds at both sizes. The figure is the image, which is what a spec reveal needs, and it needs only one structural fix.",
+    "lost": "1 the right half on linkedin is a dead black field with nothing in it, red runs onto the period, and the grey mark is under 24px; 2 black dominates a white-background brand, and the ig-post crop leaves an unexplained 72px black strip down the right edge.",
+    "notes": [
+      "ig-post only: move the bottom group up 96px, so the top of \"Steel, not plastic.\" sits at about 1000px and the mark stays 56px below it. The empty band under \"desk.\" drops from about 455px to about 355px, under a third of the canvas (standard: \"Owns the whole canvas\", bottom group rises to meet the headline). Do not touch the headline.",
+      "Keep the headline as it is at both sizes: 700 weight, -0.02em tracking, line height 1.0 to 1.1, red on \"0.01mm\" only with the period in foreground #0a0a0a. It already meets the 44px and 65px minimums and the wrap limits.",
+      "Keep the mark at 24px, weight 700, bottom left on the text column. The bottom of the mark sits on the safe line: 38px from the bottom on linkedin (6%) and 135px on ig-post (10%). Brand stays small and in a corner (standard: \"Keeps the brand small and in a corner\").",
+      "Check proof sizes against the brand scale. Headline 119px on linkedin and 186px on ig-post, supporting line 31px, mark 24px. That is three sizes, all within 12% of a scale step."
+    ],
+    "at": "2026-10-20T01:52:08-05:00"
+  },
+  "proof": [
+    {
+      "round": 1,
+      "pass": null,
+      "skipped": true,
+      "failures": 0
+    },
+    {
+      "round": 2,
+      "pass": null,
+      "skipped": true,
+      "failures": 0
+    }
+  ],
+  "scores": [
+    {
+      "round": 1,
+      "by": "creative-director",
+      "axes": {
+        "hierarchy": 9,
+        "typography": 8,
+        "spacing": 8,
+        "colour": 9,
+        "composition": 7,
+        "originality": 7,
+        "brand": 9,
+        "copy": 9
+      },
+      "average": 8.25,
+      "pass": false,
+      "notes": [
+        "composition: ig-post: headline 186px to 233px (a scale step), still 3 lines (\"0.01mm.\" / \"On your\" / \"desk.\"), top stays at about 95px, so \"desk.\" ends near y 830. Then anchor the bottom group to the 10% safe line: mark bottom at y 1215, top of \"Steel, not plastic.\" about 1100. The empty band drops from about 400px (30%) to about 270px (20%), and the headline carries the canvas. Do not apply the Art Director's 96px lift on top of this.",
+        "composition: linkedin: headline 119px to 149px, still 2 lines. \"On your desk.\" runs to about x 1006, inside the 1162 safe edge. The headline block ends near y 360, which closes the 220px gap above \"Steel, not plastic.\" to about 140px and fills the empty right third.",
+        "originality: right now this is the first type-only card anyone would make. The scale jump above is the move, because the red figure becomes the image at 21% of the short side on ig-post and 24% on linkedin. Add no new elements and keep the period in #0a0a0a.",
+        "typography: at the new sizes, pull the headline left by -0.03em so the bowls of \"0\" and \"O\" line up optically with the \"S\" of \"Steel\" and the \"f\" of \"ferro.tools\". Keep 700, -0.02em, line-height 1.05, supporting line 31px/400, mark 24px/700.",
+        "spacing: put the gap between the supporting line and the mark on the 8px grid: 48px on ig-post and 32px on linkedin. Mark bottom on the safe line: y 589 on linkedin (38px) and y 1215 on ig-post (135px). Left edge 72px on both."
+      ],
+      "polish": [
+        "If \"0.01mm.\" at 233px lands within 16px of the 1015px safe edge on ig-post, set its tracking to -0.03em instead of dropping the size."
+      ]
+    },
+    {
+      "round": 2,
+      "by": "creative-director",
+      "axes": {
+        "hierarchy": 9,
+        "typography": 8,
+        "spacing": 8,
+        "colour": 9,
+        "composition": 8,
+        "originality": 8,
+        "brand": 9,
+        "copy": 9
+      },
+      "average": 8.5,
+      "pass": true,
+      "notes": [
+        "typography: ig-post only, supporting line 31px to 39px, keep weight 400. That gives 186/39/24, still three sizes, and closes the 6x jump that makes the line read thin under the 186px headline. Leave linkedin at 31px.",
+        "spacing: set the gap from the \"Steel, not plastic.\" baseline to the top of the mark to 56px at both sizes. It is about 48px on linkedin and about 62px on ig-post now.",
+        "composition: ig-post only, Art Director note 1 is not applied. The top of \"Steel, not plastic.\" still sits at about 1100px. Move the bottom group up 96px so it sits at about 1000px, which cuts the band under \"desk.\" from about 335px to about 240px. Do not touch the headline.",
+        "originality: hold the move as it is, red figure with the black full stop as the image and nothing added. The lift comes from the typography and composition notes above, not from a new element."
+      ],
+      "polish": [
+        "Pull \"0.01mm.\" left 4px at both sizes so the round \"0\" sits optically flush with the stems of \"O\" and \"d\" below it."
+      ]
+    }
+  ],
+  "waitingOn": null,
+  "cost": {
+    "director": 0.5205,
+    "senior": 0.1838,
+    "builder": 0.0113,
+    "total": 0.7156,
+    "complete": true
+  },
+  "tokens": {
+    "director": 113350,
+    "senior": 31458,
+    "builder": 91703
+  },
+  "files": {
+    "final": ".desk/out/20261020-0150-linkedin-instagram-portrait-spec/final.html",
+    "brief": ".desk/jobs/20261020-0150-linkedin-instagram-portrait-spec/brief.md",
+    "handback": ".desk/out/20261020-0150-linkedin-instagram-portrait-spec/handback.md"
+  },
+  "pen": "builder",
+  "notes": [
+    "composition: ig-post: headline 186px to 233px (a scale step), still 3 lines (\"0.01mm.\" / \"On your\" / \"desk.\"), top stays at about 95px, so \"desk.\" ends near y 830. Then anchor the bottom group to the 10% safe line: mark bottom at y 1215, top of \"Steel, not plastic.\" about 1100. The empty band drops from about 400px (30%) to about 270px (20%), and the headline carries the canvas. Do not apply the Art Director's 96px lift on top of this.",
+    "composition: linkedin: headline 119px to 149px, still 2 lines. \"On your desk.\" runs to about x 1006, inside the 1162 safe edge. The headline block ends near y 360, which closes the 220px gap above \"Steel, not plastic.\" to about 140px and fills the empty right third.",
+    "originality: right now this is the first type-only card anyone would make. The scale jump above is the move, because the red figure becomes the image at 21% of the short side on ig-post and 24% on linkedin. Add no new elements and keep the period in #0a0a0a.",
+    "typography: at the new sizes, pull the headline left by -0.03em so the bowls of \"0\" and \"O\" line up optically with the \"S\" of \"Steel\" and the \"f\" of \"ferro.tools\". Keep 700, -0.02em, line-height 1.05, supporting line 31px/400, mark 24px/700.",
+    "spacing: put the gap between the supporting line and the mark on the 8px grid: 48px on ig-post and 32px on linkedin. Mark bottom on the safe line: y 589 on linkedin (38px) and y 1215 on ig-post (135px). Left edge 72px on both."
+  ],
+  "misses": {
+    "composition": 1,
+    "originality": 1
+  },
+  "startedAt": "2026-10-20T01:50:21-05:00",
+  "updatedAt": "2026-10-20T01:54:27-05:00",
+  "roughs": [
+    {
+      "n": 1,
+      "pattern": "Editorial split",
+      "file": ".desk/out/20261020-0150-linkedin-instagram-portrait-spec/rough-1.html",
+      "fonts": "Geist (brand family, inlined by the runner, not a fallback)",
+      "written": true,
+      "renders": ".desk/jobs/20261020-0150-linkedin-instagram-portrait-spec/renders/roughs/rough-1"
+    },
+    {
+      "n": 2,
+      "pattern": "Full bleed with scrim",
+      "file": ".desk/out/20261020-0150-linkedin-instagram-portrait-spec/rough-2.html",
+      "fonts": "Geist (inlined by runner), not a fallback",
+      "written": true,
+      "renders": ".desk/jobs/20261020-0150-linkedin-instagram-portrait-spec/renders/roughs/rough-2"
+    },
+    {
+      "n": 3,
+      "pattern": "Type only",
+      "file": ".desk/out/20261020-0150-linkedin-instagram-portrait-spec/rough-3.html",
+      "fonts": "Geist, not pasted, runner inlines it; Inter, Arial, sans-serif behind it",
+      "written": true,
+      "renders": ".desk/jobs/20261020-0150-linkedin-instagram-portrait-spec/renders/roughs/rough-3"
+    }
+  ],
+  "lastRenders": ".desk/jobs/20261020-0150-linkedin-instagram-portrait-spec/renders/round-2",
+  "penNotes": [],
+  "finishedAt": "2026-10-20T01:54:27-05:00"
+}

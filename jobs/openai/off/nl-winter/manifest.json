@@ -1,0 +1,26 @@
+{
+ "family": "openai",
+ "arm": "off",
+ "case": "nl-winter",
+ "brand": "northlight",
+ "ask": "a LinkedIn card and an Instagram portrait card about winter output, panels still paying their way in January. Copy that must appear: 'January still pays.' and 'Snow slides off. The numbers don't.' and 'northlight.energy'.",
+ "models": "director=openai/large,senior=openai/mini,builder=openai/mini",
+ "startedAt": "2026-10-20T06:38:05.818Z",
+ "attempts": [
+  {
+   "code": 4,
+   "seconds": 472
+  }
+ ],
+ "exit": 4,
+ "seconds": 472,
+ "jobId": "20261020-0138-linkedin-instagram-portrait-winter",
+ "phase": "done",
+ "failed": false,
+ "done": true,
+ "finishedAt": "2026-10-20T06:45:57.385Z",
+ "audit": {
+  "pass": false,
+  "failures": 4
+ }
+}

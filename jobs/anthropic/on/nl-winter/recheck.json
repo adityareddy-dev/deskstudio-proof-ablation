@@ -1,0 +1,133 @@
+{
+ "family": "anthropic",
+ "arm": "on",
+ "case": "nl-winter",
+ "jobId": "20261020-0123-linkedin-instagram-portrait-winter",
+ "rounds": [
+  {
+   "round": 1,
+   "sizes": [
+    {
+     "size": "ig-post",
+     "failures": [
+      {
+       "check": "safe-zone",
+       "text": "January",
+       "reason": "64px from the left edge, the safe zone starts at 65px; 48px from the top edge, the safe zone starts at 81px"
+      },
+      {
+       "check": "safe-zone",
+       "text": "still",
+       "reason": "64px from the left edge, the safe zone starts at 65px"
+      },
+      {
+       "check": "safe-zone",
+       "text": "pays.",
+       "reason": "64px from the left edge, the safe zone starts at 65px"
+      },
+      {
+       "check": "safe-zone",
+       "text": "Snow slides off. The numbers don't.",
+       "reason": "64px from the left edge, the safe zone starts at 65px"
+      },
+      {
+       "check": "safe-zone",
+       "text": "northlight.energy",
+       "reason": "64px from the left edge, the safe zone starts at 65px"
+      }
+     ]
+    },
+    {
+     "size": "linkedin",
+     "failures": [
+      {
+       "check": "safe-zone",
+       "text": "January",
+       "reason": "48px from the left edge, the safe zone starts at 72px"
+      },
+      {
+       "check": "safe-zone",
+       "text": "pays.",
+       "reason": "48px from the left edge, the safe zone starts at 72px"
+      },
+      {
+       "check": "safe-zone",
+       "text": "Snow slides off. The numbers don't.",
+       "reason": "48px from the left edge, the safe zone starts at 72px"
+      },
+      {
+       "check": "safe-zone",
+       "text": "northlight.energy",
+       "reason": "48px from the left edge, the safe zone starts at 72px"
+      }
+     ]
+    }
+   ],
+   "failures": 9,
+   "byCheck": {
+    "safe-zone": 9
+   }
+  },
+  {
+   "round": 2,
+   "sizes": [
+    {
+     "size": "ig-post",
+     "failures": [
+      {
+       "check": "safe-zone",
+       "text": "January",
+       "reason": "72px from the top edge, the safe zone starts at 81px"
+      }
+     ]
+    },
+    {
+     "size": "linkedin",
+     "failures": []
+    }
+   ],
+   "failures": 1,
+   "byCheck": {
+    "safe-zone": 1
+   }
+  },
+  {
+   "round": 3,
+   "sizes": [
+    {
+     "size": "ig-post",
+     "failures": [
+      {
+       "check": "safe-zone",
+       "text": "January",
+       "reason": "80px from the top edge, the safe zone starts at 81px"
+      }
+     ]
+    },
+    {
+     "size": "linkedin",
+     "failures": []
+    }
+   ],
+   "failures": 1,
+   "byCheck": {
+    "safe-zone": 1
+   }
+  },
+  {
+   "round": 4,
+   "sizes": [
+    {
+     "size": "ig-post",
+     "failures": []
+    },
+    {
+     "size": "linkedin",
+     "failures": []
+    }
+   ],
+   "failures": 0,
+   "byCheck": {}
+  }
+ ]
+}

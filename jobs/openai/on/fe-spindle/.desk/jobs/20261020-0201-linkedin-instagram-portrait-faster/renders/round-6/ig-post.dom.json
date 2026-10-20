@@ -1,0 +1,93 @@
+{
+  "width": 1080,
+  "height": 1350,
+  "scrollWidth": 1080,
+  "scrollHeight": 1350,
+  "boxes": [
+    {
+      "x": 72,
+      "y": 63,
+      "width": 658.296875,
+      "height": 242,
+      "text": "24,000",
+      "color": "rgb(229, 23, 63)",
+      "opacity": 1,
+      "fontSize": 186,
+      "fontWeight": 700,
+      "fontFamily": "Geist, Inter, Arial, sans-serif",
+      "clips": []
+    },
+    {
+      "x": 902.296875,
+      "y": 201,
+      "width": 105.703125,
+      "height": 63,
+      "text": "rpm.",
+      "color": "rgb(10, 10, 10)",
+      "opacity": 1,
+      "fontSize": 49,
+      "fontWeight": 700,
+      "fontFamily": "Geist, Inter, Arial, sans-serif",
+      "clips": []
+    },
+    {
+      "x": 72,
+      "y": 265.4375,
+      "width": 868.0625,
+      "height": 155,
+      "text": "Fits every Ferro",
+      "color": "rgb(10, 10, 10)",
+      "opacity": 1,
+      "fontSize": 119,
+      "fontWeight": 700,
+      "fontFamily": "Geist, Inter, Arial, sans-serif",
+      "clips": []
+    },
+    {
+      "x": 72,
+      "y": 389.1875,
+      "width": 611.765625,
+      "height": 155,
+      "text": "ever made.",
+      "color": "rgb(10, 10, 10)",
+      "opacity": 1,
+      "fontSize": 119,
+      "fontWeight": 700,
+      "fontFamily": "Geist, Inter, Arial, sans-serif",
+      "clips": []
+    },
+    {
+      "x": 72,
+      "y": 561,
+      "width": 508.671875,
+      "height": 63,
+      "text": "Swap it in ten minutes.",
+      "color": "rgb(10, 10, 10)",
+      "opacity": 1,
+      "fontSize": 49,
+      "fontWeight": 400,
+      "fontFamily": "Geist, Inter, Arial, sans-serif",
+      "clips": []
+    },
+    {
+      "x": 72,
+      "y": 958.859375,
+      "width": 227.46875,
+      "height": 63,
+      "text": "ferro.tools",
+      "color": "rgb(10, 10, 10)",
+      "opacity": 1,
+      "fontSize": 49,
+      "fontWeight": 400,
+      "fontFamily": "Geist, Inter, Arial, sans-serif",
+      "clips": []
+    }
+  ],
+  "fonts": {
+    "Geist": true,
+    "Inter": false,
+    "Arial": true,
+    "sans-serif": true
+  },
+  "images": 0
+}

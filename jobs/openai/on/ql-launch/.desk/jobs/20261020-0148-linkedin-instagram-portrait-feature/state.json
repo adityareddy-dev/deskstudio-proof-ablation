@@ -1,0 +1,325 @@
+{
+  "id": "20261020-0148-linkedin-instagram-portrait-feature",
+  "command": "design",
+  "deliverable": "social-card",
+  "sizes": [
+    "linkedin",
+    "ig-post"
+  ],
+  "quality": "studio",
+  "proofMode": "on",
+  "models": {
+    "director": "openai/large",
+    "senior": "openai/mini",
+    "builder": "openai/mini"
+  },
+  "phase": "done",
+  "round": 6,
+  "maxRounds": 6,
+  "desks": [
+    {
+      "desk": "design-manager",
+      "task": "intake",
+      "status": "done",
+      "model": "openai/large",
+      "startedAt": "2026-10-20T01:48:32-05:00",
+      "updatedAt": "2026-10-20T01:48:51-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "rough 1, editorial split",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T01:48:51-05:00",
+      "updatedAt": "2026-10-20T01:49:43-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "rough 2, full bleed with scrim",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T01:48:51-05:00",
+      "updatedAt": "2026-10-20T01:49:29-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "rough 3, type only",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T01:48:51-05:00",
+      "updatedAt": "2026-10-20T01:49:31-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "art-director",
+      "task": "pick",
+      "status": "done",
+      "model": "openai/large",
+      "startedAt": "2026-10-20T01:49:47-05:00",
+      "updatedAt": "2026-10-20T01:50:02-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 1",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T01:50:02-05:00",
+      "updatedAt": "2026-10-20T01:50:29-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 2",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T01:50:31-05:00",
+      "updatedAt": "2026-10-20T01:50:55-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "creative-director",
+      "task": "sign-off round 2",
+      "status": "done",
+      "model": "openai/large",
+      "startedAt": "2026-10-20T01:50:57-05:00",
+      "updatedAt": "2026-10-20T01:51:17-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 3",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T01:51:17-05:00",
+      "updatedAt": "2026-10-20T01:51:52-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 4",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T01:51:54-05:00",
+      "updatedAt": "2026-10-20T01:52:17-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "creative-director",
+      "task": "sign-off round 4",
+      "status": "done",
+      "model": "openai/large",
+      "startedAt": "2026-10-20T01:52:19-05:00",
+      "updatedAt": "2026-10-20T01:52:38-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 5",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T01:52:38-05:00",
+      "updatedAt": "2026-10-20T01:53:07-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 6",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T01:53:09-05:00",
+      "updatedAt": "2026-10-20T01:53:34-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "creative-director",
+      "task": "sign-off round 6",
+      "status": "done",
+      "model": "openai/large",
+      "startedAt": "2026-10-20T01:53:36-05:00",
+      "updatedAt": "2026-10-20T01:53:56-05:00",
+      "via": "cli"
+    }
+  ],
+  "pick": {
+    "by": "art-director",
+    "rough": 3,
+    "pattern": "Type only",
+    "combineWith": null,
+    "reason": "The headline reads first in both formats; blue “stays.” makes the promise the focal point with the fewest elements.",
+    "lost": "1 splits the headline from its explanation, 2 shrinks the headline and adds an empty frame that does no work.",
+    "notes": [
+      "In portrait only, move the supporting line’s text box to y=704px, keeping x=72px. This brings the explanation closer to the headline while keeping both empty bands below the social-card standard’s 450px limit."
+    ],
+    "at": "2026-10-20T01:50:02-05:00"
+  },
+  "proof": [
+    {
+      "round": 1,
+      "pass": false,
+      "failures": 2
+    },
+    {
+      "round": 2,
+      "pass": true,
+      "failures": 0
+    },
+    {
+      "round": 3,
+      "pass": false,
+      "failures": 1
+    },
+    {
+      "round": 4,
+      "pass": true,
+      "failures": 0
+    },
+    {
+      "round": 5,
+      "pass": false,
+      "failures": 2
+    },
+    {
+      "round": 6,
+      "pass": true,
+      "failures": 0
+    }
+  ],
+  "scores": [
+    {
+      "round": 2,
+      "by": "creative-director",
+      "axes": {
+        "hierarchy": 9,
+        "typography": 9,
+        "spacing": 8,
+        "colour": 9,
+        "composition": 8,
+        "originality": 6,
+        "brand": 9,
+        "copy": 9
+      },
+      "average": 8.38,
+      "pass": false,
+      "notes": [
+        "spacing: In portrait, move the supporting text box from y=704px to y=640px to strengthen its connection to the headline.",
+        "composition: In landscape, increase the headline from 127px to 169px and move the supporting line to y=440px; preserve the mark’s position.",
+        "originality: Introduce a deliberate cut-and-retain alignment: indent “Cut it.” by 64px relative to “It stays.” in both formats, keeping the second line, supporting copy and mark on the existing left edge."
+      ],
+      "polish": [
+        "None."
+      ]
+    },
+    {
+      "round": 4,
+      "by": "creative-director",
+      "axes": {
+        "hierarchy": 9,
+        "typography": 8,
+        "spacing": 7,
+        "colour": 9,
+        "composition": 7,
+        "originality": 6,
+        "brand": 9,
+        "copy": 9
+      },
+      "average": 8,
+      "pass": false,
+      "notes": [
+        "typography: Left-align both headline lines at x=80px on LinkedIn and x=72px on portrait; remove the first line’s roughly 64px indent.",
+        "spacing: Move the portrait supporting text box to y=704px, x=72px, as requested at the pick.",
+        "composition: Reduce the portrait’s visible empty band between supporting copy and brand mark from roughly 477px to at most 440px; verify after repositioning the supporting line.",
+        "originality: Add one 2px foreground-colour strike through “Cut it.” in both formats, confined to those words; retain blue only on “stays.” to make the cut-and-retain promise visible."
+      ],
+      "polish": [
+        "None."
+      ]
+    },
+    {
+      "round": 6,
+      "by": "creative-director",
+      "axes": {
+        "hierarchy": 9,
+        "typography": 9,
+        "spacing": 8,
+        "colour": 9,
+        "composition": 8,
+        "originality": 6,
+        "brand": 9,
+        "copy": 9
+      },
+      "average": 8.38,
+      "pass": false,
+      "notes": [
+        "spacing: In portrait, move the supporting text box from y=704px to y=624px, keeping x=72px.",
+        "composition: In portrait, raise the brand mark to y=1040px to tighten the three-part stack.",
+        "originality: Add one 2px foreground-colour strike through “Cut” only in both formats; keep the word readable and “stays.” as the sole blue accent. The current arrangement is too interchangeable with a serif announcement template."
+      ],
+      "polish": []
+    }
+  ],
+  "waitingOn": {
+    "type": "approve_under_bar",
+    "text": "Under the bar after 6 rounds. originality under 8, originality: Add one 2px foreground-colour strike through “Cut” only in both formats; keep the word readable and “stays.” as the sole blue accent. The current arrangement is too interchangeable with a serif announcement template."
+  },
+  "cost": {
+    "director": 0.9428,
+    "senior": 0.1761,
+    "builder": 0.3588,
+    "total": 1.4777,
+    "complete": true
+  },
+  "tokens": {
+    "director": 172227,
+    "senior": 164593,
+    "builder": 366396
+  },
+  "files": {
+    "final": ".desk/out/20261020-0148-linkedin-instagram-portrait-feature/final.html",
+    "brief": ".desk/jobs/20261020-0148-linkedin-instagram-portrait-feature/brief.md",
+    "handback": ".desk/out/20261020-0148-linkedin-instagram-portrait-feature/handback.md"
+  },
+  "pen": "builder",
+  "notes": [
+    "spacing: In portrait, move the supporting text box from y=704px to y=624px, keeping x=72px.",
+    "composition: In portrait, raise the brand mark to y=1040px to tighten the three-part stack.",
+    "originality: Add one 2px foreground-colour strike through “Cut” only in both formats; keep the word readable and “stays.” as the sole blue accent. The current arrangement is too interchangeable with a serif announcement template."
+  ],
+  "misses": {
+    "originality": 1
+  },
+  "startedAt": "2026-10-20T01:48:32-05:00",
+  "updatedAt": "2026-10-20T01:53:56-05:00",
+  "roughs": [
+    {
+      "n": 1,
+      "pattern": "Editorial split",
+      "file": ".desk/out/20261020-0148-linkedin-instagram-portrait-feature/rough-1.html",
+      "fonts": "Source Serif 4; runner supplies inline font",
+      "written": true,
+      "renders": ".desk/jobs/20261020-0148-linkedin-instagram-portrait-feature/renders/roughs/rough-1"
+    },
+    {
+      "n": 2,
+      "pattern": "Full bleed with scrim",
+      "file": ".desk/out/20261020-0148-linkedin-instagram-portrait-feature/rough-2.html",
+      "fonts": "Source Serif 4; runner-inlined, no fallback used",
+      "written": true,
+      "renders": ".desk/jobs/20261020-0148-linkedin-instagram-portrait-feature/renders/roughs/rough-2"
+    },
+    {
+      "n": 3,
+      "pattern": "Type only",
+      "file": ".desk/out/20261020-0148-linkedin-instagram-portrait-feature/rough-3.html",
+      "fonts": "Source Serif 4; runner inlines the brand font",
+      "written": true,
+      "renders": ".desk/jobs/20261020-0148-linkedin-instagram-portrait-feature/renders/roughs/rough-3"
+    }
+  ],
+  "lastRenders": ".desk/jobs/20261020-0148-linkedin-instagram-portrait-feature/renders/round-6",
+  "penNotes": [],
+  "finishedAt": "2026-10-20T01:53:56-05:00"
+}

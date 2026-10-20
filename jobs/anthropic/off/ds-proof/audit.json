@@ -1,0 +1,45 @@
+{
+ "pass": false,
+ "file": "final.html",
+ "renders": [
+  {
+   "size": "linkedin",
+   "scheme": "light",
+   "width": 1200,
+   "height": 627,
+   "png": "C:\\Users\\adity\\Desktop\\Adi\\deskstudio-research\\proof-ablation-2026-10-20\\jobs\\anthropic\\off\\ds-proof\\.desk\\jobs\\20261020-0216-linkedin-instagram-portrait-proof\\renders\\audit\\linkedin.png",
+   "pass": false,
+   "failures": [
+    {
+     "check": "palette",
+     "text": "",
+     "reason": "22% of the pixels are not within 45 of any brand colour (limit 5%). Images and gradients count, so use brand tints or a scrim"
+    }
+   ]
+  },
+  {
+   "size": "ig-post",
+   "scheme": "light",
+   "width": 1080,
+   "height": 1350,
+   "png": "C:\\Users\\adity\\Desktop\\Adi\\deskstudio-research\\proof-ablation-2026-10-20\\jobs\\anthropic\\off\\ds-proof\\.desk\\jobs\\20261020-0216-linkedin-instagram-portrait-proof\\renders\\audit\\ig-post.png",
+   "pass": false,
+   "failures": [
+    {
+     "check": "safe-zone",
+     "text": "Checked on",
+     "reason": "58px from the top edge, the safe zone starts at 81px"
+    },
+    {
+     "check": "palette",
+     "text": "",
+     "reason": "26% of the pixels are not within 45 of any brand colour (limit 5%). Images and gradients count, so use brand tints or a scrim"
+    }
+   ]
+  }
+ ],
+ "screenshots": [
+  "C:\\Users\\adity\\Desktop\\Adi\\deskstudio-research\\proof-ablation-2026-10-20\\jobs\\anthropic\\off\\ds-proof\\.desk\\jobs\\20261020-0216-linkedin-instagram-portrait-proof\\renders\\audit\\linkedin.png",
+  "C:\\Users\\adity\\Desktop\\Adi\\deskstudio-research\\proof-ablation-2026-10-20\\jobs\\anthropic\\off\\ds-proof\\.desk\\jobs\\20261020-0216-linkedin-instagram-portrait-proof\\renders\\audit\\ig-post.png"
+ ]
+}

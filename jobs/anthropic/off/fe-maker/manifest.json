@@ -1,0 +1,25 @@
+{
+ "family": "anthropic",
+ "arm": "off",
+ "case": "fe-maker",
+ "brand": "ferro",
+ "ask": "a LinkedIn card and an Instagram portrait card about a customer who machined a bike crank in a spare bedroom. Copy that must appear: 'A bike crank, from a spare bedroom.' and 'Aluminium, one afternoon, no shop.' and 'ferro.tools'.",
+ "models": "studio preset",
+ "startedAt": "2026-10-20T06:55:17.175Z",
+ "attempts": [
+  {
+   "code": 0,
+   "seconds": 811
+  }
+ ],
+ "exit": 0,
+ "seconds": 811,
+ "jobId": "20261020-0155-linkedin-instagram-portrait-customer",
+ "phase": "done",
+ "done": true,
+ "finishedAt": "2026-10-20T07:08:47.933Z",
+ "audit": {
+  "pass": false,
+  "failures": 10
+ }
+}

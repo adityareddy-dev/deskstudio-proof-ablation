@@ -1,0 +1,185 @@
+{
+  "id": "20261020-0209-linkedin-instagram-portrait-open",
+  "command": "design",
+  "deliverable": "social-card",
+  "sizes": [
+    "linkedin",
+    "ig-post"
+  ],
+  "quality": "studio",
+  "proofMode": "off",
+  "models": {
+    "director": "openai/large",
+    "senior": "openai/mini",
+    "builder": "openai/mini"
+  },
+  "phase": "done",
+  "round": 1,
+  "maxRounds": 6,
+  "desks": [
+    {
+      "desk": "design-manager",
+      "task": "intake",
+      "status": "done",
+      "model": "openai/large",
+      "startedAt": "2026-10-20T02:09:45-05:00",
+      "updatedAt": "2026-10-20T02:10:05-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "rough 1, editorial split",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T02:10:05-05:00",
+      "updatedAt": "2026-10-20T02:10:47-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "rough 2, full bleed with scrim",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T02:10:05-05:00",
+      "updatedAt": "2026-10-20T02:10:43-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "rough 3, type only",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T02:10:06-05:00",
+      "updatedAt": "2026-10-20T02:10:51-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "art-director",
+      "task": "pick",
+      "status": "done",
+      "model": "openai/large",
+      "startedAt": "2026-10-20T02:10:55-05:00",
+      "updatedAt": "2026-10-20T02:11:14-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 1",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T02:11:15-05:00",
+      "updatedAt": "2026-10-20T02:11:45-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "creative-director",
+      "task": "sign-off round 1",
+      "status": "done",
+      "model": "openai/large",
+      "startedAt": "2026-10-20T02:11:46-05:00",
+      "updatedAt": "2026-10-20T02:12:14-05:00",
+      "via": "cli"
+    }
+  ],
+  "pick": {
+    "by": "art-director",
+    "rough": 2,
+    "pattern": "Full bleed with scrim",
+    "combineWith": null,
+    "reason": "The machining illustration makes this unmistakably Ferro, fills the portrait, and keeps the headline readable in two seconds.",
+    "lost": "1 The oversized date separates the event information and leaves the portrait hollow, 3 The portrait leaves an oversized empty band below the copy.",
+    "notes": [
+      "Increase “ferro.tools” from 25px to 31px in both formats; expand its white backing inward while preserving the current outer position. The social-card standard requires thumbnail readability.",
+      "Set the single red accent on “8.” to exactly #e5173f, per the Ferro palette."
+    ],
+    "at": "2026-10-20T02:11:14-05:00"
+  },
+  "proof": [
+    {
+      "round": 1,
+      "pass": null,
+      "skipped": true,
+      "failures": 0
+    }
+  ],
+  "scores": [
+    {
+      "round": 1,
+      "by": "creative-director",
+      "axes": {
+        "hierarchy": 9,
+        "typography": 9,
+        "spacing": 9,
+        "colour": 9,
+        "composition": 8,
+        "originality": 8,
+        "brand": 9,
+        "copy": 9
+      },
+      "average": 8.75,
+      "pass": true,
+      "notes": [
+        "composition: On LinkedIn, raise the white text block’s bottom edge from 459px to 435px, exposing 24px more of the machining illustration while retaining 36px below the supporting copy.",
+        "originality: In both formats, terminate one illustrated cut contour at the cutter tip; use the existing 8px black stroke to make “Leave with it cut” visible in the machining action."
+      ],
+      "polish": [
+        "Keep the 31px URL and its current corner placement in both formats."
+      ]
+    }
+  ],
+  "waitingOn": null,
+  "cost": {
+    "director": 0.4673,
+    "senior": 0.0969,
+    "builder": 0.076,
+    "total": 0.6402,
+    "complete": true
+  },
+  "tokens": {
+    "director": 105574,
+    "senior": 84944,
+    "builder": 61720
+  },
+  "files": {
+    "final": ".desk/out/20261020-0209-linkedin-instagram-portrait-open/final.html",
+    "brief": ".desk/jobs/20261020-0209-linkedin-instagram-portrait-open/brief.md",
+    "handback": ".desk/out/20261020-0209-linkedin-instagram-portrait-open/handback.md"
+  },
+  "pen": "builder",
+  "notes": [
+    "Increase “ferro.tools” from 25px to 31px in both formats; expand its white backing inward while preserving the current outer position. The social-card standard requires thumbnail readability.",
+    "Set the single red accent on “8.” to exactly #e5173f, per the Ferro palette."
+  ],
+  "misses": {},
+  "startedAt": "2026-10-20T02:09:45-05:00",
+  "updatedAt": "2026-10-20T02:12:14-05:00",
+  "roughs": [
+    {
+      "n": 1,
+      "pattern": "Editorial split",
+      "file": ".desk/out/20261020-0209-linkedin-instagram-portrait-open/rough-1.html",
+      "fonts": "Geist, runner-inlined; no fallback selected",
+      "written": true,
+      "renders": ".desk/jobs/20261020-0209-linkedin-instagram-portrait-open/renders/roughs/rough-1"
+    },
+    {
+      "n": 2,
+      "pattern": "Full bleed with scrim",
+      "file": ".desk/out/20261020-0209-linkedin-instagram-portrait-open/rough-2.html",
+      "fonts": "Geist; inlined by runner",
+      "written": true,
+      "renders": ".desk/jobs/20261020-0209-linkedin-instagram-portrait-open/renders/roughs/rough-2"
+    },
+    {
+      "n": 3,
+      "pattern": "Type only",
+      "file": ".desk/out/20261020-0209-linkedin-instagram-portrait-open/rough-3.html",
+      "fonts": "Geist, inlined by runner; no fallback selected",
+      "written": true,
+      "renders": ".desk/jobs/20261020-0209-linkedin-instagram-portrait-open/renders/roughs/rough-3"
+    }
+  ],
+  "lastRenders": ".desk/jobs/20261020-0209-linkedin-instagram-portrait-open/renders/round-1",
+  "penNotes": [],
+  "finishedAt": "2026-10-20T02:12:14-05:00"
+}

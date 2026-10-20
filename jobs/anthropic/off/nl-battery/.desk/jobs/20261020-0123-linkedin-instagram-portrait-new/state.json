@@ -1,0 +1,447 @@
+{
+  "id": "20261020-0123-linkedin-instagram-portrait-new",
+  "command": "design",
+  "deliverable": "social-card",
+  "sizes": [
+    "linkedin",
+    "ig-post"
+  ],
+  "quality": "studio",
+  "proofMode": "off",
+  "models": {
+    "director": "anthropic/opus",
+    "senior": "anthropic/sonnet",
+    "builder": "anthropic/haiku"
+  },
+  "phase": "done",
+  "round": 6,
+  "maxRounds": 6,
+  "desks": [
+    {
+      "desk": "design-manager",
+      "task": "intake",
+      "status": "done",
+      "model": "anthropic/opus",
+      "startedAt": "2026-10-20T01:23:00-05:00",
+      "updatedAt": "2026-10-20T01:23:18-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "rough 1, editorial split",
+      "status": "done",
+      "model": "anthropic/sonnet",
+      "startedAt": "2026-10-20T01:23:18-05:00",
+      "updatedAt": "2026-10-20T01:23:45-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "rough 2, full bleed with scrim",
+      "status": "done",
+      "model": "anthropic/sonnet",
+      "startedAt": "2026-10-20T01:23:18-05:00",
+      "updatedAt": "2026-10-20T01:23:51-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "rough 3, type only",
+      "status": "done",
+      "model": "anthropic/sonnet",
+      "startedAt": "2026-10-20T01:23:18-05:00",
+      "updatedAt": "2026-10-20T01:23:40-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "art-director",
+      "task": "pick",
+      "status": "done",
+      "model": "anthropic/opus",
+      "startedAt": "2026-10-20T01:23:56-05:00",
+      "updatedAt": "2026-10-20T01:24:35-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 1",
+      "status": "done",
+      "model": "anthropic/haiku",
+      "startedAt": "2026-10-20T01:24:35-05:00",
+      "updatedAt": "2026-10-20T01:25:17-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "creative-director",
+      "task": "sign-off round 1",
+      "status": "done",
+      "model": "anthropic/opus",
+      "startedAt": "2026-10-20T01:25:19-05:00",
+      "updatedAt": "2026-10-20T01:25:48-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 2",
+      "status": "done",
+      "model": "anthropic/haiku",
+      "startedAt": "2026-10-20T01:25:48-05:00",
+      "updatedAt": "2026-10-20T01:26:07-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "creative-director",
+      "task": "sign-off round 2",
+      "status": "done",
+      "model": "anthropic/opus",
+      "startedAt": "2026-10-20T01:26:09-05:00",
+      "updatedAt": "2026-10-20T01:27:12-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 3",
+      "status": "done",
+      "model": "anthropic/haiku",
+      "startedAt": "2026-10-20T01:27:13-05:00",
+      "updatedAt": "2026-10-20T01:27:44-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "creative-director",
+      "task": "sign-off round 3",
+      "status": "done",
+      "model": "anthropic/opus",
+      "startedAt": "2026-10-20T01:27:46-05:00",
+      "updatedAt": "2026-10-20T01:28:25-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 4, escalated",
+      "status": "done",
+      "model": "anthropic/sonnet",
+      "startedAt": "2026-10-20T01:28:25-05:00",
+      "updatedAt": "2026-10-20T01:28:55-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "creative-director",
+      "task": "sign-off round 4",
+      "status": "done",
+      "model": "anthropic/opus",
+      "startedAt": "2026-10-20T01:28:57-05:00",
+      "updatedAt": "2026-10-20T01:29:50-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 5, escalated",
+      "status": "done",
+      "model": "anthropic/sonnet",
+      "startedAt": "2026-10-20T01:29:50-05:00",
+      "updatedAt": "2026-10-20T01:30:06-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "creative-director",
+      "task": "sign-off round 5",
+      "status": "done",
+      "model": "anthropic/opus",
+      "startedAt": "2026-10-20T01:30:07-05:00",
+      "updatedAt": "2026-10-20T01:31:07-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 6, escalated",
+      "status": "done",
+      "model": "anthropic/sonnet",
+      "startedAt": "2026-10-20T01:31:07-05:00",
+      "updatedAt": "2026-10-20T01:31:24-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "creative-director",
+      "task": "sign-off round 6",
+      "status": "done",
+      "model": "anthropic/opus",
+      "startedAt": "2026-10-20T01:31:25-05:00",
+      "updatedAt": "2026-10-20T01:32:06-05:00",
+      "via": "cli"
+    }
+  ],
+  "pick": {
+    "by": "art-director",
+    "rough": 1,
+    "pattern": "Editorial split",
+    "combineWith": null,
+    "reason": "Rough 1 is the only one that gives the news its own block without letting it compete with the headline. It uses both aspect ratios as designed, split on landscape and stacked on portrait. The accent sits on the figure, as the brand asks.",
+    "lost": "2 shrinks \"Battery now included.\" to a footnote and leaves a black band taller than a third of the portrait canvas holding only the mark. 3 leaves an empty band of about 575px on portrait, and its supporting line at nearly headline size fights the headline for hierarchy.",
+    "notes": [
+      "linkedin: Move the left column's left edge from 48px to 72px for both the headline and the mark. The 6% safe zone on 1200 is 72px (standard: air, outer margin at least 6% of the short side). Keep the headline at its current size and check that \"to break even.\" still fits inside the 660px panel with a 48px right gutter. If it does not, step it down one scale size to 61px.",
+      "linkedin: Align the mark's baseline with the baseline of \"included.\" and place both 40px above the bottom edge, so the bottom group reads as one line across the split.",
+      "ig-post: Set \"Battery now included.\" on one line at its current 76px with no max-width. It fits inside 950px and should read as one statement, not a broken pair.",
+      "ig-post: Start the surface block at 808px instead of 755px, which is 60% of the canvas on the 8px grid (standard: editorial split portrait, top 60% headline, bottom 40% element). Set the supporting line 72px below the block's top edge.",
+      "ig-post: Place the mark 136px above the bottom edge, which puts its bottom on the 10% safe line, and keep it left-aligned at 64px on the same column as the headline."
+    ],
+    "at": "2026-10-20T01:24:35-05:00"
+  },
+  "proof": [
+    {
+      "round": 1,
+      "pass": null,
+      "skipped": true,
+      "failures": 0
+    },
+    {
+      "round": 2,
+      "pass": null,
+      "skipped": true,
+      "failures": 0
+    },
+    {
+      "round": 3,
+      "pass": null,
+      "skipped": true,
+      "failures": 0
+    },
+    {
+      "round": 4,
+      "pass": null,
+      "skipped": true,
+      "failures": 0
+    },
+    {
+      "round": 5,
+      "pass": null,
+      "skipped": true,
+      "failures": 0
+    },
+    {
+      "round": 6,
+      "pass": null,
+      "skipped": true,
+      "failures": 0
+    }
+  ],
+  "scores": [
+    {
+      "round": 1,
+      "by": "creative-director",
+      "axes": {
+        "hierarchy": 8,
+        "typography": 7,
+        "spacing": 8,
+        "colour": 9,
+        "composition": 7,
+        "originality": 7,
+        "brand": 9,
+        "copy": 9
+      },
+      "average": 8,
+      "pass": false,
+      "notes": [
+        "typography: linkedin headline is about 61px and the supporting line about 49px, one scale step apart, so they read as near-equals. Set the headline to 76px (600, -0.02em, line-height 1.05) and the supporting line to 39px (400, line-height 1.3), so the two sizes are about 2:1. Keep ig-post at its current 119/76/25.",
+        "composition: linkedin left panel has about 290px of leftover air between \"Then free.\" and the mark, and the right panel is an empty 540px surface with text only at the foot. Widen the left panel from 660px to 744px (62%) so the 76px \"to break even.\" fits with a 48px right gutter. The headline then runs from y72 to about y312. Narrow the surface block to 456px.",
+        "hierarchy: on linkedin, \"Battery now included.\" at 49px in the bright surface block pulls the eye before the headline on a glance. At 39px it reads second. Keep it at the bottom of the right panel and keep its baseline shared with the mark's baseline.",
+        "spacing: linkedin bottom baselines sit about 38px from the bottom edge, on the 6% line with no margin. Raise both baselines to 48px above the bottom edge. On ig-post, set the supporting line 80px below the block's top (on the 8px grid), not 72px, so it leaves the same space as the left margin feels.",
+        "originality: the split is now the first layout anyone would make, with a panel that only holds a line. Let the surface block bleed to the top and bottom edges on linkedin and run it as one flat field with no inner padding change. On ig-post, extend the surface block flush to both side edges, as it is now. On linkedin, start the block's left edge exactly on the right edge of \"even.\" plus 48px, so the split follows the type and not a ratio."
+      ],
+      "polish": [
+        "ig-post: increase \"Then free.\" line-height gap by nothing, but drop the headline top from about 80px to 64px so the cap line sits on the 6% margin like the left edge."
+      ]
+    },
+    {
+      "round": 2,
+      "by": "creative-director",
+      "axes": {
+        "hierarchy": 8,
+        "typography": 8,
+        "spacing": 8,
+        "colour": 9,
+        "composition": 7,
+        "originality": 7,
+        "brand": 9,
+        "copy": 9
+      },
+      "average": 8.13,
+      "pass": false,
+      "notes": [
+        "composition: linkedin, move the split from 744px to 720px (60%). Lift \"Battery now included.\" from the panel bottom to the top: 48px inner left padding, first-line cap top level with the cap top of \"Seven years\" (about 88px), two lines \"Battery now / included.\". Leave the mark alone at bottom left, 40px up. The right panel is then 470px of surface with a caption at the foot. ig-post, start the surface block at 704px instead of 808px. Keep the news 72px below the block top, at 76px on one line. The paper gap under the headline drops from about 383px to about 280px, the surface gap above the mark drops to about 340px, and both are under a quarter of the canvas.",
+        "originality: the editorial split as rendered is the template version: a blank tone panel with text parked in its corner. Earn it by pairing the figure with the news across the split. On linkedin \"Seven years\" and \"Battery now\" share a cap line, the claim on the left and the news on the right, from the composition note. Keep the accent on \"Seven years\" only.",
+        "hierarchy: linkedin, the news at about 39px reads as a caption beside a 76px headline. Set it at 49px, 400 weight, so it clearly reads second and the mark at 24–25px stays third.",
+        "typography: linkedin \"Battery now / included.\" at 39px is an accidental break. At 49px with line-height 1.1 and tracking -0.01em the two-line stack reads as intended. ig-post, set the 76px news line to -0.01em tracking to match the headline's colour on the page.",
+        "spacing: linkedin, the headline's cap top sits at about 88px against a 72px left margin. Set the top margin so the cap top lands on 72px. ig-post, set the headline cap top to 72px, from about 82px, and keep the 64px left edge for headline, news and mark."
+      ],
+      "polish": [
+        "Set the mark in #6b6a66 (about 5:1 on #f7f5f0) so it steps back from the news on both sizes."
+      ]
+    },
+    {
+      "round": 3,
+      "by": "creative-director",
+      "axes": {
+        "hierarchy": 8,
+        "typography": 8,
+        "spacing": 7,
+        "colour": 9,
+        "composition": 7,
+        "originality": 7,
+        "brand": 9,
+        "copy": 9
+      },
+      "average": 8,
+      "pass": false,
+      "notes": [
+        "composition: on linkedin, \"Battery now included.\" sits at the top of the right panel and leaves about 450px of bare surface under it. Move it to the bottom of the panel at x=768. Put its last baseline 40px above the bottom edge (y=587) and set the mark's baseline on the same line (Art Director note 2, which this round did not apply). The bottom group then reads as one line across the split, and the grey panel is anchored instead of left over.",
+        "spacing: on ig-post, the surface block starts at 704px, but Art Director note 4 asks for 808px (60% of 1350). Move it to 808px and place the top of \"Battery now included.\" 72px below the block's top edge, at 880px. Move the shared left edge of the headline, the supporting line and the mark from 64px to 72px, because 6% of 1080 is 64.8px and the edge must clear the safe zone on the 8px grid.",
+        "originality: the right panel currently reads as an image placeholder. Once the news is bottom-aligned on linkedin, keep the headline top-left at 72/72 so the card has a deliberate diagonal running from the headline at top-left to the news at bottom-right. Change nothing else, and add no element to fill the panel.",
+        "hierarchy: on linkedin, the news at 39px at the top of the right panel lines up with the headline's first line and competes with it. The bottom-align above fixes this. Keep the news at 39px with weight 400 and do not raise it.",
+        "typography: on linkedin, set the headline line-height to 1.05 and tracking to -0.02em at 61px, and confirm that \"to break even.\" ends at or before x=672 (a 48px gutter from the 720px split). On ig-post, keep 119/76/25 and change nothing else."
+      ],
+      "polish": [
+        "linkedin: set the mark at 25px in #6b6a66 so that it drops below the news in the bottom row without dropping under 4.5:1 on #f7f5f0."
+      ]
+    },
+    {
+      "round": 4,
+      "by": "creative-director",
+      "axes": {
+        "hierarchy": 8,
+        "typography": 8,
+        "spacing": 8,
+        "colour": 9,
+        "composition": 7,
+        "originality": 7,
+        "brand": 9,
+        "copy": 9
+      },
+      "average": 8.13,
+      "pass": false,
+      "notes": [
+        "composition: linkedin, the right panel is an empty 480x627 box, and the only thing in it is a two-line caption at the foot. Move the split from 720px to 660px, which is 55%. Set \"Battery now included.\" at 49px, weight 400, line-height 1.1, as three lines (\"Battery / now / included.\") at x 708. Bottom-align it so the last baseline sits at y 587. The eye then runs on a diagonal from the figure top-left to the news bottom-right, and the panel has a job.",
+        "originality: linkedin, the stacked news on the surface panel is the move that makes this card more than a template split. Do not soften it. Keep the panel flat #ebe8e0 with no radius and no rule, and do not add any other element to it.",
+        "hierarchy: linkedin, the news reads as a footnote at 39px. At 49px, bottom-aligned as above, it reads clearly second. The mark stays third at 25px.",
+        "typography: linkedin, raise the headline from 61px to 76px. \"to break even.\" is about 500px at 76px and fits the 540px measure (660 − 72 − 48). Keep three lines and line-height 1.05. Landscape sizes become 76/49/25. ig-post stays at 119/76/25.",
+        "spacing: linkedin, keep the headline cap-top and the mark at x 72 with the cap-top at y 72. Put the mark baseline at y 587, the same baseline as \"included.\", so the bottom group shares one line across the split. Set the right panel's inner inset to 48px."
+      ],
+      "polish": [
+        "ig-post: move \"Battery now included.\" up so its cap-top is 72px below the surface block's top edge (y 880). The gap to the mark then reads as a deliberate step down."
+      ]
+    },
+    {
+      "round": 5,
+      "by": "creative-director",
+      "axes": {
+        "hierarchy": 8,
+        "typography": 7,
+        "spacing": 8,
+        "colour": 9,
+        "composition": 7,
+        "originality": 8,
+        "brand": 9,
+        "copy": 9
+      },
+      "average": 8.13,
+      "pass": false,
+      "notes": [
+        "typography: linkedin, set \"Battery now included.\" on two lines, \"Battery now\" / \"included.\", at 49px with line-height 1.1. Give it a max-width of 420px from x 708 so it stops stacking one word per line.",
+        "composition: linkedin, move the split from 660px to 744px (62%). Raise the headline from 61px to 76px at the same 72px left edge so the block runs from about y 72 to y 312 and carries the left column. If \"to break even.\" ends past x 696, move the split to 752px instead.",
+        "hierarchy: linkedin, keep the support line at 49px against the 76px headline so the gap between them is two scale steps. The news then reads clearly second and does not hang as a fragment at the panel's foot.",
+        "spacing: linkedin, raise the bottom group (mark baseline and \"included.\" baseline, kept shared) from 40px to 72px above the bottom edge. This matches the 72px side and top margins so the frame is even.",
+        "originality: ig-post, no change. linkedin, top-align the panel's 48px inner left padding to the headline's 72px cap line grid, so the two columns share one top and one bottom line and the split reads as designed rather than leftover."
+      ],
+      "polish": [
+        "ig-post: move \"Battery now included.\" from 72px to 96px below the surface block's top edge to close the 230px gap above the mark by a grid step."
+      ]
+    },
+    {
+      "round": 6,
+      "by": "creative-director",
+      "axes": {
+        "hierarchy": 9,
+        "typography": 8,
+        "spacing": 8,
+        "colour": 9,
+        "composition": 7,
+        "originality": 7,
+        "brand": 9,
+        "copy": 9
+      },
+      "average": 8.25,
+      "pass": false,
+      "notes": [
+        "composition: on linkedin, the right panel is empty for its top 460px and the left column has a 240px dead band. Raise the headline from 61px to 76px (three lines, 1.05 leading, top at 72px). Move the panel's left edge from 744px to 816px so \"to break even.\" fits with at least 72px of gutter. Keep \"Battery now included.\" at the bottom of the panel, with its baseline on the mark's baseline 72px above the bottom edge.",
+        "composition: on ig-post, the paper band between \"Then free.\" (bottom about 410px) and the surface block (808px) is about 400px of plain air. Start the surface block at 704px. Keep the supporting line 72px below the block's top and the mark on the 10% bottom line at 64px left.",
+        "originality: make the split mean something. On ig-post, put the surface block's top edge exactly 96px below the baseline of \"Then free.\", so paper and surface read as \"the seven years\" and \"what you get\". On linkedin, the 816px panel edge should land 72px past the end of \"to break even.\", so the line visibly hands off to the panel.",
+        "typography: on linkedin, the supporting line is 49px against a 61px headline, one scale step apart, so the two sizes look too close. After the headline goes to 76px, set the supporting line at 39px, weight 400, on two lines with 1.3 leading. Keep ig-post at 119/76/25.",
+        "spacing: on linkedin, the supporting line's left inset in the panel is about 50px against a 72px outer margin. Set it to 72px from the panel edge so both columns share one margin."
+      ],
+      "polish": [
+        "ig-post: set the mark at 25px in #6b6a66 so it steps back from the supporting line, and check it still clears 4.5:1 on #ebe8e0."
+      ]
+    }
+  ],
+  "waitingOn": {
+    "type": "approve_under_bar",
+    "text": "Under the bar after 6 rounds. composition, originality under 8, composition: on linkedin, the right panel is empty for its top 460px and the left column has a 240px dead band. Raise the headline from 61px to 76px (three lines, 1.05 leading, top at 72px). Move the panel's left edge from 744px to 816px so \"to break even.\" fits with at least 72px of gutter. Keep \"Battery now included.\" at the bottom of the panel, with its baseline on the mark's baseline 72px above the bottom edge.; composition: on ig-post, the paper band between \"Then free.\" (bottom about 410px) and the surface block (808px) is about 400px of plain air. Start the surface block at 704px. Keep the supporting line 72px below the block's top and the mark on the 10% bottom line at 64px left."
+  },
+  "cost": {
+    "director": 1.235,
+    "senior": 0.3704,
+    "builder": 0.016,
+    "total": 1.6214,
+    "complete": true
+  },
+  "tokens": {
+    "director": 145407,
+    "senior": 128056,
+    "builder": 81105
+  },
+  "files": {
+    "final": ".desk/out/20261020-0123-linkedin-instagram-portrait-new/final.html",
+    "brief": ".desk/jobs/20261020-0123-linkedin-instagram-portrait-new/brief.md",
+    "handback": ".desk/out/20261020-0123-linkedin-instagram-portrait-new/handback.md"
+  },
+  "pen": "art-director",
+  "notes": [
+    "composition: on linkedin, the right panel is empty for its top 460px and the left column has a 240px dead band. Raise the headline from 61px to 76px (three lines, 1.05 leading, top at 72px). Move the panel's left edge from 744px to 816px so \"to break even.\" fits with at least 72px of gutter. Keep \"Battery now included.\" at the bottom of the panel, with its baseline on the mark's baseline 72px above the bottom edge.",
+    "composition: on ig-post, the paper band between \"Then free.\" (bottom about 410px) and the surface block (808px) is about 400px of plain air. Start the surface block at 704px. Keep the supporting line 72px below the block's top and the mark on the 10% bottom line at 64px left.",
+    "originality: make the split mean something. On ig-post, put the surface block's top edge exactly 96px below the baseline of \"Then free.\", so paper and surface read as \"the seven years\" and \"what you get\". On linkedin, the 816px panel edge should land 72px past the end of \"to break even.\", so the line visibly hands off to the panel.",
+    "typography: on linkedin, the supporting line is 49px against a 61px headline, one scale step apart, so the two sizes look too close. After the headline goes to 76px, set the supporting line at 39px, weight 400, on two lines with 1.3 leading. Keep ig-post at 119/76/25.",
+    "spacing: on linkedin, the supporting line's left inset in the panel is about 50px against a 72px outer margin. Set it to 72px from the panel edge so both columns share one margin."
+  ],
+  "misses": {},
+  "startedAt": "2026-10-20T01:23:00-05:00",
+  "updatedAt": "2026-10-20T01:32:06-05:00",
+  "roughs": [
+    {
+      "n": 1,
+      "pattern": "Editorial split",
+      "file": ".desk/out/20261020-0123-linkedin-instagram-portrait-new/rough-1.html",
+      "fonts": "Inter, inlined by the runner, not a fallback",
+      "written": true,
+      "renders": ".desk/jobs/20261020-0123-linkedin-instagram-portrait-new/renders/roughs/rough-1"
+    },
+    {
+      "n": 2,
+      "pattern": "Full bleed with scrim",
+      "file": ".desk/out/20261020-0123-linkedin-instagram-portrait-new/rough-2.html",
+      "fonts": "Inter (brand family, inlined by runner; not a fallback)",
+      "written": true,
+      "renders": ".desk/jobs/20261020-0123-linkedin-instagram-portrait-new/renders/roughs/rough-2"
+    },
+    {
+      "n": 3,
+      "pattern": "Type only",
+      "file": ".desk/out/20261020-0123-linkedin-instagram-portrait-new/rough-3.html",
+      "fonts": "Inter (brand font, inlined by runner, not a fallback)",
+      "written": true,
+      "renders": ".desk/jobs/20261020-0123-linkedin-instagram-portrait-new/renders/roughs/rough-3"
+    }
+  ],
+  "lastRenders": ".desk/jobs/20261020-0123-linkedin-instagram-portrait-new/renders/round-6",
+  "penNotes": [],
+  "finishedAt": "2026-10-20T01:32:06-05:00"
+}

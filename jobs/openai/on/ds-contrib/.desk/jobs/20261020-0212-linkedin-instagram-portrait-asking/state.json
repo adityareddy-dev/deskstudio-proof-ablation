@@ -1,0 +1,340 @@
+{
+  "id": "20261020-0212-linkedin-instagram-portrait-asking",
+  "command": "design",
+  "deliverable": "social-card",
+  "sizes": [
+    "linkedin",
+    "ig-post"
+  ],
+  "quality": "studio",
+  "proofMode": "on",
+  "models": {
+    "director": "openai/large",
+    "senior": "openai/mini",
+    "builder": "openai/mini"
+  },
+  "phase": "done",
+  "round": 6,
+  "maxRounds": 6,
+  "desks": [
+    {
+      "desk": "design-manager",
+      "task": "intake",
+      "status": "done",
+      "model": "openai/large",
+      "startedAt": "2026-10-20T02:12:59-05:00",
+      "updatedAt": "2026-10-20T02:13:18-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "rough 1, editorial split",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T02:13:18-05:00",
+      "updatedAt": "2026-10-20T02:14:00-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "rough 2, full bleed with scrim",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T02:13:19-05:00",
+      "updatedAt": "2026-10-20T02:15:00-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "rough 3, type only",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T02:13:19-05:00",
+      "updatedAt": "2026-10-20T02:14:52-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "art-director",
+      "task": "pick",
+      "status": "done",
+      "model": "openai/large",
+      "startedAt": "2026-10-20T02:15:04-05:00",
+      "updatedAt": "2026-10-20T02:15:22-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 1",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T02:15:22-05:00",
+      "updatedAt": "2026-10-20T02:15:47-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 2",
+      "status": "failed",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T02:15:49-05:00",
+      "updatedAt": "2026-10-20T02:16:27-05:00"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 2",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T02:16:27-05:00",
+      "updatedAt": "2026-10-20T02:17:01-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 3",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T02:17:03-05:00",
+      "updatedAt": "2026-10-20T02:17:43-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "creative-director",
+      "task": "sign-off round 3",
+      "status": "done",
+      "model": "openai/large",
+      "startedAt": "2026-10-20T02:17:44-05:00",
+      "updatedAt": "2026-10-20T02:18:13-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 4",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T02:18:13-05:00",
+      "updatedAt": "2026-10-20T02:18:51-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "creative-director",
+      "task": "sign-off round 4",
+      "status": "done",
+      "model": "openai/large",
+      "startedAt": "2026-10-20T02:18:53-05:00",
+      "updatedAt": "2026-10-20T02:19:09-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 5",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T02:19:09-05:00",
+      "updatedAt": "2026-10-20T02:19:52-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 6",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T02:19:54-05:00",
+      "updatedAt": "2026-10-20T02:20:16-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "creative-director",
+      "task": "sign-off round 6",
+      "status": "done",
+      "model": "openai/large",
+      "startedAt": "2026-10-20T02:20:18-05:00",
+      "updatedAt": "2026-10-20T02:20:39-05:00",
+      "via": "cli"
+    }
+  ],
+  "pick": {
+    "by": "art-director",
+    "rough": 3,
+    "pattern": "Type only",
+    "combineWith": null,
+    "reason": "The headline is the image; amber lands on “desk,” making the invitation read immediately in both formats.",
+    "lost": "1 The literal desk illustration competes with the invitation, 2 The oversized amber frame draws attention away from the headline.",
+    "notes": [
+      "On LinkedIn, place the URL 72px from the bottom edge, retaining its 80px left inset and current size, to meet the brief’s 6% safe margins."
+    ],
+    "at": "2026-10-20T02:15:22-05:00"
+  },
+  "proof": [
+    {
+      "round": 1,
+      "pass": false,
+      "failures": 2
+    },
+    {
+      "round": 2,
+      "pass": false,
+      "failures": 2
+    },
+    {
+      "round": 3,
+      "pass": true,
+      "failures": 0
+    },
+    {
+      "round": 4,
+      "pass": true,
+      "failures": 0
+    },
+    {
+      "round": 5,
+      "pass": false,
+      "failures": 1
+    },
+    {
+      "round": 6,
+      "pass": true,
+      "failures": 0
+    }
+  ],
+  "scores": [
+    {
+      "round": 3,
+      "by": "creative-director",
+      "axes": {
+        "hierarchy": 9,
+        "typography": 9,
+        "spacing": 7,
+        "colour": 9,
+        "composition": 7,
+        "originality": 6,
+        "brand": 9,
+        "copy": 9
+      },
+      "average": 8.13,
+      "pass": false,
+      "notes": [
+        "spacing: On LinkedIn, raise the URL 24px to leave approximately 80px below its visible baseline, resolving the Art Director’s placement note.",
+        "composition: On portrait, move the URL from approximately y1180 to y1080; reduce the empty band below the supporting copy from approximately 470px to 370px, below the 450px maximum.",
+        "originality: Replace the generic stacked lockup with a deliberate typographic silhouette: set “Add a desk.” on one line at 149px on LinkedIn; retain two lines on portrait and position the supporting copy 48px below “desk.” Keep the amber placement and all copy unchanged."
+      ],
+      "polish": [
+        "Align the visible left edges of the headline, supporting copy and URL within 4px in both exports."
+      ]
+    },
+    {
+      "round": 4,
+      "by": "creative-director",
+      "axes": {
+        "hierarchy": 9,
+        "typography": 9,
+        "spacing": 8,
+        "colour": 10,
+        "composition": 8,
+        "originality": 6,
+        "brand": 9,
+        "copy": 9
+      },
+      "average": 8.5,
+      "pass": false,
+      "notes": [
+        "spacing: On portrait, move the URL from y1084 to y1000, retaining its 72px left inset and current size.",
+        "composition: Increase portrait headline size from approximately 186px to 233px; move its top to 96px and keep both lines inside the top 540px.",
+        "originality: Replace the stock two-line portrait lockup with a stepped arrangement: keep “Add a” at x72 and indent “desk.” to x216; retain the single amber emphasis and three type sizes."
+      ],
+      "polish": [
+        "Keep the corrected LinkedIn URL position, 72px from the bottom."
+      ]
+    },
+    {
+      "round": 6,
+      "by": "creative-director",
+      "axes": {
+        "hierarchy": 9,
+        "typography": 8,
+        "spacing": 8,
+        "colour": 10,
+        "composition": 7,
+        "originality": 6,
+        "brand": 8,
+        "copy": 9
+      },
+      "average": 8.13,
+      "pass": false,
+      "notes": [
+        "typography: On portrait, move “desk.” left from approximately x224 to x72, optically aligning both headline lines with the supporting copy.",
+        "spacing: Move the portrait URL down from approximately y1000 to y1184, keeping its 72px left inset.",
+        "composition: Move the portrait headline up 24px so the entire headline ends above y540, within the required top 40%.",
+        "originality: Replace the default highlighted-word arrangement with one deliberate typographic relationship: size “desk.” so its right edge matches “Add a,” while both lines share the same left edge; retain three type sizes maximum.",
+        "brand: Apply the brand’s left-aligned column consistently; remove the portrait headline’s approximately 152px second-line indent."
+      ],
+      "polish": [
+        "Keep the LinkedIn URL’s current placement; it satisfies the Art Director’s bottom-margin correction."
+      ]
+    }
+  ],
+  "waitingOn": {
+    "type": "approve_under_bar",
+    "text": "Under the bar after 6 rounds. composition, originality under 8, composition: Move the portrait headline up 24px so the entire headline ends above y540, within the required top 40%.; originality: Replace the default highlighted-word arrangement with one deliberate typographic relationship: size “desk.” so its right edge matches “Add a,” while both lines share the same left edge; retain three type sizes maximum."
+  },
+  "cost": {
+    "director": 0.7151,
+    "senior": 0.0973,
+    "builder": 0.2384,
+    "total": 1.0508,
+    "complete": false
+  },
+  "tokens": {
+    "director": 172053,
+    "senior": 137195,
+    "builder": 370105
+  },
+  "files": {
+    "final": ".desk/out/20261020-0212-linkedin-instagram-portrait-asking/final.html",
+    "brief": ".desk/jobs/20261020-0212-linkedin-instagram-portrait-asking/brief.md",
+    "handback": ".desk/out/20261020-0212-linkedin-instagram-portrait-asking/handback.md"
+  },
+  "pen": "builder",
+  "notes": [
+    "typography: On portrait, move “desk.” left from approximately x224 to x72, optically aligning both headline lines with the supporting copy.",
+    "spacing: Move the portrait URL down from approximately y1000 to y1184, keeping its 72px left inset.",
+    "composition: Move the portrait headline up 24px so the entire headline ends above y540, within the required top 40%.",
+    "originality: Replace the default highlighted-word arrangement with one deliberate typographic relationship: size “desk.” so its right edge matches “Add a,” while both lines share the same left edge; retain three type sizes maximum.",
+    "brand: Apply the brand’s left-aligned column consistently; remove the portrait headline’s approximately 152px second-line indent."
+  ],
+  "misses": {
+    "composition": 1,
+    "originality": 1
+  },
+  "startedAt": "2026-10-20T02:12:59-05:00",
+  "updatedAt": "2026-10-20T02:20:40-05:00",
+  "roughs": [
+    {
+      "n": 1,
+      "pattern": "Editorial split",
+      "file": ".desk/out/20261020-0212-linkedin-instagram-portrait-asking/rough-1.html",
+      "fonts": "Geist, inlined by runner; no fallback selected",
+      "written": true,
+      "renders": ".desk/jobs/20261020-0212-linkedin-instagram-portrait-asking/renders/roughs/rough-1"
+    },
+    {
+      "n": 2,
+      "pattern": "Full bleed with scrim",
+      "file": ".desk/out/20261020-0212-linkedin-instagram-portrait-asking/rough-2.html",
+      "fonts": "Geist; runner-inlined, no fallback substitution",
+      "written": true,
+      "renders": ".desk/jobs/20261020-0212-linkedin-instagram-portrait-asking/renders/roughs/rough-2"
+    },
+    {
+      "n": 3,
+      "pattern": "Type only",
+      "file": ".desk/out/20261020-0212-linkedin-instagram-portrait-asking/rough-3.html",
+      "fonts": "Geist; runner inlines brand font",
+      "written": true,
+      "renders": ".desk/jobs/20261020-0212-linkedin-instagram-portrait-asking/renders/roughs/rough-3"
+    }
+  ],
+  "lastRenders": ".desk/jobs/20261020-0212-linkedin-instagram-portrait-asking/renders/round-6",
+  "penNotes": [],
+  "next": "polish",
+  "finishedAt": "2026-10-20T02:20:39-05:00"
+}

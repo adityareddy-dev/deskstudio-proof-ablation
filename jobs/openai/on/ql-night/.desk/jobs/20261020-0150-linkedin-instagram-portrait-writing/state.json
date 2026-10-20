@@ -1,0 +1,267 @@
+{
+  "id": "20261020-0150-linkedin-instagram-portrait-writing",
+  "command": "design",
+  "deliverable": "social-card",
+  "sizes": [
+    "linkedin",
+    "ig-post"
+  ],
+  "quality": "studio",
+  "proofMode": "on",
+  "models": {
+    "director": "openai/large",
+    "senior": "openai/mini",
+    "builder": "openai/mini"
+  },
+  "phase": "done",
+  "round": 4,
+  "maxRounds": 6,
+  "desks": [
+    {
+      "desk": "design-manager",
+      "task": "intake",
+      "status": "done",
+      "model": "openai/large",
+      "startedAt": "2026-10-20T01:50:09-05:00",
+      "updatedAt": "2026-10-20T01:50:30-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "rough 1, editorial split",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T01:50:30-05:00",
+      "updatedAt": "2026-10-20T01:51:25-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "rough 2, full bleed with scrim",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T01:50:30-05:00",
+      "updatedAt": "2026-10-20T01:51:27-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "rough 3, type only",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T01:50:30-05:00",
+      "updatedAt": "2026-10-20T01:51:18-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "art-director",
+      "task": "pick",
+      "status": "done",
+      "model": "openai/large",
+      "startedAt": "2026-10-20T01:51:31-05:00",
+      "updatedAt": "2026-10-20T01:51:50-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 1",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T01:51:50-05:00",
+      "updatedAt": "2026-10-20T01:52:18-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 2",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T01:52:19-05:00",
+      "updatedAt": "2026-10-20T01:52:42-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "creative-director",
+      "task": "sign-off round 2",
+      "status": "done",
+      "model": "openai/large",
+      "startedAt": "2026-10-20T01:52:44-05:00",
+      "updatedAt": "2026-10-20T01:53:05-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 3",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T01:53:05-05:00",
+      "updatedAt": "2026-10-20T01:53:37-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 4",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T01:53:39-05:00",
+      "updatedAt": "2026-10-20T01:54:01-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "creative-director",
+      "task": "sign-off round 4",
+      "status": "done",
+      "model": "openai/large",
+      "startedAt": "2026-10-20T01:54:03-05:00",
+      "updatedAt": "2026-10-20T01:54:23-05:00",
+      "via": "cli"
+    }
+  ],
+  "pick": {
+    "by": "art-director",
+    "rough": 3,
+    "pattern": "Type only",
+    "combineWith": null,
+    "reason": "The headline reads immediately, and the single accent on “dims” makes the night-mode idea the focal point.",
+    "lost": "1 The miniature page weakens the headline without adding meaning, 2 The offset panel and accent on “room” draw attention away from dimming.",
+    "notes": [
+      "On Instagram, set the headline breaks to “The page” / “dims with” / “the room.” Keep the 127px size and accent only on “dims”. This restores the brand’s short editorial rhythm while keeping the headline inside the top 40%, per the social-card standard."
+    ],
+    "at": "2026-10-20T01:51:50-05:00"
+  },
+  "proof": [
+    {
+      "round": 1,
+      "pass": false,
+      "failures": 3
+    },
+    {
+      "round": 2,
+      "pass": true,
+      "failures": 0
+    },
+    {
+      "round": 3,
+      "pass": false,
+      "failures": 7
+    },
+    {
+      "round": 4,
+      "pass": true,
+      "failures": 0
+    }
+  ],
+  "scores": [
+    {
+      "round": 2,
+      "by": "creative-director",
+      "axes": {
+        "hierarchy": 9,
+        "typography": 9,
+        "spacing": 8,
+        "colour": 9,
+        "composition": 8,
+        "originality": 6,
+        "brand": 9,
+        "copy": 9
+      },
+      "average": 8.38,
+      "pass": false,
+      "notes": [
+        "spacing: On Instagram, move the supporting line down 80px to balance the gaps above and below it.",
+        "composition: On Instagram, increase the headline from 127px to 136px; preserve the three approved breaks and keep its bottom above 540px.",
+        "originality: Make “dims” demonstrate dimming: step its four letters from #7c9cff to #657fcf, left to right. Keep all other text uniformly foreground-coloured and verify contrast again."
+      ],
+      "polish": [
+        "Preserve the LinkedIn positioning and the single accented word."
+      ]
+    },
+    {
+      "round": 4,
+      "by": "creative-director",
+      "axes": {
+        "hierarchy": 9,
+        "typography": 9,
+        "spacing": 8,
+        "colour": 8,
+        "composition": 8,
+        "originality": 8,
+        "brand": 9,
+        "copy": 9
+      },
+      "average": 8.5,
+      "pass": true,
+      "notes": [
+        "spacing: On Instagram, move the supporting line up 96px, reducing the headline-to-support gap from roughly 310px to 214px.",
+        "colour: Replace the gradient on “dims” with four discrete palette-derived blue tints; keep every letter at least 4.5:1 against the background.",
+        "composition: Keep the Instagram headline at 127px with its current three breaks; retain the brand mark position while raising the supporting line.",
+        "originality: Make the dimming progression explicit across the four letters of “dims”: use accent mixed with background at 100%, 92%, 84%, and 76%, respectively, in both formats."
+      ],
+      "polish": [
+        "Align the supporting line and brand mark to the headline’s visible left edge within 4px."
+      ]
+    }
+  ],
+  "waitingOn": null,
+  "cost": {
+    "director": 1.2705,
+    "senior": 0.1752,
+    "builder": 0.214,
+    "total": 1.6597,
+    "complete": true
+  },
+  "tokens": {
+    "director": 139273,
+    "senior": 113758,
+    "builder": 243587
+  },
+  "files": {
+    "final": ".desk/out/20261020-0150-linkedin-instagram-portrait-writing/final.html",
+    "brief": ".desk/jobs/20261020-0150-linkedin-instagram-portrait-writing/brief.md",
+    "handback": ".desk/out/20261020-0150-linkedin-instagram-portrait-writing/handback.md"
+  },
+  "pen": "builder",
+  "notes": [
+    "proof type-scale at ig-post: \"The page\" 136px is off the brand scale (base 17, ratio 1.333), use 127px or 169px",
+    "proof type-scale at ig-post: \"d\" 136px is off the brand scale (base 17, ratio 1.333), use 127px or 169px",
+    "proof type-scale at ig-post: \"i\" 136px is off the brand scale (base 17, ratio 1.333), use 127px or 169px",
+    "proof type-scale at ig-post: \"m\" 136px is off the brand scale (base 17, ratio 1.333), use 127px or 169px",
+    "proof type-scale at ig-post: \"s\" 136px is off the brand scale (base 17, ratio 1.333), use 127px or 169px",
+    "proof type-scale at ig-post: \"with\" 136px is off the brand scale (base 17, ratio 1.333), use 127px or 169px",
+    "proof type-scale at ig-post: \"the room.\" 136px is off the brand scale (base 17, ratio 1.333), use 127px or 169px"
+  ],
+  "misses": {
+    "proof:type-scale": 1
+  },
+  "startedAt": "2026-10-20T01:50:09-05:00",
+  "updatedAt": "2026-10-20T01:54:23-05:00",
+  "roughs": [
+    {
+      "n": 1,
+      "pattern": "Editorial split",
+      "file": ".desk/out/20261020-0150-linkedin-instagram-portrait-writing/rough-1.html",
+      "fonts": "Source Serif 4; runner inlines font, no fallback substitution",
+      "written": true,
+      "renders": ".desk/jobs/20261020-0150-linkedin-instagram-portrait-writing/renders/roughs/rough-1"
+    },
+    {
+      "n": 2,
+      "pattern": "Full bleed with scrim",
+      "file": ".desk/out/20261020-0150-linkedin-instagram-portrait-writing/rough-2.html",
+      "fonts": "Source Serif 4, runner-inlined; no fallback selected",
+      "written": true,
+      "renders": ".desk/jobs/20261020-0150-linkedin-instagram-portrait-writing/renders/roughs/rough-2"
+    },
+    {
+      "n": 3,
+      "pattern": "Type only",
+      "file": ".desk/out/20261020-0150-linkedin-instagram-portrait-writing/rough-3.html",
+      "fonts": "Source Serif 4; runner inlines brand font",
+      "written": true,
+      "renders": ".desk/jobs/20261020-0150-linkedin-instagram-portrait-writing/renders/roughs/rough-3"
+    }
+  ],
+  "lastRenders": ".desk/jobs/20261020-0150-linkedin-instagram-portrait-writing/renders/round-4",
+  "penNotes": [],
+  "finishedAt": "2026-10-20T01:54:23-05:00"
+}

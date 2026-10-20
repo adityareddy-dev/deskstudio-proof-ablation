@@ -1,0 +1,280 @@
+{
+  "id": "20261020-0144-linkedin-instagram-portrait-saying",
+  "command": "design",
+  "deliverable": "social-card",
+  "sizes": [
+    "linkedin",
+    "ig-post"
+  ],
+  "quality": "studio",
+  "proofMode": "on",
+  "models": {
+    "director": "anthropic/opus",
+    "senior": "anthropic/sonnet",
+    "builder": "anthropic/haiku"
+  },
+  "phase": "done",
+  "round": 5,
+  "maxRounds": 6,
+  "desks": [
+    {
+      "desk": "design-manager",
+      "task": "intake",
+      "status": "done",
+      "model": "anthropic/opus",
+      "startedAt": "2026-10-20T01:44:50-05:00",
+      "updatedAt": "2026-10-20T01:45:07-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "rough 1, editorial split",
+      "status": "done",
+      "model": "anthropic/sonnet",
+      "startedAt": "2026-10-20T01:45:07-05:00",
+      "updatedAt": "2026-10-20T01:45:28-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "rough 2, full bleed with scrim",
+      "status": "done",
+      "model": "anthropic/sonnet",
+      "startedAt": "2026-10-20T01:45:07-05:00",
+      "updatedAt": "2026-10-20T01:45:29-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "rough 3, type only",
+      "status": "done",
+      "model": "anthropic/sonnet",
+      "startedAt": "2026-10-20T01:45:07-05:00",
+      "updatedAt": "2026-10-20T01:45:41-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "art-director",
+      "task": "pick",
+      "status": "done",
+      "model": "anthropic/opus",
+      "startedAt": "2026-10-20T01:45:45-05:00",
+      "updatedAt": "2026-10-20T01:46:09-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 1",
+      "status": "done",
+      "model": "anthropic/haiku",
+      "startedAt": "2026-10-20T01:46:09-05:00",
+      "updatedAt": "2026-10-20T01:46:53-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 2",
+      "status": "done",
+      "model": "anthropic/haiku",
+      "startedAt": "2026-10-20T01:46:55-05:00",
+      "updatedAt": "2026-10-20T01:47:06-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 3",
+      "status": "done",
+      "model": "anthropic/haiku",
+      "startedAt": "2026-10-20T01:47:08-05:00",
+      "updatedAt": "2026-10-20T01:47:21-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "creative-director",
+      "task": "sign-off round 3",
+      "status": "done",
+      "model": "anthropic/opus",
+      "startedAt": "2026-10-20T01:47:23-05:00",
+      "updatedAt": "2026-10-20T01:48:32-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 4",
+      "status": "done",
+      "model": "anthropic/haiku",
+      "startedAt": "2026-10-20T01:48:32-05:00",
+      "updatedAt": "2026-10-20T01:49:06-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 5",
+      "status": "done",
+      "model": "anthropic/haiku",
+      "startedAt": "2026-10-20T01:49:08-05:00",
+      "updatedAt": "2026-10-20T01:49:17-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "creative-director",
+      "task": "sign-off round 5",
+      "status": "done",
+      "model": "anthropic/opus",
+      "startedAt": "2026-10-20T01:49:19-05:00",
+      "updatedAt": "2026-10-20T01:49:55-05:00",
+      "via": "cli"
+    }
+  ],
+  "pick": {
+    "by": "art-director",
+    "rough": 3,
+    "pattern": "Type only",
+    "combineWith": null,
+    "reason": "Rough 3 lets the headline do all the work, with the accent once on \"Free.\" and a left column at both sizes. It is the closest to the brand's quiet, literary voice and needs the fewest notes.",
+    "lost": "1 sets the headline in four lines on linkedin (the limit is three), and its three empty boxes read as placeholder UI, which the brand bans. 2 splits into two tones for no reason and leaves a dead dark band across the bottom 30% of ig-post.",
+    "notes": [
+      "ig-post: set the supporting line from 54px to 40px so it fits on one line. Right now \"matters.\" is left alone on the second line. Keep three sizes on the brand scale: headline 127, supporting 40, mark 23.",
+      "ig-post: move the bottom group (rule, supporting line, mark) up so the rule sits at y=808, not 952. Gaps: 40px from the rule to the supporting line, 32px from the supporting line to the mark. This cuts the empty band under \"Always.\" to about 270px, under a fifth of the canvas. The standard rule is \"owns the whole canvas: the bottom group rises to meet the headline\".",
+      "Headline at both sizes: line height 1.05, letter-spacing -0.015em. The standard asks for 1.0 to 1.1 and -0.02 to -0.01em above 40px.",
+      "linkedin: add the same 1px rule in muted #8b8d99 from the left margin to x=640, 40px above the supporting line. The two sizes then share one DOM and one rhythm. Leave the headline at 95px.",
+      "Both sizes: mark \"quill.app\" at 23px in muted #8b8d99, bottom left. Its baseline sits at the safe-zone line: 38px from the bottom on linkedin and 135px from the bottom on ig-post."
+    ],
+    "at": "2026-10-20T01:46:09-05:00"
+  },
+  "proof": [
+    {
+      "round": 1,
+      "pass": false,
+      "failures": 2
+    },
+    {
+      "round": 2,
+      "pass": false,
+      "failures": 1
+    },
+    {
+      "round": 3,
+      "pass": true,
+      "failures": 0
+    },
+    {
+      "round": 4,
+      "pass": false,
+      "failures": 2
+    },
+    {
+      "round": 5,
+      "pass": true,
+      "failures": 0
+    }
+  ],
+  "scores": [
+    {
+      "round": 3,
+      "by": "creative-director",
+      "axes": {
+        "hierarchy": 9,
+        "typography": 9,
+        "spacing": 8,
+        "colour": 9,
+        "composition": 8,
+        "originality": 7,
+        "brand": 9,
+        "copy": 9
+      },
+      "average": 8.5,
+      "pass": false,
+      "notes": [
+        "originality: linkedin, the right 45% of the card is unused space and the left stack is the stock type-only layout. Take the rule out of the linkedin layout. Move \"Pay when the fourth one matters.\" into the right column at 40px/400 #ededf0, line height 1.35, broken after \"fourth\" (two lines). Set its left edge at x=704 and put the last line's baseline on the \"Always.\" baseline, so the payoff answers the headline across the card. The mark stays bottom left at 23px muted, baseline 38px from the bottom.",
+        "composition: ig-post, the 390px under \"quill.app\" is leftover space. Move the mark down to the bottom-left safe line, baseline at y=1215. Keep the rule at y=808 and the supporting line 40px below it. The mark then holds the corner and no band is taller than about 300px.",
+        "spacing: ig-post, end the rule at x=832 (the right edge of \"drafts.\") instead of x=1008, so it matches the headline's width. Keep it 1px #8b8d99."
+      ],
+      "polish": [
+        "Both sizes: pull \"Always.\" left by about 4px so the overhang of the \"A\" lines up optically with the stems of \"T\" and \"F\"."
+      ]
+    },
+    {
+      "round": 5,
+      "by": "creative-director",
+      "axes": {
+        "hierarchy": 9,
+        "typography": 9,
+        "spacing": 8,
+        "colour": 9,
+        "composition": 8,
+        "originality": 8,
+        "brand": 9,
+        "copy": 9
+      },
+      "average": 8.63,
+      "pass": true,
+      "notes": [
+        "spacing: ig-post, the gap from \"Always.\" to the rule (about 290px) and the gap from the supporting line to \"quill.app\" (about 290px) are the same size, so two unrelated gaps look identical. Move the rule down from y=808 to y=864 and keep the supporting line 40px below it. That leaves about 344px under the headline and about 248px above the mark, so the bottom group reads as one unit and the headline band stays under a third of the canvas. Leave the mark's baseline at y=1215.",
+        "spacing: linkedin, the rule from note 4 is missing. Add a 1px rule in #8b8d99 from x=704 to x=1128, 40px above the cap height of \"Pay\", so it lines up with the supporting line's column. The left-margin rule to x=640 would cross the headline.",
+        "composition: ig-post, the supporting group floats in the middle of the canvas. With the move above it should sit in the bottom 40%, as the portrait pattern asks. Check that the rule's right end still lines up with the period of \"drafts.\" at x=832.",
+        "originality: keep the type-only restraint and make one move a template would not. On ig-post, run the rule from x=72 to the right edge at x=1080, full bleed on that side only, so it reads like a page edge. Keep it 1px in #8b8d99."
+      ],
+      "polish": [
+        "Both sizes: pull \"Three\" and \"Always.\" left by about 0.03em of the headline size (about 4px on ig-post, 3px on linkedin) so the T and A stems line up optically with the \"F\" of \"Free.\" and the left margin."
+      ]
+    }
+  ],
+  "waitingOn": null,
+  "cost": {
+    "director": 0.623,
+    "senior": 0.1609,
+    "builder": 0.0211,
+    "total": 0.805,
+    "complete": true
+  },
+  "tokens": {
+    "director": 171813,
+    "senior": 84943,
+    "builder": 103701
+  },
+  "files": {
+    "final": ".desk/out/20261020-0144-linkedin-instagram-portrait-saying/final.html",
+    "brief": ".desk/jobs/20261020-0144-linkedin-instagram-portrait-saying/brief.md",
+    "handback": ".desk/out/20261020-0144-linkedin-instagram-portrait-saying/handback.md"
+  },
+  "pen": "builder",
+  "notes": [
+    "proof safe-zone at linkedin: \"quill.app\" ends 30px from the bottom edge, the safe zone is 38px",
+    "proof safe-zone at ig-post: \"quill.app\" ends 127px from the bottom edge, the safe zone is 135px"
+  ],
+  "misses": {
+    "proof:safe-zone": 1
+  },
+  "startedAt": "2026-10-20T01:44:50-05:00",
+  "updatedAt": "2026-10-20T01:49:55-05:00",
+  "roughs": [
+    {
+      "n": 1,
+      "pattern": "Editorial split",
+      "file": ".desk/out/20261020-0144-linkedin-instagram-portrait-saying/rough-1.html",
+      "fonts": "Source Serif 4 (not a fallback; inlined by the runner)",
+      "written": true,
+      "renders": ".desk/jobs/20261020-0144-linkedin-instagram-portrait-saying/renders/roughs/rough-1"
+    },
+    {
+      "n": 2,
+      "pattern": "Full bleed with scrim",
+      "file": ".desk/out/20261020-0144-linkedin-instagram-portrait-saying/rough-2.html",
+      "fonts": "Source Serif 4, not a fallback (inlined by the runner)",
+      "written": true,
+      "renders": ".desk/jobs/20261020-0144-linkedin-instagram-portrait-saying/renders/roughs/rough-2"
+    },
+    {
+      "n": 3,
+      "pattern": "Type only",
+      "file": ".desk/out/20261020-0144-linkedin-instagram-portrait-saying/rough-3.html",
+      "fonts": "Source Serif 4, inlined by the runner, not a fallback",
+      "written": true,
+      "renders": ".desk/jobs/20261020-0144-linkedin-instagram-portrait-saying/renders/roughs/rough-3"
+    }
+  ],
+  "lastRenders": ".desk/jobs/20261020-0144-linkedin-instagram-portrait-saying/renders/round-5",
+  "penNotes": [],
+  "finishedAt": "2026-10-20T01:49:55-05:00"
+}

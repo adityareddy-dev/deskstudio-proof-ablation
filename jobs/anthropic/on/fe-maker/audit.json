@@ -1,0 +1,44 @@
+{
+ "pass": false,
+ "file": "final.html",
+ "renders": [
+  {
+   "size": "linkedin",
+   "scheme": "light",
+   "width": 1200,
+   "height": 627,
+   "png": "C:\\Users\\adity\\Desktop\\Adi\\deskstudio-research\\proof-ablation-2026-10-20\\jobs\\anthropic\\on\\fe-maker\\.desk\\jobs\\20261020-0154-linkedin-instagram-portrait-customer\\renders\\audit\\linkedin.png",
+   "pass": false,
+   "failures": [
+    {
+     "check": "safe-zone",
+     "text": "A",
+     "reason": "68px from the left edge, the safe zone starts at 72px; 30px from the top edge, the safe zone starts at 38px"
+    },
+    {
+     "check": "safe-zone",
+     "text": "bike",
+     "reason": "30px from the top edge, the safe zone starts at 38px"
+    },
+    {
+     "check": "safe-zone",
+     "text": "crank,",
+     "reason": "30px from the top edge, the safe zone starts at 38px"
+    }
+   ]
+  },
+  {
+   "size": "ig-post",
+   "scheme": "light",
+   "width": 1080,
+   "height": 1350,
+   "png": "C:\\Users\\adity\\Desktop\\Adi\\deskstudio-research\\proof-ablation-2026-10-20\\jobs\\anthropic\\on\\fe-maker\\.desk\\jobs\\20261020-0154-linkedin-instagram-portrait-customer\\renders\\audit\\ig-post.png",
+   "pass": true,
+   "failures": []
+  }
+ ],
+ "screenshots": [
+  "C:\\Users\\adity\\Desktop\\Adi\\deskstudio-research\\proof-ablation-2026-10-20\\jobs\\anthropic\\on\\fe-maker\\.desk\\jobs\\20261020-0154-linkedin-instagram-portrait-customer\\renders\\audit\\linkedin.png",
+  "C:\\Users\\adity\\Desktop\\Adi\\deskstudio-research\\proof-ablation-2026-10-20\\jobs\\anthropic\\on\\fe-maker\\.desk\\jobs\\20261020-0154-linkedin-instagram-portrait-customer\\renders\\audit\\ig-post.png"
+ ]
+}

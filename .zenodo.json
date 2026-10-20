@@ -1,0 +1,9 @@
+{
+  "title": "Study record: a paired ablation of the mechanical proof step in Desk Studio's design pipeline (October 2026)",
+  "upload_type": "dataset",
+  "description": "Every per-job record of a preregistered ablation that removed the mechanical proof step (overflow, safe zone, contrast on real pixels, type scale, palette, required copy) from Desk Studio's model-run design loop: 15 cases, two arms (proof on, proof off), two model families (Anthropic: claude-opus-5-5 director, claude-sonnet-5-5 senior, claude-haiku-5-5 builder; OpenAI: gpt-6-astra director, gpt-6.1-sol senior and builder), 60 jobs in 30 pairs. For each job: manifest, run log, hidden audit of the signed-off file, offline recheck of every round, brief, full state with every sign-off's scores and notes, the signed-off final.html, the handback and the round renders. Also the case file, the batch runner, the recheck and analysis scripts, the results output, the two-reader coding of all 754 Creative Director notes with the adjudicated final codes, the figures, and the design note written before any job finished with its dated change. Three nano-builder jobs set aside before analysis are included under their own folder.",
+  "creators": [{"name": "Reddy, Aditya"}],
+  "license": "CC-BY-4.0",
+  "keywords": ["design automation", "LLM agents", "vision-language judge", "ablation", "layout checking", "Desk Studio"],
+  "related_identifiers": [{"identifier": "https://github.com/adityareddy-dev/deskstudio", "relation": "isSupplementTo", "resource_type": "software"}]
+}

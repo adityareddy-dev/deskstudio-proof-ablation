@@ -1,0 +1,125 @@
+{
+  "width": 1080,
+  "height": 1350,
+  "scrollWidth": 1080,
+  "scrollHeight": 1350,
+  "boxes": [
+    {
+      "x": 72,
+      "y": 51,
+      "width": 689.375,
+      "height": 175,
+      "text": "Your drafts, on the",
+      "color": "rgb(237, 237, 240)",
+      "opacity": 1,
+      "fontSize": 127,
+      "fontWeight": 600,
+      "fontFamily": "\"Source Serif 4\", Georgia, \"Times New Roman\", serif",
+      "clips": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1350,
+          "clipX": true,
+          "clipY": true
+        }
+      ]
+    },
+    {
+      "x": 72,
+      "y": 184.34375,
+      "width": 396.328125,
+      "height": 175,
+      "text": "Your drafts, on the",
+      "color": "rgb(237, 237, 240)",
+      "opacity": 1,
+      "fontSize": 127,
+      "fontWeight": 600,
+      "fontFamily": "\"Source Serif 4\", Georgia, \"Times New Roman\", serif",
+      "clips": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1350,
+          "clipX": true,
+          "clipY": true
+        }
+      ]
+    },
+    {
+      "x": 468.328125,
+      "y": 184.34375,
+      "width": 325.046875,
+      "height": 175,
+      "text": "train.",
+      "color": "rgb(124, 156, 255)",
+      "opacity": 1,
+      "fontSize": 127,
+      "fontWeight": 600,
+      "fontFamily": "\"Source Serif 4\", Georgia, \"Times New Roman\", serif",
+      "clips": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1350,
+          "clipX": true,
+          "clipY": true
+        }
+      ]
+    },
+    {
+      "x": 72,
+      "y": 370.6875,
+      "width": 384.96875,
+      "height": 54,
+      "text": "Now on your phone.",
+      "color": "rgb(237, 237, 240)",
+      "opacity": 1,
+      "fontSize": 40,
+      "fontWeight": 400,
+      "fontFamily": "\"Source Serif 4\", Georgia, \"Times New Roman\", serif",
+      "clips": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1350,
+          "clipX": true,
+          "clipY": true
+        }
+      ]
+    },
+    {
+      "x": 864.40625,
+      "y": 1164.5,
+      "width": 127.59375,
+      "height": 41,
+      "text": "quill.app",
+      "color": "rgb(139, 141, 153)",
+      "opacity": 1,
+      "fontSize": 30,
+      "fontWeight": 400,
+      "fontFamily": "\"Source Serif 4\", Georgia, \"Times New Roman\", serif",
+      "clips": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1350,
+          "clipX": true,
+          "clipY": true
+        }
+      ]
+    }
+  ],
+  "fonts": {
+    "Source Serif 4": true,
+    "Georgia": true,
+    "Times New Roman": true,
+    "serif": true
+  },
+  "images": 0
+}

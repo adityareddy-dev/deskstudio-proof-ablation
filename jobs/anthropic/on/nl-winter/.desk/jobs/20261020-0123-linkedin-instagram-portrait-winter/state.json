@@ -1,0 +1,230 @@
+{
+  "id": "20261020-0123-linkedin-instagram-portrait-winter",
+  "command": "design",
+  "deliverable": "social-card",
+  "sizes": [
+    "linkedin",
+    "ig-post"
+  ],
+  "quality": "studio",
+  "proofMode": "on",
+  "models": {
+    "director": "anthropic/opus",
+    "senior": "anthropic/sonnet",
+    "builder": "anthropic/haiku"
+  },
+  "phase": "done",
+  "round": 4,
+  "maxRounds": 6,
+  "desks": [
+    {
+      "desk": "design-manager",
+      "task": "intake",
+      "status": "done",
+      "model": "anthropic/opus",
+      "startedAt": "2026-10-20T01:23:00-05:00",
+      "updatedAt": "2026-10-20T01:23:15-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "rough 1, editorial split",
+      "status": "done",
+      "model": "anthropic/sonnet",
+      "startedAt": "2026-10-20T01:23:15-05:00",
+      "updatedAt": "2026-10-20T01:23:47-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "rough 2, full bleed with scrim",
+      "status": "done",
+      "model": "anthropic/sonnet",
+      "startedAt": "2026-10-20T01:23:15-05:00",
+      "updatedAt": "2026-10-20T01:23:38-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "rough 3, type only",
+      "status": "done",
+      "model": "anthropic/sonnet",
+      "startedAt": "2026-10-20T01:23:15-05:00",
+      "updatedAt": "2026-10-20T01:23:36-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "art-director",
+      "task": "pick",
+      "status": "done",
+      "model": "anthropic/opus",
+      "startedAt": "2026-10-20T01:23:52-05:00",
+      "updatedAt": "2026-10-20T01:24:26-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 1",
+      "status": "done",
+      "model": "anthropic/haiku",
+      "startedAt": "2026-10-20T01:24:27-05:00",
+      "updatedAt": "2026-10-20T01:24:52-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 2",
+      "status": "done",
+      "model": "anthropic/haiku",
+      "startedAt": "2026-10-20T01:24:53-05:00",
+      "updatedAt": "2026-10-20T01:25:14-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 3",
+      "status": "done",
+      "model": "anthropic/haiku",
+      "startedAt": "2026-10-20T01:25:16-05:00",
+      "updatedAt": "2026-10-20T01:25:32-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 4, escalated",
+      "status": "done",
+      "model": "anthropic/sonnet",
+      "startedAt": "2026-10-20T01:25:34-05:00",
+      "updatedAt": "2026-10-20T01:25:49-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "creative-director",
+      "task": "sign-off round 4",
+      "status": "done",
+      "model": "anthropic/opus",
+      "startedAt": "2026-10-20T01:25:51-05:00",
+      "updatedAt": "2026-10-20T01:26:25-05:00",
+      "via": "cli"
+    }
+  ],
+  "pick": {
+    "by": "art-director",
+    "rough": 1,
+    "pattern": "Editorial split",
+    "combineWith": 3,
+    "reason": "The panel grid gives the card a shape only a solar brand would have and fills both canvases. It needs the accent moved off a decorative tile and onto the claim, which rough 3 already does.",
+    "lost": "2 the dark ground breaks the brand's warm paper background, the orange wedge says nothing, and the type sits in a box inside a box; 3 reads fastest but is generic, has nothing that says solar, and leaves a ~400px leftover band on portrait",
+    "notes": [
+      "Accent off the grid and onto the word \"pays.\" in the headline, both sizes. All twelve tiles go back to background #f7f5f0 on the surface #ebe8e0 frame. Standard: the accent appears once, on the one thing to look at.",
+      "linkedin: headline from ~76px to 95px (brand scale), line height 1.0, tracking -0.02em, still two lines (\"January still / pays.\"), so the left column carries its half.",
+      "ig-post: space between the headline and the supporting line from ~16px to 40px. Supporting line to grid stays 64px.",
+      "ig-post: grid height from 524px to 496px (each row 8px shorter) so the mark's bottom sits above y 1215. Standard: 10% bottom safe zone on portrait.",
+      "linkedin: space between the headline and the supporting line from ~24px to 32px, a multiple of the 8px unit."
+    ],
+    "at": "2026-10-20T01:24:26-05:00"
+  },
+  "proof": [
+    {
+      "round": 1,
+      "pass": false,
+      "failures": 9
+    },
+    {
+      "round": 2,
+      "pass": false,
+      "failures": 1
+    },
+    {
+      "round": 3,
+      "pass": false,
+      "failures": 1
+    },
+    {
+      "round": 4,
+      "pass": true,
+      "failures": 0
+    }
+  ],
+  "scores": [
+    {
+      "round": 4,
+      "by": "creative-director",
+      "axes": {
+        "hierarchy": 9,
+        "typography": 9,
+        "spacing": 8,
+        "colour": 8,
+        "composition": 8,
+        "originality": 8,
+        "brand": 9,
+        "copy": 9
+      },
+      "average": 8.5,
+      "pass": true,
+      "notes": [
+        "spacing: ig-post, the gap from the supporting line to the grid measures about 48px on screen. Set it to 64px as the AD asked, and take the 16px from the grid height (496 to 480) so the mark still sits above y 1215. linkedin, put the mark's baseline on the grid's bottom edge at y 579.",
+        "colour: the tiles show at about 1.1:1 against their frame and read as empty image boxes at low brightness. Change the frame and gutter colour from surface #ebe8e0 to muted #6b6a66 at 30% over #f7f5f0. Tiles stay #f7f5f0. This is a tint of the palette, not a new hue.",
+        "composition: ig-post, remove the 16px outer frame band so the 4x3 tiles sit straight on the paper with 8px gutters. That fixes the box inside a box, and the grid's left and right edges line up with the text column at x 72 and x 1008.",
+        "originality: the twelve tiles read as a blank panel grid. Make the tile proportions panel-like on both sizes (portrait tiles about 1:1.5 on linkedin as now, and portrait tiles on ig-post as well, 6 columns x 2 rows instead of landscape 4x3) so the panel reading is unmistakable."
+      ],
+      "polish": [
+        "Twelve tiles can also read as twelve months. Give the first tile a 2px #161614 inner rule so \"January\" lands on the grid without a second accent."
+      ]
+    }
+  ],
+  "waitingOn": null,
+  "cost": {
+    "director": 0.6264,
+    "senior": 0.2296,
+    "builder": 0.0135,
+    "total": 0.8695,
+    "complete": true
+  },
+  "tokens": {
+    "director": 96120,
+    "senior": 68815,
+    "builder": 101710
+  },
+  "files": {
+    "final": ".desk/out/20261020-0123-linkedin-instagram-portrait-winter/final.html",
+    "brief": ".desk/jobs/20261020-0123-linkedin-instagram-portrait-winter/brief.md",
+    "handback": ".desk/out/20261020-0123-linkedin-instagram-portrait-winter/handback.md"
+  },
+  "pen": "senior",
+  "notes": [
+    "proof safe-zone at ig-post: \"January\" 80px from the top edge, the safe zone starts at 81px"
+  ],
+  "misses": {},
+  "startedAt": "2026-10-20T01:23:00-05:00",
+  "updatedAt": "2026-10-20T01:26:25-05:00",
+  "roughs": [
+    {
+      "n": 1,
+      "pattern": "Editorial split",
+      "file": ".desk/out/20261020-0123-linkedin-instagram-portrait-winter/rough-1.html",
+      "fonts": "Inter, inlined by the runner, not a fallback",
+      "written": true,
+      "renders": ".desk/jobs/20261020-0123-linkedin-instagram-portrait-winter/renders/roughs/rough-1"
+    },
+    {
+      "n": 2,
+      "pattern": "Full bleed with scrim",
+      "file": ".desk/out/20261020-0123-linkedin-instagram-portrait-winter/rough-2.html",
+      "fonts": "Inter, inlined by the runner, not a fallback",
+      "written": true,
+      "renders": ".desk/jobs/20261020-0123-linkedin-instagram-portrait-winter/renders/roughs/rough-2"
+    },
+    {
+      "n": 3,
+      "pattern": "Type only",
+      "file": ".desk/out/20261020-0123-linkedin-instagram-portrait-winter/rough-3.html",
+      "fonts": "Inter, inlined by the runner, not a fallback",
+      "written": true,
+      "renders": ".desk/jobs/20261020-0123-linkedin-instagram-portrait-winter/renders/roughs/rough-3"
+    }
+  ],
+  "lastRenders": ".desk/jobs/20261020-0123-linkedin-instagram-portrait-winter/renders/round-4",
+  "penNotes": [],
+  "finishedAt": "2026-10-20T01:26:25-05:00"
+}

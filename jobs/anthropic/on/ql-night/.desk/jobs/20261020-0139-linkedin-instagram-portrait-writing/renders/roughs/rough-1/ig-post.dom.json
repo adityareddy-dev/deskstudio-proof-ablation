@@ -1,0 +1,147 @@
+{
+  "width": 1080,
+  "height": 1350,
+  "scrollWidth": 1080,
+  "scrollHeight": 1350,
+  "boxes": [
+    {
+      "x": 64,
+      "y": 48,
+      "width": 417.59375,
+      "height": 130,
+      "text": "The page",
+      "color": "rgb(237, 237, 240)",
+      "opacity": 1,
+      "fontSize": 95,
+      "fontWeight": 600,
+      "fontFamily": "\"Source Serif 4\", Georgia, \"Times New Roman\", serif",
+      "clips": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1350,
+          "clipX": true,
+          "clipY": true
+        }
+      ]
+    },
+    {
+      "x": 481.59375,
+      "y": 48,
+      "width": 220.125,
+      "height": 130,
+      "text": "dims",
+      "color": "rgb(124, 156, 255)",
+      "opacity": 1,
+      "fontSize": 95,
+      "fontWeight": 600,
+      "fontFamily": "\"Source Serif 4\", Georgia, \"Times New Roman\", serif",
+      "clips": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1350,
+          "clipX": true,
+          "clipY": true
+        }
+      ]
+    },
+    {
+      "x": 701.71875,
+      "y": 48,
+      "width": 221.890625,
+      "height": 130,
+      "text": "with the room.",
+      "color": "rgb(237, 237, 240)",
+      "opacity": 1,
+      "fontSize": 95,
+      "fontWeight": 600,
+      "fontFamily": "\"Source Serif 4\", Georgia, \"Times New Roman\", serif",
+      "clips": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1350,
+          "clipX": true,
+          "clipY": true
+        }
+      ]
+    },
+    {
+      "x": 64,
+      "y": 147.75,
+      "width": 429.75,
+      "height": 130,
+      "text": "with the room.",
+      "color": "rgb(237, 237, 240)",
+      "opacity": 1,
+      "fontSize": 95,
+      "fontWeight": 600,
+      "fontFamily": "\"Source Serif 4\", Georgia, \"Times New Roman\", serif",
+      "clips": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1350,
+          "clipX": true,
+          "clipY": true
+        }
+      ]
+    },
+    {
+      "x": 64,
+      "y": 294.5,
+      "width": 401.4375,
+      "height": 41,
+      "text": "Night mode is on by default.",
+      "color": "rgb(237, 237, 240)",
+      "opacity": 1,
+      "fontSize": 30,
+      "fontWeight": 400,
+      "fontFamily": "\"Source Serif 4\", Georgia, \"Times New Roman\", serif",
+      "clips": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1350,
+          "clipX": true,
+          "clipY": true
+        }
+      ]
+    },
+    {
+      "x": 64,
+      "y": 728.609375,
+      "width": 102.078125,
+      "height": 33,
+      "text": "quill.app",
+      "color": "rgb(139, 141, 153)",
+      "opacity": 1,
+      "fontSize": 24,
+      "fontWeight": 400,
+      "fontFamily": "\"Source Serif 4\", Georgia, \"Times New Roman\", serif",
+      "clips": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1350,
+          "clipX": true,
+          "clipY": true
+        }
+      ]
+    }
+  ],
+  "fonts": {
+    "Source Serif 4": true,
+    "Georgia": true,
+    "Times New Roman": true,
+    "serif": true
+  },
+  "images": 0
+}

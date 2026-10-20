@@ -1,0 +1,92 @@
+{
+  "width": 1200,
+  "height": 627,
+  "scrollWidth": 1200,
+  "scrollHeight": 627,
+  "boxes": [
+    {
+      "x": 80,
+      "y": 38,
+      "width": 202.59375,
+      "height": 115,
+      "text": "Now",
+      "color": "rgb(22, 22, 20)",
+      "opacity": 1,
+      "fontSize": 95,
+      "fontWeight": 600,
+      "fontFamily": "Inter, Arial, sans-serif",
+      "clips": []
+    },
+    {
+      "x": 304.640625,
+      "y": 38,
+      "width": 396.859375,
+      "height": 115,
+      "text": "installing",
+      "color": "rgb(217, 72, 15)",
+      "opacity": 1,
+      "fontSize": 95,
+      "fontWeight": 600,
+      "fontFamily": "Inter, Arial, sans-serif",
+      "clips": []
+    },
+    {
+      "x": 701.5,
+      "y": 38,
+      "width": 101.234375,
+      "height": 115,
+      "text": "in",
+      "color": "rgb(22, 22, 20)",
+      "opacity": 1,
+      "fontSize": 95,
+      "fontWeight": 600,
+      "fontFamily": "Inter, Arial, sans-serif",
+      "clips": []
+    },
+    {
+      "x": 80,
+      "y": 133,
+      "width": 566.921875,
+      "height": 115,
+      "text": "Minneapolis.",
+      "color": "rgb(22, 22, 20)",
+      "opacity": 1,
+      "fontSize": 95,
+      "fontWeight": 600,
+      "fontFamily": "Inter, Arial, sans-serif",
+      "clips": []
+    },
+    {
+      "x": 80,
+      "y": 280,
+      "width": 482.421875,
+      "height": 37,
+      "text": "Same panels. Same seven years.",
+      "color": "rgb(22, 22, 20)",
+      "opacity": 1,
+      "fontSize": 31,
+      "fontWeight": 400,
+      "fontFamily": "Inter, Arial, sans-serif",
+      "clips": []
+    },
+    {
+      "x": 80,
+      "y": 546.25,
+      "width": 202.4375,
+      "height": 30,
+      "text": "northlight.energy",
+      "color": "rgb(22, 22, 20)",
+      "opacity": 1,
+      "fontSize": 25,
+      "fontWeight": 400,
+      "fontFamily": "Inter, Arial, sans-serif",
+      "clips": []
+    }
+  ],
+  "fonts": {
+    "Inter": true,
+    "Arial": true,
+    "sans-serif": true
+  },
+  "images": 0
+}

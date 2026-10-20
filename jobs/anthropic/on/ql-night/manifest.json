@@ -1,0 +1,25 @@
+{
+ "family": "anthropic",
+ "arm": "on",
+ "case": "ql-night",
+ "brand": "quill",
+ "ask": "a LinkedIn card and an Instagram portrait card about writing at night, the screen dims with the room. Copy that must appear: 'The page dims with the room.' and 'Night mode is on by default.' and 'quill.app'.",
+ "models": "studio preset",
+ "startedAt": "2026-10-20T06:39:05.025Z",
+ "attempts": [
+  {
+   "code": 0,
+   "seconds": 185
+  }
+ ],
+ "exit": 0,
+ "seconds": 185,
+ "jobId": "20261020-0139-linkedin-instagram-portrait-writing",
+ "phase": "done",
+ "done": true,
+ "finishedAt": "2026-10-20T06:42:10.085Z",
+ "audit": {
+  "pass": true,
+  "failures": 0
+ }
+}

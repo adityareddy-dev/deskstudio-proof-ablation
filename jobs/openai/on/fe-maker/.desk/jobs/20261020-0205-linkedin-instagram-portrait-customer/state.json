@@ -1,0 +1,245 @@
+{
+  "id": "20261020-0205-linkedin-instagram-portrait-customer",
+  "command": "design",
+  "deliverable": "social-card",
+  "sizes": [
+    "linkedin",
+    "ig-post"
+  ],
+  "quality": "studio",
+  "proofMode": "on",
+  "models": {
+    "director": "openai/large",
+    "senior": "openai/mini",
+    "builder": "openai/mini"
+  },
+  "phase": "done",
+  "round": 3,
+  "maxRounds": 6,
+  "desks": [
+    {
+      "desk": "design-manager",
+      "task": "intake",
+      "status": "done",
+      "model": "openai/large",
+      "startedAt": "2026-10-20T02:05:31-05:00",
+      "updatedAt": "2026-10-20T02:05:49-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "rough 1, editorial split",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T02:05:49-05:00",
+      "updatedAt": "2026-10-20T02:06:48-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "rough 2, full bleed with scrim",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T02:05:49-05:00",
+      "updatedAt": "2026-10-20T02:06:38-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "rough 3, type only",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T02:05:50-05:00",
+      "updatedAt": "2026-10-20T02:06:42-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "art-director",
+      "task": "pick",
+      "status": "done",
+      "model": "openai/large",
+      "startedAt": "2026-10-20T02:06:53-05:00",
+      "updatedAt": "2026-10-20T02:07:34-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 1",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T02:07:34-05:00",
+      "updatedAt": "2026-10-20T02:07:56-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 2",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T02:07:58-05:00",
+      "updatedAt": "2026-10-20T02:08:17-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "creative-director",
+      "task": "sign-off round 2",
+      "status": "done",
+      "model": "openai/large",
+      "startedAt": "2026-10-20T02:08:18-05:00",
+      "updatedAt": "2026-10-20T02:08:49-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 3",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T02:08:49-05:00",
+      "updatedAt": "2026-10-20T02:09:15-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "creative-director",
+      "task": "sign-off round 3",
+      "status": "done",
+      "model": "openai/large",
+      "startedAt": "2026-10-20T02:09:16-05:00",
+      "updatedAt": "2026-10-20T02:09:43-05:00",
+      "via": "cli"
+    }
+  ],
+  "pick": {
+    "by": "art-director",
+    "rough": 3,
+    "pattern": "Type only",
+    "combineWith": null,
+    "reason": "The headline reads fastest in both formats and makes the customer’s claim carry the card without an unconvincing product illustration.",
+    "lost": "1 The generic crank icon weakens the specific customer story, 2 The landscape crop overwhelms the composition and obscures the wordmark.",
+    "notes": [
+      "On portrait, move the supporting-copy block to y=744px, retaining its current two-line break and left alignment. This balances the space above and below it under the standard’s “owns the whole canvas” rule.",
+      "Inline one available brand font for both formats: Geist first, Inter second, Arial fallback; use weights 700 and 400 as required by the brief."
+    ],
+    "at": "2026-10-20T02:07:34-05:00"
+  },
+  "proof": [
+    {
+      "round": 1,
+      "pass": false,
+      "failures": 2
+    },
+    {
+      "round": 2,
+      "pass": true,
+      "failures": 0
+    },
+    {
+      "round": 3,
+      "pass": true,
+      "failures": 0
+    }
+  ],
+  "scores": [
+    {
+      "round": 2,
+      "by": "creative-director",
+      "axes": {
+        "hierarchy": 9,
+        "typography": 9,
+        "spacing": 9,
+        "colour": 10,
+        "composition": 8,
+        "originality": 6,
+        "brand": 9,
+        "copy": 9
+      },
+      "average": 8.63,
+      "pass": false,
+      "notes": [
+        "composition: On LinkedIn, extend the headline’s shape into the unused right third: right-align the final “bedroom.” line to x=1120px, retaining its current baseline.",
+        "originality: Give the type-only treatment one deliberate spatial move across both formats: offset “bedroom.” to end at x=1008px on portrait, matching the landscape treatment. Keep the first two lines and supporting copy left-aligned; retain 700 weight and the portrait supporting block at y=744px."
+      ],
+      "polish": [
+        "Keep the palette black and white; this story needs no red accent."
+      ]
+    },
+    {
+      "round": 3,
+      "by": "creative-director",
+      "axes": {
+        "hierarchy": 9,
+        "typography": 9,
+        "spacing": 9,
+        "colour": 9,
+        "composition": 9,
+        "originality": 8,
+        "brand": 9,
+        "copy": 9
+      },
+      "average": 8.88,
+      "pass": true,
+      "notes": [
+        "originality: Shift “from a spare” 24px right in both formats to strengthen the stepped headline; retain the current “bedroom.” position and all three line breaks."
+      ],
+      "polish": [
+        "None."
+      ]
+    }
+  ],
+  "waitingOn": null,
+  "cost": {
+    "director": 0.605,
+    "senior": 0.1301,
+    "builder": 0.1352,
+    "total": 0.8703,
+    "complete": true
+  },
+  "tokens": {
+    "director": 139148,
+    "senior": 165230,
+    "builder": 181436
+  },
+  "files": {
+    "final": ".desk/out/20261020-0205-linkedin-instagram-portrait-customer/final.html",
+    "brief": ".desk/jobs/20261020-0205-linkedin-instagram-portrait-customer/brief.md",
+    "handback": ".desk/out/20261020-0205-linkedin-instagram-portrait-customer/handback.md"
+  },
+  "pen": "builder",
+  "notes": [
+    "composition: On LinkedIn, extend the headline’s shape into the unused right third: right-align the final “bedroom.” line to x=1120px, retaining its current baseline.",
+    "originality: Give the type-only treatment one deliberate spatial move across both formats: offset “bedroom.” to end at x=1008px on portrait, matching the landscape treatment. Keep the first two lines and supporting copy left-aligned; retain 700 weight and the portrait supporting block at y=744px."
+  ],
+  "misses": {
+    "originality": 1
+  },
+  "startedAt": "2026-10-20T02:05:31-05:00",
+  "updatedAt": "2026-10-20T02:09:43-05:00",
+  "roughs": [
+    {
+      "n": 1,
+      "pattern": "Editorial split",
+      "file": ".desk/out/20261020-0205-linkedin-instagram-portrait-customer/rough-1.html",
+      "fonts": "Geist, supplied inline by runner; no fallback selected",
+      "written": true,
+      "renders": ".desk/jobs/20261020-0205-linkedin-instagram-portrait-customer/renders/roughs/rough-1"
+    },
+    {
+      "n": 2,
+      "pattern": "Full bleed with scrim",
+      "file": ".desk/out/20261020-0205-linkedin-instagram-portrait-customer/rough-2.html",
+      "fonts": "Geist, runner-inlined; no fallback selected",
+      "written": true,
+      "renders": ".desk/jobs/20261020-0205-linkedin-instagram-portrait-customer/renders/roughs/rough-2"
+    },
+    {
+      "n": 3,
+      "pattern": "Type only",
+      "file": ".desk/out/20261020-0205-linkedin-instagram-portrait-customer/rough-3.html",
+      "fonts": "Geist; runner-inlined",
+      "written": true,
+      "renders": ".desk/jobs/20261020-0205-linkedin-instagram-portrait-customer/renders/roughs/rough-3"
+    }
+  ],
+  "lastRenders": ".desk/jobs/20261020-0205-linkedin-instagram-portrait-customer/renders/round-3",
+  "penNotes": [],
+  "finishedAt": "2026-10-20T02:09:43-05:00"
+}

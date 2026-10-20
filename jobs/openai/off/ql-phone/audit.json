@@ -1,0 +1,65 @@
+{
+ "pass": false,
+ "file": "final.html",
+ "renders": [
+  {
+   "size": "linkedin",
+   "scheme": "light",
+   "width": 1200,
+   "height": 627,
+   "png": "C:\\Users\\adity\\Desktop\\Adi\\deskstudio-research\\proof-ablation-2026-10-20\\jobs\\openai\\off\\ql-phone\\.desk\\jobs\\20261020-0154-linkedin-instagram-portrait-phone\\renders\\audit\\linkedin.png",
+   "pass": false,
+   "failures": [
+    {
+     "check": "contrast",
+     "text": "Your",
+     "reason": "2.2:1 at its worst against the pixels behind it, needs 3:1 at 127px weight 600"
+    },
+    {
+     "check": "contrast",
+     "text": "drafts",
+     "reason": "2.2:1 at its worst against the pixels behind it, needs 3:1 at 127px weight 600"
+    }
+   ]
+  },
+  {
+   "size": "ig-post",
+   "scheme": "light",
+   "width": 1080,
+   "height": 1350,
+   "png": "C:\\Users\\adity\\Desktop\\Adi\\deskstudio-research\\proof-ablation-2026-10-20\\jobs\\openai\\off\\ql-phone\\.desk\\jobs\\20261020-0154-linkedin-instagram-portrait-phone\\renders\\audit\\ig-post.png",
+   "pass": false,
+   "failures": [
+    {
+     "check": "safe-zone",
+     "text": "Your",
+     "reason": "68px from the top edge, the safe zone starts at 81px"
+    },
+    {
+     "check": "safe-zone",
+     "text": "drafts",
+     "reason": "68px from the top edge, the safe zone starts at 81px"
+    },
+    {
+     "check": "safe-zone",
+     "text": ",",
+     "reason": "68px from the top edge, the safe zone starts at 81px"
+    },
+    {
+     "check": "contrast",
+     "text": "Your",
+     "reason": "2.2:1 at its worst against the pixels behind it, needs 3:1 at 127px weight 600"
+    },
+    {
+     "check": "contrast",
+     "text": "drafts",
+     "reason": "2.2:1 at its worst against the pixels behind it, needs 3:1 at 127px weight 600"
+    }
+   ]
+  }
+ ],
+ "screenshots": [
+  "C:\\Users\\adity\\Desktop\\Adi\\deskstudio-research\\proof-ablation-2026-10-20\\jobs\\openai\\off\\ql-phone\\.desk\\jobs\\20261020-0154-linkedin-instagram-portrait-phone\\renders\\audit\\linkedin.png",
+  "C:\\Users\\adity\\Desktop\\Adi\\deskstudio-research\\proof-ablation-2026-10-20\\jobs\\openai\\off\\ql-phone\\.desk\\jobs\\20261020-0154-linkedin-instagram-portrait-phone\\renders\\audit\\ig-post.png"
+ ]
+}

@@ -1,0 +1,244 @@
+{
+ "family": "anthropic",
+ "arm": "off",
+ "case": "nl-battery",
+ "jobId": "20261020-0123-linkedin-instagram-portrait-new",
+ "rounds": [
+  {
+   "round": 1,
+   "sizes": [
+    {
+     "size": "ig-post",
+     "failures": [
+      {
+       "check": "safe-zone",
+       "text": "Seven years",
+       "reason": "64px from the left edge, the safe zone starts at 65px; 54px from the top edge, the safe zone starts at 81px"
+      },
+      {
+       "check": "safe-zone",
+       "text": "to break even.",
+       "reason": "64px from the left edge, the safe zone starts at 65px"
+      },
+      {
+       "check": "safe-zone",
+       "text": "Then free.",
+       "reason": "64px from the left edge, the safe zone starts at 65px"
+      },
+      {
+       "check": "safe-zone",
+       "text": "Battery now included.",
+       "reason": "64px from the left edge, the safe zone starts at 65px"
+      },
+      {
+       "check": "safe-zone",
+       "text": "northlight.energy",
+       "reason": "64px from the left edge, the safe zone starts at 65px"
+      }
+     ]
+    },
+    {
+     "size": "linkedin",
+     "failures": [
+      {
+       "check": "safe-zone",
+       "text": "Seven years",
+       "reason": "33px from the top edge, the safe zone starts at 38px"
+      },
+      {
+       "check": "safe-zone",
+       "text": "Battery now included.",
+       "reason": "ends 29px from the bottom edge, the safe zone is 38px"
+      },
+      {
+       "check": "safe-zone",
+       "text": "northlight.energy",
+       "reason": "ends 35px from the bottom edge, the safe zone is 38px"
+      }
+     ]
+    }
+   ],
+   "failures": 8,
+   "byCheck": {
+    "safe-zone": 8
+   }
+  },
+  {
+   "round": 2,
+   "sizes": [
+    {
+     "size": "ig-post",
+     "failures": [
+      {
+       "check": "safe-zone",
+       "text": "Seven years",
+       "reason": "64px from the left edge, the safe zone starts at 65px; 54px from the top edge, the safe zone starts at 81px"
+      },
+      {
+       "check": "safe-zone",
+       "text": "to break even.",
+       "reason": "64px from the left edge, the safe zone starts at 65px"
+      },
+      {
+       "check": "safe-zone",
+       "text": "Then free.",
+       "reason": "64px from the left edge, the safe zone starts at 65px"
+      },
+      {
+       "check": "safe-zone",
+       "text": "Battery now included.",
+       "reason": "64px from the left edge, the safe zone starts at 65px"
+      },
+      {
+       "check": "safe-zone",
+       "text": "northlight.energy",
+       "reason": "64px from the left edge, the safe zone starts at 65px"
+      }
+     ]
+    },
+    {
+     "size": "linkedin",
+     "failures": []
+    }
+   ],
+   "failures": 5,
+   "byCheck": {
+    "safe-zone": 5
+   }
+  },
+  {
+   "round": 3,
+   "sizes": [
+    {
+     "size": "ig-post",
+     "failures": [
+      {
+       "check": "safe-zone",
+       "text": "Seven years",
+       "reason": "64px from the left edge, the safe zone starts at 65px; 43px from the top edge, the safe zone starts at 81px"
+      },
+      {
+       "check": "safe-zone",
+       "text": "to break even.",
+       "reason": "64px from the left edge, the safe zone starts at 65px"
+      },
+      {
+       "check": "safe-zone",
+       "text": "Then free.",
+       "reason": "64px from the left edge, the safe zone starts at 65px"
+      },
+      {
+       "check": "safe-zone",
+       "text": "Battery now",
+       "reason": "64px from the left edge, the safe zone starts at 65px"
+      },
+      {
+       "check": "safe-zone",
+       "text": "northlight.energy",
+       "reason": "64px from the left edge, the safe zone starts at 65px"
+      }
+     ]
+    },
+    {
+     "size": "linkedin",
+     "failures": []
+    }
+   ],
+   "failures": 5,
+   "byCheck": {
+    "safe-zone": 5
+   }
+  },
+  {
+   "round": 4,
+   "sizes": [
+    {
+     "size": "ig-post",
+     "failures": [
+      {
+       "check": "safe-zone",
+       "text": "Seven years",
+       "reason": "43px from the top edge, the safe zone starts at 81px"
+      }
+     ]
+    },
+    {
+     "size": "linkedin",
+     "failures": [
+      {
+       "check": "safe-zone",
+       "text": "included.",
+       "reason": "ends 32px from the bottom edge, the safe zone is 38px"
+      },
+      {
+       "check": "safe-zone",
+       "text": "northlight.energy",
+       "reason": "ends 35px from the bottom edge, the safe zone is 38px"
+      }
+     ]
+    }
+   ],
+   "failures": 3,
+   "byCheck": {
+    "safe-zone": 3
+   }
+  },
+  {
+   "round": 5,
+   "sizes": [
+    {
+     "size": "ig-post",
+     "failures": [
+      {
+       "check": "safe-zone",
+       "text": "Seven years",
+       "reason": "43px from the top edge, the safe zone starts at 81px"
+      }
+     ]
+    },
+    {
+     "size": "linkedin",
+     "failures": [
+      {
+       "check": "safe-zone",
+       "text": "included.",
+       "reason": "ends 29px from the bottom edge, the safe zone is 38px"
+      },
+      {
+       "check": "safe-zone",
+       "text": "northlight.energy",
+       "reason": "ends 35px from the bottom edge, the safe zone is 38px"
+      }
+     ]
+    }
+   ],
+   "failures": 3,
+   "byCheck": {
+    "safe-zone": 3
+   }
+  },
+  {
+   "round": 6,
+   "sizes": [
+    {
+     "size": "ig-post",
+     "failures": [
+      {
+       "check": "safe-zone",
+       "text": "Seven years",
+       "reason": "43px from the top edge, the safe zone starts at 81px"
+      }
+     ]
+    },
+    {
+     "size": "linkedin",
+     "failures": []
+    }
+   ],
+   "failures": 1,
+   "byCheck": {
+    "safe-zone": 1
+   }
+  }
+ ]
+}

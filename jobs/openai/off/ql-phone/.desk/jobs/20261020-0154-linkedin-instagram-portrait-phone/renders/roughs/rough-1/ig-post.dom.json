@@ -1,0 +1,103 @@
+{
+  "width": 1080,
+  "height": 1350,
+  "scrollWidth": 1080,
+  "scrollHeight": 1350,
+  "boxes": [
+    {
+      "x": 80,
+      "y": 59,
+      "width": 689.375,
+      "height": 175,
+      "text": "Your drafts,",
+      "color": "rgb(237, 237, 240)",
+      "opacity": 1,
+      "fontSize": 127,
+      "fontWeight": 600,
+      "fontFamily": "\"Source Serif 4\", Georgia, \"Times New Roman\", serif",
+      "clips": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1350,
+          "clipX": true,
+          "clipY": true
+        }
+      ]
+    },
+    {
+      "x": 80,
+      "y": 192.34375,
+      "width": 721.375,
+      "height": 175,
+      "text": "on the train.",
+      "color": "rgb(237, 237, 240)",
+      "opacity": 1,
+      "fontSize": 127,
+      "fontWeight": 600,
+      "fontFamily": "\"Source Serif 4\", Georgia, \"Times New Roman\", serif",
+      "clips": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1350,
+          "clipX": true,
+          "clipY": true
+        }
+      ]
+    },
+    {
+      "x": 80,
+      "y": 393.6875,
+      "width": 519.703125,
+      "height": 74,
+      "text": "Now on your phone.",
+      "color": "rgb(237, 237, 240)",
+      "opacity": 1,
+      "fontSize": 54,
+      "fontWeight": 400,
+      "fontFamily": "\"Source Serif 4\", Georgia, \"Times New Roman\", serif",
+      "clips": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1350,
+          "clipX": true,
+          "clipY": true
+        }
+      ]
+    },
+    {
+      "x": 80,
+      "y": 1164.5,
+      "width": 127.59375,
+      "height": 41,
+      "text": "quill.app",
+      "color": "rgb(237, 237, 240)",
+      "opacity": 1,
+      "fontSize": 30,
+      "fontWeight": 400,
+      "fontFamily": "\"Source Serif 4\", Georgia, \"Times New Roman\", serif",
+      "clips": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1350,
+          "clipX": true,
+          "clipY": true
+        }
+      ]
+    }
+  ],
+  "fonts": {
+    "Source Serif 4": true,
+    "Georgia": true,
+    "Times New Roman": true,
+    "serif": true
+  },
+  "images": 0
+}

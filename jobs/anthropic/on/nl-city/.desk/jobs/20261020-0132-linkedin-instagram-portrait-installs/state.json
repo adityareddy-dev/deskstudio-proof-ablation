@@ -1,0 +1,266 @@
+{
+  "id": "20261020-0132-linkedin-instagram-portrait-installs",
+  "command": "design",
+  "deliverable": "social-card",
+  "sizes": [
+    "linkedin",
+    "ig-post"
+  ],
+  "quality": "studio",
+  "proofMode": "on",
+  "models": {
+    "director": "anthropic/opus",
+    "senior": "anthropic/sonnet",
+    "builder": "anthropic/haiku"
+  },
+  "phase": "done",
+  "round": 4,
+  "maxRounds": 6,
+  "desks": [
+    {
+      "desk": "design-manager",
+      "task": "intake",
+      "status": "done",
+      "model": "anthropic/opus",
+      "startedAt": "2026-10-20T01:32:08-05:00",
+      "updatedAt": "2026-10-20T01:32:22-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "rough 1, editorial split",
+      "status": "done",
+      "model": "anthropic/sonnet",
+      "startedAt": "2026-10-20T01:32:22-05:00",
+      "updatedAt": "2026-10-20T01:32:43-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "rough 2, full bleed with scrim",
+      "status": "done",
+      "model": "anthropic/sonnet",
+      "startedAt": "2026-10-20T01:32:22-05:00",
+      "updatedAt": "2026-10-20T01:32:57-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "rough 3, type only",
+      "status": "done",
+      "model": "anthropic/sonnet",
+      "startedAt": "2026-10-20T01:32:22-05:00",
+      "updatedAt": "2026-10-20T01:32:51-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "art-director",
+      "task": "pick",
+      "status": "done",
+      "model": "anthropic/opus",
+      "startedAt": "2026-10-20T01:33:01-05:00",
+      "updatedAt": "2026-10-20T01:33:28-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 1",
+      "status": "done",
+      "model": "anthropic/haiku",
+      "startedAt": "2026-10-20T01:33:29-05:00",
+      "updatedAt": "2026-10-20T01:33:51-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 2",
+      "status": "done",
+      "model": "anthropic/haiku",
+      "startedAt": "2026-10-20T01:33:53-05:00",
+      "updatedAt": "2026-10-20T01:34:15-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "creative-director",
+      "task": "sign-off round 2",
+      "status": "done",
+      "model": "anthropic/opus",
+      "startedAt": "2026-10-20T01:34:17-05:00",
+      "updatedAt": "2026-10-20T01:35:06-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 3",
+      "status": "done",
+      "model": "anthropic/haiku",
+      "startedAt": "2026-10-20T01:35:06-05:00",
+      "updatedAt": "2026-10-20T01:35:48-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 4",
+      "status": "done",
+      "model": "anthropic/haiku",
+      "startedAt": "2026-10-20T01:35:49-05:00",
+      "updatedAt": "2026-10-20T01:35:59-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "creative-director",
+      "task": "sign-off round 4",
+      "status": "done",
+      "model": "anthropic/opus",
+      "startedAt": "2026-10-20T01:36:01-05:00",
+      "updatedAt": "2026-10-20T01:36:47-05:00",
+      "via": "cli"
+    }
+  ],
+  "pick": {
+    "by": "art-director",
+    "rough": 3,
+    "pattern": "Type only",
+    "combineWith": null,
+    "reason": "Rough 3 reads in two seconds at both sizes: a big left-aligned headline, accent on \"Minneapolis\", warm paper only. It needs one composition fix, on ig-post.",
+    "lost": "1 the headline is undersized, the accent sits on body text, and ig-post leaves a ~550px dead band above the surface block. 2 the black half replaces the brand's paper ground, the linkedin right side is a near-empty void, and the supporting line wraps ragged (\"Same / seven years\").",
+    "notes": [
+      "ig-post only: supporting line from ~49px to 61px, line height 1.3. Wrap \"Same panels.\" and \"Same seven years.\" each in a span, `display:block` inside the ig-post query only, so the line stacks on two lines and the DOM stays the same at both sizes.",
+      "ig-post only: move the supporting block up so its top sits at y=760 (about 232px under the headline's last line). Standard: no empty band taller than a third of the canvas (450px). The gaps become ~230px above and ~260px below the block, which is shaped air, not leftover.",
+      "ig-post only: keep the mark bottom left at 25px muted, with its baseline at y=1215 (10% bottom safe zone). Keep the left edge at 72px, the same column as the headline and the supporting line.",
+      "Lock sizes to the brand scale, three per size. ig-post: 149 / 61 / 25. linkedin: 95 / 31 / 25. Headline line height 1.0, tracking -0.02em at both sizes. Do not change the linkedin layout."
+    ],
+    "at": "2026-10-20T01:33:28-05:00"
+  },
+  "proof": [
+    {
+      "round": 1,
+      "pass": false,
+      "failures": 2
+    },
+    {
+      "round": 2,
+      "pass": true,
+      "failures": 0
+    },
+    {
+      "round": 3,
+      "pass": false,
+      "failures": 2
+    },
+    {
+      "round": 4,
+      "pass": true,
+      "failures": 0
+    }
+  ],
+  "scores": [
+    {
+      "round": 2,
+      "by": "creative-director",
+      "axes": {
+        "hierarchy": 9,
+        "typography": 8,
+        "spacing": 8,
+        "colour": 9,
+        "composition": 7,
+        "originality": 7,
+        "brand": 9,
+        "copy": 9
+      },
+      "average": 8.25,
+      "pass": false,
+      "notes": [
+        "composition: linkedin only. The headline moves from 95px to 119px, line height 1.0, tracking -0.02em, still on 2 lines (\"Now installing in\" / \"Minneapolis.\"). Line 1 then spans about 906px of the 1056px measure. The cap top stays at y=40. Keep the supporting line at 31px with its baseline at y=520, and the mark at 25px with its baseline at y=572. The empty band between the headline and the supporting line drops from about 250px (40% of the height) to about 190px (under a third), and the right-hand 34% of the canvas stops reading as leftover.",
+        "originality: linkedin is currently the default OG title card: a small headline top left and a footer bottom left. The 119px move above is the fix. \"Minneapolis.\" becomes about 708px wide in orange and reads as the image, not a title. On ig-post, keep the \"Now / installing in / Minneapolis.\" stair rag exactly as it is, because it is the one move here a template would not make.",
+        "typography: both sizes. Pull the headline left by -0.04em (about -6px at 149px, -5px at 119px) so the N and M stems sit optically on x=72. Today they sit about 6px inside the supporting line and the mark.",
+        "spacing: linkedin, after the headline change, set the gap from the headline's last baseline to the supporting line's cap top to 192px, so it lands on the 8px grid. ig-post spacing holds: about 215px above the supporting block, about 270px below it, and the mark baseline at y≈1200 inside the 10% bottom zone."
+      ],
+      "polish": [
+        "ig-post: tighten the supporting line's line height from 1.3 to 1.25 (61px → 76px leading) so the two short sentences lock as one block."
+      ]
+    },
+    {
+      "round": 4,
+      "by": "creative-director",
+      "axes": {
+        "hierarchy": 9,
+        "typography": 8,
+        "spacing": 8,
+        "colour": 9,
+        "composition": 8,
+        "originality": 8,
+        "brand": 9,
+        "copy": 9
+      },
+      "average": 8.5,
+      "pass": true,
+      "notes": [
+        "typography: linkedin only: raise the supporting line from 31px to 39px, weight 400, line height 1.3. At 31 it sits one step above the 25px mark and the two read as one tier. linkedin scale becomes 95 / 39 / 25. Leave ig-post at 149 / 61 / 25.",
+        "spacing: linkedin only: move the supporting line's top from y≈430 to y=376 (about 80px under the headline's descender). Keep the mark baseline at y≈572. The supporting line then groups with the headline and the mark stands alone in the corner, instead of the line floating between them.",
+        "composition: ig-post: keep the supporting block top at y=760 and the mark baseline at y=1215. Do not let either gap (≈230 above, ≈285 below) go past 450px when the linkedin fixes land, because the DOM is shared.",
+        "originality: no layout change this round. The confident move is the 149px stack on ig-post with \"Minneapolis.\" on its own line. No fix may shrink it or rewrap it."
+      ],
+      "polish": [
+        "Set the period after \"Minneapolis\" in #161614 so the accent lands on the word alone."
+      ]
+    }
+  ],
+  "waitingOn": null,
+  "cost": {
+    "director": 0.5725,
+    "senior": 0.1716,
+    "builder": 0.0184,
+    "total": 0.7625,
+    "complete": true
+  },
+  "tokens": {
+    "director": 57413,
+    "senior": 86033,
+    "builder": 119296
+  },
+  "files": {
+    "final": ".desk/out/20261020-0132-linkedin-instagram-portrait-installs/final.html",
+    "brief": ".desk/jobs/20261020-0132-linkedin-instagram-portrait-installs/brief.md",
+    "handback": ".desk/out/20261020-0132-linkedin-instagram-portrait-installs/handback.md"
+  },
+  "pen": "builder",
+  "notes": [
+    "proof safe-zone at linkedin: \"Now installing in\" 67px from the left edge, the safe zone starts at 72px; 11px from the top edge, the safe zone starts at 38px",
+    "proof safe-zone at linkedin: \"Minneapolis.\" 67px from the left edge, the safe zone starts at 72px"
+  ],
+  "misses": {
+    "proof:safe-zone": 1
+  },
+  "startedAt": "2026-10-20T01:32:08-05:00",
+  "updatedAt": "2026-10-20T01:36:47-05:00",
+  "roughs": [
+    {
+      "n": 1,
+      "pattern": "Editorial split",
+      "file": ".desk/out/20261020-0132-linkedin-instagram-portrait-installs/rough-1.html",
+      "fonts": "Inter, inlined by the runner, not a fallback",
+      "written": true,
+      "renders": ".desk/jobs/20261020-0132-linkedin-instagram-portrait-installs/renders/roughs/rough-1"
+    },
+    {
+      "n": 2,
+      "pattern": "Full bleed with scrim",
+      "file": ".desk/out/20261020-0132-linkedin-instagram-portrait-installs/rough-2.html",
+      "fonts": "Inter (brand font, inlined by the runner; not a fallback)",
+      "written": true,
+      "renders": ".desk/jobs/20261020-0132-linkedin-instagram-portrait-installs/renders/roughs/rough-2"
+    },
+    {
+      "n": 3,
+      "pattern": "Type only",
+      "file": ".desk/out/20261020-0132-linkedin-instagram-portrait-installs/rough-3.html",
+      "fonts": "Inter, inlined by runner, not a fallback",
+      "written": true,
+      "renders": ".desk/jobs/20261020-0132-linkedin-instagram-portrait-installs/renders/roughs/rough-3"
+    }
+  ],
+  "lastRenders": ".desk/jobs/20261020-0132-linkedin-instagram-portrait-installs/renders/round-4",
+  "penNotes": [],
+  "finishedAt": "2026-10-20T01:36:47-05:00"
+}

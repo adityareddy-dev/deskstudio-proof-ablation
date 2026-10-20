@@ -1,0 +1,93 @@
+{
+  "width": 1200,
+  "height": 627,
+  "scrollWidth": 1200,
+  "scrollHeight": 627,
+  "boxes": [
+    {
+      "x": 80,
+      "y": 43,
+      "width": 387.796875,
+      "height": 123,
+      "text": "Checked",
+      "color": "rgb(244, 244, 245)",
+      "opacity": 1,
+      "fontSize": 95,
+      "fontWeight": 600,
+      "fontFamily": "Geist, Inter, Arial, sans-serif",
+      "clips": []
+    },
+    {
+      "x": 80,
+      "y": 141.796875,
+      "width": 295.96875,
+      "height": 123,
+      "text": "on real",
+      "color": "rgb(244, 244, 245)",
+      "opacity": 1,
+      "fontSize": 95,
+      "fontWeight": 600,
+      "fontFamily": "Geist, Inter, Arial, sans-serif",
+      "clips": []
+    },
+    {
+      "x": 80,
+      "y": 240.59375,
+      "width": 276.625,
+      "height": 123,
+      "text": "pixels.",
+      "color": "rgb(244, 244, 245)",
+      "opacity": 1,
+      "fontSize": 95,
+      "fontWeight": 600,
+      "fontFamily": "Geist, Inter, Arial, sans-serif",
+      "clips": []
+    },
+    {
+      "x": 80,
+      "y": 384.390625,
+      "width": 415.4375,
+      "height": 40,
+      "text": "Overflow, contrast, safe zone, every round.",
+      "color": "rgb(244, 244, 245)",
+      "opacity": 1,
+      "fontSize": 31,
+      "fontWeight": 400,
+      "fontFamily": "Geist, Inter, Arial, sans-serif",
+      "clips": []
+    },
+    {
+      "x": 80,
+      "y": 426.234375,
+      "width": 172.984375,
+      "height": 40,
+      "text": "Overflow, contrast, safe zone, every round.",
+      "color": "rgb(244, 244, 245)",
+      "opacity": 1,
+      "fontSize": 31,
+      "fontWeight": 400,
+      "fontFamily": "Geist, Inter, Arial, sans-serif",
+      "clips": []
+    },
+    {
+      "x": 80,
+      "y": 545.25,
+      "width": 149.9375,
+      "height": 32,
+      "text": "deskstudio.ai",
+      "color": "rgb(244, 244, 245)",
+      "opacity": 1,
+      "fontSize": 25,
+      "fontWeight": 400,
+      "fontFamily": "Geist, Inter, Arial, sans-serif",
+      "clips": []
+    }
+  ],
+  "fonts": {
+    "Geist": true,
+    "Inter": false,
+    "Arial": true,
+    "sans-serif": true
+  },
+  "images": 0
+}

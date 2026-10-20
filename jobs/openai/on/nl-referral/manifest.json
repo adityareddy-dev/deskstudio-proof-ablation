@@ -1,0 +1,26 @@
+{
+ "family": "openai",
+ "arm": "on",
+ "case": "nl-referral",
+ "brand": "northlight",
+ "ask": "a LinkedIn card and an Instagram portrait card for a neighbour referral: one install on a street brings the next one's price down. Copy that must appear: 'Your street, one roof at a time.' and 'Every neighbour you bring takes $400 off their quote.' and 'northlight.energy'.",
+ "models": "director=openai/large,senior=openai/mini,builder=openai/mini",
+ "startedAt": "2026-10-20T06:41:42.752Z",
+ "attempts": [
+  {
+   "code": 4,
+   "seconds": 408
+  }
+ ],
+ "exit": 4,
+ "seconds": 408,
+ "jobId": "20261020-0141-linkedin-instagram-portrait-neighbour",
+ "phase": "done",
+ "failed": false,
+ "done": true,
+ "finishedAt": "2026-10-20T06:48:31.161Z",
+ "audit": {
+  "pass": true,
+  "failures": 0
+ }
+}

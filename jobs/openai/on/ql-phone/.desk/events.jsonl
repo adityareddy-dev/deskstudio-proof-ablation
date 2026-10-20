@@ -1,0 +1,63 @@
+{"t":"2026-10-20T06:53:58.169Z","type":"job.start","id":"20261020-0153-linkedin-instagram-portrait-phone","command":"design","deliverable":"social-card"}
+{"t":"2026-10-20T06:53:58.224Z","type":"desk.start","id":"20261020-0153-linkedin-instagram-portrait-phone","desk":"design-manager","model":"openai/large","tier":"director","task":"intake"}
+{"t":"2026-10-20T06:54:16.422Z","type":"desk.stop","id":"20261020-0153-linkedin-instagram-portrait-phone","desk":"design-manager","tier":"director","status":"done","seconds":18,"model":"openai/large","modelId":"gpt-6-astra","tokens":{"input":7660,"output":476,"cacheRead":24704,"cacheWrite":0,"total":32840},"costUsd":0.125104}
+{"t":"2026-10-20T06:54:16.493Z","type":"job.phase","id":"20261020-0153-linkedin-instagram-portrait-phone","phase":"roughs","round":0}
+{"t":"2026-10-20T06:54:16.742Z","type":"desk.start","id":"20261020-0153-linkedin-instagram-portrait-phone","desk":"ui-designer","model":"openai/mini","tier":"senior","task":"rough 1, editorial split"}
+{"t":"2026-10-20T06:54:16.895Z","type":"desk.start","id":"20261020-0153-linkedin-instagram-portrait-phone","desk":"ui-designer","model":"openai/mini","tier":"senior","task":"rough 2, full bleed with scrim"}
+{"t":"2026-10-20T06:54:17.049Z","type":"desk.start","id":"20261020-0153-linkedin-instagram-portrait-phone","desk":"ui-designer","model":"openai/mini","tier":"senior","task":"rough 3, type only"}
+{"t":"2026-10-20T06:54:57.299Z","type":"desk.stop","id":"20261020-0153-linkedin-instagram-portrait-phone","desk":"ui-designer","tier":"senior","status":"done","seconds":40,"model":"openai/mini","modelId":"gpt-6.1-sol","tokens":{"input":26578,"output":1852,"cacheRead":26112,"cacheWrite":0,"total":54542},"costUsd":0.0742872}
+{"t":"2026-10-20T06:55:00.804Z","type":"desk.stop","id":"20261020-0153-linkedin-instagram-portrait-phone","desk":"ui-designer","tier":"senior","status":"done","seconds":44,"model":"openai/mini","modelId":"gpt-6.1-sol","tokens":{"input":4743,"output":1942,"cacheRead":21504,"cacheWrite":0,"total":28189},"costUsd":0.0310564}
+{"t":"2026-10-20T06:55:26.506Z","type":"desk.stop","id":"20261020-0153-linkedin-instagram-portrait-phone","desk":"ui-designer","tier":"senior","status":"done","seconds":70,"model":"openai/mini","modelId":"gpt-6.1-sol","tokens":{"input":5053,"output":3500,"cacheRead":47616,"cacheWrite":0,"total":56169},"costUsd":0.0498676}
+{"t":"2026-10-20T06:55:31.946Z","type":"job.phase","id":"20261020-0153-linkedin-instagram-portrait-phone","phase":"pick","round":0}
+{"t":"2026-10-20T06:55:32.036Z","type":"desk.start","id":"20261020-0153-linkedin-instagram-portrait-phone","desk":"art-director","model":"openai/large","tier":"director","task":"pick"}
+{"t":"2026-10-20T06:55:48.266Z","type":"desk.stop","id":"20261020-0153-linkedin-instagram-portrait-phone","desk":"art-director","tier":"director","status":"done","seconds":16,"model":"openai/large","modelId":"gpt-6-astra","tokens":{"input":13494,"output":415,"cacheRead":24704,"cacheWrite":0,"total":38613},"costUsd":0.180394}
+{"t":"2026-10-20T06:55:48.307Z","type":"job.pick","id":"20261020-0153-linkedin-instagram-portrait-phone","by":"art-director","rough":3}
+{"t":"2026-10-20T06:55:48.352Z","type":"job.phase","id":"20261020-0153-linkedin-instagram-portrait-phone","phase":"polish","round":1}
+{"t":"2026-10-20T06:55:48.404Z","type":"desk.start","id":"20261020-0153-linkedin-instagram-portrait-phone","desk":"ui-designer","model":"openai/mini","tier":"builder","task":"polish round 1"}
+{"t":"2026-10-20T06:56:15.071Z","type":"desk.stop","id":"20261020-0153-linkedin-instagram-portrait-phone","desk":"ui-designer","tier":"builder","status":"done","seconds":27,"model":"openai/mini","modelId":"gpt-6.1-sol","tokens":{"input":8595,"output":1208,"cacheRead":51200,"cacheWrite":0,"total":61003},"costUsd":0.03439}
+{"t":"2026-10-20T06:56:15.116Z","type":"job.phase","id":"20261020-0153-linkedin-instagram-portrait-phone","phase":"proof","round":1}
+{"t":"2026-10-20T06:56:16.713Z","type":"job.proof","id":"20261020-0153-linkedin-instagram-portrait-phone","round":1,"pass":false,"failures":1}
+{"t":"2026-10-20T06:56:16.762Z","type":"job.phase","id":"20261020-0153-linkedin-instagram-portrait-phone","phase":"polish","round":2}
+{"t":"2026-10-20T06:56:16.812Z","type":"desk.start","id":"20261020-0153-linkedin-instagram-portrait-phone","desk":"ui-designer","model":"openai/mini","tier":"builder","task":"polish round 2"}
+{"t":"2026-10-20T06:56:34.442Z","type":"desk.stop","id":"20261020-0153-linkedin-instagram-portrait-phone","desk":"ui-designer","tier":"builder","status":"done","seconds":18,"model":"openai/mini","modelId":"gpt-6.1-sol","tokens":{"input":22772,"output":946,"cacheRead":36864,"cacheWrite":0,"total":60582},"costUsd":0.058690400000000004}
+{"t":"2026-10-20T06:56:34.484Z","type":"job.phase","id":"20261020-0153-linkedin-instagram-portrait-phone","phase":"proof","round":2}
+{"t":"2026-10-20T06:56:36.010Z","type":"job.proof","id":"20261020-0153-linkedin-instagram-portrait-phone","round":2,"pass":true,"failures":0}
+{"t":"2026-10-20T06:56:36.055Z","type":"job.phase","id":"20261020-0153-linkedin-instagram-portrait-phone","phase":"signoff","round":2}
+{"t":"2026-10-20T06:56:36.104Z","type":"desk.start","id":"20261020-0153-linkedin-instagram-portrait-phone","desk":"creative-director","model":"openai/large","tier":"director","task":"sign-off round 2"}
+{"t":"2026-10-20T06:56:56.733Z","type":"desk.stop","id":"20261020-0153-linkedin-instagram-portrait-phone","desk":"creative-director","tier":"director","status":"done","seconds":21,"model":"openai/large","modelId":"gpt-6-astra","tokens":{"input":8351,"output":557,"cacheRead":24704,"cacheWrite":0,"total":33612},"costUsd":0.136064}
+{"t":"2026-10-20T06:56:56.781Z","type":"job.score","id":"20261020-0153-linkedin-instagram-portrait-phone","round":2,"average":8.38,"pass":false}
+{"t":"2026-10-20T06:56:56.838Z","type":"job.phase","id":"20261020-0153-linkedin-instagram-portrait-phone","phase":"polish","round":3}
+{"t":"2026-10-20T06:56:56.903Z","type":"desk.start","id":"20261020-0153-linkedin-instagram-portrait-phone","desk":"ui-designer","model":"openai/mini","tier":"builder","task":"polish round 3"}
+{"t":"2026-10-20T06:57:21.457Z","type":"desk.stop","id":"20261020-0153-linkedin-instagram-portrait-phone","desk":"ui-designer","tier":"builder","status":"done","seconds":25,"model":"openai/mini","modelId":"gpt-6.1-sol","tokens":{"input":8594,"output":945,"cacheRead":51200,"cacheWrite":0,"total":60739},"costUsd":0.031758}
+{"t":"2026-10-20T06:57:21.493Z","type":"job.phase","id":"20261020-0153-linkedin-instagram-portrait-phone","phase":"proof","round":3}
+{"t":"2026-10-20T06:57:22.931Z","type":"job.proof","id":"20261020-0153-linkedin-instagram-portrait-phone","round":3,"pass":true,"failures":0}
+{"t":"2026-10-20T06:57:22.977Z","type":"job.phase","id":"20261020-0153-linkedin-instagram-portrait-phone","phase":"signoff","round":3}
+{"t":"2026-10-20T06:57:23.023Z","type":"desk.start","id":"20261020-0153-linkedin-instagram-portrait-phone","desk":"creative-director","model":"openai/large","tier":"director","task":"sign-off round 3"}
+{"t":"2026-10-20T06:57:44.319Z","type":"desk.stop","id":"20261020-0153-linkedin-instagram-portrait-phone","desk":"creative-director","tier":"director","status":"done","seconds":21,"model":"openai/large","modelId":"gpt-6-astra","tokens":{"input":8351,"output":619,"cacheRead":24704,"cacheWrite":0,"total":33674},"costUsd":0.139164}
+{"t":"2026-10-20T06:57:44.356Z","type":"job.score","id":"20261020-0153-linkedin-instagram-portrait-phone","round":3,"average":8.13,"pass":false}
+{"t":"2026-10-20T06:57:44.399Z","type":"job.phase","id":"20261020-0153-linkedin-instagram-portrait-phone","phase":"polish","round":4}
+{"t":"2026-10-20T06:57:44.448Z","type":"desk.start","id":"20261020-0153-linkedin-instagram-portrait-phone","desk":"ui-designer","model":"openai/mini","tier":"builder","task":"polish round 4"}
+{"t":"2026-10-20T06:58:08.750Z","type":"desk.stop","id":"20261020-0153-linkedin-instagram-portrait-phone","desk":"ui-designer","tier":"builder","status":"done","seconds":24,"model":"openai/mini","modelId":"gpt-6.1-sol","tokens":{"input":8598,"output":1050,"cacheRead":51328,"cacheWrite":0,"total":60976},"costUsd":0.032828800000000005}
+{"t":"2026-10-20T06:58:08.787Z","type":"job.phase","id":"20261020-0153-linkedin-instagram-portrait-phone","phase":"proof","round":4}
+{"t":"2026-10-20T06:58:10.254Z","type":"job.proof","id":"20261020-0153-linkedin-instagram-portrait-phone","round":4,"pass":false,"failures":1}
+{"t":"2026-10-20T06:58:10.301Z","type":"job.phase","id":"20261020-0153-linkedin-instagram-portrait-phone","phase":"polish","round":5}
+{"t":"2026-10-20T06:58:10.349Z","type":"desk.start","id":"20261020-0153-linkedin-instagram-portrait-phone","desk":"ui-designer","model":"openai/mini","tier":"builder","task":"polish round 5"}
+{"t":"2026-10-20T06:58:35.769Z","type":"desk.stop","id":"20261020-0153-linkedin-instagram-portrait-phone","desk":"ui-designer","tier":"builder","status":"done","seconds":25,"model":"openai/mini","modelId":"gpt-6.1-sol","tokens":{"input":8451,"output":999,"cacheRead":51200,"cacheWrite":0,"total":60650},"costUsd":0.032012}
+{"t":"2026-10-20T06:58:35.807Z","type":"job.phase","id":"20261020-0153-linkedin-instagram-portrait-phone","phase":"proof","round":5}
+{"t":"2026-10-20T06:58:37.156Z","type":"job.proof","id":"20261020-0153-linkedin-instagram-portrait-phone","round":5,"pass":true,"failures":0}
+{"t":"2026-10-20T06:58:37.201Z","type":"job.phase","id":"20261020-0153-linkedin-instagram-portrait-phone","phase":"signoff","round":5}
+{"t":"2026-10-20T06:58:37.246Z","type":"desk.start","id":"20261020-0153-linkedin-instagram-portrait-phone","desk":"creative-director","model":"openai/large","tier":"director","task":"sign-off round 5"}
+{"t":"2026-10-20T06:58:55.904Z","type":"desk.stop","id":"20261020-0153-linkedin-instagram-portrait-phone","desk":"creative-director","tier":"director","status":"done","seconds":19,"model":"openai/large","modelId":"gpt-6-astra","tokens":{"input":8351,"output":642,"cacheRead":24704,"cacheWrite":0,"total":33697},"costUsd":0.140314}
+{"t":"2026-10-20T06:58:55.944Z","type":"job.score","id":"20261020-0153-linkedin-instagram-portrait-phone","round":5,"average":8.38,"pass":false}
+{"t":"2026-10-20T06:58:56.003Z","type":"job.phase","id":"20261020-0153-linkedin-instagram-portrait-phone","phase":"polish","round":6}
+{"t":"2026-10-20T06:58:56.056Z","type":"desk.start","id":"20261020-0153-linkedin-instagram-portrait-phone","desk":"ui-designer","model":"openai/mini","tier":"builder","task":"polish round 6"}
+{"t":"2026-10-20T06:59:19.665Z","type":"desk.stop","id":"20261020-0153-linkedin-instagram-portrait-phone","desk":"ui-designer","tier":"builder","status":"done","seconds":24,"model":"openai/mini","modelId":"gpt-6.1-sol","tokens":{"input":22812,"output":958,"cacheRead":36992,"cacheWrite":0,"total":60762},"costUsd":0.058903199999999996}
+{"t":"2026-10-20T06:59:19.700Z","type":"job.phase","id":"20261020-0153-linkedin-instagram-portrait-phone","phase":"proof","round":6}
+{"t":"2026-10-20T06:59:21.083Z","type":"job.proof","id":"20261020-0153-linkedin-instagram-portrait-phone","round":6,"pass":true,"failures":0}
+{"t":"2026-10-20T06:59:21.124Z","type":"job.phase","id":"20261020-0153-linkedin-instagram-portrait-phone","phase":"signoff","round":6}
+{"t":"2026-10-20T06:59:21.169Z","type":"desk.start","id":"20261020-0153-linkedin-instagram-portrait-phone","desk":"creative-director","model":"openai/large","tier":"director","task":"sign-off round 6"}
+{"t":"2026-10-20T06:59:43.252Z","type":"desk.stop","id":"20261020-0153-linkedin-instagram-portrait-phone","desk":"creative-director","tier":"director","status":"done","seconds":22,"model":"openai/large","modelId":"gpt-6-astra","tokens":{"input":8351,"output":535,"cacheRead":24704,"cacheWrite":0,"total":33590},"costUsd":0.134964}
+{"t":"2026-10-20T06:59:43.290Z","type":"job.score","id":"20261020-0153-linkedin-instagram-portrait-phone","round":6,"average":8.25,"pass":false}
+{"t":"2026-10-20T06:59:43.335Z","type":"job.waiting","id":"20261020-0153-linkedin-instagram-portrait-phone","on":"approve_under_bar"}
+{"t":"2026-10-20T06:59:43.381Z","type":"job.phase","id":"20261020-0153-linkedin-instagram-portrait-phone","phase":"handback","round":6}
+{"t":"2026-10-20T06:59:43.426Z","type":"job.done","id":"20261020-0153-linkedin-instagram-portrait-phone","rounds":6,"average":8.25,"pass":false}

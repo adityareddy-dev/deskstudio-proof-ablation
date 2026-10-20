@@ -1,0 +1,25 @@
+{
+ "family": "openai",
+ "arm": "off",
+ "case": "nl-battery",
+ "brand": "northlight",
+ "ask": "a LinkedIn card and an Instagram portrait card announcing a new battery option. Copy that must appear: 'Seven years to break even. Then free.' and 'Battery now included.' and 'northlight.energy'.",
+ "models": "director=openai/large,senior=openai/mini,builder=openai/nano",
+ "startedAt": "2026-10-20T06:22:56.495Z",
+ "attempts": [
+  {
+   "code": 4,
+   "seconds": 322
+  }
+ ],
+ "exit": 4,
+ "seconds": 322,
+ "jobId": "20261020-0122-linkedin-instagram-portrait-new",
+ "phase": "done",
+ "done": true,
+ "finishedAt": "2026-10-20T06:28:18.417Z",
+ "audit": {
+  "pass": false,
+  "failures": 2
+ }
+}

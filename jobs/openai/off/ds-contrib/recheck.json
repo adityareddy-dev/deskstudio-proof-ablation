@@ -1,0 +1,201 @@
+{
+ "family": "openai",
+ "arm": "off",
+ "case": "ds-contrib",
+ "jobId": "20261020-0214-linkedin-instagram-portrait-asking",
+ "rounds": [
+  {
+   "round": 1,
+   "sizes": [
+    {
+     "size": "ig-post",
+     "failures": [
+      {
+       "check": "safe-zone",
+       "text": "Add a",
+       "reason": "46px from the top edge, the safe zone starts at 81px"
+      },
+      {
+       "check": "type-scale",
+       "text": "Add a",
+       "reason": "224px is off the brand scale (base 16, ratio 1.25), use 186px or 233px"
+      },
+      {
+       "check": "type-scale",
+       "text": "desk.",
+       "reason": "224px is off the brand scale (base 16, ratio 1.25), use 186px or 233px"
+      }
+     ]
+    },
+    {
+     "size": "linkedin",
+     "failures": [
+      {
+       "check": "type-scale",
+       "text": "Add a",
+       "reason": "144px is off the brand scale (base 16, ratio 1.25), use 119px or 149px"
+      },
+      {
+       "check": "type-scale",
+       "text": "desk.",
+       "reason": "144px is off the brand scale (base 16, ratio 1.25), use 119px or 149px"
+      }
+     ]
+    }
+   ],
+   "failures": 5,
+   "byCheck": {
+    "safe-zone": 1,
+    "type-scale": 4
+   }
+  },
+  {
+   "round": 2,
+   "sizes": [
+    {
+     "size": "ig-post",
+     "failures": [
+      {
+       "check": "safe-zone",
+       "text": "Add a",
+       "reason": "46px from the top edge, the safe zone starts at 81px"
+      },
+      {
+       "check": "type-scale",
+       "text": "Add a",
+       "reason": "224px is off the brand scale (base 16, ratio 1.25), use 186px or 233px"
+      },
+      {
+       "check": "type-scale",
+       "text": "desk.",
+       "reason": "224px is off the brand scale (base 16, ratio 1.25), use 186px or 233px"
+      }
+     ]
+    },
+    {
+     "size": "linkedin",
+     "failures": []
+    }
+   ],
+   "failures": 3,
+   "byCheck": {
+    "safe-zone": 1,
+    "type-scale": 2
+   }
+  },
+  {
+   "round": 3,
+   "sizes": [
+    {
+     "size": "ig-post",
+     "failures": [
+      {
+       "check": "safe-zone",
+       "text": "Add a",
+       "reason": "46px from the top edge, the safe zone starts at 81px"
+      },
+      {
+       "check": "type-scale",
+       "text": "Add a",
+       "reason": "224px is off the brand scale (base 16, ratio 1.25), use 186px or 233px"
+      },
+      {
+       "check": "type-scale",
+       "text": "desk.",
+       "reason": "224px is off the brand scale (base 16, ratio 1.25), use 186px or 233px"
+      }
+     ]
+    },
+    {
+     "size": "linkedin",
+     "failures": []
+    }
+   ],
+   "failures": 3,
+   "byCheck": {
+    "safe-zone": 1,
+    "type-scale": 2
+   }
+  },
+  {
+   "round": 4,
+   "sizes": [
+    {
+     "size": "ig-post",
+     "failures": [
+      {
+       "check": "safe-zone",
+       "text": "Add a",
+       "reason": "46px from the top edge, the safe zone starts at 81px"
+      },
+      {
+       "check": "type-scale",
+       "text": "Add a",
+       "reason": "224px is off the brand scale (base 16, ratio 1.25), use 186px or 233px"
+      },
+      {
+       "check": "type-scale",
+       "text": "desk.",
+       "reason": "224px is off the brand scale (base 16, ratio 1.25), use 186px or 233px"
+      }
+     ]
+    },
+    {
+     "size": "linkedin",
+     "failures": []
+    }
+   ],
+   "failures": 3,
+   "byCheck": {
+    "safe-zone": 1,
+    "type-scale": 2
+   }
+  },
+  {
+   "round": 5,
+   "sizes": [
+    {
+     "size": "ig-post",
+     "failures": [
+      {
+       "check": "safe-zone",
+       "text": "Add a",
+       "reason": "55px from the top edge, the safe zone starts at 81px"
+      }
+     ]
+    },
+    {
+     "size": "linkedin",
+     "failures": []
+    }
+   ],
+   "failures": 1,
+   "byCheck": {
+    "safe-zone": 1
+   }
+  },
+  {
+   "round": 6,
+   "sizes": [
+    {
+     "size": "ig-post",
+     "failures": [
+      {
+       "check": "safe-zone",
+       "text": "Add a",
+       "reason": "52px from the top edge, the safe zone starts at 81px"
+      }
+     ]
+    },
+    {
+     "size": "linkedin",
+     "failures": []
+    }
+   ],
+   "failures": 1,
+   "byCheck": {
+    "safe-zone": 1
+   }
+  }
+ ]
+}

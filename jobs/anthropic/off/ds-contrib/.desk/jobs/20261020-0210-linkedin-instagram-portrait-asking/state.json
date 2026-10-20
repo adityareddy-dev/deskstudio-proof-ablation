@@ -1,0 +1,290 @@
+{
+  "id": "20261020-0210-linkedin-instagram-portrait-asking",
+  "command": "design",
+  "deliverable": "social-card",
+  "sizes": [
+    "linkedin",
+    "ig-post"
+  ],
+  "quality": "studio",
+  "proofMode": "off",
+  "models": {
+    "director": "anthropic/opus",
+    "senior": "anthropic/sonnet",
+    "builder": "anthropic/haiku"
+  },
+  "phase": "done",
+  "round": 3,
+  "maxRounds": 6,
+  "desks": [
+    {
+      "desk": "design-manager",
+      "task": "intake",
+      "status": "done",
+      "model": "anthropic/opus",
+      "startedAt": "2026-10-20T02:10:49-05:00",
+      "updatedAt": "2026-10-20T02:11:06-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "rough 1, editorial split",
+      "status": "done",
+      "model": "anthropic/sonnet",
+      "startedAt": "2026-10-20T02:11:06-05:00",
+      "updatedAt": "2026-10-20T02:11:36-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "rough 2, full bleed with scrim",
+      "status": "done",
+      "model": "anthropic/sonnet",
+      "startedAt": "2026-10-20T02:11:06-05:00",
+      "updatedAt": "2026-10-20T02:11:28-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "rough 3, type only",
+      "status": "done",
+      "model": "anthropic/sonnet",
+      "startedAt": "2026-10-20T02:11:06-05:00",
+      "updatedAt": "2026-10-20T02:11:26-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "art-director",
+      "task": "pick",
+      "status": "done",
+      "model": "anthropic/opus",
+      "startedAt": "2026-10-20T02:11:39-05:00",
+      "updatedAt": "2026-10-20T02:12:21-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 1",
+      "status": "done",
+      "model": "anthropic/haiku",
+      "startedAt": "2026-10-20T02:12:21-05:00",
+      "updatedAt": "2026-10-20T02:12:45-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "creative-director",
+      "task": "sign-off round 1",
+      "status": "done",
+      "model": "anthropic/opus",
+      "startedAt": "2026-10-20T02:12:47-05:00",
+      "updatedAt": "2026-10-20T02:13:20-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 2",
+      "status": "done",
+      "model": "anthropic/haiku",
+      "startedAt": "2026-10-20T02:13:20-05:00",
+      "updatedAt": "2026-10-20T02:14:01-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "creative-director",
+      "task": "sign-off round 2",
+      "status": "done",
+      "model": "anthropic/opus",
+      "startedAt": "2026-10-20T02:14:03-05:00",
+      "updatedAt": "2026-10-20T02:14:48-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 3",
+      "status": "done",
+      "model": "anthropic/haiku",
+      "startedAt": "2026-10-20T02:14:48-05:00",
+      "updatedAt": "2026-10-20T02:15:10-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "creative-director",
+      "task": "sign-off round 3",
+      "status": "done",
+      "model": "anthropic/opus",
+      "startedAt": "2026-10-20T02:15:12-05:00",
+      "updatedAt": "2026-10-20T02:15:58-05:00",
+      "via": "cli"
+    }
+  ],
+  "pick": {
+    "by": "art-director",
+    "rough": 3,
+    "pattern": "Type only",
+    "combineWith": null,
+    "reason": "The type-only layout reads in about a second at thumbnail size: one big left-aligned headline, the accent on \"desk.\" and the mark in a small corner. It needs the fewest notes to meet the bar.",
+    "lost": "1 has the accent on just a period, which barely shows. Its LinkedIn right column also leaves a roughly 400px empty band under the supporting line. 2 uses the accent as a large background field, not once. Its white supporting line on #ffb000 fails contrast (about 1.7:1), and the ig-post black block is mostly empty.",
+    "notes": [
+      "linkedin: headline from about 149px to 186px (brand scale), split onto two lines as \"Add a\" / \"desk.\", line height 1.0, tracking −0.02em, top edge on the 38px safe margin. This closes the roughly 270px empty band between the supporting line and the mark, which breaks the brief's limit of a third of the canvas (209px on linkedin).",
+      "linkedin: supporting line from about 31px to 39px, line height 1.3, placed 32px under the headline's last line. Keep it at foreground #f4f4f5, weight 400. Three sizes in total: 186, 39 and the mark.",
+      "linkedin: keep the mark `deskstudio.ai` bottom left, its baseline 38px above the bottom edge, 25px, muted #8a8a93. After notes 1 and 2 the gap between the supporting line and the mark should be about 70px. Confirm it is under 209px.",
+      "ig-post: no change to the headline or the accent. Check that the empty band between the supporting line (bottom about 730px) and the mark (top about 1170px) stays under 450px. If it renders taller, move the supporting line from 61px to 76px and keep the 64px gap under the headline. Do not move the mark off the 10% bottom margin."
+    ],
+    "at": "2026-10-20T02:12:21-05:00"
+  },
+  "proof": [
+    {
+      "round": 1,
+      "pass": null,
+      "skipped": true,
+      "failures": 0
+    },
+    {
+      "round": 2,
+      "pass": null,
+      "skipped": true,
+      "failures": 0
+    },
+    {
+      "round": 3,
+      "pass": null,
+      "skipped": true,
+      "failures": 0
+    }
+  ],
+  "scores": [
+    {
+      "round": 1,
+      "by": "creative-director",
+      "axes": {
+        "hierarchy": 9,
+        "typography": 9,
+        "spacing": 8,
+        "colour": 9,
+        "composition": 7,
+        "originality": 7,
+        "brand": 9,
+        "copy": 9
+      },
+      "average": 8.38,
+      "pass": false,
+      "notes": [
+        "composition: linkedin, the right 55% of the canvas (x 530 to 1162) is left over. Move the supporting line into a right column at x 640. Set it as two lines, \"One brief file.\" / \"One registry line.\", at 39px, line height 1.3. Align the baseline of its last line to the baseline of \"desk.\" (about y 385). Keep the mark bottom left with its baseline 38px above the bottom edge. The band from \"desk.\" to the mark is then about 175px, under 209px.",
+        "composition: ig-post, the band from the supporting line (bottom about 730px) to the mark (top about 1175px) is about 445px. That is 5px under the 450px limit, and nothing shapes it. Raise the supporting line from 61px to 76px, line height 1.3, and keep the 64px gap under \"desk.\". The block should end near 790px and the band drop to about 385px. Keep the headline at its current size and position in the top 40%. Keep the mark on the 10% bottom margin.",
+        "originality: the stacked type-only layout is the first one anyone would make. The linkedin split above, with the supporting line hung off the \"desk.\" baseline in its own column, is the one move that makes it ours. Do not add any other element.",
+        "spacing: linkedin, the gap from the headline to the supporting line (about 80px) equals the gap from the supporting line to the mark (about 75px), so the mark reads as part of the content group. After the split, the mark stands alone at the bottom left with at least 120px clear above it. Put every gap on the 8px grid: 32, 64, 120."
+      ],
+      "polish": [
+        "ig-post: pull the \"A\" of \"Add a\" optically left by about 4px so its diagonal lines up with the stem of \"d\" in \"desk.\" on the 65px margin."
+      ]
+    },
+    {
+      "round": 2,
+      "by": "creative-director",
+      "axes": {
+        "hierarchy": 9,
+        "typography": 9,
+        "spacing": 8,
+        "colour": 9,
+        "composition": 7,
+        "originality": 7,
+        "brand": 9,
+        "copy": 9
+      },
+      "average": 8.38,
+      "pass": false,
+      "notes": [
+        "composition: ig-post, keep the headline at 233px where it is and move the supporting line down to join the mark as one bottom group. Set it at 76px, line height 1.3, with its last line's bottom 64px above the top of the mark (mark top about 1178px, so the block runs about 916 to 1114px). This turns the 393px band of leftover air at the foot into a framed gap of about 400px between \"desk.\" and the bottom group, under the 450px limit.",
+        "originality: ig-post reads as the default stacked type card. The move that makes it this brand's is the same one linkedin already has: the headline block at the top answered by a small bottom group at the bottom left, with nothing in between. On linkedin, set the supporting line's second baseline exactly on the baseline of \"desk.\" (it is about 3px low now) so the hang reads as deliberate.",
+        "spacing: linkedin, put the supporting line's left edge at 600px (the canvas midpoint, on the 8px grid) instead of about 640px. ig-post, keep 64px between the supporting line and the mark, and keep the mark baseline on the 10% bottom margin (1215px)."
+      ],
+      "polish": [
+        "linkedin: nudge the headline 2px left so the stem of \"A\" lines up optically with the \"d\" of the mark at 38px."
+      ]
+    },
+    {
+      "round": 3,
+      "by": "creative-director",
+      "axes": {
+        "hierarchy": 9,
+        "typography": 8,
+        "spacing": 8,
+        "colour": 9,
+        "composition": 8,
+        "originality": 8,
+        "brand": 9,
+        "copy": 9
+      },
+      "average": 8.5,
+      "pass": true,
+      "notes": [
+        "typography: optically align the headline to the text column. ig-post: shift \"Add a / desk.\" left 6px so the stems of A and d sit on x 72 with the supporting line and the mark. linkedin: shift it left 4px onto x 38. Keep 186 and 233px, line height 1.0, −0.02em.",
+        "spacing: ig-post: set the gap between the last baseline of the supporting line and the mark top to 208px, on the 8px grid. linkedin: keep the supporting line at x 600 with its last baseline locked to the baseline of \"desk.\"",
+        "composition: ig-post: raise the supporting line top from about 945px to 840px. This cuts the middle band from about 440px, which sits on the 450px limit, to about 335px. Keep the mark on the 10% bottom margin.",
+        "originality: ig-post: carry the linkedin split into the portrait. Indent the supporting line to x 432 (40% of the width) and drop it from 76 to 61px, line height 1.3. It then reads as a second column answering the headline, not a stacked caption."
+      ],
+      "polish": [
+        "ig-post: if the indent lands, try the mark at x 432 under the supporting line so the bottom group shares one column."
+      ]
+    }
+  ],
+  "waitingOn": null,
+  "cost": {
+    "director": 0.6704,
+    "senior": 0.1429,
+    "builder": 0.0148,
+    "total": 0.8281,
+    "complete": true
+  },
+  "tokens": {
+    "director": 128662,
+    "senior": 83209,
+    "builder": 50011
+  },
+  "files": {
+    "final": ".desk/out/20261020-0210-linkedin-instagram-portrait-asking/final.html",
+    "brief": ".desk/jobs/20261020-0210-linkedin-instagram-portrait-asking/brief.md",
+    "handback": ".desk/out/20261020-0210-linkedin-instagram-portrait-asking/handback.md"
+  },
+  "pen": "builder",
+  "notes": [
+    "composition: ig-post, keep the headline at 233px where it is and move the supporting line down to join the mark as one bottom group. Set it at 76px, line height 1.3, with its last line's bottom 64px above the top of the mark (mark top about 1178px, so the block runs about 916 to 1114px). This turns the 393px band of leftover air at the foot into a framed gap of about 400px between \"desk.\" and the bottom group, under the 450px limit.",
+    "originality: ig-post reads as the default stacked type card. The move that makes it this brand's is the same one linkedin already has: the headline block at the top answered by a small bottom group at the bottom left, with nothing in between. On linkedin, set the supporting line's second baseline exactly on the baseline of \"desk.\" (it is about 3px low now) so the hang reads as deliberate.",
+    "spacing: linkedin, put the supporting line's left edge at 600px (the canvas midpoint, on the 8px grid) instead of about 640px. ig-post, keep 64px between the supporting line and the mark, and keep the mark baseline on the 10% bottom margin (1215px)."
+  ],
+  "misses": {
+    "composition": 2,
+    "originality": 2
+  },
+  "startedAt": "2026-10-20T02:10:49-05:00",
+  "updatedAt": "2026-10-20T02:15:58-05:00",
+  "roughs": [
+    {
+      "n": 1,
+      "pattern": "Editorial split",
+      "file": ".desk/out/20261020-0210-linkedin-instagram-portrait-asking/rough-1.html",
+      "fonts": "Geist (brand family, runner-inlined, not a fallback)",
+      "written": true,
+      "renders": ".desk/jobs/20261020-0210-linkedin-instagram-portrait-asking/renders/roughs/rough-1"
+    },
+    {
+      "n": 2,
+      "pattern": "Full bleed with scrim",
+      "file": ".desk/out/20261020-0210-linkedin-instagram-portrait-asking/rough-2.html",
+      "fonts": "Geist, inlined by the runner, not a fallback",
+      "written": true,
+      "renders": ".desk/jobs/20261020-0210-linkedin-instagram-portrait-asking/renders/roughs/rough-2"
+    },
+    {
+      "n": 3,
+      "pattern": "Type only",
+      "file": ".desk/out/20261020-0210-linkedin-instagram-portrait-asking/rough-3.html",
+      "fonts": "Geist (brand family, inlined by runner; not a fallback)",
+      "written": true,
+      "renders": ".desk/jobs/20261020-0210-linkedin-instagram-portrait-asking/renders/roughs/rough-3"
+    }
+  ],
+  "lastRenders": ".desk/jobs/20261020-0210-linkedin-instagram-portrait-asking/renders/round-3",
+  "penNotes": [],
+  "finishedAt": "2026-10-20T02:15:58-05:00"
+}

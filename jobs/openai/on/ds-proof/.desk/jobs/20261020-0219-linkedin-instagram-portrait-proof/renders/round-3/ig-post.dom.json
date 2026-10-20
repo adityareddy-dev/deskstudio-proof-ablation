@@ -1,0 +1,93 @@
+{
+  "width": 1080,
+  "height": 1350,
+  "scrollWidth": 1080,
+  "scrollHeight": 1350,
+  "boxes": [
+    {
+      "x": 80,
+      "y": 66,
+      "width": 583.734375,
+      "height": 186,
+      "text": "Checked",
+      "color": "rgb(244, 244, 245)",
+      "opacity": 1,
+      "fontSize": 143,
+      "fontWeight": 600,
+      "fontFamily": "Geist, Inter, Arial, sans-serif",
+      "clips": []
+    },
+    {
+      "x": 80,
+      "y": 209,
+      "width": 165.03125,
+      "height": 186,
+      "text": "on",
+      "color": "rgb(244, 244, 245)",
+      "opacity": 1,
+      "fontSize": 143,
+      "fontWeight": 600,
+      "fontFamily": "Geist, Inter, Arial, sans-serif",
+      "clips": []
+    },
+    {
+      "x": 245.03125,
+      "y": 209,
+      "width": 280.484375,
+      "height": 186,
+      "text": "real",
+      "color": "rgb(244, 244, 245)",
+      "opacity": 1,
+      "fontSize": 143,
+      "fontWeight": 600,
+      "fontFamily": "Geist, Inter, Arial, sans-serif",
+      "clips": []
+    },
+    {
+      "x": 90,
+      "y": 362,
+      "width": 416.390625,
+      "height": 186,
+      "text": "pixels.",
+      "color": "rgb(244, 244, 245)",
+      "opacity": 1,
+      "fontSize": 143,
+      "fontWeight": 600,
+      "fontFamily": "Geist, Inter, Arial, sans-serif",
+      "clips": []
+    },
+    {
+      "x": 80,
+      "y": 601,
+      "width": 750.015625,
+      "height": 51,
+      "text": "Overflow, contrast, safe zone, every round.",
+      "color": "rgb(244, 244, 245)",
+      "opacity": 1,
+      "fontSize": 39,
+      "fontWeight": 400,
+      "fontFamily": "Geist, Inter, Arial, sans-serif",
+      "clips": []
+    },
+    {
+      "x": 80,
+      "y": 1001,
+      "width": 185.921875,
+      "height": 40,
+      "text": "deskstudio.ai",
+      "color": "rgb(244, 244, 245)",
+      "opacity": 1,
+      "fontSize": 31,
+      "fontWeight": 400,
+      "fontFamily": "Geist, Inter, Arial, sans-serif",
+      "clips": []
+    }
+  ],
+  "fonts": {
+    "Geist": true,
+    "Inter": false,
+    "Arial": true,
+    "sans-serif": true
+  },
+  "images": 0
+}

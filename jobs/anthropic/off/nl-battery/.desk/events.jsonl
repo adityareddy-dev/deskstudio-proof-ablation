@@ -1,0 +1,71 @@
+{"t":"2026-10-20T06:23:00.063Z","type":"job.start","id":"20261020-0123-linkedin-instagram-portrait-new","command":"design","deliverable":"social-card"}
+{"t":"2026-10-20T06:23:00.132Z","type":"desk.start","id":"20261020-0123-linkedin-instagram-portrait-new","desk":"design-manager","model":"anthropic/opus","tier":"director","task":"intake"}
+{"t":"2026-10-20T06:23:18.050Z","type":"desk.stop","id":"20261020-0123-linkedin-instagram-portrait-new","desk":"design-manager","tier":"director","status":"done","seconds":18,"model":"anthropic/opus","modelId":"claude-opus-5-5","tokens":{"input":2,"output":1513,"cacheRead":0,"cacheWrite":9883,"total":11398},"costUsd":0.109332}
+{"t":"2026-10-20T06:23:18.124Z","type":"job.phase","id":"20261020-0123-linkedin-instagram-portrait-new","phase":"roughs","round":0}
+{"t":"2026-10-20T06:23:18.323Z","type":"desk.start","id":"20261020-0123-linkedin-instagram-portrait-new","desk":"ui-designer","model":"anthropic/sonnet","tier":"senior","task":"rough 1, editorial split"}
+{"t":"2026-10-20T06:23:18.468Z","type":"desk.start","id":"20261020-0123-linkedin-instagram-portrait-new","desk":"ui-designer","model":"anthropic/sonnet","tier":"senior","task":"rough 2, full bleed with scrim"}
+{"t":"2026-10-20T06:23:18.632Z","type":"desk.start","id":"20261020-0123-linkedin-instagram-portrait-new","desk":"ui-designer","model":"anthropic/sonnet","tier":"senior","task":"rough 3, type only"}
+{"t":"2026-10-20T06:23:40.108Z","type":"desk.stop","id":"20261020-0123-linkedin-instagram-portrait-new","desk":"ui-designer","tier":"senior","status":"done","seconds":21,"model":"anthropic/sonnet","modelId":"claude-sonnet-5-5","tokens":{"input":2,"output":2265,"cacheRead":29139,"cacheWrite":5888,"total":37294},"costUsd":0.0491199}
+{"t":"2026-10-20T06:23:45.577Z","type":"desk.stop","id":"20261020-0123-linkedin-instagram-portrait-new","desk":"ui-designer","tier":"senior","status":"done","seconds":27,"model":"anthropic/sonnet","modelId":"claude-sonnet-5-5","tokens":{"input":2,"output":3147,"cacheRead":1401,"cacheWrite":5074,"total":9624},"costUsd":0.051910099999999994}
+{"t":"2026-10-20T06:23:51.415Z","type":"desk.stop","id":"20261020-0123-linkedin-instagram-portrait-new","desk":"ui-designer","tier":"senior","status":"done","seconds":33,"model":"anthropic/sonnet","modelId":"claude-sonnet-5-5","tokens":{"input":2,"output":3616,"cacheRead":29139,"cacheWrite":5894,"total":38651},"costUsd":0.0626539}
+{"t":"2026-10-20T06:23:56.149Z","type":"job.phase","id":"20261020-0123-linkedin-instagram-portrait-new","phase":"pick","round":0}
+{"t":"2026-10-20T06:23:56.200Z","type":"desk.start","id":"20261020-0123-linkedin-instagram-portrait-new","desk":"art-director","model":"anthropic/opus","tier":"director","task":"pick"}
+{"t":"2026-10-20T06:24:35.295Z","type":"desk.stop","id":"20261020-0123-linkedin-instagram-portrait-new","desk":"art-director","tier":"director","status":"done","seconds":39,"model":"anthropic/opus","modelId":"claude-opus-5-5","tokens":{"input":2,"output":3236,"cacheRead":1138,"cacheWrite":14303,"total":18679},"costUsd":0.17937959999999997}
+{"t":"2026-10-20T06:24:35.341Z","type":"job.pick","id":"20261020-0123-linkedin-instagram-portrait-new","by":"art-director","rough":1}
+{"t":"2026-10-20T06:24:35.396Z","type":"job.phase","id":"20261020-0123-linkedin-instagram-portrait-new","phase":"polish","round":1}
+{"t":"2026-10-20T06:24:35.449Z","type":"desk.start","id":"20261020-0123-linkedin-instagram-portrait-new","desk":"ui-designer","model":"anthropic/haiku","tier":"builder","task":"polish round 1"}
+{"t":"2026-10-20T06:25:17.496Z","type":"desk.stop","id":"20261020-0123-linkedin-instagram-portrait-new","desk":"ui-designer","tier":"builder","status":"done","seconds":42,"model":"anthropic/haiku","modelId":"claude-haiku-5-5","tokens":{"input":2,"output":8647,"cacheRead":29139,"cacheWrite":10202,"total":47990},"costUsd":0.00665549}
+{"t":"2026-10-20T06:25:17.551Z","type":"job.phase","id":"20261020-0123-linkedin-instagram-portrait-new","phase":"proof","round":1}
+{"t":"2026-10-20T06:25:19.300Z","type":"job.proof","id":"20261020-0123-linkedin-instagram-portrait-new","round":1,"skipped":true,"failures":0}
+{"t":"2026-10-20T06:25:19.356Z","type":"job.phase","id":"20261020-0123-linkedin-instagram-portrait-new","phase":"signoff","round":1}
+{"t":"2026-10-20T06:25:19.417Z","type":"desk.start","id":"20261020-0123-linkedin-instagram-portrait-new","desk":"creative-director","model":"anthropic/opus","tier":"director","task":"sign-off round 1"}
+{"t":"2026-10-20T06:25:48.821Z","type":"desk.stop","id":"20261020-0123-linkedin-instagram-portrait-new","desk":"creative-director","tier":"director","status":"done","seconds":29,"model":"anthropic/opus","modelId":"claude-opus-5-5","tokens":{"input":2,"output":2504,"cacheRead":0,"cacheWrite":10493,"total":12999},"costUsd":0.134032}
+{"t":"2026-10-20T06:25:48.870Z","type":"job.score","id":"20261020-0123-linkedin-instagram-portrait-new","round":1,"average":8,"pass":false}
+{"t":"2026-10-20T06:25:48.927Z","type":"job.phase","id":"20261020-0123-linkedin-instagram-portrait-new","phase":"polish","round":2}
+{"t":"2026-10-20T06:25:48.990Z","type":"desk.start","id":"20261020-0123-linkedin-instagram-portrait-new","desk":"ui-designer","model":"anthropic/haiku","tier":"builder","task":"polish round 2"}
+{"t":"2026-10-20T06:26:07.139Z","type":"desk.stop","id":"20261020-0123-linkedin-instagram-portrait-new","desk":"ui-designer","tier":"builder","status":"done","seconds":18,"model":"anthropic/haiku","modelId":"claude-haiku-5-5","tokens":{"input":2,"output":3999,"cacheRead":1401,"cacheWrite":9650,"total":15052},"costUsd":0.0039437100000000004}
+{"t":"2026-10-20T06:26:07.186Z","type":"job.phase","id":"20261020-0123-linkedin-instagram-portrait-new","phase":"proof","round":2}
+{"t":"2026-10-20T06:26:08.971Z","type":"job.proof","id":"20261020-0123-linkedin-instagram-portrait-new","round":2,"skipped":true,"failures":0}
+{"t":"2026-10-20T06:26:09.024Z","type":"job.phase","id":"20261020-0123-linkedin-instagram-portrait-new","phase":"signoff","round":2}
+{"t":"2026-10-20T06:26:09.082Z","type":"desk.start","id":"20261020-0123-linkedin-instagram-portrait-new","desk":"creative-director","model":"anthropic/opus","tier":"director","task":"sign-off round 2"}
+{"t":"2026-10-20T06:27:12.967Z","type":"desk.stop","id":"20261020-0123-linkedin-instagram-portrait-new","desk":"creative-director","tier":"director","status":"done","seconds":64,"model":"anthropic/opus","modelId":"claude-opus-5-5","tokens":{"input":2,"output":5158,"cacheRead":1171,"cacheWrite":9322,"total":15653},"costUsd":0.1779782}
+{"t":"2026-10-20T06:27:13.013Z","type":"job.score","id":"20261020-0123-linkedin-instagram-portrait-new","round":2,"average":8.13,"pass":false}
+{"t":"2026-10-20T06:27:13.068Z","type":"job.phase","id":"20261020-0123-linkedin-instagram-portrait-new","phase":"polish","round":3}
+{"t":"2026-10-20T06:27:13.124Z","type":"desk.start","id":"20261020-0123-linkedin-instagram-portrait-new","desk":"ui-designer","model":"anthropic/haiku","tier":"builder","task":"polish round 3"}
+{"t":"2026-10-20T06:27:44.796Z","type":"desk.stop","id":"20261020-0123-linkedin-instagram-portrait-new","desk":"ui-designer","tier":"builder","status":"done","seconds":32,"model":"anthropic/haiku","modelId":"claude-haiku-5-5","tokens":{"input":2,"output":6896,"cacheRead":1401,"cacheWrite":9764,"total":18063},"costUsd":0.0054150100000000005}
+{"t":"2026-10-20T06:27:44.836Z","type":"job.phase","id":"20261020-0123-linkedin-instagram-portrait-new","phase":"proof","round":3}
+{"t":"2026-10-20T06:27:46.129Z","type":"job.proof","id":"20261020-0123-linkedin-instagram-portrait-new","round":3,"skipped":true,"failures":0}
+{"t":"2026-10-20T06:27:46.174Z","type":"job.phase","id":"20261020-0123-linkedin-instagram-portrait-new","phase":"signoff","round":3}
+{"t":"2026-10-20T06:27:46.223Z","type":"desk.start","id":"20261020-0123-linkedin-instagram-portrait-new","desk":"creative-director","model":"anthropic/opus","tier":"director","task":"sign-off round 3"}
+{"t":"2026-10-20T06:28:25.430Z","type":"desk.stop","id":"20261020-0123-linkedin-instagram-portrait-new","desk":"creative-director","tier":"director","status":"done","seconds":39,"model":"anthropic/opus","modelId":"claude-opus-5-5","tokens":{"input":2,"output":3285,"cacheRead":1171,"cacheWrite":9322,"total":13780},"costUsd":0.1405182}
+{"t":"2026-10-20T06:28:25.472Z","type":"job.score","id":"20261020-0123-linkedin-instagram-portrait-new","round":3,"average":8,"pass":false}
+{"t":"2026-10-20T06:28:25.519Z","type":"job.phase","id":"20261020-0123-linkedin-instagram-portrait-new","phase":"polish","round":4}
+{"t":"2026-10-20T06:28:25.568Z","type":"desk.start","id":"20261020-0123-linkedin-instagram-portrait-new","desk":"ui-designer","model":"anthropic/sonnet","tier":"senior","task":"polish round 4, escalated"}
+{"t":"2026-10-20T06:28:55.172Z","type":"desk.stop","id":"20261020-0123-linkedin-instagram-portrait-new","desk":"ui-designer","tier":"senior","status":"done","seconds":30,"model":"anthropic/sonnet","modelId":"claude-sonnet-5-5","tokens":{"input":2,"output":3982,"cacheRead":1401,"cacheWrite":9803,"total":15188},"costUsd":0.0791761}
+{"t":"2026-10-20T06:28:55.227Z","type":"job.phase","id":"20261020-0123-linkedin-instagram-portrait-new","phase":"proof","round":4}
+{"t":"2026-10-20T06:28:57.209Z","type":"job.proof","id":"20261020-0123-linkedin-instagram-portrait-new","round":4,"skipped":true,"failures":0}
+{"t":"2026-10-20T06:28:57.257Z","type":"job.phase","id":"20261020-0123-linkedin-instagram-portrait-new","phase":"signoff","round":4}
+{"t":"2026-10-20T06:28:57.308Z","type":"desk.start","id":"20261020-0123-linkedin-instagram-portrait-new","desk":"creative-director","model":"anthropic/opus","tier":"director","task":"sign-off round 4"}
+{"t":"2026-10-20T06:29:50.083Z","type":"desk.stop","id":"20261020-0123-linkedin-instagram-portrait-new","desk":"creative-director","tier":"director","status":"done","seconds":53,"model":"anthropic/opus","modelId":"claude-opus-5-5","tokens":{"input":2,"output":4582,"cacheRead":1171,"cacheWrite":9322,"total":15077},"costUsd":0.1664582}
+{"t":"2026-10-20T06:29:50.133Z","type":"job.score","id":"20261020-0123-linkedin-instagram-portrait-new","round":4,"average":8.13,"pass":false}
+{"t":"2026-10-20T06:29:50.184Z","type":"job.phase","id":"20261020-0123-linkedin-instagram-portrait-new","phase":"polish","round":5}
+{"t":"2026-10-20T06:29:50.242Z","type":"desk.start","id":"20261020-0123-linkedin-instagram-portrait-new","desk":"ui-designer","model":"anthropic/sonnet","tier":"senior","task":"polish round 5, escalated"}
+{"t":"2026-10-20T06:30:06.084Z","type":"desk.stop","id":"20261020-0123-linkedin-instagram-portrait-new","desk":"ui-designer","tier":"senior","status":"done","seconds":16,"model":"anthropic/sonnet","modelId":"claude-sonnet-5-5","tokens":{"input":2,"output":2378,"cacheRead":1401,"cacheWrite":9850,"total":13631},"costUsd":0.0633241}
+{"t":"2026-10-20T06:30:06.142Z","type":"job.phase","id":"20261020-0123-linkedin-instagram-portrait-new","phase":"proof","round":5}
+{"t":"2026-10-20T06:30:07.736Z","type":"job.proof","id":"20261020-0123-linkedin-instagram-portrait-new","round":5,"skipped":true,"failures":0}
+{"t":"2026-10-20T06:30:07.794Z","type":"job.phase","id":"20261020-0123-linkedin-instagram-portrait-new","phase":"signoff","round":5}
+{"t":"2026-10-20T06:30:07.846Z","type":"desk.start","id":"20261020-0123-linkedin-instagram-portrait-new","desk":"creative-director","model":"anthropic/opus","tier":"director","task":"sign-off round 5"}
+{"t":"2026-10-20T06:31:07.335Z","type":"desk.stop","id":"20261020-0123-linkedin-instagram-portrait-new","desk":"creative-director","tier":"director","status":"done","seconds":59,"model":"anthropic/opus","modelId":"claude-opus-5-5","tokens":{"input":2,"output":5034,"cacheRead":1171,"cacheWrite":9322,"total":15529},"costUsd":0.1754982}
+{"t":"2026-10-20T06:31:07.381Z","type":"job.score","id":"20261020-0123-linkedin-instagram-portrait-new","round":5,"average":8.13,"pass":false}
+{"t":"2026-10-20T06:31:07.436Z","type":"job.phase","id":"20261020-0123-linkedin-instagram-portrait-new","phase":"polish","round":6}
+{"t":"2026-10-20T06:31:07.497Z","type":"desk.start","id":"20261020-0123-linkedin-instagram-portrait-new","desk":"ui-designer","model":"anthropic/sonnet","tier":"senior","task":"polish round 6, escalated"}
+{"t":"2026-10-20T06:31:24.334Z","type":"desk.stop","id":"20261020-0123-linkedin-instagram-portrait-new","desk":"ui-designer","tier":"senior","status":"done","seconds":17,"model":"anthropic/sonnet","modelId":"claude-sonnet-5-5","tokens":{"input":2,"output":2504,"cacheRead":1401,"cacheWrite":9761,"total":13668},"costUsd":0.06422810000000001}
+{"t":"2026-10-20T06:31:24.373Z","type":"job.phase","id":"20261020-0123-linkedin-instagram-portrait-new","phase":"proof","round":6}
+{"t":"2026-10-20T06:31:25.597Z","type":"job.proof","id":"20261020-0123-linkedin-instagram-portrait-new","round":6,"skipped":true,"failures":0}
+{"t":"2026-10-20T06:31:25.645Z","type":"job.phase","id":"20261020-0123-linkedin-instagram-portrait-new","phase":"signoff","round":6}
+{"t":"2026-10-20T06:31:25.694Z","type":"desk.start","id":"20261020-0123-linkedin-instagram-portrait-new","desk":"creative-director","model":"anthropic/opus","tier":"director","task":"sign-off round 6"}
+{"t":"2026-10-20T06:32:06.419Z","type":"desk.stop","id":"20261020-0123-linkedin-instagram-portrait-new","desk":"creative-director","tier":"director","status":"done","seconds":41,"model":"anthropic/opus","modelId":"claude-opus-5-5","tokens":{"input":2,"output":3243,"cacheRead":28909,"cacheWrite":10138,"total":42292},"costUsd":0.1517538}
+{"t":"2026-10-20T06:32:06.456Z","type":"job.score","id":"20261020-0123-linkedin-instagram-portrait-new","round":6,"average":8.25,"pass":false}
+{"t":"2026-10-20T06:32:06.501Z","type":"job.waiting","id":"20261020-0123-linkedin-instagram-portrait-new","on":"approve_under_bar"}
+{"t":"2026-10-20T06:32:06.546Z","type":"job.phase","id":"20261020-0123-linkedin-instagram-portrait-new","phase":"handback","round":6}
+{"t":"2026-10-20T06:32:06.597Z","type":"job.done","id":"20261020-0123-linkedin-instagram-portrait-new","rounds":6,"average":8.25,"pass":false}

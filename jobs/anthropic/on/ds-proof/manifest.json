@@ -1,0 +1,25 @@
+{
+ "family": "anthropic",
+ "arm": "on",
+ "case": "ds-proof",
+ "brand": "deskstudio",
+ "ask": "a LinkedIn card and an Instagram portrait card about proof on real pixels, every render checked before sign-off. Copy that must appear: 'Checked on real pixels.' and 'Overflow, contrast, safe zone, every round.' and 'deskstudio.ai'.",
+ "models": "studio preset",
+ "startedAt": "2026-10-20T07:14:40.731Z",
+ "attempts": [
+  {
+   "code": 0,
+   "seconds": 221
+  }
+ ],
+ "exit": 0,
+ "seconds": 221,
+ "jobId": "20261020-0214-linkedin-instagram-portrait-proof",
+ "phase": "done",
+ "done": true,
+ "finishedAt": "2026-10-20T07:18:21.353Z",
+ "audit": {
+  "pass": true,
+  "failures": 0
+ }
+}

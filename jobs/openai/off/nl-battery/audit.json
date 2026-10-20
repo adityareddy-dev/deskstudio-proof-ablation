@@ -1,0 +1,39 @@
+{
+ "pass": false,
+ "file": "final.html",
+ "renders": [
+  {
+   "size": "linkedin",
+   "scheme": "light",
+   "width": 1200,
+   "height": 627,
+   "png": "C:\\Users\\adity\\Desktop\\Adi\\deskstudio-research\\proof-ablation-2026-10-20\\jobs\\openai\\off\\nl-battery\\.desk\\jobs\\20261020-0138-linkedin-instagram-portrait-new\\renders\\audit\\linkedin.png",
+   "pass": true,
+   "failures": []
+  },
+  {
+   "size": "ig-post",
+   "scheme": "light",
+   "width": 1080,
+   "height": 1350,
+   "png": "C:\\Users\\adity\\Desktop\\Adi\\deskstudio-research\\proof-ablation-2026-10-20\\jobs\\openai\\off\\nl-battery\\.desk\\jobs\\20261020-0138-linkedin-instagram-portrait-new\\renders\\audit\\ig-post.png",
+   "pass": false,
+   "failures": [
+    {
+     "check": "safe-zone",
+     "text": "Seven",
+     "reason": "80px from the top edge, the safe zone starts at 81px"
+    },
+    {
+     "check": "safe-zone",
+     "text": "years",
+     "reason": "80px from the top edge, the safe zone starts at 81px"
+    }
+   ]
+  }
+ ],
+ "screenshots": [
+  "C:\\Users\\adity\\Desktop\\Adi\\deskstudio-research\\proof-ablation-2026-10-20\\jobs\\openai\\off\\nl-battery\\.desk\\jobs\\20261020-0138-linkedin-instagram-portrait-new\\renders\\audit\\linkedin.png",
+  "C:\\Users\\adity\\Desktop\\Adi\\deskstudio-research\\proof-ablation-2026-10-20\\jobs\\openai\\off\\nl-battery\\.desk\\jobs\\20261020-0138-linkedin-instagram-portrait-new\\renders\\audit\\ig-post.png"
+ ]
+}

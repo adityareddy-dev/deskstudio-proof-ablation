@@ -1,0 +1,65 @@
+{
+ "pass": false,
+ "file": "final.html",
+ "renders": [
+  {
+   "size": "linkedin",
+   "scheme": "light",
+   "width": 1200,
+   "height": 627,
+   "png": "C:\\Users\\adity\\Desktop\\Adi\\deskstudio-research\\proof-ablation-2026-10-20\\jobs\\anthropic\\off\\fe-event\\.desk\\jobs\\20261020-0201-linkedin-instagram-portrait-open\\renders\\audit\\linkedin.png",
+   "pass": false,
+   "failures": [
+    {
+     "check": "safe-zone",
+     "text": "Open workshop.",
+     "reason": "34px from the top edge, the safe zone starts at 38px"
+    }
+   ]
+  },
+  {
+   "size": "ig-post",
+   "scheme": "light",
+   "width": 1080,
+   "height": 1350,
+   "png": "C:\\Users\\adity\\Desktop\\Adi\\deskstudio-research\\proof-ablation-2026-10-20\\jobs\\anthropic\\off\\fe-event\\.desk\\jobs\\20261020-0201-linkedin-instagram-portrait-open\\renders\\audit\\ig-post.png",
+   "pass": false,
+   "failures": [
+    {
+     "check": "safe-zone",
+     "text": "Open workshop.",
+     "reason": "64px from the left edge, the safe zone starts at 65px"
+    },
+    {
+     "check": "safe-zone",
+     "text": "Saturday",
+     "reason": "64px from the left edge, the safe zone starts at 65px"
+    },
+    {
+     "check": "safe-zone",
+     "text": "November",
+     "reason": "64px from the left edge, the safe zone starts at 65px"
+    },
+    {
+     "check": "safe-zone",
+     "text": "8",
+     "reason": "64px from the left edge, the safe zone starts at 65px"
+    },
+    {
+     "check": "safe-zone",
+     "text": "Bring a part. Leave with it cut.",
+     "reason": "64px from the left edge, the safe zone starts at 65px"
+    },
+    {
+     "check": "safe-zone",
+     "text": "ferro.tools",
+     "reason": "64px from the left edge, the safe zone starts at 65px"
+    }
+   ]
+  }
+ ],
+ "screenshots": [
+  "C:\\Users\\adity\\Desktop\\Adi\\deskstudio-research\\proof-ablation-2026-10-20\\jobs\\anthropic\\off\\fe-event\\.desk\\jobs\\20261020-0201-linkedin-instagram-portrait-open\\renders\\audit\\linkedin.png",
+  "C:\\Users\\adity\\Desktop\\Adi\\deskstudio-research\\proof-ablation-2026-10-20\\jobs\\anthropic\\off\\fe-event\\.desk\\jobs\\20261020-0201-linkedin-instagram-portrait-open\\renders\\audit\\ig-post.png"
+ ]
+}

@@ -1,0 +1,171 @@
+{
+ "family": "anthropic",
+ "arm": "on",
+ "case": "ds-launch",
+ "jobId": "20261020-0203-linkedin-instagram-portrait-desk",
+ "rounds": [
+  {
+   "round": 1,
+   "sizes": [
+    {
+     "size": "ig-post",
+     "failures": [
+      {
+       "check": "safe-zone",
+       "text": "A design studio inside your coding ag...",
+       "reason": "62px from the top edge, the safe zone starts at 81px"
+      }
+     ]
+    },
+    {
+     "size": "linkedin",
+     "failures": [
+      {
+       "check": "safe-zone",
+       "text": "A design studio inside your coding ag...",
+       "reason": "26px from the top edge, the safe zone starts at 38px"
+      }
+     ]
+    }
+   ],
+   "failures": 2,
+   "byCheck": {
+    "safe-zone": 2
+   }
+  },
+  {
+   "round": 2,
+   "sizes": [
+    {
+     "size": "ig-post",
+     "failures": []
+    },
+    {
+     "size": "linkedin",
+     "failures": []
+    }
+   ],
+   "failures": 0,
+   "byCheck": {}
+  },
+  {
+   "round": 3,
+   "sizes": [
+    {
+     "size": "ig-post",
+     "failures": [
+      {
+       "check": "safe-zone",
+       "text": "A design studio",
+       "reason": "60px from the left edge, the safe zone starts at 65px"
+      },
+      {
+       "check": "safe-zone",
+       "text": "inside your coding",
+       "reason": "60px from the left edge, the safe zone starts at 65px"
+      },
+      {
+       "check": "safe-zone",
+       "text": "inside your coding",
+       "reason": "60px from the left edge, the safe zone starts at 65px"
+      },
+      {
+       "check": "copy",
+       "text": "A design studio inside your coding ag...",
+       "reason": "this copy is not in the rendered text, it must appear word for word"
+      }
+     ]
+    },
+    {
+     "size": "linkedin",
+     "failures": [
+      {
+       "check": "safe-zone",
+       "text": "A design studio",
+       "reason": "67px from the left edge, the safe zone starts at 72px; 22px from the top edge, the safe zone starts at 38px"
+      },
+      {
+       "check": "safe-zone",
+       "text": "inside your coding",
+       "reason": "67px from the left edge, the safe zone starts at 72px"
+      },
+      {
+       "check": "safe-zone",
+       "text": "agent.",
+       "reason": "67px from the left edge, the safe zone starts at 72px"
+      }
+     ]
+    }
+   ],
+   "failures": 7,
+   "byCheck": {
+    "safe-zone": 6,
+    "copy": 1
+   }
+  },
+  {
+   "round": 4,
+   "sizes": [
+    {
+     "size": "ig-post",
+     "failures": []
+    },
+    {
+     "size": "linkedin",
+     "failures": []
+    }
+   ],
+   "failures": 0,
+   "byCheck": {}
+  },
+  {
+   "round": 5,
+   "sizes": [
+    {
+     "size": "ig-post",
+     "failures": [
+      {
+       "check": "overflow",
+       "text": "inside your",
+       "reason": "runs off the canvas at 493px,246px size 749pxx194px"
+      },
+      {
+       "check": "overflow",
+       "text": "inside your",
+       "reason": "clipped by a container with overflow hidden"
+      },
+      {
+       "check": "safe-zone",
+       "text": "inside your",
+       "reason": "ends -162px from the right edge, the safe zone is 65px"
+      }
+     ]
+    },
+    {
+     "size": "linkedin",
+     "failures": []
+    }
+   ],
+   "failures": 3,
+   "byCheck": {
+    "overflow": 2,
+    "safe-zone": 1
+   }
+  },
+  {
+   "round": 6,
+   "sizes": [
+    {
+     "size": "ig-post",
+     "failures": []
+    },
+    {
+     "size": "linkedin",
+     "failures": []
+    }
+   ],
+   "failures": 0,
+   "byCheck": {}
+  }
+ ]
+}

@@ -1,0 +1,297 @@
+{
+  "id": "20261020-0132-linkedin-instagram-portrait-installs",
+  "command": "design",
+  "deliverable": "social-card",
+  "sizes": [
+    "linkedin",
+    "ig-post"
+  ],
+  "quality": "studio",
+  "proofMode": "off",
+  "models": {
+    "director": "anthropic/opus",
+    "senior": "anthropic/sonnet",
+    "builder": "anthropic/haiku"
+  },
+  "phase": "done",
+  "round": 3,
+  "maxRounds": 6,
+  "desks": [
+    {
+      "desk": "design-manager",
+      "task": "intake",
+      "status": "done",
+      "model": "anthropic/opus",
+      "startedAt": "2026-10-20T01:32:25-05:00",
+      "updatedAt": "2026-10-20T01:32:38-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "rough 1, editorial split",
+      "status": "done",
+      "model": "anthropic/sonnet",
+      "startedAt": "2026-10-20T01:32:38-05:00",
+      "updatedAt": "2026-10-20T01:33:13-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "rough 2, full bleed with scrim",
+      "status": "done",
+      "model": "anthropic/sonnet",
+      "startedAt": "2026-10-20T01:32:38-05:00",
+      "updatedAt": "2026-10-20T01:33:10-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "rough 3, type only",
+      "status": "done",
+      "model": "anthropic/sonnet",
+      "startedAt": "2026-10-20T01:32:38-05:00",
+      "updatedAt": "2026-10-20T01:33:03-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "art-director",
+      "task": "pick",
+      "status": "done",
+      "model": "anthropic/opus",
+      "startedAt": "2026-10-20T01:33:18-05:00",
+      "updatedAt": "2026-10-20T01:33:48-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 1",
+      "status": "done",
+      "model": "anthropic/haiku",
+      "startedAt": "2026-10-20T01:33:48-05:00",
+      "updatedAt": "2026-10-20T01:34:50-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "creative-director",
+      "task": "sign-off round 1",
+      "status": "done",
+      "model": "anthropic/opus",
+      "startedAt": "2026-10-20T01:34:51-05:00",
+      "updatedAt": "2026-10-20T01:35:53-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 2",
+      "status": "done",
+      "model": "anthropic/haiku",
+      "startedAt": "2026-10-20T01:35:53-05:00",
+      "updatedAt": "2026-10-20T01:36:38-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "creative-director",
+      "task": "sign-off round 2",
+      "status": "done",
+      "model": "anthropic/opus",
+      "startedAt": "2026-10-20T01:36:39-05:00",
+      "updatedAt": "2026-10-20T01:37:13-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 3",
+      "status": "done",
+      "model": "anthropic/haiku",
+      "startedAt": "2026-10-20T01:37:13-05:00",
+      "updatedAt": "2026-10-20T01:38:13-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "creative-director",
+      "task": "sign-off round 3",
+      "status": "done",
+      "model": "anthropic/opus",
+      "startedAt": "2026-10-20T01:38:15-05:00",
+      "updatedAt": "2026-10-20T01:39:03-05:00",
+      "via": "cli"
+    }
+  ],
+  "pick": {
+    "by": "art-director",
+    "rough": 1,
+    "pattern": "Editorial split",
+    "combineWith": null,
+    "reason": "Rough 1 is the only one that already uses both aspect ratios: a left/right split on LinkedIn and a top/bottom stack on Instagram. Its accent sits on the figure, \"seven years\", as the brand asks, and the Instagram card passes the standard as it stands.",
+    "lost": "2 leaves an empty band of about 560px between the headline and the supporting line on Instagram, which is over the one-third limit, and its black block holds only the mark. 3 wraps the LinkedIn headline to four lines when landscape allows three, and its grey mark sits right under the supporting line instead of in a corner.",
+    "notes": [
+      "LinkedIn headline from about 61px to 76px, line height 1.05, tracking -0.02em, still two lines (\"Now installing / in Minneapolis.\"). The headline has to own the left column (standard: the headline reads at thumbnail size).",
+      "LinkedIn supporting line from about 39px to 49px, line height 1.15, still two lines and still at the bottom of the right panel. This turns it into the big element the right 45% is there for (standard: editorial split). It is 49px on Instagram too, so the card uses one supporting size.",
+      "LinkedIn mark at 20px, bottom-left at 40px from the left edge and 40px from the bottom. Line its baseline up with the baseline of \"Same seven years.\" so the bottom of the card reads as one row.",
+      "Instagram headline break: force it to read \"Now / installing / in Minneapolis.\" at 119px, line height 1.0. This ends the orphaned \"in\" at the end of line two and leaves a stepped rag (standard: the headline's last line carries the place).",
+      "Instagram mark stays at 20px, bottom-left, with its baseline 136px from the bottom edge (inside the 10% bottom safe zone). The surface block starts at y=808 (an 8px multiple), the supporting line's cap top sits 96px below that, and the accent stays only on \"seven years.\""
+    ],
+    "at": "2026-10-20T01:33:48-05:00"
+  },
+  "proof": [
+    {
+      "round": 1,
+      "pass": null,
+      "skipped": true,
+      "failures": 0
+    },
+    {
+      "round": 2,
+      "pass": null,
+      "skipped": true,
+      "failures": 0
+    },
+    {
+      "round": 3,
+      "pass": null,
+      "skipped": true,
+      "failures": 0
+    }
+  ],
+  "scores": [
+    {
+      "round": 1,
+      "by": "creative-director",
+      "axes": {
+        "hierarchy": 9,
+        "typography": 8,
+        "spacing": 8,
+        "colour": 9,
+        "composition": 7,
+        "originality": 7,
+        "brand": 9,
+        "copy": 9
+      },
+      "average": 8.25,
+      "pass": false,
+      "notes": [
+        "composition: ig-post has about 475px of empty space between the headline's descender (~y=425) and the supporting line (~y=900), which is over a third of 1350. Move the surface block from y=808 up to y=600. Put the supporting line's cap top 96px below that (y=696), at 76px with line height 1.1. Leave the mark's baseline at y=1214, so no gap is taller than about 350px.",
+        "originality: linkedin reads as the default 55/45 two-box split. Remove the #ebe8e0 right panel so the card is one #f7f5f0 field. Keep the headline top-left, start the supporting line at x=700 and keep it bottom-anchored on the mark's baseline row, so the diagonal of type is the whole idea. On ig-post, the 76px supporting line from the composition note turns the card into two statements stacked on one left edge, not a headline over a caption.",
+        "typography: supporting line tracking 0 to -0.01em at both sizes (49px linkedin, 76px ig-post). On ig-post, check that the \"Same\" over \"Same\" pair shares one optical left edge with the headline's \"N\" at x=64.",
+        "spacing: linkedin headline cap top sits at ~52px against 40px left and bottom margins. Move it up to a 40px cap top so the card has one margin. On ig-post, keep the left edge of every text block at x=64 (8px grid)."
+      ],
+      "polish": [
+        "On ig-post, try \"Now installing\" on one line at 119px if it fits within 952px. If it wraps, keep the three-line stepped rag."
+      ]
+    },
+    {
+      "round": 2,
+      "by": "creative-director",
+      "axes": {
+        "hierarchy": 8,
+        "typography": 8,
+        "spacing": 7,
+        "colour": 9,
+        "composition": 7,
+        "originality": 7,
+        "brand": 9,
+        "copy": 9
+      },
+      "average": 8,
+      "pass": false,
+      "notes": [
+        "spacing: linkedin side margins are uneven (headline at x=36, mark at x=40, supporting line ends at x=1136). Set all left edges to x=72, keep the right edge of content at or inside x=1128, top 40px, bottom 40px. On ig-post, move headline, supporting line and mark to one left edge at x=72 (headline is at 60 and supporting at 64 now).",
+        "composition: linkedin has no split. Headline top-left, supporting line bottom-right and a 300px empty middle on one flat background read as leftover space. Build the editorial split: a #ebe8e0 surface panel from x=660 to 1200, full height. Put the supporting line inside it, left-aligned at x=720, with the baseline of \"Same seven years.\" at y=587 on the same row as the mark baseline. Keep the headline at 76px, cap top at y=40, in the left 55% on #f7f5f0.",
+        "composition: on ig-post the surface block starts at y=600, not the y=808 the pick asked for, and it leaves 350px of empty surface under the supporting line. Start the block at y=808, put the supporting line's cap top at y=904 and keep the mark baseline 136px from the bottom.",
+        "originality: once the panels split, it is the brand's warm surface carrying the seven-year promise that makes the card. Keep \"seven years.\" as the only accent and add no other element to the panel.",
+        "hierarchy: once the linkedin split is in, check that the supporting line at 49px stays clearly second to the 76px headline. Do not raise it past 49px.",
+        "typography: on ig-post, set the headline at 119px exactly, line height 1.0, tracking -0.02em, and keep the \"Now / installing / in Minneapolis.\" break. On linkedin use 76px, line height 1.05, tracking -0.02em. Use 49px on both for the supporting line, at line height 1.15."
+      ],
+      "polish": [
+        "On linkedin, set the headline's left optical edge 2px in so the stem of the \"N\" sits on x=72 with the mark's \"n\"."
+      ]
+    },
+    {
+      "round": 3,
+      "by": "creative-director",
+      "axes": {
+        "hierarchy": 9,
+        "typography": 9,
+        "spacing": 8,
+        "colour": 9,
+        "composition": 8,
+        "originality": 8,
+        "brand": 9,
+        "copy": 9
+      },
+      "average": 8.63,
+      "pass": true,
+      "notes": [
+        "spacing: linkedin, supporting line from x=720 to x=712 so its inset from the panel edge (52px) matches its right margin (about 51px). Keep its baseline locked to the mark's baseline at 40px from the bottom.",
+        "composition: ig-post, supporting line cap top from 96px to 136px below the surface edge (y=944). The air above the line then matches the 136px from the mark's baseline to the bottom, instead of 96px above and 205px below.",
+        "originality: ig-post, supporting line 49px to 61px, line height 1.15, still two lines, accent only on \"seven years.\" That gives the card a second focal point at about half the headline's size, so the split reads as \"new city on paper, same promise on surface\"."
+      ],
+      "polish": [
+        "linkedin: headline tracking from about -0.02em to -0.025em on \"in Minneapolis.\" only, so its right edge sits closer to the column's optical edge."
+      ]
+    }
+  ],
+  "waitingOn": null,
+  "cost": {
+    "director": 0.6579,
+    "senior": 0.1664,
+    "builder": 0.0248,
+    "total": 0.8491,
+    "complete": true
+  },
+  "tokens": {
+    "director": 99706,
+    "senior": 29282,
+    "builder": 125958
+  },
+  "files": {
+    "final": ".desk/out/20261020-0132-linkedin-instagram-portrait-installs/final.html",
+    "brief": ".desk/jobs/20261020-0132-linkedin-instagram-portrait-installs/brief.md",
+    "handback": ".desk/out/20261020-0132-linkedin-instagram-portrait-installs/handback.md"
+  },
+  "pen": "builder",
+  "notes": [
+    "spacing: linkedin side margins are uneven (headline at x=36, mark at x=40, supporting line ends at x=1136). Set all left edges to x=72, keep the right edge of content at or inside x=1128, top 40px, bottom 40px. On ig-post, move headline, supporting line and mark to one left edge at x=72 (headline is at 60 and supporting at 64 now).",
+    "composition: linkedin has no split. Headline top-left, supporting line bottom-right and a 300px empty middle on one flat background read as leftover space. Build the editorial split: a #ebe8e0 surface panel from x=660 to 1200, full height. Put the supporting line inside it, left-aligned at x=720, with the baseline of \"Same seven years.\" at y=587 on the same row as the mark baseline. Keep the headline at 76px, cap top at y=40, in the left 55% on #f7f5f0.",
+    "composition: on ig-post the surface block starts at y=600, not the y=808 the pick asked for, and it leaves 350px of empty surface under the supporting line. Start the block at y=808, put the supporting line's cap top at y=904 and keep the mark baseline 136px from the bottom.",
+    "originality: once the panels split, it is the brand's warm surface carrying the seven-year promise that makes the card. Keep \"seven years.\" as the only accent and add no other element to the panel.",
+    "hierarchy: once the linkedin split is in, check that the supporting line at 49px stays clearly second to the 76px headline. Do not raise it past 49px.",
+    "typography: on ig-post, set the headline at 119px exactly, line height 1.0, tracking -0.02em, and keep the \"Now / installing / in Minneapolis.\" break. On linkedin use 76px, line height 1.05, tracking -0.02em. Use 49px on both for the supporting line, at line height 1.15."
+  ],
+  "misses": {
+    "spacing": 1,
+    "composition": 2,
+    "originality": 2
+  },
+  "startedAt": "2026-10-20T01:32:25-05:00",
+  "updatedAt": "2026-10-20T01:39:03-05:00",
+  "roughs": [
+    {
+      "n": 1,
+      "pattern": "Editorial split",
+      "file": ".desk/out/20261020-0132-linkedin-instagram-portrait-installs/rough-1.html",
+      "fonts": "Inter, inlined by the runner, not a fallback",
+      "written": true,
+      "renders": ".desk/jobs/20261020-0132-linkedin-instagram-portrait-installs/renders/roughs/rough-1"
+    },
+    {
+      "n": 2,
+      "pattern": "Full bleed with scrim",
+      "file": ".desk/out/20261020-0132-linkedin-instagram-portrait-installs/rough-2.html",
+      "fonts": "Inter (runner inlines it, not a fallback)",
+      "written": true,
+      "renders": ".desk/jobs/20261020-0132-linkedin-instagram-portrait-installs/renders/roughs/rough-2"
+    },
+    {
+      "n": 3,
+      "pattern": "Type only",
+      "file": ".desk/out/20261020-0132-linkedin-instagram-portrait-installs/rough-3.html",
+      "fonts": "Inter, inlined by the runner, not a fallback",
+      "written": true,
+      "renders": ".desk/jobs/20261020-0132-linkedin-instagram-portrait-installs/renders/roughs/rough-3"
+    }
+  ],
+  "lastRenders": ".desk/jobs/20261020-0132-linkedin-instagram-portrait-installs/renders/round-3",
+  "penNotes": [],
+  "finishedAt": "2026-10-20T01:39:03-05:00"
+}

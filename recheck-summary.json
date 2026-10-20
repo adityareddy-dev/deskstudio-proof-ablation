@@ -1,0 +1,2132 @@
+[
+ {
+  "family": "anthropic",
+  "arm": "on",
+  "case": "ds-contrib",
+  "rounds": [
+   {
+    "round": 1,
+    "failures": 8,
+    "byCheck": {
+     "safe-zone": 8
+    }
+   },
+   {
+    "round": 2,
+    "failures": 0,
+    "byCheck": {}
+   },
+   {
+    "round": 3,
+    "failures": 3,
+    "byCheck": {
+     "safe-zone": 3
+    }
+   },
+   {
+    "round": 4,
+    "failures": 0,
+    "byCheck": {}
+   }
+  ]
+ },
+ {
+  "family": "anthropic",
+  "arm": "on",
+  "case": "ds-launch",
+  "rounds": [
+   {
+    "round": 1,
+    "failures": 2,
+    "byCheck": {
+     "safe-zone": 2
+    }
+   },
+   {
+    "round": 2,
+    "failures": 0,
+    "byCheck": {}
+   },
+   {
+    "round": 3,
+    "failures": 7,
+    "byCheck": {
+     "safe-zone": 6,
+     "copy": 1
+    }
+   },
+   {
+    "round": 4,
+    "failures": 0,
+    "byCheck": {}
+   },
+   {
+    "round": 5,
+    "failures": 3,
+    "byCheck": {
+     "overflow": 2,
+     "safe-zone": 1
+    }
+   },
+   {
+    "round": 6,
+    "failures": 0,
+    "byCheck": {}
+   }
+  ]
+ },
+ {
+  "family": "anthropic",
+  "arm": "on",
+  "case": "ds-proof",
+  "rounds": [
+   {
+    "round": 1,
+    "failures": 6,
+    "byCheck": {
+     "safe-zone": 6
+    }
+   },
+   {
+    "round": 2,
+    "failures": 0,
+    "byCheck": {}
+   }
+  ]
+ },
+ {
+  "family": "anthropic",
+  "arm": "on",
+  "case": "fe-event",
+  "rounds": [
+   {
+    "round": 1,
+    "failures": 7,
+    "byCheck": {
+     "safe-zone": 5,
+     "type-scale": 2
+    }
+   },
+   {
+    "round": 2,
+    "failures": 0,
+    "byCheck": {}
+   }
+  ]
+ },
+ {
+  "family": "anthropic",
+  "arm": "on",
+  "case": "fe-maker",
+  "rounds": [
+   {
+    "round": 1,
+    "failures": 5,
+    "byCheck": {
+     "safe-zone": 3,
+     "type-scale": 2
+    }
+   },
+   {
+    "round": 2,
+    "failures": 0,
+    "byCheck": {}
+   },
+   {
+    "round": 3,
+    "failures": 5,
+    "byCheck": {
+     "safe-zone": 5
+    }
+   },
+   {
+    "round": 4,
+    "failures": 4,
+    "byCheck": {
+     "type-scale": 4
+    }
+   },
+   {
+    "round": 5,
+    "failures": 0,
+    "byCheck": {}
+   },
+   {
+    "round": 6,
+    "failures": 3,
+    "byCheck": {
+     "safe-zone": 3
+    }
+   }
+  ]
+ },
+ {
+  "family": "anthropic",
+  "arm": "on",
+  "case": "fe-spec",
+  "rounds": [
+   {
+    "round": 1,
+    "failures": 5,
+    "byCheck": {
+     "safe-zone": 5
+    }
+   },
+   {
+    "round": 2,
+    "failures": 2,
+    "byCheck": {
+     "safe-zone": 2
+    }
+   },
+   {
+    "round": 3,
+    "failures": 0,
+    "byCheck": {}
+   }
+  ]
+ },
+ {
+  "family": "anthropic",
+  "arm": "on",
+  "case": "fe-spindle",
+  "rounds": [
+   {
+    "round": 1,
+    "failures": 11,
+    "byCheck": {
+     "safe-zone": 11
+    }
+   },
+   {
+    "round": 2,
+    "failures": 3,
+    "byCheck": {
+     "safe-zone": 3
+    }
+   },
+   {
+    "round": 3,
+    "failures": 0,
+    "byCheck": {}
+   }
+  ]
+ },
+ {
+  "family": "anthropic",
+  "arm": "on",
+  "case": "nl-battery",
+  "rounds": [
+   {
+    "round": 1,
+    "failures": 5,
+    "byCheck": {
+     "safe-zone": 5
+    }
+   },
+   {
+    "round": 2,
+    "failures": 0,
+    "byCheck": {}
+   },
+   {
+    "round": 3,
+    "failures": 6,
+    "byCheck": {
+     "safe-zone": 6
+    }
+   },
+   {
+    "round": 4,
+    "failures": 0,
+    "byCheck": {}
+   },
+   {
+    "round": 5,
+    "failures": 0,
+    "byCheck": {}
+   }
+  ]
+ },
+ {
+  "family": "anthropic",
+  "arm": "on",
+  "case": "nl-city",
+  "rounds": [
+   {
+    "round": 1,
+    "failures": 2,
+    "byCheck": {
+     "safe-zone": 2
+    }
+   },
+   {
+    "round": 2,
+    "failures": 0,
+    "byCheck": {}
+   },
+   {
+    "round": 3,
+    "failures": 2,
+    "byCheck": {
+     "safe-zone": 2
+    }
+   },
+   {
+    "round": 4,
+    "failures": 0,
+    "byCheck": {}
+   }
+  ]
+ },
+ {
+  "family": "anthropic",
+  "arm": "on",
+  "case": "nl-referral",
+  "rounds": [
+   {
+    "round": 1,
+    "failures": 5,
+    "byCheck": {
+     "safe-zone": 5
+    }
+   },
+   {
+    "round": 2,
+    "failures": 1,
+    "byCheck": {
+     "safe-zone": 1
+    }
+   },
+   {
+    "round": 3,
+    "failures": 0,
+    "byCheck": {}
+   }
+  ]
+ },
+ {
+  "family": "anthropic",
+  "arm": "on",
+  "case": "nl-winter",
+  "rounds": [
+   {
+    "round": 1,
+    "failures": 9,
+    "byCheck": {
+     "safe-zone": 9
+    }
+   },
+   {
+    "round": 2,
+    "failures": 1,
+    "byCheck": {
+     "safe-zone": 1
+    }
+   },
+   {
+    "round": 3,
+    "failures": 1,
+    "byCheck": {
+     "safe-zone": 1
+    }
+   },
+   {
+    "round": 4,
+    "failures": 0,
+    "byCheck": {}
+   }
+  ]
+ },
+ {
+  "family": "anthropic",
+  "arm": "on",
+  "case": "ql-free",
+  "rounds": [
+   {
+    "round": 1,
+    "failures": 2,
+    "byCheck": {
+     "safe-zone": 2
+    }
+   },
+   {
+    "round": 2,
+    "failures": 1,
+    "byCheck": {
+     "safe-zone": 1
+    }
+   },
+   {
+    "round": 3,
+    "failures": 0,
+    "byCheck": {}
+   },
+   {
+    "round": 4,
+    "failures": 2,
+    "byCheck": {
+     "safe-zone": 2
+    }
+   },
+   {
+    "round": 5,
+    "failures": 0,
+    "byCheck": {}
+   }
+  ]
+ },
+ {
+  "family": "anthropic",
+  "arm": "on",
+  "case": "ql-launch",
+  "rounds": [
+   {
+    "round": 1,
+    "failures": 5,
+    "byCheck": {
+     "safe-zone": 5
+    }
+   },
+   {
+    "round": 2,
+    "failures": 2,
+    "byCheck": {
+     "safe-zone": 2
+    }
+   },
+   {
+    "round": 3,
+    "failures": 0,
+    "byCheck": {}
+   },
+   {
+    "round": 4,
+    "failures": 3,
+    "byCheck": {
+     "safe-zone": 3
+    }
+   },
+   {
+    "round": 5,
+    "failures": 1,
+    "byCheck": {
+     "safe-zone": 1
+    }
+   },
+   {
+    "round": 6,
+    "failures": 0,
+    "byCheck": {}
+   }
+  ]
+ },
+ {
+  "family": "anthropic",
+  "arm": "on",
+  "case": "ql-night",
+  "rounds": [
+   {
+    "round": 1,
+    "failures": 4,
+    "byCheck": {
+     "safe-zone": 4
+    }
+   },
+   {
+    "round": 2,
+    "failures": 0,
+    "byCheck": {}
+   }
+  ]
+ },
+ {
+  "family": "anthropic",
+  "arm": "on",
+  "case": "ql-phone",
+  "rounds": [
+   {
+    "round": 1,
+    "failures": 0,
+    "byCheck": {}
+   },
+   {
+    "round": 2,
+    "failures": 0,
+    "byCheck": {}
+   },
+   {
+    "round": 3,
+    "failures": 0,
+    "byCheck": {}
+   }
+  ]
+ },
+ {
+  "family": "anthropic",
+  "arm": "off",
+  "case": "ds-contrib",
+  "rounds": [
+   {
+    "round": 1,
+    "failures": 5,
+    "byCheck": {
+     "safe-zone": 5
+    }
+   },
+   {
+    "round": 2,
+    "failures": 4,
+    "byCheck": {
+     "safe-zone": 4
+    }
+   },
+   {
+    "round": 3,
+    "failures": 5,
+    "byCheck": {
+     "safe-zone": 5
+    }
+   }
+  ]
+ },
+ {
+  "family": "anthropic",
+  "arm": "off",
+  "case": "ds-launch",
+  "rounds": [
+   {
+    "round": 1,
+    "failures": 3,
+    "byCheck": {
+     "safe-zone": 3
+    }
+   },
+   {
+    "round": 2,
+    "failures": 5,
+    "byCheck": {
+     "safe-zone": 4,
+     "copy": 1
+    }
+   },
+   {
+    "round": 3,
+    "failures": 5,
+    "byCheck": {
+     "safe-zone": 4,
+     "copy": 1
+    }
+   },
+   {
+    "round": 4,
+    "failures": 0,
+    "byCheck": {}
+   },
+   {
+    "round": 5,
+    "failures": 1,
+    "byCheck": {
+     "safe-zone": 1
+    }
+   },
+   {
+    "round": 6,
+    "failures": 0,
+    "byCheck": {}
+   }
+  ]
+ },
+ {
+  "family": "anthropic",
+  "arm": "off",
+  "case": "ds-proof",
+  "rounds": [
+   {
+    "round": 1,
+    "failures": 3,
+    "byCheck": {
+     "safe-zone": 1,
+     "palette": 2
+    }
+   }
+  ]
+ },
+ {
+  "family": "anthropic",
+  "arm": "off",
+  "case": "fe-event",
+  "rounds": [
+   {
+    "round": 1,
+    "failures": 8,
+    "byCheck": {
+     "safe-zone": 8
+    }
+   },
+   {
+    "round": 2,
+    "failures": 7,
+    "byCheck": {
+     "safe-zone": 7
+    }
+   },
+   {
+    "round": 3,
+    "failures": 6,
+    "byCheck": {
+     "safe-zone": 6
+    }
+   },
+   {
+    "round": 4,
+    "failures": 12,
+    "byCheck": {
+     "safe-zone": 7,
+     "type-scale": 5
+    }
+   },
+   {
+    "round": 5,
+    "failures": 12,
+    "byCheck": {
+     "safe-zone": 8,
+     "overflow": 4
+    }
+   },
+   {
+    "round": 6,
+    "failures": 7,
+    "byCheck": {
+     "safe-zone": 7
+    }
+   }
+  ]
+ },
+ {
+  "family": "anthropic",
+  "arm": "off",
+  "case": "fe-maker",
+  "rounds": [
+   {
+    "round": 1,
+    "failures": 9,
+    "byCheck": {
+     "safe-zone": 9
+    }
+   },
+   {
+    "round": 2,
+    "failures": 10,
+    "byCheck": {
+     "safe-zone": 10
+    }
+   },
+   {
+    "round": 3,
+    "failures": 10,
+    "byCheck": {
+     "safe-zone": 10
+    }
+   },
+   {
+    "round": 4,
+    "failures": 10,
+    "byCheck": {
+     "safe-zone": 10
+    }
+   },
+   {
+    "round": 5,
+    "failures": 10,
+    "byCheck": {
+     "safe-zone": 10
+    }
+   }
+  ]
+ },
+ {
+  "family": "anthropic",
+  "arm": "off",
+  "case": "fe-spec",
+  "rounds": [
+   {
+    "round": 1,
+    "failures": 9,
+    "byCheck": {
+     "safe-zone": 7,
+     "type-scale": 2
+    }
+   },
+   {
+    "round": 2,
+    "failures": 7,
+    "byCheck": {
+     "safe-zone": 5,
+     "type-scale": 2
+    }
+   }
+  ]
+ },
+ {
+  "family": "anthropic",
+  "arm": "off",
+  "case": "fe-spindle",
+  "rounds": [
+   {
+    "round": 1,
+    "failures": 2,
+    "byCheck": {
+     "safe-zone": 2
+    }
+   },
+   {
+    "round": 2,
+    "failures": 4,
+    "byCheck": {
+     "safe-zone": 4
+    }
+   },
+   {
+    "round": 3,
+    "failures": 4,
+    "byCheck": {
+     "safe-zone": 4
+    }
+   },
+   {
+    "round": 4,
+    "failures": 13,
+    "byCheck": {
+     "safe-zone": 13
+    }
+   }
+  ]
+ },
+ {
+  "family": "anthropic",
+  "arm": "off",
+  "case": "nl-battery",
+  "rounds": [
+   {
+    "round": 1,
+    "failures": 8,
+    "byCheck": {
+     "safe-zone": 8
+    }
+   },
+   {
+    "round": 2,
+    "failures": 5,
+    "byCheck": {
+     "safe-zone": 5
+    }
+   },
+   {
+    "round": 3,
+    "failures": 5,
+    "byCheck": {
+     "safe-zone": 5
+    }
+   },
+   {
+    "round": 4,
+    "failures": 3,
+    "byCheck": {
+     "safe-zone": 3
+    }
+   },
+   {
+    "round": 5,
+    "failures": 3,
+    "byCheck": {
+     "safe-zone": 3
+    }
+   },
+   {
+    "round": 6,
+    "failures": 1,
+    "byCheck": {
+     "safe-zone": 1
+    }
+   }
+  ]
+ },
+ {
+  "family": "anthropic",
+  "arm": "off",
+  "case": "nl-city",
+  "rounds": [
+   {
+    "round": 1,
+    "failures": 11,
+    "byCheck": {
+     "safe-zone": 11
+    }
+   },
+   {
+    "round": 2,
+    "failures": 11,
+    "byCheck": {
+     "safe-zone": 11
+    }
+   },
+   {
+    "round": 3,
+    "failures": 7,
+    "byCheck": {
+     "safe-zone": 7
+    }
+   }
+  ]
+ },
+ {
+  "family": "anthropic",
+  "arm": "off",
+  "case": "nl-referral",
+  "rounds": [
+   {
+    "round": 1,
+    "failures": 2,
+    "byCheck": {
+     "safe-zone": 2
+    }
+   },
+   {
+    "round": 2,
+    "failures": 2,
+    "byCheck": {
+     "safe-zone": 2
+    }
+   },
+   {
+    "round": 3,
+    "failures": 2,
+    "byCheck": {
+     "safe-zone": 2
+    }
+   },
+   {
+    "round": 4,
+    "failures": 2,
+    "byCheck": {
+     "safe-zone": 2
+    }
+   },
+   {
+    "round": 5,
+    "failures": 2,
+    "byCheck": {
+     "safe-zone": 2
+    }
+   },
+   {
+    "round": 6,
+    "failures": 3,
+    "byCheck": {
+     "safe-zone": 3
+    }
+   }
+  ]
+ },
+ {
+  "family": "anthropic",
+  "arm": "off",
+  "case": "nl-winter",
+  "rounds": [
+   {
+    "round": 1,
+    "failures": 4,
+    "byCheck": {
+     "safe-zone": 4
+    }
+   }
+  ]
+ },
+ {
+  "family": "anthropic",
+  "arm": "off",
+  "case": "ql-free",
+  "rounds": [
+   {
+    "round": 1,
+    "failures": 8,
+    "byCheck": {
+     "safe-zone": 7,
+     "type-scale": 1
+    }
+   }
+  ]
+ },
+ {
+  "family": "anthropic",
+  "arm": "off",
+  "case": "ql-launch",
+  "rounds": [
+   {
+    "round": 1,
+    "failures": 5,
+    "byCheck": {
+     "safe-zone": 5
+    }
+   },
+   {
+    "round": 2,
+    "failures": 5,
+    "byCheck": {
+     "safe-zone": 5
+    }
+   },
+   {
+    "round": 3,
+    "failures": 2,
+    "byCheck": {
+     "safe-zone": 2
+    }
+   }
+  ]
+ },
+ {
+  "family": "anthropic",
+  "arm": "off",
+  "case": "ql-night",
+  "rounds": [
+   {
+    "round": 1,
+    "failures": 11,
+    "byCheck": {
+     "safe-zone": 11
+    }
+   }
+  ]
+ },
+ {
+  "family": "anthropic",
+  "arm": "off",
+  "case": "ql-phone",
+  "rounds": [
+   {
+    "round": 1,
+    "failures": 8,
+    "byCheck": {
+     "safe-zone": 6,
+     "palette": 2
+    }
+   },
+   {
+    "round": 2,
+    "failures": 6,
+    "byCheck": {
+     "safe-zone": 6
+    }
+   }
+  ]
+ },
+ {
+  "family": "openai",
+  "arm": "on",
+  "case": "ds-contrib",
+  "rounds": [
+   {
+    "round": 1,
+    "failures": 2,
+    "byCheck": {
+     "safe-zone": 2
+    }
+   },
+   {
+    "round": 2,
+    "failures": 2,
+    "byCheck": {
+     "type-scale": 2
+    }
+   },
+   {
+    "round": 3,
+    "failures": 0,
+    "byCheck": {}
+   },
+   {
+    "round": 4,
+    "failures": 0,
+    "byCheck": {}
+   },
+   {
+    "round": 5,
+    "failures": 1,
+    "byCheck": {
+     "safe-zone": 1
+    }
+   },
+   {
+    "round": 6,
+    "failures": 0,
+    "byCheck": {}
+   }
+  ]
+ },
+ {
+  "family": "openai",
+  "arm": "on",
+  "case": "ds-launch",
+  "rounds": [
+   {
+    "round": 1,
+    "failures": 4,
+    "byCheck": {
+     "safe-zone": 4
+    }
+   },
+   {
+    "round": 2,
+    "failures": 0,
+    "byCheck": {}
+   },
+   {
+    "round": 3,
+    "failures": 0,
+    "byCheck": {}
+   },
+   {
+    "round": 4,
+    "failures": 0,
+    "byCheck": {}
+   },
+   {
+    "round": 5,
+    "failures": 9,
+    "byCheck": {
+     "safe-zone": 1,
+     "type-scale": 8
+    }
+   },
+   {
+    "round": 6,
+    "failures": 0,
+    "byCheck": {}
+   }
+  ]
+ },
+ {
+  "family": "openai",
+  "arm": "on",
+  "case": "ds-proof",
+  "rounds": [
+   {
+    "round": 1,
+    "failures": 1,
+    "byCheck": {
+     "safe-zone": 1
+    }
+   },
+   {
+    "round": 2,
+    "failures": 0,
+    "byCheck": {}
+   },
+   {
+    "round": 3,
+    "failures": 11,
+    "byCheck": {
+     "safe-zone": 1,
+     "contrast": 6,
+     "type-scale": 4
+    }
+   },
+   {
+    "round": 4,
+    "failures": 6,
+    "byCheck": {
+     "contrast": 6
+    }
+   },
+   {
+    "round": 5,
+    "failures": 6,
+    "byCheck": {
+     "contrast": 6
+    }
+   },
+   {
+    "round": 6,
+    "failures": 6,
+    "byCheck": {
+     "contrast": 6
+    }
+   }
+  ]
+ },
+ {
+  "family": "openai",
+  "arm": "on",
+  "case": "fe-event",
+  "rounds": [
+   {
+    "round": 1,
+    "failures": 2,
+    "byCheck": {
+     "safe-zone": 2
+    }
+   },
+   {
+    "round": 2,
+    "failures": 0,
+    "byCheck": {}
+   },
+   {
+    "round": 3,
+    "failures": 1,
+    "byCheck": {
+     "safe-zone": 1
+    }
+   },
+   {
+    "round": 4,
+    "failures": 0,
+    "byCheck": {}
+   },
+   {
+    "round": 5,
+    "failures": 7,
+    "byCheck": {
+     "overflow": 4,
+     "safe-zone": 3
+    }
+   },
+   {
+    "round": 6,
+    "failures": 0,
+    "byCheck": {}
+   }
+  ]
+ },
+ {
+  "family": "openai",
+  "arm": "on",
+  "case": "fe-maker",
+  "rounds": [
+   {
+    "round": 1,
+    "failures": 2,
+    "byCheck": {
+     "safe-zone": 2
+    }
+   },
+   {
+    "round": 2,
+    "failures": 0,
+    "byCheck": {}
+   },
+   {
+    "round": 3,
+    "failures": 0,
+    "byCheck": {}
+   }
+  ]
+ },
+ {
+  "family": "openai",
+  "arm": "on",
+  "case": "fe-spec",
+  "rounds": [
+   {
+    "round": 1,
+    "failures": 4,
+    "byCheck": {
+     "safe-zone": 4
+    }
+   },
+   {
+    "round": 2,
+    "failures": 0,
+    "byCheck": {}
+   },
+   {
+    "round": 3,
+    "failures": 0,
+    "byCheck": {}
+   },
+   {
+    "round": 4,
+    "failures": 2,
+    "byCheck": {
+     "safe-zone": 2
+    }
+   },
+   {
+    "round": 5,
+    "failures": 0,
+    "byCheck": {}
+   },
+   {
+    "round": 6,
+    "failures": 2,
+    "byCheck": {
+     "safe-zone": 2
+    }
+   }
+  ]
+ },
+ {
+  "family": "openai",
+  "arm": "on",
+  "case": "fe-spindle",
+  "rounds": [
+   {
+    "round": 1,
+    "failures": 4,
+    "byCheck": {
+     "safe-zone": 4
+    }
+   },
+   {
+    "round": 2,
+    "failures": 0,
+    "byCheck": {}
+   },
+   {
+    "round": 3,
+    "failures": 0,
+    "byCheck": {}
+   },
+   {
+    "round": 4,
+    "failures": 1,
+    "byCheck": {
+     "safe-zone": 1
+    }
+   },
+   {
+    "round": 5,
+    "failures": 0,
+    "byCheck": {}
+   },
+   {
+    "round": 6,
+    "failures": 1,
+    "byCheck": {
+     "safe-zone": 1
+    }
+   }
+  ]
+ },
+ {
+  "family": "openai",
+  "arm": "on",
+  "case": "nl-battery",
+  "rounds": [
+   {
+    "round": 1,
+    "failures": 2,
+    "byCheck": {
+     "safe-zone": 2
+    }
+   },
+   {
+    "round": 2,
+    "failures": 0,
+    "byCheck": {}
+   },
+   {
+    "round": 3,
+    "failures": 0,
+    "byCheck": {}
+   }
+  ]
+ },
+ {
+  "family": "openai",
+  "arm": "on",
+  "case": "nl-city",
+  "rounds": [
+   {
+    "round": 1,
+    "failures": 1,
+    "byCheck": {
+     "safe-zone": 1
+    }
+   },
+   {
+    "round": 2,
+    "failures": 0,
+    "byCheck": {}
+   },
+   {
+    "round": 3,
+    "failures": 2,
+    "byCheck": {
+     "safe-zone": 2
+    }
+   },
+   {
+    "round": 4,
+    "failures": 0,
+    "byCheck": {}
+   },
+   {
+    "round": 5,
+    "failures": 1,
+    "byCheck": {
+     "safe-zone": 1
+    }
+   },
+   {
+    "round": 6,
+    "failures": 0,
+    "byCheck": {}
+   }
+  ]
+ },
+ {
+  "family": "openai",
+  "arm": "on",
+  "case": "nl-referral",
+  "rounds": [
+   {
+    "round": 1,
+    "failures": 1,
+    "byCheck": {
+     "safe-zone": 1
+    }
+   },
+   {
+    "round": 2,
+    "failures": 0,
+    "byCheck": {}
+   },
+   {
+    "round": 3,
+    "failures": 0,
+    "byCheck": {}
+   },
+   {
+    "round": 4,
+    "failures": 0,
+    "byCheck": {}
+   },
+   {
+    "round": 5,
+    "failures": 0,
+    "byCheck": {}
+   },
+   {
+    "round": 6,
+    "failures": 0,
+    "byCheck": {}
+   }
+  ]
+ },
+ {
+  "family": "openai",
+  "arm": "on",
+  "case": "nl-winter",
+  "rounds": [
+   {
+    "round": 1,
+    "failures": 2,
+    "byCheck": {
+     "safe-zone": 2
+    }
+   },
+   {
+    "round": 2,
+    "failures": 0,
+    "byCheck": {}
+   },
+   {
+    "round": 3,
+    "failures": 1,
+    "byCheck": {
+     "safe-zone": 1
+    }
+   },
+   {
+    "round": 4,
+    "failures": 0,
+    "byCheck": {}
+   },
+   {
+    "round": 5,
+    "failures": 0,
+    "byCheck": {}
+   },
+   {
+    "round": 6,
+    "failures": 2,
+    "byCheck": {
+     "safe-zone": 2
+    }
+   }
+  ]
+ },
+ {
+  "family": "openai",
+  "arm": "on",
+  "case": "ql-free",
+  "rounds": [
+   {
+    "round": 1,
+    "failures": 2,
+    "byCheck": {
+     "safe-zone": 2
+    }
+   },
+   {
+    "round": 2,
+    "failures": 0,
+    "byCheck": {}
+   },
+   {
+    "round": 3,
+    "failures": 1,
+    "byCheck": {
+     "safe-zone": 1
+    }
+   },
+   {
+    "round": 4,
+    "failures": 0,
+    "byCheck": {}
+   },
+   {
+    "round": 5,
+    "failures": 0,
+    "byCheck": {}
+   },
+   {
+    "round": 6,
+    "failures": 1,
+    "byCheck": {
+     "safe-zone": 1
+    }
+   }
+  ]
+ },
+ {
+  "family": "openai",
+  "arm": "on",
+  "case": "ql-launch",
+  "rounds": [
+   {
+    "round": 1,
+    "failures": 2,
+    "byCheck": {
+     "safe-zone": 2
+    }
+   },
+   {
+    "round": 2,
+    "failures": 0,
+    "byCheck": {}
+   },
+   {
+    "round": 3,
+    "failures": 1,
+    "byCheck": {
+     "safe-zone": 1
+    }
+   },
+   {
+    "round": 4,
+    "failures": 0,
+    "byCheck": {}
+   },
+   {
+    "round": 5,
+    "failures": 2,
+    "byCheck": {
+     "contrast": 2
+    }
+   },
+   {
+    "round": 6,
+    "failures": 0,
+    "byCheck": {}
+   }
+  ]
+ },
+ {
+  "family": "openai",
+  "arm": "on",
+  "case": "ql-night",
+  "rounds": [
+   {
+    "round": 1,
+    "failures": 3,
+    "byCheck": {
+     "safe-zone": 3
+    }
+   },
+   {
+    "round": 2,
+    "failures": 0,
+    "byCheck": {}
+   },
+   {
+    "round": 3,
+    "failures": 7,
+    "byCheck": {
+     "type-scale": 7
+    }
+   },
+   {
+    "round": 4,
+    "failures": 0,
+    "byCheck": {}
+   }
+  ]
+ },
+ {
+  "family": "openai",
+  "arm": "on",
+  "case": "ql-phone",
+  "rounds": [
+   {
+    "round": 1,
+    "failures": 1,
+    "byCheck": {
+     "safe-zone": 1
+    }
+   },
+   {
+    "round": 2,
+    "failures": 0,
+    "byCheck": {}
+   },
+   {
+    "round": 3,
+    "failures": 0,
+    "byCheck": {}
+   },
+   {
+    "round": 4,
+    "failures": 1,
+    "byCheck": {
+     "safe-zone": 1
+    }
+   },
+   {
+    "round": 5,
+    "failures": 0,
+    "byCheck": {}
+   },
+   {
+    "round": 6,
+    "failures": 0,
+    "byCheck": {}
+   }
+  ]
+ },
+ {
+  "family": "openai",
+  "arm": "off",
+  "case": "ds-contrib",
+  "rounds": [
+   {
+    "round": 1,
+    "failures": 5,
+    "byCheck": {
+     "safe-zone": 1,
+     "type-scale": 4
+    }
+   },
+   {
+    "round": 2,
+    "failures": 3,
+    "byCheck": {
+     "safe-zone": 1,
+     "type-scale": 2
+    }
+   },
+   {
+    "round": 3,
+    "failures": 3,
+    "byCheck": {
+     "safe-zone": 1,
+     "type-scale": 2
+    }
+   },
+   {
+    "round": 4,
+    "failures": 3,
+    "byCheck": {
+     "safe-zone": 1,
+     "type-scale": 2
+    }
+   },
+   {
+    "round": 5,
+    "failures": 1,
+    "byCheck": {
+     "safe-zone": 1
+    }
+   },
+   {
+    "round": 6,
+    "failures": 1,
+    "byCheck": {
+     "safe-zone": 1
+    }
+   }
+  ]
+ },
+ {
+  "family": "openai",
+  "arm": "off",
+  "case": "ds-launch",
+  "rounds": [
+   {
+    "round": 1,
+    "failures": 2,
+    "byCheck": {
+     "safe-zone": 2
+    }
+   },
+   {
+    "round": 2,
+    "failures": 1,
+    "byCheck": {
+     "safe-zone": 1
+    }
+   },
+   {
+    "round": 3,
+    "failures": 1,
+    "byCheck": {
+     "safe-zone": 1
+    }
+   },
+   {
+    "round": 4,
+    "failures": 1,
+    "byCheck": {
+     "safe-zone": 1
+    }
+   },
+   {
+    "round": 5,
+    "failures": 1,
+    "byCheck": {
+     "safe-zone": 1
+    }
+   },
+   {
+    "round": 6,
+    "failures": 2,
+    "byCheck": {
+     "safe-zone": 1,
+     "type-scale": 1
+    }
+   }
+  ]
+ },
+ {
+  "family": "openai",
+  "arm": "off",
+  "case": "ds-proof",
+  "rounds": [
+   {
+    "round": 1,
+    "failures": 1,
+    "byCheck": {
+     "safe-zone": 1
+    }
+   },
+   {
+    "round": 2,
+    "failures": 1,
+    "byCheck": {
+     "safe-zone": 1
+    }
+   },
+   {
+    "round": 3,
+    "failures": 1,
+    "byCheck": {
+     "safe-zone": 1
+    }
+   },
+   {
+    "round": 4,
+    "failures": 4,
+    "byCheck": {
+     "overflow": 2,
+     "safe-zone": 2
+    }
+   },
+   {
+    "round": 5,
+    "failures": 1,
+    "byCheck": {
+     "safe-zone": 1
+    }
+   },
+   {
+    "round": 6,
+    "failures": 1,
+    "byCheck": {
+     "safe-zone": 1
+    }
+   }
+  ]
+ },
+ {
+  "family": "openai",
+  "arm": "off",
+  "case": "fe-event",
+  "rounds": [
+   {
+    "round": 1,
+    "failures": 1,
+    "byCheck": {
+     "safe-zone": 1
+    }
+   }
+  ]
+ },
+ {
+  "family": "openai",
+  "arm": "off",
+  "case": "fe-maker",
+  "rounds": [
+   {
+    "round": 1,
+    "failures": 1,
+    "byCheck": {
+     "safe-zone": 1
+    }
+   },
+   {
+    "round": 2,
+    "failures": 1,
+    "byCheck": {
+     "safe-zone": 1
+    }
+   },
+   {
+    "round": 3,
+    "failures": 1,
+    "byCheck": {
+     "safe-zone": 1
+    }
+   }
+  ]
+ },
+ {
+  "family": "openai",
+  "arm": "off",
+  "case": "fe-spec",
+  "rounds": [
+   {
+    "round": 1,
+    "failures": 1,
+    "byCheck": {
+     "safe-zone": 1
+    }
+   },
+   {
+    "round": 2,
+    "failures": 3,
+    "byCheck": {
+     "safe-zone": 3
+    }
+   },
+   {
+    "round": 3,
+    "failures": 2,
+    "byCheck": {
+     "safe-zone": 2
+    }
+   },
+   {
+    "round": 4,
+    "failures": 2,
+    "byCheck": {
+     "safe-zone": 2
+    }
+   },
+   {
+    "round": 5,
+    "failures": 2,
+    "byCheck": {
+     "safe-zone": 2
+    }
+   },
+   {
+    "round": 6,
+    "failures": 1,
+    "byCheck": {
+     "safe-zone": 1
+    }
+   }
+  ]
+ },
+ {
+  "family": "openai",
+  "arm": "off",
+  "case": "fe-spindle",
+  "rounds": [
+   {
+    "round": 1,
+    "failures": 4,
+    "byCheck": {
+     "safe-zone": 4
+    }
+   },
+   {
+    "round": 2,
+    "failures": 4,
+    "byCheck": {
+     "safe-zone": 4
+    }
+   },
+   {
+    "round": 3,
+    "failures": 4,
+    "byCheck": {
+     "safe-zone": 4
+    }
+   },
+   {
+    "round": 4,
+    "failures": 4,
+    "byCheck": {
+     "safe-zone": 4
+    }
+   },
+   {
+    "round": 5,
+    "failures": 4,
+    "byCheck": {
+     "safe-zone": 4
+    }
+   },
+   {
+    "round": 6,
+    "failures": 4,
+    "byCheck": {
+     "safe-zone": 4
+    }
+   }
+  ]
+ },
+ {
+  "family": "openai",
+  "arm": "off",
+  "case": "nl-battery",
+  "rounds": [
+   {
+    "round": 1,
+    "failures": 8,
+    "byCheck": {
+     "safe-zone": 2,
+     "type-scale": 6
+    }
+   },
+   {
+    "round": 2,
+    "failures": 12,
+    "byCheck": {
+     "safe-zone": 2,
+     "type-scale": 10
+    }
+   },
+   {
+    "round": 3,
+    "failures": 12,
+    "byCheck": {
+     "safe-zone": 2,
+     "type-scale": 10
+    }
+   },
+   {
+    "round": 4,
+    "failures": 1,
+    "byCheck": {
+     "safe-zone": 1
+    }
+   },
+   {
+    "round": 5,
+    "failures": 2,
+    "byCheck": {
+     "safe-zone": 2
+    }
+   },
+   {
+    "round": 6,
+    "failures": 2,
+    "byCheck": {
+     "safe-zone": 2
+    }
+   }
+  ]
+ },
+ {
+  "family": "openai",
+  "arm": "off",
+  "case": "nl-city",
+  "rounds": [
+   {
+    "round": 1,
+    "failures": 2,
+    "byCheck": {
+     "safe-zone": 2
+    }
+   },
+   {
+    "round": 2,
+    "failures": 2,
+    "byCheck": {
+     "safe-zone": 2
+    }
+   },
+   {
+    "round": 3,
+    "failures": 4,
+    "byCheck": {
+     "safe-zone": 4
+    }
+   },
+   {
+    "round": 4,
+    "failures": 4,
+    "byCheck": {
+     "safe-zone": 4
+    }
+   },
+   {
+    "round": 5,
+    "failures": 4,
+    "byCheck": {
+     "safe-zone": 4
+    }
+   },
+   {
+    "round": 6,
+    "failures": 4,
+    "byCheck": {
+     "safe-zone": 4
+    }
+   }
+  ]
+ },
+ {
+  "family": "openai",
+  "arm": "off",
+  "case": "nl-referral",
+  "rounds": [
+   {
+    "round": 1,
+    "failures": 1,
+    "byCheck": {
+     "safe-zone": 1
+    }
+   },
+   {
+    "round": 2,
+    "failures": 2,
+    "byCheck": {
+     "safe-zone": 2
+    }
+   },
+   {
+    "round": 3,
+    "failures": 2,
+    "byCheck": {
+     "safe-zone": 2
+    }
+   }
+  ]
+ },
+ {
+  "family": "openai",
+  "arm": "off",
+  "case": "nl-winter",
+  "rounds": [
+   {
+    "round": 1,
+    "failures": 1,
+    "byCheck": {
+     "safe-zone": 1
+    }
+   },
+   {
+    "round": 2,
+    "failures": 2,
+    "byCheck": {
+     "safe-zone": 2
+    }
+   },
+   {
+    "round": 3,
+    "failures": 9,
+    "byCheck": {
+     "safe-zone": 6,
+     "type-scale": 3
+    }
+   },
+   {
+    "round": 4,
+    "failures": 2,
+    "byCheck": {
+     "safe-zone": 2
+    }
+   },
+   {
+    "round": 5,
+    "failures": 4,
+    "byCheck": {
+     "safe-zone": 4
+    }
+   },
+   {
+    "round": 6,
+    "failures": 4,
+    "byCheck": {
+     "safe-zone": 4
+    }
+   }
+  ]
+ },
+ {
+  "family": "openai",
+  "arm": "off",
+  "case": "ql-free",
+  "rounds": [
+   {
+    "round": 1,
+    "failures": 2,
+    "byCheck": {
+     "safe-zone": 2
+    }
+   },
+   {
+    "round": 2,
+    "failures": 4,
+    "byCheck": {
+     "safe-zone": 4
+    }
+   },
+   {
+    "round": 3,
+    "failures": 2,
+    "byCheck": {
+     "safe-zone": 2
+    }
+   },
+   {
+    "round": 4,
+    "failures": 2,
+    "byCheck": {
+     "safe-zone": 2
+    }
+   },
+   {
+    "round": 5,
+    "failures": 2,
+    "byCheck": {
+     "safe-zone": 2
+    }
+   },
+   {
+    "round": 6,
+    "failures": 3,
+    "byCheck": {
+     "safe-zone": 3
+    }
+   }
+  ]
+ },
+ {
+  "family": "openai",
+  "arm": "off",
+  "case": "ql-launch",
+  "rounds": [
+   {
+    "round": 1,
+    "failures": 5,
+    "byCheck": {
+     "safe-zone": 2,
+     "type-scale": 3
+    }
+   },
+   {
+    "round": 2,
+    "failures": 5,
+    "byCheck": {
+     "safe-zone": 2,
+     "type-scale": 3
+    }
+   },
+   {
+    "round": 3,
+    "failures": 5,
+    "byCheck": {
+     "safe-zone": 2,
+     "type-scale": 3
+    }
+   }
+  ]
+ },
+ {
+  "family": "openai",
+  "arm": "off",
+  "case": "ql-night",
+  "rounds": [
+   {
+    "round": 1,
+    "failures": 3,
+    "byCheck": {
+     "safe-zone": 3
+    }
+   },
+   {
+    "round": 2,
+    "failures": 5,
+    "byCheck": {
+     "safe-zone": 3,
+     "type-scale": 2
+    }
+   },
+   {
+    "round": 3,
+    "failures": 5,
+    "byCheck": {
+     "safe-zone": 3,
+     "type-scale": 2
+    }
+   },
+   {
+    "round": 4,
+    "failures": 5,
+    "byCheck": {
+     "safe-zone": 3,
+     "type-scale": 2
+    }
+   },
+   {
+    "round": 5,
+    "failures": 4,
+    "byCheck": {
+     "safe-zone": 4
+    }
+   }
+  ]
+ },
+ {
+  "family": "openai",
+  "arm": "off",
+  "case": "ql-phone",
+  "rounds": [
+   {
+    "round": 1,
+    "failures": 7,
+    "byCheck": {
+     "safe-zone": 3,
+     "contrast": 4
+    }
+   }
+  ]
+ }
+]

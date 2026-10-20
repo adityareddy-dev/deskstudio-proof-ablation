@@ -1,0 +1,92 @@
+{
+  "width": 1200,
+  "height": 627,
+  "scrollWidth": 1200,
+  "scrollHeight": 627,
+  "boxes": [
+    {
+      "x": 62.69482421875,
+      "y": 26,
+      "width": 1064.46630859375,
+      "height": 254,
+      "text": "January",
+      "color": "rgb(22, 22, 20)",
+      "opacity": 1,
+      "fontSize": 210,
+      "fontWeight": 600,
+      "fontFamily": "Inter, Arial, sans-serif",
+      "clips": []
+    },
+    {
+      "x": 62.8017692565918,
+      "y": 236,
+      "width": 453.80328369140625,
+      "height": 254,
+      "text": "still",
+      "color": "rgb(22, 22, 20)",
+      "opacity": 1,
+      "fontSize": 210,
+      "fontWeight": 600,
+      "fontFamily": "Inter, Arial, sans-serif",
+      "clips": []
+    },
+    {
+      "x": 516.6050415039062,
+      "y": 236,
+      "width": 627.3479614257812,
+      "height": 254,
+      "text": "pays.",
+      "color": "rgb(217, 72, 15)",
+      "opacity": 1,
+      "fontSize": 210,
+      "fontWeight": 600,
+      "fontFamily": "Inter, Arial, sans-serif",
+      "clips": []
+    },
+    {
+      "x": 72,
+      "y": 466,
+      "width": 291.046875,
+      "height": 47,
+      "text": "Snow slides off.",
+      "color": "rgb(22, 22, 20)",
+      "opacity": 1,
+      "fontSize": 39,
+      "fontWeight": 400,
+      "fontFamily": "Inter, Arial, sans-serif",
+      "clips": []
+    },
+    {
+      "x": 374.015625,
+      "y": 466,
+      "width": 361.0625,
+      "height": 47,
+      "text": "The numbers don't.",
+      "color": "rgb(22, 22, 20)",
+      "opacity": 1,
+      "fontSize": 39,
+      "fontWeight": 400,
+      "fontFamily": "Inter, Arial, sans-serif",
+      "clips": []
+    },
+    {
+      "x": 72,
+      "y": 523.15625,
+      "width": 251.015625,
+      "height": 37,
+      "text": "northlight.energy",
+      "color": "rgb(22, 22, 20)",
+      "opacity": 1,
+      "fontSize": 31,
+      "fontWeight": 400,
+      "fontFamily": "Inter, Arial, sans-serif",
+      "clips": []
+    }
+  ],
+  "fonts": {
+    "Inter": true,
+    "Arial": true,
+    "sans-serif": true
+  },
+  "images": 0
+}

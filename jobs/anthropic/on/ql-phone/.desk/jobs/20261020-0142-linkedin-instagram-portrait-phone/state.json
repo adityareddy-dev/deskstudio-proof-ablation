@@ -1,0 +1,289 @@
+{
+  "id": "20261020-0142-linkedin-instagram-portrait-phone",
+  "command": "design",
+  "deliverable": "social-card",
+  "sizes": [
+    "linkedin",
+    "ig-post"
+  ],
+  "quality": "studio",
+  "proofMode": "on",
+  "models": {
+    "director": "anthropic/opus",
+    "senior": "anthropic/sonnet",
+    "builder": "anthropic/haiku"
+  },
+  "phase": "done",
+  "round": 3,
+  "maxRounds": 6,
+  "desks": [
+    {
+      "desk": "design-manager",
+      "task": "intake",
+      "status": "done",
+      "model": "anthropic/opus",
+      "startedAt": "2026-10-20T01:42:11-05:00",
+      "updatedAt": "2026-10-20T01:42:29-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "rough 1, editorial split",
+      "status": "done",
+      "model": "anthropic/sonnet",
+      "startedAt": "2026-10-20T01:42:29-05:00",
+      "updatedAt": "2026-10-20T01:42:54-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "rough 2, full bleed with scrim",
+      "status": "done",
+      "model": "anthropic/sonnet",
+      "startedAt": "2026-10-20T01:42:29-05:00",
+      "updatedAt": "2026-10-20T01:42:54-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "rough 3, type only",
+      "status": "done",
+      "model": "anthropic/sonnet",
+      "startedAt": "2026-10-20T01:42:29-05:00",
+      "updatedAt": "2026-10-20T01:42:52-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "art-director",
+      "task": "pick",
+      "status": "done",
+      "model": "anthropic/opus",
+      "startedAt": "2026-10-20T01:42:59-05:00",
+      "updatedAt": "2026-10-20T01:43:33-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 1",
+      "status": "done",
+      "model": "anthropic/haiku",
+      "startedAt": "2026-10-20T01:43:33-05:00",
+      "updatedAt": "2026-10-20T01:44:40-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "creative-director",
+      "task": "sign-off round 1",
+      "status": "done",
+      "model": "anthropic/opus",
+      "startedAt": "2026-10-20T01:44:41-05:00",
+      "updatedAt": "2026-10-20T01:45:45-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 2",
+      "status": "done",
+      "model": "anthropic/haiku",
+      "startedAt": "2026-10-20T01:45:45-05:00",
+      "updatedAt": "2026-10-20T01:47:53-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "creative-director",
+      "task": "sign-off round 2",
+      "status": "done",
+      "model": "anthropic/opus",
+      "startedAt": "2026-10-20T01:47:55-05:00",
+      "updatedAt": "2026-10-20T01:48:45-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 3",
+      "status": "done",
+      "model": "anthropic/haiku",
+      "startedAt": "2026-10-20T01:48:45-05:00",
+      "updatedAt": "2026-10-20T01:49:44-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "creative-director",
+      "task": "sign-off round 3",
+      "status": "done",
+      "model": "anthropic/opus",
+      "startedAt": "2026-10-20T01:49:46-05:00",
+      "updatedAt": "2026-10-20T01:50:20-05:00",
+      "via": "cli"
+    }
+  ],
+  "pick": {
+    "by": "art-director",
+    "rough": 2,
+    "pattern": "Full bleed with scrim",
+    "combineWith": null,
+    "reason": "The faint bars read as a page of cut sentences that are still there, so the composition carries the brief's idea without extra copy, and it fills both canvases with the headline clear at thumbnail size.",
+    "lost": "1 has no accent on a word, and on ig-post it nests a page outline inside a box with a dead right half; 3 is clean type with nothing that says \"every cut sentence stays\", and on ig-post its four-line headline runs to 56% of the height, past the top 40%.",
+    "notes": [
+      "ig-post: delete the surface patch behind \"quill.app\". End every bar row from y 1160 down at x 864 so the mark sits on bare background. Keep the mark bottom right: right edge at x 1008 (72px), baseline no lower than y 1215 to stay inside the 10% bottom safe zone (standard: air, and keep the brand small in a corner).",
+      "ig-post: make the cut-out around the text one deliberate rectangle. Put a 72px stub at x 1008–1080 on every 40px row from y 80 to y 440, matching the left stubs that are already there. At the moment only two right stubs show and the edge looks accidental.",
+      "ig-post: headline to 127px (brand scale), line height 1.0, tracking -0.02em, still two lines. Grow the cut-out with it so 48px of clear space sits below the subhead before the bars resume.",
+      "Both sizes: check that \"train.\" is the only use of #7c9cff. Bars stay #171923 and the mark stays #8b8d99 at 23px, so the accent appears once (standard: colour, one accent on the one thing to look at).",
+      "linkedin: align the headline and subhead left edge to x 120, on the 8px grid, so the gap to the left stubs matches the 48px gap on ig-post."
+    ],
+    "at": "2026-10-20T01:43:33-05:00"
+  },
+  "proof": [
+    {
+      "round": 1,
+      "pass": true,
+      "failures": 0
+    },
+    {
+      "round": 2,
+      "pass": true,
+      "failures": 0
+    },
+    {
+      "round": 3,
+      "pass": true,
+      "failures": 0
+    }
+  ],
+  "scores": [
+    {
+      "round": 1,
+      "by": "creative-director",
+      "axes": {
+        "hierarchy": 9,
+        "typography": 8,
+        "spacing": 8,
+        "colour": 9,
+        "composition": 7,
+        "originality": 8,
+        "brand": 9,
+        "copy": 9
+      },
+      "average": 8.38,
+      "pass": false,
+      "notes": [
+        "composition: linkedin, delete the 1px rule at y 241 (x 72–552). Set the cut-out to x 72–712, y 200–552 as one clean rectangle, with stubs at x 0–72 and bars resuming at x 712 on every row inside it. ig-post, the lower 64% (y 480–1350) is one unbroken stripe field. Move \"Now on your phone.\" out of the top cut-out into a bottom-left cut-out (x 72–520, y 1144–1232), set at x 120 on the same baseline as quill.app (y 1200), so the two groups bracket the field. Shrink the top cut-out to y 80–392, which leaves 48px clear below \"train.\".",
+        "typography: linkedin headline from 72 to 95px (brand scale), line height 1.0, tracking -0.02em, still two lines. With \"train.\" ending near x 664, the cut-out edge at x 712 now sits a deliberate 48px past it. ig-post subhead from 30 to 40px so it holds its own against the 127px headline. Keep the mark at 23px on both sizes.",
+        "spacing: linkedin, end the rows at y 80, 120 and 160 at x 984 so quill.app sits on bare background with at least 48px clear on all sides, matching ig-post. The row at y 160 currently runs to 1200 directly under the mark.",
+        "originality: make the field read as prose, not stripes. Drop one row (an 80px gap) after every 5–6 rows as a paragraph break, and end each paragraph's last row at 30–45% of the width. Keep the bars #171923 and 16px tall on the 40px rhythm."
+      ],
+      "polish": [
+        "After the changes, check the ig-post field at 25% zoom: if no break falls between y 600 and 1000, move one there."
+      ]
+    },
+    {
+      "round": 2,
+      "by": "creative-director",
+      "axes": {
+        "hierarchy": 9,
+        "typography": 9,
+        "spacing": 7,
+        "colour": 9,
+        "composition": 8,
+        "originality": 8,
+        "brand": 9,
+        "copy": 9
+      },
+      "average": 8.5,
+      "pass": false,
+      "notes": [
+        "spacing: ig-post, the bars on rows y 1160 and 1200 start at x 520, only 16px after \"phone.\" ends (about x 504). Start them at x 552 so there is 48px of clear space, and keep the end at x 864.",
+        "spacing: ig-post, AD note 2 is only half applied. Add the 72px right stubs (x 1008–1080) on rows y 120, 200, 240 and 320, and add the missing left stub (x 0–72) on row y 240. Every row from y 80 to 360 should then carry both stubs, so the cut-out reads as one rectangle (x 72–1008, y 80–375).",
+        "spacing: linkedin, the right edge of the cut-out breaks at y 200–240. Add bars from x 712 on row y 200 (end x 936) and row y 240 (end x 1104), so the edge is one straight line at x 712 from y 200 to 455. Leave rows y 80–160 ending at x 984 so the mark keeps its bare patch.",
+        "composition: ig-post, the bar field from y 400 to 1100 (about 52% of the canvas) reads as an empty dark band at thumbnail size and low brightness. On both sizes, make the bars 24px tall on the same 40px pitch (16px gaps), still #171923, so the \"page\" shows in the feed.",
+        "originality: the same bar-length set (994 / 691 / 432 / 842) repeats in every paragraph block on ig-post, which reads as a pattern rather than a page. Within a block, use no length twice: vary in 8px steps between 320 and 1080, and end each block with its shortest line."
+      ],
+      "polish": [
+        "linkedin: row y 360 is the only right-side bar that runs to the edge (x 1200). End it at x 1104 to match row y 320."
+      ]
+    },
+    {
+      "round": 3,
+      "by": "creative-director",
+      "axes": {
+        "hierarchy": 9,
+        "typography": 9,
+        "spacing": 8,
+        "colour": 9,
+        "composition": 8,
+        "originality": 9,
+        "brand": 9,
+        "copy": 9
+      },
+      "average": 8.75,
+      "pass": true,
+      "notes": [
+        "spacing: linkedin, add the missing 72px left stub at x 0–72 on row y 240, so the stubs run every 40px from y 200 to y 480 and the cut-out reads as one rectangle, as it does on ig-post.",
+        "composition: linkedin, the right bar column stops at y 440 and leaves a pocket at x 712–1200, y 480–540. Add one bar at y 480 from x 712 to 1008 so the column ends level with the last left stub."
+      ],
+      "polish": [
+        "ig-post: end the two bars beside the subhead (rows y 1160 and 1200) at x 816 instead of 864, so the mark gets 96px of clear space to its left."
+      ]
+    }
+  ],
+  "waitingOn": null,
+  "cost": {
+    "director": 0.7576,
+    "senior": 0.1662,
+    "builder": 0.0352,
+    "total": 0.959,
+    "complete": true
+  },
+  "tokens": {
+    "director": 101541,
+    "senior": 113564,
+    "builder": 120283
+  },
+  "files": {
+    "final": ".desk/out/20261020-0142-linkedin-instagram-portrait-phone/final.html",
+    "brief": ".desk/jobs/20261020-0142-linkedin-instagram-portrait-phone/brief.md",
+    "handback": ".desk/out/20261020-0142-linkedin-instagram-portrait-phone/handback.md"
+  },
+  "pen": "builder",
+  "notes": [
+    "spacing: ig-post, the bars on rows y 1160 and 1200 start at x 520, only 16px after \"phone.\" ends (about x 504). Start them at x 552 so there is 48px of clear space, and keep the end at x 864.",
+    "spacing: ig-post, AD note 2 is only half applied. Add the 72px right stubs (x 1008–1080) on rows y 120, 200, 240 and 320, and add the missing left stub (x 0–72) on row y 240. Every row from y 80 to 360 should then carry both stubs, so the cut-out reads as one rectangle (x 72–1008, y 80–375).",
+    "spacing: linkedin, the right edge of the cut-out breaks at y 200–240. Add bars from x 712 on row y 200 (end x 936) and row y 240 (end x 1104), so the edge is one straight line at x 712 from y 200 to 455. Leave rows y 80–160 ending at x 984 so the mark keeps its bare patch.",
+    "composition: ig-post, the bar field from y 400 to 1100 (about 52% of the canvas) reads as an empty dark band at thumbnail size and low brightness. On both sizes, make the bars 24px tall on the same 40px pitch (16px gaps), still #171923, so the \"page\" shows in the feed.",
+    "originality: the same bar-length set (994 / 691 / 432 / 842) repeats in every paragraph block on ig-post, which reads as a pattern rather than a page. Within a block, use no length twice: vary in 8px steps between 320 and 1080, and end each block with its shortest line."
+  ],
+  "misses": {
+    "spacing": 1
+  },
+  "startedAt": "2026-10-20T01:42:11-05:00",
+  "updatedAt": "2026-10-20T01:50:20-05:00",
+  "roughs": [
+    {
+      "n": 1,
+      "pattern": "Editorial split",
+      "file": ".desk/out/20261020-0142-linkedin-instagram-portrait-phone/rough-1.html",
+      "fonts": "Source Serif 4 (brand family, inlined by runner, not a fallback)",
+      "written": true,
+      "renders": ".desk/jobs/20261020-0142-linkedin-instagram-portrait-phone/renders/roughs/rough-1"
+    },
+    {
+      "n": 2,
+      "pattern": "Full bleed with scrim",
+      "file": ".desk/out/20261020-0142-linkedin-instagram-portrait-phone/rough-2.html",
+      "fonts": "Source Serif 4 (brand family, inlined by runner, not a fallback)",
+      "written": true,
+      "renders": ".desk/jobs/20261020-0142-linkedin-instagram-portrait-phone/renders/roughs/rough-2"
+    },
+    {
+      "n": 3,
+      "pattern": "Type only",
+      "file": ".desk/out/20261020-0142-linkedin-instagram-portrait-phone/rough-3.html",
+      "fonts": "Source Serif 4 (brand family, inlined by runner, not a fallback)",
+      "written": true,
+      "renders": ".desk/jobs/20261020-0142-linkedin-instagram-portrait-phone/renders/roughs/rough-3"
+    }
+  ],
+  "lastRenders": ".desk/jobs/20261020-0142-linkedin-instagram-portrait-phone/renders/round-3",
+  "penNotes": [],
+  "finishedAt": "2026-10-20T01:50:20-05:00"
+}

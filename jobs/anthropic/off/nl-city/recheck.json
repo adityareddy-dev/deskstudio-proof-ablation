@@ -1,0 +1,210 @@
+{
+ "family": "anthropic",
+ "arm": "off",
+ "case": "nl-city",
+ "jobId": "20261020-0132-linkedin-instagram-portrait-installs",
+ "rounds": [
+  {
+   "round": 1,
+   "sizes": [
+    {
+     "size": "ig-post",
+     "failures": [
+      {
+       "check": "safe-zone",
+       "text": "Now",
+       "reason": "64px from the left edge, the safe zone starts at 65px; 51px from the top edge, the safe zone starts at 81px"
+      },
+      {
+       "check": "safe-zone",
+       "text": "installing",
+       "reason": "64px from the left edge, the safe zone starts at 65px"
+      },
+      {
+       "check": "safe-zone",
+       "text": "in Minneapolis.",
+       "reason": "64px from the left edge, the safe zone starts at 65px"
+      },
+      {
+       "check": "safe-zone",
+       "text": "Same panels.",
+       "reason": "64px from the left edge, the safe zone starts at 65px"
+      },
+      {
+       "check": "safe-zone",
+       "text": "Same",
+       "reason": "64px from the left edge, the safe zone starts at 65px"
+      },
+      {
+       "check": "safe-zone",
+       "text": "northlight.energy",
+       "reason": "64px from the left edge, the safe zone starts at 65px; ends 131px from the bottom edge, the safe zone is 135px"
+      }
+     ]
+    },
+    {
+     "size": "linkedin",
+     "failures": [
+      {
+       "check": "safe-zone",
+       "text": "Now",
+       "reason": "40px from the left edge, the safe zone starts at 72px; 33px from the top edge, the safe zone starts at 38px"
+      },
+      {
+       "check": "safe-zone",
+       "text": "installing",
+       "reason": "33px from the top edge, the safe zone starts at 38px"
+      },
+      {
+       "check": "safe-zone",
+       "text": "in Minneapolis.",
+       "reason": "40px from the left edge, the safe zone starts at 72px"
+      },
+      {
+       "check": "safe-zone",
+       "text": "seven years.",
+       "reason": "ends 54px from the right edge, the safe zone is 72px"
+      },
+      {
+       "check": "safe-zone",
+       "text": "northlight.energy",
+       "reason": "40px from the left edge, the safe zone starts at 72px"
+      }
+     ]
+    }
+   ],
+   "failures": 11,
+   "byCheck": {
+    "safe-zone": 11
+   }
+  },
+  {
+   "round": 2,
+   "sizes": [
+    {
+     "size": "ig-post",
+     "failures": [
+      {
+       "check": "safe-zone",
+       "text": "Now",
+       "reason": "54px from the left edge, the safe zone starts at 65px; 51px from the top edge, the safe zone starts at 81px"
+      },
+      {
+       "check": "safe-zone",
+       "text": "installing",
+       "reason": "54px from the left edge, the safe zone starts at 65px"
+      },
+      {
+       "check": "safe-zone",
+       "text": "in Minneapolis.",
+       "reason": "54px from the left edge, the safe zone starts at 65px"
+      },
+      {
+       "check": "safe-zone",
+       "text": "Same panels.",
+       "reason": "61px from the left edge, the safe zone starts at 65px"
+      },
+      {
+       "check": "safe-zone",
+       "text": "Same",
+       "reason": "61px from the left edge, the safe zone starts at 65px"
+      },
+      {
+       "check": "safe-zone",
+       "text": "northlight.energy",
+       "reason": "64px from the left edge, the safe zone starts at 65px; ends 131px from the bottom edge, the safe zone is 135px"
+      }
+     ]
+    },
+    {
+     "size": "linkedin",
+     "failures": [
+      {
+       "check": "safe-zone",
+       "text": "Now",
+       "reason": "34px from the left edge, the safe zone starts at 72px; 21px from the top edge, the safe zone starts at 38px"
+      },
+      {
+       "check": "safe-zone",
+       "text": "installing",
+       "reason": "21px from the top edge, the safe zone starts at 38px"
+      },
+      {
+       "check": "safe-zone",
+       "text": "in Minneapolis.",
+       "reason": "34px from the left edge, the safe zone starts at 72px"
+      },
+      {
+       "check": "safe-zone",
+       "text": "seven years.",
+       "reason": "ends 62px from the right edge, the safe zone is 72px"
+      },
+      {
+       "check": "safe-zone",
+       "text": "northlight.energy",
+       "reason": "40px from the left edge, the safe zone starts at 72px"
+      }
+     ]
+    }
+   ],
+   "failures": 11,
+   "byCheck": {
+    "safe-zone": 11
+   }
+  },
+  {
+   "round": 3,
+   "sizes": [
+    {
+     "size": "ig-post",
+     "failures": [
+      {
+       "check": "safe-zone",
+       "text": "northlight.energy",
+       "reason": "ends 131px from the bottom edge, the safe zone is 135px"
+      }
+     ]
+    },
+    {
+     "size": "linkedin",
+     "failures": [
+      {
+       "check": "safe-zone",
+       "text": "Now",
+       "reason": "70px from the left edge, the safe zone starts at 72px; 21px from the top edge, the safe zone starts at 38px"
+      },
+      {
+       "check": "safe-zone",
+       "text": "installing",
+       "reason": "21px from the top edge, the safe zone starts at 38px"
+      },
+      {
+       "check": "safe-zone",
+       "text": "in Minneapolis.",
+       "reason": "70px from the left edge, the safe zone starts at 72px"
+      },
+      {
+       "check": "safe-zone",
+       "text": "Same",
+       "reason": "ends 29px from the bottom edge, the safe zone is 38px"
+      },
+      {
+       "check": "safe-zone",
+       "text": "seven years.",
+       "reason": "ends 42px from the right edge, the safe zone is 72px; ends 29px from the bottom edge, the safe zone is 38px"
+      },
+      {
+       "check": "safe-zone",
+       "text": "northlight.energy",
+       "reason": "ends 35px from the bottom edge, the safe zone is 38px"
+      }
+     ]
+    }
+   ],
+   "failures": 7,
+   "byCheck": {
+    "safe-zone": 7
+   }
+  }
+ ]
+}

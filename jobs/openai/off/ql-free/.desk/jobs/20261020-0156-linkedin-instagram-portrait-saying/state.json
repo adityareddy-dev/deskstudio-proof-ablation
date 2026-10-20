@@ -1,0 +1,432 @@
+{
+  "id": "20261020-0156-linkedin-instagram-portrait-saying",
+  "command": "design",
+  "deliverable": "social-card",
+  "sizes": [
+    "linkedin",
+    "ig-post"
+  ],
+  "quality": "studio",
+  "proofMode": "off",
+  "models": {
+    "director": "openai/large",
+    "senior": "openai/mini",
+    "builder": "openai/mini"
+  },
+  "phase": "done",
+  "round": 6,
+  "maxRounds": 6,
+  "desks": [
+    {
+      "desk": "design-manager",
+      "task": "intake",
+      "status": "done",
+      "model": "openai/large",
+      "startedAt": "2026-10-20T01:56:57-05:00",
+      "updatedAt": "2026-10-20T01:57:16-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "rough 1, editorial split",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T01:57:16-05:00",
+      "updatedAt": "2026-10-20T01:57:50-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "rough 2, full bleed with scrim",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T01:57:16-05:00",
+      "updatedAt": "2026-10-20T01:57:59-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "rough 3, type only",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T01:57:16-05:00",
+      "updatedAt": "2026-10-20T01:57:45-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "art-director",
+      "task": "pick",
+      "status": "done",
+      "model": "openai/large",
+      "startedAt": "2026-10-20T01:58:02-05:00",
+      "updatedAt": "2026-10-20T01:58:21-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 1",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T01:58:21-05:00",
+      "updatedAt": "2026-10-20T01:58:46-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "creative-director",
+      "task": "sign-off round 1",
+      "status": "done",
+      "model": "openai/large",
+      "startedAt": "2026-10-20T01:58:47-05:00",
+      "updatedAt": "2026-10-20T01:59:10-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 2",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T01:59:11-05:00",
+      "updatedAt": "2026-10-20T02:00:57-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "creative-director",
+      "task": "sign-off round 2",
+      "status": "done",
+      "model": "openai/large",
+      "startedAt": "2026-10-20T02:00:58-05:00",
+      "updatedAt": "2026-10-20T02:01:20-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 3",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T02:01:20-05:00",
+      "updatedAt": "2026-10-20T02:01:53-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "creative-director",
+      "task": "sign-off round 3",
+      "status": "done",
+      "model": "openai/large",
+      "startedAt": "2026-10-20T02:01:55-05:00",
+      "updatedAt": "2026-10-20T02:02:25-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 4, escalated",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T02:02:25-05:00",
+      "updatedAt": "2026-10-20T02:02:55-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "creative-director",
+      "task": "sign-off round 4",
+      "status": "done",
+      "model": "openai/large",
+      "startedAt": "2026-10-20T02:02:56-05:00",
+      "updatedAt": "2026-10-20T02:03:18-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 5, escalated",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T02:03:19-05:00",
+      "updatedAt": "2026-10-20T02:03:49-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "creative-director",
+      "task": "sign-off round 5",
+      "status": "done",
+      "model": "openai/large",
+      "startedAt": "2026-10-20T02:03:50-05:00",
+      "updatedAt": "2026-10-20T02:04:31-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 6, escalated",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T02:04:31-05:00",
+      "updatedAt": "2026-10-20T02:05:02-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "creative-director",
+      "task": "sign-off round 6",
+      "status": "done",
+      "model": "openai/large",
+      "startedAt": "2026-10-20T02:05:03-05:00",
+      "updatedAt": "2026-10-20T02:05:29-05:00",
+      "via": "cli"
+    }
+  ],
+  "pick": {
+    "by": "art-director",
+    "rough": 3,
+    "pattern": "Type only",
+    "combineWith": null,
+    "reason": "The headline carries both formats, with “Free.” as the single clear focal point.",
+    "lost": "1 repeats the claim with a detached numeral and leaves the portrait hollow, 2 adds an unnecessary frame that weakens the typography.",
+    "notes": [
+      "On portrait, set the headline to 127px with 1.05 line height, arranged as “Three drafts.” / “Free.” / “Always.” Position at x72, y88; this keeps the headline within the top 40%, per the social-card standard.",
+      "On portrait, move the supporting line to x72, y640, retaining 54px type and the two-line wrap. This keeps every empty band below 450px, per the standard’s one-third limit.",
+      "Confirm and inline Source Serif 4 at weights 600 and 400 before rendering; use it for all text, as required by the brief."
+    ],
+    "at": "2026-10-20T01:58:21-05:00"
+  },
+  "proof": [
+    {
+      "round": 1,
+      "pass": null,
+      "skipped": true,
+      "failures": 0
+    },
+    {
+      "round": 2,
+      "pass": null,
+      "skipped": true,
+      "failures": 0
+    },
+    {
+      "round": 3,
+      "pass": null,
+      "skipped": true,
+      "failures": 0
+    },
+    {
+      "round": 4,
+      "pass": null,
+      "skipped": true,
+      "failures": 0
+    },
+    {
+      "round": 5,
+      "pass": null,
+      "skipped": true,
+      "failures": 0
+    },
+    {
+      "round": 6,
+      "pass": null,
+      "skipped": true,
+      "failures": 0
+    }
+  ],
+  "scores": [
+    {
+      "round": 1,
+      "by": "creative-director",
+      "axes": {
+        "hierarchy": 9,
+        "typography": 8,
+        "spacing": 9,
+        "colour": 9,
+        "composition": 8,
+        "originality": 6,
+        "brand": 9,
+        "copy": 9
+      },
+      "average": 8.38,
+      "pass": false,
+      "notes": [
+        "typography: On portrait, retain 54px supporting type but wrap as “Pay when the fourth” / “one matters.” to balance the two lines.",
+        "composition: Move the portrait wordmark up 80px, reducing the roughly 400px empty band below the supporting copy.",
+        "originality: Give the headline a deliberate typographic relationship: on landscape, align “Always.” beneath “drafts.”; on portrait, indent “Always.” by 72px while keeping “Three drafts.” and “Free.” at x72. Retain one blue accent and three type sizes."
+      ],
+      "polish": [
+        "Preserve the restrained palette and verbatim copy through the next round."
+      ]
+    },
+    {
+      "round": 2,
+      "by": "creative-director",
+      "axes": {
+        "hierarchy": 9,
+        "typography": 8,
+        "spacing": 8,
+        "colour": 9,
+        "composition": 8,
+        "originality": 6,
+        "brand": 9,
+        "copy": 9
+      },
+      "average": 8.25,
+      "pass": false,
+      "notes": [
+        "typography: Confirm Source Serif 4 is inlined at 600 and 400; retain portrait headline at 127px with 1.05 leading.",
+        "spacing: Move portrait “Always.” left 72px to align at x72 with “Free.” and the supporting copy.",
+        "composition: Move portrait wordmark from approximately y1104 to y1184, anchoring the bottom corner while preserving the 135px bottom clearance.",
+        "originality: Make the three free drafts a deliberate three-line headline in both formats; on LinkedIn, use 95px type with 1.05 leading at x72, y48, then place the supporting sentence at y384 as the fourth typographic beat."
+      ],
+      "polish": [
+        "Preserve the single blue accent on “Free.” throughout the revision."
+      ]
+    },
+    {
+      "round": 3,
+      "by": "creative-director",
+      "axes": {
+        "hierarchy": 9,
+        "typography": 9,
+        "spacing": 8,
+        "colour": 9,
+        "composition": 8,
+        "originality": 6,
+        "brand": 9,
+        "copy": 9
+      },
+      "average": 8.38,
+      "pass": false,
+      "notes": [
+        "spacing: On portrait, move the supporting line from y640 to y608 and the wordmark up 64px; keep x72 alignment.",
+        "composition: On landscape, set the headline on two lines, “Three drafts.” / “Free. Always.”, retaining 95px type and the blue accent on “Free.”",
+        "originality: Give the two formats distinct editorial rhythms: two headline lines on landscape, three on portrait. Keep exactly three type sizes and one accent; the current identical stack reads as a standard template."
+      ],
+      "polish": [
+        "Preserve all supplied copy verbatim."
+      ]
+    },
+    {
+      "round": 4,
+      "by": "creative-director",
+      "axes": {
+        "hierarchy": 9,
+        "typography": 9,
+        "spacing": 9,
+        "colour": 9,
+        "composition": 8,
+        "originality": 6,
+        "brand": 9,
+        "copy": 9
+      },
+      "average": 8.5,
+      "pass": false,
+      "notes": [
+        "composition: On LinkedIn, move the supporting line up 48px to tighten the relationship between the offer and its qualification.",
+        "originality: Give the supplied copy a deliberate fourth-line reveal on portrait: set the supporting sentence on one line at 40px, x72, y576, immediately following the three headline lines. Keep “Free.” as the only accent and retain the corner wordmark."
+      ],
+      "polish": []
+    },
+    {
+      "round": 5,
+      "by": "creative-director",
+      "axes": {
+        "hierarchy": 9,
+        "typography": 8,
+        "spacing": 8,
+        "colour": 9,
+        "composition": 8,
+        "originality": 6,
+        "brand": 9,
+        "copy": 9
+      },
+      "average": 8.25,
+      "pass": false,
+      "notes": [
+        "typography: On portrait, increase supporting copy from approximately 40px to 54px, with 1.3 line height; wrap after “fourth”.",
+        "spacing: Move the portrait supporting block to x72, y640, as directed at the pick.",
+        "composition: Move the portrait wordmark from approximately y1064 to y1176; retain at least 135px bottom clearance and keep the intervening empty band below 450px.",
+        "originality: Give the type-only layout a deliberate hanging alignment: keep “Free.” at x72 and align the other headline lines, supporting copy, and wordmark at x96 in both formats. Preserve the supplied copy and single accent."
+      ],
+      "polish": [
+        "Confirm Source Serif 4 is inlined at weights 600 and 400 before the final render; screenshots alone cannot verify font embedding."
+      ]
+    },
+    {
+      "round": 6,
+      "by": "creative-director",
+      "axes": {
+        "hierarchy": 9,
+        "typography": 8,
+        "spacing": 8,
+        "colour": 9,
+        "composition": 8,
+        "originality": 6,
+        "brand": 9,
+        "copy": 9
+      },
+      "average": 8.25,
+      "pass": false,
+      "notes": [
+        "typography: Align the visible left edges of “Three drafts.” and “Always.” with the supporting copy at x96; retain headline weight 600 and body weight 400.",
+        "spacing: On portrait, raise the wordmark 80px, reducing the roughly 420px blank band below the supporting copy to 340px.",
+        "composition: On portrait, move the supporting copy from x96 to x72 and keep its top at y640, matching the approved column.",
+        "originality: Replace the slight leftward offset of “Free.” with a deliberate 128px rightward indent from the headline column in both formats; make the free draft the distinct middle beat of the three-line statement."
+      ],
+      "polish": [
+        "After revising, render both formats again to judge the new alignment and rhythm together."
+      ]
+    }
+  ],
+  "waitingOn": {
+    "type": "approve_under_bar",
+    "text": "Under the bar after 6 rounds. originality under 8, originality: Replace the slight leftward offset of “Free.” with a deliberate 128px rightward indent from the headline column in both formats; make the free draft the distinct middle beat of the three-line statement."
+  },
+  "cost": {
+    "director": 1.2251,
+    "senior": 0.2265,
+    "builder": 0.1034,
+    "total": 1.555,
+    "complete": true
+  },
+  "tokens": {
+    "director": 273842,
+    "senior": 292867,
+    "builder": 183008
+  },
+  "files": {
+    "final": ".desk/out/20261020-0156-linkedin-instagram-portrait-saying/final.html",
+    "brief": ".desk/jobs/20261020-0156-linkedin-instagram-portrait-saying/brief.md",
+    "handback": ".desk/out/20261020-0156-linkedin-instagram-portrait-saying/handback.md"
+  },
+  "pen": "art-director",
+  "notes": [
+    "typography: Align the visible left edges of “Three drafts.” and “Always.” with the supporting copy at x96; retain headline weight 600 and body weight 400.",
+    "spacing: On portrait, raise the wordmark 80px, reducing the roughly 420px blank band below the supporting copy to 340px.",
+    "composition: On portrait, move the supporting copy from x96 to x72 and keep its top at y640, matching the approved column.",
+    "originality: Replace the slight leftward offset of “Free.” with a deliberate 128px rightward indent from the headline column in both formats; make the free draft the distinct middle beat of the three-line statement."
+  ],
+  "misses": {},
+  "startedAt": "2026-10-20T01:56:57-05:00",
+  "updatedAt": "2026-10-20T02:05:29-05:00",
+  "roughs": [
+    {
+      "n": 1,
+      "pattern": "Editorial split",
+      "file": ".desk/out/20261020-0156-linkedin-instagram-portrait-saying/rough-1.html",
+      "fonts": "Source Serif 4; runner to inline, no fallback substitution",
+      "written": true,
+      "renders": ".desk/jobs/20261020-0156-linkedin-instagram-portrait-saying/renders/roughs/rough-1"
+    },
+    {
+      "n": 2,
+      "pattern": "Full bleed with scrim",
+      "file": ".desk/out/20261020-0156-linkedin-instagram-portrait-saying/rough-2.html",
+      "fonts": "Source Serif 4; runner to inline, no fallback selected",
+      "written": true,
+      "renders": ".desk/jobs/20261020-0156-linkedin-instagram-portrait-saying/renders/roughs/rough-2"
+    },
+    {
+      "n": 3,
+      "pattern": "Type only",
+      "file": ".desk/out/20261020-0156-linkedin-instagram-portrait-saying/rough-3.html",
+      "fonts": "Source Serif 4; runner to inline, no fallback selected",
+      "written": true,
+      "renders": ".desk/jobs/20261020-0156-linkedin-instagram-portrait-saying/renders/roughs/rough-3"
+    }
+  ],
+  "lastRenders": ".desk/jobs/20261020-0156-linkedin-instagram-portrait-saying/renders/round-6",
+  "penNotes": [],
+  "finishedAt": "2026-10-20T02:05:29-05:00"
+}

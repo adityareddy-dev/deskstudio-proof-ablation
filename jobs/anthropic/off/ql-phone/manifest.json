@@ -1,0 +1,25 @@
+{
+ "family": "anthropic",
+ "arm": "off",
+ "case": "ql-phone",
+ "brand": "quill",
+ "ask": "a LinkedIn card and an Instagram portrait card announcing the phone app, every cut sentence still there on the train. Copy that must appear: 'Your drafts, on the train.' and 'Now on your phone.' and 'quill.app'.",
+ "models": "studio preset",
+ "startedAt": "2026-10-20T06:44:31.539Z",
+ "attempts": [
+  {
+   "code": 0,
+   "seconds": 264
+  }
+ ],
+ "exit": 0,
+ "seconds": 264,
+ "jobId": "20261020-0144-linkedin-instagram-portrait-phone",
+ "phase": "done",
+ "done": true,
+ "finishedAt": "2026-10-20T06:48:55.277Z",
+ "audit": {
+  "pass": false,
+  "failures": 6
+ }
+}

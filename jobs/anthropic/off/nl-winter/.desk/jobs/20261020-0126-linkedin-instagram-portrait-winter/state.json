@@ -1,0 +1,189 @@
+{
+  "id": "20261020-0126-linkedin-instagram-portrait-winter",
+  "command": "design",
+  "deliverable": "social-card",
+  "sizes": [
+    "linkedin",
+    "ig-post"
+  ],
+  "quality": "studio",
+  "proofMode": "off",
+  "models": {
+    "director": "anthropic/opus",
+    "senior": "anthropic/sonnet",
+    "builder": "anthropic/haiku"
+  },
+  "phase": "done",
+  "round": 1,
+  "maxRounds": 6,
+  "desks": [
+    {
+      "desk": "design-manager",
+      "task": "intake",
+      "status": "done",
+      "model": "anthropic/opus",
+      "startedAt": "2026-10-20T01:26:27-05:00",
+      "updatedAt": "2026-10-20T01:26:43-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "rough 1, editorial split",
+      "status": "done",
+      "model": "anthropic/sonnet",
+      "startedAt": "2026-10-20T01:26:43-05:00",
+      "updatedAt": "2026-10-20T01:27:04-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "rough 2, full bleed with scrim",
+      "status": "done",
+      "model": "anthropic/sonnet",
+      "startedAt": "2026-10-20T01:26:43-05:00",
+      "updatedAt": "2026-10-20T01:27:16-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "rough 3, type only",
+      "status": "done",
+      "model": "anthropic/sonnet",
+      "startedAt": "2026-10-20T01:26:44-05:00",
+      "updatedAt": "2026-10-20T01:27:05-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "art-director",
+      "task": "pick",
+      "status": "done",
+      "model": "anthropic/opus",
+      "startedAt": "2026-10-20T01:27:21-05:00",
+      "updatedAt": "2026-10-20T01:27:48-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 1",
+      "status": "done",
+      "model": "anthropic/haiku",
+      "startedAt": "2026-10-20T01:27:48-05:00",
+      "updatedAt": "2026-10-20T01:28:20-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "creative-director",
+      "task": "sign-off round 1",
+      "status": "done",
+      "model": "anthropic/opus",
+      "startedAt": "2026-10-20T01:28:21-05:00",
+      "updatedAt": "2026-10-20T01:29:00-05:00",
+      "via": "cli"
+    }
+  ],
+  "pick": {
+    "by": "art-director",
+    "rough": 3,
+    "pattern": "Type only",
+    "combineWith": null,
+    "reason": "The headline is the image. It reads in under two seconds at thumbnail size on both sizes, it sits fully on warm paper with one accent on \"pays.\", and it needs the fewest notes to reach the bar.",
+    "lost": "1 the right surface panel is an empty box carrying one small line, so the split has no second element to justify it. 2 the large black fields abandon the warm paper brand, the LinkedIn headline is the smallest of the three, and the black band on ig-post is leftover space, not shaped air.",
+    "notes": [
+      "ig-post: headline from about 186px to 233px (brand scale), line height 1.0, tracking -0.02em, top still at the 6% safe line (65px). \"January\" will run about 880px wide, inside the right margin. This shrinks the band between headline and bottom group well under a third of the canvas (standard: \"owns the whole canvas\").",
+      "Supporting line from 24px to 31px on linkedin, one line. On ig-post, set it to 39px, line height 1.3, broken after \"off.\" into two lines. The headline-to-support jump is too steep now (standard: three sizes, one supporting size).",
+      "Mark stays at 25px in muted `#6b6a66`. Space it 32px below the supporting line on both sizes. Its baseline sits on the bottom safe line: 589px on linkedin (6%) and 1215px on ig-post (10%).",
+      "linkedin: keep the headline at about 149px over two lines, with \"pays.\" the only accent. Move the headline block top to 40px (6% of 627, rounded to the 8px grid). The headline-to-support gap is then the shaped air on the left column, and the right side stays open.",
+      "Check the margins are on the 8px grid: left margin 72px on both sizes, every vertical gap a multiple of 8 (house style: \"space is the grid\")."
+    ],
+    "at": "2026-10-20T01:27:48-05:00"
+  },
+  "proof": [
+    {
+      "round": 1,
+      "pass": null,
+      "skipped": true,
+      "failures": 0
+    }
+  ],
+  "scores": [
+    {
+      "round": 1,
+      "by": "creative-director",
+      "axes": {
+        "hierarchy": 9,
+        "typography": 8,
+        "spacing": 9,
+        "colour": 9,
+        "composition": 9,
+        "originality": 8,
+        "brand": 9,
+        "copy": 9
+      },
+      "average": 8.75,
+      "pass": true,
+      "notes": [
+        "typography: optical alignment of the big type is off. Pull the headline left by -0.04em: about -9px at 233px on ig-post and about -6px at 149px on linkedin. The stems of \"J\", \"s\" and \"p\" (now at about 80 to 88px) then sit on the 72px column with the supporting line and the mark.",
+        "originality: linkedin reads as a reduced ig-post rather than a poster. Set its headline to 186px (brand scale), keeping line height 1.0, tracking -0.02em, top at 40px and two lines (\"January\" / \"still pays.\"). The block then runs about 800px wide and the descender of \"pays.\" ends near y 415. Keep the supporting line and mark pinned to the bottom safe line (mark baseline 589px), with at least 64px clear above the supporting line."
+      ],
+      "polish": []
+    }
+  ],
+  "waitingOn": null,
+  "cost": {
+    "director": 0.4059,
+    "senior": 0.1487,
+    "builder": 0.0053,
+    "total": 0.5599,
+    "complete": true
+  },
+  "tokens": {
+    "director": 42566,
+    "senior": 55882,
+    "builder": 17363
+  },
+  "files": {
+    "final": ".desk/out/20261020-0126-linkedin-instagram-portrait-winter/final.html",
+    "brief": ".desk/jobs/20261020-0126-linkedin-instagram-portrait-winter/brief.md",
+    "handback": ".desk/out/20261020-0126-linkedin-instagram-portrait-winter/handback.md"
+  },
+  "pen": "builder",
+  "notes": [
+    "ig-post: headline from about 186px to 233px (brand scale), line height 1.0, tracking -0.02em, top still at the 6% safe line (65px). \"January\" will run about 880px wide, inside the right margin. This shrinks the band between headline and bottom group well under a third of the canvas (standard: \"owns the whole canvas\").",
+    "Supporting line from 24px to 31px on linkedin, one line. On ig-post, set it to 39px, line height 1.3, broken after \"off.\" into two lines. The headline-to-support jump is too steep now (standard: three sizes, one supporting size).",
+    "Mark stays at 25px in muted `#6b6a66`. Space it 32px below the supporting line on both sizes. Its baseline sits on the bottom safe line: 589px on linkedin (6%) and 1215px on ig-post (10%).",
+    "linkedin: keep the headline at about 149px over two lines, with \"pays.\" the only accent. Move the headline block top to 40px (6% of 627, rounded to the 8px grid). The headline-to-support gap is then the shaped air on the left column, and the right side stays open.",
+    "Check the margins are on the 8px grid: left margin 72px on both sizes, every vertical gap a multiple of 8 (house style: \"space is the grid\")."
+  ],
+  "misses": {},
+  "startedAt": "2026-10-20T01:26:26-05:00",
+  "updatedAt": "2026-10-20T01:29:01-05:00",
+  "roughs": [
+    {
+      "n": 1,
+      "pattern": "Editorial split",
+      "file": ".desk/out/20261020-0126-linkedin-instagram-portrait-winter/rough-1.html",
+      "fonts": "Inter, inlined by the runner, not a fallback",
+      "written": true,
+      "renders": ".desk/jobs/20261020-0126-linkedin-instagram-portrait-winter/renders/roughs/rough-1"
+    },
+    {
+      "n": 2,
+      "pattern": "Full bleed with scrim",
+      "file": ".desk/out/20261020-0126-linkedin-instagram-portrait-winter/rough-2.html",
+      "fonts": "Inter, inlined by the runner, not a fallback",
+      "written": true,
+      "renders": ".desk/jobs/20261020-0126-linkedin-instagram-portrait-winter/renders/roughs/rough-2"
+    },
+    {
+      "n": 3,
+      "pattern": "Type only",
+      "file": ".desk/out/20261020-0126-linkedin-instagram-portrait-winter/rough-3.html",
+      "fonts": "Inter, inlined by the runner (not a fallback)",
+      "written": true,
+      "renders": ".desk/jobs/20261020-0126-linkedin-instagram-portrait-winter/renders/roughs/rough-3"
+    }
+  ],
+  "lastRenders": ".desk/jobs/20261020-0126-linkedin-instagram-portrait-winter/renders/round-1",
+  "penNotes": [],
+  "finishedAt": "2026-10-20T01:29:01-05:00"
+}

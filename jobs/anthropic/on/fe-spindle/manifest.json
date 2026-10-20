@@ -1,0 +1,25 @@
+{
+ "family": "anthropic",
+ "arm": "on",
+ "case": "fe-spindle",
+ "brand": "ferro",
+ "ask": "a LinkedIn card and an Instagram portrait card announcing a faster spindle that fits every mill already shipped. Copy that must appear: '24,000 rpm. Fits every Ferro ever made.' and 'Swap it in ten minutes.' and 'ferro.tools'.",
+ "models": "studio preset",
+ "startedAt": "2026-10-20T06:52:05.560Z",
+ "attempts": [
+  {
+   "code": 0,
+   "seconds": 190
+  }
+ ],
+ "exit": 0,
+ "seconds": 190,
+ "jobId": "20261020-0152-linkedin-instagram-portrait-faster",
+ "phase": "done",
+ "done": true,
+ "finishedAt": "2026-10-20T06:55:15.512Z",
+ "audit": {
+  "pass": true,
+  "failures": 0
+ }
+}

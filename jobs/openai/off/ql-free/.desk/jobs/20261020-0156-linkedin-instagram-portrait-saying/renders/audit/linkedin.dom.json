@@ -1,0 +1,93 @@
+{
+  "width": 1200,
+  "height": 627,
+  "scrollWidth": 1200,
+  "scrollHeight": 627,
+  "boxes": [
+    {
+      "x": 96,
+      "y": 32,
+      "width": 566.15625,
+      "height": 130,
+      "text": "Three drafts.",
+      "color": "rgb(237, 237, 240)",
+      "opacity": 1,
+      "fontSize": 95,
+      "fontWeight": 600,
+      "fontFamily": "\"Source Serif 4\", Georgia, \"Times New Roman\", serif",
+      "clips": []
+    },
+    {
+      "x": 72,
+      "y": 131.75,
+      "width": 221.109375,
+      "height": 130,
+      "text": "Free.",
+      "color": "rgb(124, 156, 255)",
+      "opacity": 1,
+      "fontSize": 95,
+      "fontWeight": 600,
+      "fontFamily": "\"Source Serif 4\", Georgia, \"Times New Roman\", serif",
+      "clips": []
+    },
+    {
+      "x": 96,
+      "y": 231.5,
+      "width": 340.84375,
+      "height": 130,
+      "text": "Always.",
+      "color": "rgb(237, 237, 240)",
+      "opacity": 1,
+      "fontSize": 95,
+      "fontWeight": 600,
+      "fontFamily": "\"Source Serif 4\", Georgia, \"Times New Roman\", serif",
+      "clips": []
+    },
+    {
+      "x": 96,
+      "y": 385,
+      "width": 395.09375,
+      "height": 54,
+      "text": "Pay when the fourth",
+      "color": "rgb(237, 237, 240)",
+      "opacity": 1,
+      "fontSize": 40,
+      "fontWeight": 400,
+      "fontFamily": "\"Source Serif 4\", Georgia, \"Times New Roman\", serif",
+      "clips": []
+    },
+    {
+      "x": 491.09375,
+      "y": 385,
+      "width": 237.6875,
+      "height": 54,
+      "text": "one matters.",
+      "color": "rgb(237, 237, 240)",
+      "opacity": 1,
+      "fontSize": 40,
+      "fontWeight": 400,
+      "fontFamily": "\"Source Serif 4\", Georgia, \"Times New Roman\", serif",
+      "clips": []
+    },
+    {
+      "x": 96,
+      "y": 539,
+      "width": 127.59375,
+      "height": 41,
+      "text": "quill.app",
+      "color": "rgb(237, 237, 240)",
+      "opacity": 1,
+      "fontSize": 30,
+      "fontWeight": 400,
+      "fontFamily": "\"Source Serif 4\", Georgia, \"Times New Roman\", serif",
+      "clips": []
+    }
+  ],
+  "fonts": {
+    "Source Serif 4": true,
+    "Georgia": true,
+    "Times New Roman": true,
+    "serif": true
+  },
+  "images": 0
+}

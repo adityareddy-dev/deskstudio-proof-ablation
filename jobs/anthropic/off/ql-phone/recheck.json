@@ -1,0 +1,117 @@
+{
+ "family": "anthropic",
+ "arm": "off",
+ "case": "ql-phone",
+ "jobId": "20261020-0144-linkedin-instagram-portrait-phone",
+ "rounds": [
+  {
+   "round": 1,
+   "sizes": [
+    {
+     "size": "ig-post",
+     "failures": [
+      {
+       "check": "safe-zone",
+       "text": "Your drafts,",
+       "reason": "51px from the top edge, the safe zone starts at 81px"
+      },
+      {
+       "check": "safe-zone",
+       "text": "quill.app",
+       "reason": "ends 134px from the bottom edge, the safe zone is 135px"
+      },
+      {
+       "check": "palette",
+       "text": "",
+       "reason": "10% of the pixels are not within 45 of any brand colour (limit 5%). Images and gradients count, so use brand tints or a scrim"
+      }
+     ]
+    },
+    {
+     "size": "linkedin",
+     "failures": [
+      {
+       "check": "safe-zone",
+       "text": "Your drafts,",
+       "reason": "40px from the left edge, the safe zone starts at 72px; 24px from the top edge, the safe zone starts at 38px"
+      },
+      {
+       "check": "safe-zone",
+       "text": "on the train.",
+       "reason": "40px from the left edge, the safe zone starts at 72px"
+      },
+      {
+       "check": "safe-zone",
+       "text": "Now on your phone.",
+       "reason": "40px from the left edge, the safe zone starts at 72px"
+      },
+      {
+       "check": "safe-zone",
+       "text": "quill.app",
+       "reason": "40px from the left edge, the safe zone starts at 72px"
+      },
+      {
+       "check": "palette",
+       "text": "",
+       "reason": "9% of the pixels are not within 45 of any brand colour (limit 5%). Images and gradients count, so use brand tints or a scrim"
+      }
+     ]
+    }
+   ],
+   "failures": 8,
+   "byCheck": {
+    "safe-zone": 6,
+    "palette": 2
+   }
+  },
+  {
+   "round": 2,
+   "sizes": [
+    {
+     "size": "ig-post",
+     "failures": [
+      {
+       "check": "safe-zone",
+       "text": "Your drafts,",
+       "reason": "51px from the top edge, the safe zone starts at 81px"
+      },
+      {
+       "check": "safe-zone",
+       "text": "quill.app",
+       "reason": "ends 134px from the bottom edge, the safe zone is 135px"
+      }
+     ]
+    },
+    {
+     "size": "linkedin",
+     "failures": [
+      {
+       "check": "safe-zone",
+       "text": "Your drafts,",
+       "reason": "40px from the left edge, the safe zone starts at 72px; 24px from the top edge, the safe zone starts at 38px"
+      },
+      {
+       "check": "safe-zone",
+       "text": "on the train.",
+       "reason": "40px from the left edge, the safe zone starts at 72px"
+      },
+      {
+       "check": "safe-zone",
+       "text": "Now on your phone.",
+       "reason": "40px from the left edge, the safe zone starts at 72px"
+      },
+      {
+       "check": "safe-zone",
+       "text": "quill.app",
+       "reason": "40px from the left edge, the safe zone starts at 72px"
+      }
+     ]
+    }
+   ],
+   "failures": 6,
+   "byCheck": {
+    "safe-zone": 6
+   }
+  }
+ ]
+}

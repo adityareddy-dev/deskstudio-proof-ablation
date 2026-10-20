@@ -1,0 +1,357 @@
+{
+  "id": "20261020-0212-linkedin-instagram-portrait-desk",
+  "command": "design",
+  "deliverable": "social-card",
+  "sizes": [
+    "linkedin",
+    "ig-post"
+  ],
+  "quality": "studio",
+  "proofMode": "on",
+  "models": {
+    "director": "openai/large",
+    "senior": "openai/mini",
+    "builder": "openai/mini"
+  },
+  "phase": "done",
+  "round": 6,
+  "maxRounds": 6,
+  "desks": [
+    {
+      "desk": "design-manager",
+      "task": "intake",
+      "status": "done",
+      "model": "openai/large",
+      "startedAt": "2026-10-20T02:12:16-05:00",
+      "updatedAt": "2026-10-20T02:12:36-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "rough 1, editorial split",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T02:12:36-05:00",
+      "updatedAt": "2026-10-20T02:13:12-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "rough 2, full bleed with scrim",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T02:12:36-05:00",
+      "updatedAt": "2026-10-20T02:13:23-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "rough 3, type only",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T02:12:36-05:00",
+      "updatedAt": "2026-10-20T02:13:10-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "art-director",
+      "task": "pick",
+      "status": "done",
+      "model": "openai/large",
+      "startedAt": "2026-10-20T02:13:27-05:00",
+      "updatedAt": "2026-10-20T02:13:46-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 1",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T02:13:46-05:00",
+      "updatedAt": "2026-10-20T02:14:40-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 2",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T02:14:42-05:00",
+      "updatedAt": "2026-10-20T02:15:37-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "creative-director",
+      "task": "sign-off round 2",
+      "status": "done",
+      "model": "openai/large",
+      "startedAt": "2026-10-20T02:15:39-05:00",
+      "updatedAt": "2026-10-20T02:15:57-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 3",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T02:15:57-05:00",
+      "updatedAt": "2026-10-20T02:16:34-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "creative-director",
+      "task": "sign-off round 3",
+      "status": "done",
+      "model": "openai/large",
+      "startedAt": "2026-10-20T02:16:36-05:00",
+      "updatedAt": "2026-10-20T02:17:04-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 4",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T02:17:04-05:00",
+      "updatedAt": "2026-10-20T02:17:47-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "creative-director",
+      "task": "sign-off round 4",
+      "status": "done",
+      "model": "openai/large",
+      "startedAt": "2026-10-20T02:17:49-05:00",
+      "updatedAt": "2026-10-20T02:18:17-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 5, escalated",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T02:18:18-05:00",
+      "updatedAt": "2026-10-20T02:18:43-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 6, escalated",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T02:18:44-05:00",
+      "updatedAt": "2026-10-20T02:19:10-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "creative-director",
+      "task": "sign-off round 6",
+      "status": "done",
+      "model": "openai/large",
+      "startedAt": "2026-10-20T02:19:11-05:00",
+      "updatedAt": "2026-10-20T02:19:33-05:00",
+      "via": "cli"
+    }
+  ],
+  "pick": {
+    "by": "art-director",
+    "rough": 3,
+    "pattern": "Type only",
+    "combineWith": null,
+    "reason": "The headline reads first at both sizes, and amber on “studio” gives the brand one clear focal point with the fewest fixes.",
+    "lost": "1 The launch line competes with the headline, 2 The amber frame dominates and leaves “agent.” stranded in portrait.",
+    "notes": [
+      "In portrait only, place the supporting line’s text box at y=800px, keeping x=72px. This balances the space between headline, support and footer while keeping each empty band below 450px, per the social-card standard."
+    ],
+    "at": "2026-10-20T02:13:46-05:00"
+  },
+  "proof": [
+    {
+      "round": 1,
+      "pass": false,
+      "failures": 4
+    },
+    {
+      "round": 2,
+      "pass": true,
+      "failures": 0
+    },
+    {
+      "round": 3,
+      "pass": true,
+      "failures": 0
+    },
+    {
+      "round": 4,
+      "pass": true,
+      "failures": 0
+    },
+    {
+      "round": 5,
+      "pass": false,
+      "failures": 9
+    },
+    {
+      "round": 6,
+      "pass": true,
+      "failures": 0
+    }
+  ],
+  "scores": [
+    {
+      "round": 2,
+      "by": "creative-director",
+      "axes": {
+        "hierarchy": 9,
+        "typography": 9,
+        "spacing": 9,
+        "colour": 10,
+        "composition": 9,
+        "originality": 6,
+        "brand": 9,
+        "copy": 9
+      },
+      "average": 8.75,
+      "pass": false,
+      "notes": [
+        "originality: The layout is a standard type-only template. In both formats, indent “inside your” by 72px to x=144px, keeping lines 1 and 3 at x=72px. Make the inset express “inside” while preserving the single amber accent and verbatim copy."
+      ],
+      "polish": [
+        "Keep the portrait supporting text box at y=800px as picked."
+      ]
+    },
+    {
+      "round": 3,
+      "by": "creative-director",
+      "axes": {
+        "hierarchy": 9,
+        "typography": 8,
+        "spacing": 8,
+        "colour": 10,
+        "composition": 8,
+        "originality": 6,
+        "brand": 8,
+        "copy": 9
+      },
+      "average": 8.25,
+      "pass": false,
+      "notes": [
+        "typography: Remove the isolated second-line indent: align all three headline lines at x=72px in both formats.",
+        "spacing: Preserve the portrait support box at x=72px, y=800px; retain the existing footer positions.",
+        "composition: Increase the landscape headline from approximately 95px to 119px, keeping three lines; move its support box to y=456px to accommodate the larger block.",
+        "originality: Develop one deliberate typographic nesting treatment around “inside your”; use a consistent 72px inset for both nested lines, rather than shifting only the middle line. Render this as an alternative to the flush-left correction for comparison.",
+        "brand: Set the headline to the specified 600 weight; the rendered weight currently reads heavier than the intended restrained voice."
+      ],
+      "polish": [
+        "Keep amber confined to “studio”; the single emphasis works at both sizes."
+      ]
+    },
+    {
+      "round": 4,
+      "by": "creative-director",
+      "axes": {
+        "hierarchy": 9,
+        "typography": 9,
+        "spacing": 8,
+        "colour": 10,
+        "composition": 8,
+        "originality": 6,
+        "brand": 9,
+        "copy": 9
+      },
+      "average": 8.5,
+      "pass": false,
+      "notes": [
+        "spacing: In portrait, move the supporting text box from y=800px to y=720px and the footer up 80px to strengthen the relationship between the three groups.",
+        "composition: In portrait, move the headline top to y=88px; retain x=72px and the three-line limit.",
+        "originality: Replace the conventional headline wrap with “A design / studio inside your / coding agent.” at 108px, weight 600, line-height 1.04; keep amber exclusively on “studio” and test this typographic arrangement in both formats."
+      ],
+      "polish": [
+        "Align the brand mark and URL on one optical baseline in both formats."
+      ]
+    },
+    {
+      "round": 6,
+      "by": "creative-director",
+      "axes": {
+        "hierarchy": 9,
+        "typography": 9,
+        "spacing": 9,
+        "colour": 10,
+        "composition": 8,
+        "originality": 6,
+        "brand": 9,
+        "copy": 9
+      },
+      "average": 8.63,
+      "pass": false,
+      "notes": [
+        "composition: In portrait, move the supporting text box from approximately y=720px to y=800px, retaining x=72px, as requested at the pick.",
+        "originality: Indent “coding agent.” from x=72px to x=144px in both formats to give “inside” a visible nesting relationship; retain three headline lines and one amber accent."
+      ],
+      "polish": [
+        "None."
+      ]
+    }
+  ],
+  "waitingOn": {
+    "type": "approve_under_bar",
+    "text": "Under the bar after 6 rounds. originality under 8, originality: Indent “coding agent.” from x=72px to x=144px in both formats to give “inside” a visible nesting relationship; retain three headline lines and one amber accent."
+  },
+  "cost": {
+    "director": 0.9078,
+    "senior": 0.2164,
+    "builder": 0.15,
+    "total": 1.2742,
+    "complete": true
+  },
+  "tokens": {
+    "director": 206934,
+    "senior": 235828,
+    "builder": 183269
+  },
+  "files": {
+    "final": ".desk/out/20261020-0212-linkedin-instagram-portrait-desk/final.html",
+    "brief": ".desk/jobs/20261020-0212-linkedin-instagram-portrait-desk/brief.md",
+    "handback": ".desk/out/20261020-0212-linkedin-instagram-portrait-desk/handback.md"
+  },
+  "pen": "senior",
+  "notes": [
+    "composition: In portrait, move the supporting text box from approximately y=720px to y=800px, retaining x=72px, as requested at the pick.",
+    "originality: Indent “coding agent.” from x=72px to x=144px in both formats to give “inside” a visible nesting relationship; retain three headline lines and one amber accent."
+  ],
+  "misses": {
+    "originality": 1
+  },
+  "startedAt": "2026-10-20T02:12:16-05:00",
+  "updatedAt": "2026-10-20T02:19:33-05:00",
+  "roughs": [
+    {
+      "n": 1,
+      "pattern": "Editorial split",
+      "file": ".desk/out/20261020-0212-linkedin-instagram-portrait-desk/rough-1.html",
+      "fonts": "Geist; runner inlines brand font",
+      "written": true,
+      "renders": ".desk/jobs/20261020-0212-linkedin-instagram-portrait-desk/renders/roughs/rough-1"
+    },
+    {
+      "n": 2,
+      "pattern": "Full bleed with scrim",
+      "file": ".desk/out/20261020-0212-linkedin-instagram-portrait-desk/rough-2.html",
+      "fonts": "Geist, runner-inlined; no fallback selected",
+      "written": true,
+      "renders": ".desk/jobs/20261020-0212-linkedin-instagram-portrait-desk/renders/roughs/rough-2"
+    },
+    {
+      "n": 3,
+      "pattern": "Type only",
+      "file": ".desk/out/20261020-0212-linkedin-instagram-portrait-desk/rough-3.html",
+      "fonts": "Geist; inlined by runner",
+      "written": true,
+      "renders": ".desk/jobs/20261020-0212-linkedin-instagram-portrait-desk/renders/roughs/rough-3"
+    }
+  ],
+  "lastRenders": ".desk/jobs/20261020-0212-linkedin-instagram-portrait-desk/renders/round-6",
+  "penNotes": [],
+  "finishedAt": "2026-10-20T02:19:33-05:00"
+}

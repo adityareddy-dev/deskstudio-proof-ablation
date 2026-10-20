@@ -1,0 +1,50 @@
+{
+ "pass": false,
+ "file": "final.html",
+ "renders": [
+  {
+   "size": "linkedin",
+   "scheme": "light",
+   "width": 1200,
+   "height": 627,
+   "png": "C:\\Users\\adity\\Desktop\\Adi\\deskstudio-research\\proof-ablation-2026-10-20\\jobs\\anthropic\\off\\nl-winter\\.desk\\jobs\\20261020-0126-linkedin-instagram-portrait-winter\\renders\\audit\\linkedin.png",
+   "pass": false,
+   "failures": [
+    {
+     "check": "safe-zone",
+     "text": "January",
+     "reason": "28px from the top edge, the safe zone starts at 38px"
+    },
+    {
+     "check": "safe-zone",
+     "text": "northlight.energy",
+     "reason": "ends 33px from the bottom edge, the safe zone is 38px"
+    }
+   ]
+  },
+  {
+   "size": "ig-post",
+   "scheme": "light",
+   "width": 1080,
+   "height": 1350,
+   "png": "C:\\Users\\adity\\Desktop\\Adi\\deskstudio-research\\proof-ablation-2026-10-20\\jobs\\anthropic\\off\\nl-winter\\.desk\\jobs\\20261020-0126-linkedin-instagram-portrait-winter\\renders\\audit\\ig-post.png",
+   "pass": false,
+   "failures": [
+    {
+     "check": "safe-zone",
+     "text": "January",
+     "reason": "39px from the top edge, the safe zone starts at 81px"
+    },
+    {
+     "check": "safe-zone",
+     "text": "northlight.energy",
+     "reason": "ends 129px from the bottom edge, the safe zone is 135px"
+    }
+   ]
+  }
+ ],
+ "screenshots": [
+  "C:\\Users\\adity\\Desktop\\Adi\\deskstudio-research\\proof-ablation-2026-10-20\\jobs\\anthropic\\off\\nl-winter\\.desk\\jobs\\20261020-0126-linkedin-instagram-portrait-winter\\renders\\audit\\linkedin.png",
+  "C:\\Users\\adity\\Desktop\\Adi\\deskstudio-research\\proof-ablation-2026-10-20\\jobs\\anthropic\\off\\nl-winter\\.desk\\jobs\\20261020-0126-linkedin-instagram-portrait-winter\\renders\\audit\\ig-post.png"
+ ]
+}

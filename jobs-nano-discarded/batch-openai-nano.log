@@ -1,0 +1,11 @@
+[06:22:56] openai/on/nl-battery: start
+[06:22:56] openai/off/nl-battery: start
+[06:22:56] openai/on/nl-winter: start
+[06:22:56] openai/off/nl-winter: start
+[06:22:56] openai/on/nl-referral: start
+[06:22:56] openai/off/nl-referral: start
+[06:28:19] openai/off/nl-battery: exit 4 in 322s, 6 rounds, average 8, cost 3.33, audit 2 failures
+[06:28:19] openai/on/nl-city: start
+[06:32:14] openai/on/nl-city: failed at polish, resuming once
+[06:32:22] openai/on/nl-city: exit 1 in 243s, 6 rounds, average 8.13, cost 1.90, audit -
+[06:32:22] openai/off/nl-city: start

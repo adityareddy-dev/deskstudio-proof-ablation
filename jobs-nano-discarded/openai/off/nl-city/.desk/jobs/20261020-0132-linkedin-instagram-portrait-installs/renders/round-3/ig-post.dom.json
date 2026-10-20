@@ -1,0 +1,79 @@
+{
+  "width": 1080,
+  "height": 1350,
+  "scrollWidth": 1080,
+  "scrollHeight": 1350,
+  "boxes": [
+    {
+      "x": 80,
+      "y": 81,
+      "width": 434.140625,
+      "height": 74,
+      "text": "Now installing in",
+      "color": "rgb(22, 22, 20)",
+      "opacity": 1,
+      "fontSize": 61,
+      "fontWeight": 600,
+      "fontFamily": "Inter, Arial, sans-serif",
+      "clips": []
+    },
+    {
+      "x": 80,
+      "y": 133,
+      "width": 889.171875,
+      "height": 180,
+      "text": "Minneapolis.",
+      "color": "rgb(22, 22, 20)",
+      "opacity": 1,
+      "fontSize": 149,
+      "fontWeight": 600,
+      "fontFamily": "Inter, Arial, sans-serif",
+      "clips": []
+    },
+    {
+      "x": 80,
+      "y": 471,
+      "width": 387.90625,
+      "height": 74,
+      "text": "Same panels.",
+      "color": "rgb(22, 22, 20)",
+      "opacity": 1,
+      "fontSize": 61,
+      "fontWeight": 400,
+      "fontFamily": "Inter, Arial, sans-serif",
+      "clips": []
+    },
+    {
+      "x": 160,
+      "y": 556.390625,
+      "width": 544.21875,
+      "height": 74,
+      "text": "Same seven years.",
+      "color": "rgb(22, 22, 20)",
+      "opacity": 1,
+      "fontSize": 61,
+      "fontWeight": 400,
+      "fontFamily": "Inter, Arial, sans-serif",
+      "clips": []
+    },
+    {
+      "x": 80,
+      "y": 991.78125,
+      "width": 251.015625,
+      "height": 37,
+      "text": "northlight.energy",
+      "color": "rgb(22, 22, 20)",
+      "opacity": 1,
+      "fontSize": 31,
+      "fontWeight": 400,
+      "fontFamily": "Inter, Arial, sans-serif",
+      "clips": []
+    }
+  ],
+  "fonts": {
+    "Inter": true,
+    "Arial": true,
+    "sans-serif": true
+  },
+  "images": 0
+}

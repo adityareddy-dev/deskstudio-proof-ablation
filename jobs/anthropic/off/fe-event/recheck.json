@@ -1,0 +1,383 @@
+{
+ "family": "anthropic",
+ "arm": "off",
+ "case": "fe-event",
+ "jobId": "20261020-0201-linkedin-instagram-portrait-open",
+ "rounds": [
+  {
+   "round": 1,
+   "sizes": [
+    {
+     "size": "ig-post",
+     "failures": [
+      {
+       "check": "safe-zone",
+       "text": "Open",
+       "reason": "64px from the left edge, the safe zone starts at 65px; 70px from the top edge, the safe zone starts at 81px"
+      },
+      {
+       "check": "safe-zone",
+       "text": "workshop.",
+       "reason": "64px from the left edge, the safe zone starts at 65px"
+      },
+      {
+       "check": "safe-zone",
+       "text": "Saturday",
+       "reason": "64px from the left edge, the safe zone starts at 65px"
+      },
+      {
+       "check": "safe-zone",
+       "text": "November",
+       "reason": "64px from the left edge, the safe zone starts at 65px"
+      },
+      {
+       "check": "safe-zone",
+       "text": "Bring a part. Leave with it cut.",
+       "reason": "64px from the left edge, the safe zone starts at 65px"
+      },
+      {
+       "check": "safe-zone",
+       "text": "ferro.tools",
+       "reason": "64px from the left edge, the safe zone starts at 65px"
+      }
+     ]
+    },
+    {
+     "size": "linkedin",
+     "failures": [
+      {
+       "check": "safe-zone",
+       "text": "Open",
+       "reason": "35px from the top edge, the safe zone starts at 38px"
+      },
+      {
+       "check": "safe-zone",
+       "text": "workshop.",
+       "reason": "35px from the top edge, the safe zone starts at 38px"
+      }
+     ]
+    }
+   ],
+   "failures": 8,
+   "byCheck": {
+    "safe-zone": 8
+   }
+  },
+  {
+   "round": 2,
+   "sizes": [
+    {
+     "size": "ig-post",
+     "failures": [
+      {
+       "check": "safe-zone",
+       "text": "Open workshop.",
+       "reason": "64px from the left edge, the safe zone starts at 65px; 70px from the top edge, the safe zone starts at 81px"
+      },
+      {
+       "check": "safe-zone",
+       "text": "Saturday",
+       "reason": "64px from the left edge, the safe zone starts at 65px"
+      },
+      {
+       "check": "safe-zone",
+       "text": "November",
+       "reason": "64px from the left edge, the safe zone starts at 65px"
+      },
+      {
+       "check": "safe-zone",
+       "text": "8",
+       "reason": "64px from the left edge, the safe zone starts at 65px"
+      },
+      {
+       "check": "safe-zone",
+       "text": "Bring a part. Leave with it cut.",
+       "reason": "64px from the left edge, the safe zone starts at 65px"
+      },
+      {
+       "check": "safe-zone",
+       "text": "ferro.tools",
+       "reason": "64px from the left edge, the safe zone starts at 65px"
+      }
+     ]
+    },
+    {
+     "size": "linkedin",
+     "failures": [
+      {
+       "check": "safe-zone",
+       "text": "Open workshop.",
+       "reason": "34px from the top edge, the safe zone starts at 38px"
+      }
+     ]
+    }
+   ],
+   "failures": 7,
+   "byCheck": {
+    "safe-zone": 7
+   }
+  },
+  {
+   "round": 3,
+   "sizes": [
+    {
+     "size": "ig-post",
+     "failures": [
+      {
+       "check": "safe-zone",
+       "text": "Open workshop.",
+       "reason": "64px from the left edge, the safe zone starts at 65px; 70px from the top edge, the safe zone starts at 81px"
+      },
+      {
+       "check": "safe-zone",
+       "text": "Saturday",
+       "reason": "64px from the left edge, the safe zone starts at 65px"
+      },
+      {
+       "check": "safe-zone",
+       "text": "November",
+       "reason": "64px from the left edge, the safe zone starts at 65px"
+      },
+      {
+       "check": "safe-zone",
+       "text": "8",
+       "reason": "64px from the left edge, the safe zone starts at 65px"
+      },
+      {
+       "check": "safe-zone",
+       "text": "Bring a part. Leave with it cut.",
+       "reason": "64px from the left edge, the safe zone starts at 65px"
+      },
+      {
+       "check": "safe-zone",
+       "text": "ferro.tools",
+       "reason": "64px from the left edge, the safe zone starts at 65px"
+      }
+     ]
+    },
+    {
+     "size": "linkedin",
+     "failures": []
+    }
+   ],
+   "failures": 6,
+   "byCheck": {
+    "safe-zone": 6
+   }
+  },
+  {
+   "round": 4,
+   "sizes": [
+    {
+     "size": "ig-post",
+     "failures": [
+      {
+       "check": "safe-zone",
+       "text": "Open workshop.",
+       "reason": "64px from the left edge, the safe zone starts at 65px; 70px from the top edge, the safe zone starts at 81px"
+      },
+      {
+       "check": "safe-zone",
+       "text": "Saturday",
+       "reason": "64px from the left edge, the safe zone starts at 65px"
+      },
+      {
+       "check": "safe-zone",
+       "text": "November",
+       "reason": "64px from the left edge, the safe zone starts at 65px"
+      },
+      {
+       "check": "safe-zone",
+       "text": "8",
+       "reason": "64px from the left edge, the safe zone starts at 65px"
+      },
+      {
+       "check": "safe-zone",
+       "text": "Bring a part. Leave with it cut.",
+       "reason": "64px from the left edge, the safe zone starts at 65px"
+      },
+      {
+       "check": "safe-zone",
+       "text": "ferro.tools",
+       "reason": "64px from the left edge, the safe zone starts at 65px"
+      }
+     ]
+    },
+    {
+     "size": "linkedin",
+     "failures": [
+      {
+       "check": "safe-zone",
+       "text": "Open workshop.",
+       "reason": "31px from the top edge, the safe zone starts at 38px"
+      },
+      {
+       "check": "type-scale",
+       "text": "Open workshop.",
+       "reason": "108px is off the brand scale (base 16, ratio 1.25), use 95px or 119px"
+      },
+      {
+       "check": "type-scale",
+       "text": "Saturday",
+       "reason": "108px is off the brand scale (base 16, ratio 1.25), use 95px or 119px"
+      },
+      {
+       "check": "type-scale",
+       "text": "November",
+       "reason": "108px is off the brand scale (base 16, ratio 1.25), use 95px or 119px"
+      },
+      {
+       "check": "type-scale",
+       "text": "8",
+       "reason": "108px is off the brand scale (base 16, ratio 1.25), use 95px or 119px"
+      },
+      {
+       "check": "type-scale",
+       "text": ".",
+       "reason": "108px is off the brand scale (base 16, ratio 1.25), use 95px or 119px"
+      }
+     ]
+    }
+   ],
+   "failures": 12,
+   "byCheck": {
+    "safe-zone": 7,
+    "type-scale": 5
+   }
+  },
+  {
+   "round": 5,
+   "sizes": [
+    {
+     "size": "ig-post",
+     "failures": [
+      {
+       "check": "safe-zone",
+       "text": "Open workshop.",
+       "reason": "64px from the left edge, the safe zone starts at 65px; 78px from the top edge, the safe zone starts at 81px"
+      },
+      {
+       "check": "safe-zone",
+       "text": "Saturday",
+       "reason": "64px from the left edge, the safe zone starts at 65px"
+      },
+      {
+       "check": "safe-zone",
+       "text": "November",
+       "reason": "64px from the left edge, the safe zone starts at 65px"
+      },
+      {
+       "check": "safe-zone",
+       "text": "8",
+       "reason": "64px from the left edge, the safe zone starts at 65px"
+      },
+      {
+       "check": "safe-zone",
+       "text": "Bring a part. Leave with it cut.",
+       "reason": "64px from the left edge, the safe zone starts at 65px"
+      },
+      {
+       "check": "safe-zone",
+       "text": "ferro.tools",
+       "reason": "64px from the left edge, the safe zone starts at 65px"
+      }
+     ]
+    },
+    {
+     "size": "linkedin",
+     "failures": [
+      {
+       "check": "overflow",
+       "text": "8",
+       "reason": "runs off the canvas at 690px,-25px size 150pxx303px"
+      },
+      {
+       "check": "overflow",
+       "text": "8",
+       "reason": "clipped by a container with overflow hidden"
+      },
+      {
+       "check": "overflow",
+       "text": ".",
+       "reason": "runs off the canvas at 840px,-25px size 50pxx303px"
+      },
+      {
+       "check": "overflow",
+       "text": ".",
+       "reason": "clipped by a container with overflow hidden"
+      },
+      {
+       "check": "safe-zone",
+       "text": "8",
+       "reason": "-25px from the top edge, the safe zone starts at 38px"
+      },
+      {
+       "check": "safe-zone",
+       "text": ".",
+       "reason": "-25px from the top edge, the safe zone starts at 38px"
+      }
+     ]
+    }
+   ],
+   "failures": 12,
+   "byCheck": {
+    "safe-zone": 8,
+    "overflow": 4
+   }
+  },
+  {
+   "round": 6,
+   "sizes": [
+    {
+     "size": "ig-post",
+     "failures": [
+      {
+       "check": "safe-zone",
+       "text": "Open workshop.",
+       "reason": "64px from the left edge, the safe zone starts at 65px"
+      },
+      {
+       "check": "safe-zone",
+       "text": "Saturday",
+       "reason": "64px from the left edge, the safe zone starts at 65px"
+      },
+      {
+       "check": "safe-zone",
+       "text": "November",
+       "reason": "64px from the left edge, the safe zone starts at 65px"
+      },
+      {
+       "check": "safe-zone",
+       "text": "8",
+       "reason": "64px from the left edge, the safe zone starts at 65px"
+      },
+      {
+       "check": "safe-zone",
+       "text": "Bring a part. Leave with it cut.",
+       "reason": "64px from the left edge, the safe zone starts at 65px"
+      },
+      {
+       "check": "safe-zone",
+       "text": "ferro.tools",
+       "reason": "64px from the left edge, the safe zone starts at 65px"
+      }
+     ]
+    },
+    {
+     "size": "linkedin",
+     "failures": [
+      {
+       "check": "safe-zone",
+       "text": "Open workshop.",
+       "reason": "34px from the top edge, the safe zone starts at 38px"
+      }
+     ]
+    }
+   ],
+   "failures": 7,
+   "byCheck": {
+    "safe-zone": 7
+   }
+  }
+ ]
+}

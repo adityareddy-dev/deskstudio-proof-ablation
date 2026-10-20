@@ -1,0 +1,437 @@
+{
+  "id": "20261020-0122-linkedin-instagram-portrait-new",
+  "command": "design",
+  "deliverable": "social-card",
+  "sizes": [
+    "linkedin",
+    "ig-post"
+  ],
+  "quality": "studio",
+  "proofMode": "off",
+  "models": {
+    "director": "openai/large",
+    "senior": "openai/mini",
+    "builder": "openai/nano"
+  },
+  "phase": "done",
+  "round": 6,
+  "maxRounds": 6,
+  "desks": [
+    {
+      "desk": "design-manager",
+      "task": "intake",
+      "status": "done",
+      "model": "openai/large",
+      "startedAt": "2026-10-20T01:22:56-05:00",
+      "updatedAt": "2026-10-20T01:23:17-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "rough 1, editorial split",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T01:23:17-05:00",
+      "updatedAt": "2026-10-20T01:24:07-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "rough 2, full bleed with scrim",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T01:23:17-05:00",
+      "updatedAt": "2026-10-20T01:24:07-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "rough 3, type only",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T01:23:17-05:00",
+      "updatedAt": "2026-10-20T01:24:00-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "art-director",
+      "task": "pick",
+      "status": "done",
+      "model": "openai/large",
+      "startedAt": "2026-10-20T01:24:11-05:00",
+      "updatedAt": "2026-10-20T01:24:24-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 1",
+      "status": "done",
+      "model": "openai/nano",
+      "startedAt": "2026-10-20T01:24:24-05:00",
+      "updatedAt": "2026-10-20T01:24:32-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "creative-director",
+      "task": "sign-off round 1",
+      "status": "done",
+      "model": "openai/large",
+      "startedAt": "2026-10-20T01:24:34-05:00",
+      "updatedAt": "2026-10-20T01:24:59-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 2",
+      "status": "done",
+      "model": "openai/nano",
+      "startedAt": "2026-10-20T01:24:59-05:00",
+      "updatedAt": "2026-10-20T01:25:11-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "creative-director",
+      "task": "sign-off round 2",
+      "status": "done",
+      "model": "openai/large",
+      "startedAt": "2026-10-20T01:25:13-05:00",
+      "updatedAt": "2026-10-20T01:25:33-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 3",
+      "status": "done",
+      "model": "openai/nano",
+      "startedAt": "2026-10-20T01:25:33-05:00",
+      "updatedAt": "2026-10-20T01:25:47-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "creative-director",
+      "task": "sign-off round 3",
+      "status": "done",
+      "model": "openai/large",
+      "startedAt": "2026-10-20T01:25:48-05:00",
+      "updatedAt": "2026-10-20T01:26:12-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 4, escalated",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T01:26:12-05:00",
+      "updatedAt": "2026-10-20T01:26:35-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "creative-director",
+      "task": "sign-off round 4",
+      "status": "done",
+      "model": "openai/large",
+      "startedAt": "2026-10-20T01:26:37-05:00",
+      "updatedAt": "2026-10-20T01:26:57-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 5, escalated",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T01:26:57-05:00",
+      "updatedAt": "2026-10-20T01:27:20-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "creative-director",
+      "task": "sign-off round 5",
+      "status": "done",
+      "model": "openai/large",
+      "startedAt": "2026-10-20T01:27:22-05:00",
+      "updatedAt": "2026-10-20T01:27:41-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 6, escalated",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T01:27:41-05:00",
+      "updatedAt": "2026-10-20T01:27:58-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "creative-director",
+      "task": "sign-off round 6",
+      "status": "done",
+      "model": "openai/large",
+      "startedAt": "2026-10-20T01:27:59-05:00",
+      "updatedAt": "2026-10-20T01:28:18-05:00",
+      "via": "cli"
+    }
+  ],
+  "pick": {
+    "by": "art-director",
+    "rough": 3,
+    "pattern": "Type only",
+    "combineWith": null,
+    "reason": "The numerical claim reads first at thumbnail size, and the type carries both formats with the fewest changes.",
+    "lost": "1 repeats the claim with a disconnected 7, 2 gives too much space to a battery outline that reads like a clipboard.",
+    "notes": [
+      "Restrict orange (#d9480f) to “Seven”; set “years” to foreground (#161614) in both formats. The brand and social-card standard put the single accent on the number."
+    ],
+    "at": "2026-10-20T01:24:24-05:00"
+  },
+  "proof": [
+    {
+      "round": 1,
+      "pass": null,
+      "skipped": true,
+      "failures": 0
+    },
+    {
+      "round": 2,
+      "pass": null,
+      "skipped": true,
+      "failures": 0
+    },
+    {
+      "round": 3,
+      "pass": null,
+      "skipped": true,
+      "failures": 0
+    },
+    {
+      "round": 4,
+      "pass": null,
+      "skipped": true,
+      "failures": 0
+    },
+    {
+      "round": 5,
+      "pass": null,
+      "skipped": true,
+      "failures": 0
+    },
+    {
+      "round": 6,
+      "pass": null,
+      "skipped": true,
+      "failures": 0
+    }
+  ],
+  "scores": [
+    {
+      "round": 1,
+      "by": "creative-director",
+      "axes": {
+        "hierarchy": 9,
+        "typography": 8,
+        "spacing": 8,
+        "colour": 9,
+        "composition": 8,
+        "originality": 6,
+        "brand": 8,
+        "copy": 9
+      },
+      "average": 8.13,
+      "pass": false,
+      "notes": [
+        "typography: Set both headlines to Inter 600 at 119px with 125px line spacing; retain 39px supporting copy and 25px URL.",
+        "spacing: On portrait, move the supporting line from approximately y804 to y608 and the URL from y1188 to y704, forming one lower group with a 56px clear gap.",
+        "composition: Position the portrait headline block at x72, y96 and the lower group at x72; replace the three isolated vertical zones with two deliberate groups.",
+        "originality: Rework the portrait headline into four lines: “Seven years” / “to break” / “even.” / “Then free.” Use 95px type with 100px line spacing to create a stepped silhouette within the top 40%.",
+        "brand: Use the bundled Inter face at weights 600 and 400; the current headline appears heavier than the specified 600. Keep orange confined to “Seven”."
+      ],
+      "polish": [
+        "Align the visible left edge of “Seven” optically with the supporting copy in both formats."
+      ]
+    },
+    {
+      "round": 2,
+      "by": "creative-director",
+      "axes": {
+        "hierarchy": 5,
+        "typography": 6,
+        "spacing": 4,
+        "colour": 9,
+        "composition": 5,
+        "originality": 6,
+        "brand": 8,
+        "copy": 9
+      },
+      "average": 6.5,
+      "pass": false,
+      "notes": [
+        "hierarchy: On LinkedIn, place the supporting line at y=456px, at least 48px below the headline; eliminate its overlap with “Then free.”",
+        "typography: Set LinkedIn headline to 95px, weight 600, line-height 1.05; use three lines: “Seven years” / “to break even.” / “Then free.”",
+        "spacing: Keep LinkedIn’s left edge at 72px and URL at y=552px; on Instagram move the supporting line to y=856px and URL to y=1136px.",
+        "composition: Reduce Instagram’s roughly 620px empty bottom band through the revised supporting-line and URL positions; retain the headline within the top 540px.",
+        "originality: Give the claim a deliberate cadence: three headline lines on LinkedIn, four on Instagram, with “Then free.” alone on the final line in both.",
+        "brand: Set both headlines to the specified 600 weight; retain 400 for supporting copy and URL, with orange confined to “Seven”."
+      ],
+      "polish": [
+        "None until the overlap and format adaptation are resolved."
+      ]
+    },
+    {
+      "round": 3,
+      "by": "creative-director",
+      "axes": {
+        "hierarchy": 9,
+        "typography": 8,
+        "spacing": 8,
+        "colour": 9,
+        "composition": 8,
+        "originality": 6,
+        "brand": 9,
+        "copy": 9
+      },
+      "average": 8.25,
+      "pass": false,
+      "notes": [
+        "typography: In portrait, widen the headline column from approximately 560px to 936px; keep “to break even.” together, producing three lines.",
+        "spacing: Move the portrait supporting line from y≈867px to y≈640px; retain the URL at its current bottom position.",
+        "composition: Use the three-line portrait headline to occupy more width while keeping its bottom above y=540px.",
+        "originality: Give the numerical claim a distinct scale: set “Seven years” to 149px and the remaining headline to 95px, weight 600; use 25px for both supporting copy and URL to retain three sizes. Keep orange restricted to “Seven”."
+      ],
+      "polish": [
+        "Preserve the single accent and the exact supplied wording."
+      ]
+    },
+    {
+      "round": 4,
+      "by": "creative-director",
+      "axes": {
+        "hierarchy": 9,
+        "typography": 9,
+        "spacing": 7,
+        "colour": 9,
+        "composition": 7,
+        "originality": 6,
+        "brand": 9,
+        "copy": 9
+      },
+      "average": 8.13,
+      "pass": false,
+      "notes": [
+        "spacing: On portrait, move “Battery now included.” from y640 to y560 to group it with the headline.",
+        "composition: On portrait, move the URL from y1144 to y960; reduce the roughly 480px empty band below the supporting line to under 450px.",
+        "originality: Give the type-only layout a deliberate progression: retain “Seven years” at x72, place “to break even.” at x144 and “Then free.” at x216 in both formats; keep supporting copy and URL at x72."
+      ],
+      "polish": [
+        "Preserve the single orange accent on “Seven.”"
+      ]
+    },
+    {
+      "round": 5,
+      "by": "creative-director",
+      "axes": {
+        "hierarchy": 9,
+        "typography": 8,
+        "spacing": 7,
+        "colour": 9,
+        "composition": 7,
+        "originality": 6,
+        "brand": 7,
+        "copy": 9
+      },
+      "average": 7.75,
+      "pass": false,
+      "notes": [
+        "typography: Set all headline lines to weight 600; retain the 149px/95px hierarchy and 25px supporting text.",
+        "spacing: On portrait, move the URL from approximately y960 to y1184, leaving at least 135px below it; move the supporting line from y560 to y488.",
+        "composition: Left-align all three headline lines at x72 in both formats; remove the approximately 72px and 144px indents on lines two and three.",
+        "originality: Replace the centred staircase with one flush-left claim block; use the 149px “Seven years” line against two 95px lines as the single typographic gesture.",
+        "brand: Align headline, supporting copy and URL on the same x72 column; preserve orange exclusively on “Seven”."
+      ],
+      "polish": [
+        "On LinkedIn, move the supporting line up 24px to tighten its relationship with the claim."
+      ]
+    },
+    {
+      "round": 6,
+      "by": "creative-director",
+      "axes": {
+        "hierarchy": 9,
+        "typography": 9,
+        "spacing": 7,
+        "colour": 9,
+        "composition": 6,
+        "originality": 6,
+        "brand": 9,
+        "copy": 9
+      },
+      "average": 8,
+      "pass": false,
+      "notes": [
+        "spacing: In portrait, place “Battery now included.” at y=816px and the URL at y=880px, retaining the 72px left alignment.",
+        "composition: Remove the portrait’s approximately 675px empty middle band; keep every empty vertical band below 450px and the headline within the top 540px.",
+        "originality: Give the numerical claim a stronger typographic signature: increase “Seven” from approximately 149px to 186px and reduce “years” to 95px, sharing one baseline in both formats."
+      ],
+      "polish": [
+        "Retain orange exclusively on “Seven”; the Art Director’s accent correction is resolved."
+      ]
+    }
+  ],
+  "waitingOn": {
+    "type": "approve_under_bar",
+    "text": "Under the bar after 6 rounds. spacing, composition, originality under 8, spacing: In portrait, place “Battery now included.” at y=816px and the URL at y=880px, retaining the 72px left alignment.; composition: Remove the portrait’s approximately 675px empty middle band; keep every empty vertical band below 450px and the headline within the top 540px."
+  },
+  "cost": {
+    "director": 2.9278,
+    "senior": 0.3897,
+    "builder": 0.009,
+    "total": 3.3265,
+    "complete": true
+  },
+  "tokens": {
+    "director": 272663,
+    "senior": 264553,
+    "builder": 88488
+  },
+  "files": {
+    "final": ".desk/out/20261020-0122-linkedin-instagram-portrait-new/final.html",
+    "brief": ".desk/jobs/20261020-0122-linkedin-instagram-portrait-new/brief.md",
+    "handback": ".desk/out/20261020-0122-linkedin-instagram-portrait-new/handback.md"
+  },
+  "pen": "art-director",
+  "notes": [
+    "spacing: In portrait, place “Battery now included.” at y=816px and the URL at y=880px, retaining the 72px left alignment.",
+    "composition: Remove the portrait’s approximately 675px empty middle band; keep every empty vertical band below 450px and the headline within the top 540px.",
+    "originality: Give the numerical claim a stronger typographic signature: increase “Seven” from approximately 149px to 186px and reduce “years” to 95px, sharing one baseline in both formats."
+  ],
+  "misses": {},
+  "startedAt": "2026-10-20T01:22:56-05:00",
+  "updatedAt": "2026-10-20T01:28:18-05:00",
+  "roughs": [
+    {
+      "n": 1,
+      "pattern": "Editorial split",
+      "file": ".desk/out/20261020-0122-linkedin-instagram-portrait-new/rough-1.html",
+      "fonts": "Inter; runner inlines font",
+      "written": true,
+      "renders": ".desk/jobs/20261020-0122-linkedin-instagram-portrait-new/renders/roughs/rough-1"
+    },
+    {
+      "n": 2,
+      "pattern": "Full bleed with scrim",
+      "file": ".desk/out/20261020-0122-linkedin-instagram-portrait-new/rough-2.html",
+      "fonts": "Inter; runner inlines font, no fallback used",
+      "written": true,
+      "renders": ".desk/jobs/20261020-0122-linkedin-instagram-portrait-new/renders/roughs/rough-2"
+    },
+    {
+      "n": 3,
+      "pattern": "Type only",
+      "file": ".desk/out/20261020-0122-linkedin-instagram-portrait-new/rough-3.html",
+      "fonts": "Inter; runner inlines font",
+      "written": true,
+      "renders": ".desk/jobs/20261020-0122-linkedin-instagram-portrait-new/renders/roughs/rough-3"
+    }
+  ],
+  "lastRenders": ".desk/jobs/20261020-0122-linkedin-instagram-portrait-new/renders/round-6",
+  "penNotes": [],
+  "finishedAt": "2026-10-20T01:28:18-05:00"
+}

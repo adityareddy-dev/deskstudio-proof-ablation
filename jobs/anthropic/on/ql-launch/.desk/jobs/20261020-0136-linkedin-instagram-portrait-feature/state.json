@@ -1,0 +1,291 @@
+{
+  "id": "20261020-0136-linkedin-instagram-portrait-feature",
+  "command": "design",
+  "deliverable": "social-card",
+  "sizes": [
+    "linkedin",
+    "ig-post"
+  ],
+  "quality": "studio",
+  "proofMode": "on",
+  "models": {
+    "director": "anthropic/opus",
+    "senior": "anthropic/sonnet",
+    "builder": "anthropic/haiku"
+  },
+  "phase": "done",
+  "round": 6,
+  "maxRounds": 6,
+  "desks": [
+    {
+      "desk": "design-manager",
+      "task": "intake",
+      "status": "done",
+      "model": "anthropic/opus",
+      "startedAt": "2026-10-20T01:36:49-05:00",
+      "updatedAt": "2026-10-20T01:37:06-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "rough 1, editorial split",
+      "status": "done",
+      "model": "anthropic/sonnet",
+      "startedAt": "2026-10-20T01:37:07-05:00",
+      "updatedAt": "2026-10-20T01:37:29-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "rough 2, full bleed with scrim",
+      "status": "done",
+      "model": "anthropic/sonnet",
+      "startedAt": "2026-10-20T01:37:07-05:00",
+      "updatedAt": "2026-10-20T01:37:31-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "rough 3, type only",
+      "status": "done",
+      "model": "anthropic/sonnet",
+      "startedAt": "2026-10-20T01:37:07-05:00",
+      "updatedAt": "2026-10-20T01:37:30-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "art-director",
+      "task": "pick",
+      "status": "done",
+      "model": "anthropic/opus",
+      "startedAt": "2026-10-20T01:37:35-05:00",
+      "updatedAt": "2026-10-20T01:38:13-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 1",
+      "status": "done",
+      "model": "anthropic/haiku",
+      "startedAt": "2026-10-20T01:38:13-05:00",
+      "updatedAt": "2026-10-20T01:38:37-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 2",
+      "status": "done",
+      "model": "anthropic/haiku",
+      "startedAt": "2026-10-20T01:38:39-05:00",
+      "updatedAt": "2026-10-20T01:38:52-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 3",
+      "status": "done",
+      "model": "anthropic/haiku",
+      "startedAt": "2026-10-20T01:38:54-05:00",
+      "updatedAt": "2026-10-20T01:39:09-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "creative-director",
+      "task": "sign-off round 3",
+      "status": "done",
+      "model": "anthropic/opus",
+      "startedAt": "2026-10-20T01:39:11-05:00",
+      "updatedAt": "2026-10-20T01:39:52-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 4",
+      "status": "done",
+      "model": "anthropic/haiku",
+      "startedAt": "2026-10-20T01:39:52-05:00",
+      "updatedAt": "2026-10-20T01:40:39-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 5",
+      "status": "done",
+      "model": "anthropic/haiku",
+      "startedAt": "2026-10-20T01:40:41-05:00",
+      "updatedAt": "2026-10-20T01:40:55-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 6",
+      "status": "done",
+      "model": "anthropic/haiku",
+      "startedAt": "2026-10-20T01:40:57-05:00",
+      "updatedAt": "2026-10-20T01:41:10-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "creative-director",
+      "task": "sign-off round 6",
+      "status": "done",
+      "model": "anthropic/opus",
+      "startedAt": "2026-10-20T01:41:11-05:00",
+      "updatedAt": "2026-10-20T01:41:42-05:00",
+      "via": "cli"
+    }
+  ],
+  "pick": {
+    "by": "art-director",
+    "rough": 3,
+    "pattern": "Type only",
+    "combineWith": null,
+    "reason": "The headline is the image. At 127px on linkedin and 169px on ig-post it reads at thumbnail size before anything else, the single accent lands on \"stays.\", and the layout fits each aspect ratio with the fewest fixes needed.",
+    "lost": "1 the split splits nothing, leaving one short line alone in the right panel, and on ig-post two separate empty bands mean the headline never carries the canvas; 2 a box inside a box with no image to scrim, where the block floats and leaves the top and right as leftover space rather than shaped air",
+    "notes": [
+      "ig-post: fix the headline break as \"Cut it.\" / \"It\" / \"stays.\" with explicit <br>s, not width-dependent wrapping. Keep 169px, line height 1.0, tracking -0.02em. The accent line standing alone is the move, and three lines at 169px is what fills the canvas (standard: headline grows until the block carries the canvas).",
+      "ig-post: set the supporting line from 30px to 40px (brand scale), 48px below the headline's last line. Keep it at weight 400 in foreground #ededf0.",
+      "ig-post: move the left margin from 64px to 72px for the headline, supporting line and mark. Set the mark's bottom edge exactly 136px from the bottom so it clears the 10% portrait safe zone (standard: air).",
+      "linkedin: move the gap between the headline's last line and the supporting line from about 40px to 48px. Keep the mark at bottom left, 40px from both edges, at 30px in muted #8b8d99."
+    ],
+    "at": "2026-10-20T01:38:13-05:00"
+  },
+  "proof": [
+    {
+      "round": 1,
+      "pass": false,
+      "failures": 5
+    },
+    {
+      "round": 2,
+      "pass": false,
+      "failures": 2
+    },
+    {
+      "round": 3,
+      "pass": true,
+      "failures": 0
+    },
+    {
+      "round": 4,
+      "pass": false,
+      "failures": 3
+    },
+    {
+      "round": 5,
+      "pass": false,
+      "failures": 1
+    },
+    {
+      "round": 6,
+      "pass": true,
+      "failures": 0
+    }
+  ],
+  "scores": [
+    {
+      "round": 3,
+      "by": "creative-director",
+      "axes": {
+        "hierarchy": 9,
+        "typography": 8,
+        "spacing": 8,
+        "colour": 9,
+        "composition": 7,
+        "originality": 7,
+        "brand": 9,
+        "copy": 9
+      },
+      "average": 8.25,
+      "pass": false,
+      "notes": [
+        "composition: on ig-post, take the headline from 169px to 226px (still \"Cut it.\" / \"It\" / \"stays.\", line height 1.0, -0.02em) and set the headline block's top at 96px. Right now there is a band of about 458px between the supporting line (bottom about 722px) and the mark (top about 1184px), which is over a third of 1350. At 226px the headline ends near 774px and the supporting line near 870px, so the band drops to about 314px, and \"Cut it.\" fills about 615px of the 936px column instead of 460px.",
+        "originality: this is the type-only card any template would make. Give \"Cut it.\" a line-through in muted #8b8d99, 0.06em thick, sitting at 0.32em above the baseline, and keep the glyphs in #ededf0 so the words stay legible. The cut sentence then stays visible, which is the product. Keep the accent only on \"stays.\", on both sizes.",
+        "typography: on linkedin, the supporting line and the mark are both 30px and differ only by colour. Set the supporting line to 40px, weight 400, line height 1.3, to match ig-post, and keep the mark at 30px. On ig-post, set the lone \"It\" line flush to the same optical left edge as \"Cut\" and \"stays.\": nudge it -0.04em so the I's serif lines up with the C.",
+        "spacing: on linkedin, start the headline's top at 64px and keep 48px down to the supporting line, then put the mark's baseline 40px from the bottom. The gap between the supporting line and the mark must stay at least 56px, so the mark does not read as part of the supporting group. Check that every vertical gap is a multiple of 8."
+      ],
+      "polish": [
+        "linkedin: test the headline at 169px (\"It stays.\" is about 780px wide, all within the 1124px column). Keep it if the supporting line and mark still fit above the 38px bottom safe zone with 48px and 56px gaps."
+      ]
+    },
+    {
+      "round": 6,
+      "by": "creative-director",
+      "axes": {
+        "hierarchy": 9,
+        "typography": 9,
+        "spacing": 8,
+        "colour": 9,
+        "composition": 8,
+        "originality": 9,
+        "brand": 9,
+        "copy": 9
+      },
+      "average": 8.75,
+      "pass": true,
+      "notes": [
+        "spacing: ig-post: there is about 80px of visible air between \"It\" and \"stays.\" but only about 64px between \"Cut it.\" and \"It\", so the gaps don't match. Pull the \"stays.\" line up 16px (margin-top -16px) so the three lines read as one evenly set block.",
+        "composition: linkedin: the headline block only fills the left 43% of the canvas, so the right half is empty space with no shape. Take the headline from 127px to 169px (brand scale; ig-post already uses this size, so the card still has three sizes). That makes \"It stays.\" about 590px wide and lets the block carry the left half. Keep the 72px left margin, the supporting line 48px below the headline, and the mark where it is."
+      ],
+      "polish": [
+        "linkedin and ig-post: start the strike rule at the optical left edge of the \"C\" (about 6px right of the 72px margin), not at the margin, so it doesn't stick out past the letter."
+      ]
+    }
+  ],
+  "waitingOn": null,
+  "cost": {
+    "director": 0.5673,
+    "senior": 0.1484,
+    "builder": 0.0247,
+    "total": 0.7404,
+    "complete": true
+  },
+  "tokens": {
+    "director": 112962,
+    "senior": 55712,
+    "builder": 144934
+  },
+  "files": {
+    "final": ".desk/out/20261020-0136-linkedin-instagram-portrait-feature/final.html",
+    "brief": ".desk/jobs/20261020-0136-linkedin-instagram-portrait-feature/brief.md",
+    "handback": ".desk/out/20261020-0136-linkedin-instagram-portrait-feature/handback.md"
+  },
+  "pen": "builder",
+  "notes": [
+    "proof safe-zone at ig-post: \"Cut it.\" 54px from the top edge, the safe zone starts at 81px"
+  ],
+  "misses": {
+    "proof:safe-zone": 2
+  },
+  "startedAt": "2026-10-20T01:36:49-05:00",
+  "updatedAt": "2026-10-20T01:41:42-05:00",
+  "roughs": [
+    {
+      "n": 1,
+      "pattern": "Editorial split",
+      "file": ".desk/out/20261020-0136-linkedin-instagram-portrait-feature/rough-1.html",
+      "fonts": "Source Serif 4 (brand family, inlined by runner, not a fallback)",
+      "written": true,
+      "renders": ".desk/jobs/20261020-0136-linkedin-instagram-portrait-feature/renders/roughs/rough-1"
+    },
+    {
+      "n": 2,
+      "pattern": "Full bleed with scrim",
+      "file": ".desk/out/20261020-0136-linkedin-instagram-portrait-feature/rough-2.html",
+      "fonts": "Source Serif 4, not a fallback (runner inlines it)",
+      "written": true,
+      "renders": ".desk/jobs/20261020-0136-linkedin-instagram-portrait-feature/renders/roughs/rough-2"
+    },
+    {
+      "n": 3,
+      "pattern": "Type only",
+      "file": ".desk/out/20261020-0136-linkedin-instagram-portrait-feature/rough-3.html",
+      "fonts": "Source Serif 4, not a fallback (inlined by the runner)",
+      "written": true,
+      "renders": ".desk/jobs/20261020-0136-linkedin-instagram-portrait-feature/renders/roughs/rough-3"
+    }
+  ],
+  "lastRenders": ".desk/jobs/20261020-0136-linkedin-instagram-portrait-feature/renders/round-6",
+  "penNotes": [],
+  "finishedAt": "2026-10-20T01:41:42-05:00"
+}

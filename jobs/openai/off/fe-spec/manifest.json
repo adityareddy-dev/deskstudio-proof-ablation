@@ -1,0 +1,26 @@
+{
+ "family": "openai",
+ "arm": "off",
+ "case": "fe-spec",
+ "brand": "ferro",
+ "ask": "a LinkedIn card and an Instagram portrait card for a spec reveal. Copy that must appear: '0.01mm. On your desk.' and 'Steel, not plastic.' and 'ferro.tools'.",
+ "models": "director=openai/large,senior=openai/mini,builder=openai/mini",
+ "startedAt": "2026-10-20T06:59:44.968Z",
+ "attempts": [
+  {
+   "code": 4,
+   "seconds": 423
+  }
+ ],
+ "exit": 4,
+ "seconds": 423,
+ "jobId": "20261020-0159-linkedin-instagram-portrait-spec",
+ "phase": "done",
+ "failed": false,
+ "done": true,
+ "finishedAt": "2026-10-20T07:06:47.634Z",
+ "audit": {
+  "pass": false,
+  "failures": 1
+ }
+}

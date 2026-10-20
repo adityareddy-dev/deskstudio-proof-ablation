@@ -1,0 +1,326 @@
+{
+  "id": "20261020-0156-linkedin-instagram-portrait-saying",
+  "command": "design",
+  "deliverable": "social-card",
+  "sizes": [
+    "linkedin",
+    "ig-post"
+  ],
+  "quality": "studio",
+  "proofMode": "on",
+  "models": {
+    "director": "openai/large",
+    "senior": "openai/mini",
+    "builder": "openai/mini"
+  },
+  "phase": "done",
+  "round": 6,
+  "maxRounds": 6,
+  "desks": [
+    {
+      "desk": "design-manager",
+      "task": "intake",
+      "status": "done",
+      "model": "openai/large",
+      "startedAt": "2026-10-20T01:56:00-05:00",
+      "updatedAt": "2026-10-20T01:56:23-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "rough 1, editorial split",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T01:56:23-05:00",
+      "updatedAt": "2026-10-20T01:56:56-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "rough 2, full bleed with scrim",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T01:56:23-05:00",
+      "updatedAt": "2026-10-20T01:57:00-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "rough 3, type only",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T01:56:23-05:00",
+      "updatedAt": "2026-10-20T01:56:51-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "art-director",
+      "task": "pick",
+      "status": "done",
+      "model": "openai/large",
+      "startedAt": "2026-10-20T01:57:04-05:00",
+      "updatedAt": "2026-10-20T01:57:19-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 1",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T01:57:19-05:00",
+      "updatedAt": "2026-10-20T01:57:45-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 2",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T01:57:46-05:00",
+      "updatedAt": "2026-10-20T01:58:06-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "creative-director",
+      "task": "sign-off round 2",
+      "status": "done",
+      "model": "openai/large",
+      "startedAt": "2026-10-20T01:58:08-05:00",
+      "updatedAt": "2026-10-20T01:58:28-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 3",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T01:58:28-05:00",
+      "updatedAt": "2026-10-20T01:58:55-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 4",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T01:58:56-05:00",
+      "updatedAt": "2026-10-20T01:59:24-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "creative-director",
+      "task": "sign-off round 4",
+      "status": "done",
+      "model": "openai/large",
+      "startedAt": "2026-10-20T01:59:25-05:00",
+      "updatedAt": "2026-10-20T01:59:51-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 5",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T01:59:52-05:00",
+      "updatedAt": "2026-10-20T02:00:22-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "creative-director",
+      "task": "sign-off round 5",
+      "status": "done",
+      "model": "openai/large",
+      "startedAt": "2026-10-20T02:00:23-05:00",
+      "updatedAt": "2026-10-20T02:00:46-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 6",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T02:00:46-05:00",
+      "updatedAt": "2026-10-20T02:01:25-05:00",
+      "via": "cli"
+    }
+  ],
+  "pick": {
+    "by": "art-director",
+    "rough": 3,
+    "pattern": "Type only",
+    "combineWith": null,
+    "reason": "The headline carries both formats immediately; the blue “Free.” gives the offer one clear focal point with the fewest fixes.",
+    "lost": "1 repeats “Three” with a detached numeral and weakens the portrait hierarchy, 2 adds an inset panel that makes the portrait feel boxed in.",
+    "notes": [
+      "Resolve the unverified font before final rendering: embed Source Serif 4 at weights 600 and 400; if unavailable, embed Georgia. Keep one family and the current three size levels, per the social-card type standard."
+    ],
+    "at": "2026-10-20T01:57:19-05:00"
+  },
+  "proof": [
+    {
+      "round": 1,
+      "pass": false,
+      "failures": 2
+    },
+    {
+      "round": 2,
+      "pass": true,
+      "failures": 0
+    },
+    {
+      "round": 3,
+      "pass": false,
+      "failures": 1
+    },
+    {
+      "round": 4,
+      "pass": true,
+      "failures": 0
+    },
+    {
+      "round": 5,
+      "pass": true,
+      "failures": 0
+    },
+    {
+      "round": 6,
+      "pass": false,
+      "failures": 1
+    }
+  ],
+  "scores": [
+    {
+      "round": 2,
+      "by": "creative-director",
+      "axes": {
+        "hierarchy": 9,
+        "typography": 8,
+        "spacing": 8,
+        "colour": 9,
+        "composition": 8,
+        "originality": 6,
+        "brand": 9,
+        "copy": 9
+      },
+      "average": 8.25,
+      "pass": false,
+      "notes": [
+        "typography: In portrait, break the supporting copy after “fourth”; keep “one matters.” together to eliminate the single-word last line.",
+        "spacing: Move the portrait supporting block up 96px, from approximately y720 to y624, to strengthen its relationship with the headline.",
+        "composition: Move the portrait headline up 32px; retain the bottom-left mark and the 72px left alignment.",
+        "originality: Build one distinctive typographic relationship: place “Pay when the fourth one matters.” directly beneath “Free. Always.” with a 48px gap in both formats; keep “Free. Always.” together on one portrait line at 127px."
+      ],
+      "polish": [
+        "Preserve the single blue emphasis on “Free.” throughout the revision."
+      ]
+    },
+    {
+      "round": 4,
+      "by": "creative-director",
+      "axes": {
+        "hierarchy": 9,
+        "typography": 9,
+        "spacing": 8,
+        "colour": 9,
+        "composition": 8,
+        "originality": 6,
+        "brand": 9,
+        "copy": 9
+      },
+      "average": 8.38,
+      "pass": false,
+      "notes": [
+        "spacing: On portrait, move quill.app from approximately y=888 to y=1160, retaining x=72.",
+        "composition: Move the portrait supporting block to y=632; keep its two lines and leave no intervening empty band taller than 450px.",
+        "originality: Replace the conventional portrait headline stack with three lines—“Three drafts.”, “Free.”, “Always.”—starting at y=120, 248, and 376, with respective left edges of 72, 104, and 136px. Keep the existing headline size and single blue accent."
+      ],
+      "polish": [
+        "Preserve the landscape layout’s compact rhythm."
+      ]
+    },
+    {
+      "round": 5,
+      "by": "creative-director",
+      "axes": {
+        "hierarchy": 9,
+        "typography": 8,
+        "spacing": 8,
+        "colour": 9,
+        "composition": 8,
+        "originality": 6,
+        "brand": 9,
+        "copy": 9
+      },
+      "average": 8.25,
+      "pass": false,
+      "notes": [
+        "typography: Align all portrait headline lines at x=72px; remove the approximately 32px and 64px indents on “Free.” and “Always.”",
+        "spacing: Move the portrait supporting copy up 48px, keeping its two-line wrap.",
+        "composition: Move the portrait URL up 96px to tighten the lower composition.",
+        "originality: Make the three-part promise structural: set one clause per line in both formats, with consistent 8px visible gaps between lines; keep only “Free.” blue."
+      ],
+      "polish": [
+        "Keep the supplied copy verbatim."
+      ]
+    }
+  ],
+  "waitingOn": {
+    "type": "approve_under_bar",
+    "text": "Under the bar after 6 rounds. proof still fails: proof safe-zone at linkedin: \"Three drafts.\" 17px from the top edge, the safe zone starts at 38px"
+  },
+  "cost": {
+    "director": 1.2316,
+    "senior": 0.1412,
+    "builder": 0.3503,
+    "total": 1.7231,
+    "complete": true
+  },
+  "tokens": {
+    "director": 172743,
+    "senior": 110566,
+    "builder": 335429
+  },
+  "files": {
+    "final": ".desk/out/20261020-0156-linkedin-instagram-portrait-saying/final.html",
+    "brief": ".desk/jobs/20261020-0156-linkedin-instagram-portrait-saying/brief.md",
+    "handback": ".desk/out/20261020-0156-linkedin-instagram-portrait-saying/handback.md"
+  },
+  "pen": "builder",
+  "notes": [
+    "proof safe-zone at linkedin: \"Three drafts.\" 17px from the top edge, the safe zone starts at 38px"
+  ],
+  "misses": {
+    "proof:safe-zone": 1
+  },
+  "startedAt": "2026-10-20T01:56:00-05:00",
+  "updatedAt": "2026-10-20T02:01:27-05:00",
+  "roughs": [
+    {
+      "n": 1,
+      "pattern": "Editorial split",
+      "file": ".desk/out/20261020-0156-linkedin-instagram-portrait-saying/rough-1.html",
+      "fonts": "Source Serif 4; runner inlines brand font, no fallback used",
+      "written": true,
+      "renders": ".desk/jobs/20261020-0156-linkedin-instagram-portrait-saying/renders/roughs/rough-1"
+    },
+    {
+      "n": 2,
+      "pattern": "Full bleed with scrim",
+      "file": ".desk/out/20261020-0156-linkedin-instagram-portrait-saying/rough-2.html",
+      "fonts": "Source Serif 4, runner-inlined; no fallback used",
+      "written": true,
+      "renders": ".desk/jobs/20261020-0156-linkedin-instagram-portrait-saying/renders/roughs/rough-2"
+    },
+    {
+      "n": 3,
+      "pattern": "Type only",
+      "file": ".desk/out/20261020-0156-linkedin-instagram-portrait-saying/rough-3.html",
+      "fonts": "Source Serif 4, runner-inlined; no fallback selected",
+      "written": true,
+      "renders": ".desk/jobs/20261020-0156-linkedin-instagram-portrait-saying/renders/roughs/rough-3"
+    }
+  ],
+  "lastRenders": ".desk/jobs/20261020-0156-linkedin-instagram-portrait-saying/renders/round-6",
+  "penNotes": [],
+  "finishedAt": "2026-10-20T02:01:27-05:00"
+}

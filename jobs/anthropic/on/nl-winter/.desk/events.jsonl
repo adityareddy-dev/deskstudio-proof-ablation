@@ -1,0 +1,40 @@
+{"t":"2026-10-20T06:23:00.076Z","type":"job.start","id":"20261020-0123-linkedin-instagram-portrait-winter","command":"design","deliverable":"social-card"}
+{"t":"2026-10-20T06:23:00.145Z","type":"desk.start","id":"20261020-0123-linkedin-instagram-portrait-winter","desk":"design-manager","model":"anthropic/opus","tier":"director","task":"intake"}
+{"t":"2026-10-20T06:23:15.021Z","type":"desk.stop","id":"20261020-0123-linkedin-instagram-portrait-winter","desk":"design-manager","tier":"director","status":"done","seconds":15,"model":"anthropic/opus","modelId":"claude-opus-5-5","tokens":{"input":2,"output":1177,"cacheRead":0,"cacheWrite":35402,"total":36581},"costUsd":0.30676400000000004}
+{"t":"2026-10-20T06:23:15.070Z","type":"job.phase","id":"20261020-0123-linkedin-instagram-portrait-winter","phase":"roughs","round":0}
+{"t":"2026-10-20T06:23:15.221Z","type":"desk.start","id":"20261020-0123-linkedin-instagram-portrait-winter","desk":"ui-designer","model":"anthropic/sonnet","tier":"senior","task":"rough 1, editorial split"}
+{"t":"2026-10-20T06:23:15.298Z","type":"desk.start","id":"20261020-0123-linkedin-instagram-portrait-winter","desk":"ui-designer","model":"anthropic/sonnet","tier":"senior","task":"rough 2, full bleed with scrim"}
+{"t":"2026-10-20T06:23:15.384Z","type":"desk.start","id":"20261020-0123-linkedin-instagram-portrait-winter","desk":"ui-designer","model":"anthropic/sonnet","tier":"senior","task":"rough 3, type only"}
+{"t":"2026-10-20T06:23:36.743Z","type":"desk.stop","id":"20261020-0123-linkedin-instagram-portrait-winter","desk":"ui-designer","tier":"senior","status":"done","seconds":21,"model":"anthropic/sonnet","modelId":"claude-sonnet-5-5","tokens":{"input":2,"output":2577,"cacheRead":0,"cacheWrite":6170,"total":8749},"costUsd":0.050454}
+{"t":"2026-10-20T06:23:38.993Z","type":"desk.stop","id":"20261020-0123-linkedin-instagram-portrait-winter","desk":"ui-designer","tier":"senior","status":"done","seconds":24,"model":"anthropic/sonnet","modelId":"claude-sonnet-5-5","tokens":{"input":2,"output":3025,"cacheRead":0,"cacheWrite":6176,"total":9203},"costUsd":0.054958}
+{"t":"2026-10-20T06:23:47.574Z","type":"desk.stop","id":"20261020-0123-linkedin-instagram-portrait-winter","desk":"ui-designer","tier":"senior","status":"done","seconds":32,"model":"anthropic/sonnet","modelId":"claude-sonnet-5-5","tokens":{"input":2,"output":3598,"cacheRead":27768,"cacheWrite":6958,"total":38326},"costUsd":0.0665928}
+{"t":"2026-10-20T06:23:52.045Z","type":"job.phase","id":"20261020-0123-linkedin-instagram-portrait-winter","phase":"pick","round":0}
+{"t":"2026-10-20T06:23:52.130Z","type":"desk.start","id":"20261020-0123-linkedin-instagram-portrait-winter","desk":"art-director","model":"anthropic/opus","tier":"director","task":"pick"}
+{"t":"2026-10-20T06:24:26.939Z","type":"desk.stop","id":"20261020-0123-linkedin-instagram-portrait-winter","desk":"art-director","tier":"director","status":"done","seconds":35,"model":"anthropic/opus","modelId":"claude-opus-5-5","tokens":{"input":2,"output":2969,"cacheRead":0,"cacheWrite":15143,"total":18114},"costUsd":0.180532}
+{"t":"2026-10-20T06:24:26.984Z","type":"job.pick","id":"20261020-0123-linkedin-instagram-portrait-winter","by":"art-director","rough":1}
+{"t":"2026-10-20T06:24:27.039Z","type":"job.phase","id":"20261020-0123-linkedin-instagram-portrait-winter","phase":"polish","round":1}
+{"t":"2026-10-20T06:24:27.100Z","type":"desk.start","id":"20261020-0123-linkedin-instagram-portrait-winter","desk":"ui-designer","model":"anthropic/haiku","tier":"builder","task":"polish round 1"}
+{"t":"2026-10-20T06:24:52.002Z","type":"desk.stop","id":"20261020-0123-linkedin-instagram-portrait-winter","desk":"ui-designer","tier":"builder","status":"done","seconds":25,"model":"anthropic/haiku","modelId":"claude-haiku-5-5","tokens":{"input":2,"output":5252,"cacheRead":27768,"cacheWrite":11343,"total":44365},"costUsd":0.00517248}
+{"t":"2026-10-20T06:24:52.047Z","type":"job.phase","id":"20261020-0123-linkedin-instagram-portrait-winter","phase":"proof","round":1}
+{"t":"2026-10-20T06:24:53.707Z","type":"job.proof","id":"20261020-0123-linkedin-instagram-portrait-winter","round":1,"pass":false,"failures":9}
+{"t":"2026-10-20T06:24:53.782Z","type":"job.phase","id":"20261020-0123-linkedin-instagram-portrait-winter","phase":"polish","round":2}
+{"t":"2026-10-20T06:24:53.832Z","type":"desk.start","id":"20261020-0123-linkedin-instagram-portrait-winter","desk":"ui-designer","model":"anthropic/haiku","tier":"builder","task":"polish round 2"}
+{"t":"2026-10-20T06:25:14.546Z","type":"desk.stop","id":"20261020-0123-linkedin-instagram-portrait-winter","desk":"ui-designer","tier":"builder","status":"done","seconds":21,"model":"anthropic/haiku","modelId":"claude-haiku-5-5","tokens":{"input":2,"output":4465,"cacheRead":0,"cacheWrite":10675,"total":15142},"costUsd":0.0043677}
+{"t":"2026-10-20T06:25:14.595Z","type":"job.phase","id":"20261020-0123-linkedin-instagram-portrait-winter","phase":"proof","round":2}
+{"t":"2026-10-20T06:25:16.268Z","type":"job.proof","id":"20261020-0123-linkedin-instagram-portrait-winter","round":2,"pass":false,"failures":1}
+{"t":"2026-10-20T06:25:16.325Z","type":"job.phase","id":"20261020-0123-linkedin-instagram-portrait-winter","phase":"polish","round":3}
+{"t":"2026-10-20T06:25:16.396Z","type":"desk.start","id":"20261020-0123-linkedin-instagram-portrait-winter","desk":"ui-designer","model":"anthropic/haiku","tier":"builder","task":"polish round 3"}
+{"t":"2026-10-20T06:25:32.013Z","type":"desk.stop","id":"20261020-0123-linkedin-instagram-portrait-winter","desk":"ui-designer","tier":"builder","status":"done","seconds":16,"model":"anthropic/haiku","modelId":"claude-haiku-5-5","tokens":{"input":2,"output":3268,"cacheRead":29139,"cacheWrite":9794,"total":42203},"costUsd":0.00388439}
+{"t":"2026-10-20T06:25:32.083Z","type":"job.phase","id":"20261020-0123-linkedin-instagram-portrait-winter","phase":"proof","round":3}
+{"t":"2026-10-20T06:25:34.219Z","type":"job.proof","id":"20261020-0123-linkedin-instagram-portrait-winter","round":3,"pass":false,"failures":1}
+{"t":"2026-10-20T06:25:34.295Z","type":"job.phase","id":"20261020-0123-linkedin-instagram-portrait-winter","phase":"polish","round":4}
+{"t":"2026-10-20T06:25:34.388Z","type":"desk.start","id":"20261020-0123-linkedin-instagram-portrait-winter","desk":"ui-designer","model":"anthropic/sonnet","tier":"senior","task":"polish round 4, escalated"}
+{"t":"2026-10-20T06:25:49.116Z","type":"desk.stop","id":"20261020-0123-linkedin-instagram-portrait-winter","desk":"ui-designer","tier":"senior","status":"done","seconds":15,"model":"anthropic/sonnet","modelId":"claude-sonnet-5-5","tokens":{"input":2,"output":2133,"cacheRead":1401,"cacheWrite":9001,"total":12537},"costUsd":0.057478100000000004}
+{"t":"2026-10-20T06:25:49.189Z","type":"job.phase","id":"20261020-0123-linkedin-instagram-portrait-winter","phase":"proof","round":4}
+{"t":"2026-10-20T06:25:51.203Z","type":"job.proof","id":"20261020-0123-linkedin-instagram-portrait-winter","round":4,"pass":true,"failures":0}
+{"t":"2026-10-20T06:25:51.261Z","type":"job.phase","id":"20261020-0123-linkedin-instagram-portrait-winter","phase":"signoff","round":4}
+{"t":"2026-10-20T06:25:51.314Z","type":"desk.start","id":"20261020-0123-linkedin-instagram-portrait-winter","desk":"creative-director","model":"anthropic/opus","tier":"director","task":"sign-off round 4"}
+{"t":"2026-10-20T06:26:25.211Z","type":"desk.stop","id":"20261020-0123-linkedin-instagram-portrait-winter","desk":"creative-director","tier":"director","status":"done","seconds":34,"model":"anthropic/opus","modelId":"claude-opus-5-5","tokens":{"input":2,"output":2763,"cacheRead":28909,"cacheWrite":9751,"total":41425},"costUsd":0.1390578}
+{"t":"2026-10-20T06:26:25.253Z","type":"job.score","id":"20261020-0123-linkedin-instagram-portrait-winter","round":4,"average":8.5,"pass":true}
+{"t":"2026-10-20T06:26:25.306Z","type":"job.phase","id":"20261020-0123-linkedin-instagram-portrait-winter","phase":"handback","round":4}
+{"t":"2026-10-20T06:26:25.358Z","type":"job.done","id":"20261020-0123-linkedin-instagram-portrait-winter","rounds":4,"average":8.5,"pass":true}

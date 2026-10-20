@@ -1,0 +1,218 @@
+{
+  "id": "20261020-0129-linkedin-instagram-portrait-neighbour",
+  "command": "design",
+  "deliverable": "social-card",
+  "sizes": [
+    "linkedin",
+    "ig-post"
+  ],
+  "quality": "studio",
+  "proofMode": "on",
+  "models": {
+    "director": "anthropic/opus",
+    "senior": "anthropic/sonnet",
+    "builder": "anthropic/haiku"
+  },
+  "phase": "done",
+  "round": 3,
+  "maxRounds": 6,
+  "desks": [
+    {
+      "desk": "design-manager",
+      "task": "intake",
+      "status": "done",
+      "model": "anthropic/opus",
+      "startedAt": "2026-10-20T01:29:03-05:00",
+      "updatedAt": "2026-10-20T01:29:24-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "rough 1, editorial split",
+      "status": "done",
+      "model": "anthropic/sonnet",
+      "startedAt": "2026-10-20T01:29:24-05:00",
+      "updatedAt": "2026-10-20T01:29:52-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "rough 2, full bleed with scrim",
+      "status": "done",
+      "model": "anthropic/sonnet",
+      "startedAt": "2026-10-20T01:29:24-05:00",
+      "updatedAt": "2026-10-20T01:29:55-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "rough 3, type only",
+      "status": "done",
+      "model": "anthropic/sonnet",
+      "startedAt": "2026-10-20T01:29:24-05:00",
+      "updatedAt": "2026-10-20T01:29:51-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "art-director",
+      "task": "pick",
+      "status": "done",
+      "model": "anthropic/opus",
+      "startedAt": "2026-10-20T01:29:58-05:00",
+      "updatedAt": "2026-10-20T01:30:28-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 1",
+      "status": "done",
+      "model": "anthropic/haiku",
+      "startedAt": "2026-10-20T01:30:28-05:00",
+      "updatedAt": "2026-10-20T01:31:08-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 2",
+      "status": "done",
+      "model": "anthropic/haiku",
+      "startedAt": "2026-10-20T01:31:10-05:00",
+      "updatedAt": "2026-10-20T01:31:21-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 3",
+      "status": "done",
+      "model": "anthropic/haiku",
+      "startedAt": "2026-10-20T01:31:22-05:00",
+      "updatedAt": "2026-10-20T01:31:34-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "creative-director",
+      "task": "sign-off round 3",
+      "status": "done",
+      "model": "anthropic/opus",
+      "startedAt": "2026-10-20T01:31:35-05:00",
+      "updatedAt": "2026-10-20T01:32:23-05:00",
+      "via": "cli"
+    }
+  ],
+  "pick": {
+    "by": "art-director",
+    "rough": 1,
+    "pattern": "Editorial split",
+    "combineWith": null,
+    "reason": "Rough 1 is the only one that leads with $400 as the figure, so the referral reward reads in two seconds, and the split uses both aspect ratios.",
+    "lost": "2 replaces the warm paper with a near-black field the brand doesn't own, and shrinks $400 to a word inside the sentence. 3 also buries $400 inline and leaves the bottom half of both sizes empty (about 650px of dead band on ig-post).",
+    "notes": [
+      "ig-post: move the top of the #ebe8e0 block from y=760 to y=432 and start the supporting line at y=512. Set $400 from about 186px to 233px, line height 1.0. This closes the 530px empty band below the headline to about 200px (standard: no empty band taller than a third of the portrait canvas, 450px). Keep the mark where it is, bottom left at y≈1200, inside the 10% bottom safe zone.",
+      "linkedin: headline from 49px to 61px, weight 600, line height 1.05, tracking -0.02em, wrapping as \"Your street, one / roof at a time.\" The left column then carries its half instead of sitting as a small block in the top corner (standard: a headline that reads at thumbnail size).",
+      "linkedin: tighten the figure group. Set $400 to line height 0.9, with a 16px gap above and below it. Center the three-line group (label, figure, line) vertically in the right panel so \"Every neighbour you bring takes\" / $400 / \"off their quote.\" reads as one sentence, not three items.",
+      "Both sizes: the supporting line and the mark stay at 25px, the headline at 61px (linkedin) or 119px (ig-post), and $400 at 149px (linkedin) or 233px (ig-post). That keeps four tokens on the brand scale with $400 as the one accent. No other text changes size, and nothing else turns orange (brand: one accent on the figure).",
+      "ig-post: pull $400 right by 4px so the stem of the \"$\" lines up optically with the left edge of the text at x=72. Keep every margin on the 8px grid (house style: space is the grid)."
+    ],
+    "at": "2026-10-20T01:30:28-05:00"
+  },
+  "proof": [
+    {
+      "round": 1,
+      "pass": false,
+      "failures": 5
+    },
+    {
+      "round": 2,
+      "pass": false,
+      "failures": 1
+    },
+    {
+      "round": 3,
+      "pass": true,
+      "failures": 0
+    }
+  ],
+  "scores": [
+    {
+      "round": 3,
+      "by": "creative-director",
+      "axes": {
+        "hierarchy": 9,
+        "typography": 8,
+        "spacing": 8,
+        "colour": 9,
+        "composition": 8,
+        "originality": 8,
+        "brand": 9,
+        "copy": 9
+      },
+      "average": 8.5,
+      "pass": true,
+      "notes": [
+        "typography: ig-post, tighten the figure group. Close the gap from the \"takes\" line to the $400 cap top, now about 52px, to 32px. Close the gap from the $400 baseline to \"off their quote.\", now about 50px, to 32px. Both gaps then sit at the same ratio as on linkedin. Add -0.02em tracking on $400.",
+        "spacing: linkedin, move the right-panel text from x=708 to x=736. That gives a 72px inset from the panel edge at 664, close to the 72px left margin, so both columns share one margin.",
+        "composition: ig-post, move the top of the #ebe8e0 block from y=432 to y=536 and start the label at y=616. Keep the headline at y=110. The headline zone then takes the top 40%, the gap between the figure group and the mark drops from about 330px to under 300px, and the block is no longer two thirds of the canvas.",
+        "originality: ig-post, set \"off their quote.\" on the $400 baseline, to the right of the figure, starting at x=688 and still 25px/400. The sentence then runs through the number in one line, and it fills the empty right 40% beside $400."
+      ],
+      "polish": [
+        "linkedin: lift northlight.energy from y≈567 to the 8px grid line at y=552 so its baseline matches the 6% bottom safe edge exactly."
+      ]
+    }
+  ],
+  "waitingOn": null,
+  "cost": {
+    "director": 0.4264,
+    "senior": 0.1588,
+    "builder": 0.0131,
+    "total": 0.5983,
+    "complete": true
+  },
+  "tokens": {
+    "director": 71480,
+    "senior": 56633,
+    "builder": 101945
+  },
+  "files": {
+    "final": ".desk/out/20261020-0129-linkedin-instagram-portrait-neighbour/final.html",
+    "brief": ".desk/jobs/20261020-0129-linkedin-instagram-portrait-neighbour/brief.md",
+    "handback": ".desk/out/20261020-0129-linkedin-instagram-portrait-neighbour/handback.md"
+  },
+  "pen": "builder",
+  "notes": [
+    "proof safe-zone at ig-post: \"Your street, one roof at a time.\" 71px from the top edge, the safe zone starts at 81px"
+  ],
+  "misses": {
+    "proof:safe-zone": 2
+  },
+  "startedAt": "2026-10-20T01:29:03-05:00",
+  "updatedAt": "2026-10-20T01:32:23-05:00",
+  "roughs": [
+    {
+      "n": 1,
+      "pattern": "Editorial split",
+      "file": ".desk/out/20261020-0129-linkedin-instagram-portrait-neighbour/rough-1.html",
+      "fonts": "Inter, inlined by the runner, not a fallback",
+      "written": true,
+      "renders": ".desk/jobs/20261020-0129-linkedin-instagram-portrait-neighbour/renders/roughs/rough-1"
+    },
+    {
+      "n": 2,
+      "pattern": "Full bleed with scrim",
+      "file": ".desk/out/20261020-0129-linkedin-instagram-portrait-neighbour/rough-2.html",
+      "fonts": "Inter, inlined by the runner, not a fallback",
+      "written": true,
+      "renders": ".desk/jobs/20261020-0129-linkedin-instagram-portrait-neighbour/renders/roughs/rough-2"
+    },
+    {
+      "n": 3,
+      "pattern": "Type only",
+      "file": ".desk/out/20261020-0129-linkedin-instagram-portrait-neighbour/rough-3.html",
+      "fonts": "Inter, inlined by the runner, not a fallback",
+      "written": true,
+      "renders": ".desk/jobs/20261020-0129-linkedin-instagram-portrait-neighbour/renders/roughs/rough-3"
+    }
+  ],
+  "lastRenders": ".desk/jobs/20261020-0129-linkedin-instagram-portrait-neighbour/renders/round-3",
+  "penNotes": [],
+  "finishedAt": "2026-10-20T01:32:23-05:00"
+}

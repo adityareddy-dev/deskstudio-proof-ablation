@@ -1,0 +1,80 @@
+{
+  "width": 1200,
+  "height": 627,
+  "scrollWidth": 1200,
+  "scrollHeight": 627,
+  "boxes": [
+    {
+      "x": 72,
+      "y": 44,
+      "width": 489.96875,
+      "height": 242,
+      "text": "Add a",
+      "color": "rgb(244, 244, 245)",
+      "opacity": 1,
+      "fontSize": 186,
+      "fontWeight": 600,
+      "fontFamily": "Geist, Inter, Arial, sans-serif",
+      "clips": []
+    },
+    {
+      "x": 593.96875,
+      "y": 44,
+      "width": 459.0625,
+      "height": 242,
+      "text": "desk.",
+      "color": "rgb(255, 176, 0)",
+      "opacity": 1,
+      "fontSize": 186,
+      "fontWeight": 600,
+      "fontFamily": "Geist, Inter, Arial, sans-serif",
+      "clips": []
+    },
+    {
+      "x": 72,
+      "y": 354,
+      "width": 243,
+      "height": 52,
+      "text": "One brief file.",
+      "color": "rgb(244, 244, 245)",
+      "opacity": 1,
+      "fontSize": 40,
+      "fontWeight": 400,
+      "fontFamily": "Geist, Inter, Arial, sans-serif",
+      "clips": []
+    },
+    {
+      "x": 593.96875,
+      "y": 410,
+      "width": 307.609375,
+      "height": 52,
+      "text": "One registry line.",
+      "color": "rgb(244, 244, 245)",
+      "opacity": 1,
+      "fontSize": 40,
+      "fontWeight": 400,
+      "fontFamily": "Geist, Inter, Arial, sans-serif",
+      "clips": []
+    },
+    {
+      "x": 72,
+      "y": 521.671875,
+      "width": 149.9375,
+      "height": 32,
+      "text": "deskstudio.ai",
+      "color": "rgb(244, 244, 245)",
+      "opacity": 1,
+      "fontSize": 25,
+      "fontWeight": 400,
+      "fontFamily": "Geist, Inter, Arial, sans-serif",
+      "clips": []
+    }
+  ],
+  "fonts": {
+    "Geist": true,
+    "Inter": false,
+    "Arial": true,
+    "sans-serif": true
+  },
+  "images": 0
+}

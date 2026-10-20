@@ -1,0 +1,25 @@
+{
+ "family": "anthropic",
+ "arm": "on",
+ "case": "nl-winter",
+ "brand": "northlight",
+ "ask": "a LinkedIn card and an Instagram portrait card about winter output, panels still paying their way in January. Copy that must appear: 'January still pays.' and 'Snow slides off. The numbers don't.' and 'northlight.energy'.",
+ "models": "studio preset",
+ "startedAt": "2026-10-20T06:22:59.948Z",
+ "attempts": [
+  {
+   "code": 0,
+   "seconds": 205
+  }
+ ],
+ "exit": 0,
+ "seconds": 205,
+ "jobId": "20261020-0123-linkedin-instagram-portrait-winter",
+ "phase": "done",
+ "done": true,
+ "finishedAt": "2026-10-20T06:26:25.379Z",
+ "audit": {
+  "pass": true,
+  "failures": 0
+ }
+}

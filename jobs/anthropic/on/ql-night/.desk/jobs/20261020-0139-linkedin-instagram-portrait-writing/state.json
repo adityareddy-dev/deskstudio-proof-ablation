@@ -1,0 +1,207 @@
+{
+  "id": "20261020-0139-linkedin-instagram-portrait-writing",
+  "command": "design",
+  "deliverable": "social-card",
+  "sizes": [
+    "linkedin",
+    "ig-post"
+  ],
+  "quality": "studio",
+  "proofMode": "on",
+  "models": {
+    "director": "anthropic/opus",
+    "senior": "anthropic/sonnet",
+    "builder": "anthropic/haiku"
+  },
+  "phase": "done",
+  "round": 2,
+  "maxRounds": 6,
+  "desks": [
+    {
+      "desk": "design-manager",
+      "task": "intake",
+      "status": "done",
+      "model": "anthropic/opus",
+      "startedAt": "2026-10-20T01:39:05-05:00",
+      "updatedAt": "2026-10-20T01:39:22-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "rough 1, editorial split",
+      "status": "done",
+      "model": "anthropic/sonnet",
+      "startedAt": "2026-10-20T01:39:22-05:00",
+      "updatedAt": "2026-10-20T01:39:42-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "rough 2, full bleed with scrim",
+      "status": "done",
+      "model": "anthropic/sonnet",
+      "startedAt": "2026-10-20T01:39:22-05:00",
+      "updatedAt": "2026-10-20T01:39:47-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "rough 3, type only",
+      "status": "done",
+      "model": "anthropic/sonnet",
+      "startedAt": "2026-10-20T01:39:23-05:00",
+      "updatedAt": "2026-10-20T01:39:51-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "art-director",
+      "task": "pick",
+      "status": "done",
+      "model": "anthropic/opus",
+      "startedAt": "2026-10-20T01:39:56-05:00",
+      "updatedAt": "2026-10-20T01:40:27-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 1",
+      "status": "done",
+      "model": "anthropic/haiku",
+      "startedAt": "2026-10-20T01:40:27-05:00",
+      "updatedAt": "2026-10-20T01:41:10-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 2",
+      "status": "done",
+      "model": "anthropic/haiku",
+      "startedAt": "2026-10-20T01:41:12-05:00",
+      "updatedAt": "2026-10-20T01:41:31-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "creative-director",
+      "task": "sign-off round 2",
+      "status": "done",
+      "model": "anthropic/opus",
+      "startedAt": "2026-10-20T01:41:32-05:00",
+      "updatedAt": "2026-10-20T01:42:09-05:00",
+      "via": "cli"
+    }
+  ],
+  "pick": {
+    "by": "art-director",
+    "rough": 3,
+    "pattern": "Type only",
+    "combineWith": null,
+    "reason": "The headline is the picture. It dims line by line from foreground to muted, so the card shows \"the page dims\" instead of just saying it. It reads in two seconds at both sizes, uses the full height on ig-post, and needs only minor polish.",
+    "lost": "1 has a nice dimming-bar idea, but the bars are a second picture next to the headline, and on ig-post the mark floats mid-canvas instead of in a corner. 2 leaves a surface panel with nothing in it at both sizes (half of ig-post is dead), so the split has no reason to be there.",
+    "notes": [
+      "Keep the dim legible. The darkest point of the headline fade must stop at muted `#8b8d99` and go no darker, and \"room.\" needs at least 4.5:1 against `#0e0f14` at its darkest pixel (standard, Colour: measured against the pixels behind the text). Keep line 1 at foreground `#ededf0` and \"dims\" alone in accent `#7c9cff`. The accent appears once.",
+      "Snap to the brand scale and three sizes. Headline: 127px on linkedin, 169px on ig-post. Supporting line: 30px at both sizes. Mark: 23px at both sizes, in muted. On linkedin the mark is currently drawn larger than the supporting line, which flips the hierarchy (standard, Type: three sizes; the mark is the small one).",
+      "On linkedin, separate the mark from the supporting line. Put the mark at bottom left with its baseline 40px from the bottom edge, and move the supporting line up so the gap from the headline is 48px. Right now the 40px gap makes the mark read as a third line of the text group instead of a corner mark.",
+      "Headline: line height 1.0, tracking −0.02em at both sizes (standard, Type: tight tracking above 40px). Keep the line breaks as they are: three lines on linkedin (\"The page dims / with the / room.\") and four on ig-post.",
+      "On ig-post, keep the mark at bottom left inside the 10% bottom safe zone: baseline at no more than 1215px, left edge on the 72px column. Supporting line 64px below \"room.\" Nothing else goes in the band below it."
+    ],
+    "at": "2026-10-20T01:40:27-05:00"
+  },
+  "proof": [
+    {
+      "round": 1,
+      "pass": false,
+      "failures": 4
+    },
+    {
+      "round": 2,
+      "pass": true,
+      "failures": 0
+    }
+  ],
+  "scores": [
+    {
+      "round": 2,
+      "by": "creative-director",
+      "axes": {
+        "hierarchy": 9,
+        "typography": 8,
+        "spacing": 8,
+        "colour": 9,
+        "composition": 8,
+        "originality": 8,
+        "brand": 9,
+        "copy": 9
+      },
+      "average": 8.5,
+      "pass": true,
+      "notes": [
+        "typography: linkedin, the break \"with the / room.\" leaves \"the\" hanging at a line end. Keep three lines but break as \"The page dims / with the room. /\" only if it fits in 1056px at 127px. If not, keep the current breaks and pull the headline's left edge back about 4px so the overhang of \"T\" and \"w\" lines up optically with the 72px column that the supporting line and mark sit on.",
+        "spacing: linkedin, AD note 3 is not done. The supporting line still sits about 72px under \"room.\" and the mark about 40px under the supporting line, so the three read as one stack. Move the supporting line up so its cap top is 48px under the \"room.\" baseline. Drop the mark to baseline 587px (40px from the bottom). The gap between the supporting line and the mark should end up close to twice the gap between the headline and the supporting line.",
+        "composition: linkedin, the right 45% beside \"with the / room.\" is left over, not shaped. Push the headline from 127px to 135px, which is inside the scale tolerance, so line 1 ends near x 990. On ig-post, raise the supporting line and the mark group by 0px but check that the band between 900 and 1180px stays under 300px. It is under that now, so keep it.",
+        "originality: the step-by-step dim is the idea, so make the steps exact. Set line 2 (\"with the\") to one flat tint midway between `#ededf0` and `#8b8d99` (about `#bcbdc5`), and set \"room.\" to flat `#8b8d99`, instead of a continuous gradient across the lines. Three clean steps read as a dimmer switch. A smear reads as an effect."
+      ],
+      "polish": [
+        "ig-post: the mark baseline at about 1205px is fine. Nudging it to 1208px puts it on the 8px grid."
+      ]
+    }
+  ],
+  "waitingOn": null,
+  "cost": {
+    "director": 0.4293,
+    "senior": 0.1521,
+    "builder": 0.0108,
+    "total": 0.5922,
+    "complete": true
+  },
+  "tokens": {
+    "director": 99948,
+    "senior": 84557,
+    "builder": 63369
+  },
+  "files": {
+    "final": ".desk/out/20261020-0139-linkedin-instagram-portrait-writing/final.html",
+    "brief": ".desk/jobs/20261020-0139-linkedin-instagram-portrait-writing/brief.md",
+    "handback": ".desk/out/20261020-0139-linkedin-instagram-portrait-writing/handback.md"
+  },
+  "pen": "builder",
+  "notes": [
+    "proof safe-zone at linkedin: \"The page\" 16px from the top edge, the safe zone starts at 38px",
+    "proof safe-zone at linkedin: \"dims\" 16px from the top edge, the safe zone starts at 38px",
+    "proof safe-zone at linkedin: \"quill.app\" ends 32px from the bottom edge, the safe zone is 38px",
+    "proof safe-zone at ig-post: \"The page\" 56px from the top edge, the safe zone starts at 81px"
+  ],
+  "misses": {
+    "proof:safe-zone": 1
+  },
+  "startedAt": "2026-10-20T01:39:05-05:00",
+  "updatedAt": "2026-10-20T01:42:10-05:00",
+  "roughs": [
+    {
+      "n": 1,
+      "pattern": "Editorial split",
+      "file": ".desk/out/20261020-0139-linkedin-instagram-portrait-writing/rough-1.html",
+      "fonts": "Source Serif 4, inlined by the runner, not a fallback",
+      "written": true,
+      "renders": ".desk/jobs/20261020-0139-linkedin-instagram-portrait-writing/renders/roughs/rough-1"
+    },
+    {
+      "n": 2,
+      "pattern": "Full bleed with scrim",
+      "file": ".desk/out/20261020-0139-linkedin-instagram-portrait-writing/rough-2.html",
+      "fonts": "Source Serif 4 (inlined by runner, not a fallback)",
+      "written": true,
+      "renders": ".desk/jobs/20261020-0139-linkedin-instagram-portrait-writing/renders/roughs/rough-2"
+    },
+    {
+      "n": 3,
+      "pattern": "Type only",
+      "file": ".desk/out/20261020-0139-linkedin-instagram-portrait-writing/rough-3.html",
+      "fonts": "Source Serif 4, not a fallback (inlined by the runner)",
+      "written": true,
+      "renders": ".desk/jobs/20261020-0139-linkedin-instagram-portrait-writing/renders/roughs/rough-3"
+    }
+  ],
+  "lastRenders": ".desk/jobs/20261020-0139-linkedin-instagram-portrait-writing/renders/round-2",
+  "penNotes": [],
+  "finishedAt": "2026-10-20T01:42:10-05:00"
+}

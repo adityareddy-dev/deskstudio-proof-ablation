@@ -1,0 +1,68 @@
+{
+ "family": "anthropic",
+ "arm": "off",
+ "case": "ql-free",
+ "jobId": "20261020-0148-linkedin-instagram-portrait-saying",
+ "rounds": [
+  {
+   "round": 1,
+   "sizes": [
+    {
+     "size": "ig-post",
+     "failures": [
+      {
+       "check": "safe-zone",
+       "text": "Three",
+       "reason": "44px from the top edge, the safe zone starts at 81px"
+      },
+      {
+       "check": "safe-zone",
+       "text": "quill.app",
+       "reason": "ends 129px from the bottom edge, the safe zone is 135px"
+      }
+     ]
+    },
+    {
+     "size": "linkedin",
+     "failures": [
+      {
+       "check": "safe-zone",
+       "text": "Three",
+       "reason": "48px from the left edge, the safe zone starts at 72px"
+      },
+      {
+       "check": "safe-zone",
+       "text": "Free.",
+       "reason": "48px from the left edge, the safe zone starts at 72px"
+      },
+      {
+       "check": "safe-zone",
+       "text": "Always.",
+       "reason": "48px from the left edge, the safe zone starts at 72px"
+      },
+      {
+       "check": "safe-zone",
+       "text": "Pay when the fourth one matters.",
+       "reason": "48px from the left edge, the safe zone starts at 72px"
+      },
+      {
+       "check": "safe-zone",
+       "text": "quill.app",
+       "reason": "ends 48px from the right edge, the safe zone is 72px"
+      },
+      {
+       "check": "type-scale",
+       "text": "quill.app",
+       "reason": "24px is off the brand scale (base 17, ratio 1.333), use 23px or 30px"
+      }
+     ]
+    }
+   ],
+   "failures": 8,
+   "byCheck": {
+    "safe-zone": 7,
+    "type-scale": 1
+   }
+  }
+ ]
+}

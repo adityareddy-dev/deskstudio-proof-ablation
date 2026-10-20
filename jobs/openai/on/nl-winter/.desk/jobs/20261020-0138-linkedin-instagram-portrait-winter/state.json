@@ -1,0 +1,325 @@
+{
+  "id": "20261020-0138-linkedin-instagram-portrait-winter",
+  "command": "design",
+  "deliverable": "social-card",
+  "sizes": [
+    "linkedin",
+    "ig-post"
+  ],
+  "quality": "studio",
+  "proofMode": "on",
+  "models": {
+    "director": "openai/large",
+    "senior": "openai/mini",
+    "builder": "openai/mini"
+  },
+  "phase": "done",
+  "round": 6,
+  "maxRounds": 6,
+  "desks": [
+    {
+      "desk": "design-manager",
+      "task": "intake",
+      "status": "done",
+      "model": "openai/large",
+      "startedAt": "2026-10-20T01:38:05-05:00",
+      "updatedAt": "2026-10-20T01:38:23-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "rough 1, editorial split",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T01:38:23-05:00",
+      "updatedAt": "2026-10-20T01:39:07-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "rough 2, full bleed with scrim",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T01:38:23-05:00",
+      "updatedAt": "2026-10-20T01:39:10-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "rough 3, type only",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T01:38:23-05:00",
+      "updatedAt": "2026-10-20T01:39:11-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "art-director",
+      "task": "pick",
+      "status": "done",
+      "model": "openai/large",
+      "startedAt": "2026-10-20T01:39:16-05:00",
+      "updatedAt": "2026-10-20T01:39:31-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 1",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T01:39:31-05:00",
+      "updatedAt": "2026-10-20T01:40:21-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 2",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T01:40:23-05:00",
+      "updatedAt": "2026-10-20T01:40:47-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "creative-director",
+      "task": "sign-off round 2",
+      "status": "done",
+      "model": "openai/large",
+      "startedAt": "2026-10-20T01:40:48-05:00",
+      "updatedAt": "2026-10-20T01:41:08-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 3",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T01:41:08-05:00",
+      "updatedAt": "2026-10-20T01:41:50-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 4",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T01:41:51-05:00",
+      "updatedAt": "2026-10-20T01:42:22-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "creative-director",
+      "task": "sign-off round 4",
+      "status": "done",
+      "model": "openai/large",
+      "startedAt": "2026-10-20T01:42:24-05:00",
+      "updatedAt": "2026-10-20T01:42:43-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 5",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T01:42:43-05:00",
+      "updatedAt": "2026-10-20T01:43:05-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "creative-director",
+      "task": "sign-off round 5",
+      "status": "done",
+      "model": "openai/large",
+      "startedAt": "2026-10-20T01:43:07-05:00",
+      "updatedAt": "2026-10-20T01:43:26-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 6",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T01:43:26-05:00",
+      "updatedAt": "2026-10-20T01:44:06-05:00",
+      "via": "cli"
+    }
+  ],
+  "pick": {
+    "by": "art-director",
+    "rough": 3,
+    "pattern": "Type only",
+    "combineWith": null,
+    "reason": "The headline carries both formats at thumbnail size; the restrained typography and single orange accent need the least polish.",
+    "lost": "1 The small panel illustration weakens the portrait’s hierarchy, 2 The oversized grid competes with the headline and loses the winter cue.",
+    "notes": [
+      "Move the orange underline below the descenders: top edge at 384px on LinkedIn and 504px on Instagram, keeping its 8px thickness. The social-card standard requires the headline to read cleanly at thumbnail size."
+    ],
+    "at": "2026-10-20T01:39:31-05:00"
+  },
+  "proof": [
+    {
+      "round": 1,
+      "pass": false,
+      "failures": 2
+    },
+    {
+      "round": 2,
+      "pass": true,
+      "failures": 0
+    },
+    {
+      "round": 3,
+      "pass": false,
+      "failures": 1
+    },
+    {
+      "round": 4,
+      "pass": true,
+      "failures": 0
+    },
+    {
+      "round": 5,
+      "pass": true,
+      "failures": 0
+    },
+    {
+      "round": 6,
+      "pass": false,
+      "failures": 2
+    }
+  ],
+  "scores": [
+    {
+      "round": 2,
+      "by": "creative-director",
+      "axes": {
+        "hierarchy": 9,
+        "typography": 9,
+        "spacing": 8,
+        "colour": 9,
+        "composition": 8,
+        "originality": 6,
+        "brand": 9,
+        "copy": 9
+      },
+      "average": 8.38,
+      "pass": false,
+      "notes": [
+        "spacing: On Instagram, move the supporting copy up 96px, reducing the gap below the orange rule to approximately 144px.",
+        "composition: On LinkedIn, extend the headline block toward the right margin: increase headline size from approximately 149px to 186px while retaining two lines and 80px left alignment.",
+        "originality: Replace the conventional underline with a payment-ledger arrangement: use one 8px orange rule spanning the text column, with the supplied supporting copy 32px below it. Apply this relationship in both formats to make “pays” drive the composition."
+      ],
+      "polish": [
+        "Keep the orange rule at least 24px below the lowest headline descender after resizing."
+      ]
+    },
+    {
+      "round": 4,
+      "by": "creative-director",
+      "axes": {
+        "hierarchy": 9,
+        "typography": 9,
+        "spacing": 8,
+        "colour": 9,
+        "composition": 8,
+        "originality": 6,
+        "brand": 9,
+        "copy": 9
+      },
+      "average": 8.38,
+      "pass": false,
+      "notes": [
+        "spacing: Move the supporting copy to y=552px on Instagram and y=488px on LinkedIn; retain the 80px left alignment.",
+        "composition: Raise the Instagram URL from approximately y=1176px to y=1080px to tighten the lower composition.",
+        "originality: Replace the generic full-width divider with orange on “January” alone; remove the 8px rule in both formats so the accent identifies the winter claim."
+      ],
+      "polish": [
+        "Preserve the current two-line headline breaks and headline sizes in both formats."
+      ]
+    },
+    {
+      "round": 5,
+      "by": "creative-director",
+      "axes": {
+        "hierarchy": 9,
+        "typography": 9,
+        "spacing": 8,
+        "colour": 9,
+        "composition": 8,
+        "originality": 6,
+        "brand": 9,
+        "copy": 9
+      },
+      "average": 8.38,
+      "pass": false,
+      "notes": [
+        "spacing: On Instagram, move the URL from approximately y1090 to y960; reduce the roughly 420px gap after the supporting copy to 290px.",
+        "composition: On Instagram, move the headline and supporting copy up 32px to strengthen the top anchor.",
+        "originality: Replace the equally sized headline lines with a deliberate month-led scale: set “January” to 233px and “still pays.” to 149px, keeping weight 600 and the single orange accent. Recheck both formats within their safe zones."
+      ],
+      "polish": [
+        "Keep the underline removed; the orange month already supplies the accent."
+      ]
+    }
+  ],
+  "waitingOn": {
+    "type": "approve_under_bar",
+    "text": "Under the bar after 6 rounds. proof still fails: proof safe-zone at linkedin: \"January\" 36px from the top edge, the safe zone starts at 38px; proof safe-zone at ig-post: \"January\" 52px from the top edge, the safe zone starts at 81px"
+  },
+  "cost": {
+    "director": 1.0535,
+    "senior": 0.1852,
+    "builder": 0.4398,
+    "total": 1.6785,
+    "complete": true
+  },
+  "tokens": {
+    "director": 172293,
+    "senior": 139325,
+    "builder": 366953
+  },
+  "files": {
+    "final": ".desk/out/20261020-0138-linkedin-instagram-portrait-winter/final.html",
+    "brief": ".desk/jobs/20261020-0138-linkedin-instagram-portrait-winter/brief.md",
+    "handback": ".desk/out/20261020-0138-linkedin-instagram-portrait-winter/handback.md"
+  },
+  "pen": "builder",
+  "notes": [
+    "proof safe-zone at linkedin: \"January\" 36px from the top edge, the safe zone starts at 38px",
+    "proof safe-zone at ig-post: \"January\" 52px from the top edge, the safe zone starts at 81px"
+  ],
+  "misses": {
+    "proof:safe-zone": 1
+  },
+  "startedAt": "2026-10-20T01:38:05-05:00",
+  "updatedAt": "2026-10-20T01:44:08-05:00",
+  "roughs": [
+    {
+      "n": 1,
+      "pattern": "Editorial split",
+      "file": ".desk/out/20261020-0138-linkedin-instagram-portrait-winter/rough-1.html",
+      "fonts": "Inter, inlined by runner",
+      "written": true,
+      "renders": ".desk/jobs/20261020-0138-linkedin-instagram-portrait-winter/renders/roughs/rough-1"
+    },
+    {
+      "n": 2,
+      "pattern": "Full bleed with scrim",
+      "file": ".desk/out/20261020-0138-linkedin-instagram-portrait-winter/rough-2.html",
+      "fonts": "Inter, inlined by runner",
+      "written": true,
+      "renders": ".desk/jobs/20261020-0138-linkedin-instagram-portrait-winter/renders/roughs/rough-2"
+    },
+    {
+      "n": 3,
+      "pattern": "Type only",
+      "file": ".desk/out/20261020-0138-linkedin-instagram-portrait-winter/rough-3.html",
+      "fonts": "Inter; inlined by runner",
+      "written": true,
+      "renders": ".desk/jobs/20261020-0138-linkedin-instagram-portrait-winter/renders/roughs/rough-3"
+    }
+  ],
+  "lastRenders": ".desk/jobs/20261020-0138-linkedin-instagram-portrait-winter/renders/round-6",
+  "penNotes": [],
+  "finishedAt": "2026-10-20T01:44:08-05:00"
+}

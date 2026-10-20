@@ -1,0 +1,106 @@
+{
+  "width": 1080,
+  "height": 1350,
+  "scrollWidth": 1080,
+  "scrollHeight": 1350,
+  "boxes": [
+    {
+      "x": 72,
+      "y": 51,
+      "width": 463.359375,
+      "height": 232,
+      "text": "Three drafts.",
+      "color": "rgb(237, 237, 240)",
+      "opacity": 1,
+      "fontSize": 169,
+      "fontWeight": 600,
+      "fontFamily": "\"Source Serif 4\", Georgia, \"Times New Roman\", serif",
+      "clips": []
+    },
+    {
+      "x": 72,
+      "y": 226.75,
+      "width": 508.46875,
+      "height": 232,
+      "text": "Three drafts.",
+      "color": "rgb(237, 237, 240)",
+      "opacity": 1,
+      "fontSize": 169,
+      "fontWeight": 600,
+      "fontFamily": "\"Source Serif 4\", Georgia, \"Times New Roman\", serif",
+      "clips": []
+    },
+    {
+      "x": 72,
+      "y": 402.5,
+      "width": 393.328125,
+      "height": 232,
+      "text": "Free.",
+      "color": "rgb(124, 156, 255)",
+      "opacity": 1,
+      "fontSize": 169,
+      "fontWeight": 600,
+      "fontFamily": "\"Source Serif 4\", Georgia, \"Times New Roman\", serif",
+      "clips": []
+    },
+    {
+      "x": 72,
+      "y": 578.25,
+      "width": 606.328125,
+      "height": 232,
+      "text": "Always.",
+      "color": "rgb(237, 237, 240)",
+      "opacity": 1,
+      "fontSize": 169,
+      "fontWeight": 600,
+      "fontFamily": "\"Source Serif 4\", Georgia, \"Times New Roman\", serif",
+      "clips": []
+    },
+    {
+      "x": 72,
+      "y": 847,
+      "width": 628.140625,
+      "height": 74,
+      "text": "Pay when the fourth one matters.",
+      "color": "rgb(237, 237, 240)",
+      "opacity": 1,
+      "fontSize": 54,
+      "fontWeight": 400,
+      "fontFamily": "\"Source Serif 4\", Georgia, \"Times New Roman\", serif",
+      "clips": []
+    },
+    {
+      "x": 72,
+      "y": 922.59375,
+      "width": 213.3125,
+      "height": 74,
+      "text": "Pay when the fourth one matters.",
+      "color": "rgb(237, 237, 240)",
+      "opacity": 1,
+      "fontSize": 54,
+      "fontWeight": 400,
+      "fontFamily": "\"Source Serif 4\", Georgia, \"Times New Roman\", serif",
+      "clips": []
+    },
+    {
+      "x": 72,
+      "y": 1172,
+      "width": 127.59375,
+      "height": 41,
+      "text": "quill.app",
+      "color": "rgb(237, 237, 240)",
+      "opacity": 1,
+      "fontSize": 30,
+      "fontWeight": 400,
+      "fontFamily": "\"Source Serif 4\", Georgia, \"Times New Roman\", serif",
+      "clips": []
+    }
+  ],
+  "fonts": {
+    "Source Serif 4": true,
+    "Georgia": true,
+    "Times New Roman": true,
+    "serif": true
+  },
+  "images": 0
+}

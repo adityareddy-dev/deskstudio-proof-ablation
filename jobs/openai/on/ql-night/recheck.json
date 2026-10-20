@@ -1,0 +1,125 @@
+{
+ "family": "openai",
+ "arm": "on",
+ "case": "ql-night",
+ "jobId": "20261020-0150-linkedin-instagram-portrait-writing",
+ "rounds": [
+  {
+   "round": 1,
+   "sizes": [
+    {
+     "size": "ig-post",
+     "failures": [
+      {
+       "check": "safe-zone",
+       "text": "The page",
+       "reason": "67px from the top edge, the safe zone starts at 81px"
+      }
+     ]
+    },
+    {
+     "size": "linkedin",
+     "failures": [
+      {
+       "check": "safe-zone",
+       "text": "The page",
+       "reason": "27px from the top edge, the safe zone starts at 38px"
+      },
+      {
+       "check": "safe-zone",
+       "text": "dims",
+       "reason": "27px from the top edge, the safe zone starts at 38px"
+      }
+     ]
+    }
+   ],
+   "failures": 3,
+   "byCheck": {
+    "safe-zone": 3
+   }
+  },
+  {
+   "round": 2,
+   "sizes": [
+    {
+     "size": "ig-post",
+     "failures": []
+    },
+    {
+     "size": "linkedin",
+     "failures": []
+    }
+   ],
+   "failures": 0,
+   "byCheck": {}
+  },
+  {
+   "round": 3,
+   "sizes": [
+    {
+     "size": "ig-post",
+     "failures": [
+      {
+       "check": "type-scale",
+       "text": "The page",
+       "reason": "136px is off the brand scale (base 17, ratio 1.333), use 127px or 169px"
+      },
+      {
+       "check": "type-scale",
+       "text": "d",
+       "reason": "136px is off the brand scale (base 17, ratio 1.333), use 127px or 169px"
+      },
+      {
+       "check": "type-scale",
+       "text": "i",
+       "reason": "136px is off the brand scale (base 17, ratio 1.333), use 127px or 169px"
+      },
+      {
+       "check": "type-scale",
+       "text": "m",
+       "reason": "136px is off the brand scale (base 17, ratio 1.333), use 127px or 169px"
+      },
+      {
+       "check": "type-scale",
+       "text": "s",
+       "reason": "136px is off the brand scale (base 17, ratio 1.333), use 127px or 169px"
+      },
+      {
+       "check": "type-scale",
+       "text": "with",
+       "reason": "136px is off the brand scale (base 17, ratio 1.333), use 127px or 169px"
+      },
+      {
+       "check": "type-scale",
+       "text": "the room.",
+       "reason": "136px is off the brand scale (base 17, ratio 1.333), use 127px or 169px"
+      }
+     ]
+    },
+    {
+     "size": "linkedin",
+     "failures": []
+    }
+   ],
+   "failures": 7,
+   "byCheck": {
+    "type-scale": 7
+   }
+  },
+  {
+   "round": 4,
+   "sizes": [
+    {
+     "size": "ig-post",
+     "failures": []
+    },
+    {
+     "size": "linkedin",
+     "failures": []
+    }
+   ],
+   "failures": 0,
+   "byCheck": {}
+  }
+ ]
+}

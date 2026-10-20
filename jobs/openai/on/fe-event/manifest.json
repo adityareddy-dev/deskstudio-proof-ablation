@@ -1,0 +1,26 @@
+{
+ "family": "openai",
+ "arm": "on",
+ "case": "fe-event",
+ "brand": "ferro",
+ "ask": "a LinkedIn card and an Instagram portrait card for an open workshop day at the Ferro factory on Saturday November 8. Copy that must appear: 'Open workshop. Saturday November 8.' and 'Bring a part. Leave with it cut.' and 'ferro.tools'.",
+ "models": "director=openai/large,senior=openai/mini,builder=openai/mini",
+ "startedAt": "2026-10-20T07:07:36.121Z",
+ "attempts": [
+  {
+   "code": 4,
+   "seconds": 401
+  }
+ ],
+ "exit": 4,
+ "seconds": 401,
+ "jobId": "20261020-0207-linkedin-instagram-portrait-open",
+ "phase": "done",
+ "failed": false,
+ "done": true,
+ "finishedAt": "2026-10-20T07:14:17.496Z",
+ "audit": {
+  "pass": true,
+  "failures": 0
+ }
+}

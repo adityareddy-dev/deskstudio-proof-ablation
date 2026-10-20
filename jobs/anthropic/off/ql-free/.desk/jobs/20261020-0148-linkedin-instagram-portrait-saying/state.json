@@ -1,0 +1,192 @@
+{
+  "id": "20261020-0148-linkedin-instagram-portrait-saying",
+  "command": "design",
+  "deliverable": "social-card",
+  "sizes": [
+    "linkedin",
+    "ig-post"
+  ],
+  "quality": "studio",
+  "proofMode": "off",
+  "models": {
+    "director": "anthropic/opus",
+    "senior": "anthropic/sonnet",
+    "builder": "anthropic/haiku"
+  },
+  "phase": "done",
+  "round": 1,
+  "maxRounds": 6,
+  "desks": [
+    {
+      "desk": "design-manager",
+      "task": "intake",
+      "status": "done",
+      "model": "anthropic/opus",
+      "startedAt": "2026-10-20T01:48:57-05:00",
+      "updatedAt": "2026-10-20T01:49:15-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "rough 1, editorial split",
+      "status": "done",
+      "model": "anthropic/sonnet",
+      "startedAt": "2026-10-20T01:49:16-05:00",
+      "updatedAt": "2026-10-20T01:49:47-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "rough 2, full bleed with scrim",
+      "status": "done",
+      "model": "anthropic/sonnet",
+      "startedAt": "2026-10-20T01:49:16-05:00",
+      "updatedAt": "2026-10-20T01:49:44-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "rough 3, type only",
+      "status": "done",
+      "model": "anthropic/sonnet",
+      "startedAt": "2026-10-20T01:49:16-05:00",
+      "updatedAt": "2026-10-20T01:49:39-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "art-director",
+      "task": "pick",
+      "status": "done",
+      "model": "anthropic/opus",
+      "startedAt": "2026-10-20T01:49:51-05:00",
+      "updatedAt": "2026-10-20T01:50:23-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 1",
+      "status": "done",
+      "model": "anthropic/haiku",
+      "startedAt": "2026-10-20T01:50:23-05:00",
+      "updatedAt": "2026-10-20T01:51:25-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "creative-director",
+      "task": "sign-off round 1",
+      "status": "done",
+      "model": "anthropic/opus",
+      "startedAt": "2026-10-20T01:51:27-05:00",
+      "updatedAt": "2026-10-20T01:52:03-05:00",
+      "via": "cli"
+    }
+  ],
+  "pick": {
+    "by": "art-director",
+    "rough": 3,
+    "pattern": "Type only",
+    "combineWith": null,
+    "reason": "The headline is the image. It reads in two seconds at thumb size on both sizes, the accent is on \"Free.\" and nowhere else, and it is closest to the bar with only spacing and size fixes left.",
+    "lost": "1 its right panel on linkedin is an empty surface block with a floating mark, so half the canvas does no work. 2 its dark side strip means nothing, and on portrait the bottom 35% is a leftover band, not a shaped one.",
+    "notes": [
+      "linkedin: move the supporting line and the mark onto one shared baseline at the bottom. Put the supporting line bottom left and the mark bottom right, each 48px from its side edge and from the bottom edge. The current mark is about 37px off the bottom, under the 6% margin of 38px (standard: margins at least 6% of the short side).",
+      "linkedin: keep the headline at 127px with line height 1.05 and tracking -0.02em. Hold the gap from the \"Always.\" baseline to the supporting line at 48px, so the headline block carries the canvas and the bottom row reads as one group.",
+      "linkedin: supporting line 30px, mark 24px in muted `#8b8d99`. The mark currently reads as large as the supporting line, and it must sit one step smaller (standard: three sizes, mark the smallest).",
+      "ig-post: leave the headline as it is (169px, 4 lines, accent on \"Free.\"). Raise the mark so its baseline sits 136px from the bottom edge, which is 10% plus the 8px grid, and keep it 72px from the left. Keep the band between the supporting line and the mark under 450px (standard: no empty band over a third of the canvas).",
+      "Both sizes: supporting line line height 1.35. Every margin and gap goes to a multiple of 8, with the left edge at 48px on linkedin and 72px on ig-post, and the headline, the supporting line and the mark all sharing that one left column."
+    ],
+    "at": "2026-10-20T01:50:23-05:00"
+  },
+  "proof": [
+    {
+      "round": 1,
+      "pass": null,
+      "skipped": true,
+      "failures": 0
+    }
+  ],
+  "scores": [
+    {
+      "round": 1,
+      "by": "creative-director",
+      "axes": {
+        "hierarchy": 9,
+        "typography": 9,
+        "spacing": 8,
+        "colour": 9,
+        "composition": 8,
+        "originality": 8,
+        "brand": 9,
+        "copy": 9
+      },
+      "average": 8.63,
+      "pass": true,
+      "notes": [
+        "spacing: On linkedin the cap top of \"Three\" sits about 112px down, against 48px at the side and about 57px at the bottom. Move the headline block up 48px so the cap top lands at about 64px. Keep the bottom row where it is, with the supporting line and mark baselines 48px off the bottom edge.",
+        "composition: On ig-post the supporting line floats mid-canvas. Move it down to join the mark as one bottom group: supporting baseline at 1150px, mark baseline at 1214px (136px off the bottom), both on the 72px column. The band between the \"Always.\" descender and the group is then about 320px, under the 450px limit.",
+        "originality: The card is the default type-only layout, so the detail has to carry it. Optically hang the headline left by the side bearing of \"T\" and \"A\": -6px on ig-post at 169px and -4px on linkedin at 127px. The big stems then sit exactly on the column with the \"P\" of the supporting line and the \"q\" of the mark."
+      ],
+      "polish": [
+        "On linkedin, check that the 24px mark sits on the same baseline as the 30px supporting line to the pixel. It currently reads about 2px low."
+      ]
+    }
+  ],
+  "waitingOn": null,
+  "cost": {
+    "director": 0.4123,
+    "senior": 0.1518,
+    "builder": 0.009,
+    "total": 0.5731,
+    "complete": true
+  },
+  "tokens": {
+    "director": 43178,
+    "senior": 28665,
+    "builder": 52723
+  },
+  "files": {
+    "final": ".desk/out/20261020-0148-linkedin-instagram-portrait-saying/final.html",
+    "brief": ".desk/jobs/20261020-0148-linkedin-instagram-portrait-saying/brief.md",
+    "handback": ".desk/out/20261020-0148-linkedin-instagram-portrait-saying/handback.md"
+  },
+  "pen": "builder",
+  "notes": [
+    "linkedin: move the supporting line and the mark onto one shared baseline at the bottom. Put the supporting line bottom left and the mark bottom right, each 48px from its side edge and from the bottom edge. The current mark is about 37px off the bottom, under the 6% margin of 38px (standard: margins at least 6% of the short side).",
+    "linkedin: keep the headline at 127px with line height 1.05 and tracking -0.02em. Hold the gap from the \"Always.\" baseline to the supporting line at 48px, so the headline block carries the canvas and the bottom row reads as one group.",
+    "linkedin: supporting line 30px, mark 24px in muted `#8b8d99`. The mark currently reads as large as the supporting line, and it must sit one step smaller (standard: three sizes, mark the smallest).",
+    "ig-post: leave the headline as it is (169px, 4 lines, accent on \"Free.\"). Raise the mark so its baseline sits 136px from the bottom edge, which is 10% plus the 8px grid, and keep it 72px from the left. Keep the band between the supporting line and the mark under 450px (standard: no empty band over a third of the canvas).",
+    "Both sizes: supporting line line height 1.35. Every margin and gap goes to a multiple of 8, with the left edge at 48px on linkedin and 72px on ig-post, and the headline, the supporting line and the mark all sharing that one left column."
+  ],
+  "misses": {},
+  "startedAt": "2026-10-20T01:48:57-05:00",
+  "updatedAt": "2026-10-20T01:52:03-05:00",
+  "roughs": [
+    {
+      "n": 1,
+      "pattern": "Editorial split",
+      "file": ".desk/out/20261020-0148-linkedin-instagram-portrait-saying/rough-1.html",
+      "fonts": "Source Serif 4, inlined by the runner, not a fallback",
+      "written": true,
+      "renders": ".desk/jobs/20261020-0148-linkedin-instagram-portrait-saying/renders/roughs/rough-1"
+    },
+    {
+      "n": 2,
+      "pattern": "Full bleed with scrim",
+      "file": ".desk/out/20261020-0148-linkedin-instagram-portrait-saying/rough-2.html",
+      "fonts": "Source Serif 4 (brand family, runner-inlined, not a fallback)",
+      "written": true,
+      "renders": ".desk/jobs/20261020-0148-linkedin-instagram-portrait-saying/renders/roughs/rough-2"
+    },
+    {
+      "n": 3,
+      "pattern": "Type only",
+      "file": ".desk/out/20261020-0148-linkedin-instagram-portrait-saying/rough-3.html",
+      "fonts": "Source Serif 4, inlined by the runner, not a fallback",
+      "written": true,
+      "renders": ".desk/jobs/20261020-0148-linkedin-instagram-portrait-saying/renders/roughs/rough-3"
+    }
+  ],
+  "lastRenders": ".desk/jobs/20261020-0148-linkedin-instagram-portrait-saying/renders/round-1",
+  "penNotes": [],
+  "finishedAt": "2026-10-20T01:52:03-05:00"
+}

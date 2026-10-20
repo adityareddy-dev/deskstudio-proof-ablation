@@ -1,0 +1,135 @@
+{
+ "family": "anthropic",
+ "arm": "off",
+ "case": "ds-contrib",
+ "jobId": "20261020-0210-linkedin-instagram-portrait-asking",
+ "rounds": [
+  {
+   "round": 1,
+   "sizes": [
+    {
+     "size": "ig-post",
+     "failures": [
+      {
+       "check": "safe-zone",
+       "text": "Add a",
+       "reason": "37px from the top edge, the safe zone starts at 81px"
+      }
+     ]
+    },
+    {
+     "size": "linkedin",
+     "failures": [
+      {
+       "check": "safe-zone",
+       "text": "Add a",
+       "reason": "38px from the left edge, the safe zone starts at 72px; 10px from the top edge, the safe zone starts at 38px"
+      },
+      {
+       "check": "safe-zone",
+       "text": "desk.",
+       "reason": "38px from the left edge, the safe zone starts at 72px"
+      },
+      {
+       "check": "safe-zone",
+       "text": "One brief file.",
+       "reason": "38px from the left edge, the safe zone starts at 72px"
+      },
+      {
+       "check": "safe-zone",
+       "text": "deskstudio.ai",
+       "reason": "38px from the left edge, the safe zone starts at 72px"
+      }
+     ]
+    }
+   ],
+   "failures": 5,
+   "byCheck": {
+    "safe-zone": 5
+   }
+  },
+  {
+   "round": 2,
+   "sizes": [
+    {
+     "size": "ig-post",
+     "failures": [
+      {
+       "check": "safe-zone",
+       "text": "Add a",
+       "reason": "37px from the top edge, the safe zone starts at 81px"
+      }
+     ]
+    },
+    {
+     "size": "linkedin",
+     "failures": [
+      {
+       "check": "safe-zone",
+       "text": "Add a",
+       "reason": "38px from the left edge, the safe zone starts at 72px; 10px from the top edge, the safe zone starts at 38px"
+      },
+      {
+       "check": "safe-zone",
+       "text": "desk.",
+       "reason": "38px from the left edge, the safe zone starts at 72px"
+      },
+      {
+       "check": "safe-zone",
+       "text": "deskstudio.ai",
+       "reason": "38px from the left edge, the safe zone starts at 72px; ends 31px from the bottom edge, the safe zone is 38px"
+      }
+     ]
+    }
+   ],
+   "failures": 4,
+   "byCheck": {
+    "safe-zone": 4
+   }
+  },
+  {
+   "round": 3,
+   "sizes": [
+    {
+     "size": "ig-post",
+     "failures": [
+      {
+       "check": "safe-zone",
+       "text": "Add a",
+       "reason": "37px from the top edge, the safe zone starts at 81px"
+      },
+      {
+       "check": "safe-zone",
+       "text": "deskstudio.ai",
+       "reason": "ends 128px from the bottom edge, the safe zone is 135px"
+      }
+     ]
+    },
+    {
+     "size": "linkedin",
+     "failures": [
+      {
+       "check": "safe-zone",
+       "text": "Add a",
+       "reason": "38px from the left edge, the safe zone starts at 72px; 10px from the top edge, the safe zone starts at 38px"
+      },
+      {
+       "check": "safe-zone",
+       "text": "desk.",
+       "reason": "38px from the left edge, the safe zone starts at 72px"
+      },
+      {
+       "check": "safe-zone",
+       "text": "deskstudio.ai",
+       "reason": "38px from the left edge, the safe zone starts at 72px; ends 31px from the bottom edge, the safe zone is 38px"
+      }
+     ]
+    }
+   ],
+   "failures": 5,
+   "byCheck": {
+    "safe-zone": 5
+   }
+  }
+ ]
+}

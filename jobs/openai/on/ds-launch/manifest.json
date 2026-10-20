@@ -1,0 +1,26 @@
+{
+ "family": "openai",
+ "arm": "on",
+ "case": "ds-launch",
+ "brand": "deskstudio",
+ "ask": "a LinkedIn card and an Instagram portrait card announcing that Desk Studio is out, free and open source. Copy that must appear: 'A design studio inside your coding agent.' and 'Free, MIT, out now.' and 'deskstudio.ai'.",
+ "models": "director=openai/large,senior=openai/mini,builder=openai/mini",
+ "startedAt": "2026-10-20T07:12:16.368Z",
+ "attempts": [
+  {
+   "code": 4,
+   "seconds": 437
+  }
+ ],
+ "exit": 4,
+ "seconds": 437,
+ "jobId": "20261020-0212-linkedin-instagram-portrait-desk",
+ "phase": "done",
+ "failed": false,
+ "done": true,
+ "finishedAt": "2026-10-20T07:19:33.820Z",
+ "audit": {
+  "pass": true,
+  "failures": 0
+ }
+}

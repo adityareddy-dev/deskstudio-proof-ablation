@@ -1,0 +1,240 @@
+{
+  "id": "20261020-0144-linkedin-instagram-portrait-phone",
+  "command": "design",
+  "deliverable": "social-card",
+  "sizes": [
+    "linkedin",
+    "ig-post"
+  ],
+  "quality": "studio",
+  "proofMode": "off",
+  "models": {
+    "director": "anthropic/opus",
+    "senior": "anthropic/sonnet",
+    "builder": "anthropic/haiku"
+  },
+  "phase": "done",
+  "round": 2,
+  "maxRounds": 6,
+  "desks": [
+    {
+      "desk": "design-manager",
+      "task": "intake",
+      "status": "done",
+      "model": "anthropic/opus",
+      "startedAt": "2026-10-20T01:44:31-05:00",
+      "updatedAt": "2026-10-20T01:44:46-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "rough 1, editorial split",
+      "status": "done",
+      "model": "anthropic/sonnet",
+      "startedAt": "2026-10-20T01:44:46-05:00",
+      "updatedAt": "2026-10-20T01:45:14-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "rough 2, full bleed with scrim",
+      "status": "done",
+      "model": "anthropic/sonnet",
+      "startedAt": "2026-10-20T01:44:46-05:00",
+      "updatedAt": "2026-10-20T01:45:15-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "rough 3, type only",
+      "status": "done",
+      "model": "anthropic/sonnet",
+      "startedAt": "2026-10-20T01:44:46-05:00",
+      "updatedAt": "2026-10-20T01:45:04-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "art-director",
+      "task": "pick",
+      "status": "done",
+      "model": "anthropic/opus",
+      "startedAt": "2026-10-20T01:45:19-05:00",
+      "updatedAt": "2026-10-20T01:45:45-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 1",
+      "status": "done",
+      "model": "anthropic/haiku",
+      "startedAt": "2026-10-20T01:45:46-05:00",
+      "updatedAt": "2026-10-20T01:46:15-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "creative-director",
+      "task": "sign-off round 1",
+      "status": "done",
+      "model": "anthropic/opus",
+      "startedAt": "2026-10-20T01:46:17-05:00",
+      "updatedAt": "2026-10-20T01:46:48-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 2",
+      "status": "done",
+      "model": "anthropic/haiku",
+      "startedAt": "2026-10-20T01:46:48-05:00",
+      "updatedAt": "2026-10-20T01:48:16-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "creative-director",
+      "task": "sign-off round 2",
+      "status": "done",
+      "model": "anthropic/opus",
+      "startedAt": "2026-10-20T01:48:17-05:00",
+      "updatedAt": "2026-10-20T01:48:55-05:00",
+      "via": "cli"
+    }
+  ],
+  "pick": {
+    "by": "art-director",
+    "rough": 1,
+    "pattern": "Editorial split",
+    "combineWith": null,
+    "reason": "Rough 1 is the only one where the concept shows. The lines are the cut sentences, and the one blue line is the sentence that stayed. It already reads in two seconds at both sizes and needs the fewest notes.",
+    "lost": "2 has the headline block sitting on top of the lines, and on ig-post quill.app is set over them while the lines run into the 10% bottom safe zone. 3 reads fastest but could be any brand, and on ig-post it wraps to four awkward lines (\"Your / drafts, on / the / train.\").",
+    "notes": [
+      "ig-post: move \"Now on your phone.\" up to 40px under the headline (top at about y 380), then start the surface panel at y 512 instead of 810. Fill it with 12 lines at a 40px pitch from y 568 and keep the blue line as the 4th. This closes the empty band so the headline block and the lines fill the canvas (standard: owns the whole canvas). quill.app stays bottom left, above the 135px bottom safe zone.",
+      "linkedin: headline from about 72px to 95px (a brand-scale size), line height 1.05, tracking -0.01em, still two lines, \"Your drafts,\" / \"on the train.\" It needs to read at thumbnail size (standard: headline 7% of the short side or more).",
+      "linkedin: put \"Now on your phone.\" 32px under the headline, no longer floating at y 470. quill.app stays bottom left, 40px from the bottom edge. That makes the left column a block at the top and a mark at the bottom, with shaped air between them.",
+      "Both sizes: grey lines use muted #8b8d99 at 35% opacity, not the current off-palette grey (standard: the brand palette and nothing else, tints only). The blue line stays the only use of #7c9cff, and the headline stays #ededf0.",
+      "Both sizes: keep exactly three sizes, headline 95/127, supporting line 40, mark 30. Check that the supporting line and the mark are both on the brand scale and that no fourth size has crept in."
+    ],
+    "at": "2026-10-20T01:45:45-05:00"
+  },
+  "proof": [
+    {
+      "round": 1,
+      "pass": null,
+      "skipped": true,
+      "failures": 0
+    },
+    {
+      "round": 2,
+      "pass": null,
+      "skipped": true,
+      "failures": 0
+    }
+  ],
+  "scores": [
+    {
+      "round": 1,
+      "by": "creative-director",
+      "axes": {
+        "hierarchy": 9,
+        "typography": 9,
+        "spacing": 8,
+        "colour": 9,
+        "composition": 8,
+        "originality": 7,
+        "brand": 9,
+        "copy": 9
+      },
+      "average": 8.5,
+      "pass": false,
+      "notes": [
+        "originality: the bars read as a skeleton loader, not as a manuscript with cuts. Make the 11 grey lines 4px tall strike rules (muted #8b8d99 at 35%) placed where 16px text lines would sit, and keep the blue line as the only full 16px bar. Add one 40px paragraph gap after the 7th line on both sizes, so the panel reads as cut sentences and one sentence that stayed.",
+        "spacing: on linkedin, start the line block at y 64, level with the cap top of \"Your drafts,\". End it on the quill.app baseline at about y 568, with 13 lines at a 40px pitch, so the right panel shares the left column's top and bottom edges. Right edge stays at x 1160.",
+        "composition: on ig-post, extend the lines to 14 at a 40px pitch from y 568, keeping the blue line 4th, so the last line ends near y 1104. Keep quill.app at y 1176 to 1212 so 72px of shaped air sits between the lines and the mark, above the 135px bottom safe zone."
+      ],
+      "polish": [
+        "linkedin headline tracking from 0 to -0.01em, to match the tightness of the ig-post headline."
+      ]
+    },
+    {
+      "round": 2,
+      "by": "creative-director",
+      "axes": {
+        "hierarchy": 9,
+        "typography": 9,
+        "spacing": 8,
+        "colour": 9,
+        "composition": 8,
+        "originality": 8,
+        "brand": 9,
+        "copy": 9
+      },
+      "average": 8.63,
+      "pass": true,
+      "notes": [
+        "spacing: linkedin, move the first grey line from y 72 to y 64 so it sits on the headline cap height. Pull the last grey line from y 552 to y 568 so it lands on the quill.app baseline. The two columns then share a top and a bottom.",
+        "composition: linkedin, move the blue line from y 184 to y 216 so it sits on the baseline of \"on the train.\". This ties the right column to the headline. Keep it as the 4th line by spacing the three lines above it at 48px from y 64.",
+        "originality: on both sizes, the grey lines read as a loading skeleton. Make them 2px, end the last line of each paragraph at 40 to 55% width so they rag like prose, and take the blue line from 16px to 8px. It should read as a kept sentence, not a progress bar."
+      ],
+      "polish": [
+        "ig-post: move quill.app up to y 1176 so the gap after the last line is 80px on the 8px grid."
+      ]
+    }
+  ],
+  "waitingOn": null,
+  "cost": {
+    "director": 0.5355,
+    "senior": 0.1553,
+    "builder": 0.0168,
+    "total": 0.7076,
+    "complete": true
+  },
+  "tokens": {
+    "director": 111354,
+    "senior": 56205,
+    "builder": 47878
+  },
+  "files": {
+    "final": ".desk/out/20261020-0144-linkedin-instagram-portrait-phone/final.html",
+    "brief": ".desk/jobs/20261020-0144-linkedin-instagram-portrait-phone/brief.md",
+    "handback": ".desk/out/20261020-0144-linkedin-instagram-portrait-phone/handback.md"
+  },
+  "pen": "builder",
+  "notes": [
+    "originality: the bars read as a skeleton loader, not as a manuscript with cuts. Make the 11 grey lines 4px tall strike rules (muted #8b8d99 at 35%) placed where 16px text lines would sit, and keep the blue line as the only full 16px bar. Add one 40px paragraph gap after the 7th line on both sizes, so the panel reads as cut sentences and one sentence that stayed.",
+    "spacing: on linkedin, start the line block at y 64, level with the cap top of \"Your drafts,\". End it on the quill.app baseline at about y 568, with 13 lines at a 40px pitch, so the right panel shares the left column's top and bottom edges. Right edge stays at x 1160.",
+    "composition: on ig-post, extend the lines to 14 at a 40px pitch from y 568, keeping the blue line 4th, so the last line ends near y 1104. Keep quill.app at y 1176 to 1212 so 72px of shaped air sits between the lines and the mark, above the 135px bottom safe zone."
+  ],
+  "misses": {
+    "originality": 1
+  },
+  "startedAt": "2026-10-20T01:44:31-05:00",
+  "updatedAt": "2026-10-20T01:48:55-05:00",
+  "roughs": [
+    {
+      "n": 1,
+      "pattern": "Editorial split",
+      "file": ".desk/out/20261020-0144-linkedin-instagram-portrait-phone/rough-1.html",
+      "fonts": "Source Serif 4, not a fallback (inlined by the runner)",
+      "written": true,
+      "renders": ".desk/jobs/20261020-0144-linkedin-instagram-portrait-phone/renders/roughs/rough-1"
+    },
+    {
+      "n": 2,
+      "pattern": "Full bleed with scrim",
+      "file": ".desk/out/20261020-0144-linkedin-instagram-portrait-phone/rough-2.html",
+      "fonts": "Source Serif 4, inlined by the runner, not a fallback",
+      "written": true,
+      "renders": ".desk/jobs/20261020-0144-linkedin-instagram-portrait-phone/renders/roughs/rough-2"
+    },
+    {
+      "n": 3,
+      "pattern": "Type only",
+      "file": ".desk/out/20261020-0144-linkedin-instagram-portrait-phone/rough-3.html",
+      "fonts": "Source Serif 4, inlined by the runner (not a fallback)",
+      "written": true,
+      "renders": ".desk/jobs/20261020-0144-linkedin-instagram-portrait-phone/renders/roughs/rough-3"
+    }
+  ],
+  "lastRenders": ".desk/jobs/20261020-0144-linkedin-instagram-portrait-phone/renders/round-2",
+  "penNotes": [],
+  "finishedAt": "2026-10-20T01:48:55-05:00"
+}

@@ -1,0 +1,92 @@
+{
+  "width": 1080,
+  "height": 1350,
+  "scrollWidth": 1080,
+  "scrollHeight": 1350,
+  "boxes": [
+    {
+      "x": 72,
+      "y": 74,
+      "width": 370.546875,
+      "height": 155,
+      "text": "Seven",
+      "color": "rgb(217, 72, 15)",
+      "opacity": 1,
+      "fontSize": 128,
+      "fontWeight": 600,
+      "fontFamily": "Inter, Arial, sans-serif",
+      "clips": []
+    },
+    {
+      "x": 442.546875,
+      "y": 74,
+      "width": 361.40625,
+      "height": 155,
+      "text": "years",
+      "color": "rgb(22, 22, 20)",
+      "opacity": 1,
+      "fontSize": 128,
+      "fontWeight": 600,
+      "fontFamily": "Inter, Arial, sans-serif",
+      "clips": []
+    },
+    {
+      "x": 72,
+      "y": 202,
+      "width": 842.640625,
+      "height": 155,
+      "text": "to break even.",
+      "color": "rgb(22, 22, 20)",
+      "opacity": 1,
+      "fontSize": 128,
+      "fontWeight": 600,
+      "fontFamily": "Inter, Arial, sans-serif",
+      "clips": []
+    },
+    {
+      "x": 72,
+      "y": 330,
+      "width": 613.484375,
+      "height": 155,
+      "text": "Then free.",
+      "color": "rgb(22, 22, 20)",
+      "opacity": 1,
+      "fontSize": 128,
+      "fontWeight": 600,
+      "fontFamily": "Inter, Arial, sans-serif",
+      "clips": []
+    },
+    {
+      "x": 72,
+      "y": 666,
+      "width": 493.640625,
+      "height": 59,
+      "text": "Battery now included.",
+      "color": "rgb(22, 22, 20)",
+      "opacity": 1,
+      "fontSize": 48,
+      "fontWeight": 400,
+      "fontFamily": "Inter, Arial, sans-serif",
+      "clips": []
+    },
+    {
+      "x": 72,
+      "y": 1175,
+      "width": 194.34375,
+      "height": 29,
+      "text": "northlight.energy",
+      "color": "rgb(22, 22, 20)",
+      "opacity": 1,
+      "fontSize": 24,
+      "fontWeight": 400,
+      "fontFamily": "Inter, Arial, sans-serif",
+      "clips": []
+    }
+  ],
+  "fonts": {
+    "Inter": true,
+    "Arial": true,
+    "sans-serif": true
+  },
+  "images": 0
+}

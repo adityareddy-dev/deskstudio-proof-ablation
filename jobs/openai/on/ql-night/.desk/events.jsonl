@@ -1,0 +1,44 @@
+{"t":"2026-10-20T06:50:09.711Z","type":"job.start","id":"20261020-0150-linkedin-instagram-portrait-writing","command":"design","deliverable":"social-card"}
+{"t":"2026-10-20T06:50:09.762Z","type":"desk.start","id":"20261020-0150-linkedin-instagram-portrait-writing","desk":"design-manager","model":"openai/large","tier":"director","task":"intake"}
+{"t":"2026-10-20T06:50:30.278Z","type":"desk.stop","id":"20261020-0150-linkedin-instagram-portrait-writing","desk":"design-manager","tier":"director","status":"done","seconds":21,"model":"openai/large","modelId":"gpt-6-astra","tokens":{"input":7726,"output":497,"cacheRead":24704,"cacheWrite":0,"total":32927},"costUsd":0.126814}
+{"t":"2026-10-20T06:50:30.323Z","type":"job.phase","id":"20261020-0150-linkedin-instagram-portrait-writing","phase":"roughs","round":0}
+{"t":"2026-10-20T06:50:30.521Z","type":"desk.start","id":"20261020-0150-linkedin-instagram-portrait-writing","desk":"ui-designer","model":"openai/mini","tier":"senior","task":"rough 1, editorial split"}
+{"t":"2026-10-20T06:50:30.626Z","type":"desk.start","id":"20261020-0150-linkedin-instagram-portrait-writing","desk":"ui-designer","model":"openai/mini","tier":"senior","task":"rough 2, full bleed with scrim"}
+{"t":"2026-10-20T06:50:30.725Z","type":"desk.start","id":"20261020-0150-linkedin-instagram-portrait-writing","desk":"ui-designer","model":"openai/mini","tier":"senior","task":"rough 3, type only"}
+{"t":"2026-10-20T06:51:18.000Z","type":"desk.stop","id":"20261020-0150-linkedin-instagram-portrait-writing","desk":"ui-designer","tier":"senior","status":"done","seconds":47,"model":"openai/mini","modelId":"gpt-6.1-sol","tokens":{"input":4799,"output":2285,"cacheRead":21504,"cacheWrite":0,"total":28588},"costUsd":0.0345984}
+{"t":"2026-10-20T06:51:25.724Z","type":"desk.stop","id":"20261020-0150-linkedin-instagram-portrait-writing","desk":"ui-designer","tier":"senior","status":"done","seconds":55,"model":"openai/mini","modelId":"gpt-6.1-sol","tokens":{"input":26303,"output":2811,"cacheRead":0,"cacheWrite":0,"total":29114},"costUsd":0.080716}
+{"t":"2026-10-20T06:51:27.034Z","type":"desk.stop","id":"20261020-0150-linkedin-instagram-portrait-writing","desk":"ui-designer","tier":"senior","status":"done","seconds":56,"model":"openai/mini","modelId":"gpt-6.1-sol","tokens":{"input":12533,"output":3075,"cacheRead":40448,"cacheWrite":0,"total":56056},"costUsd":0.059860800000000006}
+{"t":"2026-10-20T06:51:31.838Z","type":"job.phase","id":"20261020-0150-linkedin-instagram-portrait-writing","phase":"pick","round":0}
+{"t":"2026-10-20T06:51:31.897Z","type":"desk.start","id":"20261020-0150-linkedin-instagram-portrait-writing","desk":"art-director","model":"openai/large","tier":"director","task":"pick"}
+{"t":"2026-10-20T06:51:50.112Z","type":"desk.stop","id":"20261020-0150-linkedin-instagram-portrait-writing","desk":"art-director","tier":"director","status":"done","seconds":18,"model":"openai/large","modelId":"gpt-6-astra","tokens":{"input":38323,"output":473,"cacheRead":0,"cacheWrite":0,"total":38796},"costUsd":0.40688}
+{"t":"2026-10-20T06:51:50.160Z","type":"job.pick","id":"20261020-0150-linkedin-instagram-portrait-writing","by":"art-director","rough":3}
+{"t":"2026-10-20T06:51:50.209Z","type":"job.phase","id":"20261020-0150-linkedin-instagram-portrait-writing","phase":"polish","round":1}
+{"t":"2026-10-20T06:51:50.260Z","type":"desk.start","id":"20261020-0150-linkedin-instagram-portrait-writing","desk":"ui-designer","model":"openai/mini","tier":"builder","task":"polish round 1"}
+{"t":"2026-10-20T06:52:18.050Z","type":"desk.stop","id":"20261020-0150-linkedin-instagram-portrait-writing","desk":"ui-designer","tier":"builder","status":"done","seconds":28,"model":"openai/mini","modelId":"gpt-6.1-sol","tokens":{"input":29994,"output":1118,"cacheRead":29568,"cacheWrite":0,"total":60680},"costUsd":0.0741248}
+{"t":"2026-10-20T06:52:18.100Z","type":"job.phase","id":"20261020-0150-linkedin-instagram-portrait-writing","phase":"proof","round":1}
+{"t":"2026-10-20T06:52:19.919Z","type":"job.proof","id":"20261020-0150-linkedin-instagram-portrait-writing","round":1,"pass":false,"failures":3}
+{"t":"2026-10-20T06:52:19.971Z","type":"job.phase","id":"20261020-0150-linkedin-instagram-portrait-writing","phase":"polish","round":2}
+{"t":"2026-10-20T06:52:20.033Z","type":"desk.start","id":"20261020-0150-linkedin-instagram-portrait-writing","desk":"ui-designer","model":"openai/mini","tier":"builder","task":"polish round 2"}
+{"t":"2026-10-20T06:52:42.300Z","type":"desk.stop","id":"20261020-0150-linkedin-instagram-portrait-writing","desk":"ui-designer","tier":"builder","status":"done","seconds":22,"model":"openai/mini","modelId":"gpt-6.1-sol","tokens":{"input":22764,"output":811,"cacheRead":36864,"cacheWrite":0,"total":60439},"costUsd":0.057324400000000005}
+{"t":"2026-10-20T06:52:42.346Z","type":"job.phase","id":"20261020-0150-linkedin-instagram-portrait-writing","phase":"proof","round":2}
+{"t":"2026-10-20T06:52:43.969Z","type":"job.proof","id":"20261020-0150-linkedin-instagram-portrait-writing","round":2,"pass":true,"failures":0}
+{"t":"2026-10-20T06:52:44.016Z","type":"job.phase","id":"20261020-0150-linkedin-instagram-portrait-writing","phase":"signoff","round":2}
+{"t":"2026-10-20T06:52:44.065Z","type":"desk.start","id":"20261020-0150-linkedin-instagram-portrait-writing","desk":"creative-director","model":"openai/large","tier":"director","task":"sign-off round 2"}
+{"t":"2026-10-20T06:53:05.543Z","type":"desk.stop","id":"20261020-0150-linkedin-instagram-portrait-writing","desk":"creative-director","tier":"director","status":"done","seconds":21,"model":"openai/large","modelId":"gpt-6-astra","tokens":{"input":33010,"output":699,"cacheRead":0,"cacheWrite":0,"total":33709},"costUsd":0.36505}
+{"t":"2026-10-20T06:53:05.584Z","type":"job.score","id":"20261020-0150-linkedin-instagram-portrait-writing","round":2,"average":8.38,"pass":false}
+{"t":"2026-10-20T06:53:05.637Z","type":"job.phase","id":"20261020-0150-linkedin-instagram-portrait-writing","phase":"polish","round":3}
+{"t":"2026-10-20T06:53:05.693Z","type":"desk.start","id":"20261020-0150-linkedin-instagram-portrait-writing","desk":"ui-designer","model":"openai/mini","tier":"builder","task":"polish round 3"}
+{"t":"2026-10-20T06:53:37.234Z","type":"desk.stop","id":"20261020-0150-linkedin-instagram-portrait-writing","desk":"ui-designer","tier":"builder","status":"done","seconds":32,"model":"openai/mini","modelId":"gpt-6.1-sol","tokens":{"input":8488,"output":1417,"cacheRead":51200,"cacheWrite":0,"total":61105},"costUsd":0.036266}
+{"t":"2026-10-20T06:53:37.302Z","type":"job.phase","id":"20261020-0150-linkedin-instagram-portrait-writing","phase":"proof","round":3}
+{"t":"2026-10-20T06:53:38.961Z","type":"job.proof","id":"20261020-0150-linkedin-instagram-portrait-writing","round":3,"pass":false,"failures":7}
+{"t":"2026-10-20T06:53:39.013Z","type":"job.phase","id":"20261020-0150-linkedin-instagram-portrait-writing","phase":"polish","round":4}
+{"t":"2026-10-20T06:53:39.076Z","type":"desk.start","id":"20261020-0150-linkedin-instagram-portrait-writing","desk":"ui-designer","model":"openai/mini","tier":"builder","task":"polish round 4"}
+{"t":"2026-10-20T06:54:01.977Z","type":"desk.stop","id":"20261020-0150-linkedin-instagram-portrait-writing","desk":"ui-designer","tier":"builder","status":"done","seconds":23,"model":"openai/mini","modelId":"gpt-6.1-sol","tokens":{"input":16271,"output":932,"cacheRead":44160,"cacheWrite":0,"total":61363},"costUsd":0.046278}
+{"t":"2026-10-20T06:54:02.017Z","type":"job.phase","id":"20261020-0150-linkedin-instagram-portrait-writing","phase":"proof","round":4}
+{"t":"2026-10-20T06:54:03.557Z","type":"job.proof","id":"20261020-0150-linkedin-instagram-portrait-writing","round":4,"pass":true,"failures":0}
+{"t":"2026-10-20T06:54:03.607Z","type":"job.phase","id":"20261020-0150-linkedin-instagram-portrait-writing","phase":"signoff","round":4}
+{"t":"2026-10-20T06:54:03.666Z","type":"desk.start","id":"20261020-0150-linkedin-instagram-portrait-writing","desk":"creative-director","model":"openai/large","tier":"director","task":"sign-off round 4"}
+{"t":"2026-10-20T06:54:23.838Z","type":"desk.stop","id":"20261020-0150-linkedin-instagram-portrait-writing","desk":"creative-director","tier":"director","status":"done","seconds":20,"model":"openai/large","modelId":"gpt-6-astra","tokens":{"input":33010,"output":831,"cacheRead":0,"cacheWrite":0,"total":33841},"costUsd":0.37165}
+{"t":"2026-10-20T06:54:23.881Z","type":"job.score","id":"20261020-0150-linkedin-instagram-portrait-writing","round":4,"average":8.5,"pass":true}
+{"t":"2026-10-20T06:54:23.930Z","type":"job.phase","id":"20261020-0150-linkedin-instagram-portrait-writing","phase":"handback","round":4}
+{"t":"2026-10-20T06:54:23.986Z","type":"job.done","id":"20261020-0150-linkedin-instagram-portrait-writing","rounds":4,"average":8.5,"pass":true}

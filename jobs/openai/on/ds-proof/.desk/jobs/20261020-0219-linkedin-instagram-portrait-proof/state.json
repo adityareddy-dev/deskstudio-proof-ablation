@@ -1,0 +1,265 @@
+{
+  "id": "20261020-0219-linkedin-instagram-portrait-proof",
+  "command": "design",
+  "deliverable": "social-card",
+  "sizes": [
+    "linkedin",
+    "ig-post"
+  ],
+  "quality": "studio",
+  "proofMode": "on",
+  "models": {
+    "director": "openai/large",
+    "senior": "openai/mini",
+    "builder": "openai/mini"
+  },
+  "phase": "done",
+  "round": 6,
+  "maxRounds": 6,
+  "desks": [
+    {
+      "desk": "design-manager",
+      "task": "intake",
+      "status": "done",
+      "model": "openai/large",
+      "startedAt": "2026-10-20T02:19:35-05:00",
+      "updatedAt": "2026-10-20T02:19:55-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "rough 1, editorial split",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T02:19:55-05:00",
+      "updatedAt": "2026-10-20T02:21:16-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "rough 2, full bleed with scrim",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T02:19:55-05:00",
+      "updatedAt": "2026-10-20T02:20:59-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "rough 3, type only",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T02:19:55-05:00",
+      "updatedAt": "2026-10-20T02:21:17-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "art-director",
+      "task": "pick",
+      "status": "done",
+      "model": "openai/large",
+      "startedAt": "2026-10-20T02:21:21-05:00",
+      "updatedAt": "2026-10-20T02:21:41-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 1",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T02:21:41-05:00",
+      "updatedAt": "2026-10-20T02:22:08-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 2",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T02:22:10-05:00",
+      "updatedAt": "2026-10-20T02:22:45-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "creative-director",
+      "task": "sign-off round 2",
+      "status": "done",
+      "model": "openai/large",
+      "startedAt": "2026-10-20T02:22:47-05:00",
+      "updatedAt": "2026-10-20T02:23:12-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 3",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T02:23:12-05:00",
+      "updatedAt": "2026-10-20T02:23:40-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 4",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T02:23:42-05:00",
+      "updatedAt": "2026-10-20T02:24:25-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 5",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T02:24:27-05:00",
+      "updatedAt": "2026-10-20T02:25:01-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 6, escalated",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T02:25:03-05:00",
+      "updatedAt": "2026-10-20T02:25:30-05:00",
+      "via": "cli"
+    }
+  ],
+  "pick": {
+    "by": "art-director",
+    "rough": 3,
+    "pattern": "Type only",
+    "combineWith": null,
+    "reason": "The headline carries both formats immediately; amber on “pixels.” gives the claim one clear focal point.",
+    "lost": "1 the pixel illustration competes with the headline and crowds the portrait split, 2 the inset background and detached footer leave the portrait feeling unfinished.",
+    "notes": [
+      "Portrait: set the headline to 149px, line-height 1.0, positioned 80px left and 88px top; keep three lines. Its entire block must finish above 540px, per the social-card top-40% rule.",
+      "Portrait: place the supporting line at x80px, y600px, retaining the exact copy and 39px size.",
+      "Portrait: move deskstudio.ai to x80px, y1000px. This keeps the empty band below 450px, per the social-card one-third-canvas rule.",
+      "Embed Geist, or Inter if Geist is unavailable, consistently across both sizes; use headline weight 600 and body weight 400, per the brand brief."
+    ],
+    "at": "2026-10-20T02:21:41-05:00"
+  },
+  "proof": [
+    {
+      "round": 1,
+      "pass": false,
+      "failures": 1
+    },
+    {
+      "round": 2,
+      "pass": true,
+      "failures": 0
+    },
+    {
+      "round": 3,
+      "pass": false,
+      "failures": 11
+    },
+    {
+      "round": 4,
+      "pass": false,
+      "failures": 6
+    },
+    {
+      "round": 5,
+      "pass": false,
+      "failures": 6
+    },
+    {
+      "round": 6,
+      "pass": false,
+      "failures": 6
+    }
+  ],
+  "scores": [
+    {
+      "round": 2,
+      "by": "creative-director",
+      "axes": {
+        "hierarchy": 9,
+        "typography": 9,
+        "spacing": 9,
+        "colour": 10,
+        "composition": 8,
+        "originality": 6,
+        "brand": 9,
+        "copy": 9
+      },
+      "average": 8.63,
+      "pass": false,
+      "notes": [
+        "composition: Reduce the portrait headline from 149px to 143px at line-height 1.0; keep x80/y88 and three lines so the “p” descender finishes above y540.",
+        "originality: Give “pixels.” a visible proof boundary: one square-cornered, 2px amber outline with 8px padding around that word in both formats. Change the word to light text so the boundary becomes the single amber accent."
+      ],
+      "polish": [
+        "Keep the supporting line and URL at their current positions."
+      ]
+    }
+  ],
+  "waitingOn": {
+    "type": "approve_under_bar",
+    "text": "Under the bar after 6 rounds. proof still fails: proof contrast at linkedin: \"Checked\" 1.7:1 at its worst against the pixels behind it, needs 3:1 at 119px weight 600; proof contrast at linkedin: \"on\" 1.7:1 at its worst against the pixels behind it, needs 3:1 at 119px weight 600"
+  },
+  "cost": {
+    "director": 0.4596,
+    "senior": 0.1756,
+    "builder": 0.2101,
+    "total": 0.8453,
+    "complete": true
+  },
+  "tokens": {
+    "director": 105493,
+    "senior": 144195,
+    "builder": 342558
+  },
+  "files": {
+    "final": ".desk/out/20261020-0219-linkedin-instagram-portrait-proof/final.html",
+    "brief": ".desk/jobs/20261020-0219-linkedin-instagram-portrait-proof/brief.md",
+    "handback": ".desk/out/20261020-0219-linkedin-instagram-portrait-proof/handback.md"
+  },
+  "pen": "senior",
+  "notes": [
+    "proof contrast at linkedin: \"Checked\" 1.7:1 at its worst against the pixels behind it, needs 3:1 at 119px weight 600",
+    "proof contrast at linkedin: \"on\" 1.7:1 at its worst against the pixels behind it, needs 3:1 at 119px weight 600",
+    "proof contrast at linkedin: \"pixels.\" 1.7:1 at its worst against the pixels behind it, needs 3:1 at 119px weight 600",
+    "proof contrast at ig-post: \"on\" 1.7:1 at its worst against the pixels behind it, needs 3:1 at 119px weight 600",
+    "proof contrast at ig-post: \"real\" 1.7:1 at its worst against the pixels behind it, needs 3:1 at 119px weight 600",
+    "proof contrast at ig-post: \"pixels.\" 1.7:1 at its worst against the pixels behind it, needs 3:1 at 119px weight 600"
+  ],
+  "misses": {
+    "proof:contrast": 1
+  },
+  "startedAt": "2026-10-20T02:19:35-05:00",
+  "updatedAt": "2026-10-20T02:25:32-05:00",
+  "roughs": [
+    {
+      "n": 1,
+      "pattern": "Editorial split",
+      "file": ".desk/out/20261020-0219-linkedin-instagram-portrait-proof/rough-1.html",
+      "fonts": "Geist, runner-inlined; no fallback used",
+      "written": true,
+      "renders": ".desk/jobs/20261020-0219-linkedin-instagram-portrait-proof/renders/roughs/rough-1"
+    },
+    {
+      "n": 2,
+      "pattern": "Full bleed with scrim",
+      "file": ".desk/out/20261020-0219-linkedin-instagram-portrait-proof/rough-2.html",
+      "fonts": "Geist, runner-inlined",
+      "written": true,
+      "renders": ".desk/jobs/20261020-0219-linkedin-instagram-portrait-proof/renders/roughs/rough-2"
+    },
+    {
+      "n": 3,
+      "pattern": "Type only",
+      "file": ".desk/out/20261020-0219-linkedin-instagram-portrait-proof/rough-3.html",
+      "fonts": "Geist; runner inlines brand font",
+      "written": true,
+      "renders": ".desk/jobs/20261020-0219-linkedin-instagram-portrait-proof/renders/roughs/rough-3"
+    }
+  ],
+  "lastRenders": ".desk/jobs/20261020-0219-linkedin-instagram-portrait-proof/renders/round-6",
+  "penNotes": [],
+  "finishedAt": "2026-10-20T02:25:32-05:00"
+}

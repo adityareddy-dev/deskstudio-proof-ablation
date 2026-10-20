@@ -1,0 +1,217 @@
+{
+  "id": "20261020-0149-linkedin-instagram-portrait-spec",
+  "command": "design",
+  "deliverable": "social-card",
+  "sizes": [
+    "linkedin",
+    "ig-post"
+  ],
+  "quality": "studio",
+  "proofMode": "on",
+  "models": {
+    "director": "anthropic/opus",
+    "senior": "anthropic/sonnet",
+    "builder": "anthropic/haiku"
+  },
+  "phase": "done",
+  "round": 3,
+  "maxRounds": 6,
+  "desks": [
+    {
+      "desk": "design-manager",
+      "task": "intake",
+      "status": "done",
+      "model": "anthropic/opus",
+      "startedAt": "2026-10-20T01:49:57-05:00",
+      "updatedAt": "2026-10-20T01:50:13-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "rough 1, editorial split",
+      "status": "done",
+      "model": "anthropic/sonnet",
+      "startedAt": "2026-10-20T01:50:13-05:00",
+      "updatedAt": "2026-10-20T01:50:43-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "rough 2, full bleed with scrim",
+      "status": "done",
+      "model": "anthropic/sonnet",
+      "startedAt": "2026-10-20T01:50:13-05:00",
+      "updatedAt": "2026-10-20T01:50:56-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "rough 3, type only",
+      "status": "done",
+      "model": "anthropic/sonnet",
+      "startedAt": "2026-10-20T01:50:13-05:00",
+      "updatedAt": "2026-10-20T01:50:40-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "art-director",
+      "task": "pick",
+      "status": "done",
+      "model": "anthropic/opus",
+      "startedAt": "2026-10-20T01:51:01-05:00",
+      "updatedAt": "2026-10-20T01:51:27-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 1",
+      "status": "done",
+      "model": "anthropic/haiku",
+      "startedAt": "2026-10-20T01:51:27-05:00",
+      "updatedAt": "2026-10-20T01:53:15-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 2",
+      "status": "done",
+      "model": "anthropic/haiku",
+      "startedAt": "2026-10-20T01:53:17-05:00",
+      "updatedAt": "2026-10-20T01:53:32-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 3",
+      "status": "done",
+      "model": "anthropic/haiku",
+      "startedAt": "2026-10-20T01:53:34-05:00",
+      "updatedAt": "2026-10-20T01:53:52-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "creative-director",
+      "task": "sign-off round 3",
+      "status": "done",
+      "model": "anthropic/opus",
+      "startedAt": "2026-10-20T01:53:53-05:00",
+      "updatedAt": "2026-10-20T01:54:37-05:00",
+      "via": "cli"
+    }
+  ],
+  "pick": {
+    "by": "art-director",
+    "rough": 1,
+    "pattern": "Editorial split",
+    "combineWith": null,
+    "reason": "The ruler turns 0.01mm into a picture built from plain geometry in the palette, and it fills the portrait band. It reads in two seconds at both sizes and needs the fewest notes.",
+    "lost": "2 uses a black background and a box inside a box, which breaks the brand's white field and shrinks the headline on linkedin. 3 leaves a 520px dead band on ig-post (over a third of the canvas, so it scores 7 at most per the standard), and linkedin has no shape on the right half.",
+    "notes": [
+      "On ig-post, \"ferro.tools\" collides with the tick column. Move it to the bottom right on the #f2f2f2 surface: right edge 64px from the canvas edge, baseline 136px from the bottom (the 10% safe zone), clear of all ticks. Keep it at 20px, #0a0a0a.",
+      "Clean the ruler corner where the two scales meet at both sizes. Start the vertical scale below the bottom edge of the horizontal scale's longest tick. Leave the corner square empty #f2f2f2 so there is no crosshatch and no \"+\" where the long ticks cross (linkedin around 740,80; ig-post around 80,890).",
+      "On linkedin, stop the vertical scale's long ticks at 104px wide, the same as the short-tick column plus one step. The horizontal scale's first long tick should start right of that, so the two scales read as one ruler corner, not overlapping grids.",
+      "Put every gap on the 8px grid. On linkedin, use headline to subhead 48px and subhead to label 104px. On ig-post, use headline to subhead 56px. Keep the headline inside the top 40% (it must end above y 540), as the standard requires."
+    ],
+    "at": "2026-10-20T01:51:27-05:00"
+  },
+  "proof": [
+    {
+      "round": 1,
+      "pass": false,
+      "failures": 5
+    },
+    {
+      "round": 2,
+      "pass": false,
+      "failures": 2
+    },
+    {
+      "round": 3,
+      "pass": true,
+      "failures": 0
+    }
+  ],
+  "scores": [
+    {
+      "round": 3,
+      "by": "creative-director",
+      "axes": {
+        "hierarchy": 9,
+        "typography": 9,
+        "spacing": 8,
+        "colour": 9,
+        "composition": 8,
+        "originality": 8,
+        "brand": 9,
+        "copy": 9
+      },
+      "average": 8.63,
+      "pass": true,
+      "notes": [
+        "spacing: on ig-post the vertical scale floats 8px off the left edge with no spine, so it reads detached from the 8px top bar. Add an 8px #0a0a0a spine at x 0–8 from y 810 to 1350 and hang the ticks from it, matching the linkedin spine at x 660.",
+        "composition: the ig-post grey field (about 960x420 below the corner) is mostly empty. On ig-post, lengthen the long ticks from 104px to 160px and the mid ticks from 64px to 104px on both scales, and grow the empty corner square to 160x160. On linkedin, lengthen the long ticks from 104px to 120px. Both changes let the ruler carry the panel instead of edging it.",
+        "originality: the ruler reads as a desk ruler, not as 0.01mm. Halve the minor tick pitch from 8px to 4px at 1px #737373 on both scales, so the fine graduation reads as a dense band no school ruler has. Keep the long and mid pitch at 80px and 40px."
+      ],
+      "polish": [
+        "ig-post headline ends about 5px above the y 540 limit. Raise the headline block 16px for headroom."
+      ]
+    }
+  ],
+  "waitingOn": null,
+  "cost": {
+    "director": 0.4179,
+    "senior": 0.185,
+    "builder": 0.0224,
+    "total": 0.6253,
+    "complete": true
+  },
+  "tokens": {
+    "director": 71027,
+    "senior": 87349,
+    "builder": 94325
+  },
+  "files": {
+    "final": ".desk/out/20261020-0149-linkedin-instagram-portrait-spec/final.html",
+    "brief": ".desk/jobs/20261020-0149-linkedin-instagram-portrait-spec/brief.md",
+    "handback": ".desk/out/20261020-0149-linkedin-instagram-portrait-spec/handback.md"
+  },
+  "pen": "builder",
+  "notes": [
+    "proof safe-zone at ig-post: \"0.01mm.\" 58px from the top edge, the safe zone starts at 81px",
+    "proof safe-zone at ig-post: \"ferro.tools\" ends 132px from the bottom edge, the safe zone is 135px"
+  ],
+  "misses": {
+    "proof:safe-zone": 2
+  },
+  "startedAt": "2026-10-20T01:49:57-05:00",
+  "updatedAt": "2026-10-20T01:54:37-05:00",
+  "roughs": [
+    {
+      "n": 1,
+      "pattern": "Editorial split",
+      "file": ".desk/out/20261020-0149-linkedin-instagram-portrait-spec/rough-1.html",
+      "fonts": "Geist (brand family, not a fallback; inlined by the runner)",
+      "written": true,
+      "renders": ".desk/jobs/20261020-0149-linkedin-instagram-portrait-spec/renders/roughs/rough-1"
+    },
+    {
+      "n": 2,
+      "pattern": "Full bleed with scrim",
+      "file": ".desk/out/20261020-0149-linkedin-instagram-portrait-spec/rough-2.html",
+      "fonts": "Geist requested, inlined by the runner; no fallback by me",
+      "written": true,
+      "renders": ".desk/jobs/20261020-0149-linkedin-instagram-portrait-spec/renders/roughs/rough-2"
+    },
+    {
+      "n": 3,
+      "pattern": "Type only",
+      "file": ".desk/out/20261020-0149-linkedin-instagram-portrait-spec/rough-3.html",
+      "fonts": "Geist (runner-inlined), not a fallback",
+      "written": true,
+      "renders": ".desk/jobs/20261020-0149-linkedin-instagram-portrait-spec/renders/roughs/rough-3"
+    }
+  ],
+  "lastRenders": ".desk/jobs/20261020-0149-linkedin-instagram-portrait-spec/renders/round-3",
+  "penNotes": [],
+  "finishedAt": "2026-10-20T01:54:37-05:00"
+}

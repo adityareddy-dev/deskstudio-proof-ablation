@@ -1,0 +1,317 @@
+{
+  "id": "20261020-0122-linkedin-instagram-portrait-new",
+  "command": "design",
+  "deliverable": "social-card",
+  "sizes": [
+    "linkedin",
+    "ig-post"
+  ],
+  "quality": "studio",
+  "proofMode": "on",
+  "models": {
+    "director": "anthropic/opus",
+    "senior": "anthropic/sonnet",
+    "builder": "anthropic/haiku"
+  },
+  "phase": "done",
+  "round": 5,
+  "maxRounds": 6,
+  "desks": [
+    {
+      "desk": "design-manager",
+      "task": "intake",
+      "status": "done",
+      "model": "anthropic/opus",
+      "startedAt": "2026-10-20T01:23:00-05:00",
+      "updatedAt": "2026-10-20T01:23:16-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "rough 1, editorial split",
+      "status": "done",
+      "model": "anthropic/sonnet",
+      "startedAt": "2026-10-20T01:23:16-05:00",
+      "updatedAt": "2026-10-20T01:23:43-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "rough 2, full bleed with scrim",
+      "status": "done",
+      "model": "anthropic/sonnet",
+      "startedAt": "2026-10-20T01:23:16-05:00",
+      "updatedAt": "2026-10-20T01:24:09-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "rough 3, type only",
+      "status": "done",
+      "model": "anthropic/sonnet",
+      "startedAt": "2026-10-20T01:23:16-05:00",
+      "updatedAt": "2026-10-20T01:23:42-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "art-director",
+      "task": "pick",
+      "status": "done",
+      "model": "anthropic/opus",
+      "startedAt": "2026-10-20T01:24:14-05:00",
+      "updatedAt": "2026-10-20T01:24:54-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 1",
+      "status": "done",
+      "model": "anthropic/haiku",
+      "startedAt": "2026-10-20T01:24:54-05:00",
+      "updatedAt": "2026-10-20T01:25:15-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 2",
+      "status": "done",
+      "model": "anthropic/haiku",
+      "startedAt": "2026-10-20T01:25:17-05:00",
+      "updatedAt": "2026-10-20T01:25:40-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "creative-director",
+      "task": "sign-off round 2",
+      "status": "done",
+      "model": "anthropic/opus",
+      "startedAt": "2026-10-20T01:25:42-05:00",
+      "updatedAt": "2026-10-20T01:26:28-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 3",
+      "status": "done",
+      "model": "anthropic/haiku",
+      "startedAt": "2026-10-20T01:26:28-05:00",
+      "updatedAt": "2026-10-20T01:27:13-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 4",
+      "status": "done",
+      "model": "anthropic/haiku",
+      "startedAt": "2026-10-20T01:27:15-05:00",
+      "updatedAt": "2026-10-20T01:27:35-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "creative-director",
+      "task": "sign-off round 4",
+      "status": "done",
+      "model": "anthropic/opus",
+      "startedAt": "2026-10-20T01:27:37-05:00",
+      "updatedAt": "2026-10-20T01:28:13-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 5",
+      "status": "done",
+      "model": "anthropic/haiku",
+      "startedAt": "2026-10-20T01:28:13-05:00",
+      "updatedAt": "2026-10-20T01:28:37-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "creative-director",
+      "task": "sign-off round 5",
+      "status": "done",
+      "model": "anthropic/opus",
+      "startedAt": "2026-10-20T01:28:39-05:00",
+      "updatedAt": "2026-10-20T01:29:28-05:00",
+      "via": "cli"
+    }
+  ],
+  "pick": {
+    "by": "art-director",
+    "rough": 3,
+    "pattern": "Type only",
+    "combineWith": null,
+    "reason": "Type only reads in two seconds at both sizes, with the accent on the number and nothing competing. It is the closest to the bar.",
+    "lost": "1 the split leaves a dead surface panel on linkedin and parks the news line in a far corner; 2 the black field is a heavy second colour mass the warm-paper brand does not own, and the headline breaks badly at both sizes (\"to / break even. Then / free.\").",
+    "notes": [
+      "Headline breaks at both sizes go to \"Seven years / to break even. / Then free.\" Use three display:block spans on the same DOM so the figure never splits across lines (standard: accent once, on the one thing to look at).",
+      "Set the ig-post headline to 95px, line height 1.05, tracking -0.02em, top 88px, left 64px. It then ends near y 390, inside the top 40% (brief: headline in top 40%). Set the linkedin headline from about 76px to 95px with the same line height and tracking, top 48px, left 72px. That lets the block carry the landscape canvas.",
+      "On ig-post only, add a full-width #ebe8e0 surface block from y 540 to the bottom edge. This is the lower band brought over from rough 1. It keeps air shaped rather than left over, so there is no empty band over a third of the canvas (standard: owns the whole canvas).",
+      "On ig-post, place \"Battery now included.\" inside the block at 49px, weight 400, 64px below the block top, left 64px. On linkedin, set it at 31px, weight 400, 32px under the headline, left 72px.",
+      "Set the mark at 25px, weight 400, bottom left at both sizes. On ig-post use 64px from the left and 136px from the bottom (10% safe zone). On linkedin use 72px from the left and 40px from the bottom. Mark colour stays foreground on both backgrounds."
+    ],
+    "at": "2026-10-20T01:24:54-05:00"
+  },
+  "proof": [
+    {
+      "round": 1,
+      "pass": false,
+      "failures": 5
+    },
+    {
+      "round": 2,
+      "pass": true,
+      "failures": 0
+    },
+    {
+      "round": 3,
+      "pass": false,
+      "failures": 6
+    },
+    {
+      "round": 4,
+      "pass": true,
+      "failures": 0
+    },
+    {
+      "round": 5,
+      "pass": true,
+      "failures": 0
+    }
+  ],
+  "scores": [
+    {
+      "round": 2,
+      "by": "creative-director",
+      "axes": {
+        "hierarchy": 9,
+        "typography": 8,
+        "spacing": 8,
+        "colour": 9,
+        "composition": 7,
+        "originality": 7,
+        "brand": 9,
+        "copy": 9
+      },
+      "average": 8.25,
+      "pass": false,
+      "notes": [
+        "composition: on ig-post the #ebe8e0 block runs from y 540 to the bottom and holds one line at its top, which leaves about 515px (38% of the canvas) empty. Move the block top from y 540 to y 810 so the canvas splits 60/40. Put \"Battery now included.\" 64px under the new block top at 49px. Keep the mark 136px from the bottom. The largest gap is then about 350px (26%).",
+        "typography: ig-post headline from 95px to 119px with the same three spans, line height 1.05, tracking -0.02em, top 88px, left 64px. It then ends near y 465, inside the top 40%, and \"to break even.\" runs about 780px wide, inside the 952px column.",
+        "spacing: on linkedin, the gap under the supporting line (about 140px) is wider than the gaps inside the headline group, so the right 40% looks unused rather than planned. Fix this with the originality note below, and keep every gap a multiple of 8.",
+        "originality: carry the split to linkedin so both sizes make the same move. Add a full-height #ebe8e0 block from x 768 to the right edge. Move \"Battery now included.\" (31px, 400) into it at left 816px, with its baseline on the mark's baseline 40px from the bottom. The headline and the mark stay on the paper on the left."
+      ],
+      "polish": [
+        "With the linkedin block in place, check that \"to break even.\" still clears the block edge by at least 72px. If it doesn't, move the block start to x 792 and the line to left 840px."
+      ]
+    },
+    {
+      "round": 4,
+      "by": "creative-director",
+      "axes": {
+        "hierarchy": 8,
+        "typography": 9,
+        "spacing": 8,
+        "colour": 9,
+        "composition": 7,
+        "originality": 8,
+        "brand": 9,
+        "copy": 9
+      },
+      "average": 8.38,
+      "pass": false,
+      "notes": [
+        "composition: linkedin: remove the empty right panel (x 768 to 1200). Add a full-width #ebe8e0 band from y 487 to the bottom edge. Set \"Battery now included.\" inside it at 31px weight 400, left 72, vertically centred in the band. Move the mark into the same band at bottom right, 72px from the right and on the same baseline. Both sizes then share one system: the headline on paper, the news on the surface band.",
+        "hierarchy: linkedin and ig-post: set the mark colour #161614 to #6b6a66, so \"Battery now included.\" clearly reads second and the mark reads third.",
+        "spacing: linkedin: move the headline block down about 8px so the cap top of \"Seven years\" sits 72px from the top edge, matching the 72px left margin. ig-post: move the band top from y 810 to y 760 and keep the supporting line 64px below it, so the gap from headline to band (about 300px) is close to the gap from the line to the mark.",
+        "originality: once the band carries both sizes, change nothing else. The move is the hard tint split under a number-led headline, and it must look the same on both sizes. Add no rule, icon or second element."
+      ],
+      "polish": [
+        "ig-post: the headline renders at about 119px, not the 95px in the Art Director's notes. Keep 119, because it carries the portrait, but record it so the next round does not set it back."
+      ]
+    },
+    {
+      "round": 5,
+      "by": "creative-director",
+      "axes": {
+        "hierarchy": 9,
+        "typography": 8,
+        "spacing": 8,
+        "colour": 9,
+        "composition": 8,
+        "originality": 8,
+        "brand": 9,
+        "copy": 9
+      },
+      "average": 8.5,
+      "pass": true,
+      "notes": [
+        "typography: on linkedin, raise \"Battery now included.\" from 31px to 39px, weight 400, so it stops sitting one step above the 25px mark and reads as the clear second voice.",
+        "spacing: on ig-post, the 305px of paper between the headline and the band equals the 305px between the supporting line and the mark. Move the band top from y 760 to y 680, keep the supporting line 64px under the band top, and keep the mark 136px from the bottom.",
+        "composition: on linkedin, take the headline from 95px to 119px with line height 1.05 and tracking -0.02em, top 48px, left 72px. The block then ends near y 423 and carries the empty right half, with 64px of paper above the band at y 487.",
+        "originality: once the ig-post band starts at y 680, the paper and surface split the canvas exactly in half. Keep \"Seven years / to break even. / Then free.\" wholly on the paper above it. The split then reads as a deliberate before and after rather than a footer strip."
+      ],
+      "polish": [
+        "Mark colour #6b6a66 on #ebe8e0 is near the 4.5:1 floor. Set it to #161614 at 25px, 400, as the AD's note 5 asked."
+      ]
+    }
+  ],
+  "waitingOn": null,
+  "cost": {
+    "director": 0.7615,
+    "senior": 0.1803,
+    "builder": 0.0245,
+    "total": 0.9663,
+    "complete": true
+  },
+  "tokens": {
+    "director": 129379,
+    "senior": 31204,
+    "builder": 110769
+  },
+  "files": {
+    "final": ".desk/out/20261020-0122-linkedin-instagram-portrait-new/final.html",
+    "brief": ".desk/jobs/20261020-0122-linkedin-instagram-portrait-new/brief.md",
+    "handback": ".desk/out/20261020-0122-linkedin-instagram-portrait-new/handback.md"
+  },
+  "pen": "builder",
+  "notes": [
+    "composition: linkedin: remove the empty right panel (x 768 to 1200). Add a full-width #ebe8e0 band from y 487 to the bottom edge. Set \"Battery now included.\" inside it at 31px weight 400, left 72, vertically centred in the band. Move the mark into the same band at bottom right, 72px from the right and on the same baseline. Both sizes then share one system: the headline on paper, the news on the surface band.",
+    "hierarchy: linkedin and ig-post: set the mark colour #161614 to #6b6a66, so \"Battery now included.\" clearly reads second and the mark reads third.",
+    "spacing: linkedin: move the headline block down about 8px so the cap top of \"Seven years\" sits 72px from the top edge, matching the 72px left margin. ig-post: move the band top from y 810 to y 760 and keep the supporting line 64px below it, so the gap from headline to band (about 300px) is close to the gap from the line to the mark.",
+    "originality: once the band carries both sizes, change nothing else. The move is the hard tint split under a number-led headline, and it must look the same on both sizes. Add no rule, icon or second element."
+  ],
+  "misses": {
+    "composition": 1
+  },
+  "startedAt": "2026-10-20T01:23:00-05:00",
+  "updatedAt": "2026-10-20T01:29:28-05:00",
+  "roughs": [
+    {
+      "n": 1,
+      "pattern": "Editorial split",
+      "file": ".desk/out/20261020-0122-linkedin-instagram-portrait-new/rough-1.html",
+      "fonts": "Inter, inlined by the runner, not a fallback",
+      "written": true,
+      "renders": ".desk/jobs/20261020-0122-linkedin-instagram-portrait-new/renders/roughs/rough-1"
+    },
+    {
+      "n": 2,
+      "pattern": "Full bleed with scrim",
+      "file": ".desk/out/20261020-0122-linkedin-instagram-portrait-new/rough-2.html",
+      "fonts": "Inter, inlined by the runner, not a fallback",
+      "written": true,
+      "renders": ".desk/jobs/20261020-0122-linkedin-instagram-portrait-new/renders/roughs/rough-2"
+    },
+    {
+      "n": 3,
+      "pattern": "Type only",
+      "file": ".desk/out/20261020-0122-linkedin-instagram-portrait-new/rough-3.html",
+      "fonts": "Inter, inlined by the runner, not a fallback",
+      "written": true,
+      "renders": ".desk/jobs/20261020-0122-linkedin-instagram-portrait-new/renders/roughs/rough-3"
+    }
+  ],
+  "lastRenders": ".desk/jobs/20261020-0122-linkedin-instagram-portrait-new/renders/round-5",
+  "penNotes": [],
+  "finishedAt": "2026-10-20T01:29:28-05:00"
+}

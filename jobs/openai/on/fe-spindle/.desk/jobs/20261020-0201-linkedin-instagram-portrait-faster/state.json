@@ -1,0 +1,326 @@
+{
+  "id": "20261020-0201-linkedin-instagram-portrait-faster",
+  "command": "design",
+  "deliverable": "social-card",
+  "sizes": [
+    "linkedin",
+    "ig-post"
+  ],
+  "quality": "studio",
+  "proofMode": "on",
+  "models": {
+    "director": "openai/large",
+    "senior": "openai/mini",
+    "builder": "openai/mini"
+  },
+  "phase": "done",
+  "round": 6,
+  "maxRounds": 6,
+  "desks": [
+    {
+      "desk": "design-manager",
+      "task": "intake",
+      "status": "done",
+      "model": "openai/large",
+      "startedAt": "2026-10-20T02:01:29-05:00",
+      "updatedAt": "2026-10-20T02:01:52-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "rough 1, editorial split",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T02:01:52-05:00",
+      "updatedAt": "2026-10-20T02:02:55-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "rough 2, full bleed with scrim",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T02:01:52-05:00",
+      "updatedAt": "2026-10-20T02:03:01-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "rough 3, type only",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T02:01:52-05:00",
+      "updatedAt": "2026-10-20T02:02:26-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "art-director",
+      "task": "pick",
+      "status": "done",
+      "model": "openai/large",
+      "startedAt": "2026-10-20T02:03:05-05:00",
+      "updatedAt": "2026-10-20T02:03:24-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 1",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T02:03:24-05:00",
+      "updatedAt": "2026-10-20T02:03:48-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 2",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T02:03:49-05:00",
+      "updatedAt": "2026-10-20T02:04:13-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "creative-director",
+      "task": "sign-off round 2",
+      "status": "done",
+      "model": "openai/large",
+      "startedAt": "2026-10-20T02:04:14-05:00",
+      "updatedAt": "2026-10-20T02:04:38-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 3",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T02:04:38-05:00",
+      "updatedAt": "2026-10-20T02:05:08-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "creative-director",
+      "task": "sign-off round 3",
+      "status": "done",
+      "model": "openai/large",
+      "startedAt": "2026-10-20T02:05:10-05:00",
+      "updatedAt": "2026-10-20T02:05:30-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 4",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T02:05:31-05:00",
+      "updatedAt": "2026-10-20T02:06:12-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 5",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T02:06:14-05:00",
+      "updatedAt": "2026-10-20T02:06:34-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "creative-director",
+      "task": "sign-off round 5",
+      "status": "done",
+      "model": "openai/large",
+      "startedAt": "2026-10-20T02:06:35-05:00",
+      "updatedAt": "2026-10-20T02:06:58-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 6",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T02:06:58-05:00",
+      "updatedAt": "2026-10-20T02:07:32-05:00",
+      "via": "cli"
+    }
+  ],
+  "pick": {
+    "by": "art-director",
+    "rough": 3,
+    "pattern": "Type only",
+    "combineWith": null,
+    "reason": "Speed and universal fit read together in two seconds; the heavy type carries both formats with the fewest fixes.",
+    "lost": "1 separates the speed from the claim and leaves portrait space stranded, 2 lets the oversized spindle illustration compete with the announcement.",
+    "notes": [
+      "Set “24,000” to exactly #e5173f in both formats; keep “rpm.” black. Ferro’s brand rule and the social-card colour standard reserve the single accent for the number."
+    ],
+    "at": "2026-10-20T02:03:24-05:00"
+  },
+  "proof": [
+    {
+      "round": 1,
+      "pass": false,
+      "failures": 4
+    },
+    {
+      "round": 2,
+      "pass": true,
+      "failures": 0
+    },
+    {
+      "round": 3,
+      "pass": true,
+      "failures": 0
+    },
+    {
+      "round": 4,
+      "pass": false,
+      "failures": 1
+    },
+    {
+      "round": 5,
+      "pass": true,
+      "failures": 0
+    },
+    {
+      "round": 6,
+      "pass": false,
+      "failures": 1
+    }
+  ],
+  "scores": [
+    {
+      "round": 2,
+      "by": "creative-director",
+      "axes": {
+        "hierarchy": 9,
+        "typography": 9,
+        "spacing": 8,
+        "colour": 10,
+        "composition": 8,
+        "originality": 6,
+        "brand": 9,
+        "copy": 9
+      },
+      "average": 8.5,
+      "pass": false,
+      "notes": [
+        "spacing: On portrait, move the supporting line from approximately y=732 to y=592, reducing its separation from the headline by 140px.",
+        "composition: On portrait, move the signature from approximately y=1180 to y=1000 so the lower elements form a deliberate group.",
+        "originality: Replace the uniform left edge with a stepped typographic arrangement: keep the speed and signature anchored, indent both compatibility lines and the supporting line by 48px in both formats; retain three type sizes and the single red number."
+      ],
+      "polish": [
+        "Keep “rpm.” black and preserve the supplied copy verbatim."
+      ]
+    },
+    {
+      "round": 3,
+      "by": "creative-director",
+      "axes": {
+        "hierarchy": 9,
+        "typography": 8,
+        "spacing": 7,
+        "colour": 9,
+        "composition": 8,
+        "originality": 6,
+        "brand": 9,
+        "copy": 9
+      },
+      "average": 8.13,
+      "pass": false,
+      "notes": [
+        "typography: Remove the 48px indent on the compatibility claim in both formats; align its visible left edge with “24,000”.",
+        "spacing: Align the supporting line to the same left edge: x80 on LinkedIn, x72 on Instagram.",
+        "composition: Move the Instagram signature from y1000 to y1184, anchoring the bottom while preserving the 10% bottom safe zone.",
+        "originality: Give the specification its own typographic role: set “24,000” at 149px and “rpm.” at the supporting size, 49px on LinkedIn and 61px on Instagram; retain the compatibility claim at 95px and 119px respectively, and use the supporting size for the signature to keep three sizes total."
+      ],
+      "polish": [
+        "Keep the red confined to “24,000” through the revision."
+      ]
+    },
+    {
+      "round": 5,
+      "by": "creative-director",
+      "axes": {
+        "hierarchy": 9,
+        "typography": 8,
+        "spacing": 8,
+        "colour": 9,
+        "composition": 8,
+        "originality": 6,
+        "brand": 9,
+        "copy": 9
+      },
+      "average": 8.25,
+      "pass": false,
+      "notes": [
+        "typography: Reduce “ferro.tools” to 49px in portrait; use the same 49px for “rpm.” and the supporting line to retain three sizes.",
+        "spacing: Move the portrait supporting line up 64px, reducing its separation from the headline.",
+        "composition: Move the portrait signature up 160px to close the large lower gap.",
+        "originality: Give the portrait speed a more distinctive scale: increase “24,000” to 186px, start the block at y=88px, and baseline-align “rpm.” at the right safe margin; keep the complete headline above y=540px."
+      ],
+      "polish": [
+        "Keep the single red accent on the number."
+      ]
+    }
+  ],
+  "waitingOn": {
+    "type": "approve_under_bar",
+    "text": "Under the bar after 6 rounds. proof still fails: proof safe-zone at ig-post: \"24,000\" 63px from the top edge, the safe zone starts at 81px"
+  },
+  "cost": {
+    "director": 0.7303,
+    "senior": 0.2133,
+    "builder": 0.3307,
+    "total": 1.2743,
+    "complete": true
+  },
+  "tokens": {
+    "director": 172483,
+    "senior": 166493,
+    "builder": 337176
+  },
+  "files": {
+    "final": ".desk/out/20261020-0201-linkedin-instagram-portrait-faster/final.html",
+    "brief": ".desk/jobs/20261020-0201-linkedin-instagram-portrait-faster/brief.md",
+    "handback": ".desk/out/20261020-0201-linkedin-instagram-portrait-faster/handback.md"
+  },
+  "pen": "builder",
+  "notes": [
+    "proof safe-zone at ig-post: \"24,000\" 63px from the top edge, the safe zone starts at 81px"
+  ],
+  "misses": {
+    "proof:safe-zone": 1
+  },
+  "startedAt": "2026-10-20T02:01:29-05:00",
+  "updatedAt": "2026-10-20T02:07:34-05:00",
+  "roughs": [
+    {
+      "n": 1,
+      "pattern": "Editorial split",
+      "file": ".desk/out/20261020-0201-linkedin-instagram-portrait-faster/rough-1.html",
+      "fonts": "Geist; inlined by runner",
+      "written": true,
+      "renders": ".desk/jobs/20261020-0201-linkedin-instagram-portrait-faster/renders/roughs/rough-1"
+    },
+    {
+      "n": 2,
+      "pattern": "Full bleed with scrim",
+      "file": ".desk/out/20261020-0201-linkedin-instagram-portrait-faster/rough-2.html",
+      "fonts": "Geist; inlined by runner, no fallback selected",
+      "written": true,
+      "renders": ".desk/jobs/20261020-0201-linkedin-instagram-portrait-faster/renders/roughs/rough-2"
+    },
+    {
+      "n": 3,
+      "pattern": "Type only",
+      "file": ".desk/out/20261020-0201-linkedin-instagram-portrait-faster/rough-3.html",
+      "fonts": "Geist, supplied by runner; no fallback selected",
+      "written": true,
+      "renders": ".desk/jobs/20261020-0201-linkedin-instagram-portrait-faster/renders/roughs/rough-3"
+    }
+  ],
+  "lastRenders": ".desk/jobs/20261020-0201-linkedin-instagram-portrait-faster/renders/round-6",
+  "penNotes": [],
+  "finishedAt": "2026-10-20T02:07:34-05:00"
+}

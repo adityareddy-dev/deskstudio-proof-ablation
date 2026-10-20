@@ -1,0 +1,332 @@
+{
+  "id": "20261020-0203-linkedin-instagram-portrait-desk",
+  "command": "design",
+  "deliverable": "social-card",
+  "sizes": [
+    "linkedin",
+    "ig-post"
+  ],
+  "quality": "studio",
+  "proofMode": "on",
+  "models": {
+    "director": "anthropic/opus",
+    "senior": "anthropic/sonnet",
+    "builder": "anthropic/haiku"
+  },
+  "phase": "done",
+  "round": 6,
+  "maxRounds": 6,
+  "desks": [
+    {
+      "desk": "design-manager",
+      "task": "intake",
+      "status": "done",
+      "model": "anthropic/opus",
+      "startedAt": "2026-10-20T02:03:21-05:00",
+      "updatedAt": "2026-10-20T02:03:37-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "rough 1, editorial split",
+      "status": "done",
+      "model": "anthropic/sonnet",
+      "startedAt": "2026-10-20T02:03:38-05:00",
+      "updatedAt": "2026-10-20T02:03:58-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "rough 2, full bleed with scrim",
+      "status": "done",
+      "model": "anthropic/sonnet",
+      "startedAt": "2026-10-20T02:03:38-05:00",
+      "updatedAt": "2026-10-20T02:04:07-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "rough 3, type only",
+      "status": "done",
+      "model": "anthropic/sonnet",
+      "startedAt": "2026-10-20T02:03:38-05:00",
+      "updatedAt": "2026-10-20T02:04:06-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "art-director",
+      "task": "pick",
+      "status": "done",
+      "model": "anthropic/opus",
+      "startedAt": "2026-10-20T02:04:11-05:00",
+      "updatedAt": "2026-10-20T02:04:48-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 1",
+      "status": "done",
+      "model": "anthropic/haiku",
+      "startedAt": "2026-10-20T02:04:49-05:00",
+      "updatedAt": "2026-10-20T02:05:13-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 2",
+      "status": "done",
+      "model": "anthropic/haiku",
+      "startedAt": "2026-10-20T02:05:15-05:00",
+      "updatedAt": "2026-10-20T02:05:26-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "creative-director",
+      "task": "sign-off round 2",
+      "status": "done",
+      "model": "anthropic/opus",
+      "startedAt": "2026-10-20T02:05:28-05:00",
+      "updatedAt": "2026-10-20T02:06:16-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 3",
+      "status": "done",
+      "model": "anthropic/haiku",
+      "startedAt": "2026-10-20T02:06:16-05:00",
+      "updatedAt": "2026-10-20T02:06:52-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 4",
+      "status": "done",
+      "model": "anthropic/haiku",
+      "startedAt": "2026-10-20T02:06:54-05:00",
+      "updatedAt": "2026-10-20T02:07:25-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "creative-director",
+      "task": "sign-off round 4",
+      "status": "done",
+      "model": "anthropic/opus",
+      "startedAt": "2026-10-20T02:07:26-05:00",
+      "updatedAt": "2026-10-20T02:08:04-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 5",
+      "status": "done",
+      "model": "anthropic/haiku",
+      "startedAt": "2026-10-20T02:08:04-05:00",
+      "updatedAt": "2026-10-20T02:08:30-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 6",
+      "status": "done",
+      "model": "anthropic/haiku",
+      "startedAt": "2026-10-20T02:08:32-05:00",
+      "updatedAt": "2026-10-20T02:09:05-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "creative-director",
+      "task": "sign-off round 6",
+      "status": "done",
+      "model": "anthropic/opus",
+      "startedAt": "2026-10-20T02:09:07-05:00",
+      "updatedAt": "2026-10-20T02:10:08-05:00",
+      "via": "cli"
+    }
+  ],
+  "pick": {
+    "by": "art-director",
+    "rough": 3,
+    "pattern": "Type only",
+    "combineWith": null,
+    "reason": "Type only reads in two seconds at both sizes. The headline is the image, the accent sits once on \"out now.\", and it needs the fewest notes to reach the bar.",
+    "lost": "1, the supporting line is set almost as big as the headline so the two compete, and on ig-post the surface panel is a box inside a box with a dead band in it. 2, the linkedin headline sinks to the bottom half under an empty top, the surface block is a box with no job, and on ig-post \"agent.\" is left alone on line 3.",
+    "notes": [
+      "linkedin: move \"Free, MIT, out now.\" up so its top sits 40px under the headline's last line. Headline and supporting line then read as one block top left, and the mark stays alone bottom left. This follows the standard's \"Has a shape\": a content block on a column.",
+      "linkedin: set the mark's bottom edge 40px from the bottom of the card, up from about 16px now. The 6% safe zone is 38px, per the standard's \"Has air\".",
+      "ig-post: set the mark's bottom edge 136px from the bottom of the card. That is the 10% bottom safe zone the brief sets for portrait, because platform UI covers it. Keep the left edge at 65px.",
+      "Snap every size to the brand scale and keep three sizes per artboard. Headline: 95px on linkedin, 119px on ig-post. Supporting line: 31px on linkedin, 39px on ig-post. Mark: 25px on both, in muted #8a8a93.",
+      "Headline on both sizes: line height 1.0, tracking -0.02em, weight 600. Keep the line breaks as they are now, 2 lines on linkedin and 3 on ig-post. On ig-post keep the supporting line where it sits, so no empty band is taller than a third of the canvas, which is 450px."
+    ],
+    "at": "2026-10-20T02:04:48-05:00"
+  },
+  "proof": [
+    {
+      "round": 1,
+      "pass": false,
+      "failures": 2
+    },
+    {
+      "round": 2,
+      "pass": true,
+      "failures": 0
+    },
+    {
+      "round": 3,
+      "pass": false,
+      "failures": 7
+    },
+    {
+      "round": 4,
+      "pass": true,
+      "failures": 0
+    },
+    {
+      "round": 5,
+      "pass": false,
+      "failures": 3
+    },
+    {
+      "round": 6,
+      "pass": true,
+      "failures": 0
+    }
+  ],
+  "scores": [
+    {
+      "round": 2,
+      "by": "creative-director",
+      "axes": {
+        "hierarchy": 9,
+        "typography": 8,
+        "spacing": 8,
+        "colour": 9,
+        "composition": 7,
+        "originality": 7,
+        "brand": 9,
+        "copy": 9
+      },
+      "average": 8.25,
+      "pass": false,
+      "notes": [
+        "composition: linkedin: headline 95px to 119px, set on 3 lines \"A design studio / inside your coding / agent.\" with its top edge 40px from the top. Supporting line top 40px under the last line, mark bottom edge 40px from the bottom, left edge 72px for all three. The block then fills the card, not just the top half, and no band over 627/3 = 209px is left behind it.",
+        "originality: linkedin: the 119px headline is the move. It should run to within 56px of the right edge so it reads as type set to the canvas, not a template headline floating in it. Do not add any other element.",
+        "spacing: ig-post: supporting line top from about 800px to 704px, which is 244px under the headline's last line. It then reads as the tail of the headline block, not a line floating midway, and the band above the mark becomes about 440px, still under the 450px limit. Keep the mark bottom at 136px and the left edge at 65px.",
+        "typography: both sizes: shift the headline about 0.04em left so the stems of \"A\" and \"i\" optically align with the F of \"Free\" and the d of \"deskstudio.ai\". Keep 600 weight, line height 1.0, tracking -0.02em, supporting line 31px on linkedin and 39px on ig-post, mark 25px."
+      ],
+      "polish": [
+        "Set \"out now.\" at 400 like the rest of the supporting line, so the accent colour alone marks it."
+      ]
+    },
+    {
+      "round": 4,
+      "by": "creative-director",
+      "axes": {
+        "hierarchy": 9,
+        "typography": 7,
+        "spacing": 8,
+        "colour": 9,
+        "composition": 7,
+        "originality": 7,
+        "brand": 9,
+        "copy": 9
+      },
+      "average": 8.13,
+      "pass": false,
+      "notes": [
+        "typography: linkedin has a widow, \"agent.\" sits alone on line 3. Keep the headline at 119px, 600, line height 1.0, tracking -0.02em, and force the breaks \"A design studio / inside your / coding agent.\" so \"coding agent\" stays together and the rag steps in on purpose.",
+        "typography: the supporting line (about 28px now) and the mark (25px) are too close to read as two levels. Supporting line goes to 39px on linkedin and 49px on ig-post, weight 400. Mark stays 25px in #8a8a93. That gives three clear steps: 119/39/25 on linkedin and 149/49/25 on ig-post.",
+        "composition: on ig-post the supporting line floats at about 54% height, between a 250px gap and a 435px gap that nothing shapes. Take the headline to 149px with the breaks \"A design / studio / inside your / coding agent.\" (4 lines, about 596px tall, top at 120px). Set the supporting line's top 48px under the headline's last line, and leave the mark alone at 136px from the bottom. The remaining band is about 375px, between headline-plus-supporting-line and the mark, and it reads as intended.",
+        "originality: type only at a polite size is what any template makes. Let the scale be the idea instead. ig-post goes to 149px with the stepped rag above, so the block carries the top 55% of the canvas. On linkedin the headline block spans y 80 to 440, so the type fills the left 90% and nothing else competes.",
+        "spacing: on linkedin the gap from headline to supporting line (about 60px) almost matches the gap from supporting line to mark (about 70px). Set the supporting line's top 40px under the headline's last line so they read as one group, and keep the mark's bottom edge at 40px from the bottom of the card."
+      ],
+      "polish": [
+        "Pull the headline's left edge in 4px on both sizes so the stem of the big \"A\" and \"i\" lines up optically with the 39px and 25px lines below."
+      ]
+    },
+    {
+      "round": 6,
+      "by": "creative-director",
+      "axes": {
+        "hierarchy": 9,
+        "typography": 8,
+        "spacing": 8,
+        "colour": 9,
+        "composition": 8,
+        "originality": 8,
+        "brand": 9,
+        "copy": 9
+      },
+      "average": 8.5,
+      "pass": true,
+      "notes": [
+        "typography: \"out now.\" is set at 600 inside a 400 line, so it is emphasised twice. Set it to 400 on both sizes and let #ffb000 alone carry it. That leaves two weights, 600 for the headline and 400 for everything else.",
+        "spacing: on linkedin the gap from the headline to the supporting line (~50px) and the gap from the supporting line to the mark (~47px) are nearly equal, so the three read as one stack. Move the headline top up from ~100px to 72px so it matches the 73px left margin. Set the supporting line's top 40px under the headline's last line. The mark then stands alone with about 80px above it and its bottom 40px from the edge.",
+        "composition: on ig-post the ~365px band under \"Free, MIT, out now.\" reads as leftover space. Move the supporting line down so its top sits at 1104px, 48px above the mark, and make the two a bottom-left group. The headline then stands alone at the top. The band between the two groups becomes about 390px, still under the 450px limit, and now has a shape.",
+        "originality: the top-and-bottom split on ig-post in the composition note is the move that takes it past a stock dark OG card. Keep everything else as it is, with no added elements and no second accent."
+      ],
+      "polish": [
+        "ig-post: hang the headline's \"A\" about 6px left so its stem lines up optically with the \"F\" of the supporting line and the \"d\" of the mark at 65px."
+      ]
+    }
+  ],
+  "waitingOn": null,
+  "cost": {
+    "director": 0.7633,
+    "senior": 0.1531,
+    "builder": 0.0286,
+    "total": 0.945,
+    "complete": true
+  },
+  "tokens": {
+    "director": 101870,
+    "senior": 28458,
+    "builder": 153318
+  },
+  "files": {
+    "final": ".desk/out/20261020-0203-linkedin-instagram-portrait-desk/final.html",
+    "brief": ".desk/jobs/20261020-0203-linkedin-instagram-portrait-desk/brief.md",
+    "handback": ".desk/out/20261020-0203-linkedin-instagram-portrait-desk/handback.md"
+  },
+  "pen": "builder",
+  "notes": [
+    "proof overflow at ig-post: \"inside your\" runs off the canvas at 493px,246px size 749pxx194px",
+    "proof overflow at ig-post: \"inside your\" clipped by a container with overflow hidden",
+    "proof safe-zone at ig-post: \"inside your\" ends -162px from the right edge, the safe zone is 65px"
+  ],
+  "misses": {
+    "proof:overflow": 1,
+    "proof:safe-zone": 1
+  },
+  "startedAt": "2026-10-20T02:03:21-05:00",
+  "updatedAt": "2026-10-20T02:10:08-05:00",
+  "roughs": [
+    {
+      "n": 1,
+      "pattern": "Editorial split",
+      "file": ".desk/out/20261020-0203-linkedin-instagram-portrait-desk/rough-1.html",
+      "fonts": "Geist, inlined by the runner, not a fallback",
+      "written": true,
+      "renders": ".desk/jobs/20261020-0203-linkedin-instagram-portrait-desk/renders/roughs/rough-1"
+    },
+    {
+      "n": 2,
+      "pattern": "Full bleed with scrim",
+      "file": ".desk/out/20261020-0203-linkedin-instagram-portrait-desk/rough-2.html",
+      "fonts": "Geist (inlined by runner), Inter as second choice, no fallback used by me",
+      "written": true,
+      "renders": ".desk/jobs/20261020-0203-linkedin-instagram-portrait-desk/renders/roughs/rough-2"
+    },
+    {
+      "n": 3,
+      "pattern": "Type only",
+      "file": ".desk/out/20261020-0203-linkedin-instagram-portrait-desk/rough-3.html",
+      "fonts": "Geist (brand family, not a fallback; inlined by the runner)",
+      "written": true,
+      "renders": ".desk/jobs/20261020-0203-linkedin-instagram-portrait-desk/renders/roughs/rough-3"
+    }
+  ],
+  "lastRenders": ".desk/jobs/20261020-0203-linkedin-instagram-portrait-desk/renders/round-6",
+  "penNotes": [],
+  "finishedAt": "2026-10-20T02:10:08-05:00"
+}

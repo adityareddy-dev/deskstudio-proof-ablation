@@ -1,0 +1,25 @@
+{
+ "family": "anthropic",
+ "arm": "off",
+ "case": "ql-free",
+ "brand": "quill",
+ "ask": "a LinkedIn card and an Instagram portrait card saying the first three drafts of any piece are free, forever. Copy that must appear: 'Three drafts. Free. Always.' and 'Pay when the fourth one matters.' and 'quill.app'.",
+ "models": "studio preset",
+ "startedAt": "2026-10-20T06:48:57.167Z",
+ "attempts": [
+  {
+   "code": 0,
+   "seconds": 187
+  }
+ ],
+ "exit": 0,
+ "seconds": 187,
+ "jobId": "20261020-0148-linkedin-instagram-portrait-saying",
+ "phase": "done",
+ "done": true,
+ "finishedAt": "2026-10-20T06:52:04.004Z",
+ "audit": {
+  "pass": false,
+  "failures": 8
+ }
+}

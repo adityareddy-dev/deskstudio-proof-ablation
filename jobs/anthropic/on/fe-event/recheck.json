@@ -1,0 +1,78 @@
+{
+ "family": "anthropic",
+ "arm": "on",
+ "case": "fe-event",
+ "jobId": "20261020-0200-linkedin-instagram-portrait-open",
+ "rounds": [
+  {
+   "round": 1,
+   "sizes": [
+    {
+     "size": "ig-post",
+     "failures": [
+      {
+       "check": "safe-zone",
+       "text": "Open",
+       "reason": "41px from the top edge, the safe zone starts at 81px"
+      },
+      {
+       "check": "safe-zone",
+       "text": "ferro.tools",
+       "reason": "ends 131px from the bottom edge, the safe zone is 135px"
+      },
+      {
+       "check": "type-scale",
+       "text": "ferro.tools",
+       "reason": "16px is under the 20px minimum for this size"
+      }
+     ]
+    },
+    {
+     "size": "linkedin",
+     "failures": [
+      {
+       "check": "safe-zone",
+       "text": "Open",
+       "reason": "22px from the top edge, the safe zone starts at 38px"
+      },
+      {
+       "check": "safe-zone",
+       "text": "workshop.",
+       "reason": "22px from the top edge, the safe zone starts at 38px"
+      },
+      {
+       "check": "safe-zone",
+       "text": "ferro.tools",
+       "reason": "ends 34px from the bottom edge, the safe zone is 38px"
+      },
+      {
+       "check": "type-scale",
+       "text": "ferro.tools",
+       "reason": "16px is under the 20px minimum for this size"
+      }
+     ]
+    }
+   ],
+   "failures": 7,
+   "byCheck": {
+    "safe-zone": 5,
+    "type-scale": 2
+   }
+  },
+  {
+   "round": 2,
+   "sizes": [
+    {
+     "size": "ig-post",
+     "failures": []
+    },
+    {
+     "size": "linkedin",
+     "failures": []
+    }
+   ],
+   "failures": 0,
+   "byCheck": {}
+  }
+ ]
+}

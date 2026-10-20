@@ -1,0 +1,45 @@
+{
+ "pass": false,
+ "file": "final.html",
+ "renders": [
+  {
+   "size": "linkedin",
+   "scheme": "light",
+   "width": 1200,
+   "height": 627,
+   "png": "C:\\Users\\adity\\Desktop\\Adi\\deskstudio-research\\proof-ablation-2026-10-20\\jobs\\openai\\off\\ql-free\\.desk\\jobs\\20261020-0156-linkedin-instagram-portrait-saying\\renders\\audit\\linkedin.png",
+   "pass": false,
+   "failures": [
+    {
+     "check": "safe-zone",
+     "text": "Three drafts.",
+     "reason": "32px from the top edge, the safe zone starts at 38px"
+    }
+   ]
+  },
+  {
+   "size": "ig-post",
+   "scheme": "light",
+   "width": 1080,
+   "height": 1350,
+   "png": "C:\\Users\\adity\\Desktop\\Adi\\deskstudio-research\\proof-ablation-2026-10-20\\jobs\\openai\\off\\ql-free\\.desk\\jobs\\20261020-0156-linkedin-instagram-portrait-saying\\renders\\audit\\ig-post.png",
+   "pass": false,
+   "failures": [
+    {
+     "check": "safe-zone",
+     "text": "Three drafts.",
+     "reason": "67px from the top edge, the safe zone starts at 81px"
+    },
+    {
+     "check": "safe-zone",
+     "text": "quill.app",
+     "reason": "ends 134px from the bottom edge, the safe zone is 135px"
+    }
+   ]
+  }
+ ],
+ "screenshots": [
+  "C:\\Users\\adity\\Desktop\\Adi\\deskstudio-research\\proof-ablation-2026-10-20\\jobs\\openai\\off\\ql-free\\.desk\\jobs\\20261020-0156-linkedin-instagram-portrait-saying\\renders\\audit\\linkedin.png",
+  "C:\\Users\\adity\\Desktop\\Adi\\deskstudio-research\\proof-ablation-2026-10-20\\jobs\\openai\\off\\ql-free\\.desk\\jobs\\20261020-0156-linkedin-instagram-portrait-saying\\renders\\audit\\ig-post.png"
+ ]
+}

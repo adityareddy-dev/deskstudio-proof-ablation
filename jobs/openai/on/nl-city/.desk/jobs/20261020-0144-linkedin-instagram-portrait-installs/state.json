@@ -1,0 +1,328 @@
+{
+  "id": "20261020-0144-linkedin-instagram-portrait-installs",
+  "command": "design",
+  "deliverable": "social-card",
+  "sizes": [
+    "linkedin",
+    "ig-post"
+  ],
+  "quality": "studio",
+  "proofMode": "on",
+  "models": {
+    "director": "openai/large",
+    "senior": "openai/mini",
+    "builder": "openai/mini"
+  },
+  "phase": "done",
+  "round": 6,
+  "maxRounds": 6,
+  "desks": [
+    {
+      "desk": "design-manager",
+      "task": "intake",
+      "status": "done",
+      "model": "openai/large",
+      "startedAt": "2026-10-20T01:44:38-05:00",
+      "updatedAt": "2026-10-20T01:44:57-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "rough 1, editorial split",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T01:44:57-05:00",
+      "updatedAt": "2026-10-20T01:45:45-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "rough 2, full bleed with scrim",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T01:44:57-05:00",
+      "updatedAt": "2026-10-20T01:45:47-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "rough 3, type only",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T01:44:57-05:00",
+      "updatedAt": "2026-10-20T01:45:42-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "art-director",
+      "task": "pick",
+      "status": "done",
+      "model": "openai/large",
+      "startedAt": "2026-10-20T01:45:51-05:00",
+      "updatedAt": "2026-10-20T01:46:16-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 1",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T01:46:16-05:00",
+      "updatedAt": "2026-10-20T01:46:45-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 2",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T01:46:46-05:00",
+      "updatedAt": "2026-10-20T01:47:11-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "creative-director",
+      "task": "sign-off round 2",
+      "status": "done",
+      "model": "openai/large",
+      "startedAt": "2026-10-20T01:47:13-05:00",
+      "updatedAt": "2026-10-20T01:47:37-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 3",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T01:47:37-05:00",
+      "updatedAt": "2026-10-20T01:48:00-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 4",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T01:48:02-05:00",
+      "updatedAt": "2026-10-20T01:48:26-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "creative-director",
+      "task": "sign-off round 4",
+      "status": "done",
+      "model": "openai/large",
+      "startedAt": "2026-10-20T01:48:27-05:00",
+      "updatedAt": "2026-10-20T01:48:55-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 5",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T01:48:55-05:00",
+      "updatedAt": "2026-10-20T01:49:15-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 6",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T01:49:16-05:00",
+      "updatedAt": "2026-10-20T01:49:39-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "creative-director",
+      "task": "sign-off round 6",
+      "status": "done",
+      "model": "openai/large",
+      "startedAt": "2026-10-20T01:49:41-05:00",
+      "updatedAt": "2026-10-20T01:50:07-05:00",
+      "via": "cli"
+    }
+  ],
+  "pick": {
+    "by": "art-director",
+    "rough": 3,
+    "pattern": "Type only",
+    "combineWith": null,
+    "reason": "The announcement reads first at both sizes; oversized type gives the simplest direction the strongest shape.",
+    "lost": "1 makes the seven compete with the city and leaves a hollow portrait, 2 lets the panel illustration dominate the announcement.",
+    "notes": [
+      "In portrait, set the headline to 149px with 1.0 line height, positioned 88px from the top; preserve the three existing lines. Keep the entire headline within the top 540px, per the social-card standard.",
+      "Replace the underline with #d9480f on “installing” only in both sizes. This removes the collision with the “p” descender and puts the single brand accent on the action.",
+      "In portrait, move the supporting line to y=704px and the URL to y=1120px. Keep their existing left alignment; this keeps every empty band below 450px and clears the standard’s 135px bottom safe area."
+    ],
+    "at": "2026-10-20T01:46:16-05:00"
+  },
+  "proof": [
+    {
+      "round": 1,
+      "pass": false,
+      "failures": 1
+    },
+    {
+      "round": 2,
+      "pass": true,
+      "failures": 0
+    },
+    {
+      "round": 3,
+      "pass": false,
+      "failures": 2
+    },
+    {
+      "round": 4,
+      "pass": true,
+      "failures": 0
+    },
+    {
+      "round": 5,
+      "pass": false,
+      "failures": 1
+    },
+    {
+      "round": 6,
+      "pass": true,
+      "failures": 0
+    }
+  ],
+  "scores": [
+    {
+      "round": 2,
+      "by": "creative-director",
+      "axes": {
+        "hierarchy": 9,
+        "typography": 8,
+        "spacing": 9,
+        "colour": 9,
+        "composition": 8,
+        "originality": 6,
+        "brand": 9,
+        "copy": 9
+      },
+      "average": 8.38,
+      "pass": false,
+      "notes": [
+        "typography: Move the portrait headline up 24px; the “p” descender must finish above y=540px. Preserve 149px type and 1.0 leading.",
+        "composition: Increase the landscape headline from 95px to 119px; use three lines, “Now” / “installing in” / “Minneapolis.” Move the supporting line to y=440px.",
+        "originality: Make the city’s full-width final line the defining move in both formats; retain exactly one orange accent on “installing” and add zero decorative elements."
+      ],
+      "polish": [
+        "Preserve the portrait supporting line and URL positions at y=704px and y=1120px."
+      ]
+    },
+    {
+      "round": 4,
+      "by": "creative-director",
+      "axes": {
+        "hierarchy": 9,
+        "typography": 8,
+        "spacing": 9,
+        "colour": 9,
+        "composition": 8,
+        "originality": 6,
+        "brand": 9,
+        "copy": 9
+      },
+      "average": 8.38,
+      "pass": false,
+      "notes": [
+        "typography: In portrait, reduce headline 149px to 144px and move its top from 88px to 80px; keep all visible descenders above y=540px.",
+        "composition: In portrait, move the supporting line from y=704px to y=656px to strengthen its connection to the announcement.",
+        "originality: Produce 1 alternate type-only rough with Minneapolis dominant: preceding headline lines at 95px landscape / 119px portrait, city at 119px / 149px, and both supporting text and URL at 25px to retain three sizes. Preserve the exact copy and single orange action accent."
+      ],
+      "polish": [
+        "None."
+      ]
+    },
+    {
+      "round": 6,
+      "by": "creative-director",
+      "axes": {
+        "hierarchy": 9,
+        "typography": 9,
+        "spacing": 8,
+        "colour": 9,
+        "composition": 8,
+        "originality": 6,
+        "brand": 9,
+        "copy": 9
+      },
+      "average": 8.38,
+      "pass": false,
+      "notes": [
+        "spacing: In portrait, move the supporting line down to y=704px, retaining the 72px left alignment.",
+        "composition: Move the portrait URL up to y=1080px to reduce the nearly 450px empty band below the supporting line.",
+        "originality: Replace the conventional stepped headline with 1 bespoke typographic lockup across both formats; explore aligning “installing” and “Minneapolis” to a shared right edge while preserving the copy, 3-line structure and single accent."
+      ],
+      "polish": [
+        "None."
+      ]
+    }
+  ],
+  "waitingOn": {
+    "type": "approve_under_bar",
+    "text": "Under the bar after 6 rounds. originality under 8, originality: Replace the conventional stepped headline with 1 bespoke typographic lockup across both formats; explore aligning “installing” and “Minneapolis” to a shared right edge while preserving the copy, 3-line structure and single accent."
+  },
+  "cost": {
+    "director": 1.6789,
+    "senior": 0.1602,
+    "builder": 0.223,
+    "total": 2.0621,
+    "complete": true
+  },
+  "tokens": {
+    "director": 173880,
+    "senior": 139782,
+    "builder": 364987
+  },
+  "files": {
+    "final": ".desk/out/20261020-0144-linkedin-instagram-portrait-installs/final.html",
+    "brief": ".desk/jobs/20261020-0144-linkedin-instagram-portrait-installs/brief.md",
+    "handback": ".desk/out/20261020-0144-linkedin-instagram-portrait-installs/handback.md"
+  },
+  "pen": "builder",
+  "notes": [
+    "spacing: In portrait, move the supporting line down to y=704px, retaining the 72px left alignment.",
+    "composition: Move the portrait URL up to y=1080px to reduce the nearly 450px empty band below the supporting line.",
+    "originality: Replace the conventional stepped headline with 1 bespoke typographic lockup across both formats; explore aligning “installing” and “Minneapolis” to a shared right edge while preserving the copy, 3-line structure and single accent."
+  ],
+  "misses": {
+    "originality": 1
+  },
+  "startedAt": "2026-10-20T01:44:38-05:00",
+  "updatedAt": "2026-10-20T01:50:08-05:00",
+  "roughs": [
+    {
+      "n": 1,
+      "pattern": "Editorial split",
+      "file": ".desk/out/20261020-0144-linkedin-instagram-portrait-installs/rough-1.html",
+      "fonts": "Inter; runner inlines the font",
+      "written": true,
+      "renders": ".desk/jobs/20261020-0144-linkedin-instagram-portrait-installs/renders/roughs/rough-1"
+    },
+    {
+      "n": 2,
+      "pattern": "Full bleed with scrim",
+      "file": ".desk/out/20261020-0144-linkedin-instagram-portrait-installs/rough-2.html",
+      "fonts": "Inter; runner inlines the font",
+      "written": true,
+      "renders": ".desk/jobs/20261020-0144-linkedin-instagram-portrait-installs/renders/roughs/rough-2"
+    },
+    {
+      "n": 3,
+      "pattern": "Type only",
+      "file": ".desk/out/20261020-0144-linkedin-instagram-portrait-installs/rough-3.html",
+      "fonts": "Inter, inlined by runner",
+      "written": true,
+      "renders": ".desk/jobs/20261020-0144-linkedin-instagram-portrait-installs/renders/roughs/rough-3"
+    }
+  ],
+  "lastRenders": ".desk/jobs/20261020-0144-linkedin-instagram-portrait-installs/renders/round-6",
+  "penNotes": [],
+  "finishedAt": "2026-10-20T01:50:08-05:00"
+}

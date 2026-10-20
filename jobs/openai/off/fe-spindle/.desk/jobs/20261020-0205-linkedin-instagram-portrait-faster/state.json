@@ -1,0 +1,444 @@
+{
+  "id": "20261020-0205-linkedin-instagram-portrait-faster",
+  "command": "design",
+  "deliverable": "social-card",
+  "sizes": [
+    "linkedin",
+    "ig-post"
+  ],
+  "quality": "studio",
+  "proofMode": "off",
+  "models": {
+    "director": "openai/large",
+    "senior": "openai/mini",
+    "builder": "openai/mini"
+  },
+  "phase": "done",
+  "round": 6,
+  "maxRounds": 6,
+  "desks": [
+    {
+      "desk": "design-manager",
+      "task": "intake",
+      "status": "done",
+      "model": "openai/large",
+      "startedAt": "2026-10-20T02:05:21-05:00",
+      "updatedAt": "2026-10-20T02:05:39-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "rough 1, editorial split",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T02:05:39-05:00",
+      "updatedAt": "2026-10-20T02:06:20-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "rough 2, full bleed with scrim",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T02:05:39-05:00",
+      "updatedAt": "2026-10-20T02:06:42-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "rough 3, type only",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T02:05:39-05:00",
+      "updatedAt": "2026-10-20T02:06:29-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "art-director",
+      "task": "pick",
+      "status": "done",
+      "model": "openai/large",
+      "startedAt": "2026-10-20T02:06:45-05:00",
+      "updatedAt": "2026-10-20T02:07:07-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 1",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T02:07:07-05:00",
+      "updatedAt": "2026-10-20T02:07:37-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "creative-director",
+      "task": "sign-off round 1",
+      "status": "done",
+      "model": "openai/large",
+      "startedAt": "2026-10-20T02:07:38-05:00",
+      "updatedAt": "2026-10-20T02:08:03-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 2",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T02:08:03-05:00",
+      "updatedAt": "2026-10-20T02:08:57-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "creative-director",
+      "task": "sign-off round 2",
+      "status": "done",
+      "model": "openai/large",
+      "startedAt": "2026-10-20T02:08:58-05:00",
+      "updatedAt": "2026-10-20T02:09:15-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 3",
+      "status": "failed",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T02:09:15-05:00",
+      "updatedAt": "2026-10-20T02:09:27-05:00"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 3",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T02:09:27-05:00",
+      "updatedAt": "2026-10-20T02:09:55-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "creative-director",
+      "task": "sign-off round 3",
+      "status": "done",
+      "model": "openai/large",
+      "startedAt": "2026-10-20T02:09:57-05:00",
+      "updatedAt": "2026-10-20T02:10:18-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 4, escalated",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T02:10:18-05:00",
+      "updatedAt": "2026-10-20T02:10:44-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "creative-director",
+      "task": "sign-off round 4",
+      "status": "done",
+      "model": "openai/large",
+      "startedAt": "2026-10-20T02:10:46-05:00",
+      "updatedAt": "2026-10-20T02:11:12-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 5, escalated",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T02:11:12-05:00",
+      "updatedAt": "2026-10-20T02:11:49-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "creative-director",
+      "task": "sign-off round 5",
+      "status": "done",
+      "model": "openai/large",
+      "startedAt": "2026-10-20T02:11:51-05:00",
+      "updatedAt": "2026-10-20T02:12:11-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 6, escalated",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T02:12:11-05:00",
+      "updatedAt": "2026-10-20T02:12:40-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "creative-director",
+      "task": "sign-off round 6",
+      "status": "done",
+      "model": "openai/large",
+      "startedAt": "2026-10-20T02:12:42-05:00",
+      "updatedAt": "2026-10-20T02:12:57-05:00",
+      "via": "cli"
+    }
+  ],
+  "pick": {
+    "by": "art-director",
+    "rough": 3,
+    "pattern": "Type only",
+    "combineWith": null,
+    "reason": "The speed leads immediately, and the heavy type gives Ferro the clearest shape across both formats.",
+    "lost": "1 separates the speed from the claim, 2 adds a grey frame that weakens the white canvas.",
+    "notes": [
+      "Set only “24,000” in #e5173f; return “rpm.” to #0a0a0a on both sizes, per the brand’s number-only accent rule.",
+      "On portrait, set the headline to 119px with 1.0 line height and these three lines: “24,000 rpm.” / “Fits every Ferro” / “ever made.” Keep its left edge at 72px and top at 96px. This puts the claim inside the top 40%, per the social-card standard.",
+      "On portrait, move the supporting line to top: 640px, retaining its 49px size.",
+      "On portrait, move ferro.tools to top: 1080px, retaining its 72px left alignment and 25px size. This keeps the empty band below one-third of the canvas, per the social-card standard."
+    ],
+    "at": "2026-10-20T02:07:07-05:00"
+  },
+  "proof": [
+    {
+      "round": 1,
+      "pass": null,
+      "skipped": true,
+      "failures": 0
+    },
+    {
+      "round": 2,
+      "pass": null,
+      "skipped": true,
+      "failures": 0
+    },
+    {
+      "round": 3,
+      "pass": null,
+      "skipped": true,
+      "failures": 0
+    },
+    {
+      "round": 4,
+      "pass": null,
+      "skipped": true,
+      "failures": 0
+    },
+    {
+      "round": 5,
+      "pass": null,
+      "skipped": true,
+      "failures": 0
+    },
+    {
+      "round": 6,
+      "pass": null,
+      "skipped": true,
+      "failures": 0
+    }
+  ],
+  "scores": [
+    {
+      "round": 1,
+      "by": "creative-director",
+      "axes": {
+        "hierarchy": 9,
+        "typography": 9,
+        "spacing": 8,
+        "colour": 10,
+        "composition": 8,
+        "originality": 6,
+        "brand": 9,
+        "copy": 9
+      },
+      "average": 8.5,
+      "pass": false,
+      "notes": [
+        "spacing: On portrait, move the supporting line from y640 to y552 and ferro.tools from y1080 to y1000 to tighten the vertical rhythm.",
+        "composition: On landscape, extend the headline across the canvas: put “24,000 rpm.” on line 1, “Fits every Ferro ever” on line 2, and “made.” on line 3; retain 95px type and x80 alignment.",
+        "originality: Make “made.” a deliberate typographic signature across both formats: align its right edge with the headline block’s right edge, retaining weight 700 and the existing headline size; preserve all copy and the single red number."
+      ],
+      "polish": [
+        "Keep the number-only accent and the two existing weights."
+      ]
+    },
+    {
+      "round": 2,
+      "by": "creative-director",
+      "axes": {
+        "hierarchy": 9,
+        "typography": 6,
+        "spacing": 7,
+        "colour": 9,
+        "composition": 7,
+        "originality": 6,
+        "brand": 9,
+        "copy": 9
+      },
+      "average": 7.75,
+      "pass": false,
+      "notes": [
+        "typography: Remove justification on both sizes. Left-align every headline line; keep “ever made.” together on portrait, with normal word spacing at 119px and 1.0 line height.",
+        "spacing: On portrait, set the supporting line to top 640px and ferro.tools to top 1080px, both at left 72px; retain 49px and 25px sizes respectively.",
+        "composition: On landscape, use three left-aligned lines: “24,000 rpm.” / “Fits every Ferro” / “ever made.” at 95px with 1.0 line height and left 80px; eliminate the isolated right-aligned “made.”",
+        "originality: Shape the headline into one compact, stepped silhouette across both formats using those three deliberate line breaks; retain the single red number and zero decorative elements."
+      ],
+      "polish": [
+        "None."
+      ]
+    },
+    {
+      "round": 3,
+      "by": "creative-director",
+      "axes": {
+        "hierarchy": 9,
+        "typography": 9,
+        "spacing": 8,
+        "colour": 10,
+        "composition": 8,
+        "originality": 6,
+        "brand": 9,
+        "copy": 9
+      },
+      "average": 8.5,
+      "pass": false,
+      "notes": [
+        "spacing: On portrait, move the supporting line from y640 to y568 and ferro.tools from y1080 to y984 to tighten the three groups.",
+        "composition: On landscape, increase the headline from 95px to 119px at 1.0 line height; retain three lines and move the supporting line to y448.",
+        "originality: Give the type-only layout a deliberate stepped silhouette: place the supporting line at x640 on landscape and x360 on portrait, keeping the headline and URL on their existing left edges."
+      ],
+      "polish": [
+        "None."
+      ]
+    },
+    {
+      "round": 4,
+      "by": "creative-director",
+      "axes": {
+        "hierarchy": 9,
+        "typography": 9,
+        "spacing": 8,
+        "colour": 9,
+        "composition": 8,
+        "originality": 6,
+        "brand": 9,
+        "copy": 9
+      },
+      "average": 8.38,
+      "pass": false,
+      "notes": [
+        "spacing: On portrait, set the supporting line to top 640px and ferro.tools to top 1080px; retain 49px and 25px respectively.",
+        "composition: Align the portrait supporting line at x72px with the headline and footer; retain the headline’s three lines at 119px.",
+        "originality: Give the type-only layout one deliberate alignment: position the landscape supporting line directly beneath “Ferro,” with its right edge matching that word’s right edge. Carry that same word-edge alignment into portrait instead of floating the supporting line centrally."
+      ],
+      "polish": [
+        "Resolve the competing support-line alignments in a new render before sign-off."
+      ]
+    },
+    {
+      "round": 5,
+      "by": "creative-director",
+      "axes": {
+        "hierarchy": 9,
+        "typography": 9,
+        "spacing": 8,
+        "colour": 10,
+        "composition": 8,
+        "originality": 6,
+        "brand": 9,
+        "copy": 9
+      },
+      "average": 8.5,
+      "pass": false,
+      "notes": [
+        "spacing: On portrait, move ferro.tools from top 1080px to 1000px, reducing the gap below the supporting line by 80px.",
+        "composition: On portrait, move the supporting line left to 72px, establishing one shared column with the headline and URL.",
+        "originality: Give the headline a deliberate stepped shape: keep lines 1–2 left-aligned and right-align “ever made.” to x944px on portrait and x952px on LinkedIn; retain the existing sizes, weights and three-line breaks."
+      ],
+      "polish": [
+        "None."
+      ]
+    },
+    {
+      "round": 6,
+      "by": "creative-director",
+      "axes": {
+        "hierarchy": 9,
+        "typography": 8,
+        "spacing": 8,
+        "colour": 9,
+        "composition": 8,
+        "originality": 6,
+        "brand": 9,
+        "copy": 9
+      },
+      "average": 8.25,
+      "pass": false,
+      "notes": [
+        "typography: Left-align “ever made.” with the preceding lines at x80 on LinkedIn and x72 on portrait; retain 119px headline size and 700 weight.",
+        "spacing: Move the portrait URL from its current position near y1008 to top: 1080px, as specified at the pick.",
+        "composition: Move the LinkedIn supporting line to x80, retaining its current vertical position, to establish one consistent reading column.",
+        "originality: Give the speed a distinct typographic role: set “24,000” at 149px and “rpm.” at 119px on one baseline; retain the single red accent and fit the portrait headline block within y540."
+      ],
+      "polish": [
+        "Verify the revised renders against the safe margins and font requirements; no mechanical proof ran this round."
+      ]
+    }
+  ],
+  "waitingOn": {
+    "type": "approve_under_bar",
+    "text": "Under the bar after 6 rounds. originality under 8, originality: Give the speed a distinct typographic role: set “24,000” at 149px and “rpm.” at 119px on one baseline; retain the single red accent and fit the portrait headline block within y540."
+  },
+  "cost": {
+    "director": 1.3907,
+    "senior": 0.248,
+    "builder": 0.1304,
+    "total": 1.7691,
+    "complete": false
+  },
+  "tokens": {
+    "director": 274196,
+    "senior": 322218,
+    "builder": 187097
+  },
+  "files": {
+    "final": ".desk/out/20261020-0205-linkedin-instagram-portrait-faster/final.html",
+    "brief": ".desk/jobs/20261020-0205-linkedin-instagram-portrait-faster/brief.md",
+    "handback": ".desk/out/20261020-0205-linkedin-instagram-portrait-faster/handback.md"
+  },
+  "pen": "art-director",
+  "notes": [
+    "typography: Left-align “ever made.” with the preceding lines at x80 on LinkedIn and x72 on portrait; retain 119px headline size and 700 weight.",
+    "spacing: Move the portrait URL from its current position near y1008 to top: 1080px, as specified at the pick.",
+    "composition: Move the LinkedIn supporting line to x80, retaining its current vertical position, to establish one consistent reading column.",
+    "originality: Give the speed a distinct typographic role: set “24,000” at 149px and “rpm.” at 119px on one baseline; retain the single red accent and fit the portrait headline block within y540."
+  ],
+  "misses": {},
+  "startedAt": "2026-10-20T02:05:21-05:00",
+  "updatedAt": "2026-10-20T02:12:57-05:00",
+  "roughs": [
+    {
+      "n": 1,
+      "pattern": "Editorial split",
+      "file": ".desk/out/20261020-0205-linkedin-instagram-portrait-faster/rough-1.html",
+      "fonts": "Geist, runner-inlined; no fallback selected",
+      "written": true,
+      "renders": ".desk/jobs/20261020-0205-linkedin-instagram-portrait-faster/renders/roughs/rough-1"
+    },
+    {
+      "n": 2,
+      "pattern": "Full bleed with scrim",
+      "file": ".desk/out/20261020-0205-linkedin-instagram-portrait-faster/rough-2.html",
+      "fonts": "Geist, inlined by runner",
+      "written": true,
+      "renders": ".desk/jobs/20261020-0205-linkedin-instagram-portrait-faster/renders/roughs/rough-2"
+    },
+    {
+      "n": 3,
+      "pattern": "Type only",
+      "file": ".desk/out/20261020-0205-linkedin-instagram-portrait-faster/rough-3.html",
+      "fonts": "Geist, inlined by runner",
+      "written": true,
+      "renders": ".desk/jobs/20261020-0205-linkedin-instagram-portrait-faster/renders/roughs/rough-3"
+    }
+  ],
+  "lastRenders": ".desk/jobs/20261020-0205-linkedin-instagram-portrait-faster/renders/round-6",
+  "penNotes": [],
+  "next": "polish",
+  "finishedAt": "2026-10-20T02:12:57-05:00"
+}

@@ -1,0 +1,289 @@
+{
+  "id": "20261020-0206-linkedin-instagram-portrait-customer",
+  "command": "design",
+  "deliverable": "social-card",
+  "sizes": [
+    "linkedin",
+    "ig-post"
+  ],
+  "quality": "studio",
+  "proofMode": "off",
+  "models": {
+    "director": "openai/large",
+    "senior": "openai/mini",
+    "builder": "openai/mini"
+  },
+  "phase": "done",
+  "round": 3,
+  "maxRounds": 6,
+  "desks": [
+    {
+      "desk": "design-manager",
+      "task": "intake",
+      "status": "done",
+      "model": "openai/large",
+      "startedAt": "2026-10-20T02:06:49-05:00",
+      "updatedAt": "2026-10-20T02:07:08-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "rough 1, editorial split",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T02:07:09-05:00",
+      "updatedAt": "2026-10-20T02:08:21-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "rough 2, full bleed with scrim",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T02:07:09-05:00",
+      "updatedAt": "2026-10-20T02:07:56-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "rough 3, type only",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T02:07:09-05:00",
+      "updatedAt": "2026-10-20T02:08:02-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "art-director",
+      "task": "pick",
+      "status": "done",
+      "model": "openai/large",
+      "startedAt": "2026-10-20T02:08:25-05:00",
+      "updatedAt": "2026-10-20T02:08:48-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 1",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T02:08:48-05:00",
+      "updatedAt": "2026-10-20T02:09:35-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "creative-director",
+      "task": "sign-off round 1",
+      "status": "done",
+      "model": "openai/large",
+      "startedAt": "2026-10-20T02:09:36-05:00",
+      "updatedAt": "2026-10-20T02:09:55-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 2",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T02:09:55-05:00",
+      "updatedAt": "2026-10-20T02:11:00-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "creative-director",
+      "task": "sign-off round 2",
+      "status": "done",
+      "model": "openai/large",
+      "startedAt": "2026-10-20T02:11:02-05:00",
+      "updatedAt": "2026-10-20T02:11:21-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 3",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T02:11:22-05:00",
+      "updatedAt": "2026-10-20T02:12:24-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "creative-director",
+      "task": "sign-off round 3",
+      "status": "done",
+      "model": "openai/large",
+      "startedAt": "2026-10-20T02:12:26-05:00",
+      "updatedAt": "2026-10-20T02:12:43-05:00",
+      "via": "cli"
+    }
+  ],
+  "pick": {
+    "by": "art-director",
+    "rough": 2,
+    "pattern": "Full bleed with scrim",
+    "combineWith": null,
+    "reason": "The oversized technical illustration gives the claim a recognizable subject and the strongest composition at both sizes.",
+    "lost": "1 makes the crank look like a generic icon, 3 leaves the portrait canvas underused.",
+    "notes": [
+      "On portrait, fit the crank proportionally inside x=544–1008, y=568–1144; keep both ends visible. This preserves the social-card standard’s top 40% headline zone.",
+      "Remove the portrait’s white scrim rectangle; the repositioned illustration clears the text and needs no overlay.",
+      "Set ferro.tools to #0a0a0a at both sizes. Ferro reserves red for an action or number.",
+      "Embed Geist if available, otherwise Inter, and use that family across both sizes with headline weight 700 and supporting weight 400."
+    ],
+    "at": "2026-10-20T02:08:48-05:00"
+  },
+  "proof": [
+    {
+      "round": 1,
+      "pass": null,
+      "skipped": true,
+      "failures": 0
+    },
+    {
+      "round": 2,
+      "pass": null,
+      "skipped": true,
+      "failures": 0
+    },
+    {
+      "round": 3,
+      "pass": null,
+      "skipped": true,
+      "failures": 0
+    }
+  ],
+  "scores": [
+    {
+      "round": 1,
+      "by": "creative-director",
+      "axes": {
+        "hierarchy": 9,
+        "typography": 8,
+        "spacing": 9,
+        "colour": 9,
+        "composition": 8,
+        "originality": 7,
+        "brand": 8,
+        "copy": 9
+      },
+      "average": 8.38,
+      "pass": false,
+      "notes": [
+        "typography: Use embedded Geist or Inter across both sizes, with 700 headlines and 400 supporting text; retain the current two-line landscape and three-line portrait wraps.",
+        "composition: On LinkedIn, raise the crank’s lower eye by 96px so both attachment points read; keep the illustration right of x=600.",
+        "originality: Replace the flat central rectangle with two longitudinal machining contours and one consistent edge bevel; retain zero invented dimensions or specifications.",
+        "brand: Reduce the illustration’s heavy black outlines from approximately 8px to 4px on LinkedIn and 6px to 3px on portrait, giving the part a technical drawing treatment."
+      ],
+      "polish": [
+        "Preserve the portrait illustration’s current bounds and the black ferro.tools mark."
+      ]
+    },
+    {
+      "round": 2,
+      "by": "creative-director",
+      "axes": {
+        "hierarchy": 9,
+        "typography": 8,
+        "spacing": 8,
+        "colour": 9,
+        "composition": 8,
+        "originality": 7,
+        "brand": 9,
+        "copy": 9
+      },
+      "average": 8.38,
+      "pass": false,
+      "notes": [
+        "typography: Use embedded Geist or Inter at 700/400 across both sizes; retain the two-line landscape and three-line portrait headline wraps.",
+        "spacing: Move the landscape crank up 8px so its lower end clears the 38px bottom safe zone.",
+        "composition: Enlarge the portrait crank proportionally to occupy the allotted x=544–1008, y=568–1144 region; keep both ends visible.",
+        "originality: Replace the flat crank symbol with one bespoke technical drawing: add a consistent visible edge thickness and distinguish the two openings; remove the two floating curved strokes and retain the three-colour palette."
+      ],
+      "polish": [
+        "Preserve the supplied copy and black ferro.tools mark."
+      ]
+    },
+    {
+      "round": 3,
+      "by": "creative-director",
+      "axes": {
+        "hierarchy": 9,
+        "typography": 9,
+        "spacing": 9,
+        "colour": 9,
+        "composition": 8,
+        "originality": 8,
+        "brand": 9,
+        "copy": 9
+      },
+      "average": 8.75,
+      "pass": true,
+      "notes": [
+        "composition: The portrait crank’s lower end is visibly clipped at y=1144. Scale the illustration proportionally to finish at y=1128, keeping its top at y=576 and both ends fully visible.",
+        "originality: Refine the crank’s technical linework at both sizes: use 3px exterior contours and 1px internal rings; reduce the heavy black extrusion to 4px so the illustration reads more like a machined component."
+      ],
+      "polish": [
+        "Shift the LinkedIn illustration down 8px to give its upper end more breathing room."
+      ]
+    }
+  ],
+  "waitingOn": null,
+  "cost": {
+    "director": 0.7063,
+    "senior": 0.1244,
+    "builder": 0.2436,
+    "total": 1.0743,
+    "complete": true
+  },
+  "tokens": {
+    "director": 172229,
+    "senior": 140096,
+    "builder": 191599
+  },
+  "files": {
+    "final": ".desk/out/20261020-0206-linkedin-instagram-portrait-customer/final.html",
+    "brief": ".desk/jobs/20261020-0206-linkedin-instagram-portrait-customer/brief.md",
+    "handback": ".desk/out/20261020-0206-linkedin-instagram-portrait-customer/handback.md"
+  },
+  "pen": "builder",
+  "notes": [
+    "typography: Use embedded Geist or Inter at 700/400 across both sizes; retain the two-line landscape and three-line portrait headline wraps.",
+    "spacing: Move the landscape crank up 8px so its lower end clears the 38px bottom safe zone.",
+    "composition: Enlarge the portrait crank proportionally to occupy the allotted x=544–1008, y=568–1144 region; keep both ends visible.",
+    "originality: Replace the flat crank symbol with one bespoke technical drawing: add a consistent visible edge thickness and distinguish the two openings; remove the two floating curved strokes and retain the three-colour palette."
+  ],
+  "misses": {
+    "originality": 2
+  },
+  "startedAt": "2026-10-20T02:06:49-05:00",
+  "updatedAt": "2026-10-20T02:12:43-05:00",
+  "roughs": [
+    {
+      "n": 1,
+      "pattern": "Editorial split",
+      "file": ".desk/out/20261020-0206-linkedin-instagram-portrait-customer/rough-1.html",
+      "fonts": "Geist; inlined by runner",
+      "written": true,
+      "renders": ".desk/jobs/20261020-0206-linkedin-instagram-portrait-customer/renders/roughs/rough-1"
+    },
+    {
+      "n": 2,
+      "pattern": "Full bleed with scrim",
+      "file": ".desk/out/20261020-0206-linkedin-instagram-portrait-customer/rough-2.html",
+      "fonts": "Geist; runner-inlined, no fallback selected",
+      "written": true,
+      "renders": ".desk/jobs/20261020-0206-linkedin-instagram-portrait-customer/renders/roughs/rough-2"
+    },
+    {
+      "n": 3,
+      "pattern": "Type only",
+      "file": ".desk/out/20261020-0206-linkedin-instagram-portrait-customer/rough-3.html",
+      "fonts": "Geist, inlined by runner; no fallback selected",
+      "written": true,
+      "renders": ".desk/jobs/20261020-0206-linkedin-instagram-portrait-customer/renders/roughs/rough-3"
+    }
+  ],
+  "lastRenders": ".desk/jobs/20261020-0206-linkedin-instagram-portrait-customer/renders/round-3",
+  "penNotes": [],
+  "finishedAt": "2026-10-20T02:12:43-05:00"
+}

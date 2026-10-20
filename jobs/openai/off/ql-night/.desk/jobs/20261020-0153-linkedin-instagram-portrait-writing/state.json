@@ -1,0 +1,389 @@
+{
+  "id": "20261020-0153-linkedin-instagram-portrait-writing",
+  "command": "design",
+  "deliverable": "social-card",
+  "sizes": [
+    "linkedin",
+    "ig-post"
+  ],
+  "quality": "studio",
+  "proofMode": "off",
+  "models": {
+    "director": "openai/large",
+    "senior": "openai/mini",
+    "builder": "openai/mini"
+  },
+  "phase": "done",
+  "round": 5,
+  "maxRounds": 6,
+  "desks": [
+    {
+      "desk": "design-manager",
+      "task": "intake",
+      "status": "done",
+      "model": "openai/large",
+      "startedAt": "2026-10-20T01:53:07-05:00",
+      "updatedAt": "2026-10-20T01:53:24-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "rough 1, editorial split",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T01:53:24-05:00",
+      "updatedAt": "2026-10-20T01:54:12-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "rough 2, full bleed with scrim",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T01:53:24-05:00",
+      "updatedAt": "2026-10-20T01:54:03-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "rough 3, type only",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T01:53:24-05:00",
+      "updatedAt": "2026-10-20T01:54:11-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "art-director",
+      "task": "pick",
+      "status": "done",
+      "model": "openai/large",
+      "startedAt": "2026-10-20T01:54:17-05:00",
+      "updatedAt": "2026-10-20T01:54:32-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 1",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T01:54:32-05:00",
+      "updatedAt": "2026-10-20T01:54:58-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "creative-director",
+      "task": "sign-off round 1",
+      "status": "done",
+      "model": "openai/large",
+      "startedAt": "2026-10-20T01:55:00-05:00",
+      "updatedAt": "2026-10-20T01:55:20-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 2",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T01:55:20-05:00",
+      "updatedAt": "2026-10-20T01:55:50-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "creative-director",
+      "task": "sign-off round 2",
+      "status": "done",
+      "model": "openai/large",
+      "startedAt": "2026-10-20T01:55:52-05:00",
+      "updatedAt": "2026-10-20T01:56:15-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 3",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T01:56:15-05:00",
+      "updatedAt": "2026-10-20T01:56:47-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "creative-director",
+      "task": "sign-off round 3",
+      "status": "done",
+      "model": "openai/large",
+      "startedAt": "2026-10-20T01:56:49-05:00",
+      "updatedAt": "2026-10-20T01:57:10-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 4, escalated",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T01:57:10-05:00",
+      "updatedAt": "2026-10-20T01:57:49-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "creative-director",
+      "task": "sign-off round 4",
+      "status": "done",
+      "model": "openai/large",
+      "startedAt": "2026-10-20T01:57:50-05:00",
+      "updatedAt": "2026-10-20T01:58:08-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 5, escalated",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T01:58:09-05:00",
+      "updatedAt": "2026-10-20T01:58:58-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "creative-director",
+      "task": "sign-off round 5",
+      "status": "done",
+      "model": "openai/large",
+      "startedAt": "2026-10-20T01:59:00-05:00",
+      "updatedAt": "2026-10-20T01:59:16-05:00",
+      "via": "cli"
+    }
+  ],
+  "pick": {
+    "by": "art-director",
+    "rough": 3,
+    "pattern": "Type only",
+    "combineWith": null,
+    "reason": "The headline carries both formats at thumbnail size; the quiet, open composition fits Quill with the fewest changes.",
+    "lost": "1 the simulated text panel competes with the headline, 2 the offset background frame adds weight without helping the message.",
+    "notes": [
+      "Inline Source Serif 4: headline 600, supporting line and wordmark 400. Use 127px, 40px and 30px respectively in both formats; preserve the two-line landscape and three-line portrait headline breaks. This follows the brand’s type scale and the standard’s three-size limit.",
+      "Set the canvas to #0e0f14, text to #ededf0 and “dims” to #7c9cff. Keep that word as the sole accent, per the social-card colour standard."
+    ],
+    "at": "2026-10-20T01:54:32-05:00"
+  },
+  "proof": [
+    {
+      "round": 1,
+      "pass": null,
+      "skipped": true,
+      "failures": 0
+    },
+    {
+      "round": 2,
+      "pass": null,
+      "skipped": true,
+      "failures": 0
+    },
+    {
+      "round": 3,
+      "pass": null,
+      "skipped": true,
+      "failures": 0
+    },
+    {
+      "round": 4,
+      "pass": null,
+      "skipped": true,
+      "failures": 0
+    },
+    {
+      "round": 5,
+      "pass": null,
+      "skipped": true,
+      "failures": 0
+    }
+  ],
+  "scores": [
+    {
+      "round": 1,
+      "by": "creative-director",
+      "axes": {
+        "hierarchy": 9,
+        "typography": 8,
+        "spacing": 8,
+        "colour": 9,
+        "composition": 8,
+        "originality": 6,
+        "brand": 8,
+        "copy": 9
+      },
+      "average": 8.13,
+      "pass": false,
+      "notes": [
+        "typography: Resolve and inline Source Serif 4; render headline at 127px/600, supporting line at 40px/400 and wordmark at 30px/400. Preserve the current headline breaks.",
+        "spacing: On portrait, move the supporting line up 160px, bringing its top to approximately 576px and grouping it with the headline.",
+        "composition: On portrait, move the wordmark up 96px to approximately 1080px; keep the resulting uninterrupted empty band below 450px.",
+        "originality: Make “dims” visibly recede by changing only that word from weight 600 to 400; retain its 127px size and sole blue accent so the typography demonstrates the claim.",
+        "brand: Reduce the wordmark from 30px to 27px in both formats, keeping its width below 12% of the portrait canvas and its left edge aligned at 72px."
+      ],
+      "polish": [
+        "Preserve the landscape spacing while correcting the font and wordmark."
+      ]
+    },
+    {
+      "round": 2,
+      "by": "creative-director",
+      "axes": {
+        "hierarchy": 9,
+        "typography": 9,
+        "spacing": 8,
+        "colour": 9,
+        "composition": 7,
+        "originality": 6,
+        "brand": 9,
+        "copy": 9
+      },
+      "average": 8.25,
+      "pass": false,
+      "notes": [
+        "spacing: In portrait, reduce the headline-to-support gap by 32px; move the supporting line from approximately y590 to y558.",
+        "composition: Move the portrait wordmark from approximately y1088 to y960, reducing the uninterrupted empty band below the supporting line to under 400px.",
+        "originality: Give the portrait headline a deliberate stepped arrangement: retain line one at x72, place line two at x144 and line three at x216. Preserve the three line breaks, 127px size and single blue accent."
+      ],
+      "polish": [
+        "Keep the landscape arrangement unchanged."
+      ]
+    },
+    {
+      "round": 3,
+      "by": "creative-director",
+      "axes": {
+        "hierarchy": 9,
+        "typography": 8,
+        "spacing": 8,
+        "colour": 9,
+        "composition": 7,
+        "originality": 6,
+        "brand": 9,
+        "copy": 9
+      },
+      "average": 8.13,
+      "pass": false,
+      "notes": [
+        "typography: In portrait, return “the room.” from x216 to x72; retain 127px headline size and three lines.",
+        "spacing: In portrait, move the supporting line to y800 and the wordmark to y896, forming one lower group.",
+        "composition: Anchor the portrait headline and lower group at x72; replace the three-step diagonal with one 72px indent on the second headline line.",
+        "originality: Make that single indented “dims” line the repeatable visual device: in landscape, indent “with the room.” by 72px while retaining the two-line break and sole blue accent."
+      ],
+      "polish": [
+        "Keep the landscape supporting line and wordmark at their current positions."
+      ]
+    },
+    {
+      "round": 4,
+      "by": "creative-director",
+      "axes": {
+        "hierarchy": 9,
+        "typography": 6,
+        "spacing": 7,
+        "colour": 9,
+        "composition": 7,
+        "originality": 6,
+        "brand": 8,
+        "copy": 9
+      },
+      "average": 7.63,
+      "pass": false,
+      "notes": [
+        "typography: Restore a visible 0.25em word space between “with” and “the” on LinkedIn; retain the two-line headline.",
+        "spacing: Align every headline line at x=72px in both formats; remove the 72px second-line indent.",
+        "composition: Move the portrait wordmark down to y=1184px; keep the supporting line at y=808px to anchor the lower half without creating an oversized empty band.",
+        "originality: Make dimming visible through one controlled tonal change: render “the room.” in #8b8d99 while retaining “dims” as the sole blue accent.",
+        "brand: Resolve and inline Source Serif 4 at weights 600 and 400; retain the 127px, 40px and 30px scale."
+      ],
+      "polish": [
+        "None."
+      ]
+    },
+    {
+      "round": 5,
+      "by": "creative-director",
+      "axes": {
+        "hierarchy": 9,
+        "typography": 9,
+        "spacing": 8,
+        "colour": 9,
+        "composition": 8,
+        "originality": 8,
+        "brand": 9,
+        "copy": 9
+      },
+      "average": 8.63,
+      "pass": true,
+      "notes": [
+        "spacing: Raise the portrait wordmark 8px to clear the required 135px bottom safe area.",
+        "composition: Raise the portrait supporting line 80px, from approximately y=820 to y=740, to connect it more closely to the headline.",
+        "originality: Extend the dimming treatment to “with” in both formats: use #8b8d99 for “with the room.” and retain #7c9cff on “dims” alone."
+      ],
+      "polish": []
+    }
+  ],
+  "waitingOn": null,
+  "cost": {
+    "director": 1.662,
+    "senior": 0.2369,
+    "builder": 0.0998,
+    "total": 1.9987,
+    "complete": true
+  },
+  "tokens": {
+    "director": 239204,
+    "senior": 262001,
+    "builder": 182004
+  },
+  "files": {
+    "final": ".desk/out/20261020-0153-linkedin-instagram-portrait-writing/final.html",
+    "brief": ".desk/jobs/20261020-0153-linkedin-instagram-portrait-writing/brief.md",
+    "handback": ".desk/out/20261020-0153-linkedin-instagram-portrait-writing/handback.md"
+  },
+  "pen": "senior",
+  "notes": [
+    "typography: Restore a visible 0.25em word space between “with” and “the” on LinkedIn; retain the two-line headline.",
+    "spacing: Align every headline line at x=72px in both formats; remove the 72px second-line indent.",
+    "composition: Move the portrait wordmark down to y=1184px; keep the supporting line at y=808px to anchor the lower half without creating an oversized empty band.",
+    "originality: Make dimming visible through one controlled tonal change: render “the room.” in #8b8d99 while retaining “dims” as the sole blue accent.",
+    "brand: Resolve and inline Source Serif 4 at weights 600 and 400; retain the 127px, 40px and 30px scale."
+  ],
+  "misses": {
+    "typography": 1,
+    "spacing": 1,
+    "composition": 1,
+    "originality": 1
+  },
+  "startedAt": "2026-10-20T01:53:07-05:00",
+  "updatedAt": "2026-10-20T01:59:16-05:00",
+  "roughs": [
+    {
+      "n": 1,
+      "pattern": "Editorial split",
+      "file": ".desk/out/20261020-0153-linkedin-instagram-portrait-writing/rough-1.html",
+      "fonts": "Source Serif 4; runner inlining pending",
+      "written": true,
+      "renders": ".desk/jobs/20261020-0153-linkedin-instagram-portrait-writing/renders/roughs/rough-1"
+    },
+    {
+      "n": 2,
+      "pattern": "Full bleed with scrim",
+      "file": ".desk/out/20261020-0153-linkedin-instagram-portrait-writing/rough-2.html",
+      "fonts": "Source Serif 4, runner-inlined; no fallback used",
+      "written": true,
+      "renders": ".desk/jobs/20261020-0153-linkedin-instagram-portrait-writing/renders/roughs/rough-2"
+    },
+    {
+      "n": 3,
+      "pattern": "Type only",
+      "file": ".desk/out/20261020-0153-linkedin-instagram-portrait-writing/rough-3.html",
+      "fonts": "Source Serif 4; runner inlines the brand font",
+      "written": true,
+      "renders": ".desk/jobs/20261020-0153-linkedin-instagram-portrait-writing/renders/roughs/rough-3"
+    }
+  ],
+  "lastRenders": ".desk/jobs/20261020-0153-linkedin-instagram-portrait-writing/renders/round-5",
+  "penNotes": [],
+  "finishedAt": "2026-10-20T01:59:16-05:00"
+}

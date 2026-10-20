@@ -1,0 +1,28 @@
+{
+ "pass": true,
+ "file": "final.html",
+ "renders": [
+  {
+   "size": "linkedin",
+   "scheme": "light",
+   "width": 1200,
+   "height": 627,
+   "png": "C:\\Users\\adity\\Desktop\\Adi\\deskstudio-research\\proof-ablation-2026-10-20\\jobs\\anthropic\\on\\ds-launch\\.desk\\jobs\\20261020-0203-linkedin-instagram-portrait-desk\\renders\\audit\\linkedin.png",
+   "pass": true,
+   "failures": []
+  },
+  {
+   "size": "ig-post",
+   "scheme": "light",
+   "width": 1080,
+   "height": 1350,
+   "png": "C:\\Users\\adity\\Desktop\\Adi\\deskstudio-research\\proof-ablation-2026-10-20\\jobs\\anthropic\\on\\ds-launch\\.desk\\jobs\\20261020-0203-linkedin-instagram-portrait-desk\\renders\\audit\\ig-post.png",
+   "pass": true,
+   "failures": []
+  }
+ ],
+ "screenshots": [
+  "C:\\Users\\adity\\Desktop\\Adi\\deskstudio-research\\proof-ablation-2026-10-20\\jobs\\anthropic\\on\\ds-launch\\.desk\\jobs\\20261020-0203-linkedin-instagram-portrait-desk\\renders\\audit\\linkedin.png",
+  "C:\\Users\\adity\\Desktop\\Adi\\deskstudio-research\\proof-ablation-2026-10-20\\jobs\\anthropic\\on\\ds-launch\\.desk\\jobs\\20261020-0203-linkedin-instagram-portrait-desk\\renders\\audit\\ig-post.png"
+ ]
+}

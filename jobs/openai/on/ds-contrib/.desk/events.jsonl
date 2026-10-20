@@ -1,0 +1,62 @@
+{"t":"2026-10-20T07:12:59.323Z","type":"job.start","id":"20261020-0212-linkedin-instagram-portrait-asking","command":"design","deliverable":"social-card"}
+{"t":"2026-10-20T07:12:59.374Z","type":"desk.start","id":"20261020-0212-linkedin-instagram-portrait-asking","desk":"design-manager","model":"openai/large","tier":"director","task":"intake"}
+{"t":"2026-10-20T07:13:18.766Z","type":"desk.stop","id":"20261020-0212-linkedin-instagram-portrait-asking","desk":"design-manager","tier":"director","status":"done","seconds":19,"model":"openai/large","modelId":"gpt-6-astra","tokens":{"input":7655,"output":471,"cacheRead":24704,"cacheWrite":0,"total":32830},"costUsd":0.124804}
+{"t":"2026-10-20T07:13:18.817Z","type":"job.phase","id":"20261020-0212-linkedin-instagram-portrait-asking","phase":"roughs","round":0}
+{"t":"2026-10-20T07:13:18.968Z","type":"desk.start","id":"20261020-0212-linkedin-instagram-portrait-asking","desk":"ui-designer","model":"openai/mini","tier":"senior","task":"rough 1, editorial split"}
+{"t":"2026-10-20T07:13:19.047Z","type":"desk.start","id":"20261020-0212-linkedin-instagram-portrait-asking","desk":"ui-designer","model":"openai/mini","tier":"senior","task":"rough 2, full bleed with scrim"}
+{"t":"2026-10-20T07:13:19.124Z","type":"desk.start","id":"20261020-0212-linkedin-instagram-portrait-asking","desk":"ui-designer","model":"openai/mini","tier":"senior","task":"rough 3, type only"}
+{"t":"2026-10-20T07:14:00.546Z","type":"desk.stop","id":"20261020-0212-linkedin-instagram-portrait-asking","desk":"ui-designer","tier":"senior","status":"done","seconds":42,"model":"openai/mini","modelId":"gpt-6.1-sol","tokens":{"input":4741,"output":1956,"cacheRead":21504,"cacheWrite":0,"total":28201},"costUsd":0.031192400000000002}
+{"t":"2026-10-20T07:14:52.163Z","type":"desk.stop","id":"20261020-0212-linkedin-instagram-portrait-asking","desk":"ui-designer","tier":"senior","status":"done","seconds":93,"model":"openai/mini","modelId":"gpt-6.1-sol","tokens":{"input":5048,"output":1743,"cacheRead":47616,"cacheWrite":0,"total":54407},"costUsd":0.0322876}
+{"t":"2026-10-20T07:15:00.086Z","type":"desk.stop","id":"20261020-0212-linkedin-instagram-portrait-asking","desk":"ui-designer","tier":"senior","status":"done","seconds":101,"model":"openai/mini","modelId":"gpt-6.1-sol","tokens":{"input":5084,"output":1887,"cacheRead":47616,"cacheWrite":0,"total":54587},"costUsd":0.0337996}
+{"t":"2026-10-20T07:15:04.335Z","type":"job.phase","id":"20261020-0212-linkedin-instagram-portrait-asking","phase":"pick","round":0}
+{"t":"2026-10-20T07:15:04.390Z","type":"desk.start","id":"20261020-0212-linkedin-instagram-portrait-asking","desk":"art-director","model":"openai/large","tier":"director","task":"pick"}
+{"t":"2026-10-20T07:15:22.012Z","type":"desk.stop","id":"20261020-0212-linkedin-instagram-portrait-asking","desk":"art-director","tier":"director","status":"done","seconds":18,"model":"openai/large","modelId":"gpt-6-astra","tokens":{"input":13523,"output":482,"cacheRead":24704,"cacheWrite":0,"total":38709},"costUsd":0.184034}
+{"t":"2026-10-20T07:15:22.053Z","type":"job.pick","id":"20261020-0212-linkedin-instagram-portrait-asking","by":"art-director","rough":3}
+{"t":"2026-10-20T07:15:22.104Z","type":"job.phase","id":"20261020-0212-linkedin-instagram-portrait-asking","phase":"polish","round":1}
+{"t":"2026-10-20T07:15:22.153Z","type":"desk.start","id":"20261020-0212-linkedin-instagram-portrait-asking","desk":"ui-designer","model":"openai/mini","tier":"builder","task":"polish round 1"}
+{"t":"2026-10-20T07:15:47.924Z","type":"desk.stop","id":"20261020-0212-linkedin-instagram-portrait-asking","desk":"ui-designer","tier":"builder","status":"done","seconds":26,"model":"openai/mini","modelId":"gpt-6.1-sol","tokens":{"input":17150,"output":808,"cacheRead":45056,"cacheWrite":0,"total":63014},"costUsd":0.0468856}
+{"t":"2026-10-20T07:15:47.964Z","type":"job.phase","id":"20261020-0212-linkedin-instagram-portrait-asking","phase":"proof","round":1}
+{"t":"2026-10-20T07:15:49.375Z","type":"job.proof","id":"20261020-0212-linkedin-instagram-portrait-asking","round":1,"pass":false,"failures":2}
+{"t":"2026-10-20T07:15:49.421Z","type":"job.phase","id":"20261020-0212-linkedin-instagram-portrait-asking","phase":"polish","round":2}
+{"t":"2026-10-20T07:15:49.471Z","type":"desk.start","id":"20261020-0212-linkedin-instagram-portrait-asking","desk":"ui-designer","model":"openai/mini","tier":"builder","task":"polish round 2"}
+{"t":"2026-10-20T07:16:27.450Z","type":"desk.stop","id":"20261020-0212-linkedin-instagram-portrait-asking","desk":"ui-designer","tier":"builder","status":"failed","model":"openai/mini","seconds":38}
+{"t":"2026-10-20T07:16:27.502Z","type":"job.waiting","id":"20261020-0212-linkedin-instagram-portrait-asking","on":"question"}
+{"t":"2026-10-20T07:16:27.742Z","type":"desk.start","id":"20261020-0212-linkedin-instagram-portrait-asking","desk":"ui-designer","model":"openai/mini","tier":"builder","task":"polish round 2"}
+{"t":"2026-10-20T07:17:01.991Z","type":"desk.stop","id":"20261020-0212-linkedin-instagram-portrait-asking","desk":"ui-designer","tier":"builder","status":"done","seconds":34,"model":"openai/mini","modelId":"gpt-6.1-sol","tokens":{"input":8394,"output":1626,"cacheRead":51072,"cacheWrite":0,"total":61092},"costUsd":0.0381552}
+{"t":"2026-10-20T07:17:02.033Z","type":"job.phase","id":"20261020-0212-linkedin-instagram-portrait-asking","phase":"proof","round":2}
+{"t":"2026-10-20T07:17:03.484Z","type":"job.proof","id":"20261020-0212-linkedin-instagram-portrait-asking","round":2,"pass":false,"failures":2}
+{"t":"2026-10-20T07:17:03.534Z","type":"job.phase","id":"20261020-0212-linkedin-instagram-portrait-asking","phase":"polish","round":3}
+{"t":"2026-10-20T07:17:03.586Z","type":"desk.start","id":"20261020-0212-linkedin-instagram-portrait-asking","desk":"ui-designer","model":"openai/mini","tier":"builder","task":"polish round 3"}
+{"t":"2026-10-20T07:17:43.097Z","type":"desk.stop","id":"20261020-0212-linkedin-instagram-portrait-asking","desk":"ui-designer","tier":"builder","status":"done","seconds":40,"model":"openai/mini","modelId":"gpt-6.1-sol","tokens":{"input":8496,"output":938,"cacheRead":51072,"cacheWrite":0,"total":60506},"costUsd":0.0314792}
+{"t":"2026-10-20T07:17:43.156Z","type":"job.phase","id":"20261020-0212-linkedin-instagram-portrait-asking","phase":"proof","round":3}
+{"t":"2026-10-20T07:17:44.902Z","type":"job.proof","id":"20261020-0212-linkedin-instagram-portrait-asking","round":3,"pass":true,"failures":0}
+{"t":"2026-10-20T07:17:44.958Z","type":"job.phase","id":"20261020-0212-linkedin-instagram-portrait-asking","phase":"signoff","round":3}
+{"t":"2026-10-20T07:17:45.017Z","type":"desk.start","id":"20261020-0212-linkedin-instagram-portrait-asking","desk":"creative-director","model":"openai/large","tier":"director","task":"sign-off round 3"}
+{"t":"2026-10-20T07:18:13.196Z","type":"desk.stop","id":"20261020-0212-linkedin-instagram-portrait-asking","desk":"creative-director","tier":"director","status":"done","seconds":28,"model":"openai/large","modelId":"gpt-6-astra","tokens":{"input":8233,"output":639,"cacheRead":24704,"cacheWrite":0,"total":33576},"costUsd":0.138984}
+{"t":"2026-10-20T07:18:13.271Z","type":"job.score","id":"20261020-0212-linkedin-instagram-portrait-asking","round":3,"average":8.13,"pass":false}
+{"t":"2026-10-20T07:18:13.357Z","type":"job.phase","id":"20261020-0212-linkedin-instagram-portrait-asking","phase":"polish","round":4}
+{"t":"2026-10-20T07:18:13.447Z","type":"desk.start","id":"20261020-0212-linkedin-instagram-portrait-asking","desk":"ui-designer","model":"openai/mini","tier":"builder","task":"polish round 4"}
+{"t":"2026-10-20T07:18:51.437Z","type":"desk.stop","id":"20261020-0212-linkedin-instagram-portrait-asking","desk":"ui-designer","tier":"builder","status":"done","seconds":38,"model":"openai/mini","modelId":"gpt-6.1-sol","tokens":{"input":17239,"output":1415,"cacheRead":45184,"cacheWrite":0,"total":63838},"costUsd":0.0531464}
+{"t":"2026-10-20T07:18:51.486Z","type":"job.phase","id":"20261020-0212-linkedin-instagram-portrait-asking","phase":"proof","round":4}
+{"t":"2026-10-20T07:18:53.250Z","type":"job.proof","id":"20261020-0212-linkedin-instagram-portrait-asking","round":4,"pass":true,"failures":0}
+{"t":"2026-10-20T07:18:53.303Z","type":"job.phase","id":"20261020-0212-linkedin-instagram-portrait-asking","phase":"signoff","round":4}
+{"t":"2026-10-20T07:18:53.374Z","type":"desk.start","id":"20261020-0212-linkedin-instagram-portrait-asking","desk":"creative-director","model":"openai/large","tier":"director","task":"sign-off round 4"}
+{"t":"2026-10-20T07:19:09.214Z","type":"desk.stop","id":"20261020-0212-linkedin-instagram-portrait-asking","desk":"creative-director","tier":"director","status":"done","seconds":16,"model":"openai/large","modelId":"gpt-6-astra","tokens":{"input":8233,"output":443,"cacheRead":24704,"cacheWrite":0,"total":33380},"costUsd":0.129184}
+{"t":"2026-10-20T07:19:09.262Z","type":"job.score","id":"20261020-0212-linkedin-instagram-portrait-asking","round":4,"average":8.5,"pass":false}
+{"t":"2026-10-20T07:19:09.321Z","type":"job.phase","id":"20261020-0212-linkedin-instagram-portrait-asking","phase":"polish","round":5}
+{"t":"2026-10-20T07:19:09.378Z","type":"desk.start","id":"20261020-0212-linkedin-instagram-portrait-asking","desk":"ui-designer","model":"openai/mini","tier":"builder","task":"polish round 5"}
+{"t":"2026-10-20T07:19:52.429Z","type":"desk.stop","id":"20261020-0212-linkedin-instagram-portrait-asking","desk":"ui-designer","tier":"builder","status":"done","seconds":43,"model":"openai/mini","modelId":"gpt-6.1-sol","tokens":{"input":8442,"output":1548,"cacheRead":51200,"cacheWrite":0,"total":61190},"costUsd":0.037484}
+{"t":"2026-10-20T07:19:52.476Z","type":"job.phase","id":"20261020-0212-linkedin-instagram-portrait-asking","phase":"proof","round":5}
+{"t":"2026-10-20T07:19:54.155Z","type":"job.proof","id":"20261020-0212-linkedin-instagram-portrait-asking","round":5,"pass":false,"failures":1}
+{"t":"2026-10-20T07:19:54.208Z","type":"job.phase","id":"20261020-0212-linkedin-instagram-portrait-asking","phase":"polish","round":6}
+{"t":"2026-10-20T07:19:54.270Z","type":"desk.start","id":"20261020-0212-linkedin-instagram-portrait-asking","desk":"ui-designer","model":"openai/mini","tier":"builder","task":"polish round 6"}
+{"t":"2026-10-20T07:20:16.962Z","type":"desk.stop","id":"20261020-0212-linkedin-instagram-portrait-asking","desk":"ui-designer","tier":"builder","status":"done","seconds":23,"model":"openai/mini","modelId":"gpt-6.1-sol","tokens":{"input":8476,"output":917,"cacheRead":51072,"cacheWrite":0,"total":60465},"costUsd":0.031229200000000002}
+{"t":"2026-10-20T07:20:17.007Z","type":"job.phase","id":"20261020-0212-linkedin-instagram-portrait-asking","phase":"proof","round":6}
+{"t":"2026-10-20T07:20:18.621Z","type":"job.proof","id":"20261020-0212-linkedin-instagram-portrait-asking","round":6,"pass":true,"failures":0}
+{"t":"2026-10-20T07:20:18.672Z","type":"job.phase","id":"20261020-0212-linkedin-instagram-portrait-asking","phase":"signoff","round":6}
+{"t":"2026-10-20T07:20:18.731Z","type":"desk.start","id":"20261020-0212-linkedin-instagram-portrait-asking","desk":"creative-director","model":"openai/large","tier":"director","task":"sign-off round 6"}
+{"t":"2026-10-20T07:20:39.835Z","type":"desk.stop","id":"20261020-0212-linkedin-instagram-portrait-asking","desk":"creative-director","tier":"director","status":"done","seconds":21,"model":"openai/large","modelId":"gpt-6-astra","tokens":{"input":8233,"output":621,"cacheRead":24704,"cacheWrite":0,"total":33558},"costUsd":0.138084}
+{"t":"2026-10-20T07:20:39.880Z","type":"job.score","id":"20261020-0212-linkedin-instagram-portrait-asking","round":6,"average":8.13,"pass":false}
+{"t":"2026-10-20T07:20:39.929Z","type":"job.waiting","id":"20261020-0212-linkedin-instagram-portrait-asking","on":"approve_under_bar"}
+{"t":"2026-10-20T07:20:39.982Z","type":"job.phase","id":"20261020-0212-linkedin-instagram-portrait-asking","phase":"handback","round":6}
+{"t":"2026-10-20T07:20:40.035Z","type":"job.done","id":"20261020-0212-linkedin-instagram-portrait-asking","rounds":6,"average":8.13,"pass":false}

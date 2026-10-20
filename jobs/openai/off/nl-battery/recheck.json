@@ -1,0 +1,307 @@
+{
+ "family": "openai",
+ "arm": "off",
+ "case": "nl-battery",
+ "jobId": "20261020-0138-linkedin-instagram-portrait-new",
+ "rounds": [
+  {
+   "round": 1,
+   "sizes": [
+    {
+     "size": "ig-post",
+     "failures": [
+      {
+       "check": "safe-zone",
+       "text": "Seven",
+       "reason": "74px from the top edge, the safe zone starts at 81px"
+      },
+      {
+       "check": "safe-zone",
+       "text": "years",
+       "reason": "74px from the top edge, the safe zone starts at 81px"
+      },
+      {
+       "check": "type-scale",
+       "text": "Seven",
+       "reason": "128px is off the brand scale (base 16, ratio 1.25), use 119px or 149px"
+      },
+      {
+       "check": "type-scale",
+       "text": "years",
+       "reason": "128px is off the brand scale (base 16, ratio 1.25), use 119px or 149px"
+      },
+      {
+       "check": "type-scale",
+       "text": "to break even.",
+       "reason": "128px is off the brand scale (base 16, ratio 1.25), use 119px or 149px"
+      },
+      {
+       "check": "type-scale",
+       "text": "Then free.",
+       "reason": "128px is off the brand scale (base 16, ratio 1.25), use 119px or 149px"
+      },
+      {
+       "check": "type-scale",
+       "text": "northlight.energy",
+       "reason": "24px is off the brand scale (base 16, ratio 1.25), use 20px or 25px"
+      }
+     ]
+    },
+    {
+     "size": "linkedin",
+     "failures": [
+      {
+       "check": "type-scale",
+       "text": "northlight.energy",
+       "reason": "24px is off the brand scale (base 16, ratio 1.25), use 20px or 25px"
+      }
+     ]
+    }
+   ],
+   "failures": 8,
+   "byCheck": {
+    "safe-zone": 2,
+    "type-scale": 6
+   }
+  },
+  {
+   "round": 2,
+   "sizes": [
+    {
+     "size": "ig-post",
+     "failures": [
+      {
+       "check": "safe-zone",
+       "text": "Seven",
+       "reason": "74px from the top edge, the safe zone starts at 81px"
+      },
+      {
+       "check": "safe-zone",
+       "text": "years",
+       "reason": "74px from the top edge, the safe zone starts at 81px"
+      },
+      {
+       "check": "type-scale",
+       "text": "Seven",
+       "reason": "128px is off the brand scale (base 16, ratio 1.25), use 119px or 149px"
+      },
+      {
+       "check": "type-scale",
+       "text": "years",
+       "reason": "128px is off the brand scale (base 16, ratio 1.25), use 119px or 149px"
+      },
+      {
+       "check": "type-scale",
+       "text": "to break even.",
+       "reason": "128px is off the brand scale (base 16, ratio 1.25), use 119px or 149px"
+      },
+      {
+       "check": "type-scale",
+       "text": "Then free.",
+       "reason": "128px is off the brand scale (base 16, ratio 1.25), use 119px or 149px"
+      },
+      {
+       "check": "type-scale",
+       "text": "northlight.energy",
+       "reason": "24px is off the brand scale (base 16, ratio 1.25), use 20px or 25px"
+      }
+     ]
+    },
+    {
+     "size": "linkedin",
+     "failures": [
+      {
+       "check": "type-scale",
+       "text": "Seven",
+       "reason": "104px is off the brand scale (base 16, ratio 1.25), use 95px or 119px"
+      },
+      {
+       "check": "type-scale",
+       "text": "years",
+       "reason": "104px is off the brand scale (base 16, ratio 1.25), use 95px or 119px"
+      },
+      {
+       "check": "type-scale",
+       "text": "to break even.",
+       "reason": "104px is off the brand scale (base 16, ratio 1.25), use 95px or 119px"
+      },
+      {
+       "check": "type-scale",
+       "text": "Then free.",
+       "reason": "104px is off the brand scale (base 16, ratio 1.25), use 95px or 119px"
+      },
+      {
+       "check": "type-scale",
+       "text": "northlight.energy",
+       "reason": "24px is off the brand scale (base 16, ratio 1.25), use 20px or 25px"
+      }
+     ]
+    }
+   ],
+   "failures": 12,
+   "byCheck": {
+    "safe-zone": 2,
+    "type-scale": 10
+   }
+  },
+  {
+   "round": 3,
+   "sizes": [
+    {
+     "size": "ig-post",
+     "failures": [
+      {
+       "check": "safe-zone",
+       "text": "Seven",
+       "reason": "74px from the top edge, the safe zone starts at 81px"
+      },
+      {
+       "check": "safe-zone",
+       "text": "years",
+       "reason": "74px from the top edge, the safe zone starts at 81px"
+      },
+      {
+       "check": "type-scale",
+       "text": "Seven",
+       "reason": "128px is off the brand scale (base 16, ratio 1.25), use 119px or 149px"
+      },
+      {
+       "check": "type-scale",
+       "text": "years",
+       "reason": "128px is off the brand scale (base 16, ratio 1.25), use 119px or 149px"
+      },
+      {
+       "check": "type-scale",
+       "text": "to break even.",
+       "reason": "128px is off the brand scale (base 16, ratio 1.25), use 119px or 149px"
+      },
+      {
+       "check": "type-scale",
+       "text": "Then free.",
+       "reason": "128px is off the brand scale (base 16, ratio 1.25), use 119px or 149px"
+      },
+      {
+       "check": "type-scale",
+       "text": "northlight.energy",
+       "reason": "24px is off the brand scale (base 16, ratio 1.25), use 20px or 25px"
+      }
+     ]
+    },
+    {
+     "size": "linkedin",
+     "failures": [
+      {
+       "check": "type-scale",
+       "text": "Seven",
+       "reason": "104px is off the brand scale (base 16, ratio 1.25), use 95px or 119px"
+      },
+      {
+       "check": "type-scale",
+       "text": "years",
+       "reason": "104px is off the brand scale (base 16, ratio 1.25), use 95px or 119px"
+      },
+      {
+       "check": "type-scale",
+       "text": "to break even.",
+       "reason": "104px is off the brand scale (base 16, ratio 1.25), use 95px or 119px"
+      },
+      {
+       "check": "type-scale",
+       "text": "Then free.",
+       "reason": "104px is off the brand scale (base 16, ratio 1.25), use 95px or 119px"
+      },
+      {
+       "check": "type-scale",
+       "text": "northlight.energy",
+       "reason": "24px is off the brand scale (base 16, ratio 1.25), use 20px or 25px"
+      }
+     ]
+    }
+   ],
+   "failures": 12,
+   "byCheck": {
+    "safe-zone": 2,
+    "type-scale": 10
+   }
+  },
+  {
+   "round": 4,
+   "sizes": [
+    {
+     "size": "ig-post",
+     "failures": [
+      {
+       "check": "safe-zone",
+       "text": "Seven",
+       "reason": "76px from the top edge, the safe zone starts at 81px"
+      }
+     ]
+    },
+    {
+     "size": "linkedin",
+     "failures": []
+    }
+   ],
+   "failures": 1,
+   "byCheck": {
+    "safe-zone": 1
+   }
+  },
+  {
+   "round": 5,
+   "sizes": [
+    {
+     "size": "ig-post",
+     "failures": [
+      {
+       "check": "safe-zone",
+       "text": "Seven",
+       "reason": "73px from the top edge, the safe zone starts at 81px"
+      },
+      {
+       "check": "safe-zone",
+       "text": "northlight.energy",
+       "reason": "ends 134px from the bottom edge, the safe zone is 135px"
+      }
+     ]
+    },
+    {
+     "size": "linkedin",
+     "failures": []
+    }
+   ],
+   "failures": 2,
+   "byCheck": {
+    "safe-zone": 2
+   }
+  },
+  {
+   "round": 6,
+   "sizes": [
+    {
+     "size": "ig-post",
+     "failures": [
+      {
+       "check": "safe-zone",
+       "text": "Seven",
+       "reason": "80px from the top edge, the safe zone starts at 81px"
+      },
+      {
+       "check": "safe-zone",
+       "text": "years",
+       "reason": "80px from the top edge, the safe zone starts at 81px"
+      }
+     ]
+    },
+    {
+     "size": "linkedin",
+     "failures": []
+    }
+   ],
+   "failures": 2,
+   "byCheck": {
+    "safe-zone": 2
+   }
+  }
+ ]
+}

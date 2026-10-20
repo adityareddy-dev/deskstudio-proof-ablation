@@ -1,0 +1,285 @@
+{
+  "id": "20261020-0148-linkedin-instagram-portrait-feature",
+  "command": "design",
+  "deliverable": "social-card",
+  "sizes": [
+    "linkedin",
+    "ig-post"
+  ],
+  "quality": "studio",
+  "proofMode": "off",
+  "models": {
+    "director": "openai/large",
+    "senior": "openai/mini",
+    "builder": "openai/mini"
+  },
+  "phase": "done",
+  "round": 3,
+  "maxRounds": 6,
+  "desks": [
+    {
+      "desk": "design-manager",
+      "task": "intake",
+      "status": "done",
+      "model": "openai/large",
+      "startedAt": "2026-10-20T01:48:54-05:00",
+      "updatedAt": "2026-10-20T01:49:13-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "rough 1, editorial split",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T01:49:13-05:00",
+      "updatedAt": "2026-10-20T01:50:03-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "rough 2, full bleed with scrim",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T01:49:13-05:00",
+      "updatedAt": "2026-10-20T01:49:52-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "rough 3, type only",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T01:49:13-05:00",
+      "updatedAt": "2026-10-20T01:49:40-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "art-director",
+      "task": "pick",
+      "status": "done",
+      "model": "openai/large",
+      "startedAt": "2026-10-20T01:50:08-05:00",
+      "updatedAt": "2026-10-20T01:50:28-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 1",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T01:50:28-05:00",
+      "updatedAt": "2026-10-20T01:50:54-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "creative-director",
+      "task": "sign-off round 1",
+      "status": "done",
+      "model": "openai/large",
+      "startedAt": "2026-10-20T01:50:55-05:00",
+      "updatedAt": "2026-10-20T01:51:14-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 2",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T01:51:14-05:00",
+      "updatedAt": "2026-10-20T01:51:45-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "creative-director",
+      "task": "sign-off round 2",
+      "status": "done",
+      "model": "openai/large",
+      "startedAt": "2026-10-20T01:51:46-05:00",
+      "updatedAt": "2026-10-20T01:52:13-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 3",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T01:52:13-05:00",
+      "updatedAt": "2026-10-20T01:52:41-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "creative-director",
+      "task": "sign-off round 3",
+      "status": "done",
+      "model": "openai/large",
+      "startedAt": "2026-10-20T01:52:43-05:00",
+      "updatedAt": "2026-10-20T01:53:05-05:00",
+      "via": "cli"
+    }
+  ],
+  "pick": {
+    "by": "art-director",
+    "rough": 3,
+    "pattern": "Type only",
+    "combineWith": null,
+    "reason": "The headline reads first at both sizes; the serif typography and single blue word give Quill the clearest identity with the fewest fixes.",
+    "lost": "1 introduces a banned document icon and leaves the portrait middle empty, 2 lets the oversized geometry compete with the headline and puts the wordmark across a stripe.",
+    "notes": [
+      "On portrait, set the headline to 200px, line height 1.0, with its top at 96px; keep both lines entirely within the top 540px, per the social-card standard’s top-40% rule."
+    ],
+    "at": "2026-10-20T01:50:28-05:00"
+  },
+  "proof": [
+    {
+      "round": 1,
+      "pass": null,
+      "skipped": true,
+      "failures": 0
+    },
+    {
+      "round": 2,
+      "pass": null,
+      "skipped": true,
+      "failures": 0
+    },
+    {
+      "round": 3,
+      "pass": null,
+      "skipped": true,
+      "failures": 0
+    }
+  ],
+  "scores": [
+    {
+      "round": 1,
+      "by": "creative-director",
+      "axes": {
+        "hierarchy": 9,
+        "typography": 8,
+        "spacing": 7,
+        "colour": 9,
+        "composition": 7,
+        "originality": 6,
+        "brand": 9,
+        "copy": 9
+      },
+      "average": 8,
+      "pass": false,
+      "notes": [
+        "typography: Set the landscape headline to 169px, weight 600, line height 1.0; retain portrait at 200px with its top at 96px.",
+        "spacing: On portrait, move the supporting line from approximately y=656 to y=744 to tighten its relationship with the bottom wordmark.",
+        "composition: Reduce the portrait’s approximately 475px empty band between supporting copy and wordmark to at most 400px; retain the 135px bottom safe margin.",
+        "originality: Make the landscape headline carry the canvas: extend its second line to approximately x=680 using the larger type, and place the supporting line at y=424 on the existing x=80 column."
+      ],
+      "polish": [
+        "Keep the blue accent confined to “stays.” in both formats."
+      ]
+    },
+    {
+      "round": 2,
+      "by": "creative-director",
+      "axes": {
+        "hierarchy": 9,
+        "typography": 9,
+        "spacing": 8,
+        "colour": 9,
+        "composition": 8,
+        "originality": 6,
+        "brand": 9,
+        "copy": 10
+      },
+      "average": 8.5,
+      "pass": false,
+      "notes": [
+        "spacing: On portrait, move the supporting line’s top from approximately 744px to 680px.",
+        "composition: Move the portrait wordmark’s top from approximately 1176px to 1080px; keep the headline within the top 540px.",
+        "originality: Add a single 2px foreground strike through “Cut it.” on both sizes, leaving the letters readable; retain blue only on “stays.” so the typography demonstrates the promise."
+      ],
+      "polish": [
+        "Check the revised strike at thumbnail size; it must read as a deliberate cut without obscuring either word."
+      ]
+    },
+    {
+      "round": 3,
+      "by": "creative-director",
+      "axes": {
+        "hierarchy": 9,
+        "typography": 9,
+        "spacing": 8,
+        "colour": 9,
+        "composition": 8,
+        "originality": 8,
+        "brand": 9,
+        "copy": 9
+      },
+      "average": 8.63,
+      "pass": true,
+      "notes": [
+        "spacing: On portrait, move the supporting line down 64px and the wordmark down 112px; keep the resulting gap below 450px.",
+        "composition: Place the portrait wordmark’s bottom at 1215px, leaving the required 135px bottom margin.",
+        "originality: Shorten the strike to end before the full stop on both sizes, leaving the punctuation intact and making the cut more precise."
+      ],
+      "polish": [
+        "Keep the headline’s current size and position on both formats."
+      ]
+    }
+  ],
+  "waitingOn": null,
+  "cost": {
+    "director": 1.0802,
+    "senior": 0.1354,
+    "builder": 0.1402,
+    "total": 1.3558,
+    "complete": true
+  },
+  "tokens": {
+    "director": 172721,
+    "senior": 110972,
+    "builder": 182252
+  },
+  "files": {
+    "final": ".desk/out/20261020-0148-linkedin-instagram-portrait-feature/final.html",
+    "brief": ".desk/jobs/20261020-0148-linkedin-instagram-portrait-feature/brief.md",
+    "handback": ".desk/out/20261020-0148-linkedin-instagram-portrait-feature/handback.md"
+  },
+  "pen": "builder",
+  "notes": [
+    "spacing: On portrait, move the supporting line’s top from approximately 744px to 680px.",
+    "composition: Move the portrait wordmark’s top from approximately 1176px to 1080px; keep the headline within the top 540px.",
+    "originality: Add a single 2px foreground strike through “Cut it.” on both sizes, leaving the letters readable; retain blue only on “stays.” so the typography demonstrates the promise."
+  ],
+  "misses": {
+    "originality": 2
+  },
+  "startedAt": "2026-10-20T01:48:54-05:00",
+  "updatedAt": "2026-10-20T01:53:05-05:00",
+  "roughs": [
+    {
+      "n": 1,
+      "pattern": "Editorial split",
+      "file": ".desk/out/20261020-0148-linkedin-instagram-portrait-feature/rough-1.html",
+      "fonts": "Source Serif 4, runner inlined; no fallback selected",
+      "written": true,
+      "renders": ".desk/jobs/20261020-0148-linkedin-instagram-portrait-feature/renders/roughs/rough-1"
+    },
+    {
+      "n": 2,
+      "pattern": "Full bleed with scrim",
+      "file": ".desk/out/20261020-0148-linkedin-instagram-portrait-feature/rough-2.html",
+      "fonts": "Source Serif 4, runner-inlined; no fallback selected",
+      "written": true,
+      "renders": ".desk/jobs/20261020-0148-linkedin-instagram-portrait-feature/renders/roughs/rough-2"
+    },
+    {
+      "n": 3,
+      "pattern": "Type only",
+      "file": ".desk/out/20261020-0148-linkedin-instagram-portrait-feature/rough-3.html",
+      "fonts": "Source Serif 4, inlined by runner; no fallback selected",
+      "written": true,
+      "renders": ".desk/jobs/20261020-0148-linkedin-instagram-portrait-feature/renders/roughs/rough-3"
+    }
+  ],
+  "lastRenders": ".desk/jobs/20261020-0148-linkedin-instagram-portrait-feature/renders/round-3",
+  "penNotes": [],
+  "finishedAt": "2026-10-20T01:53:05-05:00"
+}

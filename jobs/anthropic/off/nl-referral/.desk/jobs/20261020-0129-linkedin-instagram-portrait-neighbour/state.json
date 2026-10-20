@@ -1,0 +1,449 @@
+{
+  "id": "20261020-0129-linkedin-instagram-portrait-neighbour",
+  "command": "design",
+  "deliverable": "social-card",
+  "sizes": [
+    "linkedin",
+    "ig-post"
+  ],
+  "quality": "studio",
+  "proofMode": "off",
+  "models": {
+    "director": "anthropic/opus",
+    "senior": "anthropic/sonnet",
+    "builder": "anthropic/haiku"
+  },
+  "phase": "done",
+  "round": 6,
+  "maxRounds": 6,
+  "desks": [
+    {
+      "desk": "design-manager",
+      "task": "intake",
+      "status": "done",
+      "model": "anthropic/opus",
+      "startedAt": "2026-10-20T01:29:30-05:00",
+      "updatedAt": "2026-10-20T01:29:46-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "rough 1, editorial split",
+      "status": "done",
+      "model": "anthropic/sonnet",
+      "startedAt": "2026-10-20T01:29:46-05:00",
+      "updatedAt": "2026-10-20T01:30:13-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "rough 2, full bleed with scrim",
+      "status": "done",
+      "model": "anthropic/sonnet",
+      "startedAt": "2026-10-20T01:29:46-05:00",
+      "updatedAt": "2026-10-20T01:30:41-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "rough 3, type only",
+      "status": "done",
+      "model": "anthropic/sonnet",
+      "startedAt": "2026-10-20T01:29:46-05:00",
+      "updatedAt": "2026-10-20T01:30:15-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "art-director",
+      "task": "pick",
+      "status": "done",
+      "model": "anthropic/opus",
+      "startedAt": "2026-10-20T01:30:45-05:00",
+      "updatedAt": "2026-10-20T01:31:11-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 1",
+      "status": "done",
+      "model": "anthropic/haiku",
+      "startedAt": "2026-10-20T01:31:11-05:00",
+      "updatedAt": "2026-10-20T01:31:43-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "creative-director",
+      "task": "sign-off round 1",
+      "status": "done",
+      "model": "anthropic/opus",
+      "startedAt": "2026-10-20T01:31:44-05:00",
+      "updatedAt": "2026-10-20T01:32:25-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 2",
+      "status": "done",
+      "model": "anthropic/haiku",
+      "startedAt": "2026-10-20T01:32:26-05:00",
+      "updatedAt": "2026-10-20T01:32:59-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "creative-director",
+      "task": "sign-off round 2",
+      "status": "done",
+      "model": "anthropic/opus",
+      "startedAt": "2026-10-20T01:33:01-05:00",
+      "updatedAt": "2026-10-20T01:33:35-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 3",
+      "status": "done",
+      "model": "anthropic/haiku",
+      "startedAt": "2026-10-20T01:33:35-05:00",
+      "updatedAt": "2026-10-20T01:34:24-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "creative-director",
+      "task": "sign-off round 3",
+      "status": "done",
+      "model": "anthropic/opus",
+      "startedAt": "2026-10-20T01:34:26-05:00",
+      "updatedAt": "2026-10-20T01:35:00-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 4, escalated",
+      "status": "done",
+      "model": "anthropic/sonnet",
+      "startedAt": "2026-10-20T01:35:00-05:00",
+      "updatedAt": "2026-10-20T01:35:21-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "creative-director",
+      "task": "sign-off round 4",
+      "status": "done",
+      "model": "anthropic/opus",
+      "startedAt": "2026-10-20T01:35:23-05:00",
+      "updatedAt": "2026-10-20T01:36:02-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 5, escalated",
+      "status": "done",
+      "model": "anthropic/sonnet",
+      "startedAt": "2026-10-20T01:36:02-05:00",
+      "updatedAt": "2026-10-20T01:36:19-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "creative-director",
+      "task": "sign-off round 5",
+      "status": "done",
+      "model": "anthropic/opus",
+      "startedAt": "2026-10-20T01:36:21-05:00",
+      "updatedAt": "2026-10-20T01:37:27-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 6, escalated",
+      "status": "done",
+      "model": "anthropic/sonnet",
+      "startedAt": "2026-10-20T01:37:27-05:00",
+      "updatedAt": "2026-10-20T01:37:52-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "creative-director",
+      "task": "sign-off round 6",
+      "status": "done",
+      "model": "anthropic/opus",
+      "startedAt": "2026-10-20T01:37:54-05:00",
+      "updatedAt": "2026-10-20T01:38:35-05:00",
+      "via": "cli"
+    }
+  ],
+  "pick": {
+    "by": "art-director",
+    "rough": 3,
+    "pattern": "Type only",
+    "combineWith": null,
+    "reason": "The headline is the image at both sizes. It reads in two seconds, sits on the warm paper, is left-aligned, and it needs the fewest notes to reach studio.",
+    "lost": "1 The headline is undersized on linkedin and the right panel is a large empty field holding one small line, so on ig-post the bottom half is left-over space rather than shaped space. 2 The ink field takes over half the canvas from the brand's paper and reads as a box beside a box, the ig-post right strip looks like an overflow bug, and the headline block is cramped against the canvas edges.",
+    "notes": [
+      "Make \"$400\" weight 600 at both sizes, at the same size as the supporting line and still `#d9480f`. The brand says to lead with the number, and the regular weight is too quiet to be the one thing to look at. This stays inside two weights. (standard: Colour, the accent goes on the one thing to look at)",
+      "On ig-post, set the supporting line's max-width to 820px so it breaks after \"takes\" and reads \"Every neighbour you bring takes / $400 off their quote.\" This removes the orphan \"quote.\" and puts the figure at the start of a line. Keep line height at 1.35.",
+      "On ig-post, set the headline line breaks to \"Your street, / one roof / at a time.\" at 119px, line height 1.0, tracking -0.02em. The lone \"Your\" breaks the shape. Three lines also leaves the block in the top 40%. (standard: Type, headline line height 1.0 to 1.1, tight tracking)",
+      "On ig-post, keep the gap from the bottom of the headline to the supporting line at 48px. Then put the mark's baseline at 1215px (the 10% bottom safe line) and leave it there. Check that the empty band between the supporting line and the mark stays under 450px. (standard: Owns the whole canvas)",
+      "Set the mark at 25px, weight 400, in muted `#6b6a66` at both sizes, bottom left on the text column. It should sit back as a label so the headline and $400 carry the card. (standard: Keeps the brand small and in a corner)"
+    ],
+    "at": "2026-10-20T01:31:11-05:00"
+  },
+  "proof": [
+    {
+      "round": 1,
+      "pass": null,
+      "skipped": true,
+      "failures": 0
+    },
+    {
+      "round": 2,
+      "pass": null,
+      "skipped": true,
+      "failures": 0
+    },
+    {
+      "round": 3,
+      "pass": null,
+      "skipped": true,
+      "failures": 0
+    },
+    {
+      "round": 4,
+      "pass": null,
+      "skipped": true,
+      "failures": 0
+    },
+    {
+      "round": 5,
+      "pass": null,
+      "skipped": true,
+      "failures": 0
+    },
+    {
+      "round": 6,
+      "pass": null,
+      "skipped": true,
+      "failures": 0
+    }
+  ],
+  "scores": [
+    {
+      "round": 1,
+      "by": "creative-director",
+      "axes": {
+        "hierarchy": 9,
+        "typography": 8,
+        "spacing": 8,
+        "colour": 9,
+        "composition": 7,
+        "originality": 7,
+        "brand": 9,
+        "copy": 9
+      },
+      "average": 8.25,
+      "pass": false,
+      "notes": [
+        "composition: On ig-post, the empty band from the bottom of the supporting line (about 575px) to the top of the mark (about 1190px) is about 615px, more than the 450px limit. Set the headline to 149px, line height 1.0, tracking -0.02em, keeping the breaks \"Your street, / one roof / at a time.\", with its top at 64px so it ends near 512px. Move the supporting line out of the headline group and set its top at 744px. That leaves bands of about 232px and 340px, so the card reads as three beats: headline, figure line, mark. Keep the mark baseline at 1215px.",
+        "typography: On ig-post the supporting line still breaks after \"$400\" (\"…takes $400 / off their quote.\"), so the figure ends a line instead of starting one. Set the line at 39px, line height 1.35, max-width 780px, so it breaks \"Every neighbour you bring takes / $400 off their quote.\" Keep \"$400\" at 600 in `#d9480f` and at the same size as the line.",
+        "spacing: On linkedin, set the headline to 119px, line height 1.0, two lines, top at 64px. Keep the 40px gap to the supporting line at 31px and the mark baseline at 563px. The headline then spans about 990px of the 1056px column and the 28% of dead canvas on the right closes.",
+        "originality: The move this card owns is the scale jump between a headline 149px tall (119px on linkedin) and the 25px muted mark, with \"$400\" in orange at the start of its line as the only colour. Make the three fixes above exactly and add nothing: no rules, no shapes, no second accent."
+      ],
+      "polish": [
+        "On ig-post, set the trailing period of \"time.\" hanging so the headline's right edge does not read as ragged at 149px."
+      ]
+    },
+    {
+      "round": 2,
+      "by": "creative-director",
+      "axes": {
+        "hierarchy": 9,
+        "typography": 8,
+        "spacing": 7,
+        "colour": 9,
+        "composition": 7,
+        "originality": 7,
+        "brand": 9,
+        "copy": 9
+      },
+      "average": 8.13,
+      "pass": false,
+      "notes": [
+        "spacing: On ig-post, the supporting line floats about 255px under the headline and about 345px over the mark, so it belongs to neither group. Set its top 64px under the headline's last baseline and keep the mark's baseline at 1215px.",
+        "composition: On ig-post, raise the supporting line to 61px (on the brand scale), weight 400, with \"$400\" at 600 in #d9480f, line height 1.3, breaking \"Every neighbour / you bring takes / $400 off their quote.\" The block then runs to about 840px and the empty band above the mark drops to about 350px, under a third of the canvas.",
+        "typography: On ig-post, set the headline at exactly 149px, line height 1.0, tracking -0.02em, top at 81px, so the last line ends by about 528px and stays inside the top 40% (540px). Keep the breaks \"Your street, / one roof / at a time.\" The three sizes are then 149, 61 and 25.",
+        "originality: The card is currently the default type-only layout. Let \"$400\" open its own line at 61px under the headline on ig-post, so the number becomes the second line of the stack. On linkedin, move the supporting line up from 31px to 39px with \"$400\" at 600 so the figure holds at thumbnail size there too."
+      ],
+      "polish": [
+        "On linkedin, cut the gap between the headline and the supporting line from about 56px to 48px so it sits on the 8px grid and matches ig-post."
+      ]
+    },
+    {
+      "round": 3,
+      "by": "creative-director",
+      "axes": {
+        "hierarchy": 9,
+        "typography": 8,
+        "spacing": 8,
+        "colour": 9,
+        "composition": 8,
+        "originality": 7,
+        "brand": 8,
+        "copy": 9
+      },
+      "average": 8.25,
+      "pass": false,
+      "notes": [
+        "originality: On ig-post, put \"$400\" on its own line at the headline size, 149px, weight 600, line height 1.0, tracking -0.02em, in #d9480f, flush to the text column. Set the line as \"Every neighbour / you bring takes / $400 / off their quote.\" with the other three lines at 61px, 400. The words stay verbatim and the card still uses three sizes. The figure becomes the second read and a move a template would not make.",
+        "brand: Northlight leads with the number. On linkedin, raise \"$400\" from 39px to 49px, keep 600 and #d9480f, keep the rest of the line at 39px/400, and keep it on one line. If that makes four sizes, drop the mark from 25px to 20px. It is a label and 20px is allowed for a label.",
+        "composition: On ig-post, the band from the bottom of the supporting block (about 800px) to the mark (about 1190px) is about 390px of leftover air. After the change above, the block should end near 1000px. Keep the mark baseline at 1215px so the band is under 200px.",
+        "spacing: On ig-post, keep the gap from the headline baseline to the first supporting line at 48px. Put 24px above and below the 149px \"$400\" line. Every gap is a multiple of 8.",
+        "typography: On ig-post, the supporting line at 61px over three lines sits too close in weight to the headline. With \"$400\" lifted out, cap its max-width at 640px so the two 61px lines above the figure break exactly \"Every neighbour / you bring takes\" and nothing wraps after the figure."
+      ],
+      "polish": [
+        "On linkedin, hang the comma after \"street\" into the right margin so the left edge of \"Your\" aligns optically with \"one\", about 4px of negative indent on line 1."
+      ]
+    },
+    {
+      "round": 4,
+      "by": "creative-director",
+      "axes": {
+        "hierarchy": 8,
+        "typography": 7,
+        "spacing": 8,
+        "colour": 9,
+        "composition": 8,
+        "originality": 7,
+        "brand": 8,
+        "copy": 8
+      },
+      "average": 7.88,
+      "pass": false,
+      "notes": [
+        "typography: the card runs four sizes at both formats (headline, body, $400 at its own size, mark). Fix the count. On linkedin set \"$400\" to the body size, about 39px, weight 600, #d9480f, inline on the same baseline; it renders at about 49px now. On ig-post set \"$400\" to exactly the headline size (149px on the scale, line height 1.0, tracking -0.02em, weight 600) so the sizes are 149 / 61 / 25.",
+        "typography: on ig-post set the gaps above and below the \"$400\" line to 32px each; \"takes\" to \"$400\" is about 60px and \"$400\" to \"off\" about 50px. Pull \"Your\" and \"$400\" left by about 6px so the Y and $ stems optically align with the 72px text column.",
+        "spacing: on ig-post set the gap from the bottom of the headline to \"Every neighbour\" at 48px, a multiple of 8; it measures about 64px. Set the mark to 25px at both sizes; it reads at about 20px on both.",
+        "composition: on linkedin the empty band between the body line and the mark is about 130px. Move the body line down 24px so the headline block and body sit as one group over the mark.",
+        "originality: on ig-post keep the move of \"$400\" at headline scale on its own line. It is the only thing a template would not do, so commit to it at 149px. On linkedin hold the type-only line as is.",
+        "brand: covered by the $400 size and mark notes above. Accent on \"$400\" only, mark 25px, weight 400, #6b6a66, bottom left at both sizes.",
+        "copy: copy is the user's and verbatim. On ig-post break the body only after \"neighbour\" and after \"takes\" (\"Every neighbour / you bring takes / $400 / off their quote.\") so no line ends on a weak word."
+      ],
+      "polish": [
+        "on linkedin, try the headline at 119px, line height 1.0, with the body line's top 48px below it, to match the ig-post rhythm."
+      ]
+    },
+    {
+      "round": 5,
+      "by": "creative-director",
+      "axes": {
+        "hierarchy": 8,
+        "typography": 8,
+        "spacing": 7,
+        "colour": 9,
+        "composition": 8,
+        "originality": 8,
+        "brand": 9,
+        "copy": 9
+      },
+      "average": 8.25,
+      "pass": false,
+      "notes": [
+        "spacing: On ig-post, set the gap from the headline's last baseline to the supporting line's first cap at 64px. Give the \"$400\" block 32px above and 32px below. Today it sits about 30px under \"you bring takes\" and 40px over \"off their quote.\", which is tighter than the 65px headline gap, so the figure jams into its own sentence. On linkedin, move the mark's baseline from about 552px down to 589px, the 6% safe line.",
+        "hierarchy: On ig-post, set \"$400\" to exactly the headline size, 149px, weight 600, #d9480f, line height 1.0. It should read as a second line of the same voice and not as a near-miss fourth size. The headline stays in black at the top, so it reads first and the figure reads second.",
+        "typography: On ig-post, fix the supporting line at 61px, line height 1.3, max-width 520px. That holds the \"Every neighbour / you bring takes\" break in every renderer. On linkedin, confirm the headline is 119px with line height 1.0 and tracking -0.02em, and the supporting line is 39px with line height 1.35.",
+        "composition: On ig-post, pin the mark's baseline at 1215px and keep the empty band between \"off their quote.\" and the mark under 300px. With the spacing note above, the block ends near 980px, which keeps the band at about 210px.",
+        "originality: On linkedin, break the supporting line before the figure so it reads \"Every neighbour you bring takes / $400 off their quote.\" at 39px. \"$400\" then starts a line on both sizes and the two cards share one move."
+      ],
+      "polish": [
+        "On ig-post, check the \"$\" optically against the headline's \"Y\" and \"o\" stems. Shift \"$400\" left 4px if its left side bearing reads indented at 149px."
+      ]
+    },
+    {
+      "round": 6,
+      "by": "creative-director",
+      "axes": {
+        "hierarchy": 8,
+        "typography": 8,
+        "spacing": 8,
+        "colour": 9,
+        "composition": 8,
+        "originality": 7,
+        "brand": 9,
+        "copy": 9
+      },
+      "average": 8.25,
+      "pass": false,
+      "notes": [
+        "originality: linkedin is the first layout any template makes, so carry the ig-post stat move across. Headline to 95px over two lines \"Your street, one roof / at a time.\", then the supporting line at 39px wrapping \"Every neighbour you bring takes / $400 / off their quote.\", with \"$400\" on its own line at 95px, weight 600, #d9480f. Use 95px for \"$400\" on ig-post too and keep three sizes total (headline/figure, supporting, mark).",
+        "hierarchy: on ig-post, headline and \"$400\" sit at the same size with only about 56px between the blocks, so they read as one mass. Raise the headline-to-supporting gap to 80px so the headline reads first and the figure second.",
+        "typography: on ig-post, the \"$\" ascender sits about 16px under \"takes\" while \"off their quote.\" clears the digits by about 28px. Set the \"$400\" line to line-height 1.0 with 24px above and 16px below. On linkedin, the 31px supporting line against the 25px mark is too close a step. Supporting goes to 39px, mark stays at 25px.",
+        "spacing: on ig-post, keep the mark baseline at 1215px. After the gap change, check that the band from \"off their quote.\" to the mark stays between 240 and 320px. On linkedin, keep the mark baseline at 589px and the supporting block's last baseline at least 64px above it.",
+        "composition: on linkedin, the lower-right 45% is left-over air. The figure line from the originality note fills the left column down to 64px above the mark. Do not add any element on the right."
+      ],
+      "polish": [
+        "ig-post headline tracking -0.02em to -0.025em on \"Your street,\" to close the Y–o gap optically."
+      ]
+    }
+  ],
+  "waitingOn": {
+    "type": "approve_under_bar",
+    "text": "Under the bar after 6 rounds. originality under 8, originality: linkedin is the first layout any template makes, so carry the ig-post stat move across. Headline to 95px over two lines \"Your street, one roof / at a time.\", then the supporting line at 39px wrapping \"Every neighbour you bring takes / $400 / off their quote.\", with \"$400\" on its own line at 95px, weight 600, #d9480f. Use 95px for \"$400\" on ig-post too and keep three sizes total (headline/figure, supporting, mark)."
+  },
+  "cost": {
+    "director": 1.129,
+    "senior": 0.3791,
+    "builder": 0.0173,
+    "total": 1.5254,
+    "complete": true
+  },
+  "tokens": {
+    "director": 111769,
+    "senior": 127272,
+    "builder": 54888
+  },
+  "files": {
+    "final": ".desk/out/20261020-0129-linkedin-instagram-portrait-neighbour/final.html",
+    "brief": ".desk/jobs/20261020-0129-linkedin-instagram-portrait-neighbour/brief.md",
+    "handback": ".desk/out/20261020-0129-linkedin-instagram-portrait-neighbour/handback.md"
+  },
+  "pen": "senior",
+  "notes": [
+    "originality: linkedin is the first layout any template makes, so carry the ig-post stat move across. Headline to 95px over two lines \"Your street, one roof / at a time.\", then the supporting line at 39px wrapping \"Every neighbour you bring takes / $400 / off their quote.\", with \"$400\" on its own line at 95px, weight 600, #d9480f. Use 95px for \"$400\" on ig-post too and keep three sizes total (headline/figure, supporting, mark).",
+    "hierarchy: on ig-post, headline and \"$400\" sit at the same size with only about 56px between the blocks, so they read as one mass. Raise the headline-to-supporting gap to 80px so the headline reads first and the figure second.",
+    "typography: on ig-post, the \"$\" ascender sits about 16px under \"takes\" while \"off their quote.\" clears the digits by about 28px. Set the \"$400\" line to line-height 1.0 with 24px above and 16px below. On linkedin, the 31px supporting line against the 25px mark is too close a step. Supporting goes to 39px, mark stays at 25px.",
+    "spacing: on ig-post, keep the mark baseline at 1215px. After the gap change, check that the band from \"off their quote.\" to the mark stays between 240 and 320px. On linkedin, keep the mark baseline at 589px and the supporting block's last baseline at least 64px above it.",
+    "composition: on linkedin, the lower-right 45% is left-over air. The figure line from the originality note fills the left column down to 64px above the mark. Do not add any element on the right."
+  ],
+  "misses": {
+    "originality": 1
+  },
+  "startedAt": "2026-10-20T01:29:29-05:00",
+  "updatedAt": "2026-10-20T01:38:35-05:00",
+  "roughs": [
+    {
+      "n": 1,
+      "pattern": "Editorial split",
+      "file": ".desk/out/20261020-0129-linkedin-instagram-portrait-neighbour/rough-1.html",
+      "fonts": "Inter (inlined by the runner, not a fallback; bundling not checked by me)",
+      "written": true,
+      "renders": ".desk/jobs/20261020-0129-linkedin-instagram-portrait-neighbour/renders/roughs/rough-1"
+    },
+    {
+      "n": 2,
+      "pattern": "Full bleed with scrim",
+      "file": ".desk/out/20261020-0129-linkedin-instagram-portrait-neighbour/rough-2.html",
+      "fonts": "Inter (runner inlines it, not a fallback)",
+      "written": true,
+      "renders": ".desk/jobs/20261020-0129-linkedin-instagram-portrait-neighbour/renders/roughs/rough-2"
+    },
+    {
+      "n": 3,
+      "pattern": "Type only",
+      "file": ".desk/out/20261020-0129-linkedin-instagram-portrait-neighbour/rough-3.html",
+      "fonts": "Inter (brand font, inlined by runner, not a fallback)",
+      "written": true,
+      "renders": ".desk/jobs/20261020-0129-linkedin-instagram-portrait-neighbour/renders/roughs/rough-3"
+    }
+  ],
+  "lastRenders": ".desk/jobs/20261020-0129-linkedin-instagram-portrait-neighbour/renders/round-6",
+  "penNotes": [],
+  "finishedAt": "2026-10-20T01:38:35-05:00"
+}

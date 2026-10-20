@@ -1,0 +1,26 @@
+{
+ "family": "openai",
+ "arm": "on",
+ "case": "nl-city",
+ "brand": "northlight",
+ "ask": "a LinkedIn card and an Instagram portrait card announcing installs opening in Minneapolis. Copy that must appear: 'Now installing in Minneapolis.' and 'Same panels. Same seven years.' and 'northlight.energy'.",
+ "models": "director=openai/large,senior=openai/mini,builder=openai/nano",
+ "startedAt": "2026-10-20T06:28:19.815Z",
+ "attempts": [
+  {
+   "code": 1,
+   "seconds": 235
+  },
+  {
+   "code": 1,
+   "seconds": 8,
+   "resume": true
+  }
+ ],
+ "exit": 1,
+ "seconds": 243,
+ "jobId": "20261020-0128-linkedin-instagram-portrait-installs",
+ "phase": "failed",
+ "done": false,
+ "finishedAt": "2026-10-20T06:32:22.604Z"
+}

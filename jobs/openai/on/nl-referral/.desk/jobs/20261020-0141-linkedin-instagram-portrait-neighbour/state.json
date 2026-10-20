@@ -1,0 +1,391 @@
+{
+  "id": "20261020-0141-linkedin-instagram-portrait-neighbour",
+  "command": "design",
+  "deliverable": "social-card",
+  "sizes": [
+    "linkedin",
+    "ig-post"
+  ],
+  "quality": "studio",
+  "proofMode": "on",
+  "models": {
+    "director": "openai/large",
+    "senior": "openai/mini",
+    "builder": "openai/mini"
+  },
+  "phase": "done",
+  "round": 6,
+  "maxRounds": 6,
+  "desks": [
+    {
+      "desk": "design-manager",
+      "task": "intake",
+      "status": "done",
+      "model": "openai/large",
+      "startedAt": "2026-10-20T01:41:42-05:00",
+      "updatedAt": "2026-10-20T01:42:00-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "rough 1, editorial split",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T01:42:00-05:00",
+      "updatedAt": "2026-10-20T01:42:45-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "rough 2, full bleed with scrim",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T01:42:00-05:00",
+      "updatedAt": "2026-10-20T01:42:37-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "rough 3, type only",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T01:42:00-05:00",
+      "updatedAt": "2026-10-20T01:42:27-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "art-director",
+      "task": "pick",
+      "status": "done",
+      "model": "openai/large",
+      "startedAt": "2026-10-20T01:42:49-05:00",
+      "updatedAt": "2026-10-20T01:43:07-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 1",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T01:43:07-05:00",
+      "updatedAt": "2026-10-20T01:43:33-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 2",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T01:43:35-05:00",
+      "updatedAt": "2026-10-20T01:43:57-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "creative-director",
+      "task": "sign-off round 2",
+      "status": "done",
+      "model": "openai/large",
+      "startedAt": "2026-10-20T01:43:59-05:00",
+      "updatedAt": "2026-10-20T01:44:21-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 3",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T01:44:21-05:00",
+      "updatedAt": "2026-10-20T01:45:06-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "creative-director",
+      "task": "sign-off round 3",
+      "status": "done",
+      "model": "openai/large",
+      "startedAt": "2026-10-20T01:45:07-05:00",
+      "updatedAt": "2026-10-20T01:45:32-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 4",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T01:45:32-05:00",
+      "updatedAt": "2026-10-20T01:46:11-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "creative-director",
+      "task": "sign-off round 4",
+      "status": "done",
+      "model": "openai/large",
+      "startedAt": "2026-10-20T01:46:12-05:00",
+      "updatedAt": "2026-10-20T01:46:34-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 5, escalated",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T01:46:34-05:00",
+      "updatedAt": "2026-10-20T01:47:10-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "creative-director",
+      "task": "sign-off round 5",
+      "status": "done",
+      "model": "openai/large",
+      "startedAt": "2026-10-20T01:47:11-05:00",
+      "updatedAt": "2026-10-20T01:47:31-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 6, escalated",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T01:47:31-05:00",
+      "updatedAt": "2026-10-20T01:48:10-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "creative-director",
+      "task": "sign-off round 6",
+      "status": "done",
+      "model": "openai/large",
+      "startedAt": "2026-10-20T01:48:11-05:00",
+      "updatedAt": "2026-10-20T01:48:30-05:00",
+      "via": "cli"
+    }
+  ],
+  "pick": {
+    "by": "art-director",
+    "rough": 1,
+    "pattern": "Editorial split",
+    "combineWith": null,
+    "reason": "The oversized $400 makes the offer readable in two seconds, and the split adapts cleanly to both ratios.",
+    "lost": "2 weakens the saving and leaves the portrait bottom unresolved, 3 buries the saving in body copy and leaves an oversized empty band.",
+    "notes": [
+      "Use exactly three sizes per format: LinkedIn $400 149px, headline 61px, all other text 25px; Instagram $400 186px, headline 95px, all other text 31px. This makes the number lead and meets the standard’s three-size limit.",
+      "Move the Instagram split from y=810 to y=648; start the offer text at y=704, keeping its left edge at x=72. This closes the empty middle while retaining the headline in the top 40%.",
+      "Move the Instagram URL to the bottom-left at x=72, with its bottom edge at y=1208, meeting the standard’s 10% bottom safe margin.",
+      "Set the saving to #d9480f, foreground text to #161614, paper to #f7f5f0 and the second panel to #ebe8e0; keep orange exclusively on $400.",
+      "Set headline and saving weight to 600 and all remaining text to 400; use headline line-height 1.05 and tracking -0.02em, per the brand and social-card standard."
+    ],
+    "at": "2026-10-20T01:43:07-05:00"
+  },
+  "proof": [
+    {
+      "round": 1,
+      "pass": false,
+      "failures": 1
+    },
+    {
+      "round": 2,
+      "pass": true,
+      "failures": 0
+    },
+    {
+      "round": 3,
+      "pass": true,
+      "failures": 0
+    },
+    {
+      "round": 4,
+      "pass": true,
+      "failures": 0
+    },
+    {
+      "round": 5,
+      "pass": true,
+      "failures": 0
+    },
+    {
+      "round": 6,
+      "pass": true,
+      "failures": 0
+    }
+  ],
+  "scores": [
+    {
+      "round": 2,
+      "by": "creative-director",
+      "axes": {
+        "hierarchy": 8,
+        "typography": 9,
+        "spacing": 9,
+        "colour": 9,
+        "composition": 8,
+        "originality": 6,
+        "brand": 9,
+        "copy": 9
+      },
+      "average": 8.38,
+      "pass": false,
+      "notes": [
+        "hierarchy: On Instagram, increase $400 from 186px to 233px and reduce the headline from 95px to 76px so the saving leads at thumbnail size; retain 31px supporting text.",
+        "composition: On Instagram, move the offer group up 64px and the panel boundary from y=648 to y=584; preserve the URL position.",
+        "originality: Replace the independent headline-and-number blocks with one connected typographic arrangement: on LinkedIn, align the top of $400 with the top of “a time.”; on Instagram, let $400 cross the panel boundary by 48px, with the introductory sentence above it and “off their quote.” below it. Keep all copy verbatim and orange confined to the saving."
+      ],
+      "polish": []
+    },
+    {
+      "round": 3,
+      "by": "creative-director",
+      "axes": {
+        "hierarchy": 9,
+        "typography": 8,
+        "spacing": 8,
+        "colour": 9,
+        "composition": 8,
+        "originality": 6,
+        "brand": 9,
+        "copy": 9
+      },
+      "average": 8.25,
+      "pass": false,
+      "notes": [
+        "typography: On Instagram, reduce $400 from approximately 233px to 186px and increase the headline from approximately 76px to 95px; retain 31px supporting text.",
+        "spacing: On Instagram, keep the offer’s three text blocks together with 24px gaps and a shared x=72 left edge.",
+        "composition: Move the Instagram panel boundary from y=584 to y=648 and start the offer at y=704; keep the URL bottom edge at y=1208.",
+        "originality: Replace the generic headline wrapping with three deliberate lines: “Your street,” / “one roof” / “at a time.” Align the panel boundary with the “one roof” line in landscape and its continuation below the headline in portrait, making the split express the street-to-roof idea."
+      ],
+      "polish": [
+        "Optically align the left edge of the $ glyph with the supporting text in both formats."
+      ]
+    },
+    {
+      "round": 4,
+      "by": "creative-director",
+      "axes": {
+        "hierarchy": 8,
+        "typography": 9,
+        "spacing": 9,
+        "colour": 9,
+        "composition": 9,
+        "originality": 6,
+        "brand": 9,
+        "copy": 9
+      },
+      "average": 8.5,
+      "pass": false,
+      "notes": [
+        "hierarchy: On Instagram, increase $400 from 186px to 233px and reduce the headline from 95px to 76px; retain 31px supporting text so the saving reads first.",
+        "originality: Replace the generic straight panel division with one 72px stepped junction between the two paper tones, suggesting adjoining rooflines; use the same single-step treatment in both formats without adding colours or elements."
+      ],
+      "polish": [
+        "Keep the URL and all supporting text at their current sizes and left alignments."
+      ]
+    },
+    {
+      "round": 5,
+      "by": "creative-director",
+      "axes": {
+        "hierarchy": 9,
+        "typography": 8,
+        "spacing": 8,
+        "colour": 9,
+        "composition": 8,
+        "originality": 7,
+        "brand": 9,
+        "copy": 9
+      },
+      "average": 8.38,
+      "pass": false,
+      "notes": [
+        "typography: On Instagram, set the headline to 95px and $400 to 186px, both weight 600; retain 31px supporting text.",
+        "spacing: On Instagram, move “off their quote.” up 24px to tighten the offer group; retain the URL’s current position.",
+        "composition: On LinkedIn, move the complete offer group down 32px so the introductory line has more room above it within the panel.",
+        "originality: Replace the square step in each panel boundary with one roof-shaped rise, 144px wide and 72px high, centred at x=660 on LinkedIn and x=540 on Instagram; make the dividing edge carry the roof idea."
+      ],
+      "polish": [
+        "Keep orange exclusively on $400."
+      ]
+    },
+    {
+      "round": 6,
+      "by": "creative-director",
+      "axes": {
+        "hierarchy": 9,
+        "typography": 9,
+        "spacing": 9,
+        "colour": 9,
+        "composition": 8,
+        "originality": 7,
+        "brand": 9,
+        "copy": 9
+      },
+      "average": 8.63,
+      "pass": false,
+      "notes": [
+        "composition: On LinkedIn, move the roof peak from x=660 to x=930, retaining y=72 and a 144px base at y=144; centre it over the offer panel so it reads as a roof.",
+        "originality: Replace the single roof peak with two adjoining roof profiles in the existing surface colour, using 144px and 96px widths. Carry this shared boundary into both formats to make the neighbour relationship visible."
+      ],
+      "polish": []
+    }
+  ],
+  "waitingOn": {
+    "type": "approve_under_bar",
+    "text": "Under the bar after 6 rounds. originality under 8, originality: Replace the single roof peak with two adjoining roof profiles in the existing surface colour, using 144px and 96px widths. Carry this shared boundary into both formats to make the neighbour relationship visible."
+  },
+  "cost": {
+    "director": 1.6859,
+    "senior": 0.279,
+    "builder": 0.1577,
+    "total": 2.1226,
+    "complete": true
+  },
+  "tokens": {
+    "director": 240769,
+    "senior": 258680,
+    "builder": 247599
+  },
+  "files": {
+    "final": ".desk/out/20261020-0141-linkedin-instagram-portrait-neighbour/final.html",
+    "brief": ".desk/jobs/20261020-0141-linkedin-instagram-portrait-neighbour/brief.md",
+    "handback": ".desk/out/20261020-0141-linkedin-instagram-portrait-neighbour/handback.md"
+  },
+  "pen": "senior",
+  "notes": [
+    "composition: On LinkedIn, move the roof peak from x=660 to x=930, retaining y=72 and a 144px base at y=144; centre it over the offer panel so it reads as a roof.",
+    "originality: Replace the single roof peak with two adjoining roof profiles in the existing surface colour, using 144px and 96px widths. Carry this shared boundary into both formats to make the neighbour relationship visible."
+  ],
+  "misses": {
+    "originality": 2
+  },
+  "startedAt": "2026-10-20T01:41:42-05:00",
+  "updatedAt": "2026-10-20T01:48:31-05:00",
+  "roughs": [
+    {
+      "n": 1,
+      "pattern": "Editorial split",
+      "file": ".desk/out/20261020-0141-linkedin-instagram-portrait-neighbour/rough-1.html",
+      "fonts": "Inter; runner inlines the font",
+      "written": true,
+      "renders": ".desk/jobs/20261020-0141-linkedin-instagram-portrait-neighbour/renders/roughs/rough-1"
+    },
+    {
+      "n": 2,
+      "pattern": "Full bleed with scrim",
+      "file": ".desk/out/20261020-0141-linkedin-instagram-portrait-neighbour/rough-2.html",
+      "fonts": "Inter; runner inlines font",
+      "written": true,
+      "renders": ".desk/jobs/20261020-0141-linkedin-instagram-portrait-neighbour/renders/roughs/rough-2"
+    },
+    {
+      "n": 3,
+      "pattern": "Type only",
+      "file": ".desk/out/20261020-0141-linkedin-instagram-portrait-neighbour/rough-3.html",
+      "fonts": "Inter, inlined by runner",
+      "written": true,
+      "renders": ".desk/jobs/20261020-0141-linkedin-instagram-portrait-neighbour/renders/roughs/rough-3"
+    }
+  ],
+  "lastRenders": ".desk/jobs/20261020-0141-linkedin-instagram-portrait-neighbour/renders/round-6",
+  "penNotes": [],
+  "finishedAt": "2026-10-20T01:48:31-05:00"
+}

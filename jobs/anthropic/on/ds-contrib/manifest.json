@@ -1,0 +1,25 @@
+{
+ "family": "anthropic",
+ "arm": "on",
+ "case": "ds-contrib",
+ "brand": "deskstudio",
+ "ask": "a LinkedIn card and an Instagram portrait card asking designers and developers to add a desk, one brief file and a registry line. Copy that must appear: 'Add a desk.' and 'One brief file. One registry line.' and 'deskstudio.ai'.",
+ "models": "studio preset",
+ "startedAt": "2026-10-20T07:10:10.634Z",
+ "attempts": [
+  {
+   "code": 0,
+   "seconds": 269
+  }
+ ],
+ "exit": 0,
+ "seconds": 269,
+ "jobId": "20261020-0210-linkedin-instagram-portrait-asking",
+ "phase": "done",
+ "done": true,
+ "finishedAt": "2026-10-20T07:14:39.265Z",
+ "audit": {
+  "pass": true,
+  "failures": 0
+ }
+}

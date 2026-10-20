@@ -1,0 +1,25 @@
+{
+ "family": "anthropic",
+ "arm": "on",
+ "case": "ql-launch",
+ "brand": "quill",
+ "ask": "a LinkedIn card and an Instagram portrait card for a feature launch. Copy that must appear: 'Cut it. It stays.' and 'Drafts, not versions.' and 'quill.app'.",
+ "models": "studio preset",
+ "startedAt": "2026-10-20T06:36:49.004Z",
+ "attempts": [
+  {
+   "code": 0,
+   "seconds": 294
+  }
+ ],
+ "exit": 0,
+ "seconds": 294,
+ "jobId": "20261020-0136-linkedin-instagram-portrait-feature",
+ "phase": "done",
+ "done": true,
+ "finishedAt": "2026-10-20T06:41:42.999Z",
+ "audit": {
+  "pass": true,
+  "failures": 0
+ }
+}

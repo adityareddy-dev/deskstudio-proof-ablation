@@ -1,0 +1,434 @@
+{
+  "id": "20261020-0214-linkedin-instagram-portrait-asking",
+  "command": "design",
+  "deliverable": "social-card",
+  "sizes": [
+    "linkedin",
+    "ig-post"
+  ],
+  "quality": "studio",
+  "proofMode": "off",
+  "models": {
+    "director": "openai/large",
+    "senior": "openai/mini",
+    "builder": "openai/mini"
+  },
+  "phase": "done",
+  "round": 6,
+  "maxRounds": 6,
+  "desks": [
+    {
+      "desk": "design-manager",
+      "task": "intake",
+      "status": "done",
+      "model": "openai/large",
+      "startedAt": "2026-10-20T02:14:19-05:00",
+      "updatedAt": "2026-10-20T02:14:38-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "rough 1, editorial split",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T02:14:38-05:00",
+      "updatedAt": "2026-10-20T02:15:53-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "rough 2, full bleed with scrim",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T02:14:38-05:00",
+      "updatedAt": "2026-10-20T02:16:02-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "rough 3, type only",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T02:14:38-05:00",
+      "updatedAt": "2026-10-20T02:15:49-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "art-director",
+      "task": "pick",
+      "status": "done",
+      "model": "openai/large",
+      "startedAt": "2026-10-20T02:16:06-05:00",
+      "updatedAt": "2026-10-20T02:16:19-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 1",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T02:16:19-05:00",
+      "updatedAt": "2026-10-20T02:16:41-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "creative-director",
+      "task": "sign-off round 1",
+      "status": "done",
+      "model": "openai/large",
+      "startedAt": "2026-10-20T02:16:42-05:00",
+      "updatedAt": "2026-10-20T02:17:08-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 2",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T02:17:09-05:00",
+      "updatedAt": "2026-10-20T02:17:44-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "creative-director",
+      "task": "sign-off round 2",
+      "status": "done",
+      "model": "openai/large",
+      "startedAt": "2026-10-20T02:17:45-05:00",
+      "updatedAt": "2026-10-20T02:18:09-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 3",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T02:18:09-05:00",
+      "updatedAt": "2026-10-20T02:19:06-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "creative-director",
+      "task": "sign-off round 3",
+      "status": "done",
+      "model": "openai/large",
+      "startedAt": "2026-10-20T02:19:07-05:00",
+      "updatedAt": "2026-10-20T02:19:26-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 4, escalated",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T02:19:26-05:00",
+      "updatedAt": "2026-10-20T02:19:52-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "creative-director",
+      "task": "sign-off round 4",
+      "status": "done",
+      "model": "openai/large",
+      "startedAt": "2026-10-20T02:19:53-05:00",
+      "updatedAt": "2026-10-20T02:20:09-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 5, escalated",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T02:20:09-05:00",
+      "updatedAt": "2026-10-20T02:21:03-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "creative-director",
+      "task": "sign-off round 5",
+      "status": "done",
+      "model": "openai/large",
+      "startedAt": "2026-10-20T02:21:05-05:00",
+      "updatedAt": "2026-10-20T02:21:29-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 6, escalated",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T02:21:30-05:00",
+      "updatedAt": "2026-10-20T02:21:52-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "creative-director",
+      "task": "sign-off round 6",
+      "status": "done",
+      "model": "openai/large",
+      "startedAt": "2026-10-20T02:21:54-05:00",
+      "updatedAt": "2026-10-20T02:22:22-05:00",
+      "via": "cli"
+    }
+  ],
+  "pick": {
+    "by": "art-director",
+    "rough": 3,
+    "pattern": "Type only",
+    "combineWith": null,
+    "reason": "The headline reads first at thumbnail size, and amber puts the emphasis on “desk”—the strongest brand fit with the fewest changes.",
+    "lost": "1 The desk illustration repeats the headline without adding meaning, 2 The amber frame draws attention away from the invitation.",
+    "notes": [
+      "On portrait, move deskstudio.ai to top: 1120px, keeping its left edge at 72px. This tightens the empty band below the supporting copy, following the social-card standard’s shaped-air rule.",
+      "Set deskstudio.ai to 25px in both sizes, using the brand scale and clearing the social-card standard’s 24px minimum."
+    ],
+    "at": "2026-10-20T02:16:19-05:00"
+  },
+  "proof": [
+    {
+      "round": 1,
+      "pass": null,
+      "skipped": true,
+      "failures": 0
+    },
+    {
+      "round": 2,
+      "pass": null,
+      "skipped": true,
+      "failures": 0
+    },
+    {
+      "round": 3,
+      "pass": null,
+      "skipped": true,
+      "failures": 0
+    },
+    {
+      "round": 4,
+      "pass": null,
+      "skipped": true,
+      "failures": 0
+    },
+    {
+      "round": 5,
+      "pass": null,
+      "skipped": true,
+      "failures": 0
+    },
+    {
+      "round": 6,
+      "pass": null,
+      "skipped": true,
+      "failures": 0
+    }
+  ],
+  "scores": [
+    {
+      "round": 1,
+      "by": "creative-director",
+      "axes": {
+        "hierarchy": 9,
+        "typography": 8,
+        "spacing": 8,
+        "colour": 10,
+        "composition": 8,
+        "originality": 6,
+        "brand": 9,
+        "copy": 9
+      },
+      "average": 8.38,
+      "pass": false,
+      "notes": [
+        "typography: Reduce headline weight to 600 in both formats; retain body weight 400 and the 25px URL.",
+        "spacing: On portrait, move supporting copy up 32px to tighten its relationship with the headline; retain the URL at x72, y1120.",
+        "composition: On landscape, set “Add a desk.” on one line at 186px, starting at x72; place supporting copy at y352 to give the wide canvas a deliberate horizontal structure.",
+        "originality: Replace the default stacked supporting block with two contribution steps: “One brief file.” and “One registry line.” Align the first at x72 and indent the second by 96px in both formats; preserve the exact words and single amber emphasis."
+      ],
+      "polish": [
+        "Align the visible left edge of the headline optically with the supporting copy at x72."
+      ]
+    },
+    {
+      "round": 2,
+      "by": "creative-director",
+      "axes": {
+        "hierarchy": 9,
+        "typography": 9,
+        "spacing": 8,
+        "colour": 10,
+        "composition": 8,
+        "originality": 6,
+        "brand": 9,
+        "copy": 9
+      },
+      "average": 8.5,
+      "pass": false,
+      "notes": [
+        "spacing: Align “One registry line.” at x72 in both formats; remove the 96px indent so the supporting copy reads as one block.",
+        "composition: Move the portrait URL from y1120 to y1040, reducing the roughly 420px empty band after the supporting copy to 340px.",
+        "originality: Replace the conventional headline-plus-caption arrangement with one deliberate typographic relationship: align “One registry line.” beneath the start of amber “desk.” in landscape, and repeat that alignment beneath “desk.” in portrait. Keep three sizes and one accent."
+      ],
+      "polish": []
+    },
+    {
+      "round": 3,
+      "by": "creative-director",
+      "axes": {
+        "hierarchy": 9,
+        "typography": 8,
+        "spacing": 8,
+        "colour": 10,
+        "composition": 8,
+        "originality": 6,
+        "brand": 9,
+        "copy": 9
+      },
+      "average": 8.38,
+      "pass": false,
+      "notes": [
+        "typography: Set both headlines to weight 600; retain the current sizes and portrait’s two-line break.",
+        "spacing: On LinkedIn, place both supporting phrases at top 360px, with left edges at 72px and 592px; remove the 56px vertical stagger.",
+        "composition: On portrait, place deskstudio.ai at top 1120px and left 72px as requested at the pick; retain its 25px size.",
+        "originality: Make the two contribution steps a deliberate paired structure: on LinkedIn, align “One registry line.” beneath “desk.” at left 592px; on portrait, indent that phrase to left 144px while keeping “One brief file.” at 72px. Carry this single structural move across both formats."
+      ],
+      "polish": [
+        "None."
+      ]
+    },
+    {
+      "round": 4,
+      "by": "creative-director",
+      "axes": {
+        "hierarchy": 9,
+        "typography": 9,
+        "spacing": 8,
+        "colour": 10,
+        "composition": 8,
+        "originality": 6,
+        "brand": 9,
+        "copy": 9
+      },
+      "average": 8.5,
+      "pass": false,
+      "notes": [
+        "spacing: On portrait, move “One registry line.” from x144 to x72; align both supporting lines with the headline and URL.",
+        "composition: On portrait, move the URL from y1120 to y1040, reducing the roughly 420px empty band below the supporting copy by 80px.",
+        "originality: Rework the headline arrangement into 2 contribution columns on landscape: “Add a” above “One brief file.” and “desk.” above “One registry line.” Stack those same 2 groups on portrait; retain amber on “desk.” only."
+      ],
+      "polish": [
+        "Preserve the 25px URL size in both formats."
+      ]
+    },
+    {
+      "round": 5,
+      "by": "creative-director",
+      "axes": {
+        "hierarchy": 8,
+        "typography": 8,
+        "spacing": 7,
+        "colour": 10,
+        "composition": 7,
+        "originality": 6,
+        "brand": 9,
+        "copy": 9
+      },
+      "average": 8,
+      "pass": false,
+      "notes": [
+        "hierarchy: On portrait, keep “Add a” and “desk.” consecutive; move both supporting sentences below the complete headline.",
+        "typography: Set portrait headline leading to 1.0; retain 600 headline weight, 400 body weight, and the 25px URL.",
+        "spacing: On portrait, place the supporting copy 32px below the headline, with both sentences on consecutive lines.",
+        "composition: Move the portrait URL to top: 960px, left: 72px; keep the empty band above it below 450px. Do not apply the pick’s 1120px position.",
+        "originality: Build a deliberate two-column relationship on landscape: align “One brief file.” beneath “Add” at x: 72px and “One registry line.” beneath “desk.” at x: 592px; raise both to top: 280px so the words and their supporting clauses form one typographic structure."
+      ],
+      "polish": [
+        "Keep the single amber emphasis on “desk.” in both sizes."
+      ]
+    },
+    {
+      "round": 6,
+      "by": "creative-director",
+      "axes": {
+        "hierarchy": 9,
+        "typography": 8,
+        "spacing": 8,
+        "colour": 10,
+        "composition": 8,
+        "originality": 6,
+        "brand": 9,
+        "copy": 9
+      },
+      "average": 8.38,
+      "pass": false,
+      "notes": [
+        "typography: Reduce the portrait headline’s interline gap by 8px; retain the 186px headline, 49px supporting copy and 25px URL.",
+        "spacing: Move the portrait URL from approximately y=968px to y=1000px, keeping x=72px; balance the two surrounding empty bands without exceeding 450px.",
+        "composition: On landscape, align the second supporting phrase with the amber word at approximately x=592px; move it down 16px to introduce a deliberate step.",
+        "originality: Develop 1 bespoke typographic relationship across both formats: pair “Add a” with “One brief file.” and “desk.” with “One registry line.” Preserve the wording and reading order; the current oversized headline above supporting copy remains a standard template arrangement."
+      ],
+      "polish": [
+        "Keep the single amber emphasis and the uninterrupted near-black background."
+      ]
+    }
+  ],
+  "waitingOn": {
+    "type": "approve_under_bar",
+    "text": "Under the bar after 6 rounds. originality under 8, originality: Develop 1 bespoke typographic relationship across both formats: pair “Add a” with “One brief file.” and “desk.” with “One registry line.” Preserve the wording and reading order; the current oversized headline above supporting copy remains a standard template arrangement."
+  },
+  "cost": {
+    "director": 1.3521,
+    "senior": 0.2386,
+    "builder": 0.1096,
+    "total": 1.7003,
+    "complete": true
+  },
+  "tokens": {
+    "director": 272968,
+    "senior": 209277,
+    "builder": 183393
+  },
+  "files": {
+    "final": ".desk/out/20261020-0214-linkedin-instagram-portrait-asking/final.html",
+    "brief": ".desk/jobs/20261020-0214-linkedin-instagram-portrait-asking/brief.md",
+    "handback": ".desk/out/20261020-0214-linkedin-instagram-portrait-asking/handback.md"
+  },
+  "pen": "art-director",
+  "notes": [
+    "typography: Reduce the portrait headline’s interline gap by 8px; retain the 186px headline, 49px supporting copy and 25px URL.",
+    "spacing: Move the portrait URL from approximately y=968px to y=1000px, keeping x=72px; balance the two surrounding empty bands without exceeding 450px.",
+    "composition: On landscape, align the second supporting phrase with the amber word at approximately x=592px; move it down 16px to introduce a deliberate step.",
+    "originality: Develop 1 bespoke typographic relationship across both formats: pair “Add a” with “One brief file.” and “desk.” with “One registry line.” Preserve the wording and reading order; the current oversized headline above supporting copy remains a standard template arrangement."
+  ],
+  "misses": {},
+  "startedAt": "2026-10-20T02:14:18-05:00",
+  "updatedAt": "2026-10-20T02:22:22-05:00",
+  "roughs": [
+    {
+      "n": 1,
+      "pattern": "Editorial split",
+      "file": ".desk/out/20261020-0214-linkedin-instagram-portrait-asking/rough-1.html",
+      "fonts": "Geist; runner inlines brand font, no fallback used",
+      "written": true,
+      "renders": ".desk/jobs/20261020-0214-linkedin-instagram-portrait-asking/renders/roughs/rough-1"
+    },
+    {
+      "n": 2,
+      "pattern": "Full bleed with scrim",
+      "file": ".desk/out/20261020-0214-linkedin-instagram-portrait-asking/rough-2.html",
+      "fonts": "Geist; runner inlined, no fallback used",
+      "written": true,
+      "renders": ".desk/jobs/20261020-0214-linkedin-instagram-portrait-asking/renders/roughs/rough-2"
+    },
+    {
+      "n": 3,
+      "pattern": "Type only",
+      "file": ".desk/out/20261020-0214-linkedin-instagram-portrait-asking/rough-3.html",
+      "fonts": "Geist; runner inlines brand font",
+      "written": true,
+      "renders": ".desk/jobs/20261020-0214-linkedin-instagram-portrait-asking/renders/roughs/rough-3"
+    }
+  ],
+  "lastRenders": ".desk/jobs/20261020-0214-linkedin-instagram-portrait-asking/renders/round-6",
+  "penNotes": [],
+  "finishedAt": "2026-10-20T02:22:22-05:00"
+}

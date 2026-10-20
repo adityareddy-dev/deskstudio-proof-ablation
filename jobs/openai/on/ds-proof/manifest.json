@@ -1,0 +1,26 @@
+{
+ "family": "openai",
+ "arm": "on",
+ "case": "ds-proof",
+ "brand": "deskstudio",
+ "ask": "a LinkedIn card and an Instagram portrait card about proof on real pixels, every render checked before sign-off. Copy that must appear: 'Checked on real pixels.' and 'Overflow, contrast, safe zone, every round.' and 'deskstudio.ai'.",
+ "models": "director=openai/large,senior=openai/mini,builder=openai/mini",
+ "startedAt": "2026-10-20T07:19:35.189Z",
+ "attempts": [
+  {
+   "code": 4,
+   "seconds": 357
+  }
+ ],
+ "exit": 4,
+ "seconds": 357,
+ "jobId": "20261020-0219-linkedin-instagram-portrait-proof",
+ "phase": "done",
+ "failed": false,
+ "done": true,
+ "finishedAt": "2026-10-20T07:25:32.236Z",
+ "audit": {
+  "pass": false,
+  "failures": 6
+ }
+}

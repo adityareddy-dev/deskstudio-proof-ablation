@@ -1,0 +1,451 @@
+{
+  "id": "20261020-0201-linkedin-instagram-portrait-open",
+  "command": "design",
+  "deliverable": "social-card",
+  "sizes": [
+    "linkedin",
+    "ig-post"
+  ],
+  "quality": "studio",
+  "proofMode": "off",
+  "models": {
+    "director": "anthropic/opus",
+    "senior": "anthropic/sonnet",
+    "builder": "anthropic/haiku"
+  },
+  "phase": "done",
+  "round": 6,
+  "maxRounds": 6,
+  "desks": [
+    {
+      "desk": "design-manager",
+      "task": "intake",
+      "status": "done",
+      "model": "anthropic/opus",
+      "startedAt": "2026-10-20T02:01:42-05:00",
+      "updatedAt": "2026-10-20T02:01:58-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "rough 1, editorial split",
+      "status": "done",
+      "model": "anthropic/sonnet",
+      "startedAt": "2026-10-20T02:01:58-05:00",
+      "updatedAt": "2026-10-20T02:02:27-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "rough 2, full bleed with scrim",
+      "status": "done",
+      "model": "anthropic/sonnet",
+      "startedAt": "2026-10-20T02:01:58-05:00",
+      "updatedAt": "2026-10-20T02:02:37-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "rough 3, type only",
+      "status": "done",
+      "model": "anthropic/sonnet",
+      "startedAt": "2026-10-20T02:01:58-05:00",
+      "updatedAt": "2026-10-20T02:02:21-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "art-director",
+      "task": "pick",
+      "status": "done",
+      "model": "anthropic/opus",
+      "startedAt": "2026-10-20T02:02:41-05:00",
+      "updatedAt": "2026-10-20T02:03:09-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 1",
+      "status": "done",
+      "model": "anthropic/haiku",
+      "startedAt": "2026-10-20T02:03:09-05:00",
+      "updatedAt": "2026-10-20T02:04:01-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "creative-director",
+      "task": "sign-off round 1",
+      "status": "done",
+      "model": "anthropic/opus",
+      "startedAt": "2026-10-20T02:04:02-05:00",
+      "updatedAt": "2026-10-20T02:04:57-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 2",
+      "status": "done",
+      "model": "anthropic/haiku",
+      "startedAt": "2026-10-20T02:04:57-05:00",
+      "updatedAt": "2026-10-20T02:05:47-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "creative-director",
+      "task": "sign-off round 2",
+      "status": "done",
+      "model": "anthropic/opus",
+      "startedAt": "2026-10-20T02:05:48-05:00",
+      "updatedAt": "2026-10-20T02:06:18-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 3",
+      "status": "done",
+      "model": "anthropic/haiku",
+      "startedAt": "2026-10-20T02:06:18-05:00",
+      "updatedAt": "2026-10-20T02:06:47-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "creative-director",
+      "task": "sign-off round 3",
+      "status": "done",
+      "model": "anthropic/opus",
+      "startedAt": "2026-10-20T02:06:49-05:00",
+      "updatedAt": "2026-10-20T02:07:21-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 4, escalated",
+      "status": "done",
+      "model": "anthropic/sonnet",
+      "startedAt": "2026-10-20T02:07:21-05:00",
+      "updatedAt": "2026-10-20T02:07:41-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "creative-director",
+      "task": "sign-off round 4",
+      "status": "done",
+      "model": "anthropic/opus",
+      "startedAt": "2026-10-20T02:07:42-05:00",
+      "updatedAt": "2026-10-20T02:08:38-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 5, escalated",
+      "status": "done",
+      "model": "anthropic/sonnet",
+      "startedAt": "2026-10-20T02:08:38-05:00",
+      "updatedAt": "2026-10-20T02:08:58-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "creative-director",
+      "task": "sign-off round 5",
+      "status": "done",
+      "model": "anthropic/opus",
+      "startedAt": "2026-10-20T02:09:00-05:00",
+      "updatedAt": "2026-10-20T02:09:36-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 6, escalated",
+      "status": "done",
+      "model": "anthropic/sonnet",
+      "startedAt": "2026-10-20T02:09:36-05:00",
+      "updatedAt": "2026-10-20T02:09:55-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "creative-director",
+      "task": "sign-off round 6",
+      "status": "done",
+      "model": "anthropic/opus",
+      "startedAt": "2026-10-20T02:09:57-05:00",
+      "updatedAt": "2026-10-20T02:10:47-05:00",
+      "via": "cli"
+    }
+  ],
+  "pick": {
+    "by": "art-director",
+    "rough": 3,
+    "pattern": "Type only",
+    "combineWith": null,
+    "reason": "The headline is the image, white on black with red on the \"8\" only. It reads in two seconds at both sizes, sits squarely in the Ferro brand, and needs the fewest fixes.",
+    "lost": "1 shows the date twice, orphans \"8.\" on its own line on linkedin, and leaves the ig-post figure small in a grey band; 2 turns a third of the canvas into a black L-frame that fights the white-background rule and adds a box inside a box.",
+    "notes": [
+      "ig-post: the empty band between the headline (ends about 650px) and the supporting line (starts about 1105px) is about 455px, more than a third of 1350. Move the bottom group up so the supporting line's top sits at 1000px and the mark sits 24px under it. The band becomes about 350px. The bottom margin grows past 10%, which is fine because the platform UI covers that area. (Standard: owns the whole canvas.)",
+      "ig-post: change the supporting line from about 36px to 39px, line height 1.3, so it carries its half of the canvas against a headline of about 119px. Keep the headline at 119px with line height 1.0 and tracking -0.02em.",
+      "linkedin: set the supporting line to 31px and the mark to 25px, both on the brand scale. That gives three sizes in total: headline about 95px, 31px and 25px. (Standard: three sizes, nothing readable under 24px.)",
+      "linkedin: change the gap between the headline and the supporting line to 64px, and the gap between the supporting line and the mark to 24px. Keep the bottom group pinned 40px from the bottom edge. Every gap stays on the 8px grid.",
+      "Both sizes: set the headline's top padding to 48px on linkedin and 88px on ig-post, both 8px-grid values at or above the 6% safe zone. Set the left padding to 72px on linkedin and 64px on ig-post so the headline, supporting line and mark share one left column."
+    ],
+    "at": "2026-10-20T02:03:09-05:00"
+  },
+  "proof": [
+    {
+      "round": 1,
+      "pass": null,
+      "skipped": true,
+      "failures": 0
+    },
+    {
+      "round": 2,
+      "pass": null,
+      "skipped": true,
+      "failures": 0
+    },
+    {
+      "round": 3,
+      "pass": null,
+      "skipped": true,
+      "failures": 0
+    },
+    {
+      "round": 4,
+      "pass": null,
+      "skipped": true,
+      "failures": 0
+    },
+    {
+      "round": 5,
+      "pass": null,
+      "skipped": true,
+      "failures": 0
+    },
+    {
+      "round": 6,
+      "pass": null,
+      "skipped": true,
+      "failures": 0
+    }
+  ],
+  "scores": [
+    {
+      "round": 1,
+      "by": "creative-director",
+      "axes": {
+        "hierarchy": 9,
+        "typography": 7,
+        "spacing": 7,
+        "colour": 9,
+        "composition": 7,
+        "originality": 7,
+        "brand": 9,
+        "copy": 9
+      },
+      "average": 8,
+      "pass": false,
+      "notes": [
+        "typography: linkedin, re-break the headline to two lines, \"Open workshop.\" / \"Saturday November 8.\", at 95px, line height 1.0, tracking -0.02em. Use a span set to display:block on \"Saturday November 8.\" in the linkedin query only, so it ends near x=1060 and the right 35% stops being empty. Set the linkedin supporting line from about 28px to 31px and the mark from about 22px to 25px. On ig-post, set the supporting line from about 36px to 39px with line height 1.3, and the mark from about 28px to 39px in #737373, so the card keeps three sizes in total.",
+        "spacing: linkedin, set top padding to 48px and left padding to 72px. Pin the bottom group so the mark's box ends 40px from the bottom edge, with 24px between the supporting line and the mark. It now floats with about 125px under it against 55px on top. On ig-post, set top padding to 88px and left padding to 64px. Raise the bottom group so the mark's box ends at y=1215, which is 135px or 10% from the bottom, down from about 245px now. Keep 24px between the supporting line and the mark.",
+        "composition: ig-post, the band from the headline's end (about 550px) to the supporting line (about 1005px) is about 455px, over a third of 1350. With the originality change below, the headline block runs from 88 to about 678px. Put the supporting line's top at 1048px so the band drops to about 370px (27%).",
+        "originality: ig-post, make the date the image. Break the headline as \"Open workshop.\" / \"Saturday\" / \"November\" / \"8.\". Set the first three lines at 119px and \"8.\" alone at 233px in #e5173f (the period stays #0a0a0a), all at line height 1.0 and tracking -0.02em. A type-only card with a red digit at headline size is the first layout anyone makes, and a 233px \"8.\" is the move only Ferro would make."
+      ],
+      "polish": [
+        "linkedin and ig-post: pull the headline 4px left so the bowl of the \"O\" aligns optically with the \"B\" of the supporting line and the \"f\" of the mark."
+      ]
+    },
+    {
+      "round": 2,
+      "by": "creative-director",
+      "axes": {
+        "hierarchy": 8,
+        "typography": 7,
+        "spacing": 7,
+        "colour": 9,
+        "composition": 7,
+        "originality": 7,
+        "brand": 9,
+        "copy": 9
+      },
+      "average": 7.88,
+      "pass": false,
+      "notes": [
+        "composition: ig-post still has a 455px empty band between the headline (ends about 645px) and the supporting line (starts about 1100px), which is over a third of 1350. The round-1 pick notes were not applied. Set \"8.\" as the date figure at 233px, weight 700, line height 0.9, tracking -0.03em, on its own line 16px under \"November\". Then move the supporting line's top to 960px. The remaining band should be about 280px.",
+        "typography: on ig-post the \".\" after the red 8 renders at headline size and sits as a small black square beside a much larger figure. Set the period at 233px with the 8, on the same baseline, in #0a0a0a.",
+        "typography: ig-post must stay at three sizes. Use headline 119px, figure 233px, and 39px for both the supporting line (#0a0a0a, line height 1.3) and the mark (#737373), with the mark 24px under the supporting line.",
+        "typography: linkedin should be headline 95px, supporting line 31px and mark 25px. The mark currently reads at about 24px and the supporting line at about 28px. Set both exactly and keep the mark 40px from the bottom edge.",
+        "spacing: linkedin leaves about 265px between the headline (ends about 230px) and the supporting line (top about 495px). Raise the headline's top padding to 56px. Pin the bottom group 40px from the bottom with a 24px gap between the supporting line and the mark. Every value stays on the 8px grid.",
+        "originality: the oversized red 8 is the one move a template would not make, so commit to it on ig-post as described above. On linkedin, keep \"8\" at headline size in red. Do not add a second figure.",
+        "brand: the mark is black on linkedin and grey on ig-post. Set it to #737373 on both sizes so the mark reads as the brand's secondary voice in one consistent colour."
+      ],
+      "polish": [
+        "Tighten the ig-post headline line height from 1.0 to 0.95 so \"Saturday\" and \"November\" lock into one block above the figure."
+      ]
+    },
+    {
+      "round": 3,
+      "by": "creative-director",
+      "axes": {
+        "hierarchy": 9,
+        "typography": 7,
+        "spacing": 8,
+        "colour": 9,
+        "composition": 7,
+        "originality": 8,
+        "brand": 9,
+        "copy": 9
+      },
+      "average": 8.25,
+      "pass": false,
+      "notes": [
+        "typography: ig-post uses four sizes: the headline at about 119px, the \"8.\" at about 186px, the supporting line at 39px and the mark at about 31px. Keep the \"8.\" at 186px as the card's one extra element. Set the mark to 39px, the same size as the supporting line, so there are three sizes: 186, 119 and 39. Keep the mark #737373 at 400 so it still reads as secondary.",
+        "composition: linkedin has an empty band about 255px tall (41% of 627) between the end of the headline (about 240px) and the supporting line (about 495px). Nothing shapes it. Set the headline to 108px, line height 1.0, tracking -0.02em, and break it into three lines: \"Open workshop.\" / \"Saturday November\" / \"8.\". Keep the top padding at 48px and the left padding at 72px. Place the supporting line 48px under the headline and the mark 24px under the supporting line, and let the bottom margin land at 40px or more. \"Saturday November\" must end inside x=1128.",
+        "spacing: ig-post's bottom group ends at about 1075px, which leaves 275px (20%) of leftover space below the mark. Move the supporting line's top to 1040px and keep the mark 24px under it. This brings the bottom margin to about 10–15%, and the band under the \"8.\" stays below 450px. Keep all values on the 8px grid.",
+        "originality: the linkedin layout is the first one anyone would make, while ig-post has the large red \"8\" move. Carry that move to linkedin by putting \"8.\" on its own line as the third headline line, as in the composition note, so both sizes share one idea."
+      ],
+      "polish": [
+        "\"8.\" on ig-post: optically align the 8's left edge to the left edge of the \"O\" in \"Open\". It currently sits about 4px right of the column, so shift it -4px."
+      ]
+    },
+    {
+      "round": 4,
+      "by": "creative-director",
+      "axes": {
+        "hierarchy": 8,
+        "typography": 7,
+        "spacing": 7,
+        "colour": 9,
+        "composition": 7,
+        "originality": 7,
+        "brand": 9,
+        "copy": 9
+      },
+      "average": 7.88,
+      "pass": false,
+      "notes": [
+        "typography: The date breaks across lines on both sizes, which leaves \"8.\" widowed on its own line. Force the break so the headline reads \"Open workshop. / Saturday November\" on linkedin and \"Open workshop. / Saturday / November\" on ig-post, both 700 at -0.02em with line height 1.0. Then set \"8.\" as its own block at 233px, line height 1.0, with the red on \"8\" only and the period in #0a0a0a.",
+        "typography: On ig-post the \"8\" currently sits at about 170px, an off-scale bump with a small period at the baseline. Replace it with the 233px block above. On ig-post that gives three sizes: 119, 233 and 39 (supporting line and mark both at 39).",
+        "typography: The linkedin mark renders at about 22px, under the 24px floor. Set it to 31px, the same size as the supporting line, in #737373 at weight 400. That gives three sizes: 95, 233 and 31.",
+        "composition: On ig-post, place the 233px \"8.\" directly under \"November\", 16px below it, left edge at 64px. The figure ends around 700px. With the supporting line's top at 1000px, the band shrinks from about 436px to about 300px, and the date figure becomes the brief's one extra element instead of leftover air.",
+        "composition: On linkedin, move \"8.\" into the right column, right edge at 1128px and baseline at 587px, so the figure carries the right 30% and the type carries the left. This uses the landscape ratio as an editorial split instead of a three-line stack.",
+        "spacing: The AD's notes 1 and 4 were not applied. On ig-post the supporting line's top is about 1048px; move it to 1000px with the mark 24px under it. On linkedin about 115px sits empty below the mark; pin the bottom group's last line 40px from the bottom edge, with 24px between the supporting line and the mark. Keep the left column at 72px on linkedin and 64px on ig-post.",
+        "originality: The stacked headline with one red digit is the first type-only layout anyone would make. The 233px \"8.\" as the image (right column on linkedin, own line on ig-post) is the move that makes it Ferro's. Keep the period as a hard black square at that size.",
+        "hierarchy: Once the figure is in, the eye path is \"8\" first, headline second, supporting line third and mark last. Keep the supporting line in #0a0a0a and the mark in #737373 so the last two never read at the same level."
+      ],
+      "polish": [
+        "After the figure lands, check that the \"8\" on linkedin optically aligns its cap top with the top of \"Open\" at 48px."
+      ]
+    },
+    {
+      "round": 5,
+      "by": "creative-director",
+      "axes": {
+        "hierarchy": 5,
+        "typography": 5,
+        "spacing": 6,
+        "colour": 8,
+        "composition": 5,
+        "originality": 7,
+        "brand": 7,
+        "copy": 8
+      },
+      "average": 6.38,
+      "pass": false,
+      "notes": [
+        "hierarchy: on linkedin, take the red \"8\" out of its absolute position. It sits on top of \"workshop.\" and \"November\" and hides \"p.\" and \"mb\". Set it inline as the last word of the headline, in the headline's flow, so the line reads \"November 8.\" with no overlap at 1200x627.",
+        "typography: on linkedin, set the headline at 95px, weight 700, line height 1.0, tracking -0.02em, on 3 lines: \"Open workshop.\" / \"Saturday\" / \"November 8.\". Set the \"8\" at 95px in #e5173f with the period in #0a0a0a. Then the only sizes are 95, 31 and 25.",
+        "spacing: on linkedin, use 72px left padding and 48px top padding. The headline then ends near 333px. Pin the mark's bottom 40px from the bottom edge, put the supporting line 24px above the mark, and keep every gap on the 8px grid. On ig-post, set the supporting line to 39px with line height 1.3, and keep its top at 1000px and the mark 24px under it.",
+        "colour: keep red on the \"8\" alone at both sizes. Set the trailing period to #0a0a0a at the same size as the \"8\". On linkedin it now floats over \"mb\" as a loose black square at mid-cap height. Move it to the \"8\"'s baseline.",
+        "composition: linkedin fails because of the collision and the 250px dead band under a 2-line headline. The 3-line, 95px headline in the typography note fills the top 55%. On ig-post, keep the 4-line stack with the large \"8.\" on its own line. Move the bottom group up 40px so the band under the \"8\" is 300px or less (22% of 1350).",
+        "originality: the oversized red \"8\" on its own line on ig-post is the move, so keep it at 233px there. On linkedin, carry the same idea at 95px. Do not try an overlap gimmick again.",
+        "brand: Geist 700 and 400 and the black, white and red palette are correct. Make sure the mark \"ferro.tools\" is #737373 at 25px on linkedin and 31px on ig-post, never larger than the supporting line.",
+        "copy: keep all three lines verbatim. On linkedin the headline currently reads \"Open worksho… Saturday Novemb…\" because the 8 covers it. Once the \"8.\" moves into the headline flow, \"Saturday November 8.\" reads as one phrase."
+      ],
+      "polish": [
+        "ig-post: tighten the gap between \"November\" and \"8.\" from about 50px to 24px so the date reads as one unit."
+      ]
+    },
+    {
+      "round": 6,
+      "by": "creative-director",
+      "axes": {
+        "hierarchy": 9,
+        "typography": 7,
+        "spacing": 8,
+        "colour": 9,
+        "composition": 8,
+        "originality": 8,
+        "brand": 9,
+        "copy": 9
+      },
+      "average": 8.38,
+      "pass": false,
+      "notes": [
+        "typography: ig-post has four sizes on screen: the \"8.\" figure at about 233px, the headline at 119px, the supporting line at 39px and the mark at 31px. Set the mark to 39px in #737373 so the scale is 233/119/39. Leave linkedin at 95/31/25.",
+        "spacing: ig-post leaves about 240px under the mark, so the bottom group floats. Pin the mark's bottom 136px from the bottom edge (the 10% safe zone, on the 8px grid) and keep the supporting line 24px above it. The band from the \"8\" to the supporting line becomes about 390px, still under a third of 1350.",
+        "composition: on linkedin the headline stops at about 60% of the width and leaves the right side empty. Raise the headline from 95px to 119px, keeping three lines, 48px top padding and 72px left padding. Keep the bottom group pinned 40px from the bottom edge. The gap to the supporting line becomes about 88px.",
+        "originality: on ig-post the \"8.\" reads as a separate block. Cut the gap between the \"November\" baseline and the top of the \"8\" from about 60px to 24px so the figure closes the sentence."
+      ],
+      "polish": [
+        "ig-post: move the square period after the \"8\" to sit on the 8's baseline, flush to its right side bearing with 8px space."
+      ]
+    }
+  ],
+  "waitingOn": {
+    "type": "approve_under_bar",
+    "text": "Under the bar after 6 rounds. typography under 8, typography: ig-post has four sizes on screen: the \"8.\" figure at about 233px, the headline at 119px, the supporting line at 39px and the mark at 31px. Set the mark to 39px in #737373 so the scale is 233/119/39. Leave linkedin at 95/31/25."
+  },
+  "cost": {
+    "director": 1.1276,
+    "senior": 0.3708,
+    "builder": 0.021,
+    "total": 1.5194,
+    "complete": true
+  },
+  "tokens": {
+    "director": 142916,
+    "senior": 127941,
+    "builder": 118397
+  },
+  "files": {
+    "final": ".desk/out/20261020-0201-linkedin-instagram-portrait-open/final.html",
+    "brief": ".desk/jobs/20261020-0201-linkedin-instagram-portrait-open/brief.md",
+    "handback": ".desk/out/20261020-0201-linkedin-instagram-portrait-open/handback.md"
+  },
+  "pen": "art-director",
+  "notes": [
+    "typography: ig-post has four sizes on screen: the \"8.\" figure at about 233px, the headline at 119px, the supporting line at 39px and the mark at 31px. Set the mark to 39px in #737373 so the scale is 233/119/39. Leave linkedin at 95/31/25.",
+    "spacing: ig-post leaves about 240px under the mark, so the bottom group floats. Pin the mark's bottom 136px from the bottom edge (the 10% safe zone, on the 8px grid) and keep the supporting line 24px above it. The band from the \"8\" to the supporting line becomes about 390px, still under a third of 1350.",
+    "composition: on linkedin the headline stops at about 60% of the width and leaves the right side empty. Raise the headline from 95px to 119px, keeping three lines, 48px top padding and 72px left padding. Keep the bottom group pinned 40px from the bottom edge. The gap to the supporting line becomes about 88px.",
+    "originality: on ig-post the \"8.\" reads as a separate block. Cut the gap between the \"November\" baseline and the top of the \"8\" from about 60px to 24px so the figure closes the sentence."
+  ],
+  "misses": {},
+  "startedAt": "2026-10-20T02:01:42-05:00",
+  "updatedAt": "2026-10-20T02:10:47-05:00",
+  "roughs": [
+    {
+      "n": 1,
+      "pattern": "Editorial split",
+      "file": ".desk/out/20261020-0201-linkedin-instagram-portrait-open/rough-1.html",
+      "fonts": "Geist, inlined by the runner, not a fallback",
+      "written": true,
+      "renders": ".desk/jobs/20261020-0201-linkedin-instagram-portrait-open/renders/roughs/rough-1"
+    },
+    {
+      "n": 2,
+      "pattern": "Full bleed with scrim",
+      "file": ".desk/out/20261020-0201-linkedin-instagram-portrait-open/rough-2.html",
+      "fonts": "Geist (brand family, inlined by runner, not a fallback)",
+      "written": true,
+      "renders": ".desk/jobs/20261020-0201-linkedin-instagram-portrait-open/renders/roughs/rough-2"
+    },
+    {
+      "n": 3,
+      "pattern": "Type only",
+      "file": ".desk/out/20261020-0201-linkedin-instagram-portrait-open/rough-3.html",
+      "fonts": "Geist (inlined by runner), not a fallback",
+      "written": true,
+      "renders": ".desk/jobs/20261020-0201-linkedin-instagram-portrait-open/renders/roughs/rough-3"
+    }
+  ],
+  "lastRenders": ".desk/jobs/20261020-0201-linkedin-instagram-portrait-open/renders/round-6",
+  "penNotes": [],
+  "finishedAt": "2026-10-20T02:10:47-05:00"
+}

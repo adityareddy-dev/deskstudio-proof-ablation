@@ -1,0 +1,219 @@
+{
+  "id": "20261020-0152-linkedin-instagram-portrait-faster",
+  "command": "design",
+  "deliverable": "social-card",
+  "sizes": [
+    "linkedin",
+    "ig-post"
+  ],
+  "quality": "studio",
+  "proofMode": "on",
+  "models": {
+    "director": "anthropic/opus",
+    "senior": "anthropic/sonnet",
+    "builder": "anthropic/haiku"
+  },
+  "phase": "done",
+  "round": 3,
+  "maxRounds": 6,
+  "desks": [
+    {
+      "desk": "design-manager",
+      "task": "intake",
+      "status": "done",
+      "model": "anthropic/opus",
+      "startedAt": "2026-10-20T01:52:05-05:00",
+      "updatedAt": "2026-10-20T01:52:21-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "rough 1, editorial split",
+      "status": "done",
+      "model": "anthropic/sonnet",
+      "startedAt": "2026-10-20T01:52:21-05:00",
+      "updatedAt": "2026-10-20T01:52:47-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "rough 2, full bleed with scrim",
+      "status": "done",
+      "model": "anthropic/sonnet",
+      "startedAt": "2026-10-20T01:52:21-05:00",
+      "updatedAt": "2026-10-20T01:52:44-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "rough 3, type only",
+      "status": "done",
+      "model": "anthropic/sonnet",
+      "startedAt": "2026-10-20T01:52:21-05:00",
+      "updatedAt": "2026-10-20T01:52:53-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "art-director",
+      "task": "pick",
+      "status": "done",
+      "model": "anthropic/opus",
+      "startedAt": "2026-10-20T01:52:57-05:00",
+      "updatedAt": "2026-10-20T01:53:20-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 1",
+      "status": "done",
+      "model": "anthropic/haiku",
+      "startedAt": "2026-10-20T01:53:20-05:00",
+      "updatedAt": "2026-10-20T01:53:42-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 2",
+      "status": "done",
+      "model": "anthropic/haiku",
+      "startedAt": "2026-10-20T01:53:44-05:00",
+      "updatedAt": "2026-10-20T01:54:10-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 3",
+      "status": "done",
+      "model": "anthropic/haiku",
+      "startedAt": "2026-10-20T01:54:12-05:00",
+      "updatedAt": "2026-10-20T01:54:30-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "creative-director",
+      "task": "sign-off round 3",
+      "status": "done",
+      "model": "anthropic/opus",
+      "startedAt": "2026-10-20T01:54:32-05:00",
+      "updatedAt": "2026-10-20T01:55:15-05:00",
+      "via": "cli"
+    }
+  ],
+  "pick": {
+    "by": "art-director",
+    "rough": 3,
+    "pattern": "Type only",
+    "combineWith": null,
+    "reason": "It's the only rough where the type does the work. The red figure reads first at thumbnail size on both sizes, it stays on white, black and one red as the brand requires, and it needs the fewest notes to reach the bar.",
+    "lost": "1 has a black right half and a dark lower half that break the white-background brand, and its 2 type sizes are too close, so the headline has no weight; 2 puts the whole card on black and boxes the copy inside a box, which is off brand and a last resort under house style, and the empty white box on ig-post shows nothing owns the canvas.",
+    "notes": [
+      "ig-post only: move \"Swap it in ten minutes.\" up so its top sits 56px under the baseline of \"made.\" (about y=700). The headline and supporting line then read as one block. Keep `ferro.tools` where it is, bottom left at x=65, on the 10% bottom safe line (baseline no lower than y=1215). This shrinks the empty band from about 460px to under 450px (one third of 1350). The standard says \"Owns the whole canvas\": the bottom group rises to meet the headline.",
+      "ig-post only: keep the headline at 149px, line height 1.0, letter spacing -0.02em. Don't grow it. \"24,000 rpm.\" already spans about 850 of the 950px column, and it must stay at 4 lines.",
+      "Both sizes: check the headline letter spacing is -0.02em and the supporting line's line height is 1.3. Keep exactly three sizes per artboard: linkedin 95 / 31 / 20, ig-post 149 / 39 / 20. Every size must sit on the brand scale.",
+      "Both sizes: `ferro.tools` stays 20px at weight 700 in #0a0a0a, left-aligned on the same x as the headline. Red stays on \"24,000 rpm.\" only. Leave everything else on linkedin as it is."
+    ],
+    "at": "2026-10-20T01:53:20-05:00"
+  },
+  "proof": [
+    {
+      "round": 1,
+      "pass": false,
+      "failures": 11
+    },
+    {
+      "round": 2,
+      "pass": false,
+      "failures": 3
+    },
+    {
+      "round": 3,
+      "pass": true,
+      "failures": 0
+    }
+  ],
+  "scores": [
+    {
+      "round": 3,
+      "by": "creative-director",
+      "axes": {
+        "hierarchy": 9,
+        "typography": 8,
+        "spacing": 8,
+        "colour": 9,
+        "composition": 8,
+        "originality": 8,
+        "brand": 9,
+        "copy": 9
+      },
+      "average": 8.5,
+      "pass": true,
+      "notes": [
+        "typography: linkedin only: \"made.\" is a one-word widow on line 3. Cap the black claim's max-width at about 780px so it breaks \"Fits every Ferro / ever made.\" Keep it at 3 lines total. Leave ig-post's 4-line break as it is.",
+        "spacing: linkedin only: the supporting line floats about 145px under \"made.\", so it doesn't read with the headline. Set its top 40px under the headline's last baseline (about y=385). Keep `ferro.tools` at bottom left, baseline no lower than y=589.",
+        "composition: linkedin only: the headline leaves about 220px empty on the right. Take it from 95 to 119px (on scale), line height 1.0, -0.02em. The red figure then spans about 685px and the 3-line block carries the canvas. Sizes become 119 / 31 / 20.",
+        "originality: hold the move. The red spec as the headline is the brand's own voice. Don't add a rule, bar or shape to fill the ig-post bottom band."
+      ],
+      "polish": [
+        "ig-post: open the gap from \"made.\" to the supporting line from 56 to 64px, so it sits on the 8px grid."
+      ]
+    }
+  ],
+  "waitingOn": null,
+  "cost": {
+    "director": 0.4114,
+    "senior": 0.1571,
+    "builder": 0.0123,
+    "total": 0.5808,
+    "complete": true
+  },
+  "tokens": {
+    "director": 70611,
+    "senior": 84355,
+    "builder": 44734
+  },
+  "files": {
+    "final": ".desk/out/20261020-0152-linkedin-instagram-portrait-faster/final.html",
+    "brief": ".desk/jobs/20261020-0152-linkedin-instagram-portrait-faster/brief.md",
+    "handback": ".desk/out/20261020-0152-linkedin-instagram-portrait-faster/handback.md"
+  },
+  "pen": "builder",
+  "notes": [
+    "proof safe-zone at linkedin: \"24,000 rpm.\" 25px from the top edge, the safe zone starts at 38px",
+    "proof safe-zone at linkedin: \"ferro.tools\" ends 37px from the bottom edge, the safe zone is 38px",
+    "proof safe-zone at ig-post: \"24,000 rpm.\" 58px from the top edge, the safe zone starts at 81px"
+  ],
+  "misses": {
+    "proof:safe-zone": 2
+  },
+  "startedAt": "2026-10-20T01:52:05-05:00",
+  "updatedAt": "2026-10-20T01:55:15-05:00",
+  "roughs": [
+    {
+      "n": 1,
+      "pattern": "Editorial split",
+      "file": ".desk/out/20261020-0152-linkedin-instagram-portrait-faster/rough-1.html",
+      "fonts": "Geist, inlined by the runner (not a fallback)",
+      "written": true,
+      "renders": ".desk/jobs/20261020-0152-linkedin-instagram-portrait-faster/renders/roughs/rough-1"
+    },
+    {
+      "n": 2,
+      "pattern": "Full bleed with scrim",
+      "file": ".desk/out/20261020-0152-linkedin-instagram-portrait-faster/rough-2.html",
+      "fonts": "Geist (brand family, inlined by runner), not a fallback",
+      "written": true,
+      "renders": ".desk/jobs/20261020-0152-linkedin-instagram-portrait-faster/renders/roughs/rough-2"
+    },
+    {
+      "n": 3,
+      "pattern": "Type only",
+      "file": ".desk/out/20261020-0152-linkedin-instagram-portrait-faster/rough-3.html",
+      "fonts": "Geist, not a fallback (runner inlines it)",
+      "written": true,
+      "renders": ".desk/jobs/20261020-0152-linkedin-instagram-portrait-faster/renders/roughs/rough-3"
+    }
+  ],
+  "lastRenders": ".desk/jobs/20261020-0152-linkedin-instagram-portrait-faster/renders/round-3",
+  "penNotes": [],
+  "finishedAt": "2026-10-20T01:55:15-05:00"
+}

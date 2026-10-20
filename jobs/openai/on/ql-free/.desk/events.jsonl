@@ -1,0 +1,59 @@
+{"t":"2026-10-20T06:56:00.421Z","type":"job.start","id":"20261020-0156-linkedin-instagram-portrait-saying","command":"design","deliverable":"social-card"}
+{"t":"2026-10-20T06:56:00.475Z","type":"desk.start","id":"20261020-0156-linkedin-instagram-portrait-saying","desk":"design-manager","model":"openai/large","tier":"director","task":"intake"}
+{"t":"2026-10-20T06:56:23.341Z","type":"desk.stop","id":"20261020-0156-linkedin-instagram-portrait-saying","desk":"design-manager","tier":"director","status":"done","seconds":23,"model":"openai/large","modelId":"gpt-6-astra","tokens":{"input":7646,"output":507,"cacheRead":24832,"cacheWrite":0,"total":32985},"costUsd":0.126642}
+{"t":"2026-10-20T06:56:23.398Z","type":"job.phase","id":"20261020-0156-linkedin-instagram-portrait-saying","phase":"roughs","round":0}
+{"t":"2026-10-20T06:56:23.559Z","type":"desk.start","id":"20261020-0156-linkedin-instagram-portrait-saying","desk":"ui-designer","model":"openai/mini","tier":"senior","task":"rough 1, editorial split"}
+{"t":"2026-10-20T06:56:23.655Z","type":"desk.start","id":"20261020-0156-linkedin-instagram-portrait-saying","desk":"ui-designer","model":"openai/mini","tier":"senior","task":"rough 2, full bleed with scrim"}
+{"t":"2026-10-20T06:56:23.733Z","type":"desk.start","id":"20261020-0156-linkedin-instagram-portrait-saying","desk":"ui-designer","model":"openai/mini","tier":"senior","task":"rough 3, type only"}
+{"t":"2026-10-20T06:56:51.566Z","type":"desk.stop","id":"20261020-0156-linkedin-instagram-portrait-saying","desk":"ui-designer","tier":"senior","status":"done","seconds":28,"model":"openai/mini","modelId":"gpt-6.1-sol","tokens":{"input":31199,"output":1761,"cacheRead":21504,"cacheWrite":0,"total":54464},"costUsd":0.08215839999999999}
+{"t":"2026-10-20T06:56:56.899Z","type":"desk.stop","id":"20261020-0156-linkedin-instagram-portrait-saying","desk":"ui-designer","tier":"senior","status":"done","seconds":33,"model":"openai/mini","modelId":"gpt-6.1-sol","tokens":{"input":4761,"output":1763,"cacheRead":21504,"cacheWrite":0,"total":28028},"costUsd":0.029302400000000003}
+{"t":"2026-10-20T06:57:00.648Z","type":"desk.stop","id":"20261020-0156-linkedin-instagram-portrait-saying","desk":"ui-designer","tier":"senior","status":"done","seconds":37,"model":"openai/mini","modelId":"gpt-6.1-sol","tokens":{"input":4764,"output":1806,"cacheRead":21504,"cacheWrite":0,"total":28074},"costUsd":0.0297384}
+{"t":"2026-10-20T06:57:04.356Z","type":"job.phase","id":"20261020-0156-linkedin-instagram-portrait-saying","phase":"pick","round":0}
+{"t":"2026-10-20T06:57:04.407Z","type":"desk.start","id":"20261020-0156-linkedin-instagram-portrait-saying","desk":"art-director","model":"openai/large","tier":"director","task":"pick"}
+{"t":"2026-10-20T06:57:19.882Z","type":"desk.stop","id":"20261020-0156-linkedin-instagram-portrait-saying","desk":"art-director","tier":"director","status":"done","seconds":15,"model":"openai/large","modelId":"gpt-6-astra","tokens":{"input":19909,"output":358,"cacheRead":18432,"cacheWrite":0,"total":38699},"costUsd":0.235422}
+{"t":"2026-10-20T06:57:19.918Z","type":"job.pick","id":"20261020-0156-linkedin-instagram-portrait-saying","by":"art-director","rough":3}
+{"t":"2026-10-20T06:57:19.966Z","type":"job.phase","id":"20261020-0156-linkedin-instagram-portrait-saying","phase":"polish","round":1}
+{"t":"2026-10-20T06:57:20.017Z","type":"desk.start","id":"20261020-0156-linkedin-instagram-portrait-saying","desk":"ui-designer","model":"openai/mini","tier":"builder","task":"polish round 1"}
+{"t":"2026-10-20T06:57:45.013Z","type":"desk.stop","id":"20261020-0156-linkedin-instagram-portrait-saying","desk":"ui-designer","tier":"builder","status":"done","seconds":25,"model":"openai/mini","modelId":"gpt-6.1-sol","tokens":{"input":15712,"output":919,"cacheRead":43776,"cacheWrite":0,"total":60407},"costUsd":0.0449916}
+{"t":"2026-10-20T06:57:45.056Z","type":"job.phase","id":"20261020-0156-linkedin-instagram-portrait-saying","phase":"proof","round":1}
+{"t":"2026-10-20T06:57:46.504Z","type":"job.proof","id":"20261020-0156-linkedin-instagram-portrait-saying","round":1,"pass":false,"failures":2}
+{"t":"2026-10-20T06:57:46.549Z","type":"job.phase","id":"20261020-0156-linkedin-instagram-portrait-saying","phase":"polish","round":2}
+{"t":"2026-10-20T06:57:46.594Z","type":"desk.start","id":"20261020-0156-linkedin-instagram-portrait-saying","desk":"ui-designer","model":"openai/mini","tier":"builder","task":"polish round 2"}
+{"t":"2026-10-20T06:58:06.580Z","type":"desk.stop","id":"20261020-0156-linkedin-instagram-portrait-saying","desk":"ui-designer","tier":"builder","status":"done","seconds":20,"model":"openai/mini","modelId":"gpt-6.1-sol","tokens":{"input":8195,"output":830,"cacheRead":21504,"cacheWrite":0,"total":30529},"costUsd":0.0268404}
+{"t":"2026-10-20T06:58:06.616Z","type":"job.phase","id":"20261020-0156-linkedin-instagram-portrait-saying","phase":"proof","round":2}
+{"t":"2026-10-20T06:58:08.071Z","type":"job.proof","id":"20261020-0156-linkedin-instagram-portrait-saying","round":2,"pass":true,"failures":0}
+{"t":"2026-10-20T06:58:08.124Z","type":"job.phase","id":"20261020-0156-linkedin-instagram-portrait-saying","phase":"signoff","round":2}
+{"t":"2026-10-20T06:58:08.168Z","type":"desk.start","id":"20261020-0156-linkedin-instagram-portrait-saying","desk":"creative-director","model":"openai/large","tier":"director","task":"sign-off round 2"}
+{"t":"2026-10-20T06:58:28.363Z","type":"desk.stop","id":"20261020-0156-linkedin-instagram-portrait-saying","desk":"creative-director","tier":"director","status":"done","seconds":20,"model":"openai/large","modelId":"gpt-6-astra","tokens":{"input":32962,"output":537,"cacheRead":0,"cacheWrite":0,"total":33499},"costUsd":0.35647}
+{"t":"2026-10-20T06:58:28.398Z","type":"job.score","id":"20261020-0156-linkedin-instagram-portrait-saying","round":2,"average":8.25,"pass":false}
+{"t":"2026-10-20T06:58:28.443Z","type":"job.phase","id":"20261020-0156-linkedin-instagram-portrait-saying","phase":"polish","round":3}
+{"t":"2026-10-20T06:58:28.490Z","type":"desk.start","id":"20261020-0156-linkedin-instagram-portrait-saying","desk":"ui-designer","model":"openai/mini","tier":"builder","task":"polish round 3"}
+{"t":"2026-10-20T06:58:55.297Z","type":"desk.stop","id":"20261020-0156-linkedin-instagram-portrait-saying","desk":"ui-designer","tier":"builder","status":"done","seconds":27,"model":"openai/mini","modelId":"gpt-6.1-sol","tokens":{"input":29901,"output":1038,"cacheRead":29824,"cacheWrite":0,"total":60763},"costUsd":0.07316439999999999}
+{"t":"2026-10-20T06:58:55.340Z","type":"job.phase","id":"20261020-0156-linkedin-instagram-portrait-saying","phase":"proof","round":3}
+{"t":"2026-10-20T06:58:56.793Z","type":"job.proof","id":"20261020-0156-linkedin-instagram-portrait-saying","round":3,"pass":false,"failures":1}
+{"t":"2026-10-20T06:58:56.836Z","type":"job.phase","id":"20261020-0156-linkedin-instagram-portrait-saying","phase":"polish","round":4}
+{"t":"2026-10-20T06:58:56.880Z","type":"desk.start","id":"20261020-0156-linkedin-instagram-portrait-saying","desk":"ui-designer","model":"openai/mini","tier":"builder","task":"polish round 4"}
+{"t":"2026-10-20T06:59:24.156Z","type":"desk.stop","id":"20261020-0156-linkedin-instagram-portrait-saying","desk":"ui-designer","tier":"builder","status":"done","seconds":27,"model":"openai/mini","modelId":"gpt-6.1-sol","tokens":{"input":22730,"output":1170,"cacheRead":36864,"cacheWrite":0,"total":60764},"costUsd":0.0608464}
+{"t":"2026-10-20T06:59:24.194Z","type":"job.phase","id":"20261020-0156-linkedin-instagram-portrait-saying","phase":"proof","round":4}
+{"t":"2026-10-20T06:59:25.570Z","type":"job.proof","id":"20261020-0156-linkedin-instagram-portrait-saying","round":4,"pass":true,"failures":0}
+{"t":"2026-10-20T06:59:25.616Z","type":"job.phase","id":"20261020-0156-linkedin-instagram-portrait-saying","phase":"signoff","round":4}
+{"t":"2026-10-20T06:59:25.665Z","type":"desk.start","id":"20261020-0156-linkedin-instagram-portrait-saying","desk":"creative-director","model":"openai/large","tier":"director","task":"sign-off round 4"}
+{"t":"2026-10-20T06:59:51.936Z","type":"desk.stop","id":"20261020-0156-linkedin-instagram-portrait-saying","desk":"creative-director","tier":"director","status":"done","seconds":26,"model":"openai/large","modelId":"gpt-6-astra","tokens":{"input":32962,"output":763,"cacheRead":0,"cacheWrite":0,"total":33725},"costUsd":0.36777}
+{"t":"2026-10-20T06:59:51.973Z","type":"job.score","id":"20261020-0156-linkedin-instagram-portrait-saying","round":4,"average":8.38,"pass":false}
+{"t":"2026-10-20T06:59:52.019Z","type":"job.phase","id":"20261020-0156-linkedin-instagram-portrait-saying","phase":"polish","round":5}
+{"t":"2026-10-20T06:59:52.064Z","type":"desk.start","id":"20261020-0156-linkedin-instagram-portrait-saying","desk":"ui-designer","model":"openai/mini","tier":"builder","task":"polish round 5"}
+{"t":"2026-10-20T07:00:22.344Z","type":"desk.stop","id":"20261020-0156-linkedin-instagram-portrait-saying","desk":"ui-designer","tier":"builder","status":"done","seconds":30,"model":"openai/mini","modelId":"gpt-6.1-sol","tokens":{"input":30071,"output":1399,"cacheRead":29696,"cacheWrite":0,"total":61166},"costUsd":0.0771016}
+{"t":"2026-10-20T07:00:22.383Z","type":"job.phase","id":"20261020-0156-linkedin-instagram-portrait-saying","phase":"proof","round":5}
+{"t":"2026-10-20T07:00:23.784Z","type":"job.proof","id":"20261020-0156-linkedin-instagram-portrait-saying","round":5,"pass":true,"failures":0}
+{"t":"2026-10-20T07:00:23.831Z","type":"job.phase","id":"20261020-0156-linkedin-instagram-portrait-saying","phase":"signoff","round":5}
+{"t":"2026-10-20T07:00:23.880Z","type":"desk.start","id":"20261020-0156-linkedin-instagram-portrait-saying","desk":"creative-director","model":"openai/large","tier":"director","task":"sign-off round 5"}
+{"t":"2026-10-20T07:00:46.029Z","type":"desk.stop","id":"20261020-0156-linkedin-instagram-portrait-saying","desk":"creative-director","tier":"director","status":"done","seconds":22,"model":"openai/large","modelId":"gpt-6-astra","tokens":{"input":8241,"output":762,"cacheRead":24832,"cacheWrite":0,"total":33835},"costUsd":0.145342}
+{"t":"2026-10-20T07:00:46.074Z","type":"job.score","id":"20261020-0156-linkedin-instagram-portrait-saying","round":5,"average":8.25,"pass":false}
+{"t":"2026-10-20T07:00:46.131Z","type":"job.phase","id":"20261020-0156-linkedin-instagram-portrait-saying","phase":"polish","round":6}
+{"t":"2026-10-20T07:00:46.197Z","type":"desk.start","id":"20261020-0156-linkedin-instagram-portrait-saying","desk":"ui-designer","model":"openai/mini","tier":"builder","task":"polish round 6"}
+{"t":"2026-10-20T07:01:25.871Z","type":"desk.stop","id":"20261020-0156-linkedin-instagram-portrait-saying","desk":"ui-designer","tier":"builder","status":"done","seconds":40,"model":"openai/mini","modelId":"gpt-6.1-sol","tokens":{"input":22892,"output":1788,"cacheRead":37120,"cacheWrite":0,"total":61800},"costUsd":0.067376}
+{"t":"2026-10-20T07:01:25.917Z","type":"job.phase","id":"20261020-0156-linkedin-instagram-portrait-saying","phase":"proof","round":6}
+{"t":"2026-10-20T07:01:27.479Z","type":"job.proof","id":"20261020-0156-linkedin-instagram-portrait-saying","round":6,"pass":false,"failures":1}
+{"t":"2026-10-20T07:01:27.529Z","type":"job.waiting","id":"20261020-0156-linkedin-instagram-portrait-saying","on":"approve_under_bar"}
+{"t":"2026-10-20T07:01:27.578Z","type":"job.phase","id":"20261020-0156-linkedin-instagram-portrait-saying","phase":"handback","round":6}
+{"t":"2026-10-20T07:01:27.631Z","type":"job.done","id":"20261020-0156-linkedin-instagram-portrait-saying","rounds":6,"average":8.25,"pass":false}

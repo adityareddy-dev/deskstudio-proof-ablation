@@ -1,0 +1,208 @@
+{
+  "id": "20261020-0214-linkedin-instagram-portrait-proof",
+  "command": "design",
+  "deliverable": "social-card",
+  "sizes": [
+    "linkedin",
+    "ig-post"
+  ],
+  "quality": "studio",
+  "proofMode": "on",
+  "models": {
+    "director": "anthropic/opus",
+    "senior": "anthropic/sonnet",
+    "builder": "anthropic/haiku"
+  },
+  "phase": "done",
+  "round": 2,
+  "maxRounds": 6,
+  "desks": [
+    {
+      "desk": "design-manager",
+      "task": "intake",
+      "status": "done",
+      "model": "anthropic/opus",
+      "startedAt": "2026-10-20T02:14:40-05:00",
+      "updatedAt": "2026-10-20T02:14:56-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "rough 1, editorial split",
+      "status": "done",
+      "model": "anthropic/sonnet",
+      "startedAt": "2026-10-20T02:14:56-05:00",
+      "updatedAt": "2026-10-20T02:15:37-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "rough 2, full bleed with scrim",
+      "status": "done",
+      "model": "anthropic/sonnet",
+      "startedAt": "2026-10-20T02:14:56-05:00",
+      "updatedAt": "2026-10-20T02:15:33-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "rough 3, type only",
+      "status": "done",
+      "model": "anthropic/sonnet",
+      "startedAt": "2026-10-20T02:14:56-05:00",
+      "updatedAt": "2026-10-20T02:15:21-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "art-director",
+      "task": "pick",
+      "status": "done",
+      "model": "anthropic/opus",
+      "startedAt": "2026-10-20T02:15:41-05:00",
+      "updatedAt": "2026-10-20T02:16:15-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 1",
+      "status": "done",
+      "model": "anthropic/haiku",
+      "startedAt": "2026-10-20T02:16:15-05:00",
+      "updatedAt": "2026-10-20T02:17:07-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 2",
+      "status": "done",
+      "model": "anthropic/haiku",
+      "startedAt": "2026-10-20T02:17:08-05:00",
+      "updatedAt": "2026-10-20T02:17:42-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "creative-director",
+      "task": "sign-off round 2",
+      "status": "done",
+      "model": "anthropic/opus",
+      "startedAt": "2026-10-20T02:17:44-05:00",
+      "updatedAt": "2026-10-20T02:18:21-05:00",
+      "via": "cli"
+    }
+  ],
+  "pick": {
+    "by": "art-director",
+    "rough": 1,
+    "pattern": "Editorial split",
+    "combineWith": null,
+    "reason": "The single amber square in a grid of dark cells makes \"real pixels\" visible. It reads in two seconds, gives each ratio a shape, and is the only rough that could only be Desk Studio's.",
+    "lost": "2 spends the accent on a whole field instead of on one thing, sets the mark on amber, and leaves a dead black void under the headline. 3 is clean but generic: the accent on one word is the template move, and the portrait version has leftover air between the supporting line and the mark.",
+    "notes": [
+      "Linkedin headline from about 76px to 95px (brand scale), line height 1.0, tracking -0.02em, still two lines (\"Checked on / real pixels.\") in the left column. At thumbnail size the headline should carry the left half, not sit in it.",
+      "Linkedin supporting line to 25px on one line, with no orphaned \"round.\" Let it use the full left column (48px to 612px). A one-word last line breaks the block's shape.",
+      "Ig-post supporting line to 39px. Its current size of about 36px is off the brand scale (proof accepts only 16/20/25/31/39/49/61/76/95/119…).",
+      "Mark \"deskstudio.ai\" to 25px at both sizes, keeping #8a8a93. The standard says nothing readable goes under 24px, and the mark is readable.",
+      "Linkedin: align the grid's top edge to the headline cap height and its bottom edge to the mark's baseline, so both columns share the same top and bottom lines. Ig-post: put the mark baseline exactly at y=1215, on the 10% bottom safe line."
+    ],
+    "at": "2026-10-20T02:16:15-05:00"
+  },
+  "proof": [
+    {
+      "round": 1,
+      "pass": false,
+      "failures": 6
+    },
+    {
+      "round": 2,
+      "pass": true,
+      "failures": 0
+    }
+  ],
+  "scores": [
+    {
+      "round": 2,
+      "by": "creative-director",
+      "axes": {
+        "hierarchy": 9,
+        "typography": 9,
+        "spacing": 8,
+        "colour": 9,
+        "composition": 8,
+        "originality": 8,
+        "brand": 9,
+        "copy": 9
+      },
+      "average": 8.63,
+      "pass": true,
+      "notes": [
+        "spacing: On linkedin, open the gap between the headline's last baseline (y≈235) and the supporting line's cap height from about 24px to 40px, moving the supporting line down 16px. On ig-post, move the mark baseline from about y=1207 to exactly y=1215, as in Art Director note 5.",
+        "composition: Make every grid cell square. On linkedin, use 54x54 cells with 8px gaps, 6 columns by 8 rows, spanning y=72 to y=560, with the mark baseline also at y=560. On ig-post, use 110x110 cells with 8px gaps, 8 columns by 6 rows, moving the grid top from y=504 to y=456 so it ends at y=1156, above the mark.",
+        "originality: The cells now read as 59x53 (linkedin) and 110x100 (ig-post) tiles. The \"real pixels\" idea depends on the amber cell being a true square pixel, so lock the amber cell to the same square size as its neighbours at both sizes. Keep its position: linkedin column 3, row 4; ig-post column 5, row 3."
+      ],
+      "polish": [
+        "Use the same grid treatment on both sizes: linkedin has #0b0b0c cells on a #141416 panel, while ig-post has #141416 cells on #0b0b0c. Pick #141416 cells on #0b0b0c for both."
+      ]
+    }
+  ],
+  "waitingOn": null,
+  "cost": {
+    "director": 0.4154,
+    "senior": 0.1793,
+    "builder": 0.0134,
+    "total": 0.6081,
+    "complete": true
+  },
+  "tokens": {
+    "director": 42938,
+    "senior": 30890,
+    "builder": 69030
+  },
+  "files": {
+    "final": ".desk/out/20261020-0214-linkedin-instagram-portrait-proof/final.html",
+    "brief": ".desk/jobs/20261020-0214-linkedin-instagram-portrait-proof/brief.md",
+    "handback": ".desk/out/20261020-0214-linkedin-instagram-portrait-proof/handback.md"
+  },
+  "pen": "builder",
+  "notes": [
+    "proof safe-zone at linkedin: \"Checked on\" 48px from the left edge, the safe zone starts at 72px; 20px from the top edge, the safe zone starts at 38px",
+    "proof safe-zone at linkedin: \"real pixels.\" 48px from the left edge, the safe zone starts at 72px",
+    "proof safe-zone at linkedin: \"Overflow, contrast, safe zone, every ...\" 48px from the left edge, the safe zone starts at 72px",
+    "proof safe-zone at linkedin: \"deskstudio.ai\" 48px from the left edge, the safe zone starts at 72px",
+    "proof safe-zone at ig-post: \"Checked on\" 36px from the top edge, the safe zone starts at 81px",
+    "proof safe-zone at ig-post: \"deskstudio.ai\" ends 128px from the bottom edge, the safe zone is 135px"
+  ],
+  "misses": {
+    "proof:safe-zone": 1
+  },
+  "startedAt": "2026-10-20T02:14:40-05:00",
+  "updatedAt": "2026-10-20T02:18:21-05:00",
+  "roughs": [
+    {
+      "n": 1,
+      "pattern": "Editorial split",
+      "file": ".desk/out/20261020-0214-linkedin-instagram-portrait-proof/rough-1.html",
+      "fonts": "Geist, inlined by the runner after return, not a fallback",
+      "written": true,
+      "renders": ".desk/jobs/20261020-0214-linkedin-instagram-portrait-proof/renders/roughs/rough-1"
+    },
+    {
+      "n": 2,
+      "pattern": "Full bleed with scrim",
+      "file": ".desk/out/20261020-0214-linkedin-instagram-portrait-proof/rough-2.html",
+      "fonts": "Geist (brand family, inlined by the runner, not a fallback)",
+      "written": true,
+      "renders": ".desk/jobs/20261020-0214-linkedin-instagram-portrait-proof/renders/roughs/rough-2"
+    },
+    {
+      "n": 3,
+      "pattern": "Type only",
+      "file": ".desk/out/20261020-0214-linkedin-instagram-portrait-proof/rough-3.html",
+      "fonts": "Geist (brand family, inlined by the runner), not a fallback",
+      "written": true,
+      "renders": ".desk/jobs/20261020-0214-linkedin-instagram-portrait-proof/renders/roughs/rough-3"
+    }
+  ],
+  "lastRenders": ".desk/jobs/20261020-0214-linkedin-instagram-portrait-proof/renders/round-2",
+  "penNotes": [],
+  "finishedAt": "2026-10-20T02:18:21-05:00"
+}

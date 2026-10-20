@@ -1,0 +1,290 @@
+{
+  "id": "20261020-0138-linkedin-instagram-portrait-feature",
+  "command": "design",
+  "deliverable": "social-card",
+  "sizes": [
+    "linkedin",
+    "ig-post"
+  ],
+  "quality": "studio",
+  "proofMode": "off",
+  "models": {
+    "director": "anthropic/opus",
+    "senior": "anthropic/sonnet",
+    "builder": "anthropic/haiku"
+  },
+  "phase": "done",
+  "round": 3,
+  "maxRounds": 6,
+  "desks": [
+    {
+      "desk": "design-manager",
+      "task": "intake",
+      "status": "done",
+      "model": "anthropic/opus",
+      "startedAt": "2026-10-20T01:38:37-05:00",
+      "updatedAt": "2026-10-20T01:38:56-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "rough 1, editorial split",
+      "status": "done",
+      "model": "anthropic/sonnet",
+      "startedAt": "2026-10-20T01:38:56-05:00",
+      "updatedAt": "2026-10-20T01:39:18-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "rough 2, full bleed with scrim",
+      "status": "done",
+      "model": "anthropic/sonnet",
+      "startedAt": "2026-10-20T01:38:56-05:00",
+      "updatedAt": "2026-10-20T01:39:42-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "rough 3, type only",
+      "status": "done",
+      "model": "anthropic/sonnet",
+      "startedAt": "2026-10-20T01:38:56-05:00",
+      "updatedAt": "2026-10-20T01:39:31-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "art-director",
+      "task": "pick",
+      "status": "done",
+      "model": "anthropic/opus",
+      "startedAt": "2026-10-20T01:39:46-05:00",
+      "updatedAt": "2026-10-20T01:40:17-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 1",
+      "status": "done",
+      "model": "anthropic/haiku",
+      "startedAt": "2026-10-20T01:40:18-05:00",
+      "updatedAt": "2026-10-20T01:41:04-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "creative-director",
+      "task": "sign-off round 1",
+      "status": "done",
+      "model": "anthropic/opus",
+      "startedAt": "2026-10-20T01:41:06-05:00",
+      "updatedAt": "2026-10-20T01:41:47-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 2",
+      "status": "done",
+      "model": "anthropic/haiku",
+      "startedAt": "2026-10-20T01:41:47-05:00",
+      "updatedAt": "2026-10-20T01:42:21-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "creative-director",
+      "task": "sign-off round 2",
+      "status": "done",
+      "model": "anthropic/opus",
+      "startedAt": "2026-10-20T01:42:22-05:00",
+      "updatedAt": "2026-10-20T01:43:05-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "polish round 3",
+      "status": "done",
+      "model": "anthropic/haiku",
+      "startedAt": "2026-10-20T01:43:05-05:00",
+      "updatedAt": "2026-10-20T01:43:36-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "creative-director",
+      "task": "sign-off round 3",
+      "status": "done",
+      "model": "anthropic/opus",
+      "startedAt": "2026-10-20T01:43:38-05:00",
+      "updatedAt": "2026-10-20T01:44:29-05:00",
+      "via": "cli"
+    }
+  ],
+  "pick": {
+    "by": "art-director",
+    "rough": 3,
+    "pattern": "Type only",
+    "combineWith": null,
+    "reason": "The type-only rough reads in under two seconds at both sizes. The headline carries the canvas, the accent sits on \"stays.\" only, the margins already hold, and it needs the fewest notes to reach the bar.",
+    "lost": "1: on linkedin the supporting line floats alone at top right, so reading order breaks and the headline is too small for the half it owns. 2: on linkedin \"Drafts,\" collides with the descender of \"stays.\", and the surface block over the ink background is a box inside a box.",
+    "notes": [
+      "ig-post: headline line height from about 1.1 to 1.0 and top padding to 72px. The whole headline block, including the descender of \"y\", has to end above 540px, the top 40% (brief, must be true). It currently runs to about 580px.",
+      "ig-post: once note 1 lands, keep the supporting line and mark anchored at the bottom. Mark baseline no lower than 1215px (10% bottom safe zone). The empty band between the headline and \"Drafts,\" then measures about 430px, under the one-third limit of 450px (standard, \"owns the whole canvas\"). Do not add any element to that band.",
+      "Both sizes: set headline letter spacing explicitly to -0.015em, inside the -0.02em to -0.01em range the standard requires above 40px.",
+      "Both sizes: snap every size to the brand scale and keep it to three per size. Linkedin: headline 127px, supporting line 40px, mark 30px. Ig-post: headline 169px, supporting line 72px, mark 30px. If 169px on ig-post fails note 1, keep 169px and drop the top padding to 64px rather than shrinking the type further.",
+      "Linkedin: align the baselines of \"Drafts, not versions.\" and \"quill.app\" exactly, both 48px above the bottom edge. Keep 72px left and right margins on an 8px grid."
+    ],
+    "at": "2026-10-20T01:40:17-05:00"
+  },
+  "proof": [
+    {
+      "round": 1,
+      "pass": null,
+      "skipped": true,
+      "failures": 0
+    },
+    {
+      "round": 2,
+      "pass": null,
+      "skipped": true,
+      "failures": 0
+    },
+    {
+      "round": 3,
+      "pass": null,
+      "skipped": true,
+      "failures": 0
+    }
+  ],
+  "scores": [
+    {
+      "round": 1,
+      "by": "creative-director",
+      "axes": {
+        "hierarchy": 9,
+        "typography": 9,
+        "spacing": 8,
+        "colour": 9,
+        "composition": 7,
+        "originality": 7,
+        "brand": 9,
+        "copy": 9
+      },
+      "average": 8.38,
+      "pass": false,
+      "notes": [
+        "composition: ig-post: the headline now ends at about 425px (the descender of \"y\"), but \"Drafts,\" starts at about 1000px. That leaves an empty band of about 570px, over the 450px one-third limit. Raise the supporting line block 144px so the cap top of \"Drafts,\" sits at 856px, which brings the band to about 430px. Keep the \"quill.app\" baseline at 1205px and put nothing in the band.",
+        "spacing: ig-post: after the raise, set the gap from the \"not versions.\" baseline to the \"quill.app\" baseline at 232px, on the 8px grid. Linkedin: keep both bottom baselines at 579px (48px above the bottom edge) and both side margins at 72px.",
+        "originality: this is still the default type-only layout. On both sizes set \"Cut it.\" in muted #8b8d99, which gives about 5.9:1 contrast. Keep \"It\" in #ededf0 and \"stays.\" in #7c9cff. The cut line then reads as dimmed but kept, which is the product's idea. Change no sizes and add no elements."
+      ],
+      "polish": [
+        "Linkedin: headline 127px to 169px with line height 1.0 and top padding 40px, so the type carries the empty right half and the gap above the bottom row."
+      ]
+    },
+    {
+      "round": 2,
+      "by": "creative-director",
+      "axes": {
+        "hierarchy": 9,
+        "typography": 8,
+        "spacing": 8,
+        "colour": 9,
+        "composition": 7,
+        "originality": 8,
+        "brand": 9,
+        "copy": 9
+      },
+      "average": 8.38,
+      "pass": false,
+      "notes": [
+        "composition: linkedin has an empty band of about 235px (38% of the 627px height) between the \"stays.\" descender (~315px) and the \"Drafts,\" cap top (~550px), and the right 55% is empty. Raise the headline from 127px to 169px at line height 1.0, letter spacing -0.015em and top padding 48px. \"It stays.\" then runs about 590px wide, the block ends near 430px and the band falls under 128px. Keep the supporting line and quill.app baselines at 579px (48px above the bottom edge). On ig-post, keep the 169px headline and the ~424px band as they are. Add nothing to either band.",
+        "typography: linkedin supporting line from 40px to 54px, which keeps three sizes (169, 54, 30). At 40 the supporting line sits only one step above the 30px mark and the two read as a pair. Keep \"Drafts, not versions.\" on one line, about 510px wide. On ig-post, keep 169, 72 and 30 exactly.",
+        "spacing: snap every gap to the 8px grid. On linkedin after the change, the gap from the headline descender to the supporting cap top is 128px and the left and right margins stay at 72px. On ig-post, the band from the headline descender to the \"Drafts,\" cap top is 424px, and the gap from the last supporting baseline to the quill.app baseline is 216px. Mark baseline no lower than 1215px.",
+        "originality: the muted \"Cut it.\" over the white \"It\" with the accent on \"stays.\" is the idea, so keep it exactly. Do not add a second device. The fix is scale: at 169px on linkedin the type becomes the image and stops looking like a template stack."
+      ],
+      "polish": [
+        "linkedin: optically pull the \"C\" of \"Cut\" and the \"I\" of \"It\" left by 4px so the round and straight stems sit on the same 72px edge as \"Drafts,\"."
+      ]
+    },
+    {
+      "round": 3,
+      "by": "creative-director",
+      "axes": {
+        "hierarchy": 9,
+        "typography": 8,
+        "spacing": 8,
+        "colour": 9,
+        "composition": 8,
+        "originality": 9,
+        "brand": 9,
+        "copy": 9
+      },
+      "average": 8.63,
+      "pass": true,
+      "notes": [
+        "typography: both sizes, move the \"C\" of \"Cut\" about 4px left of the 72px column so its curve lines up by eye with the stem of \"I\" in \"It\" and the \"D\" of \"Drafts\". It currently reads about 3px inside them.",
+        "spacing: on linkedin, set \"Drafts, not versions.\" and \"quill.app\" on one baseline exactly 48px above the bottom edge. They currently sit about 3px apart at roughly 62px up. Keep the mark's right edge on the 72px margin.",
+        "composition: on ig-post, raise the \"Drafts, / not versions.\" block 64px so its cap top sits near 790px. That cuts the empty band under the headline from about 430px to about 366px, so the gap looks planned rather than left over. Leave the mark baseline at 1205px and add nothing to the band."
+      ],
+      "polish": [
+        "ig-post: try the headline at 226px only if the descender of \"y\" still ends above 540px with 64px top padding. If it doesn't, stay at 169px."
+      ]
+    }
+  ],
+  "waitingOn": null,
+  "cost": {
+    "director": 0.751,
+    "senior": 0.1801,
+    "builder": 0.0178,
+    "total": 0.9489,
+    "complete": true
+  },
+  "tokens": {
+    "director": 156965,
+    "senior": 86904,
+    "builder": 83834
+  },
+  "files": {
+    "final": ".desk/out/20261020-0138-linkedin-instagram-portrait-feature/final.html",
+    "brief": ".desk/jobs/20261020-0138-linkedin-instagram-portrait-feature/brief.md",
+    "handback": ".desk/out/20261020-0138-linkedin-instagram-portrait-feature/handback.md"
+  },
+  "pen": "builder",
+  "notes": [
+    "composition: linkedin has an empty band of about 235px (38% of the 627px height) between the \"stays.\" descender (~315px) and the \"Drafts,\" cap top (~550px), and the right 55% is empty. Raise the headline from 127px to 169px at line height 1.0, letter spacing -0.015em and top padding 48px. \"It stays.\" then runs about 590px wide, the block ends near 430px and the band falls under 128px. Keep the supporting line and quill.app baselines at 579px (48px above the bottom edge). On ig-post, keep the 169px headline and the ~424px band as they are. Add nothing to either band.",
+    "typography: linkedin supporting line from 40px to 54px, which keeps three sizes (169, 54, 30). At 40 the supporting line sits only one step above the 30px mark and the two read as a pair. Keep \"Drafts, not versions.\" on one line, about 510px wide. On ig-post, keep 169, 72 and 30 exactly.",
+    "spacing: snap every gap to the 8px grid. On linkedin after the change, the gap from the headline descender to the supporting cap top is 128px and the left and right margins stay at 72px. On ig-post, the band from the headline descender to the \"Drafts,\" cap top is 424px, and the gap from the last supporting baseline to the quill.app baseline is 216px. Mark baseline no lower than 1215px.",
+    "originality: the muted \"Cut it.\" over the white \"It\" with the accent on \"stays.\" is the idea, so keep it exactly. Do not add a second device. The fix is scale: at 169px on linkedin the type becomes the image and stops looking like a template stack."
+  ],
+  "misses": {
+    "composition": 2
+  },
+  "startedAt": "2026-10-20T01:38:37-05:00",
+  "updatedAt": "2026-10-20T01:44:29-05:00",
+  "roughs": [
+    {
+      "n": 1,
+      "pattern": "Editorial split",
+      "file": ".desk/out/20261020-0138-linkedin-instagram-portrait-feature/rough-1.html",
+      "fonts": "Source Serif 4, not a fallback (inlined by the runner)",
+      "written": true,
+      "renders": ".desk/jobs/20261020-0138-linkedin-instagram-portrait-feature/renders/roughs/rough-1"
+    },
+    {
+      "n": 2,
+      "pattern": "Full bleed with scrim",
+      "file": ".desk/out/20261020-0138-linkedin-instagram-portrait-feature/rough-2.html",
+      "fonts": "Source Serif 4 (brand family, inlined by runner, not a fallback)",
+      "written": true,
+      "renders": ".desk/jobs/20261020-0138-linkedin-instagram-portrait-feature/renders/roughs/rough-2"
+    },
+    {
+      "n": 3,
+      "pattern": "Type only",
+      "file": ".desk/out/20261020-0138-linkedin-instagram-portrait-feature/rough-3.html",
+      "fonts": "Source Serif 4, not a fallback (inlined by the runner)",
+      "written": true,
+      "renders": ".desk/jobs/20261020-0138-linkedin-instagram-portrait-feature/renders/roughs/rough-3"
+    }
+  ],
+  "lastRenders": ".desk/jobs/20261020-0138-linkedin-instagram-portrait-feature/renders/round-3",
+  "penNotes": [],
+  "finishedAt": "2026-10-20T01:44:29-05:00"
+}

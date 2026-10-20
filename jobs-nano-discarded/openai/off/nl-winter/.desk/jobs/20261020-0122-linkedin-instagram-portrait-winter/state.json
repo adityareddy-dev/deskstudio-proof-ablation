@@ -1,0 +1,102 @@
+{
+  "id": "20261020-0122-linkedin-instagram-portrait-winter",
+  "command": "design",
+  "deliverable": "social-card",
+  "sizes": [
+    "linkedin",
+    "ig-post"
+  ],
+  "quality": "studio",
+  "proofMode": "off",
+  "models": {
+    "director": "openai/large",
+    "senior": "openai/mini",
+    "builder": "openai/nano"
+  },
+  "phase": "roughs",
+  "round": 0,
+  "maxRounds": 6,
+  "desks": [
+    {
+      "desk": "design-manager",
+      "task": "intake",
+      "status": "done",
+      "model": "openai/large",
+      "startedAt": "2026-10-20T01:22:56-05:00",
+      "updatedAt": "2026-10-20T01:23:19-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "rough 1, editorial split",
+      "status": "working",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T01:23:20-05:00",
+      "updatedAt": "2026-10-20T01:23:20-05:00"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "rough 2, full bleed with scrim",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T01:23:20-05:00",
+      "updatedAt": "2026-10-20T01:23:56-05:00",
+      "via": "cli"
+    },
+    {
+      "desk": "ui-designer",
+      "task": "rough 3, type only",
+      "status": "done",
+      "model": "openai/mini",
+      "startedAt": "2026-10-20T01:23:20-05:00",
+      "updatedAt": "2026-10-20T01:23:59-05:00",
+      "via": "cli"
+    }
+  ],
+  "pick": null,
+  "proof": [],
+  "scores": [],
+  "waitingOn": null,
+  "cost": {
+    "director": 0.349,
+    "senior": 0.1315,
+    "builder": 0,
+    "total": 0.4805,
+    "complete": true
+  },
+  "tokens": {
+    "director": 32963,
+    "senior": 56628,
+    "builder": 0
+  },
+  "files": {
+    "final": ".desk/out/20261020-0122-linkedin-instagram-portrait-winter/final.html",
+    "brief": ".desk/jobs/20261020-0122-linkedin-instagram-portrait-winter/brief.md"
+  },
+  "pen": "builder",
+  "notes": [],
+  "misses": {},
+  "startedAt": "2026-10-20T01:22:56-05:00",
+  "updatedAt": "2026-10-20T01:23:59-05:00",
+  "roughs": [
+    {
+      "n": 1,
+      "pattern": "Editorial split",
+      "file": ".desk/out/20261020-0122-linkedin-instagram-portrait-winter/rough-1.html"
+    },
+    {
+      "n": 2,
+      "pattern": "Full bleed with scrim",
+      "file": ".desk/out/20261020-0122-linkedin-instagram-portrait-winter/rough-2.html",
+      "fonts": "Inter, inlined by runner",
+      "written": true
+    },
+    {
+      "n": 3,
+      "pattern": "Type only",
+      "file": ".desk/out/20261020-0122-linkedin-instagram-portrait-winter/rough-3.html",
+      "fonts": "Inter, runner-inlined; no fallback used",
+      "written": true
+    }
+  ]
+}
