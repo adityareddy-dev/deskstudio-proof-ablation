@@ -7,9 +7,10 @@ import { marked } from 'marked';
 const HERE = dirname(fileURLToPath(import.meta.url));
 const { launch } = await import(pathToFileURL('C:/Users/adity/Desktop/Adi/deskstudio/proof/browser.mjs').href);
 
-const md = readFileSync(join(HERE, 'paper.md'), 'utf8');
+const md = readFileSync(join(HERE, 'paper.md'), 'utf8').split(String.fromCharCode(13)).join('');
 const cites = JSON.parse(readFileSync(join(HERE, 'sections', 'citations-verified.json'), 'utf8'));
-const byKey = Object.fromEntries(cites.map((c) => [c.key, c]));
+const clean = JSON.parse(readFileSync(join(HERE, 'sections', 'references-clean.json'), 'utf8'));
+const byKey = Object.fromEntries(cites.map((c) => [c.key, { ...c, reference: clean[c.key] || c.reference }]));
 const order = [];
 const unknown = new Set();
 let body = md.replace(/<!--[\s\S]*?-->\n?/g, '');
